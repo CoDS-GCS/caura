@@ -808,6 +808,21 @@ class CauraMemoryProvider(BaseMemoryProvider):
         else:
             selected = raw_items[:effective_limit]
 
+        # instrumentation (no behaviour change): record the search queries and the
+        # retrieved memory ids / scores / snippets so run_lme.sh can build a
+        # per-question trace. Nothing downstream reads these keys.
+        self._retrieval_stats.value["queries"] = list(queries)
+        self._retrieval_stats.value["retrieved"] = [
+            {
+                "id": str(it.get("id", "")),
+                "score": it.get("score"),
+                "memory_type": it.get("memory_type"),
+                "title": it.get("title"),
+                "text": (it.get("content", "") or "")[:200],
+            }
+            for it in selected
+        ]
+
         results: list[RetrievedFact] = []
         for it in selected:
             meta = it.get("metadata") or {}
