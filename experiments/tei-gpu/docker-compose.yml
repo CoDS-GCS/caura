@@ -1,0 +1,50 @@
+# Separate GPU TEI sidecar for Caura's bge-m3 embedder (the published run used a
+# GPU TEI). This is its OWN compose project (name: caura-tei-gpu) and does not
+# belong to the caura stack or the loubna-mem0 stack. It shares the one H100 MIG
+# slice with Mem0's qwen-tei (which must keep running) — bge-m3 needs ~2 GB and
+# ~20 GB is free. It reuses caura_tei_cache so the weights are not re-downloaded,
+# and joins the existing caura_default network under the alias `tei-gpu`, which
+# core-api is pointed at via OPENAI_EMBEDDING_BASE_URL=http://tei-gpu:80/v1.
+name: caura-tei-gpu
+
+services:
+  tei-gpu:
+    image: ghcr.io/huggingface/text-embeddings-inference:hopper-1.8
+    container_name: caura-tei-gpu
+    command:
+      - --model-id
+      - BAAI/bge-m3
+      - --auto-truncate
+      - --port
+      - "80"
+    environment:
+      HUGGINGFACE_HUB_CACHE: /data
+    ports:
+      - "127.0.0.1:8100:80"
+    volumes:
+      - caura_tei_cache:/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all          # mirror Mem0's qwen-tei (--gpus all → the MIG slice)
+              capabilities: [gpu]
+    healthcheck:
+      test: ["CMD", "curl", "-fs", "http://localhost:80/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+    networks:
+      caura_default:
+        aliases: [tei-gpu]
+      default: {}
+
+networks:
+  caura_default:
+    external: true
+
+volumes:
+  caura_tei_cache:
+    external: true

@@ -129,3 +129,33 @@ output ≈595). Smoke memories deleted afterwards; store confirmed empty.
 > Transient note: during setup the Gemini key hit `503 high demand` and later a
 > `402 RESOURCE_EXHAUSTED` (prepayment credits depleted); after a top-up both
 > `gemini-3.8-flash` and `gemini-3.5-flash-lite` responded and the smoke passed.
+
+## 2026-11-25 — Server switched to authors' published settings (variant 1)
+
+The LongMemEval reproduction uses the **authors' published** server config
+(REPRODUCE.md), not `.env.example` defaults:
+
+- **Embedder:** `BAAI/bge-m3` (1024-dim) via HuggingFace TEI. Because the H100
+  MIG slice is already used by Mem0's `qwen-tei` (which must keep running), our
+  bge-m3 TEI runs as a **separate GPU container** sharing the slice: compose
+  project `caura-tei-gpu` (`experiments/tei-gpu/docker-compose.yml`), image
+  `text-embeddings-inference:hopper-1.8`, host port `127.0.0.1:8100`, joined to
+  `caura_default` as alias `tei-gpu`. `core-api` reaches it via
+  `OPENAI_EMBEDDING_BASE_URL=http://tei-gpu:80/v1`
+  (`OPENAI_EMBEDDING_SEND_DIMENSIONS=false`, `VECTOR_DIM=1024`). The CPU `tei`
+  container is stopped. nvidia-smi shows both embedders resident (~1.3 GB each,
+  ~18.8 GB free); Mem0 was never touched.
+- **Enrichment:** `ENTITY_EXTRACTION_PROVIDER=gemini`,
+  `ENTITY_EXTRACTION_MODEL=gemini-3.1-flash-lite` (published used the same model
+  via Vertex; we use the Gemini API key). `IS_STANDALONE=true`,
+  `CAURA_TELEMETRY=off`.
+- The store was wiped before switching (only `caura_pgdata` removed; Mem0
+  volumes untouched) because earlier memories were embedded with
+  text-embedding-3-small.
+
+**Variant 2 (planned later):** OpenAI hosted `text-embedding-3-small` embeddings
++ `gpt-5.4-nano` enrichment (the config from the earlier Part-1 smoke). Kept as a
+documented alternative to run after the published-settings reproduction; switch
+by unsetting the `OPENAI_EMBEDDING_BASE_URL`/`_MODEL`/`_SEND_DIMENSIONS` block and
+setting `ENTITY_EXTRACTION_PROVIDER=openai` / `ENTITY_EXTRACTION_MODEL=gpt-5.4-nano`,
+then wipe `caura_pgdata` and re-ingest.
