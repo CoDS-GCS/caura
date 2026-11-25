@@ -65,3 +65,6 @@ reports/
 # into commits by `git add -A` (twice during the 2026-08 embedding work).
 .coverage
 .coverage.*
+
+.env
+experiments/**/.env
