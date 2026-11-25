@@ -1,0 +1,32 @@
+# Committed on purpose: this only extends healthcheck start_period / retries,
+# which is harmless on fast machines (the grace window is never consumed there)
+# and lets the lab rerun this setup straight from the repo on the slow-disk VM.
+#
+# The db service in docker-compose.yml has no start_period on its healthcheck.
+# On a first `up` with an empty pgdata volume, Postgres runs its initdb
+# bootstrap, which brings a temporary server up and then shuts it down for
+# ~40s to finalize. On this host the Docker data dir lives on a slow disk
+# (/shared_mnt), where that shutdown checkpoint alone takes ~35s. Without a
+# start_period, pg_isready failures during that window exhaust the 5 retries,
+# Docker marks caura-db-1 unhealthy, and every service with
+# `depends_on: db: condition: service_healthy` aborts the up.
+#
+# start_period tells Docker not to count healthcheck failures against the
+# container until the startup window elapses — the same pattern every other
+# service in docker-compose.yml already uses (10–60s).
+services:
+  db:
+    healthcheck:
+      start_period: 90s
+      retries: 10
+
+  # core-storage-api runs the full Alembic migration chain on its first start
+  # (empty DB). On this slow disk that takes ~3 minutes — well past the stock
+  # 10s start_period — so Docker marks it unhealthy mid-migration and core-api
+  # (depends_on: core-storage-api: service_healthy) aborts the up. The service
+  # recovers on its own once migrations finish; the window just needs to cover
+  # first boot. After that the DB is already migrated and startup is fast, so
+  # this grace window is only ever consumed once.
+  core-storage-api:
+    healthcheck:
+      start_period: 300s

@@ -68,8 +68,10 @@ services:
 ```
 
 No volumes were removed — the data initialized and migrated correctly; the issue
-was purely healthcheck timing. The override is kept **local** (VM-specific, tied
-to this slow disk) and intentionally not committed.
+was purely healthcheck timing. The override is committed to the repo: it only
+widens healthcheck grace windows (a no-op on fast machines, since the window is
+never consumed there), so the lab can rerun this setup from a clean checkout on
+the slow-disk VM without reapplying the fix by hand.
 
 ### Verification
 ```
