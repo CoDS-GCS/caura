@@ -31,6 +31,7 @@ STAGE="${STAGE:-all}"
 AGENT_PREFIX="lmeo"
 MEM0_JUDGE="${MEM0_JUDGE:-0}"
 RESUME=0
+CHECK=0
 CAURA_BASE="${CAURA_BASE:-http://localhost:8000/api/v1}"
 API_KEY="${CAURA_API_KEY:-standalone}"
 TENANT="${CAURA_TENANT_ID:-default}"
@@ -43,6 +44,7 @@ while [[ $# -gt 0 ]]; do
     --run) RUN="$2"; shift 2;;
     --ids) IDS="$2"; shift 2;;
     --mem0-judge) MEM0_JUDGE=1; shift;;
+    --check) CHECK=1; shift;;
     --resume) RESUME=1; RUN="$2"; shift 2;;
     -h|--help) grep '^#' "$0" | sed 's/^# \{0,1\}//'; exit 0;;
     *) echo "unknown arg: $1" >&2; exit 2;;
@@ -163,15 +165,19 @@ prechecks() {
   env_pref="$(grep -E '^OPENAI_API_KEY=' "$REPO/.env"|head -1|cut -d= -f2-|cut -c1-6)"
   cont_pref="$(docker exec caura-core-api-1 sh -c 'printenv OPENAI_API_KEY'|cut -c1-6)"
   [[ -n "$env_pref" && "$env_pref" == "$cont_pref" ]] || die "core-api OpenAI key prefix ($cont_pref) != .env ($env_pref)"
-  # TEI dim check — LOCAL embedder, free (no paid model)
-  local dim; dim="$(docker exec caura-core-api-1 python - <<'PY'
-import urllib.request,json
-req=urllib.request.Request("http://tei-gpu:80/v1/embeddings",
-  data=json.dumps({"model":"BAAI/bge-m3","input":"precheck"}).encode(),headers={"Content-Type":"application/json"})
-print(len(json.load(urllib.request.urlopen(req,timeout=30))["data"][0]["embedding"]))
-PY
-)"
-  [[ "$dim" == 1024 ]] || die "TEI dim=$dim != 1024"
+  # TEI dim check — LOCAL embedder on the host GPU port 8100, free (no paid model).
+  # Uses TEI's native /embed (returns [[...1024...]]), parsed with host python3 —
+  # no `docker exec` (its stdin isn't forwarded without -i), no jq, no in-container DNS.
+  local tei_port="${TEI_GPU_PORT:-8100}" dim
+  dim="$(curl -s -X POST "http://127.0.0.1:${tei_port}/embed" \
+          -H 'Content-Type: application/json' -d '{"inputs":"precheck"}' \
+        | python3 -c "import json,sys
+try:
+    v=json.load(sys.stdin)
+    print(len(v[0]) if isinstance(v,list) and v and isinstance(v[0],list) else 0)
+except Exception:
+    print(0)")"
+  [[ "$dim" == 1024 ]] || die "TEI dim='$dim' != 1024 (GPU TEI at 127.0.0.1:${tei_port}/embed)"
   ( cd "$HARNESS" && uv run python - "$IDS" <<'PY'
 import sys,collections
 from longmemeval.dataset import LongMemEvalDataset, read_question_id_list
@@ -311,14 +317,20 @@ if [[ "$RESUME" == 1 ]]; then
   [[ -d "$OUT" ]] || die "--resume: $OUT does not exist"
   log "RESUMING $RUN (ingest_done=$(ckpt_get ingest_done), judged=$(ckpt_get judged))"
   [[ "$(ckpt_get ingest_done)" == True ]] && STAGE=answer || STAGE=all
-else
+elif [[ "$CHECK" == 0 ]]; then
   if [[ "$STAGE" == ingest || "$STAGE" == all ]]; then
     [[ -e "$OUT" ]] && die "run dir exists: $OUT (use --resume $RUN to continue)"
   fi
   [[ "$STAGE" == answer && ! -d "$OUT" ]] && die "answer stage: $OUT missing (run --stage ingest first)"
 fi
-mkdir -p "$OUT"; ckpt_init
+# Pre-checks run BEFORE the run dir is created, so a failed pre-check never
+# leaves a folder behind (next start won't refuse with "run dir exists").
 prechecks
+if [[ "$CHECK" == 1 ]]; then
+  log "pre-checks passed (--check: no run dir created, no ingestion, no paid calls)"
+  exit 0
+fi
+mkdir -p "$OUT"; ckpt_init
 write_manifest start
 [[ "$STAGE" == ingest || "$STAGE" == all ]] && do_ingest
 [[ "$STAGE" == answer  || "$STAGE" == all ]] && do_answer
