@@ -1,0 +1,455 @@
+{
+  "source_run": "caura-500-opaque-compact",
+  "judge": "gpt-4o",
+  "judge_model_resolved": "gpt-4o-2024-08-06",
+  "n": 60,
+  "accuracy": 0.85,
+  "by_type": {
+    "knowledge-update": {
+      "correct": 9,
+      "total": 10
+    },
+    "single-session-preference": {
+      "correct": 6,
+      "total": 10
+    },
+    "multi-session": {
+      "correct": 8,
+      "total": 10
+    },
+    "single-session-assistant": {
+      "correct": 9,
+      "total": 10
+    },
+    "single-session-user": {
+      "correct": 10,
+      "total": 10
+    },
+    "temporal-reasoning": {
+      "correct": 9,
+      "total": 10
+    }
+  },
+  "verdicts": {
+    "06db6396": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "5",
+      "hypothesis": "You have completed 5 projects since starting painting classes."
+    },
+    "07b6f563": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+      "hypothesis": "For your **iPhone 13 Pro**, here are some useful accessory suggestions that align with your needs and previous interests:\n\n1. **Replacement Screen Protector:** Since your current screen protector was cracked, getting a durable tempered glass screen protector is essential to keep your display safe.\n2. **Phone Wallet Case:** A high-quality wallet case\u2014such as an OtterBox wallet case (e.g., the OtterBox Strada Series)\u2014provides both robust drop protection and convenient slots for your essential cards and cash.\n3. **MagSafe / Wireless Charging Power Bank:** Even though you already own a reliable portable power bank from Best Buy, a wireless charging power bank (such as a MagSafe-compatible battery pack) would fulfill your interest in cable-free charging on the go, snapping directly onto the back of your iPhone 13 Pro.\n4. **MagSafe Car Mount or Desk Stand:** To complement MagSafe compatibility, a magnetic car mount or desktop wireless charging stand keeps your phone visible for navigation or FaceTime while keeping it charged without plugging in cables.\n5. **Camera Lens Protector:** Given the prominent triple-lens setup on the iPhone 13 Pro, dedicated tempered glass lens covers can protect against scratches and impacts without sacrificing photo quality."
+    },
+    "09d032c9": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+      "hypothesis": "Here are some effective tips to help improve and extend your phone's battery life:\n\n---\n\n### **1. Adjust Display & Screen Settings**\nThe screen is usually the biggest battery drain on any smartphone.\n* **Lower screen brightness** or turn on **Auto-Brightness** / Adaptive Brightness so it adjusts automatically.\n* **Reduce screen timeout** to 30 seconds or 1 minute so the screen doesn't stay on when not in use.\n* **Enable Dark Mode**, especially if your phone has an OLED/AMOLED screen, as black pixels turn off completely and save power.\n* **Lower refresh rate**: If your phone supports a 120Hz display, dropping it to standard 60Hz can significantly conserve battery.\n\n---\n\n### **2. Manage Background Apps & Refresh**\n* **Identify battery-draining apps**: Check your battery usage in **Settings > Battery** to see which apps are consuming the most power.\n* **Turn off Background App Refresh** (or restrict background activity) for apps that don't need real-time updating (e.g., social media, shopping apps).\n* **Close or uninstall apps you rarely use**, particularly those that constantly sync or send notifications.\n\n---\n\n### **3. Optimize Connectivity & Location Services**\n* **Turn off unused connections**: Disable **Bluetooth**, **Wi-Fi**, or **Hotspot** when you aren't using them.\n* **Prefer Wi-Fi over Cellular**: Browsing on Wi-Fi uses considerably less power than mobile data.\n* **Manage Location Services (GPS)**: Set location access to **\"While Using the App\"** instead of \"Always,\" and disable GPS access entirely for apps that don\u2019t need it.\n* **Use Airplane Mode in low-signal areas**: When cellular reception is weak, your phone boosts transmission power searching for a signal, draining the battery rapidly.\n\n---\n\n### **4. Adjust Notifications & Vibration**\n* **Turn off unnecessary push notifications**: Every notification wakes up the screen and processor.\n* **Disable haptic feedback (vibrations)** for typing and alerts, as the vibration motor uses noticeably more power than a simple audio chime or silent alert.\n\n---\n\n### **5. Leverage Power-Saving Modes**\n* Turn on **Low Power Mode** (iOS) or **Battery Saver** (Android) when your battery drops below 20\u201330%, or enable it during long days out. This automatically limits background sync, lowers screen brightness, and reduces system animations.\n\n---\n\n### **6. Check Battery Health & Charging Habits**\n* **Check Maximum Capacity**: \n  * On iPhone: Go to **Settings > Battery > Battery Health & Charging**.\n  * On Android: Look under **Settings > Battery** (or use a diagnostic tool). If battery health is below **80%**, the battery has degraded and you may want to consider getting it replaced.\n* **Avoid extreme temperatures**: Keep your phone out of direct sunlight or freezing conditions, as heat and cold accelerate battery degradation.\n* **Avoid letting it drop to 0% regularly**: Lithium-ion batteries last longest when kept roughly between 20% and 80%. Enable **Optimized Battery Charging** if available."
+    },
+    "0a34ad58": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+      "hypothesis": "Here are some helpful tips to ease your anxiety and make navigating Tokyo smooth and stress-free:\n\n* **Rely on your Suica card:** Since you have a Suica prepaid IC card, you won't need to stress about calculating fares or buying individual tickets at ticket vending machines. Simply tap it at the ticket gates for trains and subways across Tokyo.\n* **Tackle Shinjuku Station with patience:** Using Shinjuku as your base (staying at the Park Hyatt Tokyo) gives you direct access to major transit lines\u2014including your train connection from Narita Airport and routes to spots like the Tsukiji Fish Market and tour meeting points. Because Shinjuku Station is one of the busiest hubs in the world, take your time and follow the clear, color-coded overhead signage directing you to specific lines and exits.\n* **Keep plans centralized with your apps:** Use your **TripIt** app to keep all your travel details, timings, and reservations neatly organized in one spot so you always know where you need to be next, helping you stay calm and focused while getting around."
+    },
+    "0a995998": {
+      "question_type": "multi-session",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "3",
+      "hypothesis": "Based on your mentions, there is **1 item** to pick up or return from a retail store, or **2 items** in total if including dry cleaning:\n\n1. **Pair of boots from Zara:** 1 item to return (the original pair purchased on February 5, 2023, that was too small) and pick up (the new replacement pair).\n2. **Navy blue blazer:** 1 item to pick up from the dry cleaner (worn to a meeting a few weeks prior). Because this is at a dry cleaner rather than a retail store, it is not strictly a store pickup, but it is an item of clothing awaiting pickup.\n\nTherefore, you have **1 item** from a retail store (the Zara boots), or **2 items** in total across all clothing pickups and returns."
+    },
+    "0e5e2d1a": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "38 subjects",
+      "hypothesis": "There were 38 subjects in the study published in the journal *Music and Medicine*."
+    },
+    "0ea62687": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "2",
+      "hypothesis": "A few months ago, your car was getting 30 miles per gallon, while it is currently getting 28 miles per gallon. This means your car was getting 2 miles per gallon more a few months ago compared to now."
+    },
+    "0f05491a": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "120",
+      "hypothesis": "You need 120 stars to reach the Gold level on your Starbucks Rewards app, which is the latest corrected number you provided (following an earlier stated figure of 125 stars)."
+    },
+    "10d9b85a": {
+      "question_type": "multi-session",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "3 days",
+      "hypothesis": "Based on the chat history, you spent 1 day attending such events in April. Specifically, you attended a lecture on sustainable development at the public library on April 10th."
+    },
+    "15745da0_abs": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+      "hypothesis": "There is no record in our conversation of you collecting vintage films or how long you have been doing so. You have instead mentioned that you are a film buff and that you have been collecting vintage cameras for three months."
+    },
+    "184da446": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "220",
+      "hypothesis": "You have read up to page 220 of 'A Short History of Nearly Everything'."
+    },
+    "18bc8abd": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Kansas City Masterpiece",
+      "hypothesis": "The brand of BBQ sauce you are currently obsessed with is Kansas City Masterpiece."
+    },
+    "195a1a1b": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+      "hypothesis": "Based on your preference to wind down by 9:30 pm to prepare for a good night's sleep, here are some relaxing evening activities tailored to your interests:\n\n* **Guided Meditation or Imagery:** Practice visualization exercises or sessions that calm the mind and reduce stress before bed, such as Headspace\u2019s \"Sleep\" meditation or Insight Timer\u2019s \"Body Scan.\"\n* **Gentle Yoga or Stretching:** Do light stretching or gentle yoga postures to help release physical tension and promote relaxation, building on your recent 8-week yoga practice.\n* **Relaxation Exercises:** Practice deep breathing or progressive muscle relaxation to settle your body and nervous system.\n* **Journaling and Reflection:** Spend a few quiet moments journaling your thoughts or reflecting on your day.\n* **Quiet Reading:** Read a non-stimulating book while relaxing without bright screens or devices.\n* **Soothing Sounds:** Listen to calming music or nature sounds as part of a screen-free device detox in the lead-up to 9:30 pm."
+    },
+    "1c0ddc50": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": false,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+      "hypothesis": "Based on your ~40-minute commute (whether taking the bus or riding your hybrid bike) and your goal to step away from passive habits like scrolling social media or checking emails, here are several engaging, productive, and relaxing activities tailored to your interests:\n\n### 1. Dive into Podcasts\nSince you already enjoy podcasts during your commute, your 40-minute window is ideal for full episodes or segments across your favorite genres:\n* **Entrepreneurship & Self-Improvement:** Continue with shows like *How I Built This* or personal development programs.\n* **True Crime:** Catch up on investigative storytelling.\n* **History & Science:** Branch out into shows you've been interested in, such as *Hardcore History*, *Lore*, *The Dollop*, *StarTalk Radio*, or *Radiolab*.\n\n### 2. Audiobooks\n* A hands-free option that works well whether you are sitting on the bus or biking. You can explore non-fiction, biographies of entrepreneurs, or deep dives into science and history.\n\n### 3. Language Learning\n* Use a language learning app or audio-based lessons to build a new skill in manageable, daily 40-minute increments.\n\n### 4. Mental Preparation and Day Planning\n* Take 10\u201315 minutes on the bus to mentally outline your day, prioritize tasks, or reflect before arriving at work, replacing reactive email checks with intentional focus.\n\n### 5. News and Industry Updates\n* Listen to curated daily news podcasts or industry briefings to stay informed on current trends without getting trapped in social media feeds.\n\n### 6. Relaxation and Resetting\n* If you want to decompress, listen to curated music playlists or calming nature sounds to arrive at work or back home feeling refreshed."
+    },
+    "1da05512": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+      "hypothesis": "Based on your current situation, it is advisable to **buy a NAS device now** rather than wait, for the following reasons:\n\n* **Immediate Storage Relief:** You are currently experiencing storage capacity issues on your home network, so waiting will only prolong these constraints.\n* **Upgrading from an External Hard Drive:** While you currently rely on backing up files to an external hard drive, this does not provide the automated, networked setup you need.\n* **Centralized Backup Across Devices:** Purchasing a NAS now fulfills your goal of having a centralized backup solution for multiple devices, specifically your laptop and phone.\n* **Meeting Security Concerns:** A NAS device will address your strong concerns regarding data security by providing the encryption and access control features you require.\n\nSince you have already evaluated your storage and redundancy needs (including looking into 2-bay versus 4-bay setups), moving forward with a purchase now will resolve your ongoing capacity problems while securing your data in a centralized hub."
+    },
+    "2133c1b5_abs": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+      "hypothesis": "The chat history does not mention you living in an apartment in Shinjuku. Instead, your mentioned apartment is located in Harajuku, which you moved into around March."
+    },
+    "21436231": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "12",
+      "hypothesis": "You caught 12 largemouth bass on your fishing trip to Lake Michigan."
+    },
+    "2ce6a0f2": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": false,
+      "gold_answer": "4",
+      "hypothesis": "In the past month, you attended either 3 or 4 art-related events, depending on whether the guided tour at the History Museum is counted:\n\n1. **February 10, 2023**: You attended the 'Women in Art' exhibition featuring local artist Rachel Lee.\n2. **February 17, 2023**: You volunteered at the Children's Museum for their 'Art Afternoon' event, where children created artwork inspired by famous paintings.\n3. **February 24, 2023**: You went on a guided tour at the History Museum, which included visiting the ancient pottery section and sparked your interest in ancient art.\n4. **March 3, 2023**: You attended a lecture at the Art Gallery titled 'The Evolution of Street Art'."
+    },
+    "32260d93": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+      "hypothesis": "Based on your interests, here are tailored recommendations depending on what you are in the mood for tonight:\n\n* **Stand-Up Comedy (Storytelling):** \n  * ***Mike Birbiglia: My Girlfriend's Boyfriend*** or ***Hasan Minhaj: Homecoming King*** \u2013 Both feature the kind of masterclass narrative storytelling and tight thematic arcs you appreciate as an aspiring comedian, similar to John Mulaney\u2019s *Kid Gorgeous*.\n  * ***Hannah Gadsby: Nanette*** or ***Taylor Tomlinson: Quarter-Life Crisis*** \u2013 Excellent options if you want sharp, deeply personal storytelling.\n\n* **Ancient Egyptian History & Mysteries:**\n  * ***The Great Pyramid: The Last Secret*** or ***The Sphinx: Secrets of the Great Pyramid*** \u2013 Perfect for diving into the architecture, mysteries, and history of the Great Pyramid and the Sphinx.\n  * ***Ancient Egypt: Life and Death in the Valley of the Kings*** or ***The Pyramid Code*** \u2013 Engaging documentary options focusing on ancient Egyptian life, culture, and archaeological theories.\n\n* **True Crime:**\n  * Given your love for true crime podcasts like *Crime Junkie*, you could also opt for an episodic true crime docuseries or documentary featuring deep investigative storytelling."
+    },
+    "3249768e": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Absinthe",
+      "hypothesis": "The fifth recommended bottle was Absinthe."
+    },
+    "35a27287": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": false,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+      "hypothesis": "Candidate 1: To give you specific event recommendations, could you share your current city or location? \n\nIn the meantime, based on your interests, here are types of cultural events you might look out for this weekend:\n\n* **Local Theater Productions:** Check the schedule of your city\u2019s renowned theater companies or local playhouses for classic plays, drama programs, or new stage productions.\n* **Multicultural and Diversity Festivals:** Look for community festivals celebrating cultural exchange, global traditions, and music\u2014especially those highlighting diverse cultures such as Latin American, South Asian, or African heritage.\n* **Language Exchange Meetups:** Seek out informal conversation circles, cafe meetups, or community center gatherings focused on practicing Spanish and French.\n* **International Culinary and Arts Workshops:** Keep an eye out for global food festivals, cooking masterclasses (such as traditional regional cuisines), or international art and music showcases. \n\nOnce you let me know your specific location, I can help you find exact events happening in your area!"
+    },
+    "36580ce8": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "bronchitis",
+      "hypothesis": "The health issue you initially thought was just a cold was bronchitis."
+    },
+    "3d86fd0a": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "a coffee shop in the city",
+      "hypothesis": "You met Sophia at a coffee shop in the city."
+    },
+    "4c36ccef": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Roscioli",
+      "hypothesis": "The romantic Italian restaurant in Rome recommended for dinner is Roscioli."
+    },
+    "4dfccbf8": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "I started taking ukulele lessons with Rachel.",
+      "hypothesis": "On Wednesday, February 1, 2023 (two months ago), you started taking ukulele lessons with Rachel."
+    },
+    "50635ada": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Premier Silver",
+      "hypothesis": "Your current frequent flyer status on United Airlines is Premier Gold, and your previous status before reaching Premier Gold was Premier Silver."
+    },
+    "58470ed2": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "According to Borges, 'The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.'",
+      "hypothesis": "According to Borges, the Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible."
+    },
+    "5a4f22c0": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "TechCorp",
+      "hypothesis": "Rachel is currently working at TechCorp."
+    },
+    "618f13b2": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "six",
+      "hypothesis": "Based on your chat history, there is a discrepancy in your statements: earlier on May 30, 2023 (17:45 UTC), you mentioned that you had worn your new black Converse sneakers six times, but later that same day (22:16 UTC), you stated you had worn your new black Converse Chuck Taylor All Star sneakers four times. According to your latest statement, you have worn them four times."
+    },
+    "6cb6f249": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "17 days",
+      "hypothesis": "You took a total of 17 days of social media breaks, which includes a week-long (7 days) break in mid-January and a 10-day break in mid-February."
+    },
+    "71017277": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "my aunt",
+      "hypothesis": "Based on your chat history from last Saturday (March 4, 2023), you did not mention receiving a piece of jewelry. \n\nHowever, you did mention receiving a **stunning crystal chandelier** from your **aunt** (which originally belonged to your great-grandmother). \n\nLater that same day, you also mentioned having some wire-wrapped jewelry-making tools for a coaster project and discussed traditional Indian wedding jewelry, but you did not state that you received any jewelry as a gift."
+    },
+    "71a3fd6b": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "+49 (0) 62 32 / 14 23 - 0",
+      "hypothesis": "The phone number provided earlier for the Speyer tourism board is +49 (0) 62 32 / 14 23 - 0."
+    },
+    "726462e0": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "10%",
+      "hypothesis": "You received a 10% discount on your first purchase from the new clothing brand."
+    },
+    "7405e8b1": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": false,
+      "gold_answer": "Yes.",
+      "hypothesis": "It cannot be determined whether you received a higher percentage discount on your first HelloFresh order compared to your first UberEats order, as you did not mention this information in the chat history.\n\nWhile you noted that you received a 40% discount on your first HelloFresh order, the chat history does not specify the percentage discount you received on your first UberEats order (it only mentions that you received a 20% discount on an UberEats order from the previous week)."
+    },
+    "75499fd8": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Golden Retriever",
+      "hypothesis": "Your dog is a Golden Retriever."
+    },
+    "778164c6": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": false,
+      "flashlite_correct": false,
+      "gold_answer": "Grilled Snapper with Mango Salsa",
+      "hypothesis": "No Jamaican snapper dish containing fruit was recommended in the previous conversation.\n\nTo clarify the details from our prior discussion:\n- **Escovitch Fish** was the recommended Jamaican snapper dish, which is prepared with pickled vegetables rather than fruit.\n- **Grilled Snapper with Mango Salsa** was mentioned as a Caribbean dish made with snapper and fruit, but it was not identified specifically as Jamaican.\n- **Ackee and Saltfish** was recommended as a Jamaican dish featuring fruit (the ackee tree fruit), but it is made with salted codfish rather than snapper."
+    },
+    "77eafa52": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "$300",
+      "hypothesis": "The initial quote for your trip was $2,500, and the corrected price was $2,800. Therefore, you had to pay $300 more after the initial quote."
+    },
+    "81507db6": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "3",
+      "hypothesis": "You have attended **2** (or **3**, depending on whether a workplace program graduation is included) graduation ceremonies in the past three months:\n\n1. **Cousin Emma's preschool graduation ceremony** (attended about two months ago).\n2. **Best friend Rachel's master's degree graduation ceremony** (attended a couple of weeks ago).\n3. **Colleague Alex's leadership development program graduation** at work (attended a few weeks ago).\n\nAdditionally, you missed your nephew Jack's eighth grade graduation ceremony last month."
+    },
+    "94f70d80": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "4 hours",
+      "hypothesis": "It took you 4 hours to assemble the IKEA bookshelf."
+    },
+    "982b5123": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": false,
+      "gold_answer": "Five months ago",
+      "hypothesis": "You booked the Airbnb in San Francisco 5 months ago (you took the trip 2 months ago and booked the accommodation 3 months in advance)."
+    },
+    "a1eacc2a": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "seven",
+      "hypothesis": "You have completed 7 short stories since you started writing regularly (as stated on May 30, 2023), with an additional story currently in progress as of mid-June 2023."
+    },
+    "a3045048": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "You ordered the gift on April 15, and your best friend's birthday party was on April 22. Therefore, you ordered her gift 7 days before the birthday party."
+    },
+    "a40e080f": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Patagonia and Southwest Airlines.",
+      "hypothesis": "The two companies previously mentioned that prioritize employee safety and well-being like Triumvirate are Patagonia and Southwest Airlines."
+    },
+    "ad7109d1": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "500 Mbps",
+      "hypothesis": "Your new internet plan speed is 500 Mbps."
+    },
+    "b0479f84": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+      "hypothesis": "Based on your interest in nature and wildlife, adventure/exploration, and true crime\u2014and keeping in mind that you've already watched *Our Planet*, *Free Solo*, and *Tiger King*, as well as previously looking into *Dynasties*, *Chasing Coral*, and *Planet Earth*\u2014here are several recommendations tailored to your tastes:\n\n### Nature & Wildlife\n* **Blue Planet**: A stunning look into marine life and underwater ecosystems, perfectly suited to an interest in nature photography and marine conservation.\n* **March of the Penguins**: An intimate, visually rich exploration of the Emperor penguins' annual journey across Antarctica.\n*(Note: If you haven't watched them yet, **Dynasties** and **Chasing Coral** also remain top picks aligned with your interest in wildlife and conservation.)*\n\n### Adventure & Exploration\n* **The Cave**: A gripping exploration and survival documentary that captures high-stakes tension and natural environments.\n* **The Last Lions**: A dramatic look at wildlife survival, territory, and conservation in the African wilderness.\n\n### True Crime\n* **The Keepers**: A compelling investigative docuseries exploring an unsolved murder and systemic cover-ups.\n* **The Staircase**: An in-depth, classic docuseries following a high-profile murder trial.\n* **The Jinx**: A masterfully crafted true crime series centered on Robert Durst and a sequence of mysterious disappearances."
+    },
+    "bc8a6e93_abs": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+      "hypothesis": "The chat history does not mention you baking anything for your uncle's birthday party; however, you did mention that you recently baked a lemon blueberry cake for your niece's birthday party."
+    },
+    "c960da58": {
+      "question_type": "single-session-user",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "20",
+      "hypothesis": "You have 20 playlists on Spotify."
+    },
+    "caf03d32": {
+      "question_type": "single-session-preference",
+      "gpt4o_correct": false,
+      "flashlite_correct": true,
+      "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+      "hypothesis": "Here are practical tips to help you get better results with your slow cooker recipes, tailored to your cooking experience and goals:\n\n1. **Adjust Liquids for Plant-Based Dishes:** \n   Since you have been focusing on eating more plant-based and vegetarian/vegan meals, keep in mind that vegetables release a significant amount of water as they cook. Unlike meat dishes like the beef stew you made, plant-based stews and curries need much less added liquid because the slow cooker traps steam and prevents evaporation.\n\n2. **Layer and Stagger Ingredients:** \n   Hearty root vegetables (such as potatoes and carrots) and dried legumes cook slowly and should be placed at the bottom where heat is most direct. More delicate vegetables (like spinach, bell peppers, or peas) should be added during the last 20\u201330 minutes to prevent them from becoming mushy or losing their texture.\n\n3. **Pre-Cook Aromatics and Spices:** \n   Much like searing beef brings out deeper flavors in a stew, taking a few minutes to saut\u00e9 onions, garlic, and whole spices before adding them to the cooker significantly elevates the flavor profile of vegetarian dishes. \n\n4. **Add Finishing Acid and Fresh Herbs:** \n   Long cooking times can mute bright flavors. Finish your plant-based dishes with a squeeze of fresh lemon or lime juice, a splash of vinegar, or chopped fresh herbs right before serving.\n\n5. **Temperature Management for Making Yogurt:** \n   When using the slow cooker for delicate projects like plant-based or cashew-based yogurt, temperature control is essential. Ensure the mixture cools to the appropriate incubation temperature before introducing active cultures, and use the \"warm\" setting or insulate the cooker with a towel after turning it off to maintain steady warmth without overheating."
+    },
+    "ceb54acb": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+      "hypothesis": "The other four options suggested were Sexual fixations, Problematic sexual behaviors, Sexual impulsivity, and Compulsive sexuality."
+    },
+    "dfde3500": {
+      "question_type": "knowledge-update",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Wednesday",
+      "hypothesis": "You met with your tutor Juan on Wednesday evenings."
+    },
+    "e48988bc": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Patagonia",
+      "hypothesis": "The company previously mentioned for doing a great job with sustainability in its supply chain is Patagonia."
+    },
+    "e982271f": {
+      "question_type": "single-session-assistant",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "Revolution Hall",
+      "hypothesis": "The last venue recommended in the list of popular indie music venues in Portland was Revolution Hall."
+    },
+    "edced276_abs": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+      "hypothesis": "You spent 10 days on a family trip to Hawaii. However, there is no mention of traveling to or spending time in Seattle, so a total number of days spent traveling across both destinations cannot be determined."
+    },
+    "gpt4_1d4ab0c9": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "24 days. 25 days (including the last day) is also acceptable.",
+      "hypothesis": "You started watering your herb garden on March 22, 2023, and harvested your first batch of fresh herbs on April 15, 2023. Exactly 24 days passed between the two dates."
+    },
+    "gpt4_2c50253f": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "6:45 AM",
+      "hypothesis": "On Tuesdays and Thursdays, you wake up at 6:45 AM, which is 15 minutes earlier than your regular 7:00 AM wake-up time (or 8:15 AM if calculated from your former 8:30 AM routine)."
+    },
+    "gpt4_2d58bcd6": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "'The Hate U Give'",
+      "hypothesis": "You finished reading **'The Hate U Give'** first.\n\nBased on your chats, you finished 'The Hate U Give' roughly two weeks ago (a few days before a book club meeting held two weeks prior), whereas you finished 'The Nightingale' more recently, last weekend."
+    },
+    "gpt4_59149c77": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "7 days passed between the two visits. You visited the Museum of Modern Art (MoMA) on January 8, 2023, and attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art on January 15, 2023."
+    },
+    "gpt4_7ddcf75f": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+      "hypothesis": "You went on the whitewater rafting trip in the Oregon mountains 3 days ago (on June 17, 2023)."
+    },
+    "gpt4_85da3956": {
+      "question_type": "temporal-reasoning",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "3 weeks ago",
+      "hypothesis": "You attended the 'Summer Nights' festival on or just before July 15, 2023. Based on the current date of August 5, 2023, that was 21 days ago, meaning you attended it 3 weeks ago."
+    },
+    "gpt4_d12ceb0e": {
+      "question_type": "multi-session",
+      "gpt4o_correct": true,
+      "flashlite_correct": true,
+      "gold_answer": "59.6",
+      "hypothesis": "The average age of you, your parents, and your grandparents is 59.6 years (based on your age of 32, your mother's age of 55, your father's age of 58, your grandmother's age of 75, and your grandfather's age of 78)."
+    }
+  }
+}
