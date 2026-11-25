@@ -226,6 +226,32 @@ do_ingest() {
       --chunk-mode turns --agent-prefix "$AGENT_PREFIX" \
       --bulk-size 100 --concurrency 5 --question-ids "$IDS"
 
+  # The bulk pass exits 0 even if some questions failed (429 rate-limit or
+  # other) — they are simply absent from ingested.txt. Retry each such question
+  # up to 5 times with exponential backoff. `ingest --question-id` resets
+  # (DELETES) that question's partial memories before re-ingesting from scratch,
+  # so a question is never left half-ingested and never silently skipped. If one
+  # still fails after 5 tries, stop the whole run with a clear error.
+  local qid n backoff ok; local -a missing
+  mapfile -t missing < <(comm -23 <(ids_list | sort -u) <(ingested_ids))
+  if (( ${#missing[@]} )); then
+    log "bulk pass left ${#missing[@]} question(s) unfinished; retrying each (<=5x, reset before each): ${missing[*]}"
+  fi
+  for qid in "${missing[@]}"; do
+    [[ -z "$qid" ]] && continue
+    ok=0; backoff=5
+    for n in 1 2 3 4 5; do
+      log "ingest retry $qid (attempt $n/5; deletes its memories, then re-ingests)"
+      ( cd "$HARNESS" && uv run longmemeval ingest --name "$RUN" --provider caura \
+          --chunk-mode turns --agent-prefix "$AGENT_PREFIX" --bulk-size 100 \
+          --concurrency 1 --question-id "$qid" ) 2>&1 | tee -a "$OUT/ingest.log"
+      if ingested_ids | grep -qxF "$qid"; then ok=1; break; fi
+      log "  $qid attempt $n/5 did not complete; backing off ${backoff}s"
+      sleep "$backoff"; backoff=$((backoff*2))
+    done
+    (( ok )) || die "question $qid failed to ingest after 5 retries — stopping run (see $OUT/ingest.log)"
+  done
+
   # Enrichment is server-side + async (embeddings are local TEI, which cannot
   # exhaust credit). Drain it, pausing on a Gemini 402 in the core-api log, and
   # re-ingest any question left un-enriched so none is half-done.

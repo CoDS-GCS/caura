@@ -159,3 +159,27 @@ documented alternative to run after the published-settings reproduction; switch
 by unsetting the `OPENAI_EMBEDDING_BASE_URL`/`_MODEL`/`_SEND_DIMENSIONS` block and
 setting `ENTITY_EXTRACTION_PROVIDER=openai` / `ENTITY_EXTRACTION_MODEL=gpt-5.4-nano`,
 then wipe `caura_pgdata` and re-ingest.
+
+## 2026-11-25 — Raised bulk-write rate limit (speed-only)
+
+Ingestion at `--concurrency 5` hit Caura's bulk-write rate limit:
+`#ad7109d1 failed: Caura bulk write failed [429]: Rate limit exceeded: 2 per 1
+second`. The cap is a config value, `core_api.config.rate_limit_write_bulk`
+(default **`2/second`** per credential, env `RATE_LIMIT_WRITE_BULK`; tenant cap
+`rate_limit_write_bulk_tenant` default `10/second`, env
+`RATE_LIMIT_WRITE_BULK_TENANT`). Each bulk call fans out to 100 memories, so the
+default throttles 5 concurrent writers.
+
+In standalone single-user mode this is pure admission throttling, so raised it in
+`.env` (restart core-api only):
+
+```ini
+RATE_LIMIT_WRITE_BULK=50/second
+RATE_LIMIT_WRITE_BULK_TENANT=100/second
+```
+
+**Speed-only — no effect on what is stored or on results.** It only lets the
+published `--concurrency 5` ingest proceed without 429s. Also recorded in each
+run's `manifest.json` under `server_tuning`. `run_lme.sh` additionally retries
+any still-unfinished question (429 or other) up to 5× — resetting its memories
+before each attempt — and stops the run if one cannot complete.

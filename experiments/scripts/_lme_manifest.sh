@@ -59,6 +59,13 @@ if os.environ["PHASE"]=="start" and not m.get("started_utc"):
                          "reached by core-api as http://tei-gpu:80/v1",
       "enrichment_tokens_method":"derived from measured rate (2943 in / 142 out per memory); server image is "
                                  "baked (no per-call token logging available without a rebuild)",
+      "server_tuning":{
+        "rate_limit_write_bulk":env(REPO+"/.env","RATE_LIMIT_WRITE_BULK"),
+        "rate_limit_write_bulk_tenant":env(REPO+"/.env","RATE_LIMIT_WRITE_BULK_TENANT"),
+        "note":"raised from the 2/second default (core_api rate_limit_write_bulk) so 5 concurrent "
+               "/memories/bulk writes pass at ingest concurrency 5; admission throttling only — "
+               "no effect on stored memories or results",
+      },
       "deviations_from_published":[
         "Embedder served on a GPU MIG slice SHARED with Mem0's running qwen-tei (published: dedicated GPU TEI). Same model/vectors.",
         "Enrichment via the Gemini API key (gemini-3.1-flash-lite) not the published Vertex endpoint; same model.",
