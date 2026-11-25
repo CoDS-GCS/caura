@@ -1,306 +1,326 @@
 #!/usr/bin/env bash
 #
-# run_lme.sh — reproduce Caura's published LongMemEval_S headline configuration
-# on the fixed 60-question Mem0 subset. Run it yourself in tmux; it does NOT
-# start on its own and refuses to clobber an existing run directory.
+# run_lme.sh — reproduce Caura's published LongMemEval_S headline config on the
+# fixed 60-question Mem0 subset, with pause/resume on credit exhaustion and full
+# result collection. Run it yourself in tmux; it never starts on its own.
 #
-#   experiments/scripts/run_lme.sh [--stage ingest|answer|all]
-#                                  [--run NAME] [--ids FILE] [--mem0-judge]
+#   experiments/scripts/run_lme.sh [--stage ingest|answer|all] [--run NAME]
+#                                  [--ids FILE] [--mem0-judge]
+#   experiments/scripts/run_lme.sh --resume NAME        # continue after a crash/pause
 #
-# Stages:
-#   ingest  pre-checks + manifest + ingest (published flags) + pg_dump
-#   answer  pre-checks + run (published flags) + judges + collect outputs/logs
-#   all     ingest then answer (default)
+# Robustness:
+#   * On Gemini 402 RESOURCE_EXHAUSTED or OpenAI insufficient_quota, it stops
+#     sending, writes $OUT/PAUSED + logs $OUT/pauses.log, then probes the failed
+#     model with one tiny request every 15 min for up to 12 h and resumes
+#     automatically. After 12 h it exits cleanly.
+#   * The harness resumes both phases from disk (ingested.txt / hypotheses.jsonl),
+#     so a killed/paused step never redoes finished questions and never leaves a
+#     half-ingested or half-answered question (unfinished ones are reset+redone).
+#   * No early-kill timeouts (60-question ingest ~5 h on the shared GPU).
 #
-# Server must already be on the published embedder (bge-m3 via the GPU TEI
-# sidecar caura-tei-gpu) and Gemini enrichment (gemini-3.1-flash-lite). See
-# experiments/SETUP_NOTES.md. Ingesting the 60 questions takes ~5h on the shared
-# GPU slice, so this script sets NO timeouts that could kill it early.
-set -euo pipefail
+# NOTE: the setup is final and the 2-question test passed, so the pre-checks here
+# deliberately call NO paid models (only the local TEI embedder, which is free).
+set -uo pipefail       # not -e: we handle failures explicitly for pause/resume
 
-# ---- config (env-overridable) ------------------------------------------------
 REPO="$(git -C "$(dirname "${BASH_SOURCE[0]}")" rev-parse --show-toplevel)"
 HARNESS="$REPO/experiments/harness/longmemeval"
+SCRIPTS="$REPO/experiments/scripts"
 RUN="${RUN:-lme_caura_default_60q}"
 IDS="${IDS:-$REPO/experiments/configs/lme_subset60_from_mem0.txt}"
 STAGE="${STAGE:-all}"
 AGENT_PREFIX="lmeo"
-MEM0_JUDGE="${MEM0_JUDGE:-0}"           # 1 = also judge with Mem0's gpt-5 + prompt
+MEM0_JUDGE="${MEM0_JUDGE:-0}"
+RESUME=0
 CAURA_BASE="${CAURA_BASE:-http://localhost:8000/api/v1}"
 API_KEY="${CAURA_API_KEY:-standalone}"
 TENANT="${CAURA_TENANT_ID:-default}"
-EXPECT_EMBED_DIM=1024
+POLL_SECS="${POLL_SECS:-900}"      # 15 min
+MAX_POLLS="${MAX_POLLS:-48}"       # 48 x 15 min = 12 h
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --stage) STAGE="$2"; shift 2;;
-    --run)   RUN="$2"; shift 2;;
-    --ids)   IDS="$2"; shift 2;;
+    --run) RUN="$2"; shift 2;;
+    --ids) IDS="$2"; shift 2;;
     --mem0-judge) MEM0_JUDGE=1; shift;;
+    --resume) RESUME=1; RUN="$2"; shift 2;;
     -h|--help) grep '^#' "$0" | sed 's/^# \{0,1\}//'; exit 0;;
     *) echo "unknown arg: $1" >&2; exit 2;;
   esac
 done
-case "$STAGE" in ingest|answer|all) ;; *) echo "bad --stage: $STAGE" >&2; exit 2;; esac
-
 OUT="$REPO/experiments/runs/$RUN"
-mkdir -p "$(dirname "$OUT")"
-export PYTHONUNBUFFERED=1               # stream per-question progress to the logs
+export PYTHONUNBUFFERED=1
 
-log() { echo "[$(date -Is)] $*"; }
-die() { echo "[$(date -Is)] FATAL: $*" >&2; exit 1; }
+log()  { echo "[$(date -Is)] $*"; }
+die()  { echo "[$(date -Is)] FATAL: $*" >&2; exit 1; }
+psqlc(){ docker exec caura-db-1 psql -U caura -d caura -tA "$@"; }
 
-curlc() { curl -s -o /dev/null -w '%{http_code}' "$@"; }
+# ---------------------------------------------------------------- checkpoint
+ckpt() { echo "$OUT/checkpoint.json"; }
+ckpt_init() { [[ -f "$(ckpt)" ]] || echo "{\"run\":\"$RUN\",\"ids\":\"$IDS\",\"ingest_done\":false,\"judged\":false,\"finished\":false}" > "$(ckpt)"; }
+ckpt_set() { # key (json value)
+  python3 - "$(ckpt)" "$1" "$2" <<'PY'
+import json,sys
+p,k,v=sys.argv[1],sys.argv[2],sys.argv[3]
+d=json.load(open(p));
+try: v=json.loads(v)
+except Exception: pass
+d[k]=v; json.dump(d,open(p,"w"),indent=2)
+PY
+}
+ckpt_get() { python3 -c "import json;print(json.load(open('$(ckpt)')).get('$1'))" 2>/dev/null || echo None; }
 
-# ---- pre-checks --------------------------------------------------------------
+ids_list() { grep -vE '^\s*#|^\s*$' "$IDS"; }
+answered_ids() { [[ -f "$HARNESS/outputs/$RUN/hypotheses.jsonl" ]] && python3 -c "import json,sys;[print(json.loads(l)['question_id']) for l in open('$HARNESS/outputs/$RUN/hypotheses.jsonl') if l.strip()]" | sort -u || true; }
+ingested_ids() { [[ -f "$HARNESS/outputs/$RUN/ingested.txt" ]] && sort -u "$HARNESS/outputs/$RUN/ingested.txt" || true; }
+
+# ---------------------------------------------------------------- credit pause/resume
+probe_model() { # provider model  -> rc 0 if the model answers a tiny request
+  local prov="$1" model="$2"
+  if [[ "$prov" == openai ]]; then
+    local code
+    code=$(curl -s -o /dev/null -w '%{http_code}' https://api.openai.com/v1/chat/completions \
+      -H "Authorization: Bearer $(grep -E '^OPENAI_API_KEY=' "$REPO/.env"|head -1|cut -d= -f2-)" \
+      -H 'Content-Type: application/json' \
+      -d "{\"model\":\"$model\",\"messages\":[{\"role\":\"user\",\"content\":\"ok\"}],\"max_completion_tokens\":1}")
+    [[ "$code" == 200 ]]
+  else
+    ( cd "$HARNESS" && uv run python - "$model" <<'PY'
+import os,sys
+from google import genai
+from google.genai import types
+try:
+    c=genai.Client(api_key=os.environ["GEMINI_API_KEY"])
+    c.models.generate_content(model=sys.argv[1],contents="ok",
+        config=types.GenerateContentConfig(max_output_tokens=1,temperature=0.0))
+    sys.exit(0)
+except Exception as e:
+    sys.exit(1 if ("402" in str(e) or "RESOURCE_EXHAUSTED" in str(e)) else 0)  # non-credit error: treat as "up"
+PY
+    ) >/dev/null 2>&1
+  fi
+}
+
+wait_for_credit() { # provider model reason_phase  -> rc 0 restored, 3 timed out
+  local prov="$1" model="$2" phase="$3"
+  local inprog; inprog="$(comm -23 <(ids_list|sort -u) <( { answered_ids; ingested_ids; } |sort -u) | tr '\n' ' ')"
+  local reason="$prov/$model exhausted during $phase; in-progress/remaining: $inprog"
+  echo "$reason" > "$OUT/PAUSED"
+  echo "[$(date -Is)] PAUSE  $reason" >> "$OUT/pauses.log"
+  log "PAUSED: $reason  — probing $model every $((POLL_SECS/60))min for up to $((MAX_POLLS*POLL_SECS/3600))h"
+  local i=0
+  while (( i < MAX_POLLS )); do
+    sleep "$POLL_SECS"
+    i=$((i+1))
+    if probe_model "$prov" "$model"; then
+      echo "[$(date -Is)] RESUME after $((i*POLL_SECS/60))min  $prov/$model back" >> "$OUT/pauses.log"
+      rm -f "$OUT/PAUSED"
+      log "RESUMED: $prov/$model is back after ~$((i*POLL_SECS/60))min"
+      return 0
+    fi
+    log "  still exhausted ($prov/$model), poll $i/$MAX_POLLS"
+  done
+  echo "[$(date -Is)] GAVE UP after 12h waiting on $prov/$model" >> "$OUT/pauses.log"
+  log "credit not restored within 12h — exiting cleanly; rerun with: run_lme.sh --resume $RUN"
+  return 3
+}
+
+detect_and_wait() { # logfile phase  -> rc 0 resume, 1 non-credit, 3 timed-out
+  local lf="$1" phase="$2"
+  if grep -qiE 'insufficient_quota|exceeded your current quota' "$lf"; then
+    wait_for_credit openai gpt-4o "$phase"; return $?
+  elif grep -qiE '402|RESOURCE_EXHAUSTED|prepayment credits are depleted' "$lf"; then
+    wait_for_credit gemini gemini-3.8-flash "$phase"; return $?
+  fi
+  return 1
+}
+
+run_resumable() { # phase logfile -- cmd...   (harness resumes finished questions itself)
+  local phase="$1" lf="$2"; shift 2; [[ "$1" == "--" ]] && shift
+  while :; do
+    ( cd "$HARNESS" && "$@" ) 2>&1 | tee -a "$lf"
+    local rc=${PIPESTATUS[0]}
+    [[ $rc -eq 0 ]] && return 0
+    detect_and_wait "$lf" "$phase"; local d=$?
+    case $d in
+      0) log "resuming $phase after credit restored"; continue;;
+      3) exit 0;;                         # clean 12h exit
+      *) die "$phase failed (rc=$rc), not a credit error — see $lf";;
+    esac
+  done
+}
+
+# ---------------------------------------------------------------- pre-checks (FREE only)
 prechecks() {
-  log "pre-checks (stage=$STAGE)"
-
-  # 1. Caura server healthy
-  [[ "$(curlc "$CAURA_BASE/health" -H "X-API-Key: $API_KEY")" == 200 ]] \
+  log "pre-checks (free only; no paid model calls)"
+  [[ "$(curl -s -o /dev/null -w '%{http_code}' "$CAURA_BASE/health" -H "X-API-Key: $API_KEY")" == 200 ]] \
     || die "Caura /health not 200"
-  # every compose service healthy
-  local unhealthy
-  unhealthy="$(cd "$REPO" && docker compose ps --format '{{.Service}} {{.Health}}' 2>/dev/null \
-                | awk '$2!="healthy"{print}' || true)"
+  local unhealthy; unhealthy="$(cd "$REPO" && docker compose ps --format '{{.Service}} {{.Health}}' 2>/dev/null | awk '$2!="healthy"{print}')"
   [[ -z "$unhealthy" ]] || die "unhealthy caura services:\n$unhealthy"
-
-  # 2. search endpoint returns 200
-  [[ "$(curlc -X POST "$CAURA_BASE/search" -H "X-API-Key: $API_KEY" \
-        -H 'Content-Type: application/json' \
-        -d "{\"tenant_id\":\"$TENANT\",\"query\":\"healthcheck\"}")" == 200 ]] \
-    || die "search endpoint not 200"
-
-  # 3. container OPENAI_API_KEY prefix matches .env
-  local env_pref cont_pref
-  env_pref="$(grep -E '^OPENAI_API_KEY=' "$REPO/.env" | head -1 | cut -d= -f2- | cut -c1-6)"
-  cont_pref="$(docker exec caura-core-api-1 sh -c 'printenv OPENAI_API_KEY' | cut -c1-6)"
-  [[ -n "$env_pref" && "$env_pref" == "$cont_pref" ]] \
-    || die "core-api OPENAI key prefix ($cont_pref) != .env ($env_pref)"
-  log "  OpenAI key prefix matches: $cont_pref…"
-
-  # 4. GPU TEI embedder serves EXPECT_EMBED_DIM
   docker inspect caura-tei-gpu --format '{{.State.Health.Status}}' 2>/dev/null | grep -qx healthy \
-    || die "caura-tei-gpu not healthy (the bge-m3 GPU sidecar)"
-  local dim
-  dim="$(docker exec caura-core-api-1 python - <<'PY'
+    || die "caura-tei-gpu (bge-m3 GPU sidecar) not healthy"
+  local env_pref cont_pref
+  env_pref="$(grep -E '^OPENAI_API_KEY=' "$REPO/.env"|head -1|cut -d= -f2-|cut -c1-6)"
+  cont_pref="$(docker exec caura-core-api-1 sh -c 'printenv OPENAI_API_KEY'|cut -c1-6)"
+  [[ -n "$env_pref" && "$env_pref" == "$cont_pref" ]] || die "core-api OpenAI key prefix ($cont_pref) != .env ($env_pref)"
+  # TEI dim check — LOCAL embedder, free (no paid model)
+  local dim; dim="$(docker exec caura-core-api-1 python - <<'PY'
 import urllib.request,json
 req=urllib.request.Request("http://tei-gpu:80/v1/embeddings",
-  data=json.dumps({"model":"BAAI/bge-m3","input":"precheck"}).encode(),
-  headers={"Content-Type":"application/json"})
+  data=json.dumps({"model":"BAAI/bge-m3","input":"precheck"}).encode(),headers={"Content-Type":"application/json"})
 print(len(json.load(urllib.request.urlopen(req,timeout=30))["data"][0]["embedding"]))
 PY
 )"
-  [[ "$dim" == "$EXPECT_EMBED_DIM" ]] || die "TEI embedding dim=$dim, expected $EXPECT_EMBED_DIM"
-  log "  TEI bge-m3 returns ${dim}-dim"
-
-  # 5. Gemini enrichment model reachable (one tiny call)
-  ( cd "$HARNESS" && uv run python - <<'PY'
-import os
-from google import genai
-from google.genai import types
-c=genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-r=c.models.generate_content(model="gemini-3.1-flash-lite",contents="ok",
-    config=types.GenerateContentConfig(max_output_tokens=5,temperature=0.0))
-print("gemini-3.1-flash-lite reachable")
-PY
-) || die "gemini-3.1-flash-lite not reachable (enrichment model)"
-  log "  gemini-3.1-flash-lite reachable"
-
-  # 6. IDS file: exactly 60, 10 per type
+  [[ "$dim" == 1024 ]] || die "TEI dim=$dim != 1024"
   ( cd "$HARNESS" && uv run python - "$IDS" <<'PY'
-import sys
+import sys,collections
 from longmemeval.dataset import LongMemEvalDataset, read_question_id_list
-ids=read_question_id_list(sys.argv[1])
-assert len(ids)==60, f"expected 60 ids, got {len(ids)}"
+ids=read_question_id_list(sys.argv[1]); assert len(ids)==60,len(ids)
 ds=LongMemEvalDataset(data_path="data/longmemeval_s_cleaned.json")
-items=ds.load_items(include_ids=ids)
-assert len(items)==60, f"only {len(items)}/60 ids found in dataset"
-import collections
-c=collections.Counter(i.question_type for i in items)
-assert set(c.values())=={10} and len(c)==6, f"not 10/type: {dict(c)}"
-print("  IDS ok: 60 questions, 10 per type")
+items=ds.load_items(include_ids=ids); assert len(items)==60
+c=collections.Counter(i.question_type for i in items); assert set(c.values())=={10} and len(c)==6,dict(c)
 PY
-) || die "IDS check failed ($IDS)"
-
-  # 7. memory store state for the agent prefix
-  local agents
-  agents="$(curl -s "$CAURA_BASE/memories/stats" -H "X-API-Key: $API_KEY" \
-            | python3 -c "import json,sys;d=json.load(sys.stdin);print(sum(1 for a in d.get('by_agent',{}) if a.startswith('$AGENT_PREFIX-')))")"
-  if [[ "$STAGE" == "answer" ]]; then
-    [[ "$agents" == 60 ]] || die "answer stage needs 60 ingested '$AGENT_PREFIX-' agents, found $agents"
-    log "  store has 60 '$AGENT_PREFIX-' agents (ingest complete)"
-  else
-    [[ "$agents" == 0 ]] || die "store not empty for '$AGENT_PREFIX-' ($agents agents); clean up first"
-    log "  store empty for '$AGENT_PREFIX-'"
+) || die "IDS check failed (expected 60, 10/type)"
+  local agents; agents="$(curl -s "$CAURA_BASE/memories/stats" -H "X-API-Key: $API_KEY" | python3 -c "import json,sys;print(sum(1 for a in json.load(sys.stdin).get('by_agent',{}) if a.startswith('$AGENT_PREFIX-')))")"
+  if [[ "$STAGE" == answer && "$RESUME" == 0 ]]; then
+    [[ "$agents" == 60 ]] || die "answer stage needs 60 ingested agents, found $agents"
+  elif [[ "$STAGE" != answer && "$RESUME" == 0 ]]; then
+    [[ "$agents" == 0 ]] || die "store not empty for '$AGENT_PREFIX-' ($agents); clean up first"
   fi
-  log "pre-checks passed"
+  log "pre-checks passed (TEI 1024-dim, key prefix $cont_pref, 60 ids 10/type)"
 }
 
-# ---- manifest ----------------------------------------------------------------
-write_manifest() {  # $1 = phase (start|end)
-  ( cd "$REPO" && STAGE="$STAGE" RUN="$RUN" IDS="$IDS" OUT="$OUT" HARNESS="$HARNESS" \
-       CAURA_BASE="$CAURA_BASE" API_KEY="$API_KEY" PHASE="$1" python3 - <<'PY'
-import json,os,subprocess,urllib.request,datetime
-REPO=os.getcwd(); OUT=os.environ["OUT"]; HARNESS=os.environ["HARNESS"]
-mp=os.path.join(OUT,"manifest.json")
-m=json.load(open(mp)) if os.path.exists(mp) else {}
-def sh(*a):
-    try: return subprocess.check_output(a,cwd=REPO,text=True).strip()
-    except Exception: return None
-def env(path,key):
-    try:
-        for ln in open(path):
-            if ln.startswith(key+"="): return ln.split("=",1)[1].strip()
-    except Exception: pass
-    return None
-def redact(v): return (v[:6]+"…") if v else None
-if os.environ["PHASE"]=="start":
-    srv=None
-    try:
-        srv=json.load(urllib.request.urlopen(os.environ["CAURA_BASE"]+"/version",timeout=10)).get("version")
-    except Exception: pass
-    m.update({
-      "run_name": os.environ["RUN"],
-      "benchmark": "longmemeval_s_cleaned (60-question Mem0 subset)",
-      "goal": "reproduce Caura published headline (caura-500-opaque-compact) on the 60 Q",
-      "stage": os.environ["STAGE"],
-      "ids_file": os.environ["IDS"],
-      "started_utc": datetime.datetime.utcnow().isoformat()+"Z",
-      "caura_repo_commit": sh("git","rev-parse","HEAD"),
-      "harness_subtree_ref": "3b1e293a (upstream caura-ai/caura-longmemeval)",
-      "caura_server_version": srv,
-      "caura_core_api_image": sh("docker","inspect","caura-core-api-1","--format","{{.Config.Image}}"),
-      "caura_core_api_revision": sh("docker","inspect","caura-core-api-1","--format",
-                                    '{{index .Config.Labels "org.opencontainers.image.revision"}}'),
-      "models": {
-        "reader":          env(HARNESS+"/.env","READER_MODEL"),
-        "reader_provider": env(HARNESS+"/.env","READER_LLM"),
-        "judge":           env(HARNESS+"/.env","JUDGE_MODEL"),
-        "secondary_judge": env(HARNESS+"/.env","SECONDARY_JUDGE_MODEL"),
-        "server_embedding_model": env(REPO+"/.env","OPENAI_EMBEDDING_MODEL"),
-        "server_embedding_base_url": env(REPO+"/.env","OPENAI_EMBEDDING_BASE_URL"),
-        "server_embedding_send_dimensions": env(REPO+"/.env","OPENAI_EMBEDDING_SEND_DIMENSIONS"),
-        "vector_dim": env(REPO+"/.env","VECTOR_DIM"),
-        "enrichment_provider": env(REPO+"/.env","ENTITY_EXTRACTION_PROVIDER"),
-        "enrichment_model": env(REPO+"/.env","ENTITY_EXTRACTION_MODEL"),
-        "top_k": 150,
-      },
-      "keys_redacted": {
-        "OPENAI_API_KEY": redact(env(REPO+"/.env","OPENAI_API_KEY")),
-        "GEMINI_API_KEY": redact(env(REPO+"/.env","GEMINI_API_KEY")),
-      },
-      "source": "REPRODUCE.md (headline run caura-500-opaque-compact)",
-      "published_flags": {
-        "ingest": "--chunk-mode turns --agent-prefix lmeo --bulk-size 100 --concurrency 5",
-        "run": "--skip-ingest --chunk-mode turns --agent-prefix lmeo --sibling-expansion "
-               "--sibling-window 0 --context-budget 150000 --raw-turns-only --no-as-of-recall "
-               "--context-format compact --pipeline agentic-v1 --reader gemini "
-               "--reader-model gemini-3.8-flash --judge openai --judge-model gpt-4o "
-               "--secondary-judge gemini --secondary-judge-model gemini-3.5-flash-lite --concurrency 5",
-        "plus": "--question-ids <ids_file> (our harness addition)",
-      },
-      "embedder_serving": ("bge-m3 via HuggingFace TEI (image "
-        "ghcr.io/huggingface/text-embeddings-inference:hopper-1.8) on a SHARED H100 MIG slice "
-        "next to Mem0's qwen-tei embedder; separate compose project 'caura-tei-gpu', "
-        "host port 127.0.0.1:8100, reached by core-api as http://tei-gpu:80/v1"),
-      "deviations_from_published": [
-        "Embedder served on a GPU MIG slice SHARED with Mem0's running qwen-tei (published run used a dedicated GPU TEI). Same model (bge-m3, 1024d); only the serving host is shared.",
-        "Enrichment via the Gemini API key (gemini-3.1-flash-lite) rather than the published Vertex endpoint; same model.",
-        "A second config (OpenAI text-embedding-3-small + gpt-5.4-nano enrichment) is planned later as 'variant 2'; this run is variant 1 (authors' published settings).",
-      ],
-    })
-else:
-    m["ended_utc"]=datetime.datetime.utcnow().isoformat()+"Z"
-os.makedirs(OUT,exist_ok=True)
-json.dump(m,open(mp,"w"),indent=2)
-print("manifest",os.environ["PHASE"],"->",mp)
+# ---------------------------------------------------------------- DB snapshots
+write_mem_counts() { # -> $OUT/mem_counts.json
+  psqlc -F$'\t' -c "SELECT agent_id, memory_type, status, (metadata->>'doc_id' IS NULL) AS derived, count(*) FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL GROUP BY 1,2,3,4" \
+  | python3 - "$OUT/mem_counts.json" <<'PY'
+import json,sys,collections
+out=collections.defaultdict(lambda:{"total":0,"by_type":collections.Counter(),"by_status":collections.Counter(),"derived":0})
+for line in sys.stdin:
+    line=line.rstrip("\n")
+    if not line: continue
+    a,mt,st,der,n=line.split("\t"); n=int(n)
+    o=out[a]; o["total"]+=n; o["by_type"][mt]+=n; o["by_status"][st]+=n
+    if der=="t": o["derived"]+=n
+for a in out: out[a]["by_type"]=dict(out[a]["by_type"]); out[a]["by_status"]=dict(out[a]["by_status"])
+json.dump(out, open(sys.argv[1],"w"), indent=2)
+print("mem_counts ->", sys.argv[1])
 PY
-)
+}
+enrichment_pending_agents() { # prints agents still pending enrichment or empty
+  psqlc -F$'\t' -c "SELECT agent_id, count(*) FILTER (WHERE COALESCE(metadata->'_system'->>'enrichment_pending', metadata->>'enrichment_pending')='true') FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL GROUP BY 1" \
+  | awk -F'\t' '$2>0{print $1}'
 }
 
-# ---- stages ------------------------------------------------------------------
+# ---------------------------------------------------------------- stages
 do_ingest() {
   log "=== INGEST (published flags) -> $OUT/ingest.log ==="
-  local t0=$SECONDS
-  ( cd "$HARNESS" && uv run longmemeval ingest \
-      --name "$RUN" --provider caura \
+  run_resumable ingest "$OUT/ingest.log" -- \
+    uv run longmemeval ingest --name "$RUN" --provider caura \
       --chunk-mode turns --agent-prefix "$AGENT_PREFIX" \
-      --bulk-size 100 --concurrency 5 \
-      --question-ids "$IDS" ) 2>&1 | tee "$OUT/ingest.log"
-  log "ingest wall-clock: $((SECONDS - t0))s"
-  # per-question tally (id, memories written) appended so ingest.log shows it moved
-  { echo "---- per-agent memory counts after ingest (id | memories) ----"
-    curl -s "$CAURA_BASE/memories/stats" -H "X-API-Key: $API_KEY" \
-      | python3 -c "import json,sys;d=json.load(sys.stdin);[print(f'{a} | {n}') for a,n in sorted(d.get('by_agent',{}).items()) if a.startswith('$AGENT_PREFIX-')]"
+      --bulk-size 100 --concurrency 5 --question-ids "$IDS"
+
+  # Enrichment is server-side + async (embeddings are local TEI, which cannot
+  # exhaust credit). Drain it, pausing on a Gemini 402 in the core-api log, and
+  # re-ingest any question left un-enriched so none is half-done.
+  log "draining server-side enrichment (gemini-3.1-flash-lite)…"
+  local tries=0
+  while :; do
+    local pend; pend="$(enrichment_pending_agents)"
+    local since2; since2="2m"
+    if [[ -z "$pend" ]]; then log "enrichment drained"; break; fi
+    if (cd "$REPO" && docker compose logs core-api --since 3m 2>&1) | grep -qiE '402|RESOURCE_EXHAUSTED|prepayment credits are depleted'; then
+      wait_for_credit gemini gemini-3.1-flash-lite "ingest-enrichment" || exit 0
+    fi
+    tries=$((tries+1)); (( tries > 240 )) && { log "enrichment still pending after long drain; re-ingesting pending questions"; break; }
+    sleep 30
+  done
+  # guarantee completeness: reset + re-ingest any agent still pending / empty
+  local bad; bad="$(enrichment_pending_agents)"
+  if [[ -n "$bad" ]]; then
+    for a in $bad; do
+      local qid="${a#${AGENT_PREFIX}-}"
+      log "re-ingesting $qid (incomplete enrichment)"
+      curl -s -o /dev/null -X DELETE "$CAURA_BASE/memories?tenant_id=$TENANT&agent_id=$a&fleet_id=$a" -H "X-API-Key: $API_KEY"
+      run_resumable ingest "$OUT/ingest.log" -- \
+        uv run longmemeval ingest --name "$RUN" --provider caura --chunk-mode turns \
+          --agent-prefix "$AGENT_PREFIX" --bulk-size 100 --concurrency 1 --question-id "$qid"
+    done
+  fi
+
+  { echo "---- per-agent memory counts after ingest (agent | memories) ----"
+    curl -s "$CAURA_BASE/memories/stats" -H "X-API-Key: $API_KEY" | python3 -c "import json,sys;[print(f'{a} | {n}') for a,n in sorted(json.load(sys.stdin).get('by_agent',{}).items()) if a.startswith('$AGENT_PREFIX-')]"
   } | tee -a "$OUT/ingest.log"
 
-  log "=== memory dump -> $OUT/memory_dump.sql.gz ==="
+  log "=== DB snapshots right after ingest ==="
+  write_mem_counts
   docker exec caura-db-1 pg_dump -U caura -d caura | gzip > "$OUT/memory_dump.sql.gz"
-  log "memory dump: $(du -h "$OUT/memory_dump.sql.gz" | cut -f1)"
+  psqlc -c "SELECT json_build_object('id',id,'agent_id',agent_id,'memory_type',memory_type,'status',status,'title',title,'content',content,'metadata',metadata) FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL" > "$OUT/memories.jsonl"
+  log "memory_dump.sql.gz=$(du -h "$OUT/memory_dump.sql.gz"|cut -f1), memories.jsonl=$(wc -l < "$OUT/memories.jsonl") rows"
+  ckpt_set ingest_done true
 }
 
 do_answer() {
   log "=== RUN (published flags) -> $OUT/run.log ==="
-  local attempt=1 max=5 backoff=30
-  while :; do
-    set +e
-    ( cd "$HARNESS" && uv run longmemeval run \
-        --name "$RUN" --provider caura --skip-ingest \
-        --chunk-mode turns --agent-prefix "$AGENT_PREFIX" \
-        --sibling-expansion --sibling-window 0 --context-budget 150000 \
-        --raw-turns-only --no-as-of-recall --context-format compact \
-        --pipeline agentic-v1 \
-        --reader gemini --reader-model gemini-3.8-flash \
-        --judge openai --judge-model gpt-4o \
-        --secondary-judge gemini --secondary-judge-model gemini-3.5-flash-lite \
-        --concurrency 5 \
-        --question-ids "$IDS" ) 2>&1 | tee -a "$OUT/run.log"
-    local rc=${PIPESTATUS[0]}
-    set -e
-    [[ $rc -eq 0 ]] && break
-    # Gemini 429 → backoff and retry; anything else → fail.
-    if grep -qiE '429|RESOURCE_EXHAUSTED|rate.?limit' "$OUT/run.log" && [[ $attempt -lt $max ]]; then
-      log "run hit Gemini 429 (attempt $attempt/$max); sleeping ${backoff}s then retrying" | tee -a "$OUT/run.log"
-      sleep "$backoff"; attempt=$((attempt+1)); backoff=$((backoff*2)); continue
-    fi
-    die "run failed (rc=$rc); see $OUT/run.log"
-  done
-
-  log "=== JUDGE: evaluate-hypotheses -> $OUT/eval.log ==="
-  ( cd "$HARNESS" && uv run longmemeval evaluate-hypotheses \
-      "outputs/$RUN/hypotheses.jsonl" \
+  run_resumable answer "$OUT/run.log" -- \
+    uv run longmemeval run --name "$RUN" --provider caura --skip-ingest \
+      --chunk-mode turns --agent-prefix "$AGENT_PREFIX" \
+      --sibling-expansion --sibling-window 0 --context-budget 150000 \
+      --raw-turns-only --no-as-of-recall --context-format compact \
+      --pipeline agentic-v1 \
+      --reader gemini --reader-model gemini-3.8-flash \
       --judge openai --judge-model gpt-4o \
       --secondary-judge gemini --secondary-judge-model gemini-3.5-flash-lite \
-      --no-html ) 2>&1 | tee "$OUT/eval.log"
+      --concurrency 5 --question-ids "$IDS"
 
-  # Mem0's judge differs from gpt-4o (gpt-5 + custom prompt). Optional parity judge.
+  log "=== JUDGE: evaluate-hypotheses -> $OUT/eval.log ==="
+  run_resumable judge "$OUT/eval.log" -- \
+    uv run longmemeval evaluate-hypotheses "outputs/$RUN/hypotheses.jsonl" \
+      --judge openai --judge-model gpt-4o \
+      --secondary-judge gemini --secondary-judge-model gemini-3.5-flash-lite --no-html
+  ckpt_set judged true
+
   if [[ "$MEM0_JUDGE" == 1 ]]; then
-    log "=== JUDGE (Mem0 parity: gpt-5 + Mem0 prompt) -> $OUT/eval_mem0judge.json ==="
-    ( cd "$HARNESS" && uv run python "$REPO/experiments/scripts/mem0_judge.py" \
-        "outputs/$RUN/hypotheses.jsonl" -o "$OUT/eval_mem0judge.json" --model gpt-5 ) \
-        2>&1 | tee -a "$OUT/eval.log" || log "mem0 parity judge failed (non-fatal)"
+    log "=== Mem0 parity judge (gpt-5 + Mem0 prompt) -> $OUT/eval_mem0judge.json ==="
+    run_resumable mem0judge "$OUT/eval.log" -- \
+      uv run python "$SCRIPTS/mem0_judge.py" "outputs/$RUN/hypotheses.jsonl" -o "$OUT/eval_mem0judge.json" --model gpt-5
   fi
 
-  log "=== collect harness outputs + server logs ==="
-  mkdir -p "$OUT/outputs"
-  cp -a "$HARNESS/outputs/$RUN/." "$OUT/outputs/" 2>/dev/null || true
-  local since
-  since="$(python3 -c "import json;print(json.load(open('$OUT/manifest.json'))['started_utc'])" 2>/dev/null || echo 6h)"
+  log "=== analysis: context tokens + coverage (authors' scripts) ==="
+  ( cd "$HARNESS" && uv run python scripts/context_tokens.py "outputs/$RUN" ) 2>&1 | tee -a "$OUT/eval.log" || log "context_tokens.py failed (non-fatal)"
+  ( cd "$HARNESS" && uv run python scripts/coverage.py "outputs/$RUN" --json "$OUT/coverage.json" ) 2>&1 | tee -a "$OUT/eval.log" || log "coverage.py failed (non-fatal)"
+
+  log "=== collection: traces / summary / compare_authors ==="
+  write_mem_counts
+  uv run --project "$HARNESS" python "$SCRIPTS/collect_traces.py" --run "$RUN" --out "$OUT" --harness "$HARNESS" --mem-counts "$OUT/mem_counts.json"
+  uv run --project "$HARNESS" python "$SCRIPTS/build_summary.py" --run "$RUN" --out "$OUT" --harness "$HARNESS" --prices "$REPO/experiments/configs/prices.json"
+  uv run --project "$HARNESS" python "$SCRIPTS/compare_authors.py" --run "$RUN" --out "$OUT" --harness "$HARNESS" \
+      --authors-verdicts "$REPO/experiments/configs/authors_headline_60q_verdicts.json"
+
+  mkdir -p "$OUT/outputs"; cp -a "$HARNESS/outputs/$RUN/." "$OUT/outputs/" 2>/dev/null || true
+  local since; since="$(python3 -c "import json;print(json.load(open('$OUT/manifest.json'))['started_utc'])" 2>/dev/null || echo 12h)"
   ( cd "$REPO" && docker compose logs --since "$since" > "$OUT/caura_logs.txt" 2>&1 ) || true
-  log "outputs -> $OUT/outputs ; server logs -> $OUT/caura_logs.txt"
+  ckpt_set finished true
 }
 
-# ---- main --------------------------------------------------------------------
-if [[ "$STAGE" == "ingest" || "$STAGE" == "all" ]]; then
-  [[ -e "$OUT" ]] && die "run dir already exists: $OUT (refusing to overwrite)"
-  mkdir -p "$OUT"
-fi
-[[ "$STAGE" == "answer" && ! -d "$OUT" ]] && die "answer stage: $OUT does not exist (run --stage ingest first)"
+# ---------------------------------------------------------------- manifest (reuse from prior version, redacted)
+write_manifest() { "$SCRIPTS/_lme_manifest.sh" "$1" "$RUN" "$IDS" "$OUT" "$HARNESS" "$REPO" "$CAURA_BASE" 2>/dev/null || true; }
 
+# ---------------------------------------------------------------- main
+if [[ "$RESUME" == 1 ]]; then
+  [[ -d "$OUT" ]] || die "--resume: $OUT does not exist"
+  log "RESUMING $RUN (ingest_done=$(ckpt_get ingest_done), judged=$(ckpt_get judged))"
+  [[ "$(ckpt_get ingest_done)" == True ]] && STAGE=answer || STAGE=all
+else
+  if [[ "$STAGE" == ingest || "$STAGE" == all ]]; then
+    [[ -e "$OUT" ]] && die "run dir exists: $OUT (use --resume $RUN to continue)"
+  fi
+  [[ "$STAGE" == answer && ! -d "$OUT" ]] && die "answer stage: $OUT missing (run --stage ingest first)"
+fi
+mkdir -p "$OUT"; ckpt_init
 prechecks
 write_manifest start
-[[ "$STAGE" == "ingest" || "$STAGE" == "all" ]] && do_ingest
-[[ "$STAGE" == "answer" || "$STAGE" == "all" ]] && do_answer
+[[ "$STAGE" == ingest || "$STAGE" == all ]] && do_ingest
+[[ "$STAGE" == answer  || "$STAGE" == all ]] && do_answer
 write_manifest end
-log "DONE (stage=$STAGE, run=$RUN). Artifacts in $OUT"
+log "DONE (stage=$STAGE run=$RUN). Artifacts: $OUT  (summary.md, compare_authors.md, traces/)"

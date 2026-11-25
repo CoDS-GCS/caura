@@ -21,17 +21,37 @@ Mem0 is secondary and comes later.
   upstream-harness change).
 - **Smoke test passed** on this exact setup: 2/2 under gpt-4o and
   gemini-3.5-flash-lite.
-- **`experiments/scripts/run_lme.sh`** is written and syntax-checked (not run).
+- **`experiments/scripts/run_lme.sh`** is written and validated (syntax +
+  collection scripts exercised on the smoke outputs; **not run** on the 60).
 - Store is **empty** (`lmeo-*` cleaned); ready to ingest.
+- **Instrumented & resumable** (see `experiments/TRACING.md`): pauses on Gemini
+  402 / OpenAI `insufficient_quota`, probes the failed model every 15 min for up
+  to 12 h, resumes automatically, never leaves a half-ingested/half-answered
+  question, and `--resume` continues after a crash. Pre-checks call **no paid
+  models** (only the local TEI embedder).
+- **Collected automatically** at the end: `summary.md`, `compare_authors.md`,
+  per-question `traces/<id>.json`, `memory_dump.sql.gz` + `memories.jsonl`,
+  `manifest.json`, `caura_logs.txt`. Prices in `experiments/configs/prices.json`.
+  Enrichment tokens are **derived from the measured rate** (2,943 in / 142 out
+  per memory) because the server runs a baked image (see TRACING.md).
 
 ## Exact command to start the run
 
 Run it yourself in tmux (ingest ≈ **5 h** on the shared GPU; the script sets no
-early-kill timeouts):
+early-kill timeouts). Console log goes to `/tmp` so it survives independently of
+the run dir:
 
 ```bash
 cd /shared_mnt/loubna/caura
-tmux new -s lme 'experiments/scripts/run_lme.sh --stage all 2>&1 | tee experiments/runs/lme_caura_default_60q/console.log'
+tmux new -s lme 'experiments/scripts/run_lme.sh --stage all 2>&1 | tee /tmp/lme_caura_default_60q.console.log'
+```
+
+**Resume** after a crash or a 12-hour pause-exit (continues without redoing
+finished questions):
+
+```bash
+cd /shared_mnt/loubna/caura
+tmux new -s lme 'experiments/scripts/run_lme.sh --resume lme_caura_default_60q 2>&1 | tee -a /tmp/lme_caura_default_60q.console.log'
 ```
 
 Or split the stages (same run dir):
