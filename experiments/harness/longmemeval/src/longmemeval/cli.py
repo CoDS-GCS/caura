@@ -113,6 +113,7 @@ def run(
     limit: Optional[int] = typer.Option(None, "--limit", "-n", help="Limit total questions to evaluate"),
     limit_per_category: Optional[int] = typer.Option(None, "--per-category", help="Limit questions per category (useful for balanced evaluation)"),
     question_id: Optional[str] = typer.Option(None, "--question-id", "-q", help="Evaluate single question ID"),
+    question_ids: Optional[Path] = typer.Option(None, "--question-ids", help="Path to a text file of question_ids (one per line, # comments ok) to restrict the run to a fixed subset"),
     run_name: Optional[str] = typer.Option(None, "--name", help="Custom name for the run output directory"),
     reader_llm: str = typer.Option("gemini", "--reader", help="LLM for answering: gemini | openai | grok"),
     reader_model: Optional[str] = typer.Option(None, "--reader-model", help="Model name for reader LLM"),
@@ -171,6 +172,12 @@ def run(
         if excluded_ids:
             console.print(f"[yellow]Excluding {len(excluded_ids)} question IDs from evaluation[/yellow]")
 
+    included_ids: Optional[set[str]] = None
+    if question_ids:
+        from .dataset import read_question_id_list
+        included_ids = read_question_id_list(question_ids)
+        console.print(f"[green]Restricting to {len(included_ids)} question IDs from {question_ids}[/green]")
+
     runner = BenchmarkRunner(
         dataset=ds,
         provider=mem_provider,
@@ -191,6 +198,7 @@ def run(
             skip_ingest=skip_ingest,
             top_k=top_k,
             pipeline=pipeline,
+            include_ids=included_ids,
             exclude_ids=excluded_ids if excluded_ids else None,
             seed=seed,
             concurrency=concurrency,
@@ -206,6 +214,7 @@ def ingest(
     limit: Optional[int] = typer.Option(None, "--limit", "-n", help="Limit total questions"),
     limit_per_category: Optional[int] = typer.Option(None, "--per-category", help="Limit questions per category"),
     question_id: Optional[str] = typer.Option(None, "--question-id", "-q", help="Single question ID"),
+    question_ids: Optional[Path] = typer.Option(None, "--question-ids", help="Path to a text file of question_ids (one per line, # comments ok) to restrict ingestion to a fixed subset"),
     name: str = typer.Option(..., "--name", help="Marker directory name under outputs/ (progress is recorded in <name>/ingested.txt for resume)"),
     chunk_mode: Optional[str] = typer.Option(None, "--chunk-mode", help="chars | turns"),
     chunk_chars: Optional[int] = typer.Option(None, "--chunk-chars", help="Max chunk size in characters"),
@@ -236,8 +245,15 @@ def ingest(
     if hasattr(mem_provider, "settle_time"):
         mem_provider.settle_time = 0.0
 
+    included_ids = None
+    if question_ids:
+        from .dataset import read_question_id_list
+        included_ids = read_question_id_list(question_ids)
+        console.print(f"[green]Restricting ingestion to {len(included_ids)} question IDs from {question_ids}[/green]")
+
     items = ds.load_items(
-        category=category, limit=limit, limit_per_category=limit_per_category, question_id=question_id, seed=seed
+        category=category, limit=limit, limit_per_category=limit_per_category,
+        question_id=question_id, include_ids=included_ids, seed=seed
     )
     marker_dir = output_dir / name
     marker_dir.mkdir(parents=True, exist_ok=True)

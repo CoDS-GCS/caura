@@ -274,6 +274,7 @@ class BenchmarkRunner:
         skip_ingest: bool = False,
         top_k: int | None = None,
         pipeline: str = "direct",
+        include_ids: set[str] | list[str] | None = None,
         exclude_ids: set[str] | list[str] | None = None,
         seed: int | None = None,
         concurrency: int = 1,
@@ -283,6 +284,7 @@ class BenchmarkRunner:
             limit=limit,
             limit_per_category=limit_per_category,
             question_id=question_id,
+            include_ids=include_ids,
             exclude_ids=exclude_ids,
             seed=seed,
         )

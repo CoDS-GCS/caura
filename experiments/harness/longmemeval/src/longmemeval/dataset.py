@@ -124,6 +124,24 @@ def extract_question_ids_from_file(file_path: Path | str) -> set[str]:
     return qids
 
 
+def read_question_id_list(file_path: Path | str) -> set[str]:
+    """Read a plain-text question-id list: one id per line, blank lines and
+    ``#`` comments ignored. Used by ``--question-ids`` to restrict ingest/run
+    to a fixed subset (e.g. the 60-question Mem0 subset)."""
+    p = Path(file_path)
+    if not p.exists():
+        raise FileNotFoundError(f"--question-ids file not found: {p}")
+    ids: set[str] = set()
+    for line in p.read_text(encoding="utf-8").splitlines():
+        s = line.strip()
+        if not s or s.startswith("#"):
+            continue
+        ids.add(s)
+    if not ids:
+        raise ValueError(f"--question-ids file has no ids: {p}")
+    return ids
+
+
 class LongMemEvalDataset:
     """Loader and adapter for LongMemEval."""
 
@@ -148,6 +166,7 @@ class LongMemEvalDataset:
         limit: int | None = None,
         limit_per_category: int | None = None,
         question_id: str | None = None,
+        include_ids: set[str] | list[str] | None = None,
         exclude_ids: set[str] | list[str] | None = None,
         seed: int | None = None,
     ) -> list[LongMemEvalItem]:
@@ -164,6 +183,7 @@ class LongMemEvalDataset:
             allowed_categories = {c.strip() for c in category.split(",") if c.strip()}
 
         excluded_set = set(exclude_ids) if exclude_ids else set()
+        included_set = set(include_ids) if include_ids else None
 
         raw_candidates: list[dict[str, Any]] = []
         for d in raw:
@@ -171,6 +191,8 @@ class LongMemEvalDataset:
             qtype = d.get("question_type", "")
 
             if question_id and qid != question_id:
+                continue
+            if included_set is not None and qid not in included_set:
                 continue
             if allowed_categories and qtype not in allowed_categories:
                 continue
