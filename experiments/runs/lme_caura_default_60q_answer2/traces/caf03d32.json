@@ -1,0 +1,1407 @@
+{
+  "question_id": "caf03d32",
+  "question_type": "single-session-preference",
+  "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+  "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+  "prediction": "Here are several practical tips and best practices to get better results from your slow cooker, tailored to what you have been cooking and exploring:\n\n### 1. General Slow Cooking Best Practices\n* **Watch the Liquid Levels:** Slow cookers trap steam, meaning very little liquid evaporates. Reduce liquids (broth, water, sauces) compared to standard stovetop or oven recipes, usually by about one-third to one-half, to avoid watery dishes.\n* **Keep the Lid Closed:** Every time the lid is removed, the slow cooker loses significant heat and can add 15 to 20 minutes to the total cooking time.\n* **Layer Wisely:** Dense root vegetables (potatoes, carrots, onions) take longer to cook than meat and should be placed at the bottom and sides where heat is strongest.\n\n### 2. Tips for Beef Stew & Meat Dishes\n* **Sear Before Slow Cooking:** As with your beef stew, browning meat in a skillet beforehand develops deep flavors through caramelization and helps render excess fat.\n* **Thickening at the End:** If your stew turns out thinner than desired, remove the lid during the last 30 minutes, or stir in a cornstarch slurry or flour paste toward the end of cooking.\n\n### 3. Tips for Plant-Based, Vegan, and Vegetarian Cooking\n* **Stagger Cooking Times for Vegetables:** Unlike hearty cuts of beef, tender vegetables (zucchini, bell peppers, spinach, peas) can turn mushy if cooked for 6\u20138 hours. Add sturdy ingredients (lentils, beans, sweet potatoes) early, and stir in delicate vegetables and fresh herbs during the final 30 to 45 minutes.\n* **Pre-cook or Soak Dried Beans:** Certain dried beans (especially kidney beans) must be boiled vigorously on the stovetop first to eliminate toxins before slow cooking.\n* **Add Acid and Freshness Last:** Plant-based dishes can taste flat after hours of simmering. Brighten them right before serving with a splash of citrus juice (lemon/lime), vinegar, or fresh herbs.\n\n### 4. Tips for Slow Cooker Cashew Yogurt\n* **Precise Temperature Control:** Live cultures are sensitive to heat. When culturing cashew milk yogurt, ensure the slow cooker doesn't get too warm (keep it between 105\u00b0F\u2013110\u00b0F / 40\u00b0C\u201343\u00b0C), using the \"warm\" setting wrapped in towels or turning the unit off once the base is heated.\n* **Cool Before Adding Cultures:** Always let the cashew base cool below 110\u00b0F before whisking in your starter culture so you do not kill the beneficial bacteria.\n* **Straining for Thickness:** Cashew yogurt doesn't separate whey in the exact same manner as dairy milk, but using a fine nut milk bag or multiple layers of cheesecloth in a colander will help remove excess liquid and achieve a thick, creamy consistency.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 860,
+    "by_type": {
+      "plan": 9,
+      "episode": 221,
+      "preference": 151,
+      "fact": 438,
+      "task": 40,
+      "decision": 1
+    },
+    "by_status": {
+      "active": 860
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2530980,
+    "output_tokens": 122120,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "I've been struggling with my slow cooker recipes. Any advice on getting better results?"
+    ],
+    "retrieve_time_ms": 6463.459381018765,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "648fd6fb-4146-48d5-aeac-046b4ac407d2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request for hiking gear and boots",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 1/22]\nUser: I'm planning a hike next weekend and I'm looking for some advice on what to p"
+      },
+      {
+        "id": "70540ac9-d411-413c-87d7-088c131244c4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hiking gear advice for Mount Tamalpais-style hike",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 2/22]\n(in reply to) User: I'm planning a hike next weekend and I'm looking for some advic"
+      },
+      {
+        "id": "1988e247-7138-49bc-8cd0-e498ef95174e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking packing advice checklist",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 3/22]\n(in reply to) User: I'm planning a hike next weekend and I'm looking for some advic"
+      },
+      {
+        "id": "2d1051b8-c203-49cb-8d8e-52426fe0d864",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking packing advice for Mount Tamalpais",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 4/22]\n(in reply to) User: I'm planning a hike next weekend and I'm looking for some advic"
+      },
+      {
+        "id": "545c1774-5139-4225-9f11-9f4a6c453f1f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Camping trip food recommendations request",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 5/22]\nUser: I'm actually planning to do a camping trip soon, similar to the one I did at "
+      },
+      {
+        "id": "0663ccba-2be2-457c-a014-67d86fd1ad48",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Camping food recommendations (meal planning tips)",
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 6/22]\n(in reply to) User: I'm actually planning to do a camping trip soon, similar to the"
+      },
+      {
+        "id": "d1f2767b-be46-4e08-9209-ac0e833a133d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 7/22]\n(in reply to) User: I'm actually planning to do a camping trip soon, similar to the"
+      },
+      {
+        "id": "afb77e78-dea7-478a-b311-036bca9dbeae",
+        "score": 0.4044,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 8/22]\n(in reply to) User: I'm actually planning to do a camping trip soon, similar to the"
+      },
+      {
+        "id": "4eb5cc06-62ac-4da9-a561-a9ad3745e2b7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 9/22]\n(in reply to) User: I'm actually planning to do a camping trip soon, similar to the"
+      },
+      {
+        "id": "0ff31b4a-cf15-4d68-ae80-dda7558683cd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 10/22]\n(in reply to) User: I'm actually planning to do a camping trip soon, similar to th"
+      },
+      {
+        "id": "066976df-cda2-4ad9-9478-fa2ff21dd91f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 11/22]\nUser: I'm actually planning a trip similar to my previous camping trip to Big Sur,"
+      },
+      {
+        "id": "9c242f1c-a145-4a5b-b30c-4dcd2f115cc1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 12/22]\n(in reply to) User: I'm actually planning a trip similar to my previous camping tr"
+      },
+      {
+        "id": "80169c6f-c993-4139-bd02-512801108f9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 13/22]\n(in reply to) User: I'm actually planning a trip similar to my previous camping tr"
+      },
+      {
+        "id": "ae642d2e-4cf3-4f75-a839-4fc792d0fa9f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 14/22]\n(in reply to) User: I'm actually planning a trip similar to my previous camping tr"
+      },
+      {
+        "id": "be6e473c-0dbb-41c0-af87-e1ed7118dbe7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 15/22]\nUser: I was thinking of bringing my portable power bank to keep my devices charged"
+      },
+      {
+        "id": "a2fca325-82fe-43a2-ba7f-5ac0013eea96",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 16/22]\n(in reply to) User: I was thinking of bringing my portable power bank to keep my d"
+      },
+      {
+        "id": "9430392c-5971-4a42-b1ae-2eff2176b102",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 17/22]\n(in reply to) User: I was thinking of bringing my portable power bank to keep my d"
+      },
+      {
+        "id": "98435de0-c7c5-4024-bbe0-054a04ab3c57",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 18/22]\n(in reply to) User: I was thinking of bringing my portable power bank to keep my d"
+      },
+      {
+        "id": "fa18b5c3-e097-432a-b96d-4163920fad8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 19/22]\nUser: I've had a similar experience with my portable power bank on my previous cam"
+      },
+      {
+        "id": "27453fc7-5d0e-43df-ac89-56c16756dce0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 20/22]\nUser: I actually tried to take some astrophotography shots during my camping trip "
+      },
+      {
+        "id": "43f8a921-3444-422a-b3ea-ae52ed8b0eb4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 21/22]\n(in reply to) User: I actually tried to take some astrophotography shots during my"
+      },
+      {
+        "id": "afab4d6f-4dd4-4562-b37b-809185fd0bce",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T12:08:00+00:00 | context: Session 5d221a6dce0a - happened on 2023-05-20 12:08:00 UTC. | turn 22/22]\n(in reply to) User: I actually tried to take some astrophotography shots during my"
+      },
+      {
+        "id": "94cac210-cd55-4969-951c-a8dcb3f8d4de",
+        "score": 0.3929,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 1/23]\nUser: I'm looking for some healthy lunch ideas that are high in protein to support "
+      },
+      {
+        "id": "e002fb3e-ef9d-4c44-a90e-3f037dbdd539",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 2/23]\n(in reply to) User: I'm looking for some healthy lunch ideas that are high in prote"
+      },
+      {
+        "id": "6d9b8145-cdac-40cd-8f70-64ce7d69c8c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 3/23]\n(in reply to) User: I'm looking for some healthy lunch ideas that are high in prote"
+      },
+      {
+        "id": "ebcdb866-d6b9-4905-8f13-de931160cb5b",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 4/23]\n(in reply to) User: I'm looking for some healthy lunch ideas that are high in prote"
+      },
+      {
+        "id": "df7836e6-bc52-4919-9343-1f660456826d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 5/23]\nUser: I'd like to know if there are any specific fruits or vegetables that are high"
+      },
+      {
+        "id": "9269ce13-392a-428e-8b48-b8f7b81b91bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 6/23]\n(in reply to) User: I'd like to know if there are any specific fruits or vegetables"
+      },
+      {
+        "id": "558696b3-4ef4-437d-ba3f-194531cfa8ec",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 7/23]\n(in reply to) User: I'd like to know if there are any specific fruits or vegetables"
+      },
+      {
+        "id": "31191b89-1ed0-4f24-accd-1ddc421c0fe7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 8/23]\nUser: I see some interesting options there, especially the guavas and durian. I've "
+      },
+      {
+        "id": "c6ef1da1-ffce-4a4d-bb37-a414166d5152",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 9/23]\n(in reply to) User: I see some interesting options there, especially the guavas and"
+      },
+      {
+        "id": "ed5b3b5c-e185-4235-82d4-1f8247594c47",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 10/23]\n(in reply to) User: I see some interesting options there, especially the guavas an"
+      },
+      {
+        "id": "20ef573b-f4bd-4651-b58d-a4084249ca32",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 11/23]\n(in reply to) User: I see some interesting options there, especially the guavas an"
+      },
+      {
+        "id": "fdbf0fb6-5d89-401a-a63f-138095188d48",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 12/23]\nUser: I'm thinking of adding some guava to my morning oatmeal for a protein and fi"
+      },
+      {
+        "id": "ee296e38-0b0d-43ee-8445-241f17dcc6bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 13/23]\n(in reply to) User: I'm thinking of adding some guava to my morning oatmeal for a "
+      },
+      {
+        "id": "5458baec-9fa6-44ef-90c1-59e8b0e998f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 14/23]\n(in reply to) User: I'm thinking of adding some guava to my morning oatmeal for a "
+      },
+      {
+        "id": "301fc112-cac9-4f09-91fe-12fc237e67c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 15/23]\n(in reply to) User: I'm thinking of adding some guava to my morning oatmeal for a "
+      },
+      {
+        "id": "dd0d4ef3-191a-4c29-b3dc-14ff496529d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 16/23]\nUser: I'm thinking of taking my guava oatmeal to the next level by adding some nut"
+      },
+      {
+        "id": "9c7c510a-89a5-45ce-97f5-69e50e1cb9c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 17/23]\n(in reply to) User: I'm thinking of taking my guava oatmeal to the next level by a"
+      },
+      {
+        "id": "bfb5f523-c6f4-47fd-a074-a59698444203",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 18/23]\n(in reply to) User: I'm thinking of taking my guava oatmeal to the next level by a"
+      },
+      {
+        "id": "b0e593e9-d27c-4972-9d64-f59a421ca4d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 19/23]\n(in reply to) User: I'm thinking of taking my guava oatmeal to the next level by a"
+      },
+      {
+        "id": "b0e95452-8ff9-4cc3-a8d1-bdf2ba051754",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 20/23]\nUser: I'm thinking of adding some hemp seeds to my guava oatmeal for an extra boos"
+      },
+      {
+        "id": "0c17cf3a-42d8-4777-b636-a116e35acd46",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 21/23]\n(in reply to) User: I'm thinking of adding some hemp seeds to my guava oatmeal for"
+      },
+      {
+        "id": "c8928c83-24ed-4681-b87b-f99d6d917a97",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 22/23]\n(in reply to) User: I'm thinking of adding some hemp seeds to my guava oatmeal for"
+      },
+      {
+        "id": "b7c299a7-be6b-47db-b41d-8f04de14d855",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T10:24:00+00:00 | context: Session 9ed578ec9656 - happened on 2023-05-21 10:24:00 UTC. | turn 23/23]\n(in reply to) User: I'm thinking of adding some hemp seeds to my guava oatmeal for"
+      },
+      {
+        "id": "4440e7a0-5f4a-4941-92e1-b29114037be6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice request: help Whiskers lose weight",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 1/29]\nUser: I need some advice on how to help Whiskers lose weight. What are some fun and"
+      },
+      {
+        "id": "dceee03a-820e-4569-9e12-8975681e238c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on helping Whiskers lose weight",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 2/29]\n(in reply to) User: I need some advice on how to help Whiskers lose weight. What ar"
+      },
+      {
+        "id": "7bccb747-5443-49b4-b70b-93823a327ab7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fun exercise ideas for Whiskers weight loss",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 3/29]\n(in reply to) User: I need some advice on how to help Whiskers lose weight. What ar"
+      },
+      {
+        "id": "e169bf1b-eb6a-4c94-aed0-475e3feb3bce",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fun ways to encourage cat exercise for weight loss",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 4/29]\n(in reply to) User: I need some advice on how to help Whiskers lose weight. What ar"
+      },
+      {
+        "id": "a1562ba1-50f5-4779-80fe-c346374ac548",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fun exercise ideas for Whiskers weight loss",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 5/29]\n(in reply to) User: I need some advice on how to help Whiskers lose weight. What ar"
+      },
+      {
+        "id": "38add6c4-9abe-4042-8d05-740dfdbda9f0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Budget-friendly cat toy recommendations request",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 6/29]\nUser: I've been playing with Whiskers using that laser pointer toy she loves, and i"
+      },
+      {
+        "id": "a38d6f67-69cb-430b-b3bc-d09273d17db9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about affordable cat toy recommendations",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 7/29]\n(in reply to) User: I've been playing with Whiskers using that laser pointer toy sh"
+      },
+      {
+        "id": "e5d5c121-dfea-4988-86da-d1ef6df8848f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Affordable cat toy recommendations",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 8/29]\n(in reply to) User: I've been playing with Whiskers using that laser pointer toy sh"
+      },
+      {
+        "id": "d921106a-6603-47e5-a407-72e86456d29d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cat toy recommendations and play tips for Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 9/29]\n(in reply to) User: I've been playing with Whiskers using that laser pointer toy sh"
+      },
+      {
+        "id": "99c440a9-5eca-4206-9016-e3ce8e9d63b2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for affordable scratching post recommendations",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 10/29]\nUser: I'm thinking of getting Whiskers a new scratching post, do you have any reco"
+      },
+      {
+        "id": "5ca612e4-4801-4e7e-9bc2-2da8907ce780",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Affordable scratching post recommendations for Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 11/29]\n(in reply to) User: I'm thinking of getting Whiskers a new scratching post, do you"
+      },
+      {
+        "id": "29588882-c628-4d2a-b966-1699a1e3af8b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for an affordable scratching post for Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 12/29]\n(in reply to) User: I'm thinking of getting Whiskers a new scratching post, do you"
+      },
+      {
+        "id": "27df9c4a-865a-4ae0-a081-d9aa2b5f9592",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cat scratching post recommendation guidance",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 13/29]\n(in reply to) User: I'm thinking of getting Whiskers a new scratching post, do you"
+      },
+      {
+        "id": "da95ad51-f088-4f18-a062-d449723fc8cc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for durable chew-resistant dog toys",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 14/29]\nUser: I'm also thinking about getting Max a new toy, something that'll keep him oc"
+      },
+      {
+        "id": "06ca410e-cf37-4468-b925-f21b56dfaf9d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dog toy recommendations for Max",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 15/29]\n(in reply to) User: I'm also thinking about getting Max a new toy, something that'"
+      },
+      {
+        "id": "5d9c8518-913a-4dfd-bd09-97345886f976",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Durable dog toy recommendations for aggressive chewers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 16/29]\n(in reply to) User: I'm also thinking about getting Max a new toy, something that'"
+      },
+      {
+        "id": "f18de060-c9ef-4b1d-b762-68b776731af9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Durable dog toy recommendations for Max",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 17/29]\n(in reply to) User: I'm also thinking about getting Max a new toy, something that'"
+      },
+      {
+        "id": "ae2f7b76-3ebc-47ca-bbe1-58f458ce758c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on durable dog toys and orthopedic bed supervision",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 18/29]\n(in reply to) User: I'm also thinking about getting Max a new toy, something that'"
+      },
+      {
+        "id": "9ffa2b85-fd57-4cf0-ab5c-12494c616641",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for safe weight loss for pet Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 19/29]\nUser: I'm thinking of taking Whiskers to the vet for a follow-up check-up, just to"
+      },
+      {
+        "id": "f1664ceb-f597-4a6d-b32c-13f0201ac513",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Vet follow-up for Whiskers weight loss check-up",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 20/29]\n(in reply to) User: I'm thinking of taking Whiskers to the vet for a follow-up che"
+      },
+      {
+        "id": "c2eae254-e43e-41b5-9f4c-bc6289192860",
+        "score": 0.3935,
+        "memory_type": "fact",
+        "title": "Tips for safe, effective pet weight loss",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 21/29]\n(in reply to) User: I'm thinking of taking Whiskers to the vet for a follow-up che"
+      },
+      {
+        "id": "ad12e272-6659-4869-a337-c7cf8fa55b00",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for safe weight loss for Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 22/29]\n(in reply to) User: I'm thinking of taking Whiskers to the vet for a follow-up che"
+      },
+      {
+        "id": "e2153c52-d208-4f6f-80c6-3b3b6fe35d03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for safe cat weight loss and vet follow-up prep",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 23/29]\n(in reply to) User: I'm thinking of taking Whiskers to the vet for a follow-up che"
+      },
+      {
+        "id": "5bd1be7b-42bc-4c7b-b8a8-832b178917b1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Vet follow-up and safe weight-loss tips for Whiskers",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 24/29]\n(in reply to) User: I'm thinking of taking Whiskers to the vet for a follow-up che"
+      },
+      {
+        "id": "caad96f1-f25e-41c0-9b82-f6ab81c38b20",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request for Whiskers dental health",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 25/29]\nUser: I'm thinking of asking my vet about Whiskers' dental health during our next "
+      },
+      {
+        "id": "76b43a37-9c8e-4539-aa0e-472cb392aded",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Whiskers dental health and vet visit",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 26/29]\n(in reply to) User: I'm thinking of asking my vet about Whiskers' dental health du"
+      },
+      {
+        "id": "c865e84e-f0a4-4150-8e3d-5bebc6128250",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cat dental care guidance (check-ups, brushing, chews, diet)",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 27/29]\n(in reply to) User: I'm thinking of asking my vet about Whiskers' dental health du"
+      },
+      {
+        "id": "1d9d46b0-9ac0-4af4-9af8-bd2db08bf916",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on Whiskers dental health and water quality",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 28/29]\n(in reply to) User: I'm thinking of asking my vet about Whiskers' dental health du"
+      },
+      {
+        "id": "ea39b1c3-073f-4db4-88ea-fa5d77c77589",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for brushing a cat's teeth (Whiskers)",
+        "text": "[date: 2023-05-24T09:15:00+00:00 | context: Session 33bcd97aaae5 - happened on 2023-05-24 09:15:00 UTC. | turn 29/29]\n(in reply to) User: I'm thinking of asking my vet about Whiskers' dental health du"
+      },
+      {
+        "id": "f64c812c-4dfa-45e3-af2f-34699efc5923",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interactive toy ideas for pet exercise/weight loss",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 1/28]\nUser: I'm thinking of getting Luna some new toys to encourage her to exercise more."
+      },
+      {
+        "id": "fa206be2-3b6d-4ae0-9904-4a0ce0a26fc8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends interactive cat toys for exercise/weight loss",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 2/28]\n(in reply to) User: I'm thinking of getting Luna some new toys to encourage her to "
+      },
+      {
+        "id": "577f55e3-35e8-4552-97ff-789e3f0dc8af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Interactive cat toy recommendations for exercise/weight loss",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 3/28]\n(in reply to) User: I'm thinking of getting Luna some new toys to encourage her to "
+      },
+      {
+        "id": "5e8d0a6e-11ac-45d2-a89c-71729c76f28e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Interactive cat toy suggestions (scratching posts)",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 4/28]\n(in reply to) User: I'm thinking of getting Luna some new toys to encourage her to "
+      },
+      {
+        "id": "1bf99c04-6dda-4813-a062-758f8a57a5d7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Rotate cat toys and use treat-hunt games for activity",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 5/28]\n(in reply to) User: I'm thinking of getting Luna some new toys to encourage her to "
+      },
+      {
+        "id": "b18ff677-0416-41e5-a91b-4e8a005208e0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips request for hiding treats to challenge dog Luna",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 6/28]\nUser: What do you think about the idea of hiding treats or kibble around the house "
+      },
+      {
+        "id": "83786595-d786-41ed-84a8-d05b4d14b908",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for cat food hunting (scatter feeding)",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 7/28]\n(in reply to) User: What do you think about the idea of hiding treats or kibble aro"
+      },
+      {
+        "id": "ee7d6c08-32df-40c3-a486-49b536f8a8e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for hiding treats to encourage a cat to hunt",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 8/28]\n(in reply to) User: What do you think about the idea of hiding treats or kibble aro"
+      },
+      {
+        "id": "9c771940-56d7-4a4d-95af-04097af9af5b",
+        "score": 0.3899,
+        "memory_type": "preference",
+        "title": "Tips for hiding treats to encourage a cat to hunt",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 9/28]\n(in reply to) User: What do you think about the idea of hiding treats or kibble aro"
+      },
+      {
+        "id": "219456fd-3e1b-4b75-b246-b15a62e1fe1f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making treat-hunt games more challenging for Luna",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 10/28]\n(in reply to) User: What do you think about the idea of hiding treats or kibble ar"
+      },
+      {
+        "id": "0f3cb9a9-e26e-4501-a886-ce0c374bfd86",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for cat food hunting supervision and portioning",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 11/28]\n(in reply to) User: What do you think about the idea of hiding treats or kibble ar"
+      },
+      {
+        "id": "ab334eca-b1c7-4316-9e77-b8c004bffba0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans treat-hiding game for Luna",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 12/28]\nUser: Those are some great tips! I think I'll start by hiding some treats around t"
+      },
+      {
+        "id": "f5136021-b17b-447a-9778-81879072ce84",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends treats for Luna food-hunting game",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 13/28]\n(in reply to) User: Those are some great tips! I think I'll start by hiding some t"
+      },
+      {
+        "id": "01ded686-7af5-4db8-a6a5-55167c3c2dea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cat treat recommendations for hide-and-seek game",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 14/28]\n(in reply to) User: Those are some great tips! I think I'll start by hiding some t"
+      },
+      {
+        "id": "6aeca670-9f4f-4b1a-9fc4-1fbd6b85169c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Treat recommendations for cat food-hunting game (Luna)",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 15/28]\n(in reply to) User: Those are some great tips! I think I'll start by hiding some t"
+      },
+      {
+        "id": "d91fcd78-c512-4c6b-9bf6-565dc158fa46",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Using freeze-dried chicken strips as dog treats",
+        "text": "[date: 2023-05-24T16:20:00+00:00 | context: Session c5d80aebe418 - happened on 2023-05-24 16:20:00 UTC. | turn 16/28]\nUser: I think I'll try using the freeze-dried chicken strips as the treats. They'r"
+      },
+      {
+        "id": "6b4475ea-69b9-4675-a851-a4482ad82676",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants low-caffeine coffee recipes for morning routine",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 1/24]\nUser: I'm trying to optimize my morning routine. Can you give me some ideas for new"
+      },
+      {
+        "id": "a9108e79-5322-4944-bfe6-df2531900312",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided low-caffeine coffee recipe ideas",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 2/24]\n(in reply to) User: I'm trying to optimize my morning routine. Can you give me some"
+      },
+      {
+        "id": "42ede6ff-47a5-45c6-9fc1-484066831338",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Low-caffeine coffee recipe ideas (half-caf, cascara, chicory)",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 3/24]\n(in reply to) User: I'm trying to optimize my morning routine. Can you give me some"
+      },
+      {
+        "id": "e170678e-5ff6-4304-8cd1-9711259f984a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Low-caffeine coffee recipe ideas (ginseng, honey, half-caf, oat milk)",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 4/24]\n(in reply to) User: I'm trying to optimize my morning routine. Can you give me some"
+      },
+      {
+        "id": "4eae931d-db66-44b4-ac1c-284701b3e7d2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Coffee recipe ideas for low-caffeine morning routine",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 5/24]\n(in reply to) User: I'm trying to optimize my morning routine. Can you give me some"
+      },
+      {
+        "id": "ef585b41-6c8e-400e-845f-3b587f54589c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes the sound of a cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 6/24]\nUser: I like the sound of the cascara latte. Do you have a simple recipe for it?"
+      },
+      {
+        "id": "2fe9a3b0-7de5-4b7f-a9d6-ad221dcd2470",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple cascara latte recipe (ingredients & steps)",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 7/24]\n(in reply to) User: I like the sound of the cascara latte. Do you have a simple rec"
+      },
+      {
+        "id": "c6bde025-d468-43a9-ba98-9f6ebd4c4aa3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple cascara latte recipe steps",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 8/24]\n(in reply to) User: I like the sound of the cascara latte. Do you have a simple rec"
+      },
+      {
+        "id": "73bed620-005c-4afe-8c6e-dd8b9eee2f9e",
+        "score": 0.3979,
+        "memory_type": "fact",
+        "title": "Simple cascara latte recipe tips",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 9/24]\n(in reply to) User: I like the sound of the cascara latte. Do you have a simple rec"
+      },
+      {
+        "id": "c1c3397d-5022-4152-b24e-7e45108480be",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate calories for cascara latte recipe",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 10/24]\nUser: How many calories would this cascara latte recipe have approximately?"
+      },
+      {
+        "id": "5106828c-6bf4-4d2c-94f8-48a7ba9043c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Approximate calories for a cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 11/24]\n(in reply to) User: How many calories would this cascara latte recipe have approxi"
+      },
+      {
+        "id": "47f6d5fb-428a-4ae4-87da-4848a1b07359",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for calorie estimate of cascara latte recipe",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 12/24]\n(in reply to) User: How many calories would this cascara latte recipe have approxi"
+      },
+      {
+        "id": "377edb93-4b8f-4f41-8334-c2b355852c55",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Breakfast ideas for cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 13/24]\nUser: Can you give me some suggestions for breakfast ideas that go well with the c"
+      },
+      {
+        "id": "89aa3f5c-5e5d-4007-bbf7-6cb026b03d23",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Breakfast ideas to pair with cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 14/24]\n(in reply to) User: Can you give me some suggestions for breakfast ideas that go w"
+      },
+      {
+        "id": "236093c1-a2f9-4553-ad01-c2e3d955061b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Breakfast ideas to pair with cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 15/24]\n(in reply to) User: Can you give me some suggestions for breakfast ideas that go w"
+      },
+      {
+        "id": "319637d3-5e5d-42ee-ba2e-82a7e855d7be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Breakfast ideas to pair with cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 16/24]\n(in reply to) User: Can you give me some suggestions for breakfast ideas that go w"
+      },
+      {
+        "id": "39c3fd24-37ed-4d55-85e9-80329aa737e0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Breakfast ideas for pairing with cascara latte",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 17/24]\n(in reply to) User: Can you give me some suggestions for breakfast ideas that go w"
+      },
+      {
+        "id": "b1296804-82ae-4bd4-9357-7c9928f97a11",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning workout routine request",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 18/24]\nUser: I think I'll try the avocado toast with a fried egg on top. Do you have any "
+      },
+      {
+        "id": "68b86ee8-bda8-4603-a458-8428cb3abc9b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for morning workout routine suggestions",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 19/24]\n(in reply to) User: I think I'll try the avocado toast with a fried egg on top. Do"
+      },
+      {
+        "id": "2610bd39-dd46-4502-95eb-4f34155c0d8a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Morning workout routine suggestions (7-minute, yoga, bodyweight, HIIT, walking)",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 20/24]\n(in reply to) User: I think I'll try the avocado toast with a fried egg on top. Do"
+      },
+      {
+        "id": "c82119eb-268a-461d-b847-b40279fb8d72",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Workout routine suggestions for morning schedule",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 21/24]\n(in reply to) User: I think I'll try the avocado toast with a fried egg on top. Do"
+      },
+      {
+        "id": "afe16180-9f9f-41b7-ae05-3b431b9ab813",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try the 7-minute workout",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 22/24]\nUser: Yes, I think I'll try the 7-minute workout."
+      },
+      {
+        "id": "4ae6c2d7-d08f-4086-a674-7b05792a6afa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests 7-minute workout routine",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 23/24]\n(in reply to) User: Yes, I think I'll try the 7-minute workout.\n\nAssistant: The 7-"
+      },
+      {
+        "id": "e8cb7ffd-8440-4ba6-beea-726291e9d736",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User agreed to try a 7-minute workout",
+        "text": "[date: 2023-05-28T22:04:00+00:00 | context: Session fdec92b8e836 - happened on 2023-05-28 22:04:00 UTC. | turn 24/24]\n(in reply to) User: Yes, I think I'll try the 7-minute workout.\n\n* Start slow and "
+      },
+      {
+        "id": "5290b465-ed54-4c35-a599-5222c09358fc",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft email for food blog: Show-Stopper Recipes",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 1/11]\nUser: As a food blogger, I am writing an email on the topic Show-Stopper Recipes. \n"
+      },
+      {
+        "id": "803d9e8a-7052-4fd8-8772-bd98f5043097",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Generated catchy email subject lines for show-stopper recipes",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 2/11]\n(in reply to) User: As a food blogger, I am writing an email on the topic Show-Stop"
+      },
+      {
+        "id": "a68b3ce2-ffdf-4cea-b53e-2b1bb7aa4532",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested ADA capitalization standards",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 3/11]\nUser: Please change capitalization to ADA standards\n\nAssistant: 1. Impress Friends "
+      },
+      {
+        "id": "7c294da0-6b6e-4b23-8dd6-14730570bc21",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant feedback on email subject line",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 4/11]\nUser: What about: Everyone Loves These! 10 Favorite Show-Stopper Recipes \u2b50\ufe0f\n\nAssist"
+      },
+      {
+        "id": "ff94afb1-0879-4f7e-a553-9cf30fe99d18",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Generated 10 recipe title ideas",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 5/11]\nUser: Can you come up with 10 more like it in length, tone, and message?\n\nAssistant"
+      },
+      {
+        "id": "18dfba52-0f78-474c-8840-5a4e46e1eacb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on email subject line format",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 6/11]\nUser: See the format of this one: Everyone Loves These! 10 Favorite Show-Stopper Re"
+      },
+      {
+        "id": "f75c1099-9f36-4db3-8a1a-2e6bdd939f9e",
+        "score": 0.4559,
+        "memory_type": "preference",
+        "title": "User requests more recipe subject lines in varied formats",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 7/11]\nUser: Good. I like those. Can you write some more in a different format? Priority o"
+      },
+      {
+        "id": "b84d9def-6148-469a-89fe-e14d21aebe85",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User said 'go on' (Session 293ee2f0f2ce)",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 8/11]\nUser: go on"
+      },
+      {
+        "id": "191f573c-3908-4ef0-b06f-f93683bb5a53",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on show-stopper recipes (presentation, ingredients, ambiance)",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 9/11]\n(in reply to) User: go on\n\nAssistant: * Sub-branches (continued):\n- Presentation: S"
+      },
+      {
+        "id": "287c59bf-e56f-4b76-a829-af63f2456264",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about show-stopper recipes",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 10/11]\n(in reply to) User: go on\n\n\t\t+ Planning: Show-stopper recipes can help to plan and"
+      },
+      {
+        "id": "d281ed60-0c70-4115-b0b3-31a860a8ae1d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Mind map on show-stopper recipes benefits",
+        "text": "[date: 2023-05-29T04:10:00+00:00 | context: Session 293ee2f0f2ce - happened on 2023-05-29 04:10:00 UTC. | turn 11/11]\nUser: keep going\n\nAssistant: and friends and create opportunities for bonding over"
+      },
+      {
+        "id": "c875718e-475b-4b49-8a80-25b47bb3040f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggest easy dinner party recipes for 8-10",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 1/26]\nUser: I'm planning a dinner party and need some help with recipes. Can you suggest "
+      },
+      {
+        "id": "5bdd35bb-ad10-46a6-9b6d-ce0fee3e377e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dinner party recipe suggestions for 8\u201310",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning a dinner party and need some help with recipes. Ca"
+      },
+      {
+        "id": "522bc91b-a3ef-48db-9b6c-76ef38f52792",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Easy group dinner party recipe suggestions",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning a dinner party and need some help with recipes. Ca"
+      },
+      {
+        "id": "95b2c2b2-38cc-4053-9dc9-9c32b06d99e5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Dinner party planning tips for group of 8-10",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning a dinner party and need some help with recipes. Ca"
+      },
+      {
+        "id": "e65bb624-0327-477a-8e17-35459a962e08",
+        "score": null,
+        "memory_type": "task",
+        "title": "Icebreaker ideas for dinner party",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 5/26]\nUser: Can you give me some ideas for a fun icebreaker game that I can play with my "
+      },
+      {
+        "id": "c03fa1ad-49a0-4c3d-86fa-0049de7af979",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided dinner party icebreaker game ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 6/26]\n(in reply to) User: Can you give me some ideas for a fun icebreaker game that I can"
+      },
+      {
+        "id": "2a076fdd-6b43-4f7d-9b56-738532821aba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Icebreaker game ideas: Two Truths and a Lie, Human Bingo, Name Game",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 7/26]\n(in reply to) User: Can you give me some ideas for a fun icebreaker game that I can"
+      },
+      {
+        "id": "adeda456-a2c4-4b71-be1c-3db3531f3e8f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party icebreaker game ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 8/26]\n(in reply to) User: Can you give me some ideas for a fun icebreaker game that I can"
+      },
+      {
+        "id": "e9727014-dae0-4d9f-a088-3c183926f552",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party icebreaker ideas (Table Topics, Word Chain)",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 9/26]\n(in reply to) User: Can you give me some ideas for a fun icebreaker game that I can"
+      },
+      {
+        "id": "21cb308d-9b58-438f-a203-7a88c67b16fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Icebreaker game ideas request (dinner party)",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 10/26]\n(in reply to) User: Can you give me some ideas for a fun icebreaker game that I ca"
+      },
+      {
+        "id": "93fe1b03-f111-4a14-ab8f-c3061c71f755",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create dinner party playlist recommendations",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 11/26]\nUser: That's a great list. Can you help me create a playlist for the dinner party?"
+      },
+      {
+        "id": "e007fe6f-e51e-4908-a5e7-0fd79966d592",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dinner party playlist genre and artist recommendations",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 12/26]\n(in reply to) User: That's a great list. Can you help me create a playlist for the"
+      },
+      {
+        "id": "201d89e2-5d4a-4a20-91a8-d0504635936d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party playlist structure and sample songs",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 13/26]\n(in reply to) User: That's a great list. Can you help me create a playlist for the"
+      },
+      {
+        "id": "52530fc8-0b0c-4267-b24f-9d9c43755329",
+        "score": 0.3956,
+        "memory_type": "preference",
+        "title": "Dinner party playlist preferences (2\u20133 hours, upbeat/mellow, no explicit)",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 14/26]\n(in reply to) User: That's a great list. Can you help me create a playlist for the"
+      },
+      {
+        "id": "f3583787-20cd-4910-ad88-cf250a06165f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggest wine and cocktail pairings for planned menu",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 15/26]\nUser: Can you suggest some good wine and cocktail options that would pair well wit"
+      },
+      {
+        "id": "7ea00065-a93c-4275-a14b-9288d2a3c863",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wine and cocktail pairing suggestions for dinner menu",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 16/26]\n(in reply to) User: Can you suggest some good wine and cocktail options that would"
+      },
+      {
+        "id": "93945433-8c36-498c-b5d1-e7488a8533cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wine pairings for lasagna, fajitas, salmon, and roasted vegetables",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 17/26]\n(in reply to) User: Can you suggest some good wine and cocktail options that would"
+      },
+      {
+        "id": "89655356-b7cf-4923-a798-f5efc7098637",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wine and cocktail pairing suggestions for a dinner menu",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 18/26]\n(in reply to) User: Can you suggest some good wine and cocktail options that would"
+      },
+      {
+        "id": "8888d11e-c75b-4df3-9513-7be7b1e70380",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants Instagram-worthy, creative cocktail/wine presentation ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 19/26]\nUser: Can you suggest some fun and creative ways to present the cocktails and wine"
+      },
+      {
+        "id": "a0f7105b-1515-4509-b532-80f0f828dbe6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested Instagram-worthy cocktail and wine presentation ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 20/26]\n(in reply to) User: Can you suggest some fun and creative ways to present the cock"
+      },
+      {
+        "id": "ecaab858-aa85-4e76-a2b7-4861591e655a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Ideas for Instagram-worthy cocktail and wine presentation",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 21/26]\n(in reply to) User: Can you suggest some fun and creative ways to present the cock"
+      },
+      {
+        "id": "7888e464-b5bc-4efb-8532-8e786aac888c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram-worthy cocktail and wine presentation ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 22/26]\n(in reply to) User: Can you suggest some fun and creative ways to present the cock"
+      },
+      {
+        "id": "81a31916-c429-4c59-9098-0a2b7746b58d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram-worthy cocktail and wine presentation ideas",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 23/26]\n(in reply to) User: Can you suggest some fun and creative ways to present the cock"
+      },
+      {
+        "id": "069a947c-347d-4d12-bef3-5dd1dc97a269",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan dinner party logistics: headcount and timing",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 24/26]\nUser: Let's plan the logistics for the dinner party. What's the headcount for the "
+      },
+      {
+        "id": "9c327dcd-793a-4747-b6c0-26f849570c43",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dinner party logistics: assumed 10 guests and 6\u201310 PM timing",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 25/26]\n(in reply to) User: Let's plan the logistics for the dinner party. What's the head"
+      },
+      {
+        "id": "9788ceeb-aada-4340-9a52-c9c39e3f2652",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Dinner party logistics: seating for 10 guests",
+        "text": "[date: 2023-05-29T05:44:00+00:00 | context: Session 138c59f32fdc - happened on 2023-05-29 05:44:00 UTC. | turn 26/26]\n(in reply to) User: Let's plan the logistics for the dinner party. What's the head"
+      },
+      {
+        "id": "75f28ba9-7852-42fa-9d12-5bab3a0522a6",
+        "score": 0.4618,
+        "memory_type": "preference",
+        "title": "Wants slow-cooker recipe recommendations",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 1/35]\nUser: I recently figured out how to use the slow cooker and made a delicious beef s"
+      },
+      {
+        "id": "075a1aba-f51b-4874-b028-3bdf7540a9f3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Slow cooker recipe recommendations conversation",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 2/35]\n(in reply to) User: I recently figured out how to use the slow cooker and made a de"
+      },
+      {
+        "id": "7853fa5e-9004-416a-bf2c-b1da48e1aac6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow cooker recipe recommendations (stews, curry, chili, comfort foods)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 3/35]\n(in reply to) User: I recently figured out how to use the slow cooker and made a de"
+      },
+      {
+        "id": "510fdd4a-cf24-47f5-874a-41039013dbb3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow cooker recipe recommendations (beef stew follow-ups)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 4/35]\n(in reply to) User: I recently figured out how to use the slow cooker and made a de"
+      },
+      {
+        "id": "fa56cc88-cd41-4300-9403-5979f9794806",
+        "score": null,
+        "memory_type": "task",
+        "title": "Slow cooker yogurt recipe request",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 5/35]\nUser: Do you have any recipes for making yogurt in a slow cooker?"
+      },
+      {
+        "id": "abd43a02-4ae4-4fc4-8fed-807e095c94b7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow cooker yogurt recipe (basic ingredients & steps)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 6/35]\n(in reply to) User: Do you have any recipes for making yogurt in a slow cooker?\n\nAs"
+      },
+      {
+        "id": "b3497a50-ddca-4061-b648-e6d190feb4c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow-cooker yogurt recipe steps and temperatures",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 7/35]\n(in reply to) User: Do you have any recipes for making yogurt in a slow cooker?\n\n1."
+      },
+      {
+        "id": "0ca141e8-512d-4c4b-9699-f397f1757c02",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow-cooker yogurt tips and variations",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 8/35]\n(in reply to) User: Do you have any recipes for making yogurt in a slow cooker?\n\n* "
+      },
+      {
+        "id": "dd835285-60c8-4b3f-97c6-c7b2908380d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: thermometer vs waiting to heat milk",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 9/35]\nUser: What's the difference between using a thermometer and just waiting for the 2-"
+      },
+      {
+        "id": "8a63dcad-cdcc-4c62-9587-124ff247c074",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Milk heating temperature guidance for yogurt (180\u2013185\u00b0F)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 10/35]\n(in reply to) User: What's the difference between using a thermometer and just wai"
+      },
+      {
+        "id": "521782f5-b8e3-4874-a3c3-149c5d304ac0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Thermometer vs waiting to heat milk for yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 11/35]\n(in reply to) User: What's the difference between using a thermometer and just wai"
+      },
+      {
+        "id": "e6a14bfb-44b3-4ef8-97d6-bf234ef3cbc9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yogurt heating without thermometer: 2\u20133 hours, cool to 110\u2013120\u00b0F",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 12/35]\n(in reply to) User: What's the difference between using a thermometer and just wai"
+      },
+      {
+        "id": "336bc3ba-fb3e-4438-b400-d5a03069946a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for vegetarian/vegan slow cooker recipes",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 13/35]\nUser: Can you give me some slow cooker recipes that are vegetarian or vegan? I've "
+      },
+      {
+        "id": "9e87165f-6fb1-4c73-8a45-4c8fa77b64ab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided vegetarian/vegan slow cooker recipe ideas",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 14/35]\n(in reply to) User: Can you give me some slow cooker recipes that are vegetarian o"
+      },
+      {
+        "id": "ebbce5a6-1f96-44d3-853d-30585b759d45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Slow cooker vegetarian/vegan recipe ideas",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 15/35]\n(in reply to) User: Can you give me some slow cooker recipes that are vegetarian o"
+      },
+      {
+        "id": "948628cf-038e-4bef-8794-fd73ca466271",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vegetarian/vegan slow cooker recipe guidance",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 16/35]\n(in reply to) User: Can you give me some slow cooker recipes that are vegetarian o"
+      },
+      {
+        "id": "b8ca17b8-b42b-444e-966e-502d7a8a9c9b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Ideas for vegan yogurt alternatives for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 17/35]\nUser: Can you give me some ideas for vegan yogurt alternatives that I can use as a"
+      },
+      {
+        "id": "81c39452-789c-47c5-8713-64b3d26672e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for vegan yogurt alternatives for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 18/35]\n(in reply to) User: Can you give me some ideas for vegan yogurt alternatives that "
+      },
+      {
+        "id": "8e15e05a-0050-4edb-994e-35705bebb6cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vegan yogurt alternatives for slow cooker yogurt base",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 19/35]\n(in reply to) User: Can you give me some ideas for vegan yogurt alternatives that "
+      },
+      {
+        "id": "435c2569-1681-4fe6-b16b-0dab44bb95bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vegan yogurt alternatives for slow cooker yogurt base",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 20/35]\n(in reply to) User: Can you give me some ideas for vegan yogurt alternatives that "
+      },
+      {
+        "id": "0b609466-29ff-4eb7-9181-6f4f169dacf6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for choosing vegan yogurt alternatives for slow cooker",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 21/35]\n(in reply to) User: Can you give me some ideas for vegan yogurt alternatives that "
+      },
+      {
+        "id": "d165f476-7e6e-482b-85ba-f5128503588a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ideas for flavorings/sweeteners for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 22/35]\nUser: Can you give me some ideas for flavorings and sweeteners that I can add to m"
+      },
+      {
+        "id": "5421621c-7415-4f3e-ac61-28dd6ea21e2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for flavorings and sweeteners for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 23/35]\n(in reply to) User: Can you give me some ideas for flavorings and sweeteners that "
+      },
+      {
+        "id": "4be3f50c-f014-47ca-a0e7-d13ee8eae96c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for flavorings and sweeteners for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 24/35]\n(in reply to) User: Can you give me some ideas for flavorings and sweeteners that "
+      },
+      {
+        "id": "96049c1f-7741-4015-b412-3e27b675523d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants tips for slow cooker cashew yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 25/35]\nUser: I want to try making a slow cooker yogurt with a cashew base. Can you give m"
+      },
+      {
+        "id": "335dc3d7-cc03-4fec-bb1e-42b91a174c5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cashew-soaked yogurt tips (soak/blend guidance)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 26/35]\n(in reply to) User: I want to try making a slow cooker yogurt with a cashew base. "
+      },
+      {
+        "id": "a29e02e4-e2c2-413a-9e15-ed897150e3d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for blending soaked cashews for slow-cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 27/35]\n(in reply to) User: I want to try making a slow cooker yogurt with a cashew base. "
+      },
+      {
+        "id": "0d86c8ef-aa6b-424c-b127-bd8d9bec5871",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for slow cooker cashew-based yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 28/35]\n(in reply to) User: I want to try making a slow cooker yogurt with a cashew base. "
+      },
+      {
+        "id": "291f80e1-e80e-42c1-947a-c9c3c60adcd2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for slow-cooker cashew yogurt (soak/blend consistency)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 29/35]\n(in reply to) User: I want to try making a slow cooker yogurt with a cashew base. "
+      },
+      {
+        "id": "55d5c59d-cf0c-4b4b-8b0c-542d56be4fd6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips for slow cooker cashew yogurt (soak/blend)",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 30/35]\nUser: So, I want to try making a slow cooker yogurt with a cashew base. Can you gi"
+      },
+      {
+        "id": "34596562-56c1-4bf0-8d5d-2cccdeb462d5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cashew-soaked blending tips for slow cooker yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 31/35]\n(in reply to) User: So, I want to try making a slow cooker yogurt with a cashew ba"
+      },
+      {
+        "id": "38144724-2e46-4df9-b50a-f3f753b70e8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making slow-cooker cashew-based yogurt",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 32/35]\n(in reply to) User: So, I want to try making a slow cooker yogurt with a cashew ba"
+      },
+      {
+        "id": "5b0dd2c0-02c3-4710-95f2-e9a6a14748f7",
+        "score": null,
+        "memory_type": "task",
+        "title": "Advice request: straining cashew mixture for smooth texture",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 33/35]\nUser: What's the best way to strain the cashew mixture to get a smooth consistency"
+      },
+      {
+        "id": "ecdfb11e-0e0d-4856-80ab-a7453b0b47ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Methods to strain cashew mixture for smooth consistency",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 34/35]\n(in reply to) User: What's the best way to strain the cashew mixture to get a smoo"
+      },
+      {
+        "id": "842c661b-721f-4d76-a4ad-23172f5be584",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for straining cashew mixture for smooth consistency",
+        "text": "[date: 2023-05-30T17:07:00+00:00 | context: Session bef8852ec87a - happened on 2023-05-30 17:07:00 UTC. | turn 35/35]\n(in reply to) User: What's the best way to strain the cashew mixture to get a smoo"
+      }
+    ]
+  },
+  "context": {
+    "chars": 103739,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25934)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 34794,
+    "prompt_tokens": 29879,
+    "completion_tokens": 2553,
+    "reasoning_tokens": 2362,
+    "generate_time_ms": 41257.317618932575,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 25125,
+        "completion_tokens": 171,
+        "reasoning_tokens": 863,
+        "total_tokens": 26159
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 640,
+        "completion_tokens": 618,
+        "reasoning_tokens": 328,
+        "total_tokens": 1586
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 448,
+        "completion_tokens": 565,
+        "reasoning_tokens": 391,
+        "total_tokens": 1404
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1821,
+        "completion_tokens": 512,
+        "reasoning_tokens": 508,
+        "total_tokens": 2841
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1845,
+        "completion_tokens": 687,
+        "reasoning_tokens": 272,
+        "total_tokens": 2804
+      }
+    ]
+  },
+  "failure_label": null
+}

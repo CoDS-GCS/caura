@@ -1,0 +1,1352 @@
+{
+  "question_id": "07b6f563",
+  "question_type": "single-session-preference",
+  "question": "Can you suggest some useful accessories for my phone?",
+  "gold_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+  "prediction": "Based on your iPhone 13 Pro and your previous preferences, here are some useful accessory suggestions tailored to your phone:\n\n1. **High-Quality Replacement Screen Protector:** A durable, high-grade screen protector to replace your cracked one and keep your iPhone 13 Pro display protected.\n2. **Wallet Case:** A protective phone wallet case, particularly from brands like OtterBox which you have shown interest in, to combine everyday phone protection with convenient card storage.\n3. **Qi-Certified Wireless Charging Power Bank:** A Qi-certified wireless power bank to give you the convenience of cable-free on-the-go charging for your iPhone 13 Pro. While you already own a portable power bank from Best Buy that works well, adding a wireless charging model would eliminate the need to carry charging cables.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 873,
+    "by_type": {
+      "fact": 410,
+      "episode": 259,
+      "preference": 160,
+      "task": 27,
+      "action": 3,
+      "plan": 14
+    },
+    "by_status": {
+      "active": 858,
+      "conflicted": 15
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2569239,
+    "output_tokens": 123966,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Can you suggest some useful accessories for my phone?"
+    ],
+    "retrieve_time_ms": 2412.121288012713,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "c14a0175-3ced-453f-956d-79550ec0af6f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers buying new keyboard; asks for recommendations",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 1/28]\nUser: I'm thinking of buying a new keyboard, something with more features and sound"
+      },
+      {
+        "id": "5a4b1ae6-0bbe-436d-8bfa-1491fbe02115",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Keyboard preferences and budget range",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 2/28]\nUser: I'm not really sure about the budget yet, but I'm thinking of spending around"
+      },
+      {
+        "id": "df15bb32-d571-45b1-b98e-e239e56a79f2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Keyboard recommendations for $500\u2013$1000 weighted keys with recording/USB",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 3/28]\n(in reply to) User: I'm not really sure about the budget yet, but I'm thinking of s"
+      },
+      {
+        "id": "2a3459f0-7ab4-4d9a-81b1-01c8236415e0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Keyboard options with weighted keys and USB recording",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 4/28]\n(in reply to) User: I'm not really sure about the budget yet, but I'm thinking of s"
+      },
+      {
+        "id": "17678a76-b08a-4845-b019-28535bc44e94",
+        "score": 0.4054,
+        "memory_type": "preference",
+        "title": "User preferences for piano/synth keyboard (budget, weighted keys, recording, USB",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 5/28]\n(in reply to) User: I'm not really sure about the budget yet, but I'm thinking of s"
+      },
+      {
+        "id": "359e69f5-cd51-46a5-9bad-1a53ab2ae770",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User starts ukulele lessons and asks for practice tips",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 6/28]\nUser: I'm still not sure about the keyboards, but I was thinking about my ukulele l"
+      },
+      {
+        "id": "44235b78-82ae-4a17-ba99-d9916213ee0b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided ukulele practice tips after user started lessons",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 7/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abou"
+      },
+      {
+        "id": "aaa58076-470e-49a1-b408-c7b264182ccb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ukulele practice tips (goals, warm-up, technique, chunks, tempo)",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 8/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abou"
+      },
+      {
+        "id": "4bcff46e-2372-4d9a-8444-c2392c2ea702",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ukulele practice tips: short daily practice and self-recording",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 9/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abou"
+      },
+      {
+        "id": "03aaf5c6-59fd-4958-806a-83c3783f35fd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User started ukulele lessons and asked for practice tips",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 10/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abo"
+      },
+      {
+        "id": "503ba406-0f8d-4706-ba58-fcb96d70b720",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ukulele practice tips: chords, metronome, progressions",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 11/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abo"
+      },
+      {
+        "id": "0faa2947-3ca5-4496-97c3-e4b70e1472e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ukulele practice tip: use a drone while changing chords",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 12/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abo"
+      },
+      {
+        "id": "e539336b-9633-48ff-bff1-03195003bc23",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Ukulele practice tips and questions about lessons",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 13/28]\n(in reply to) User: I'm still not sure about the keyboards, but I was thinking abo"
+      },
+      {
+        "id": "90dd17e4-febe-4f34-aeae-e95656825b03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for fingerpicking tips and advice",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 14/28]\nUser: I've been really enjoying the lessons, and I feel like I'm making good progr"
+      },
+      {
+        "id": "74f6524c-fcd0-4714-ab27-d43178bb9b51",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User feedback on fingerpicking progress and struggle",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 15/28]\n(in reply to) User: I've been really enjoying the lessons, and I feel like I'm mak"
+      },
+      {
+        "id": "f40169b7-312b-4684-a66a-59fcc3aec6eb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar fingerpicking tips: relax, independence, finger assignment",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 16/28]\n(in reply to) User: I've been really enjoying the lessons, and I feel like I'm mak"
+      },
+      {
+        "id": "6209efb7-310f-42dc-b8be-1d1162543ce1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fingerpicking practice tips (simple patterns, fingertip control, metronome)",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 17/28]\n(in reply to) User: I've been really enjoying the lessons, and I feel like I'm mak"
+      },
+      {
+        "id": "c5afeda7-6a80-4f0e-bff8-4a8cc2fd2a2f",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Fingerpicking practice tips (listen, vary rhythms, be patient)",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 18/28]\n(in reply to) User: I've been really enjoying the lessons, and I feel like I'm mak"
+      },
+      {
+        "id": "a7666114-df7b-4203-8eb1-7901d511c42f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on practicing fingerpicking consistently",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 19/28]\n(in reply to) User: I've been really enjoying the lessons, and I feel like I'm mak"
+      },
+      {
+        "id": "2170267b-5194-4b38-be49-92a7d763d471",
+        "score": null,
+        "memory_type": "task",
+        "title": "Service Taylor GS Mini with Guitar Central tech Joe",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 20/28]\nUser: I've been thinking about getting my Taylor GS Mini serviced, as the action i"
+      },
+      {
+        "id": "916578d6-ea29-4f58-9172-9cf01f20ef16",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to service Taylor GS Mini for comfort",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 21/28]\n(in reply to) User: I've been thinking about getting my Taylor GS Mini serviced, a"
+      },
+      {
+        "id": "1889700e-fd4e-46fc-ad19-78377c00275b",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to service Taylor GS Mini for high action discomfort",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 22/28]\n(in reply to) User: I've been thinking about getting my Taylor GS Mini serviced, a"
+      },
+      {
+        "id": "a376abc9-e095-4681-989d-9a93a55e0427",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GS Mini service checklist: electronics, joints, tuning machines",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 23/28]\n(in reply to) User: I've been thinking about getting my Taylor GS Mini serviced, a"
+      },
+      {
+        "id": "a830f1e7-4e61-4937-b0ec-8f9bcac22f02",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for getting Taylor GS Mini serviced",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 24/28]\n(in reply to) User: I've been thinking about getting my Taylor GS Mini serviced, a"
+      },
+      {
+        "id": "425fa8fa-0a30-48f5-baa9-35a322ddcc51",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering selling a Hohner Special 20 harmonica",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 25/28]\nUser: I've been thinking about selling my harmonica, a Hohner Special 20, too. I h"
+      },
+      {
+        "id": "c57cc6ba-0491-4ad8-8cfa-9a7087f9a847",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for pricing and photographing a used Hohner Special 20",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 26/28]\n(in reply to) User: I've been thinking about selling my harmonica, a Hohner Specia"
+      },
+      {
+        "id": "61ada2d6-c052-46b9-a8c6-ad006dc7578a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for pricing and listing a Hohner Special 20 harmonica",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 27/28]\n(in reply to) User: I've been thinking about selling my harmonica, a Hohner Specia"
+      },
+      {
+        "id": "50bdf663-2ac4-4770-9267-ddb656143b14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips given for pricing and listing a Hohner Special 20 harmonica",
+        "text": "[date: 2023-05-21T14:49:00+00:00 | context: Session a366f34268ba - happened on 2023-05-21 14:49:00 UTC. | turn 28/28]\n(in reply to) User: I've been thinking about selling my harmonica, a Hohner Specia"
+      },
+      {
+        "id": "5c876989-bc15-4068-b74d-b6c4bb4cb593",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outfit inspiration for styling new white ASOS sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 1/28]\nUser: I'm looking for some inspiration for my next outfit. Can you suggest some tre"
+      },
+      {
+        "id": "b05aa677-b3c6-4a76-8a14-b81301f3a6f2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Outfit styling ideas for new white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 2/28]\n(in reply to) User: I'm looking for some inspiration for my next outfit. Can you su"
+      },
+      {
+        "id": "720a9b86-6693-4855-994d-89f5d0165b13",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit ideas for styling white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 3/28]\n(in reply to) User: I'm looking for some inspiration for my next outfit. Can you su"
+      },
+      {
+        "id": "eebb27c2-7279-4fc9-9f38-5361ab75d19c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit styling ideas for white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 4/28]\n(in reply to) User: I'm looking for some inspiration for my next outfit. Can you su"
+      },
+      {
+        "id": "4988a367-84e3-44bb-84bf-369383d13992",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Nighttime chic styling for white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 5/28]\n(in reply to) User: I'm looking for some inspiration for my next outfit. Can you su"
+      },
+      {
+        "id": "2d830045-a13c-49e1-be51-7d6ebcc02773",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit inspiration for white ASOS sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 6/28]\n(in reply to) User: I'm looking for some inspiration for my next outfit. Can you su"
+      },
+      {
+        "id": "37217e04-34e4-45ec-a932-9ad16d15f6a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Streetwear-inspired outfit with graphic tees; handbag suggestion",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 7/28]\nUser: I love these ideas! I think I'll try the streetwear-inspired look with my new"
+      },
+      {
+        "id": "8edd6350-cbda-489a-b537-969b36cbdfa4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag suggestions for streetwear-inspired graphic tee outfit",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 8/28]\n(in reply to) User: I love these ideas! I think I'll try the streetwear-inspired lo"
+      },
+      {
+        "id": "a79f915a-0c25-4b79-9c48-5a263198ed65",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Streetwear outfit: handbag suggestions (Coach Parker)",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 9/28]\n(in reply to) User: I love these ideas! I think I'll try the streetwear-inspired lo"
+      },
+      {
+        "id": "6740032f-b07f-45cc-a80c-3bb00531e0cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Streetwear outfit: Coach Parker handbag suggestion",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 10/28]\n(in reply to) User: I love these ideas! I think I'll try the streetwear-inspired l"
+      },
+      {
+        "id": "4dcf4cbd-3b38-4435-9f99-d012af999cdb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling black high-waisted jeans with white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 11/28]\nUser: I actually just bought a new pair of black high-waisted jeans from Zara thre"
+      },
+      {
+        "id": "88832ab9-df24-4fd4-9516-e29219e4d795",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for styling tips for black high-waisted jeans",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 12/28]\n(in reply to) User: I actually just bought a new pair of black high-waisted jeans "
+      },
+      {
+        "id": "d0e20bea-df20-459c-bf12-d44fe21217d7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling suggestions for black high-waisted jeans with white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 13/28]\n(in reply to) User: I actually just bought a new pair of black high-waisted jeans "
+      },
+      {
+        "id": "ebc46d7d-4901-4ed1-9520-fcf6fed95282",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling suggestions for black high-waisted jeans with white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 14/28]\n(in reply to) User: I actually just bought a new pair of black high-waisted jeans "
+      },
+      {
+        "id": "76f15c66-5688-4dfb-9234-d345fe6e68a3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling suggestions for black high-waisted jeans",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 15/28]\n(in reply to) User: I actually just bought a new pair of black high-waisted jeans "
+      },
+      {
+        "id": "187ecf1b-be39-4b9e-9fa3-251ec8bf89b9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Accessorizing a yellow H&M sundress for brunch",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 16/28]\nUser: I'm thinking of wearing my new yellow sundress from H&M to a brunch with fri"
+      },
+      {
+        "id": "4bf47ef4-6f7e-4c76-8d4c-7a1b6c24be7a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestions for accessorizing a yellow H&M sundress",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 17/28]\n(in reply to) User: I'm thinking of wearing my new yellow sundress from H&M to a b"
+      },
+      {
+        "id": "3d8b85b4-bd69-4f12-a272-109a00da4078",
+        "score": 0.4349,
+        "memory_type": "preference",
+        "title": "Accessorizing a yellow H&M sundress for brunch",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 18/28]\n(in reply to) User: I'm thinking of wearing my new yellow sundress from H&M to a b"
+      },
+      {
+        "id": "23705428-cf34-44cb-99cd-794714416985",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Accessorizing a yellow H&M sundress for brunch",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 19/28]\n(in reply to) User: I'm thinking of wearing my new yellow sundress from H&M to a b"
+      },
+      {
+        "id": "ff826f39-eeef-42d3-85d2-ecd3d4c50861",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yellow sundress accessorizing suggestions",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 20/28]\n(in reply to) User: I'm thinking of wearing my new yellow sundress from H&M to a b"
+      },
+      {
+        "id": "eaa7c2c5-c7f1-418d-aa9f-071b73aed1f0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit idea: yellow sundress with white ASOS sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 21/28]\nUser: I'm thinking of wearing my yellow sundress with my new white sneakers from A"
+      },
+      {
+        "id": "e336ef68-d28d-4218-abe7-b0ee719e31b1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit pairing: yellow sundress with white ASOS sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 22/28]\n(in reply to) User: I'm thinking of wearing my yellow sundress with my new white s"
+      },
+      {
+        "id": "a480832f-5107-47e6-bf05-ce8821d90c12",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling advice: yellow sundress with white ASOS sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 23/28]\n(in reply to) User: I'm thinking of wearing my yellow sundress with my new white s"
+      },
+      {
+        "id": "2aa6a5a9-58ed-4ed1-9246-db0e0c895c3f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outfit pairing suggestions: yellow sundress + white sneakers",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 24/28]\n(in reply to) User: I'm thinking of wearing my yellow sundress with my new white s"
+      },
+      {
+        "id": "91679a20-57ca-49f5-8a89-efb2c97dde8c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Handbag suggestions request (Kate Spade/Michael Kors)",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 25/28]\nUser: I'm thinking of buying a new handbag, maybe something from Kate Spade or Mic"
+      },
+      {
+        "id": "a5f7dc34-ffd7-4816-bae3-0430bef0ed4b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag suggestions discussion (Kate Spade/Michael Kors)",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 26/28]\n(in reply to) User: I'm thinking of buying a new handbag, maybe something from Kat"
+      },
+      {
+        "id": "080c9536-059c-48fd-a701-7d1230957f8a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Handbag style suggestions (Kate Spade & Michael Kors)",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 27/28]\n(in reply to) User: I'm thinking of buying a new handbag, maybe something from Kat"
+      },
+      {
+        "id": "1fd40cfa-8ee0-4b86-ba9d-5a1612297262",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Handbag style suggestions (neutral, structured, size, materials)",
+        "text": "[date: 2023-05-22T03:30:00+00:00 | context: Session b64b12f100e9 - happened on 2023-05-22 03:30:00 UTC. | turn 28/28]\n(in reply to) User: I'm thinking of buying a new handbag, maybe something from Kat"
+      },
+      {
+        "id": "c0279d97-7277-4505-8430-cab521f06f1a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift idea: pair pan with technique-focused cookbook",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 17/23]\n(in reply to) User: I think I'll pair it with a cookbook focused on cooking techni"
+      },
+      {
+        "id": "563a8f83-ca71-463f-bf59-edf793609dc9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift card idea for Sur La Table",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 18/23]\nUser: I was thinking of adding a gift card to Sur La Table, so my friend can pick "
+      },
+      {
+        "id": "a007b43c-97a7-4808-9e0d-2403dd901af9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion: Sur La Table gift card for kitchen tools",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 19/23]\n(in reply to) User: I was thinking of adding a gift card to Sur La Table, so my fr"
+      },
+      {
+        "id": "302d8e03-0322-4067-b8ce-9d7b32929477",
+        "score": 0.3923,
+        "memory_type": "preference",
+        "title": "Gift card suggestion for Sur La Table ($25\u2013$50)",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 20/23]\n(in reply to) User: I was thinking of adding a gift card to Sur La Table, so my fr"
+      },
+      {
+        "id": "8cdeef3b-7ca2-435c-a662-bda2cda682de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers visiting new Crossroads Trading Co. thrift store",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 21/23]\nUser: I'm actually thinking of checking out that new Crossroads Trading Co. thrift"
+      },
+      {
+        "id": "cf6c2b31-ecf8-4288-8908-ddb4b5e2b9c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about visiting Crossroads Trading Co. thrift store",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 22/23]\n(in reply to) User: I'm actually thinking of checking out that new Crossroads Trad"
+      },
+      {
+        "id": "443d2f16-275f-4aaa-b1d6-b7913dfb9a16",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Thrift store shopping ideas for Crossroads Trading Co.",
+        "text": "[date: 2023-05-22T21:41:00+00:00 | context: Session bade39deda3d - happened on 2023-05-22 21:41:00 UTC. | turn 23/23]\n(in reply to) User: I'm actually thinking of checking out that new Crossroads Trad"
+      },
+      {
+        "id": "41726450-b1ec-4164-a311-d3941eac0949",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend PS5 gaming headsets",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 1/24]\nUser: I'm looking to get some gaming accessories for my new PS5, which I just got f"
+      },
+      {
+        "id": "655da9b1-3d15-4f70-a947-d280fafbd12c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "PS5 gaming headset recommendations (budget to high-end)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking to get some gaming accessories for my new PS5, whic"
+      },
+      {
+        "id": "4568360c-e298-43c8-84d2-a0fe62fb0580",
+        "score": 0.3948,
+        "memory_type": "fact",
+        "title": "PS5 gaming headset recommendations (Pulse 3D, Astro A50)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking to get some gaming accessories for my new PS5, whic"
+      },
+      {
+        "id": "8de70a52-30da-4d6d-80fa-0e6772e4e351",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check SteelSeries Arctis 5 compatibility with PS5 and find deals",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 4/24]\nUser: I'm interested in the SteelSeries Arctis 5, but I'm not sure if it's compatib"
+      },
+      {
+        "id": "e10aae84-adbd-405c-8dcf-8ec4b65a7b1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SteelSeries Arctis 5 compatibility with PS5",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 5/24]\n(in reply to) User: I'm interested in the SteelSeries Arctis 5, but I'm not sure if"
+      },
+      {
+        "id": "ae0e10eb-2613-40ca-a5a0-85a2bb2e1677",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided PS5 compatibility and retailer pricing for SteelSeries Arctis 5",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 6/24]\n(in reply to) User: I'm interested in the SteelSeries Arctis 5, but I'm not sure if"
+      },
+      {
+        "id": "b87b6aca-aff1-41dd-9c08-36743562170d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "PS5 compatibility and bundle/discount inquiry for SteelSeries Arctis 5",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 7/24]\n(in reply to) User: I'm interested in the SteelSeries Arctis 5, but I'm not sure if"
+      },
+      {
+        "id": "177452c5-a147-4d38-b9ee-9c8c0c96d6bb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a 4K gaming monitor for PS5",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 8/24]\nUser: I'm also considering getting a new gaming monitor to go with my PS5. Do you h"
+      },
+      {
+        "id": "c51a0d89-e076-44d0-bcbd-aeb6b17276db",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for 4K PS5 gaming monitor specs",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 9/24]\n(in reply to) User: I'm also considering getting a new gaming monitor to go with my"
+      },
+      {
+        "id": "ae54f4a3-b746-498b-8447-d6948f3ef2b4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gaming monitor recommendations for PS5 (4K/HDMI 2.1)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 10/24]\n(in reply to) User: I'm also considering getting a new gaming monitor to go with m"
+      },
+      {
+        "id": "fbea0016-3fdf-4fe3-aeac-f9f26fc4a9c0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidelines for choosing a 4K PS5 gaming monitor",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 11/24]\n(in reply to) User: I'm also considering getting a new gaming monitor to go with m"
+      },
+      {
+        "id": "2b8c5692-1ce1-45b5-82f4-dac7572c925e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants comfortable, affordable gaming chair matching PS5 aesthetic",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 12/24]\nUser: I'm thinking of getting a gaming chair to complete my gaming setup. Do you h"
+      },
+      {
+        "id": "759d412b-b6fd-402c-ba45-bff48855956f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gaming chair recommendations for PS5 aesthetic",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 13/24]\n(in reply to) User: I'm thinking of getting a gaming chair to complete my gaming s"
+      },
+      {
+        "id": "5269c139-75b0-4c4f-8dd8-76a751e4cc47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming chair recommendations (black/white) for PS5 setup",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 14/24]\n(in reply to) User: I'm thinking of getting a gaming chair to complete my gaming s"
+      },
+      {
+        "id": "a60fd927-14f7-4dda-9969-912b4b61122f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Furmax gaming chair recommendation (black/white, $149)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 15/24]\n(in reply to) User: I'm thinking of getting a gaming chair to complete my gaming s"
+      },
+      {
+        "id": "b46e9251-b544-4b6f-85f0-1fd015fabc41",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gaming chair recommendations for PS5 aesthetic",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 16/24]\n(in reply to) User: I'm thinking of getting a gaming chair to complete my gaming s"
+      },
+      {
+        "id": "f4feddd8-1621-4ab0-8941-150c97947117",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a sturdy, affordable gaming desk",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 17/24]\nUser: I'm thinking of getting a gaming desk to go with my new gaming chair. Do you"
+      },
+      {
+        "id": "c1289149-1023-431a-8131-09aef3303496",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gaming desk recommendations discussion (sturdy/affordable)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 18/24]\n(in reply to) User: I'm thinking of getting a gaming desk to go with my new gaming"
+      },
+      {
+        "id": "1810325d-6202-4b59-a322-021c5de27853",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming desk recommendations (sturdy, affordable options)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 19/24]\n(in reply to) User: I'm thinking of getting a gaming desk to go with my new gaming"
+      },
+      {
+        "id": "c1b0a775-ea53-4f51-abdb-767075c595a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming desk recommendation criteria (size, material, adjustability, reviews)",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 20/24]\n(in reply to) User: I'm thinking of getting a gaming desk to go with my new gaming"
+      },
+      {
+        "id": "01bbeb8f-f7b5-4ae7-8559-2ffe9abb8149",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a gaming keyboard for PS5 setup",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 21/24]\nUser: I'm thinking of getting a gaming keyboard to complete my gaming setup. Do yo"
+      },
+      {
+        "id": "8892cddd-12cf-4073-aea3-5b978d2b318d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming keyboard recommendations for PS5 setup",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 22/24]\n(in reply to) User: I'm thinking of getting a gaming keyboard to complete my gamin"
+      },
+      {
+        "id": "07cdfb8b-faf2-46f9-bd46-a874c0eaabcd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming keyboard recommendations for PS5 setup",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 23/24]\n(in reply to) User: I'm thinking of getting a gaming keyboard to complete my gamin"
+      },
+      {
+        "id": "09ae9ef7-6b2e-41b5-ab2f-5cf7edb8d1c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming keyboard recommendations for PS5 setup",
+        "text": "[date: 2023-05-25T20:51:00+00:00 | context: Session 9a308b559027 - happened on 2023-05-25 20:51:00 UTC. | turn 24/24]\n(in reply to) User: I'm thinking of getting a gaming keyboard to complete my gamin"
+      },
+      {
+        "id": "25591769-a2f9-4ff4-bbb4-db66d4961290",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks lifestyle tips to lower blood pressure",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 1/29]\nUser: I've been trying to get more active and take better care of my health lately."
+      },
+      {
+        "id": "d4920c18-dc0f-42a2-baef-46ee1ad4a116",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for tips to lower blood pressure using Omron EVOLV",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 2/29]\n(in reply to) User: I've been trying to get more active and take better care of my "
+      },
+      {
+        "id": "20b614f6-a53a-409d-bbe9-add13ee85bf6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips to lower blood pressure (exercise, DASH, sodium, potassium)",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 3/29]\n(in reply to) User: I've been trying to get more active and take better care of my "
+      },
+      {
+        "id": "3451b729-3d8c-4a27-8b61-a2acb528e97d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips to lower blood pressure (weight, stress, sleep, alcohol, smoking, c",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 4/29]\n(in reply to) User: I've been trying to get more active and take better care of my "
+      },
+      {
+        "id": "0b20895b-3482-4e66-ba90-518c0b125716",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General health tips: calcium/vitamin D and hydration for BP",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 5/29]\n(in reply to) User: I've been trying to get more active and take better care of my "
+      },
+      {
+        "id": "3502b4b8-b449-4538-8edb-1a9578bd72ac",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User sought tips to lower blood pressure using Omron EVOLV",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 6/29]\n(in reply to) User: I've been trying to get more active and take better care of my "
+      },
+      {
+        "id": "b230a77e-ef29-4528-bd16-f8790486c94e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants motivation tips to meet daily steps",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 7/29]\nUser: I'm actually trying to increase my physical activity too, but I've been slack"
+      },
+      {
+        "id": "02acea12-8485-4d99-882e-65beed250209",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for increasing physical activity and meeting Fitbit step goal",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 8/29]\n(in reply to) User: I'm actually trying to increase my physical activity too, but I"
+      },
+      {
+        "id": "bbc7a90b-4c60-4235-8364-8bc9f1ac38e3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for increasing daily physical activity and steps",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 9/29]\n(in reply to) User: I'm actually trying to increase my physical activity too, but I"
+      },
+      {
+        "id": "ebf5056b-2360-4acb-9e11-0641b2328186",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for increasing daily physical activity with Fitbit",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 10/29]\n(in reply to) User: I'm actually trying to increase my physical activity too, but "
+      },
+      {
+        "id": "da2970be-3d7a-47c2-acb4-d9140963cc7f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for increasing physical activity with Fitbit",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 11/29]\n(in reply to) User: I'm actually trying to increase my physical activity too, but "
+      },
+      {
+        "id": "248318c9-7e8f-44c6-8fba-7d223e77de85",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to get back on daily step goal",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 12/29]\n(in reply to) User: I'm actually trying to increase my physical activity too, but "
+      },
+      {
+        "id": "cf6d17f7-cb0b-4d84-85c8-da1492543a12",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans longer lunch walks and asks about home BP checks",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 13/29]\nUser: I'm actually thinking of taking a longer walk during my lunch break to get m"
+      },
+      {
+        "id": "017513a6-a0ef-4ed0-826e-6332a412cd54",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Incorporate more walking during lunch breaks",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 14/29]\n(in reply to) User: I'm actually thinking of taking a longer walk during my lunch "
+      },
+      {
+        "id": "511cc0ad-f0b4-4f44-b81a-31db7ddbfc52",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Blood pressure monitoring guidance",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 15/29]\n(in reply to) User: I'm actually thinking of taking a longer walk during my lunch "
+      },
+      {
+        "id": "fddfc322-399a-48d1-8201-ad1481064e4e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans longer lunch walks for more steps",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 16/29]\n(in reply to) User: I'm actually thinking of taking a longer walk during my lunch "
+      },
+      {
+        "id": "39493559-3286-43cf-a5b2-407e158b95fa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitbit Charge 4 replacement band recommendation request",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 17/29]\nUser: I also need to replace the band on my Fitbit Charge 4, the original one has "
+      },
+      {
+        "id": "6d6b74c6-38bd-4c55-a093-77e4ee67b6b3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitbit Charge 4 band replacement recommendations",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 18/29]\n(in reply to) User: I also need to replace the band on my Fitbit Charge 4, the ori"
+      },
+      {
+        "id": "94fb047a-4e68-4640-a91d-57f70d157c96",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for Fitbit Charge 4 replacement bands",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 19/29]\n(in reply to) User: I also need to replace the band on my Fitbit Charge 4, the ori"
+      },
+      {
+        "id": "d023a793-0596-4b26-8fdd-d2d3d593a545",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Charge 4 replacement band recommendation (Bayite)",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 20/29]\n(in reply to) User: I also need to replace the band on my Fitbit Charge 4, the ori"
+      },
+      {
+        "id": "dda5441a-0545-4b14-9620-ace5101966c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Charge 4 replacement band selection factors",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 21/29]\n(in reply to) User: I also need to replace the band on my Fitbit Charge 4, the ori"
+      },
+      {
+        "id": "e5c095da-9b8c-4be2-ac25-998ba2b4ed3f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Consider screen protector for Fitbit Charge 4",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 22/29]\nUser: I think I'll take a look at the official Fitbit bands first, since I want to"
+      },
+      {
+        "id": "28351e4c-f977-4a70-bb7e-c1c434ec23ab",
+        "score": 0.4003,
+        "memory_type": "fact",
+        "title": "Advice on Fitbit Charge 4 screen protectors",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 23/29]\n(in reply to) User: I think I'll take a look at the official Fitbit bands first, s"
+      },
+      {
+        "id": "42fc8d30-5cd3-48d7-a5f1-5a115cb8734a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for Fitbit Charge 4 screen protector selection",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 24/29]\n(in reply to) User: I think I'll take a look at the official Fitbit bands first, s"
+      },
+      {
+        "id": "3542e8b5-f43d-4603-89a0-fa60a91cb28c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for Fitbit Charge 4 screen protectors",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 25/29]\n(in reply to) User: I think I'll take a look at the official Fitbit bands first, s"
+      },
+      {
+        "id": "170f5b92-a10b-47e1-8645-0d1ddfee502f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Consider case/cover for Omron EVOLV blood pressure monitor",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 26/29]\nUser: I'll take a look at the official Fitbit screen protectors and see what they "
+      },
+      {
+        "id": "db5c2200-cbe0-4fee-a93f-bfa186943821",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Fitbit screen protectors and Omron EVOLV cover",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 27/29]\n(in reply to) User: I'll take a look at the official Fitbit screen protectors and "
+      },
+      {
+        "id": "2705847b-34f5-4a08-aabf-65080159a281",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on protecting Omron EVOLV with case/cover",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 28/29]\n(in reply to) User: I'll take a look at the official Fitbit screen protectors and "
+      },
+      {
+        "id": "44ff9655-93d1-4c4c-8347-14d62ef232fb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for protecting Omron EVOLV monitor",
+        "text": "[date: 2023-05-27T08:29:00+00:00 | context: Session 911a9bf92c5a - happened on 2023-05-27 08:29:00 UTC. | turn 29/29]\n(in reply to) User: I'll take a look at the official Fitbit screen protectors and "
+      },
+      {
+        "id": "c9fd220b-ed7c-4a1e-aafd-b27e46044679",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 1/35]\nUser: I'm looking for a new screen protector to replace the cracked one on my iPhon"
+      },
+      {
+        "id": "6a8910f1-9686-47bb-a58b-958d98dd4473",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended iPhone 13 Pro screen protector brands",
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 2/35]\n(in reply to) User: I'm looking for a new screen protector to replace the cracked o"
+      },
+      {
+        "id": "6043246d-3cfc-4c20-9d28-1606c4d6690f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 3/35]\n(in reply to) User: I'm looking for a new screen protector to replace the cracked o"
+      },
+      {
+        "id": "d152ea52-6f5a-4625-9d29-3edf068388b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 4/35]\n(in reply to) User: I'm looking for a new screen protector to replace the cracked o"
+      },
+      {
+        "id": "cdb3eb0e-e956-4d1b-8763-36dbcf093b36",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 5/35]\n(in reply to) User: I'm looking for a new screen protector to replace the cracked o"
+      },
+      {
+        "id": "45ebc994-a5d8-4709-81a6-4aebfa5c8e06",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 6/35]\nUser: I'm also looking for a phone wallet case. Can you recommend some good brands "
+      },
+      {
+        "id": "91005524-8ffb-473e-aad7-346ae1f0b89a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 7/35]\n(in reply to) User: I'm also looking for a phone wallet case. Can you recommend som"
+      },
+      {
+        "id": "85e443d8-866c-49c7-ba41-f8d6ae7bcdbd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 8/35]\n(in reply to) User: I'm also looking for a phone wallet case. Can you recommend som"
+      },
+      {
+        "id": "4c67215b-a63a-42f2-825a-b94e8d507e71",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 9/35]\n(in reply to) User: I'm also looking for a phone wallet case. Can you recommend som"
+      },
+      {
+        "id": "c9678106-7046-4485-9892-b0dfbf954308",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 10/35]\n(in reply to) User: I'm also looking for a phone wallet case. Can you recommend so"
+      },
+      {
+        "id": "23df179d-7815-4cf1-9aab-f1f0b6407c8d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 11/35]\n(in reply to) User: I'm also looking for a phone wallet case. Can you recommend so"
+      },
+      {
+        "id": "04764684-8354-4d46-b656-e29c8fc7b413",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 12/35]\nUser: What do you think about the OtterBox wallet case? I've heard good things abo"
+      },
+      {
+        "id": "bebccb38-f372-4fa7-bcc4-e23201d34075",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 13/35]\n(in reply to) User: What do you think about the OtterBox wallet case? I've heard g"
+      },
+      {
+        "id": "b89ecf24-cf7f-4c8e-97ec-bad17cb7b5e6",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 14/35]\n(in reply to) User: What do you think about the OtterBox wallet case? I've heard g"
+      },
+      {
+        "id": "6a52c259-72fd-4c6b-894f-1c3b12357997",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 15/35]\n(in reply to) User: What do you think about the OtterBox wallet case? I've heard g"
+      },
+      {
+        "id": "e79241b9-8ad6-488c-8441-405ee036f464",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 16/35]\n(in reply to) User: What do you think about the OtterBox wallet case? I've heard g"
+      },
+      {
+        "id": "c80bfff6-7884-41e6-91e2-14896e54139e",
+        "score": 0.4406,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 17/35]\nUser: I'm also interested in getting a portable power bank to charge my phone on-t"
+      },
+      {
+        "id": "6fed8c98-f013-4c1b-bb6d-7cc9019aecef",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 18/35]\n(in reply to) User: I'm also interested in getting a portable power bank to charge"
+      },
+      {
+        "id": "9d3baee4-aa35-405f-bd03-185f07ed193c",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 19/35]\n(in reply to) User: I'm also interested in getting a portable power bank to charge"
+      },
+      {
+        "id": "77c09105-d75d-4bd0-b967-d05f74071b2d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 20/35]\n(in reply to) User: I'm also interested in getting a portable power bank to charge"
+      },
+      {
+        "id": "1104a39a-4be4-44d1-a601-3210ea41bea4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 21/35]\n(in reply to) User: I'm also interested in getting a portable power bank to charge"
+      },
+      {
+        "id": "12203928-cdef-44bc-b95d-4172af995dbb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 22/35]\nUser: I actually already have a portable power bank from Best Buy, and it's been w"
+      },
+      {
+        "id": "13aadb9d-9c70-4c24-8e4c-efc6f84d1b76",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 23/35]\n(in reply to) User: I actually already have a portable power bank from Best Buy, a"
+      },
+      {
+        "id": "4ead1a6c-0fa7-4a96-a564-f00642721f77",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 24/35]\n(in reply to) User: I actually already have a portable power bank from Best Buy, a"
+      },
+      {
+        "id": "ca5c2f37-28be-4d4e-a748-457e38a9220a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 25/35]\n(in reply to) User: I actually already have a portable power bank from Best Buy, a"
+      },
+      {
+        "id": "96539d6d-efa6-4e67-8273-b6c457907156",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 26/35]\n(in reply to) User: I actually already have a portable power bank from Best Buy, a"
+      },
+      {
+        "id": "40ef61c3-34bc-4a14-829b-c2049a651447",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 27/35]\nUser: I'm thinking of getting a wireless charging power bank, but I'm not sure if "
+      },
+      {
+        "id": "ef495abc-9f1c-4c9e-9731-fde588d7b5e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 28/35]\n(in reply to) User: I'm thinking of getting a wireless charging power bank, but I'"
+      },
+      {
+        "id": "507626db-922b-4178-8ac2-ed6f282e12a0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 29/35]\n(in reply to) User: I'm thinking of getting a wireless charging power bank, but I'"
+      },
+      {
+        "id": "394084d4-779f-433a-9a2e-390c7162d724",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 30/35]\n(in reply to) User: I'm thinking of getting a wireless charging power bank, but I'"
+      },
+      {
+        "id": "d3062c06-4aa6-4117-a7d8-0e3e436b6187",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 31/35]\nUser: I think I'll consider getting a wireless charging power bank. It seems like "
+      },
+      {
+        "id": "27afc8d8-32a5-4099-92dc-f8c5f418a3cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 32/35]\n(in reply to) User: I think I'll consider getting a wireless charging power bank. "
+      },
+      {
+        "id": "ad87e483-61c7-4d84-9053-1a829e11e0f3",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 33/35]\n(in reply to) User: I think I'll consider getting a wireless charging power bank. "
+      },
+      {
+        "id": "f13eb211-30bc-48c2-9c5b-3d90667ee910",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 34/35]\n(in reply to) User: I think I'll consider getting a wireless charging power bank. "
+      },
+      {
+        "id": "00449cdd-866c-4fff-bc91-600bc07f0d63",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T13:52:00+00:00 | context: Session 7ff63eab3c3f - happened on 2023-05-27 13:52:00 UTC. | turn 35/35]\n(in reply to) User: I think I'll consider getting a wireless charging power bank. "
+      },
+      {
+        "id": "19cab396-84e9-4323-a414-6015dcdacd29",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Healthy, protein-rich lunch ideas + 30-min walk habit",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 1/28]\nUser: I'm looking for some healthy lunch ideas that can help support my muscle grow"
+      },
+      {
+        "id": "8ee2deed-0a48-42b2-a5f6-4efdaa59c694",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Healthy high-protein lunch ideas for muscle growth (no chicken/eggs)",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 2/28]\n(in reply to) User: I'm looking for some healthy lunch ideas that can help support "
+      },
+      {
+        "id": "cac3d6a2-089b-441f-852c-ebed8f478828",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy high-protein lunch ideas (turkey wrap, lentil soup, tuna sandwich, parfa",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 3/28]\n(in reply to) User: I'm looking for some healthy lunch ideas that can help support "
+      },
+      {
+        "id": "73b321fb-4c0d-4930-a242-065a9f2315e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy high-protein lunch ideas (salmon, chickpea salad, smoothie, etc.)",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 4/28]\n(in reply to) User: I'm looking for some healthy lunch ideas that can help support "
+      },
+      {
+        "id": "f57c6e5b-0b69-4645-8cc2-514579c613e4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Healthy lunch ideas and hydration advice (May 30, 2023)",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 5/28]\n(in reply to) User: I'm looking for some healthy lunch ideas that can help support "
+      },
+      {
+        "id": "bd4a6254-21fd-4c7e-a728-2575380c4386",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Request for morning pre-workout snack ideas",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 6/28]\nUser: Can you suggest some pre-workout snacks that can help boost my energy levels,"
+      },
+      {
+        "id": "9e49e9cc-54a8-4b56-aa03-218d20241aaf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested pre-workout snacks for morning gym energy",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 7/28]\n(in reply to) User: Can you suggest some pre-workout snacks that can help boost my "
+      },
+      {
+        "id": "c83053f2-04b1-4d31-9fb9-532052a6086c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-workout morning snack suggestions",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 8/28]\n(in reply to) User: Can you suggest some pre-workout snacks that can help boost my "
+      },
+      {
+        "id": "ab9f20d1-d09a-4aa3-afb4-e4aa7524393f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-workout morning snack suggestions (energy boost)",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 9/28]\n(in reply to) User: Can you suggest some pre-workout snacks that can help boost my "
+      },
+      {
+        "id": "0ac70f52-3a64-4efd-8f54-5952e60da0fc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Pre-workout snack timing and hydration guidance",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 10/28]\n(in reply to) User: Can you suggest some pre-workout snacks that can help boost my"
+      },
+      {
+        "id": "5e062e0c-9d5f-4124-a8c6-c0a35c4778d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about benefits of adding spinach to protein shake",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 11/28]\nUser: I see you've provided a lot of options. I'm particularly interested in the p"
+      },
+      {
+        "id": "28bd7d73-ba89-4986-b1e1-119274e27e73",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Explained benefits of adding spinach to protein shake",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 12/28]\n(in reply to) User: I see you've provided a lot of options. I'm particularly inter"
+      },
+      {
+        "id": "542f61e4-36e8-439b-aa86-7d12fb645109",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of adding spinach to a protein shake",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 13/28]\n(in reply to) User: I see you've provided a lot of options. I'm particularly inter"
+      },
+      {
+        "id": "62ed49f1-7010-4efa-bacb-fc53f2cc8972",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of adding spinach to a protein shake",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 14/28]\n(in reply to) User: I see you've provided a lot of options. I'm particularly inter"
+      },
+      {
+        "id": "8be11925-a251-4a6a-a9b4-549d14094bf7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of adding spinach to a protein shake",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 15/28]\n(in reply to) User: I see you've provided a lot of options. I'm particularly inter"
+      },
+      {
+        "id": "b3d0cca8-940b-4558-a6c6-668ff2b15197",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants low-sugar, natural protein powder recommendations",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 16/28]\nUser: That's really helpful, thanks! I'll definitely give the spinach and banana p"
+      },
+      {
+        "id": "0d370de9-cae4-4495-81c8-e509e04d1fce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for choosing low-sugar natural protein powder",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 17/28]\n(in reply to) User: That's really helpful, thanks! I'll definitely give the spinac"
+      },
+      {
+        "id": "35d99db0-7a0c-45cd-b7c7-1b424638829b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Protein powder recommendations with low sugar options",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 18/28]\n(in reply to) User: That's really helpful, thanks! I'll definitely give the spinac"
+      },
+      {
+        "id": "5bb619a4-b805-4803-8f0d-7a34943b2fc1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for low-sugar natural protein powder recommendations",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 19/28]\n(in reply to) User: That's really helpful, thanks! I'll definitely give the spinac"
+      },
+      {
+        "id": "a1c1b4d8-6630-4caa-8cc1-e76b3f3ed29e",
+        "score": 0.3978,
+        "memory_type": "preference",
+        "title": "User considering an easy-to-use fitness tracker",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 20/28]\nUser: I'm thinking of getting a fitness tracker to help me stay on top of my daily"
+      },
+      {
+        "id": "4df03e74-364c-42ec-8955-f68f64efa967",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness tracker recommendations discussion",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 21/28]\n(in reply to) User: I'm thinking of getting a fitness tracker to help me stay on t"
+      },
+      {
+        "id": "03db2a31-2462-484e-bc8f-f62ac7e3be4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitness tracker recommendations (Fitbit Inspire HR, Garmin Vivosport, etc.)",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 22/28]\n(in reply to) User: I'm thinking of getting a fitness tracker to help me stay on t"
+      },
+      {
+        "id": "cde0fa83-2b3f-45bd-8f83-70f90496f4f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Polar M430 fitness tracker features",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 23/28]\n(in reply to) User: I'm thinking of getting a fitness tracker to help me stay on t"
+      },
+      {
+        "id": "a2a2e5a5-e54d-44f7-a177-1da0ffebff45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for choosing an easy-to-use fitness tracker",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 24/28]\n(in reply to) User: I'm thinking of getting a fitness tracker to help me stay on t"
+      },
+      {
+        "id": "bdb1650f-2a99-4517-99b5-d72d352c8eb4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Fitbit Inspire HR features",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 25/28]\nUser: I'm interested in the Fitbit Inspire HR. Can you tell me more about its feat"
+      },
+      {
+        "id": "a2cb1ade-206b-4902-8b6d-54eb69b2be85",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Inspire HR features for step, heart rate, exercise, sleep tracking",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 26/28]\n(in reply to) User: I'm interested in the Fitbit Inspire HR. Can you tell me more "
+      },
+      {
+        "id": "f9fb1e58-6a31-45ac-8c97-27f57b1f6943",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Inspire HR feature overview (sleep, goals, notifications, water resistanc",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 27/28]\n(in reply to) User: I'm interested in the Fitbit Inspire HR. Can you tell me more "
+      },
+      {
+        "id": "72291e6d-f9dd-4495-a0e4-8f5aa37009a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Inspire HR overview for step and fitness tracking",
+        "text": "[date: 2023-05-30T08:44:00+00:00 | context: Session 9a35ad9b8d30 - happened on 2023-05-30 08:44:00 UTC. | turn 28/28]\n(in reply to) User: I'm interested in the Fitbit Inspire HR. Can you tell me more "
+      }
+    ]
+  },
+  "context": {
+    "chars": 98741,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24685)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 27619,
+    "prompt_tokens": 25203,
+    "completion_tokens": 743,
+    "reasoning_tokens": 1673,
+    "generate_time_ms": 20925.28584098909,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23119,
+        "completion_tokens": 182,
+        "reasoning_tokens": 691,
+        "total_tokens": 23992
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 645,
+        "completion_tokens": 166,
+        "reasoning_tokens": 252,
+        "total_tokens": 1063
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 453,
+        "completion_tokens": 177,
+        "reasoning_tokens": 378,
+        "total_tokens": 1008
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 986,
+        "completion_tokens": 218,
+        "reasoning_tokens": 352,
+        "total_tokens": 1556
+      }
+    ]
+  },
+  "failure_label": null
+}

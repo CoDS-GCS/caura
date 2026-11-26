@@ -1,0 +1,642 @@
+{
+  "overall_accuracy": 0.3,
+  "total_questions": 60,
+  "correct_questions": 18,
+  "by_question_type": {
+    "single-session-user": {
+      "accuracy": 1.0,
+      "total": 10,
+      "correct": 10
+    },
+    "multi-session": {
+      "accuracy": 0.5,
+      "total": 10,
+      "correct": 5
+    },
+    "single-session-preference": {
+      "accuracy": 0.2,
+      "total": 10,
+      "correct": 2
+    },
+    "temporal-reasoning": {
+      "accuracy": 0.0,
+      "total": 10,
+      "correct": 0
+    },
+    "knowledge-update": {
+      "accuracy": 0.1,
+      "total": 10,
+      "correct": 1
+    },
+    "single-session-assistant": {
+      "accuracy": 0.0,
+      "total": 10,
+      "correct": 0
+    }
+  },
+  "judge_model": "gpt-4o",
+  "judge_model_resolved": "gpt-4o-2024-08-06",
+  "judge_prompts": "official LongMemEval evaluate_qa.py task-specific templates, unmodified",
+  "results": [
+    {
+      "question_id": "94f70d80",
+      "question": "How long did it take me to assemble the IKEA bookshelf?",
+      "gold_answer": "4 hours",
+      "hypothesis": "It took you 4 hours to assemble the IKEA bookshelf.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "75499fd8",
+      "question": "What breed is my dog?",
+      "gold_answer": "Golden Retriever",
+      "hypothesis": "Your dog, Max, is a Golden Retriever.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "c960da58",
+      "question": "How many playlists do I have on Spotify?",
+      "gold_answer": "20",
+      "hypothesis": "You have 20 playlists on Spotify.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "ad7109d1",
+      "question": "What speed is my new internet plan?",
+      "gold_answer": "500 Mbps",
+      "hypothesis": "Your new internet plan has a speed of 500 Mbps.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "21436231",
+      "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+      "gold_answer": "12",
+      "hypothesis": "You caught 12 largemouth bass on your last trip to Lake Michigan.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "726462e0",
+      "question": "What was the discount I got on my first purchase from the new clothing brand?",
+      "gold_answer": "10%",
+      "hypothesis": "You received a 10% discount on your first purchase from the new clothing brand.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "3d86fd0a",
+      "question": "Where did I meet Sophia?",
+      "gold_answer": "a coffee shop in the city",
+      "hypothesis": "You met Sophia at a coffee shop in the city.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "36580ce8",
+      "question": "What health issue did I initially think was just a cold?",
+      "gold_answer": "bronchitis",
+      "hypothesis": "The health issue you initially thought was just a cold was a bad case of bronchitis.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "15745da0_abs",
+      "question": "How long have I been collecting vintage films?",
+      "gold_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+      "hypothesis": "Based on your chat history, you haven't mentioned collecting vintage films (or how long you have been doing so). \n\nHowever, you did mention that you are a huge film buff, and that you have been collecting **vintage cameras** for **three months**.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "0a995998",
+      "question": "How many items of clothing do I need to pick up or return from a store?",
+      "gold_answer": "3",
+      "hypothesis": "You have **1** item to pick up or return from a retail store (or **2** items total if including the dry cleaner):\n\n1. **A pair of boots from Zara** – You need to pick up the new exchanged pair (after exchanging/returning the original pair purchased on February 5 that was too small).\n2. **A navy blue blazer** – While not from a retail store, this item is waiting to be picked up from the dry cleaner.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "bc8a6e93_abs",
+      "question": "What did I bake for my uncle's birthday party?",
+      "gold_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+      "hypothesis": "The chat history does not mention baking anything for an uncle's birthday party (or an uncle's birthday party at all), though you did mention that you recently made a lemon blueberry cake for your niece's birthday party.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "10d9b85a",
+      "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+      "gold_answer": "3 days",
+      "hypothesis": "You spent 1 day attending workshops, lectures, and conferences in April: on April 10, you attended a lecture on sustainable development at the public library.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "6cb6f249",
+      "question": "How many days did I take social media breaks in total?",
+      "gold_answer": "17 days",
+      "hypothesis": "You took a total of 17 days of social media breaks. This includes:\n\n* A 7-day (week-long) break in mid-January\n* A 10-day break in mid-February",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_d12ceb0e",
+      "question": "What is the average age of me, my parents, and my grandparents?",
+      "gold_answer": "59.6",
+      "hypothesis": "The average age of you, your parents, and your grandparents is 59.6 years.\n\nThis is calculated from:\n- Your age: 32\n- Your mother's age: 55\n- Your father's age: 58\n- Your grandmother's age: 75\n- Your grandfather's age: 78\n\n(32 + 55 + 58 + 75 + 78) / 5 = 59.6 years",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "2ce6a0f2",
+      "question": "How many different art-related events did I attend in the past month?",
+      "gold_answer": "4",
+      "hypothesis": "In the past month (between February 8, 2023, and March 8, 2023), you attended **4** art-related events (or **3** if counting only strictly art-dedicated events, excluding the History Museum tour):\n\n1. **February 10, 2023:** The \"Women in Art\" exhibition featuring works by local artist Rachel Lee\n2. **February 17, 2023:** The \"Art Afternoon\" event at the Children's Museum\n3. **February 24, 2023:** A guided tour at the History Museum focused on ancient history and art (including ancient pottery)\n4. **March 3, 2023:** \"The Evolution of Street Art\" lecture at the Art Gallery",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "32260d93",
+      "question": "Can you recommend a show or movie for me to watch tonight?",
+      "gold_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+      "hypothesis": "Based on your interests, here are a few show and movie recommendations tailored to what you enjoy:\n\n### **Stand-Up Comedy (Storytelling-Driven)**\n* **John Mulaney: *Baby J*** or ***The Comeback Kid*** – Since you enjoyed *Kid Gorgeous*, his other specials deliver the same sharp, narrative-driven comedic style.\n* **Mike Birbiglia: *The New One*** – A masterclass in long-form, theatrical storytelling comedy that weaves a cohesive personal narrative from start to finish.\n* **Hasan Minhaj: *Homecoming King*** – Blends stand-up with deeply personal, theatrical storytelling and strong visual pacing.\n\n---\n\n### **True Crime**\n* **_Mindhunter_** – A gripping dramatic series following the FBI agents who pioneered modern criminal profiling and interviewed notorious serial killers.\n* **_The Jinx: The Life and Deaths of Robert Durst_** or **_Making a Murderer_** – Classic, suspenseful docuseries perfect for fans of immersive investigative true crime podcasts like *Crime Junkie*.\n* **_I’ll Be Gone in the Dark_** – An investigative docuseries tracing Michelle McNamara's investigation into the Golden State Killer.\n\n---\n\n### **Ancient History & Egypt Documentaries**\n* **_Secrets of the Saqqara Tomb_** – A feature documentary following a team of Egyptian archaeologists unearthing an untouched tomb and ancient artifacts.\n* **_The Pyramid Code_** or **_Immortal Egypt with Joann Fletcher_** – In-depth documentary series exploring the architectural marvels, construction, and cultural significance of the pyramids and monuments across ancient Egypt.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "edced276_abs",
+      "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+      "gold_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+      "hypothesis": "While you mentioned taking an island-hopping trip to Hawaii with your family, no duration or number of days was specified. Furthermore, a trip to Seattle is never mentioned in the chat history. Therefore, the total number of days you spent traveling in Hawaii and Seattle cannot be determined from the provided memories.",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "81507db6",
+      "question": "How many graduation ceremonies have I attended in the past three months?",
+      "gold_answer": "3",
+      "hypothesis": "You have attended **3** graduation ceremonies in the past three months:\n\n1. **Cousin Emma's preschool graduation ceremony** (attended approximately two months ago in May 2023).\n2. **Colleague Alex's leadership development program graduation** (attended a few weeks ago).\n3. **Rachel's graduation ceremony**.\n\n*(Note: You missed your nephew Jack's eighth-grade graduation ceremony the previous month and did not attend it.)*",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "195a1a1b",
+      "question": "Can you suggest some activities that I can do in the evening?",
+      "gold_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+      "hypothesis": "Based on your preferences and routine—wrapping up work around 6:00 pm to 6:30 pm and winding down by 9:30 pm—here are some evening activity suggestions tailored to your interests:\n\n* **Watch an indie film earlier in the evening:** Enjoy curating or watching an indie movie during the earlier part of your evening so you can keep your wind-down time screen-free.\n* **Creative art and acrylic painting:** Spend time painting with acrylics, experimenting with techniques you enjoy such as layering, drybrushing, or fabric stamping.\n* **Gentle yoga or stretching:** Practice a restorative or gentle yoga session to stretch, unwind, and support your balance, flexibility, and core strength after the workday.\n* **Journaling and deep breathing:** Take time to journal to process your thoughts and practice deep breathing exercises to release daily tension.\n* **Screen-free wind-down before 9:30 pm:** Transition away from screens and social media as you approach your 9:30 pm bedtime with relaxing, screen-free practices such as a body scan, visualization, or guided imagery meditation to prepare for a restful night of sleep.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "Yes.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "caf03d32",
+      "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+      "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+      "hypothesis": "You did not mention any information about your slow cooker recipes or preferences in the chat history.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "09d032c9",
+      "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+      "gold_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+      "hypothesis": "Based on the chat history, you have not mentioned any information or context regarding your phone or battery life.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "1da05512",
+      "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+      "gold_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+      "hypothesis": "You have not mentioned any information about buying a NAS device or your specific needs in our chat history.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "07b6f563",
+      "question": "Can you suggest some useful accessories for my phone?",
+      "gold_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+      "hypothesis": "Based on the chat history, you have not mentioned any information or preferences regarding your phone or desired accessories.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "b0479f84",
+      "question": "I've got some free time tonight, any documentary recommendations?",
+      "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "1c0ddc50",
+      "question": "Can you suggest some activities I can do during my commute to work?",
+      "gold_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+      "hypothesis": "You have not mentioned any details about your commute or interests in the chat history.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "0a34ad58",
+      "question": "I’m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+      "gold_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+      "hypothesis": "You have not mentioned any information or context regarding your trip or preferences in the chat history.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "77eafa52",
+      "question": "How much more did I have to pay for the trip after the initial quote?",
+      "gold_answer": "$300",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "7405e8b1",
+      "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+      "gold_answer": "Yes.",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "0ea62687",
+      "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+      "gold_answer": "2",
+      "hypothesis": "Based on the chat history, you have not mentioned any information about your car's miles per gallon.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_59149c77",
+      "question": "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?",
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "Based on the chat history, you have not mentioned the dates or details of your visits to the Museum of Modern Art (MoMA) or the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "35a27287",
+      "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+      "gold_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+      "hypothesis": "Because your specific location is not mentioned in our chat history, I cannot provide listings for a particular city. However, based on your interests, here are tailored recommendations and search strategies for cultural events you can look for in your area this upcoming weekend (June 3–4, 2023):\n\n1. **Local Theater & Plays:**\n   - **What to look for:** Upcoming productions or weekend matinees at local professional theater companies, repertory theaters, or performing arts centers, especially those staging classic dramas or new theater programs.\n   - **Search tip:** Check event calendars for local theater guilds or community arts centers.\n\n2. **Cultural Exchange & Language Diversity Festivals:**\n   - **What to look for:** Multi-ethnic heritage fairs, international food and folklore festivals, or community cultural exchange events celebrating linguistic and international diversity.\n   - **Search tip:** Look up municipal community boards, city tourism websites, or local university international student centers for weekend festivals.\n\n3. **French & Spanish Cultural Gatherings:**\n   - **What to look for:** Conversational French or Spanish language exchange meetups (often hosted in casual settings like cafés or parks), film screenings, or cultural gatherings highlighting French, Spanish, or Latin American/Colombian music, dance, and food.\n   - **Search tip:** Platforms like Meetup, local chapters of the Alliance Française, or Hispanic/Ibero-American cultural centers frequently schedule weekend conversation tables and cultural events.\n\n4. **Art Exhibitions & Workshops:**\n   - **What to look for:** Weekend beginner watercolor workshops, open studio days, or gallery exhibits featuring international, contemporary, or East Asian/Japanese-inspired art.\n   - **Search tip:** Review class schedules at nearby community centers, local art associations, or botanical gardens/galleries offering introductory weekend art classes.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_7ddcf75f",
+      "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+      "gold_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+      "hypothesis": "You did not mention going on a whitewater rafting trip in the Oregon mountains in the chat history.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_1d4ab0c9",
+      "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+      "gold_answer": "24 days. 25 days (including the last day) is also acceptable.",
+      "hypothesis": "Based on the provided chat history, you have not mentioned when you started watering your herb garden or when you harvested your first batch of fresh herbs.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_85da3956",
+      "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+      "gold_answer": "3 weeks ago",
+      "hypothesis": "Based on the chat history, you have not mentioned attending the \"Summer Nights\" festival at Universal Studios Hollywood, so I cannot determine how many weeks ago that was.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "71017277",
+      "question": "I received a piece of jewelry last Saturday from whom?",
+      "gold_answer": "my aunt",
+      "hypothesis": "Based on the chat history, you have not mentioned who gave you a piece of jewelry last Saturday.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "4dfccbf8",
+      "question": "What did I do with Rachel on the Wednesday two months ago?",
+      "gold_answer": "I started taking ukulele lessons with Rachel.",
+      "hypothesis": "Based on the chat history, you have not mentioned what you did with Rachel on that day.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_2d58bcd6",
+      "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+      "gold_answer": "'The Hate U Give'",
+      "hypothesis": "Based on the provided chat history, there is no mention of whether you finished reading 'The Hate U Give' or 'The Nightingale' first.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "982b5123",
+      "question": "How many months ago did I book the Airbnb in San Francisco?",
+      "gold_answer": "Five months ago",
+      "hypothesis": "Based on the chat history, you have not mentioned when you booked the Airbnb in San Francisco.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "gpt4_2c50253f",
+      "question": "What time do I wake up on Tuesdays and Thursdays?",
+      "gold_answer": "6:45 AM",
+      "hypothesis": "You have not mentioned what time you wake up on Tuesdays and Thursdays in the chat history.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "a3045048",
+      "question": "How many days before my best friend's birthday party did I order her gift?",
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "a1eacc2a",
+      "question": "How many short stories have I written since I started writing regularly?",
+      "gold_answer": "seven",
+      "hypothesis": "You have not mentioned in the chat history how many short stories you have written since you started writing regularly.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "0f05491a",
+      "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+      "gold_answer": "120",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "184da446",
+      "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+      "gold_answer": "220",
+      "hypothesis": "Based on the chat history, you have not mentioned how many pages of 'A Short History of Nearly Everything' you have read so far.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "5a4f22c0",
+      "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+      "gold_answer": "TechCorp",
+      "hypothesis": "Based on the chat history, you have not mentioned where Rachel is currently working.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "618f13b2",
+      "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+      "gold_answer": "six",
+      "hypothesis": "Based on the provided chat history, you have not mentioned how many times you have worn your new black Converse Chuck Taylor All Star sneakers.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "18bc8abd",
+      "question": "What brand of BBQ sauce am I currently obsessed with?",
+      "gold_answer": "Kansas City Masterpiece",
+      "hypothesis": "Based on the chat history, you have not mentioned what brand of BBQ sauce you are currently obsessed with.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "50635ada",
+      "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+      "gold_answer": "Premier Silver",
+      "hypothesis": "Based on the conversation history, you have not mentioned your previous frequent flyer status on United Airlines.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "dfde3500",
+      "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+      "gold_answer": "Wednesday",
+      "hypothesis": "Based on the chat history, you have not mentioned what day of the week you met with your previous language exchange tutor, Juan.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "06db6396",
+      "question": "How many projects have I completed since starting painting classes?",
+      "gold_answer": "5",
+      "hypothesis": "Based on the provided chat history, you have not mentioned how many projects you have completed since starting painting classes.",
+      "question_type": "knowledge-update",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "2133c1b5_abs",
+      "question": "How long have I been living in my current apartment in Shinjuku?",
+      "gold_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+      "hypothesis": "You haven't mentioned how long you've been living in your current apartment in Shinjuku in our chat history.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "4c36ccef",
+      "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+      "gold_answer": "Roscioli",
+      "hypothesis": "I cannot remind you of the restaurant's name because there is no mention of a recommended romantic Italian restaurant in Rome in the chat history.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "ceb54acb",
+      "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+      "gold_answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+      "hypothesis": "Based on the conversation history, this information was not mentioned.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "0e5e2d1a",
+      "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+      "gold_answer": "38 subjects",
+      "hypothesis": "You did not mention this information in our previous conversations.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "58470ed2",
+      "question": "I was going through our previous conversation about The Library of Babel, and I wanted to confirm - what did Borges say about the center and circumference of the Library?",
+      "gold_answer": "According to Borges, 'The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.'",
+      "hypothesis": "Based on our previous conversation, there is no mention of what Borges said about the center and circumference of the Library in the chat history.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "71a3fd6b",
+      "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+      "gold_answer": "+49 (0) 62 32 / 14 23 - 0",
+      "hypothesis": "There is no record in our previous conversations of a phone number for the Speyer tourism board being provided.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "3249768e",
+      "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was?",
+      "gold_answer": "Absinthe",
+      "hypothesis": "Based on the chat history, you did not mention this information.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "e982271f",
+      "question": "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?",
+      "gold_answer": "Revolution Hall",
+      "hypothesis": "There is no mention of recommended indie music venues in Portland in our chat history.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "a40e080f",
+      "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+      "gold_answer": "Patagonia and Southwest Airlines.",
+      "hypothesis": "There is no mention of these companies in the chat history.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "e48988bc",
+      "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+      "gold_answer": "Patagonia",
+      "hypothesis": "You did not mention this information in the chat history.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    },
+    {
+      "question_id": "778164c6",
+      "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+      "gold_answer": "Grilled Snapper with Mango Salsa",
+      "hypothesis": "I don't have any record of recommending a Jamaican snapper dish with fruit in our previous conversations.",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "No.",
+      "judge_model": "gpt-4o"
+    }
+  ]
+}

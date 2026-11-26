@@ -1,0 +1,1303 @@
+{
+  "question_id": "618f13b2",
+  "question_type": "knowledge-update",
+  "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+  "gold_answer": "six",
+  "prediction": "You most recently stated on May 30, 2023 (at 22:16 UTC) that you had worn your new black Converse Chuck Taylor All Star sneakers four times (including to your friend's birthday party the previous Saturday). However, earlier that same day (at 17:45 UTC), you mentioned having worn them six times after running errands.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "Yes"
+    }
+  },
+  "memories": {
+    "count": 897,
+    "by_type": {
+      "episode": 233,
+      "task": 48,
+      "fact": 419,
+      "plan": 7,
+      "action": 3,
+      "preference": 187
+    },
+    "by_status": {
+      "conflicted": 8,
+      "active": 889
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2639871,
+    "output_tokens": 127374,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?"
+    ],
+    "retrieve_time_ms": 9915.937643032521,
+    "candidates": 151,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "d191a123-fd4a-485b-b4e3-b364fd3fe3a6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for sister's birthday; Coach handbag deal",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 1/21]\nUser: I'm looking for some gift ideas for my sister's birthday, which is coming up "
+      },
+      {
+        "id": "1face0dc-6735-4565-aa21-2acbe882f68b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas discussion for sister's birthday handbag",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 2/21]\n(in reply to) User: I'm looking for some gift ideas for my sister's birthday, which"
+      },
+      {
+        "id": "cc39e835-96ae-4d09-a29f-2f1e6f059ab4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for sister's birthday handbag",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 3/21]\n(in reply to) User: I'm looking for some gift ideas for my sister's birthday, which"
+      },
+      {
+        "id": "3a1045ef-4d72-46f7-9dda-f2ef85b4232a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas discussion for sister's birthday",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 4/21]\n(in reply to) User: I'm looking for some gift ideas for my sister's birthday, which"
+      },
+      {
+        "id": "e57f0e99-a417-4a6a-b7d8-dcc9310a2e8b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sister prefers classic/elegant neutral daily bag (budget $200-$300)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 5/21]\nUser: My sister's style is more on the classic and elegant side, and she loves neut"
+      },
+      {
+        "id": "62e4feb7-26f0-42c9-942f-721450173c45",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sister prefers classic/elegant neutral daily bag",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 6/21]\n(in reply to) User: My sister's style is more on the classic and elegant side, and "
+      },
+      {
+        "id": "eeae3d72-268e-499e-9c13-18e14eabdb3e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Neutral classic daily driver bag recommendations (2023-04-30)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 7/21]\n(in reply to) User: My sister's style is more on the classic and elegant side, and "
+      },
+      {
+        "id": "1ec0f7c8-9b1c-4389-af58-fde05b356963",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Michael Kors Jet Set bag recommendation (neutral, $200-$250)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 8/21]\n(in reply to) User: My sister's style is more on the classic and elegant side, and "
+      },
+      {
+        "id": "63e4fb80-005c-48db-b56b-bfa22076198c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bag brand suggestions for sister\u2019s classic neutral style",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 9/21]\n(in reply to) User: My sister's style is more on the classic and elegant side, and "
+      },
+      {
+        "id": "40a68b16-4c00-4c3a-861f-c0197dd25914",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about warranty/protection plans for Coach Parker or Tory Burch Robinso",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 10/21]\nUser: I think the Coach Parker and Tory Burch Robinson are great options. I'm curi"
+      },
+      {
+        "id": "02301f98-1bc2-43b6-9f23-1b1f1f39003a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coach and Tory Burch handbag warranty details (Coach one-year, Coach Promise)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 11/21]\n(in reply to) User: I think the Coach Parker and Tory Burch Robinson are great opt"
+      },
+      {
+        "id": "4f9ffbce-ae43-4d61-b97a-2017e2e1d189",
+        "score": 0.3442,
+        "memory_type": "fact",
+        "title": "Tory Burch handbag warranty and optional Care program",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 12/21]\n(in reply to) User: I think the Coach Parker and Tory Burch Robinson are great opt"
+      },
+      {
+        "id": "cd2ce4b4-acf2-4aea-b286-d277fd55a2e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coach and Tory Burch handbags: warranty/protection plan info",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 13/21]\n(in reply to) User: I think the Coach Parker and Tory Burch Robinson are great opt"
+      },
+      {
+        "id": "43061c63-86ea-439c-84a9-7e482ebce622",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about handbag warranty and monogramming (Coach/Tory Burch)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 14/21]\nUser: I'm glad you mentioned the warranty and protection plans. I think it's reall"
+      },
+      {
+        "id": "6ade2272-40b1-493c-b9f5-0117ecfe2d69",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Monogramming service info for Coach handbags",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 15/21]\n(in reply to) User: I'm glad you mentioned the warranty and protection plans. I th"
+      },
+      {
+        "id": "0843fba1-c885-45c4-b19a-3bb364f8569b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tory Burch monogramming service details (Robinson style)",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 16/21]\n(in reply to) User: I'm glad you mentioned the warranty and protection plans. I th"
+      },
+      {
+        "id": "0d8321f7-6d54-41b1-800c-5e6a7c0a613c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about handbag warranty and monogramming",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 17/21]\n(in reply to) User: I'm glad you mentioned the warranty and protection plans. I th"
+      },
+      {
+        "id": "a5894b74-b3dc-4403-801e-93d57e4c0c6d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering Coach Parker bag monogramming and gift wrap",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 18/21]\nUser: I didn't know that both Coach and Tory Burch offer monogramming services. Th"
+      },
+      {
+        "id": "b55ef001-d172-48b0-9d1a-41be6fd9b7e2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about monogramming and gift wrapping a Coach Parker bag",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 19/21]\n(in reply to) User: I didn't know that both Coach and Tory Burch offer monogrammin"
+      },
+      {
+        "id": "57a223d7-ad4a-40f8-b995-d7af8fca6e80",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on gift wrapping and monogramming a Coach Parker bag",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 20/21]\n(in reply to) User: I didn't know that both Coach and Tory Burch offer monogrammin"
+      },
+      {
+        "id": "1827c71e-2f61-464d-9031-1077ca2d31b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User bought Coach handbag deal at TJ Maxx",
+        "text": "[date: 2023-04-30T11:48:00+00:00 | context: Session 9bf0dc0d80cd - happened on 2023-04-30 11:48:00 UTC. | turn 21/21]\nUser: I'm all set with the gift for my sister. Thanks for the help! By the way, I "
+      },
+      {
+        "id": "9e5c877f-688e-416b-afeb-abdf8768bb49",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Relational DB for Newtown doctor\u2019s surgery appointments",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 3/16]\n(in reply to) User: Introduction\nThe doctor\u2019s surgery in Newtown is considering mov"
+      },
+      {
+        "id": "47b0e0b4-ad6e-4c01-a334-bbdbc97e2778",
+        "score": null,
+        "memory_type": "task",
+        "title": "Design decomposition into 2NF/3NF schema with keys and diagram",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 4/16]\nUser: Decompose the design to create a schema to store the data in a suitable\nnorma"
+      },
+      {
+        "id": "4b614f16-6ff6-4c85-a242-fa40cd4c848f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Normalized schema entities for patient/doctor appointments",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 5/16]\n(in reply to) User: Decompose the design to create a schema to store the data in a "
+      },
+      {
+        "id": "eeb5d88f-24bd-4d16-ad5c-1652b40d3216",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hospital schema in 2NF/3NF with tables and keys",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 6/16]\n(in reply to) User: Decompose the design to create a schema to store the data in a "
+      },
+      {
+        "id": "bc765a78-d81d-4dd5-a89b-6aaee3900bd2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "PatientAllergy association table fields",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 7/16]\n(in reply to) User: Decompose the design to create a schema to store the data in a "
+      },
+      {
+        "id": "a4ee2536-fc40-4d68-8195-e9b905ee5891",
+        "score": null,
+        "memory_type": "fact",
+        "title": "3NF database schema assumptions for doctor\u2019s surgery system",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 8/16]\n(in reply to) User: Decompose the design to create a schema to store the data in a "
+      },
+      {
+        "id": "3e8474b4-1ee9-47af-b3e1-d099f4869b26",
+        "score": null,
+        "memory_type": "task",
+        "title": "User requested an ER diagram",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 9/16]\nUser: draw the entity relationship diagram"
+      },
+      {
+        "id": "96b3127d-78b9-4f7f-872e-a43f58ba8fc8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "ERD for doctor's surgery database schema",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 10/16]\n(in reply to) User: draw the entity relationship diagram\n\nAssistant: The entity re"
+      },
+      {
+        "id": "fa75af80-54ae-4243-b09d-93bb4bfde793",
+        "score": null,
+        "memory_type": "fact",
+        "title": "ERD relationships for patients, doctors, and clinical entities",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 11/16]\n(in reply to) User: draw the entity relationship diagram\n\nThe diagram shows that e"
+      },
+      {
+        "id": "8115118c-5db9-4ada-8c6e-48fb0f7b4c19",
+        "score": null,
+        "memory_type": "task",
+        "title": "SQL tasks for retrieving patient data",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 12/16]\nUser: i. Return a list of all patient names\nii. Return a list of all patient addre"
+      },
+      {
+        "id": "cca33bd3-b814-4044-94aa-19f4d390dde7",
+        "score": 0.3176,
+        "memory_type": "fact",
+        "title": "SQL queries for patient names, addresses, Dr Jenkins count, avg age",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 13/16]\n(in reply to) User: i. Return a list of all patient names\nii. Return a list of all"
+      },
+      {
+        "id": "1597fcff-7af0-4a22-b121-6b1008ab19c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL queries for patient/doctor/medication data",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 14/16]\n(in reply to) User: i. Return a list of all patient names\nii. Return a list of all"
+      },
+      {
+        "id": "f78700de-4afe-4fd2-b8ec-e15472703a2e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL query joining Patient, Medication, Condition tables",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 15/16]\n(in reply to) User: i. Return a list of all patient names\nii. Return a list of all"
+      },
+      {
+        "id": "34acca3b-a44c-47c5-ab68-fe0ec71bfaed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL query logic for patients with matching recent condition/medication",
+        "text": "[date: 2023-05-18T17:17:00+00:00 | context: Session e0139717a7b2 - happened on 2023-05-18 17:17:00 UTC. | turn 16/16]\n(in reply to) User: i. Return a list of all patient names\nii. Return a list of all"
+      },
+      {
+        "id": "fe1bcbda-c606-4081-9c12-d146b35e1304",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks productivity apps to stay on track",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 1/20]\nUser: I'm trying to plan out my day and was wondering if you could suggest some goo"
+      },
+      {
+        "id": "31f1a30e-f245-4f77-b01a-30b714cd6d8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity app suggestions (Todoist, Trello, Asana, RescueTime, etc.)",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 2/20]\n(in reply to) User: I'm trying to plan out my day and was wondering if you could su"
+      },
+      {
+        "id": "bb84d7e0-69a5-42f7-9aaf-2ce5041d8add",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity app suggestions (Evernote, OneNote, Simplenote, etc.)",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 3/20]\n(in reply to) User: I'm trying to plan out my day and was wondering if you could su"
+      },
+      {
+        "id": "7ba6c972-45f6-446d-8b1e-ff6880a65f6c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested productivity apps (Calendly, Forest, IFTTT)",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 4/20]\n(in reply to) User: I'm trying to plan out my day and was wondering if you could su"
+      },
+      {
+        "id": "052b3ffa-8d39-4c82-ab72-64952700d476",
+        "score": 0.32,
+        "memory_type": "plan",
+        "title": "Pomodoro schedule suggestion request (10am-12pm, 2-4pm)",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 5/20]\nUser: I'm interested in the Pomodoro Timer app. Can you suggest a good schedule for"
+      },
+      {
+        "id": "0a40489c-bcce-4818-a48b-51a12732abb0",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Pomodoro schedule for peak productivity windows",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 6/20]\n(in reply to) User: I'm interested in the Pomodoro Timer app. Can you suggest a goo"
+      },
+      {
+        "id": "4f05bd67-1b44-4478-af43-bcdc0d8e890c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Pomodoro schedule suggestion for peak productivity windows",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 7/20]\n(in reply to) User: I'm interested in the Pomodoro Timer app. Can you suggest a goo"
+      },
+      {
+        "id": "caf8def2-3020-45df-90a2-f4b83b13b361",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set daily breakfast reminder (8:30\u20139:00am)",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 8/20]\nUser: I'd like to set reminders for my daily routine. Can you help me set a reminde"
+      },
+      {
+        "id": "2021d14d-1e41-412e-8bb9-caa63d76c03a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set daily breakfast reminder around 8:30\u20139:00",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 9/20]\n(in reply to) User: I'd like to set reminders for my daily routine. Can you help me"
+      },
+      {
+        "id": "cdd49afd-5537-4076-956b-bbd8c5631b49",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Set daily breakfast reminder (8:30\u20139:00) via app or voice assistant",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 10/20]\n(in reply to) User: I'd like to set reminders for my daily routine. Can you help m"
+      },
+      {
+        "id": "1080d68d-8fc1-403f-8997-77fe8aa1bb0c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reminder to wind down before bed",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 11/20]\nUser: I'm thinking of setting reminders for other parts of my daily routine as wel"
+      },
+      {
+        "id": "57224932-7bbe-4604-bce6-0103989b7dce",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Ideas for reminders to wind down before bed",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 12/20]\n(in reply to) User: I'm thinking of setting reminders for other parts of my daily "
+      },
+      {
+        "id": "8da97538-a663-41ae-844a-4ce9fc0d3571",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for setting wind-down reminders before bed",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 13/20]\n(in reply to) User: I'm thinking of setting reminders for other parts of my daily "
+      },
+      {
+        "id": "5d0f509e-de08-4b70-b8d9-b56cfa51ddf5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on setting reminders for a bedtime wind-down routine",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 14/20]\n(in reply to) User: I'm thinking of setting reminders for other parts of my daily "
+      },
+      {
+        "id": "3a98bf2a-342a-4cde-86b1-42757706d36b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekday wake time and suggested 9:00 pm wind-down reminder",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 15/20]\nUser: I usually wake up around 7:30 am on weekdays, so maybe I can set a reminder "
+      },
+      {
+        "id": "939e6fe6-1c12-4690-950f-d1394c4294bc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested 9:00 pm wind-down reminder",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 16/20]\n(in reply to) User: I usually wake up around 7:30 am on weekdays, so maybe I can s"
+      },
+      {
+        "id": "dddbf176-cabf-4238-b527-05b2ada8a48c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested weekday wind-down reminder at 9:00 pm",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 17/20]\n(in reply to) User: I usually wake up around 7:30 am on weekdays, so maybe I can s"
+      },
+      {
+        "id": "e1dbfb0e-526d-4f92-8799-7be76a26d60b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User praised a plan",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 18/20]\nUser: That's a great plan!"
+      },
+      {
+        "id": "aa6a41c9-5deb-486e-8649-b66eb6cd37e5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussed weekday wake time and wind-down reading",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 19/20]\n(in reply to) User: That's a great plan!\n\nSince you mentioned you usually wake up "
+      },
+      {
+        "id": "e5e1ea71-e8e7-4269-9341-dd6e412ac920",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading suggestions: fiction vs non-fiction vs classics",
+        "text": "[date: 2023-05-30T00:21:00+00:00 | context: Session e73c2045639a - happened on 2023-05-30 00:21:00 UTC. | turn 20/20]\n(in reply to) User: That's a great plan!\n\n* Fiction: Fantasy, romance, or mystery "
+      },
+      {
+        "id": "d3793bd9-e50a-4016-8600-b9d63e8f06ac",
+        "score": 0.3986,
+        "memory_type": "task",
+        "title": "Find cobbler and shoe cleaning kit recommendations",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 1/21]\nUser: I need help finding a good cobbler to fix my brown leather boots. Do you have"
+      },
+      {
+        "id": "fe256bbb-e463-4f2a-b5c0-e6fb352b9233",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests ways to find a cobbler and shoe cleaning kit",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 2/21]\n(in reply to) User: I need help finding a good cobbler to fix my brown leather boot"
+      },
+      {
+        "id": "7ff8aa7c-ee5e-4209-a5d8-27a951a57aeb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for leather boot cobbler and shoe cleaning kits",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 3/21]\n(in reply to) User: I need help finding a good cobbler to fix my brown leather boot"
+      },
+      {
+        "id": "8ce9beda-b321-47e8-b187-1180ddd33ae8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Shoe care advice for new Converse and cleaning/conditioning",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 4/21]\n(in reply to) User: I need help finding a good cobbler to fix my brown leather boot"
+      },
+      {
+        "id": "d7cf7b87-ac67-4670-ab33-a131acc2abcc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Request for waterproofing spray for new Converse",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 5/21]\nUser: I'll check out those cobbler options and shoe cleaning kits. By the way, do y"
+      },
+      {
+        "id": "d9d1fe45-6a66-4a4a-9549-72127f377ef3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on waterproofing spray for Converse",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 6/21]\n(in reply to) User: I'll check out those cobbler options and shoe cleaning kits. By"
+      },
+      {
+        "id": "e0acbb4a-e0f4-427e-98e8-d4ea39804d3e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Waterproofing spray suggestions for Converse",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 7/21]\n(in reply to) User: I'll check out those cobbler options and shoe cleaning kits. By"
+      },
+      {
+        "id": "c36ba794-31d6-4208-84ed-16683e53d599",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks how to organize shoe rack for easy finding",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 8/21]\nUser: What's the best way to organize my shoe rack to make it easy to find the pair"
+      },
+      {
+        "id": "9d2c2844-0090-4db2-b818-32e13314a79a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shoe rack organization methods (type, color, occasion)",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 9/21]\n(in reply to) User: What's the best way to organize my shoe rack to make it easy to"
+      },
+      {
+        "id": "0a4fb118-9a8f-48da-8de2-203766124a2b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Shoe rack organization guidance (frequency, hybrid, tips)",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 10/21]\n(in reply to) User: What's the best way to organize my shoe rack to make it easy t"
+      },
+      {
+        "id": "c76dd90c-b9fc-4542-abd8-e093237aca11",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User shoe organization plan and question about shoe tree",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 11/21]\nUser: I think I'll try organizing my shoes by type, and then by color within each "
+      },
+      {
+        "id": "38fc0c48-d51d-4341-938e-0e38a08f6849",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on using a shoe tree for brown leather boots",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 12/21]\n(in reply to) User: I think I'll try organizing my shoes by type, and then by colo"
+      },
+      {
+        "id": "01a910c6-9ee9-49e3-85a5-9e5d595e6482",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Shoe organization and shoe tree guidance",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 13/21]\n(in reply to) User: I think I'll try organizing my shoes by type, and then by colo"
+      },
+      {
+        "id": "c8cb4ff9-895a-46e2-a154-bdbb98d3dc91",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on organizing shoes and using a shoe tree",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 14/21]\n(in reply to) User: I think I'll try organizing my shoes by type, and then by colo"
+      },
+      {
+        "id": "9f45f29b-74d8-4313-9343-6838938c9d93",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion to buy cedar shoe tree and leather shoe cleaning kit",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 15/21]\nUser: That's a great idea. I think I'll get a cedar shoe tree for my brown leather"
+      },
+      {
+        "id": "21f3af8b-e768-4a69-b5e2-98413647b7c1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion to buy leather shoe cleaning kit for boots",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 16/21]\n(in reply to) User: That's a great idea. I think I'll get a cedar shoe tree for my"
+      },
+      {
+        "id": "98d79c63-25ec-4720-ad58-22cb5d4cd2dd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on leather shoe cleaning kit for cedar shoe tree",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 17/21]\n(in reply to) User: That's a great idea. I think I'll get a cedar shoe tree for my"
+      },
+      {
+        "id": "1117c0e8-77c8-417a-b210-085a049bd371",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leather shoe cleaning kit benefits and usage guidance",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 18/21]\n(in reply to) User: That's a great idea. I think I'll get a cedar shoe tree for my"
+      },
+      {
+        "id": "687bf583-188f-47b9-8a23-080c9f9582bd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers leather boot kit and Vans Old Skool comfort",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 19/21]\nUser: That's a great idea! I think I'll get a leather shoe cleaning kit to keep my"
+      },
+      {
+        "id": "74385036-8c62-42c7-a507-f3f6aed2166a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends Vans Old Skool comfort and features",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 20/21]\n(in reply to) User: That's a great idea! I think I'll get a leather shoe cleaning "
+      },
+      {
+        "id": "2283af20-d852-4177-a15b-2c9c94af4928",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vans Old Skool sneakers: comfort, style, durability tips",
+        "text": "[date: 2023-05-30T17:45:00+00:00 | context: Session 5dddf38a0f82 - happened on 2023-05-30 17:45:00 UTC. | turn 21/21]\n(in reply to) User: That's a great idea! I think I'll get a leather shoe cleaning "
+      },
+      {
+        "id": "63aa5929-359e-412e-81f1-a6a31c00b527",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize shoe closet by categorizing shoes",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 1/25]\nUser: I need help organizing my shoe closet. I have a bunch of shoes and it's getti"
+      },
+      {
+        "id": "cb5a77c0-4250-4c47-846f-4fa520be3e29",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Shoe closet categorization suggestions",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 2/25]\n(in reply to) User: I need help organizing my shoe closet. I have a bunch of shoes "
+      },
+      {
+        "id": "f340055d-13d3-4eab-8bcf-4d2a877a8ec6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Shoe closet categorization suggestions (by type, occasion, season, etc.)",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 3/25]\n(in reply to) User: I need help organizing my shoe closet. I have a bunch of shoes "
+      },
+      {
+        "id": "258d663a-ec2f-43bc-b00e-4c7936140b53",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shoe closet categorization tips",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 4/25]\n(in reply to) User: I need help organizing my shoe closet. I have a bunch of shoes "
+      },
+      {
+        "id": "910e7ca1-488c-4dd2-9115-7720daa722a8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses sorting shoes and asks for cleaning tips",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 5/25]\nUser: I think I'll sort them by type and color to make it easier to find what I nee"
+      },
+      {
+        "id": "b79bb393-6d82-4980-b2e0-1204a9288b39",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about sorting shoes and cleaning black Converse Chucks",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 6/25]\n(in reply to) User: I think I'll sort them by type and color to make it easier to f"
+      },
+      {
+        "id": "99f710c3-46c2-4382-844a-ff2eddb0cbf3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Converse shoe cleaning steps",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 7/25]\n(in reply to) User: I think I'll sort them by type and color to make it easier to f"
+      },
+      {
+        "id": "ec62ebfe-7823-4988-87f5-4dcbce4ee2c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care tips for rubber toe caps and Chucks",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 8/25]\n(in reply to) User: I think I'll sort them by type and color to make it easier to f"
+      },
+      {
+        "id": "9aa12aa9-7edc-43c4-b23e-0af76aefa24b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Regular maintenance tips for Converse Chucks",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 9/25]\n(in reply to) User: I think I'll sort them by type and color to make it easier to f"
+      },
+      {
+        "id": "a47aa1ed-6b0f-4319-8301-967b7ffe4099",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses sorting shoes and loving black Converse sneakers",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 10/25]\n(in reply to) User: I think I'll sort them by type and color to make it easier to "
+      },
+      {
+        "id": "4209e80e-e7f4-4884-aaf1-924dd955fddf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find a cobbler to repair loose heel on brown leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 11/25]\nUser: I also need help to repair my brown leather boots. The heel is coming loose "
+      },
+      {
+        "id": "969d1439-aaf7-4e3b-9813-d5283a4cfb65",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on finding a cobbler for loose-heel brown leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 12/25]\n(in reply to) User: I also need help to repair my brown leather boots. The heel is"
+      },
+      {
+        "id": "f4d1d799-4f5a-4345-8943-5de2106fc0da",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find a local cobbler to repair brown leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 13/25]\n(in reply to) User: I also need help to repair my brown leather boots. The heel is"
+      },
+      {
+        "id": "38840ebb-570e-44ac-85be-3ae4c1993ec6",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Find a cobbler to repair brown leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 14/25]\n(in reply to) User: I also need help to repair my brown leather boots. The heel is"
+      },
+      {
+        "id": "a1d12dcf-ea9b-4ceb-a758-286c3783c377",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find a cobbler to repair loose heel on brown leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 15/25]\n(in reply to) User: I also need help to repair my brown leather boots. The heel is"
+      },
+      {
+        "id": "a2cb44a4-a12a-44c8-8a5f-ca1052d37189",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for caring for leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 16/25]\nUser: I'll make sure to check online reviews and ask friends for recommendations t"
+      },
+      {
+        "id": "080b99c4-a4d8-4b53-9eaf-c13a06a93834",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for caring for leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 17/25]\n(in reply to) User: I'll make sure to check online reviews and ask friends for rec"
+      },
+      {
+        "id": "72878302-b166-49e4-a1b5-abe1bf4acb4c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for caring for leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 18/25]\n(in reply to) User: I'll make sure to check online reviews and ask friends for rec"
+      },
+      {
+        "id": "732c2553-0396-4e97-b593-653591b98caa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for caring for leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 19/25]\n(in reply to) User: I'll make sure to check online reviews and ask friends for rec"
+      },
+      {
+        "id": "1eec8673-f08d-4d08-b836-52079bdb92e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for caring for leather boots",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 20/25]\n(in reply to) User: I'll make sure to check online reviews and ask friends for rec"
+      },
+      {
+        "id": "788d8526-b8e3-4237-8dd7-1c49aa8dc528",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request: cleaning white Adidas Superstars",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 21/25]\nUser: I've been meaning to ask, do you have any advice on how to clean my white Ad"
+      },
+      {
+        "id": "bfacc9ce-c145-43f1-a17c-56f356edc362",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on cleaning white Adidas Superstars",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 22/25]\n(in reply to) User: I've been meaning to ask, do you have any advice on how to cle"
+      },
+      {
+        "id": "2297a323-cf72-44b4-867b-ca300d0c0284",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for cleaning white Adidas Superstars",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 23/25]\n(in reply to) User: I've been meaning to ask, do you have any advice on how to cle"
+      },
+      {
+        "id": "c3ea9c45-a473-4d1e-a0d7-646cc0e0c59d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for cleaning white Adidas Superstars",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 24/25]\n(in reply to) User: I've been meaning to ask, do you have any advice on how to cle"
+      },
+      {
+        "id": "77a816d8-c883-4b52-9884-29023d722bc0",
+        "score": 0.4976,
+        "memory_type": "episode",
+        "title": "User reports wearing new black Converse Chucks four times",
+        "text": "[date: 2023-05-30T22:16:00+00:00 | context: Session 43c694cd414e - happened on 2023-05-30 22:16:00 UTC. | turn 25/25]\nUser: I'm glad I could help with the cleaning tips. I think I'll also sort my shoe"
+      },
+      {
+        "id": "7f9d543c-a66a-40e1-b3ed-f1faa330dda5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Example React code snippet for ManageAPIAccessPage toggle",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 1/17]\nAssistant: Sure, here's an example of how you could modify the `ManageAPIAccessPage"
+      },
+      {
+        "id": "777f0227-2533-4df6-be30-bee65bafc61a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "React ManageAPIAccessPage example with sync toggle",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 2/17]\n(in reply to) Assistant: Sure, here's an example of how you could modify the `Manag"
+      },
+      {
+        "id": "f60d654f-6721-43e9-8726-f7448d7af5bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example React component update for Square integration sync toggle",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 3/17]\n(in reply to) Assistant: Sure, here's an example of how you could modify the `Manag"
+      },
+      {
+        "id": "62b48d37-c1e8-4099-9e26-6058cb422a9a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Example React component snippet for ManageAPIAccessPage toggle",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 4/17]\n(in reply to) Assistant: Sure, here's an example of how you could modify the `Manag"
+      },
+      {
+        "id": "f11e932b-2ca6-450a-8ffd-69a4ec15928d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Example React component snippet for Square POS integration",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 5/17]\n(in reply to) Assistant: Sure, here's an example of how you could modify the `Manag"
+      },
+      {
+        "id": "63b5c0ef-d1c4-4e31-a78e-8c1f74ef8fa7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example: ManageAPIAccessPage big toggle for Square syncEnabled",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 6/17]\n(in reply to) Assistant: Sure, here's an example of how you could modify the `Manag"
+      },
+      {
+        "id": "05b60709-f7fb-44f5-b12a-dcb6049e611c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mongo schema and API updates for syncEnabled in SquareIntegration",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 7/17]\nUser: do you have to update the mongo schema or any other files with these changes?"
+      },
+      {
+        "id": "5b0ddfc2-85cb-4324-94b4-05923399f718",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested help",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 8/17]\nUser: Can you do that for me?"
+      },
+      {
+        "id": "949d30c3-ebd2-43df-9e32-6704c04cb3b3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SquareIntegration schema update with syncEnabled",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 9/17]\n(in reply to) User: Can you do that for me?\n\nAssistant: Sure! Here's an example of "
+      },
+      {
+        "id": "b019ffc2-e3bf-4689-b956-8c97cf586054",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Express handler to create Square integration",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 10/17]\n(in reply to) User: Can you do that for me?\n\nexports.createSquareIntegration = asy"
+      },
+      {
+        "id": "465e3203-f43d-486c-a42a-72408a0fba26",
+        "score": 0.3185,
+        "memory_type": "fact",
+        "title": "Square integration update controller adds syncEnabled",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 11/17]\n(in reply to) User: Can you do that for me?\n\nexports.updateSquareIntegration = asy"
+      },
+      {
+        "id": "cd02eae6-b4b2-4691-affe-de198b579b79",
+        "score": null,
+        "memory_type": "task",
+        "title": "Update client code and ManageAPIAccessPage for syncEnabled",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 12/17]\n(in reply to) User: Can you do that for me?\n\nYou would also need to update any cli"
+      },
+      {
+        "id": "2e95467b-5dab-4ed4-b4cd-2d07445ff8e8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Update client-side code and ManageAPIAccessPage",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 13/17]\nUser: can you update the client-side code that you recommended? and can you also u"
+      },
+      {
+        "id": "57c06dee-43f0-490f-b109-67d3a7a7331e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example: add syncEnabled to SquareIntegration request",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 14/17]\n(in reply to) User: can you update the client-side code that you recommended? and "
+      },
+      {
+        "id": "099e997f-b7f7-4019-ac1e-1d4b45664343",
+        "score": null,
+        "memory_type": "task",
+        "title": "Update client-side Square integration code and ManageAPIAccessPage",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 15/17]\n(in reply to) User: can you update the client-side code that you recommended? and "
+      },
+      {
+        "id": "5d43c005-bcc9-436d-9562-a35974464337",
+        "score": null,
+        "memory_type": "action",
+        "title": "Updated client-side Manage API Access page code",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 16/17]\n(in reply to) User: can you update the client-side code that you recommended? and "
+      },
+      {
+        "id": "8af5876e-9e6c-4884-9cb5-9fefac1e52ec",
+        "score": null,
+        "memory_type": "action",
+        "title": "Updated client-side ManageAPIAccessPage for syncEnabled",
+        "text": "[date: 2023-06-01T11:52:00+00:00 | context: Session 1c3c7739afe2 - happened on 2023-06-01 11:52:00 UTC. | turn 17/17]\n(in reply to) User: can you update the client-side code that you recommended? and "
+      },
+      {
+        "id": "fde282c8-b127-4636-9a92-fe08eb3cd7e4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to train for upcoming charity cycling event",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 1/25]\nUser: I'm planning to participate in another charity cycling event soon and I was w"
+      },
+      {
+        "id": "bb64e616-7e2f-4276-b6fd-72bc26893b94",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant offered charity cycling training tips",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 2/25]\n(in reply to) User: I'm planning to participate in another charity cycling event so"
+      },
+      {
+        "id": "9353f661-603b-49dd-81ee-c491f190a1bd",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Cycling charity event training plan tips",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 3/25]\n(in reply to) User: I'm planning to participate in another charity cycling event so"
+      },
+      {
+        "id": "2a052213-c076-48a6-b947-86589c9747ef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cycling event training tip: get comfortable with bike fit",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 4/25]\n(in reply to) User: I'm planning to participate in another charity cycling event so"
+      },
+      {
+        "id": "bce9c706-ffaa-4eba-b8d7-230775395736",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Charity cycling event preparation tips",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 5/25]\n(in reply to) User: I'm planning to participate in another charity cycling event so"
+      },
+      {
+        "id": "78ac7bad-ae44-4db1-b75f-aef27e0de157",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips for training for charity cycling events",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 6/25]\n(in reply to) User: I'm planning to participate in another charity cycling event so"
+      },
+      {
+        "id": "be71bffd-b9cf-41b1-890c-9ca6bb331fc8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Advice request for fueling and hydration to avoid bonking",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 7/25]\nUser: I'm particularly concerned about fueling and hydration. Can you give me some "
+      },
+      {
+        "id": "e4f7fd05-2fb4-4067-a049-12c9ead9b50b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Endurance cycling fueling and hydration advice (bonking prevention)",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 8/25]\n(in reply to) User: I'm particularly concerned about fueling and hydration. Can you"
+      },
+      {
+        "id": "661e1ce7-41c2-43ed-adc2-e25e0e432ec0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on fueling and hydration to avoid bonking",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 9/25]\n(in reply to) User: I'm particularly concerned about fueling and hydration. Can you"
+      },
+      {
+        "id": "ba984a94-8a75-48c9-9e3b-7515f8217d45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on fueling and hydration to avoid bonking",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 10/25]\n(in reply to) User: I'm particularly concerned about fueling and hydration. Can yo"
+      },
+      {
+        "id": "30cf6adc-c7de-4287-aaf2-d7a96d1d9b82",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hydration and refueling advice to avoid bonking",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 11/25]\n(in reply to) User: I'm particularly concerned about fueling and hydration. Can yo"
+      },
+      {
+        "id": "0be89328-780b-409e-9cab-d859f13de6a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fueling & hydration guidelines for cycling events",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 12/25]\n(in reply to) User: I'm particularly concerned about fueling and hydration. Can yo"
+      },
+      {
+        "id": "b38467a4-c22a-4694-9127-6e6d211e7507",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Custom charity jersey idea",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 13/25]\nUser: I'm actually thinking of wearing a custom jersey with our company's logo on "
+      },
+      {
+        "id": "4481c930-c21b-45e0-aa26-2e150dce1998",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Custom logo jersey suggested for charity event promotion",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 14/25]\n(in reply to) User: I'm actually thinking of wearing a custom jersey with our comp"
+      },
+      {
+        "id": "22214aed-ebc1-4559-a3ad-3eadf2a7f513",
+        "score": 0.359,
+        "memory_type": "preference",
+        "title": "Suggestion: wear custom company jersey for charity event",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 15/25]\n(in reply to) User: I'm actually thinking of wearing a custom jersey with our comp"
+      },
+      {
+        "id": "8a16a233-d0ad-424d-af48-df56aae39c6f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Custom logo jerseys for charity event",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 16/25]\n(in reply to) User: I'm actually thinking of wearing a custom jersey with our comp"
+      },
+      {
+        "id": "9b415147-f39d-4253-ace7-5215101eb9b1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Offer custom jerseys to colleagues for event participation",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 17/25]\nUser: That's a great point about checking with the event organizers beforehand. I'"
+      },
+      {
+        "id": "2e3d1bc2-81bb-442b-a395-3c62708731ac",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Raised over $1,000 via sponsorships for Heart Association cycling event",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 18/25]\n(in reply to) User: That's a great point about checking with the event organizers "
+      },
+      {
+        "id": "42fd21f7-1483-4b63-b4f0-f0e561df5cd0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to take photos and share on social media",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 19/25]\n(in reply to) User: That's a great point about checking with the event organizers "
+      },
+      {
+        "id": "4b112990-5028-4dd6-9ce5-2b0f757d33f9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips for approaching clients/partners for charity sponsorship",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 20/25]\nUser: I'm thinking of reaching out to some of our company's clients and partners t"
+      },
+      {
+        "id": "75652056-6b3b-4192-8f2b-f78f30695c82",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for approaching clients/partners for sponsorship or donations",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 21/25]\n(in reply to) User: I'm thinking of reaching out to some of our company's clients "
+      },
+      {
+        "id": "130709cc-6b70-4dd2-ba31-65bc476fd254",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips and script for approaching clients/partners for charity sponsorship",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 22/25]\n(in reply to) User: I'm thinking of reaching out to some of our company's clients "
+      },
+      {
+        "id": "8e2a99a7-1969-4cf4-abc2-af0cafdf89e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Email template for client/partner charity sponsorship outreach",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 23/25]\n(in reply to) User: I'm thinking of reaching out to some of our company's clients "
+      },
+      {
+        "id": "5cf461ed-a664-4c3a-b63a-38f26476a44a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for approaching clients/partners for sponsorship or donations",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 24/25]\n(in reply to) User: I'm thinking of reaching out to some of our company's clients "
+      },
+      {
+        "id": "bd1062c1-1551-4ee5-940d-5305e2153745",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant declines help crafting outreach and offers general guidance",
+        "text": "[date: 2023-06-01T20:57:00+00:00 | context: Session a143d9ffd2c6 - happened on 2023-06-01 20:57:00 UTC. | turn 25/25]\nUser: I'm excited to help you with that! What's the next step you'd like to take? "
+      },
+      {
+        "id": "385a173f-821a-41e8-88a9-d00c3a8252e2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for displaying vintage Star Wars collectibles",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 1/29]\nUser: I'm trying to reorganize my display shelves and I was wondering if you could "
+      },
+      {
+        "id": "2c32be1c-157b-4007-adb1-d256897b6e05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for displaying vintage Star Wars collectibles",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 2/29]\n(in reply to) User: I'm trying to reorganize my display shelves and I was wondering"
+      },
+      {
+        "id": "646531bc-9d02-48ae-830d-9f204d68d212",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for displaying vintage Star Wars collectibles",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 3/29]\n(in reply to) User: I'm trying to reorganize my display shelves and I was wondering"
+      },
+      {
+        "id": "63b6d6cc-8ce3-4626-9526-f56479a1523a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for displaying vintage Star Wars collectibles",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 4/29]\n(in reply to) User: I'm trying to reorganize my display shelves and I was wondering"
+      },
+      {
+        "id": "6d8241a7-68af-4221-a23e-79ba587062a6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for displaying vintage Star Wars collectibles",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 5/29]\n(in reply to) User: I'm trying to reorganize my display shelves and I was wondering"
+      },
+      {
+        "id": "61d00adf-5b94-41f1-b436-e39d75fdac87",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommendations for vintage vinyl record marketplaces",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 6/29]\nUser: I'm also looking for some recommendations on where to find more vintage colle"
+      },
+      {
+        "id": "f56ff1c4-8ade-45ef-ad4b-73ac4a79141a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided vintage vinyl record sourcing tips",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 7/29]\n(in reply to) User: I'm also looking for some recommendations on where to find more"
+      },
+      {
+        "id": "47926b4d-f495-44de-8e04-804c263ecf31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding vintage vinyl records (stores & marketplaces)",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 8/29]\n(in reply to) User: I'm also looking for some recommendations on where to find more"
+      },
+      {
+        "id": "acc151a2-2430-4a58-af4f-a0d402326cc3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding vintage vinyl records online",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 9/29]\n(in reply to) User: I'm also looking for some recommendations on where to find more"
+      },
+      {
+        "id": "86926e4d-f51c-4542-97fd-7a26f7d288a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding vintage vinyl records online",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 10/29]\n(in reply to) User: I'm also looking for some recommendations on where to find mor"
+      },
+      {
+        "id": "7dce4af1-3c22-4deb-a1bd-86b67d17338f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for buying vintage vinyl records",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 11/29]\n(in reply to) User: I'm also looking for some recommendations on where to find mor"
+      },
+      {
+        "id": "0f24aceb-a7d4-41b2-9248-4cc628c86618",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for storing vintage items safely",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 12/29]\nUser: I'm also looking for some recommendations on storage solutions for my growin"
+      },
+      {
+        "id": "69a63acb-40c7-443a-8fc1-051626df2da8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vintage item storage tips (climate, light, moisture, pests)",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 13/29]\n(in reply to) User: I'm also looking for some recommendations on storage solutions"
+      },
+      {
+        "id": "ed2f6ce1-723d-4c58-9fce-da39f3b89d05",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for safely storing and organizing vintage items",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 14/29]\n(in reply to) User: I'm also looking for some recommendations on storage solutions"
+      },
+      {
+        "id": "3876e00d-1ff8-4d62-803c-69f0e8ef8a28",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for safely storing vintage items by category",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 15/29]\n(in reply to) User: I'm also looking for some recommendations on storage solutions"
+      },
+      {
+        "id": "ec62c9e2-036c-45c5-a25b-425c2309fa9b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for safely storing and organizing vintage items",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 16/29]\n(in reply to) User: I'm also looking for some recommendations on storage solutions"
+      },
+      {
+        "id": "1131ebf4-bcd3-4de8-9968-1c5170a2cd23",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request: packaging vintage Star Wars figures for shipping",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 17/29]\nUser: I'm also looking for some advice on how to prevent damage to my vintage item"
+      },
+      {
+        "id": "05bd5c6b-49f9-4d99-9d8f-31349079f843",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for shipping fragile vintage items safely",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 18/29]\n(in reply to) User: I'm also looking for some advice on how to prevent damage to m"
+      },
+      {
+        "id": "6ecffd65-dc2d-4d83-a741-0bc594b4a23b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to protect vintage Star Wars action figures in shipping",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 19/29]\n(in reply to) User: I'm also looking for some advice on how to prevent damage to m"
+      },
+      {
+        "id": "902f7e7d-13cf-4857-a921-bd1f82e4dfb6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to prevent damage to vintage items during shipping",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 20/29]\n(in reply to) User: I'm also looking for some advice on how to prevent damage to m"
+      },
+      {
+        "id": "1d97e2b8-7e7e-4b95-8008-02ee4a0d036b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to prevent damage when shipping vintage action figures",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 21/29]\n(in reply to) User: I'm also looking for some advice on how to prevent damage to m"
+      },
+      {
+        "id": "c8a6d595-3f40-4904-843a-1c8b95ed410f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for photographing vintage Star Wars action figures",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 22/29]\nUser: I'm actually thinking of selling some of my vintage Star Wars action figures"
+      },
+      {
+        "id": "162fa397-8b4f-4ca3-8bc2-65a403d15937",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for photographing vintage Star Wars action figures for listings",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 23/29]\n(in reply to) User: I'm actually thinking of selling some of my vintage Star Wars "
+      },
+      {
+        "id": "b3b49b91-51d2-4e1c-b370-072ea0de0907",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for photographing vintage Star Wars action figures",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 24/29]\n(in reply to) User: I'm actually thinking of selling some of my vintage Star Wars "
+      },
+      {
+        "id": "7db707ac-5bd1-4a31-94e5-9c88ba0756f1",
+        "score": 0.3378,
+        "memory_type": "preference",
+        "title": "Tips for photographing vintage Star Wars action figures",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 25/29]\n(in reply to) User: I'm actually thinking of selling some of my vintage Star Wars "
+      },
+      {
+        "id": "b6b7382f-ce99-4923-9000-9c6d35e3c020",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for photographing vintage Star Wars action figures",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 26/29]\n(in reply to) User: I'm actually thinking of selling some of my vintage Star Wars "
+      },
+      {
+        "id": "ac34a97f-439c-4522-9d14-599957dbf865",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan to photograph vintage Falcon and Luke figure for listing",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 27/29]\nUser: I think I'll take some photos of my vintage Millennium Falcon toy and 1978 L"
+      },
+      {
+        "id": "6611e535-9cd7-403c-846d-8408c71aabad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned photos for vintage toy listing",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 28/29]\n(in reply to) User: I think I'll take some photos of my vintage Millennium Falcon "
+      },
+      {
+        "id": "46966b74-5363-444a-82c7-746fff041110",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on photographing vintage Star Wars items for a listing",
+        "text": "[date: 2023-06-10T00:38:00+00:00 | context: Session a8f412f2d58f - happened on 2023-06-10 00:38:00 UTC. | turn 29/29]\n(in reply to) User: I think I'll take some photos of my vintage Millennium Falcon "
+      }
+    ]
+  },
+  "context": {
+    "chars": 103893,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25973)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 29076,
+    "prompt_tokens": 26414,
+    "completion_tokens": 493,
+    "reasoning_tokens": 2169,
+    "generate_time_ms": 18837.671434972435,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24517,
+        "completion_tokens": 171,
+        "reasoning_tokens": 1126,
+        "total_tokens": 25814
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 636,
+        "completion_tokens": 112,
+        "reasoning_tokens": 280,
+        "total_tokens": 1028
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 444,
+        "completion_tokens": 71,
+        "reasoning_tokens": 297,
+        "total_tokens": 812
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 817,
+        "completion_tokens": 139,
+        "reasoning_tokens": 466,
+        "total_tokens": 1422
+      }
+    ]
+  },
+  "failure_label": null
+}

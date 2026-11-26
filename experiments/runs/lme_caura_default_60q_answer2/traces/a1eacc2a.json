@@ -1,0 +1,1275 @@
+{
+  "question_id": "a1eacc2a",
+  "question_type": "knowledge-update",
+  "question": "How many short stories have I written since I started writing regularly?",
+  "gold_answer": "seven",
+  "prediction": "You have written (completed) 7 short stories since you started writing regularly. (As of June 16, 2023, you also mentioned you were currently working on another one.)",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 904,
+    "by_type": {
+      "fact": 390,
+      "preference": 171,
+      "plan": 10,
+      "episode": 288,
+      "decision": 8,
+      "task": 37
+    },
+    "by_status": {
+      "active": 902,
+      "conflicted": 2
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2660472,
+    "output_tokens": 128368,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many short stories have I written since I started writing regularly?"
+    ],
+    "retrieve_time_ms": 7466.876102029346,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "dbf7c8a4-0464-43fd-8df9-d9936ec9c526",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks tips to make jokes more relatable",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 5/25]\nUser: I've been taking a stand-up comedy class to help with my writing, and my teac"
+      },
+      {
+        "id": "8d1f81e7-d54a-4929-a636-1c40ade946ad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making stand-up jokes more relatable",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 6/25]\n(in reply to) User: I've been taking a stand-up comedy class to help with my writin"
+      },
+      {
+        "id": "aee5ee5f-b2ba-4152-9557-2ec67f2bb739",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Stand-up comedy writing tips: observational, accessible, emotional",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 7/25]\n(in reply to) User: I've been taking a stand-up comedy class to help with my writin"
+      },
+      {
+        "id": "38d99140-700d-484e-9d88-9b94ed3d9de7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for stand-up comedy writing and testing jokes",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 8/25]\n(in reply to) User: I've been taking a stand-up comedy class to help with my writin"
+      },
+      {
+        "id": "df817864-5ae8-4e06-b395-786355cbf07f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given for stand-up comedy writing and performance",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 9/25]\n(in reply to) User: I've been taking a stand-up comedy class to help with my writin"
+      },
+      {
+        "id": "405be837-4b4d-47cd-88bb-c1b03fc3d620",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User goal: write 5 jokes/week and refine material",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 10/25]\nUser: I've been trying to write at least 5 new jokes a week and refining my existi"
+      },
+      {
+        "id": "ca993a02-9604-4cf8-ab6b-f5079095a50a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Goal to write 5 new jokes weekly and refine material",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 11/25]\n(in reply to) User: I've been trying to write at least 5 new jokes a week and refi"
+      },
+      {
+        "id": "d9c37e68-fd40-4bd1-b237-308b55cd08ab",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidance for writing jokes (start strong, vary, flow, peak/release)",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 12/25]\n(in reply to) User: I've been trying to write at least 5 new jokes a week and refi"
+      },
+      {
+        "id": "65113f42-eb23-4e09-b745-4208903e73cb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Comedy writing tips (rule of three, expectations, callbacks)",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 13/25]\n(in reply to) User: I've been trying to write at least 5 new jokes a week and refi"
+      },
+      {
+        "id": "44d6f26b-6f77-4f14-a6c7-82a8d8e879fa",
+        "score": 0.362,
+        "memory_type": "preference",
+        "title": "Advice for writing jokes: anecdotes, narrative thread, descriptive language",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 14/25]\n(in reply to) User: I've been trying to write at least 5 new jokes a week and refi"
+      },
+      {
+        "id": "efc4c41b-6250-405b-bff3-a5f00a728413",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for authentic, non\u2013self-indulgent jokes",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 15/25]\nUser: I've been trying to incorporate more of my personal experiences into my joke"
+      },
+      {
+        "id": "dee93bd7-0875-4d9f-a617-c21329c37744",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making personal comedy more authentic",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 16/25]\n(in reply to) User: I've been trying to incorporate more of my personal experience"
+      },
+      {
+        "id": "4b3964ce-1f05-4e7c-9a94-a08d5a93f5f9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making personal experiences more authentic in jokes",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 17/25]\n(in reply to) User: I've been trying to incorporate more of my personal experience"
+      },
+      {
+        "id": "75f0c618-8823-4fd9-a6b7-0a3f38e1f120",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making jokes more authentic and honest",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 18/25]\n(in reply to) User: I've been trying to incorporate more of my personal experience"
+      },
+      {
+        "id": "9da8cfba-28a4-44c9-ae36-0e735ebc10da",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making personal comedy more authentic",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 19/25]\n(in reply to) User: I've been trying to incorporate more of my personal experience"
+      },
+      {
+        "id": "8950cdc0-88cd-428b-9acd-50f6e7c2383d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering starting a comedy blog for jokes and feedback",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 20/25]\nUser: I've been thinking about starting a comedy blog where I can post my jokes an"
+      },
+      {
+        "id": "596b4b26-67a8-4f9a-bbfe-89d102e612f7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for starting a comedy blog (platform, niche, content strategy)",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 21/25]\n(in reply to) User: I've been thinking about starting a comedy blog where I can po"
+      },
+      {
+        "id": "6994d3e3-983e-4cbc-9345-317b853e44d9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for starting a comedy blog (headlines, promotion, communities, SEO)",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 22/25]\n(in reply to) User: I've been thinking about starting a comedy blog where I can po"
+      },
+      {
+        "id": "ac132f71-61d5-4286-b493-141d7658c8bd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for starting a comedy blog (SEO, engagement, persistence)",
+        "text": "[date: 2023-05-14T06:48:00+00:00 | context: Session c09aec67c324 - happened on 2023-05-14 06:48:00 UTC. | turn 23/25]\n(in reply to) User: I've been thinking about starting a comedy blog where I can po"
+      },
+      {
+        "id": "b736db48-d498-45fe-9f32-b82380529cc5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for tips to stay organized with writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 1/31]\nUser: I'm looking for some tips on how to stay organized with my writing projects. "
+      },
+      {
+        "id": "dc5e80ae-f36b-473e-b614-6c1a2c5dfb68",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for staying organized with multiple writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 2/31]\n(in reply to) User: I'm looking for some tips on how to stay organized with my writ"
+      },
+      {
+        "id": "37360570-745b-4f1f-8b67-20ebe1173ea0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying organized with writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 3/31]\n(in reply to) User: I'm looking for some tips on how to stay organized with my writ"
+      },
+      {
+        "id": "79b7ae78-f0ce-49b6-b273-1ff64d36a646",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying organized with writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 4/31]\n(in reply to) User: I'm looking for some tips on how to stay organized with my writ"
+      },
+      {
+        "id": "d2768ac2-4814-488e-9049-cc2805a7607d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying organized with writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 5/31]\n(in reply to) User: I'm looking for some tips on how to stay organized with my writ"
+      },
+      {
+        "id": "e5eafb4e-3f85-4050-a0e9-be122bf2ea80",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for staying organized with writing projects",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 6/31]\n(in reply to) User: I'm looking for some tips on how to stay organized with my writ"
+      },
+      {
+        "id": "e32e2f5f-e8bc-4d0f-b684-ad6126a0cee3",
+        "score": 0.4801,
+        "memory_type": "preference",
+        "title": "User likes a writing calendar and monthly short-story goals",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 7/31]\nUser: I like the idea of a writing calendar, especially since I've been enjoying wr"
+      },
+      {
+        "id": "9797da9d-e933-481c-ba59-44200ab073da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about setting a monthly short-story writing goal",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 8/31]\n(in reply to) User: I like the idea of a writing calendar, especially since I've be"
+      },
+      {
+        "id": "78df4667-0cb3-4d27-bb81-8002a3c0511b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes idea of a writing calendar",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 9/31]\n(in reply to) User: I like the idea of a writing calendar, especially since I've be"
+      },
+      {
+        "id": "e4d09dd5-fad9-4e45-bb2f-89e556a5aacb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on setting short-story writing goals",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 10/31]\n(in reply to) User: I like the idea of a writing calendar, especially since I've b"
+      },
+      {
+        "id": "918f0331-5239-4ee8-95a5-21e9efab49de",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on setting a short-story writing calendar goal",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 11/31]\n(in reply to) User: I like the idea of a writing calendar, especially since I've b"
+      },
+      {
+        "id": "2229b7d3-7d63-486e-af13-bb6c97d462a6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion for writing calendar and monthly short-story goal",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 12/31]\n(in reply to) User: I like the idea of a writing calendar, especially since I've b"
+      },
+      {
+        "id": "dd678857-70bd-42f5-9366-ff84e4e4fa20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about prompts/themes for short story ideas",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 13/31]\nUser: What do you think about using a prompt or theme to help generate ideas for m"
+      },
+      {
+        "id": "a193e4d3-ca08-4b64-b319-44b3a33e12a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Prompts/themes for short story idea generation",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 14/31]\n(in reply to) User: What do you think about using a prompt or theme to help genera"
+      },
+      {
+        "id": "f621975b-811c-4ea9-8883-50870d1500b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips on using prompts/themes for short story ideas",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 15/31]\n(in reply to) User: What do you think about using a prompt or theme to help genera"
+      },
+      {
+        "id": "cf435047-bce3-4f49-93d7-e631e438d754",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on using prompts/themes for short story ideas",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 16/31]\n(in reply to) User: What do you think about using a prompt or theme to help genera"
+      },
+      {
+        "id": "13f05541-d995-4d4b-b050-2f638a9488c5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes using prompts/themes for story ideas",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 17/31]\nUser: I like the idea of using a prompt or theme to generate ideas. I've been thin"
+      },
+      {
+        "id": "ea93b280-7cce-44d2-814b-a8caa9650e8b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Story theme suggestion: discovery for a mysterious library",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 18/31]\n(in reply to) User: I like the idea of using a prompt or theme to generate ideas. "
+      },
+      {
+        "id": "f146a24e-db2f-4521-92b3-dae65d739724",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Story theme ideas: discovery in a mysterious library",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 19/31]\n(in reply to) User: I like the idea of using a prompt or theme to generate ideas. "
+      },
+      {
+        "id": "ccf68bfc-f4c1-44d4-9abf-34f11895842f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Story theme: discovery that changes everything",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 20/31]\n(in reply to) User: I like the idea of using a prompt or theme to generate ideas. "
+      },
+      {
+        "id": "22194ae7-0358-4a8b-81c4-55bc4aa91669",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Brainstormed story theme of discovery for mysterious library",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 21/31]\n(in reply to) User: I like the idea of using a prompt or theme to generate ideas. "
+      },
+      {
+        "id": "5fbe516f-0bfb-4969-8ed3-425c087c733b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about magical/supernatural elements for a story",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 22/31]\nUser: I think that could add an extra layer of intrigue to the story. What kind of"
+      },
+      {
+        "id": "49423a1a-79e4-4ed4-8ee7-ba712f3c5672",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests magical elements for a mysterious library setting",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 23/31]\n(in reply to) User: I think that could add an extra layer of intrigue to the story"
+      },
+      {
+        "id": "e7767bef-cb71-41a2-9327-73e1261b0c3e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Supernatural library elements brainstormed",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 24/31]\n(in reply to) User: I think that could add an extra layer of intrigue to the story"
+      },
+      {
+        "id": "5a647aeb-7252-4c1b-adc8-c737f1573fb5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for magical elements in a cursed library story",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 25/31]\n(in reply to) User: I think that could add an extra layer of intrigue to the story"
+      },
+      {
+        "id": "b1e3e0d7-7bd9-4703-bffa-3171a17d4876",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User brainstorms magical/supernatural elements for a story",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 26/31]\n(in reply to) User: I think that could add an extra layer of intrigue to the story"
+      },
+      {
+        "id": "0a6f133b-d386-45f2-b4b0-aae2885fc138",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in sentient books for story magic",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 27/31]\nUser: I think the idea of sentient books is fascinating. It adds a whole new level"
+      },
+      {
+        "id": "48735176-e7f5-4b31-860e-43732147bdbb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on protagonist relationship with sentient books",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 28/31]\n(in reply to) User: I think the idea of sentient books is fascinating. It adds a w"
+      },
+      {
+        "id": "c689c88d-782e-4041-8c63-0b61d841d0d0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sentient books concept: direct communication and intuitive connection",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 29/31]\n(in reply to) User: I think the idea of sentient books is fascinating. It adds a w"
+      },
+      {
+        "id": "c7d04bb4-8bf8-4f2d-b104-b22a98719a58",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sentient book magic concepts: empathic resonance & whispering",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 30/31]\n(in reply to) User: I think the idea of sentient books is fascinating. It adds a w"
+      },
+      {
+        "id": "b1f00de1-17bd-4f17-9d33-6bfdba8d308a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on sentient books story direction",
+        "text": "[date: 2023-05-23T18:21:00+00:00 | context: Session 0f6e8b70aa65 - happened on 2023-05-23 18:21:00 UTC. | turn 31/31]\n(in reply to) User: I think the idea of sentient books is fascinating. It adds a w"
+      },
+      {
+        "id": "9932113b-a191-46a2-b580-953d5c30f7a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for Instagram content ideas to grow followers",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 1/26]\nUser: I'm struggling to come up with new content ideas for my Instagram posts. I've"
+      },
+      {
+        "id": "0290abf1-85a8-4f9f-a941-8be74853fd94",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Instagram content ideas support session (May 24, 2023)",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 2/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "d1907461-acc9-4b37-860f-8620c0277728",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram content ideas: audience, pillars, storytelling",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 3/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "495bce8b-5735-411f-912c-45505a57dcf4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram content ideas: visuals, engagement, collaboration, repurposing",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 4/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "0beb8c99-6a19-4891-800d-c1f1070cc56c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram content strategy guidance: keep fresh, authentic, consistent",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 5/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "24334cf4-dc68-46ff-b745-e12783eea1e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram growth and hashtag tips",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 6/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "b4b5e942-dff9-4e01-9459-8ee2c86fe2fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Instagram content ideas tips session (May 24, 2023)",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 7/26]\n(in reply to) User: I'm struggling to come up with new content ideas for my Instagr"
+      },
+      {
+        "id": "69b9ed79-6ce2-40f4-9c23-b13488c20bfa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes content pillars and storytelling for fitness posts",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 8/26]\nUser: I like the idea of creating content pillars and storytelling. Can you suggest"
+      },
+      {
+        "id": "cc65ffe6-6658-4f5f-9447-ad390235239b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitness content pillars and storytelling ideas",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 9/26]\n(in reply to) User: I like the idea of creating content pillars and storytelling. C"
+      },
+      {
+        "id": "0e685acb-f72d-441a-adc9-70cd0507f7c9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes content pillars and before/after transformation posts",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 10/26]\n(in reply to) User: I like the idea of creating content pillars and storytelling. "
+      },
+      {
+        "id": "6fdf2507-d68b-4672-9cf3-6bcae4c52ec8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes content pillars and storytelling; popular posts are before/after",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 11/26]\n(in reply to) User: I like the idea of creating content pillars and storytelling. "
+      },
+      {
+        "id": "387b3690-8893-43f6-b070-b768c3ad33fd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes content pillars and storytelling for fitness posts",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 12/26]\n(in reply to) User: I like the idea of creating content pillars and storytelling. "
+      },
+      {
+        "id": "dfb982af-0d70-4c31-9fce-b485f000f01f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks how to make Q&A sessions more engaging",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 13/26]\nUser: I'm interested in exploring more about the Q&A sessions. How can I make them"
+      },
+      {
+        "id": "eb7ac34f-fae3-4002-bed0-3e8ea1a17b0a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to make Q&A sessions more engaging",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 14/26]\n(in reply to) User: I'm interested in exploring more about the Q&A sessions. How c"
+      },
+      {
+        "id": "1fade781-73fd-4d58-b2bc-914344dab1a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to make Instagram Q&A sessions more engaging",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 15/26]\n(in reply to) User: I'm interested in exploring more about the Q&A sessions. How c"
+      },
+      {
+        "id": "ef32eeb3-85ce-4e00-9b95-beb0865169b8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to make Q&A sessions more engaging on Instagram",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 16/26]\n(in reply to) User: I'm interested in exploring more about the Q&A sessions. How c"
+      },
+      {
+        "id": "c464cf17-cef6-4354-9b45-5da0493cc88f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants Instagram Live Q&A to grow followers",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 17/26]\nUser: I like the idea of hosting Q&A sessions on Instagram Live. Since I've been s"
+      },
+      {
+        "id": "0b692a9f-917b-403a-ba10-427051b336d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram Live Q&A question ideas for fitness engagement",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 18/26]\n(in reply to) User: I like the idea of hosting Q&A sessions on Instagram Live. Sin"
+      },
+      {
+        "id": "9c197c18-9f58-4d79-a604-f961b7a92dd6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram Live Q&A to grow fitness engagement",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 19/26]\n(in reply to) User: I like the idea of hosting Q&A sessions on Instagram Live. Sin"
+      },
+      {
+        "id": "cc8e7173-457a-4ad4-b24e-3f35a7451346",
+        "score": 0.4052,
+        "memory_type": "preference",
+        "title": "Preference for Instagram Live Q&A to grow fitness engagement",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 20/26]\n(in reply to) User: I like the idea of hosting Q&A sessions on Instagram Live. Sin"
+      },
+      {
+        "id": "d9569693-137a-4e80-823c-d4a7a5531e70",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to promote Q&A via Instagram Story and hashtag",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 21/26]\nUser: I think I'll ask my followers to share a screenshot of the Q&A session on th"
+      },
+      {
+        "id": "505ea8f9-f5dc-4610-a7a0-5a0759ecb5cf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram Q&A social proof via hashtag and Story shares",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 22/26]\n(in reply to) User: I think I'll ask my followers to share a screenshot of the Q&A"
+      },
+      {
+        "id": "259555dd-59b9-462f-8f38-7d344fd74009",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested Instagram Story hashtag promotion for Q&A session",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 23/26]\n(in reply to) User: I think I'll ask my followers to share a screenshot of the Q&A"
+      },
+      {
+        "id": "a35853bd-66e2-4b1f-94bc-23f15679cdba",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to be authentic and provide value in Q&A",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 24/26]\nUser: I'm excited to hear about your Q&A session and how it goes! Remember to have"
+      },
+      {
+        "id": "7633f072-6c74-49ad-9e14-7a0646686ec8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant discusses Q&A and considering other social platforms",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 25/26]\n(in reply to) User: I'm excited to hear about your Q&A session and how it goes! Re"
+      },
+      {
+        "id": "a036d744-276c-45b3-8fe1-98dc11976a93",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to start Twitter/Facebook beyond Instagram",
+        "text": "[date: 2023-05-24T17:30:00+00:00 | context: Session a35f72c2c043 - happened on 2023-05-24 17:30:00 UTC. | turn 26/26]\n(in reply to) User: I'm excited to hear about your Q&A session and how it goes! Re"
+      },
+      {
+        "id": "f71fc240-0047-484e-9b78-b4689b8c4096",
+        "score": 0.4225,
+        "memory_type": "preference",
+        "title": "Interest in non-linear narrative writing",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 1/31]\nUser: I'm thinking of continuing to experiment with non-linear narrative structures"
+      },
+      {
+        "id": "0c514e92-fdea-4995-af00-d8655f52d87d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for non-linear narrative writing book recommendations",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 2/31]\n(in reply to) User: I'm thinking of continuing to experiment with non-linear narrat"
+      },
+      {
+        "id": "ca4fd5da-50a4-4e2f-be01-4cd546593674",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for non-linear narrative structures",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 3/31]\n(in reply to) User: I'm thinking of continuing to experiment with non-linear narrat"
+      },
+      {
+        "id": "425508f3-100b-47c7-b909-0d7250e590a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for non-linear narrative structures",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 4/31]\n(in reply to) User: I'm thinking of continuing to experiment with non-linear narrat"
+      },
+      {
+        "id": "702f67f8-d104-42b7-82d5-82d6466eb2d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Non-linear narrative writing inspiration (books/authors)",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 5/31]\n(in reply to) User: I'm thinking of continuing to experiment with non-linear narrat"
+      },
+      {
+        "id": "cbbd4ed2-62d2-4fe2-a12a-223c56357403",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about writing group meeting structure and feedback",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 6/31]\nUser: I'd like to know more about the writing group you mentioned earlier. How do y"
+      },
+      {
+        "id": "bbe78a2e-ad37-4ad5-b413-e78b97c1e9e1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant clarified it has no physical writing group",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 7/31]\n(in reply to) User: I'd like to know more about the writing group you mentioned ear"
+      },
+      {
+        "id": "bce19a35-d7d0-4a57-9570-7172790cd14d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical writing group meeting structure and feedback",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 8/31]\n(in reply to) User: I'd like to know more about the writing group you mentioned ear"
+      },
+      {
+        "id": "5219f84a-540c-49ed-a755-fdc439a76895",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical writing group meeting structure and feedback types",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 9/31]\n(in reply to) User: I'd like to know more about the writing group you mentioned ear"
+      },
+      {
+        "id": "ea708e0d-d6b4-4d5b-b58e-d2165201f7d2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive and motivated",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 10/31]\nUser: I'm actually thinking of starting a writing group with some friends. We're a"
+      },
+      {
+        "id": "3811aaf1-6115-4c3b-9d58-a15831a7e1c5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive and motivated",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 11/31]\n(in reply to) User: I'm actually thinking of starting a writing group with some fr"
+      },
+      {
+        "id": "fd3f800d-5812-445a-bb7d-579a2162d356",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 12/31]\n(in reply to) User: I'm actually thinking of starting a writing group with some fr"
+      },
+      {
+        "id": "e1e22c79-61c2-43a2-9cd5-5d00bd7864d3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive and motivated",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 13/31]\n(in reply to) User: I'm actually thinking of starting a writing group with some fr"
+      },
+      {
+        "id": "02c716a6-4d2e-42f7-8ee4-175ece1fc678",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive and motivated",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 14/31]\n(in reply to) User: I'm actually thinking of starting a writing group with some fr"
+      },
+      {
+        "id": "96478191-0893-4f40-8e21-23711d9782cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for keeping a writing group productive and motivated",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 15/31]\n(in reply to) User: I'm actually thinking of starting a writing group with some fr"
+      },
+      {
+        "id": "7b65dcf7-89f2-4c6f-8a3e-f070e73fff15",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorm memoir chapter ideas (writing over 3 months)",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 16/31]\nUser: I'm thinking of writing a memoir, and I want to focus on my experiences with"
+      },
+      {
+        "id": "2cfcf80f-2d91-423b-842c-d4d1a03b7973",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant brainstorms memoir chapter ideas",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 17/31]\n(in reply to) User: I'm thinking of writing a memoir, and I want to focus on my ex"
+      },
+      {
+        "id": "75edbbc1-f1d6-4042-8831-a08da74e83c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User brainstormed memoir chapter ideas (writing over 3 months)",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 18/31]\n(in reply to) User: I'm thinking of writing a memoir, and I want to focus on my ex"
+      },
+      {
+        "id": "a574ef43-2de9-4a7b-b831-1d0b9e9dd7ac",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Memoir chapter ideas: routine, obstacles, feedback, community",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 19/31]\n(in reply to) User: I'm thinking of writing a memoir, and I want to focus on my ex"
+      },
+      {
+        "id": "1735a2e1-f693-4cf7-b852-1c2ad8e9c594",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User brainstormed memoir chapter ideas (writing over 3 months)",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 20/31]\n(in reply to) User: I'm thinking of writing a memoir, and I want to focus on my ex"
+      },
+      {
+        "id": "ceb2a925-52c3-47c6-bd04-b76cc596c833",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for memoir chapter brainstorming",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 21/31]\n(in reply to) User: I'm thinking of writing a memoir, and I want to focus on my ex"
+      },
+      {
+        "id": "15c9bf9f-50a5-4660-a8a5-0c72289c6b25",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips requested for structuring a writing chapter",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 22/31]\nUser: I think I'll start with \"The Spark\" chapter, where I'll describe how I start"
+      },
+      {
+        "id": "3a1aae67-26d0-4420-8ee5-166c55726248",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests structure for memoir 'The Spark' chapter",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 23/31]\n(in reply to) User: I think I'll start with \"The Spark\" chapter, where I'll descri"
+      },
+      {
+        "id": "cd8c48ce-6f61-4a40-808a-d95171ac4795",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Writing chapter outline guidance (hook, context, inciting incident, early days)",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 24/31]\n(in reply to) User: I think I'll start with \"The Spark\" chapter, where I'll descri"
+      },
+      {
+        "id": "fb4bc9e6-748d-41bc-9ce8-db6841300dbd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outline chapter on writing as therapy",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 25/31]\n(in reply to) User: I think I'll start with \"The Spark\" chapter, where I'll descri"
+      },
+      {
+        "id": "17d6f8a3-d86b-4657-bb6f-750d40699bad",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Writing guidance: emotional honesty and specific details",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 26/31]\n(in reply to) User: I think I'll start with \"The Spark\" chapter, where I'll descri"
+      },
+      {
+        "id": "045d54bc-656c-49e0-9fac-d22f48bddc36",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for writing a memoir \u201cSpark\u201d chapter",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 27/31]\n(in reply to) User: I think I'll start with \"The Spark\" chapter, where I'll descri"
+      },
+      {
+        "id": "6865921d-44c3-4262-8042-f3e794103820",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sundays as dedicated writing days",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 28/31]\nUser: I think I'll start by describing my Sundays, which have become my dedicated "
+      },
+      {
+        "id": "95610682-858a-4ebe-8633-b0f7b0073d7f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant encouraged memoir writing routine on Sundays",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 29/31]\n(in reply to) User: I think I'll start by describing my Sundays, which have become"
+      },
+      {
+        "id": "9c608535-52f7-41aa-b7ae-58b329f7bf96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User describes Sunday writing ritual",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 30/31]\n(in reply to) User: I think I'll start by describing my Sundays, which have become"
+      },
+      {
+        "id": "382640ea-cf45-4622-89ef-a39ec1a064dd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User describes Sundays as dedicated writing/therapy time",
+        "text": "[date: 2023-05-30T08:43:00+00:00 | context: Session c7e430746e33 - happened on 2023-05-30 08:43:00 UTC. | turn 31/31]\n(in reply to) User: I think I'll start by describing my Sundays, which have become"
+      },
+      {
+        "id": "bc10e3eb-e69f-4830-89cc-75b926eb9414",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks tips for brainstorming and overcoming writer's block",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 1/32]\nUser: I'm currently working on a short story and I'm trying to come up with some id"
+      },
+      {
+        "id": "62bbd749-4490-46dc-b345-7e448f3150a7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Short story brainstorming session (2023-06-16)",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 2/32]\n(in reply to) User: I'm currently working on a short story and I'm trying to come u"
+      },
+      {
+        "id": "7f1a4667-265c-450f-86e7-dfebf5e22ff3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative writing prompts for next story scene",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 3/32]\n(in reply to) User: I'm currently working on a short story and I'm trying to come u"
+      },
+      {
+        "id": "a808ac0f-cbd3-41a9-9ed3-a2e18130754a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Writing advice: change environment to spark ideas",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 4/32]\n(in reply to) User: I'm currently working on a short story and I'm trying to come u"
+      },
+      {
+        "id": "27a0ff0b-93c7-4051-a971-ce91ad39a658",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Writer's block tips for short story scenes",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 5/32]\n(in reply to) User: I'm currently working on a short story and I'm trying to come u"
+      },
+      {
+        "id": "12b7503c-e240-4993-821d-58953529c24c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared short story writing progress and asked for next-scene ideas",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 6/32]\n(in reply to) User: I'm currently working on a short story and I'm trying to come u"
+      },
+      {
+        "id": "59ba4cfd-6856-4734-bf3b-57a43bea836a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about scriptwriting industry standards and formatting",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 7/32]\nUser: I'll definitely try some of those techniques. I've been doing some research o"
+      },
+      {
+        "id": "a12d5862-159f-475f-a91c-c3f6e9eceb37",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of common scriptwriting formats",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 8/32]\n(in reply to) User: I'll definitely try some of those techniques. I've been doing s"
+      },
+      {
+        "id": "5dd6ff96-3223-4d5c-ae00-df2b164c54ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scriptwriting software options and basic screenplay structure",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 9/32]\n(in reply to) User: I'll definitely try some of those techniques. I've been doing s"
+      },
+      {
+        "id": "03fa2a7e-fc4e-4d29-8f50-ba262cf732cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scriptwriting formatting guidelines (scene headings, action lines, dialogue)",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 10/32]\n(in reply to) User: I'll definitely try some of those techniques. I've been doing "
+      },
+      {
+        "id": "619fb9fc-7e61-4dce-8119-65ba13b16729",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scriptwriting formatting tips (font, margins, spacing, pages)",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 11/32]\n(in reply to) User: I'll definitely try some of those techniques. I've been doing "
+      },
+      {
+        "id": "402b728b-d40b-4917-a592-2c08ff23b5d9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brief scriptwriting guidance (show don't tell, format, read, feedback, register)",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 12/32]\n(in reply to) User: I'll definitely try some of those techniques. I've been doing "
+      },
+      {
+        "id": "4f3bebec-ff91-4fd0-8da7-4d848d50f681",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about submitting to literary magazines",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 13/32]\nUser: I've been experimenting with different writing styles and formats, including"
+      },
+      {
+        "id": "7182c3af-c567-43ad-9de1-5b00c90e602e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided guide for submitting a poem to literary magazines",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 14/32]\n(in reply to) User: I've been experimenting with different writing styles and form"
+      },
+      {
+        "id": "f35f6b1e-eeed-47a0-ace0-dfe2d2d4ba91",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for submitting a poem to literary magazines",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 15/32]\n(in reply to) User: I've been experimenting with different writing styles and form"
+      },
+      {
+        "id": "077630df-f835-41c8-b001-8975b6c27266",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance for submitting a poem to a magazine",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 16/32]\n(in reply to) User: I've been experimenting with different writing styles and form"
+      },
+      {
+        "id": "868b98bb-e545-4494-8b28-27f7304031a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on submitting poetry to literary magazines",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 17/32]\n(in reply to) User: I've been experimenting with different writing styles and form"
+      },
+      {
+        "id": "2c0a292d-ce9a-496f-abe5-61eb9e6722a0",
+        "score": 0.4492,
+        "memory_type": "preference",
+        "title": "User seeks writing workshops/conferences and feedback",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 18/32]\nUser: I've been working on a short story for about a month now, and I've been aimi"
+      },
+      {
+        "id": "fba8c8e8-eb18-4877-af40-f8682c839689",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests writing workshops and conferences",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 19/32]\n(in reply to) User: I've been working on a short story for about a month now, and "
+      },
+      {
+        "id": "103a0ea6-3d12-4932-8d99-2387bdecd208",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for finding writing workshops and events",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 20/32]\n(in reply to) User: I've been working on a short story for about a month now, and "
+      },
+      {
+        "id": "0783061d-d467-46d0-9183-826bb2b9a555",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for finding writing workshops",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 21/32]\n(in reply to) User: I've been working on a short story for about a month now, and "
+      },
+      {
+        "id": "4952380d-e54b-48e1-956c-27a3b6647f69",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of writing events and tips",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 22/32]\n(in reply to) User: I've been working on a short story for about a month now, and "
+      },
+      {
+        "id": "74dd687d-3ceb-4e6a-9e07-8c7ae1f79d55",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General advice on writing workshops",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 23/32]\n(in reply to) User: I've been working on a short story for about a month now, and "
+      },
+      {
+        "id": "c12611f5-77f6-4155-90b6-03979ecd9319",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks recommendations for online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 24/32]\nUser: I'd like to ask about online writing communities and forums. Do you have any"
+      },
+      {
+        "id": "05851ca7-6100-43e9-bca2-b0b524591ac8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for online writing communities and forums",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 25/32]\n(in reply to) User: I'd like to ask about online writing communities and forums. D"
+      },
+      {
+        "id": "1a158ee3-21e9-4d9a-ac92-a8a94590779f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for online writing communities and forums",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 26/32]\n(in reply to) User: I'd like to ask about online writing communities and forums. D"
+      },
+      {
+        "id": "ec9ac886-a7dd-491e-85d7-cc8a30ed3eaa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for online writing communities and forums",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 27/32]\n(in reply to) User: I'd like to ask about online writing communities and forums. D"
+      },
+      {
+        "id": "0027a5cc-630c-4f42-8bdc-e6eca96f97fa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidance for joining online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 28/32]\n(in reply to) User: I'd like to ask about online writing communities and forums. D"
+      },
+      {
+        "id": "7e69090b-79f3-495d-98d5-4e8f42d011ea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares positive experience with online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 29/32]\nUser: I'm excited to share my experience with online writing communities and forum"
+      },
+      {
+        "id": "fc900292-3959-4c77-b326-c1bbbd90f6b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about benefits of online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 30/32]\n(in reply to) User: I'm excited to share my experience with online writing communi"
+      },
+      {
+        "id": "2c638ba2-269b-490e-853d-4d87b8306583",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared experience with online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 31/32]\n(in reply to) User: I'm excited to share my experience with online writing communi"
+      },
+      {
+        "id": "4c5da52d-7dfa-421c-86a5-3480fa8f3f8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidance for engaging in online writing communities",
+        "text": "[date: 2023-06-16T20:47:00+00:00 | context: Session ec562939fb0d - happened on 2023-06-16 20:47:00 UTC. | turn 32/32]\n(in reply to) User: I'm excited to share my experience with online writing communi"
+      },
+      {
+        "id": "4484f27e-8d40-4118-94a7-22f7ed9209c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for social media organization tips and tools",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 1/29]\nUser: I'm looking for some tips on how to stay organized with my social media accou"
+      },
+      {
+        "id": "7ba55153-aaad-4c37-8936-6fd9eec724c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Social media organization tips session (2023-06-18)",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some tips on how to stay organized with my soci"
+      },
+      {
+        "id": "05553061-d2e9-4847-85cd-861099e7e7dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for staying organized with social media tools",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some tips on how to stay organized with my soci"
+      },
+      {
+        "id": "de5a7139-72b8-422c-896b-fbce7575e8a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tools for social media organization and monitoring",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some tips on how to stay organized with my soci"
+      },
+      {
+        "id": "d558c3cb-363c-455b-930b-33a508f579e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for staying organized on social media",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some tips on how to stay organized with my soci"
+      },
+      {
+        "id": "84ddad4d-4289-4630-97b9-878950594aab",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers visual Instagram engagement with emojis",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 6/29]\nUser: That's a lot of great information, thank you! I think I'll start with setting"
+      },
+      {
+        "id": "039e5e8e-8cb2-4390-8c4c-8cccf3e580fc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Instagram caption tips shared during content calendar discussion",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 7/29]\n(in reply to) User: That's a lot of great information, thank you! I think I'll star"
+      },
+      {
+        "id": "0e97f698-0d7d-43a3-b5e2-9931b171df47",
+        "score": 0.3633,
+        "memory_type": "fact",
+        "title": "Instagram caption best practices (concise, headlines, hashtags, tone)",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 8/29]\n(in reply to) User: That's a lot of great information, thank you! I think I'll star"
+      },
+      {
+        "id": "46b51ca3-0942-4a56-a93d-0815fb472ef9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media caption best practices (engagement, humor, CTA)",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 9/29]\n(in reply to) User: That's a lot of great information, thank you! I think I'll star"
+      },
+      {
+        "id": "66d5afb3-61df-4758-8ac4-f80381bc92fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram engagement tips: tags, Stories/IGTV, experiment/optimize",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 10/29]\n(in reply to) User: That's a lot of great information, thank you! I think I'll sta"
+      },
+      {
+        "id": "5f5512a7-4d36-49d1-af55-cda8bf46dc66",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular Instagram caption formats and engagement tips",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 11/29]\n(in reply to) User: That's a lot of great information, thank you! I think I'll sta"
+      },
+      {
+        "id": "f6266182-b43b-4792-9321-920dd7306c49",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering cross-promotion and more IG Reels/IGTV",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 12/29]\nUser: I'll definitely try out some of these caption ideas. I've also been thinking"
+      },
+      {
+        "id": "167a3cf8-45ae-4ab4-b31e-a59c94006736",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on cross-promoting Instagram content",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 13/29]\n(in reply to) User: I'll definitely try out some of these caption ideas. I've also"
+      },
+      {
+        "id": "93856fa7-5de5-4f57-8644-5aa62773baf7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on cross-promoting social content across platforms",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 14/29]\n(in reply to) User: I'll definitely try out some of these caption ideas. I've also"
+      },
+      {
+        "id": "d6dbbb7c-deb1-44a7-986a-4ce92e1d5142",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on cross-promoting Instagram content",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 15/29]\n(in reply to) User: I'll definitely try out some of these caption ideas. I've also"
+      },
+      {
+        "id": "4e07102b-a4f9-4d55-ac7a-fdba476fdea8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 16/29]\n(in reply to) User: I'll definitely try out some of these caption ideas. I've also"
+      },
+      {
+        "id": "39e80066-7691-474c-954f-627a7ede4eb3",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 17/29]\nUser: That's really helpful, thanks! I've also been thinking about engaging more w"
+      },
+      {
+        "id": "746bede3-e0ac-445e-b6dc-e745121367ff",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 18/29]\n(in reply to) User: That's really helpful, thanks! I've also been thinking about e"
+      },
+      {
+        "id": "9fcce980-057c-4e59-9f94-804415557f22",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 19/29]\n(in reply to) User: That's really helpful, thanks! I've also been thinking about e"
+      },
+      {
+        "id": "8759c64a-0e5e-45ef-963e-779a594385aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 20/29]\n(in reply to) User: That's really helpful, thanks! I've also been thinking about e"
+      },
+      {
+        "id": "a44dc92a-a5ef-4384-bb97-1a7e16f73397",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 21/29]\n(in reply to) User: That's really helpful, thanks! I've also been thinking about e"
+      },
+      {
+        "id": "53374d4f-5b91-4425-a2fd-18af24629638",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 22/29]\nUser: I'm planning to attend a local event this weekend, a coffee festival in my n"
+      },
+      {
+        "id": "e546c37c-8404-47f5-8446-ad419cf32c7a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 23/29]\n(in reply to) User: I'm planning to attend a local event this weekend, a coffee fe"
+      },
+      {
+        "id": "3512977b-c69a-43be-99eb-903f6a2e1d25",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 24/29]\n(in reply to) User: I'm planning to attend a local event this weekend, a coffee fe"
+      },
+      {
+        "id": "d5a3d29b-d522-49f7-820b-29af82325daf",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 25/29]\n(in reply to) User: I'm planning to attend a local event this weekend, a coffee fe"
+      },
+      {
+        "id": "560b5398-e0df-488b-bc57-57b2f02cb526",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to attend local coffee festival and share photos",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 26/29]\n(in reply to) User: I'm planning to attend a local event this weekend, a coffee fe"
+      },
+      {
+        "id": "fa89ce0c-665a-4664-8349-9fec3fbd132f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to photograph coffee shops and seek collaborations",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 27/29]\nUser: I'll take a few photos of the different coffee shops and their offerings, an"
+      },
+      {
+        "id": "b4f52668-c2ad-455f-bbdf-3d1ce4a3aaae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant encouraged coffee shop photo/Instagram collaboration plan",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 28/29]\n(in reply to) User: I'll take a few photos of the different coffee shops and their"
+      },
+      {
+        "id": "6d724f3c-96bb-4ca2-94db-75699b86a0c2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Respectful outreach guidance for coffee shop collaboration",
+        "text": "[date: 2023-06-18T12:54:00+00:00 | context: Session 8a69daf9da24 - happened on 2023-06-18 12:54:00 UTC. | turn 29/29]\n(in reply to) User: I'll take a few photos of the different coffee shops and their"
+      }
+    ]
+  },
+  "context": {
+    "chars": 97986,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24496)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25508,
+    "prompt_tokens": 23413,
+    "completion_tokens": 268,
+    "reasoning_tokens": 1827,
+    "generate_time_ms": 21489.637294085696,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 21807,
+        "completion_tokens": 118,
+        "reasoning_tokens": 610,
+        "total_tokens": 22535
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 581,
+        "completion_tokens": 41,
+        "reasoning_tokens": 490,
+        "total_tokens": 1112
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 389,
+        "completion_tokens": 16,
+        "reasoning_tokens": 402,
+        "total_tokens": 807
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 636,
+        "completion_tokens": 93,
+        "reasoning_tokens": 325,
+        "total_tokens": 1054
+      }
+    ]
+  },
+  "failure_label": null
+}

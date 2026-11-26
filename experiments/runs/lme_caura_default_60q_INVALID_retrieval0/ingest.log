@@ -1,0 +1,125 @@
+Restricting ingestion to 60 question IDs from 
+/shared_mnt/loubna/caura/experiments/configs/lme_subset60_from_mem0.txt
+Ingesting 60 questions (0 already done) with concurrency=5...
+  [1/60] #94f70d80: 49 sessions -> 475 chunks in 601.2s
+  [2/60] #75499fd8: 52 sessions -> 679 chunks in 636.2s
+  [3/60] #726462e0: 48 sessions -> 680 chunks in 755.5s
+  [4/60] #c960da58: 46 sessions -> 498 chunks in 765.7s
+  [5/60] #ad7109d1: 44 sessions -> 500 chunks in 956.3s
+  [6/60] #21436231: 50 sessions -> 661 chunks in 755.8s
+  [7/60] #36580ce8: 55 sessions -> 562 chunks in 917.6s
+  [8/60] #3d86fd0a: 55 sessions -> 360 chunks in 847.2s
+  [9/60] #15745da0_abs: 50 sessions -> 700 chunks in 895.1s
+  [10/60] #bc8a6e93_abs: 47 sessions -> 600 chunks in 957.9s
+  [11/60] #0a995998: 44 sessions -> 285 chunks in 1021.8s
+  [12/60] #6cb6f249: 41 sessions -> 546 chunks in 873.4s
+  [13/60] #gpt4_d12ceb0e: 45 sessions -> 251 chunks in 807.8s
+  [14/60] #2ce6a0f2: 47 sessions -> 801 chunks in 1112.7s
+  [15/60] #10d9b85a: 44 sessions -> 385 chunks in 1039.9s
+  [16/60] #edced276_abs: 47 sessions -> 700 chunks in 1030.2s
+  [17/60] #35a27287: 51 sessions -> 783 chunks in 1073.6s
+  [18/60] #81507db6: 50 sessions -> 700 chunks in 1301.8s
+  [19/60] #32260d93: 46 sessions -> 566 chunks in 1054.5s
+  [20/60] #195a1a1b: 46 sessions -> 746 chunks in 1084.8s
+  [21/60] #caf03d32: 51 sessions -> 300 chunks in 924.7s
+  [22/60] #09d032c9: 43 sessions -> 260 chunks in 861.9s
+  [23/60] #1da05512: 47 sessions -> 903 chunks in 997.1s
+  [24/60] #b0479f84: 48 sessions -> 505 chunks in 930.7s
+  [25/60] #07b6f563: 52 sessions -> 173 chunks in 802.2s
+  [26/60] #0a34ad58: 42 sessions -> 290 chunks in 944.3s
+  [27/60] #1c0ddc50: 51 sessions -> 400 chunks in 1117.1s
+  [28/60] #7405e8b1: 48 sessions -> 871 chunks in 936.9s
+  [29/60] #77eafa52: 51 sessions -> 589 chunks in 1089.0s
+  [30/60] #0ea62687: 43 sessions -> 481 chunks in 1038.8s
+  [31/60] #gpt4_1d4ab0c9: 53 sessions -> 353 chunks in 932.9s
+  [32/60] #gpt4_7ddcf75f: 47 sessions -> 769 chunks in 908.5s
+  [33/60] #gpt4_59149c77: 48 sessions -> 300 chunks in 1229.2s
+  [34/60] #gpt4_85da3956: 53 sessions -> 662 chunks in 911.8s
+  [35/60] #71017277: 51 sessions -> 300 chunks in 985.3s
+  [36/60] #gpt4_2d58bcd6: 46 sessions -> 887 chunks in 875.7s
+  [37/60] #982b5123: 47 sessions -> 511 chunks in 905.2s
+  [38/60] #4dfccbf8: 43 sessions -> 300 chunks in 1136.6s
+  [39/60] #gpt4_2c50253f: 56 sessions -> 300 chunks in 958.5s
+  [40/60] #a3045048: 53 sessions -> 498 chunks in 887.4s
+  [41/60] #0f05491a: 45 sessions -> 256 chunks in 803.5s
+  [42/60] #5a4f22c0: 49 sessions -> 712 chunks in 797.1s
+  [43/60] #a1eacc2a: 44 sessions -> 500 chunks in 1138.5s
+  [44/60] #184da446: 42 sessions -> 300 chunks in 1163.6s
+  [45/60] #618f13b2: 49 sessions -> 600 chunks in 1024.6s
+  [46/60] #50635ada: 48 sessions -> 615 chunks in 801.2s
+  [47/60] #18bc8abd: 44 sessions -> 348 chunks in 898.0s
+  [48/60] #dfde3500: 47 sessions -> 735 chunks in 956.7s
+  [49/60] #06db6396: 51 sessions -> 294 chunks in 1206.6s
+  [50/60] #2133c1b5_abs: 50 sessions -> 400 chunks in 1302.2s
+  [51/60] #4c36ccef: 49 sessions -> 600 chunks in 912.6s
+  [52/60] #ceb54acb: 50 sessions -> 700 chunks in 1008.9s
+  [53/60] #0e5e2d1a: 46 sessions -> 600 chunks in 900.3s
+  [54/60] #58470ed2: 50 sessions -> 509 chunks in 959.1s
+  [55/60] #3249768e: 47 sessions -> 694 chunks in 758.0s
+  [56/60] #71a3fd6b: 44 sessions -> 800 chunks in 898.9s
+  [57/60] #e982271f: 54 sessions -> 323 chunks in 962.6s
+  [58/60] #a40e080f: 48 sessions -> 300 chunks in 885.8s
+  [59/60] #e48988bc: 50 sessions -> 618 chunks in 733.2s
+  [60/60] #778164c6: 50 sessions -> 469 chunks in 676.3s
+Done. Progress marker: outputs/lme_caura_default_60q/ingested.txt
+---- per-agent memory counts after ingest (agent | memories) ----
+lmeo-06db6396 | 894
+lmeo-07b6f563 | 873
+lmeo-09d032c9 | 860
+lmeo-0a34ad58 | 890
+lmeo-0a995998 | 885
+lmeo-0e5e2d1a | 870
+lmeo-0ea62687 | 881
+lmeo-0f05491a | 856
+lmeo-10d9b85a | 885
+lmeo-15745da0_abs | 876
+lmeo-184da446 | 872
+lmeo-18bc8abd | 848
+lmeo-195a1a1b | 846
+lmeo-1c0ddc50 | 896
+lmeo-1da05512 | 903
+lmeo-2133c1b5_abs | 856
+lmeo-21436231 | 861
+lmeo-2ce6a0f2 | 901
+lmeo-32260d93 | 866
+lmeo-3249768e | 894
+lmeo-35a27287 | 883
+lmeo-36580ce8 | 862
+lmeo-3d86fd0a | 860
+lmeo-4c36ccef | 884
+lmeo-4dfccbf8 | 866
+lmeo-50635ada | 915
+lmeo-58470ed2 | 909
+lmeo-5a4f22c0 | 912
+lmeo-618f13b2 | 897
+lmeo-6cb6f249 | 846
+lmeo-71017277 | 893
+lmeo-71a3fd6b | 851
+lmeo-726462e0 | 880
+lmeo-7405e8b1 | 871
+lmeo-75499fd8 | 879
+lmeo-778164c6 | 869
+lmeo-77eafa52 | 889
+lmeo-81507db6 | 920
+lmeo-94f70d80 | 875
+lmeo-982b5123 | 911
+lmeo-a1eacc2a | 904
+lmeo-a3045048 | 898
+lmeo-a40e080f | 883
+lmeo-ad7109d1 | 878
+lmeo-b0479f84 | 905
+lmeo-bc8a6e93_abs | 893
+lmeo-c960da58 | 898
+lmeo-caf03d32 | 860
+lmeo-ceb54acb | 875
+lmeo-dfde3500 | 935
+lmeo-e48988bc | 918
+lmeo-e982271f | 923
+lmeo-edced276_abs | 861
+lmeo-gpt4_1d4ab0c9 | 853
+lmeo-gpt4_2c50253f | 886
+lmeo-gpt4_2d58bcd6 | 887
+lmeo-gpt4_59149c77 | 897
+lmeo-gpt4_7ddcf75f | 869
+lmeo-gpt4_85da3956 | 862
+lmeo-gpt4_d12ceb0e | 851

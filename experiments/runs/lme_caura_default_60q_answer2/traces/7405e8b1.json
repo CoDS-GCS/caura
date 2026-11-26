@@ -1,0 +1,1317 @@
+{
+  "question_id": "7405e8b1",
+  "question_type": "multi-session",
+  "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+  "gold_answer": "Yes.",
+  "prediction": "While you mentioned receiving a 40% discount on your first HelloFresh order, the chat history does not specify what discount (or percentage discount) you received on your first UberEats order (only noting a 20% discount on an order the previous week). Consequently, it cannot be determined whether the discount on your first HelloFresh order was higher than the discount on your first UberEats order.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": false,
+      "reason": "no"
+    }
+  },
+  "memories": {
+    "count": 871,
+    "by_type": {
+      "preference": 173,
+      "episode": 292,
+      "action": 1,
+      "fact": 350,
+      "plan": 13,
+      "task": 42
+    },
+    "by_status": {
+      "conflicted": 31,
+      "active": 840
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2563353,
+    "output_tokens": 123682,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?"
+    ],
+    "retrieve_time_ms": 3144.164956989698,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "57a02668-e31d-494e-89f0-c15a67af7b89",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about legal implications of third-party vendors/contractors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 1/21]\nUser: What are the legal implications for businesses that use third-party vendors o"
+      },
+      {
+        "id": "7cbb4d05-92db-4cfa-89eb-7d9e7e116e57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General legal implications of using third-party vendors/contractors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 2/21]\n(in reply to) User: What are the legal implications for businesses that use third-p"
+      },
+      {
+        "id": "2348994a-451c-492b-9c69-21f2aea26bbc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legal implications: confidentiality/security and contractual obligations with ve",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 3/21]\n(in reply to) User: What are the legal implications for businesses that use third-p"
+      },
+      {
+        "id": "e4204867-2fba-4156-b334-f0edf82852cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example of employer liability for vendor tax wrongdoing",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 4/21]\nUser: Can you give me an example of a situation where a business could be held liab"
+      },
+      {
+        "id": "2c9127b6-dffa-4f79-be87-66b5a7388183",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips for managing legal risks with third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 5/21]\nUser: Can you provide some tips on how businesses can manage legal risks associated"
+      },
+      {
+        "id": "5255813e-4083-4c83-918b-905bcf7caa5b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for managing legal risks with third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 6/21]\n(in reply to) User: Can you provide some tips on how businesses can manage legal ri"
+      },
+      {
+        "id": "fafaa455-6779-4d90-a27c-eb905b0163b7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for managing legal risk with third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 7/21]\n(in reply to) User: Can you provide some tips on how businesses can manage legal ri"
+      },
+      {
+        "id": "2c382150-3143-4122-9ea5-12f59e21390a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for managing legal risks with third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 8/21]\n(in reply to) User: Can you provide some tips on how businesses can manage legal ri"
+      },
+      {
+        "id": "0b29718e-e3fe-49f8-a993-fe5a43842e58",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about industry regulations for third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 9/21]\nUser: Are there any industry-specific regulations that businesses should be aware o"
+      },
+      {
+        "id": "74032cce-5754-488f-bcd7-392f7abe11d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Industry regulations for third-party vendors (Healthcare/HIPAA)",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 10/21]\n(in reply to) User: Are there any industry-specific regulations that businesses sh"
+      },
+      {
+        "id": "f8bbb719-5f52-4f86-be9f-220e8e8be77b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vendor/contractor regulations: GLBA and PCI DSS",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 11/21]\n(in reply to) User: Are there any industry-specific regulations that businesses sh"
+      },
+      {
+        "id": "75c0f81e-8aa4-4bb3-9dba-5903b9177de4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Industry-specific regulations for third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 12/21]\n(in reply to) User: Are there any industry-specific regulations that businesses sh"
+      },
+      {
+        "id": "3254bc80-cac3-4d5e-a615-44fbb61df884",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: eliminating legal risks with third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 13/21]\nUser: Can businesses completely eliminate legal risks associated with third-party "
+      },
+      {
+        "id": "52833df0-faf8-4d50-b00a-2f54a07cfa8b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legal risk mitigation for third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 14/21]\n(in reply to) User: Can businesses completely eliminate legal risks associated wit"
+      },
+      {
+        "id": "d270575e-e28c-4cba-99dd-25eea7416460",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legal professionals can mitigate third-party vendor risk",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 15/21]\n(in reply to) User: Can businesses completely eliminate legal risks associated wit"
+      },
+      {
+        "id": "afb62858-47ae-443e-aa0a-ca71b4a55093",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about cases of vendor/contractor liability",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 16/21]\nUser: Have you come across any recent cases where a business was held liable for t"
+      },
+      {
+        "id": "9a9cf141-2b52-486f-9ddf-02b62147564d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Examples of business liability for third-party vendor actions",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 17/21]\n(in reply to) User: Have you come across any recent cases where a business was hel"
+      },
+      {
+        "id": "caea5691-d3a0-4523-b601-9d318b0ecb2b",
+        "score": 0.3375,
+        "memory_type": "fact",
+        "title": "Uber 2017 breach via third-party vendor code; $148M settlement",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 18/21]\n(in reply to) User: Have you come across any recent cases where a business was hel"
+      },
+      {
+        "id": "34531432-1d86-4b2d-a2b4-98a68fda85e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for advice on finding reputable regulated vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 19/21]\nUser: It's clear that businesses need to be cautious when working with third-party"
+      },
+      {
+        "id": "f98956ee-d192-4a88-b2f0-dbb2862dacd1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vendor due diligence steps for regulated industries",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 20/21]\n(in reply to) User: It's clear that businesses need to be cautious when working wi"
+      },
+      {
+        "id": "c09f68bd-207d-4d78-808d-700717e70fb8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for finding reputable regulated third-party vendors",
+        "text": "[date: 2023-05-20T20:28:00+00:00 | context: Session 3a8c8688fc2c - happened on 2023-05-20 20:28:00 UTC. | turn 21/21]\n(in reply to) User: It's clear that businesses need to be cautious when working wi"
+      },
+      {
+        "id": "8385e1da-bc1b-4d24-9a60-30bfd590b652",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in meal kit delivery recommendations and promotions",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 1/24]\nUser: I'm thinking of trying out meal kit delivery services and was wondering if yo"
+      },
+      {
+        "id": "611b0790-6d71-4066-b172-684d873ec4d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meal kit promotions for Blue Apron, Plated, and HelloFresh",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 2/24]\n(in reply to) User: I'm thinking of trying out meal kit delivery services and was w"
+      },
+      {
+        "id": "4f86f778-6969-4d12-a1c8-67e7a5ff4bba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meal kit promos: Sun Basket, Home Chef, Green Chef codes",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 3/24]\n(in reply to) User: I'm thinking of trying out meal kit delivery services and was w"
+      },
+      {
+        "id": "fb269179-8bb7-47db-bd41-af3d1b403591",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal kit selection guidance (reviews, dietary needs, pricing, cancellation)",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 4/24]\n(in reply to) User: I'm thinking of trying out meal kit delivery services and was w"
+      },
+      {
+        "id": "40f34df3-dd90-4aed-8dba-7dfcd39c3dd5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering Sun Basket and Home Chef; asks about skipping/canceling",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 5/24]\nUser: That's a lot of options. I think I'll take a closer look at Sun Basket and Ho"
+      },
+      {
+        "id": "3f4bbae5-7e09-483e-b3a1-685a195851ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meal kit options: Sun Basket skip/cancel policy and support",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 6/24]\n(in reply to) User: That's a lot of options. I think I'll take a closer look at Sun"
+      },
+      {
+        "id": "3d188a8e-83d9-472b-9b4d-90baf4e6e4d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Home Chef: customer service and skip/cancel policy",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 7/24]\n(in reply to) User: That's a lot of options. I think I'll take a closer look at Sun"
+      },
+      {
+        "id": "b3c6766d-40b8-416d-baa3-6a28c5582dbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considered Sun Basket vs Home Chef and asked about cancellation",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 8/24]\n(in reply to) User: That's a lot of options. I think I'll take a closer look at Sun"
+      },
+      {
+        "id": "1940c3d6-2121-4bd7-8367-b2c24e6bef34",
+        "score": 0.5318,
+        "memory_type": "preference",
+        "title": "User asks about promotions for online food delivery",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 9/24]\nUser: That's helpful to know. I'll definitely take a closer look at their customer "
+      },
+      {
+        "id": "2d8f720b-389d-4676-8f62-3398e69f1f27",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided coupon deals for Grubhub and UberEats",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 10/24]\n(in reply to) User: That's helpful to know. I'll definitely take a closer look at "
+      },
+      {
+        "id": "14d4c6f2-a479-4f54-a637-c81566f10061",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UberEats discounts, referral, promo codes, and Uber Rewards",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 11/24]\n(in reply to) User: That's helpful to know. I'll definitely take a closer look at "
+      },
+      {
+        "id": "350783fa-7038-4356-82eb-69207734eff0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Food delivery promo codes and discount tips (DoorDash/Postmates/Caviar)",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 12/24]\n(in reply to) User: That's helpful to know. I'll definitely take a closer look at "
+      },
+      {
+        "id": "59fd4016-be42-4f52-a54d-3362848cdafb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Read promo terms before using coupons",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 13/24]\n(in reply to) User: That's helpful to know. I'll definitely take a closer look at "
+      },
+      {
+        "id": "9c003c80-bb35-46d3-a4a5-8697de8c53f3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about prioritizing meal kit variety vs dietary needs",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 14/24]\nUser: I've been using these services a lot lately, especially UberEats. Anyway, ba"
+      },
+      {
+        "id": "9769911f-c6ff-431d-bb3b-a2a944274cb7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on meal kit priorities: variety vs dietary needs",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 15/24]\n(in reply to) User: I've been using these services a lot lately, especially UberEa"
+      },
+      {
+        "id": "97ea11aa-e65c-4607-8ee1-5d6d7988d4c5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal kit choice: prioritize dietary needs vs recipe variety",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 16/24]\n(in reply to) User: I've been using these services a lot lately, especially UberEa"
+      },
+      {
+        "id": "644f3100-5fe3-49c9-a78d-0f1a2683105b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal kit service selection criteria (variety vs dietary needs)",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 17/24]\n(in reply to) User: I've been using these services a lot lately, especially UberEa"
+      },
+      {
+        "id": "61edcb71-c53c-4a53-99f4-e5eaaf98a542",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prioritizes low-carb, low-sugar meal services",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 18/24]\nUser: I think I'll prioritize services that cater to specific dietary needs, as I'"
+      },
+      {
+        "id": "f1ccdb47-5175-4376-94af-ead6394144d7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Meal kit recommendation for low-carb/low-sugar diets",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 19/24]\n(in reply to) User: I think I'll prioritize services that cater to specific dietar"
+      },
+      {
+        "id": "dff320f9-10c3-4f29-8202-4a951e18b023",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal kit suggestion for low-carb/low-sugar preferences",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 20/24]\n(in reply to) User: I think I'll prioritize services that cater to specific dietar"
+      },
+      {
+        "id": "5c10a7ad-9c00-42e3-8921-f0287db72061",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference: prioritize low-carb/low-sugar meal services",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 21/24]\n(in reply to) User: I think I'll prioritize services that cater to specific dietar"
+      },
+      {
+        "id": "b3a924e8-ac6f-4318-a07e-a057de671863",
+        "score": null,
+        "memory_type": "task",
+        "title": "Review Sun Basket low-carb plan pricing and delivery options",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 22/24]\nUser: I think I'll take a closer look at Sun Basket's low-carb meal plan and see i"
+      },
+      {
+        "id": "5b30912b-1f21-432a-826b-9cb69d3b9b3b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sun Basket low-carb pricing and delivery options",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 23/24]\n(in reply to) User: I think I'll take a closer look at Sun Basket's low-carb meal "
+      },
+      {
+        "id": "2a5f3986-0ebf-45d1-951b-fcb3dc486e8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sun Basket pricing, delivery, and promotions overview",
+        "text": "[date: 2023-05-23T07:40:00+00:00 | context: Session a3b9ee798777 - happened on 2023-05-23 07:40:00 UTC. | turn 24/24]\n(in reply to) User: I think I'll take a closer look at Sun Basket's low-carb meal "
+      },
+      {
+        "id": "63f0ce2b-7a2d-4917-a0ac-73571b53dd6d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for fuel-efficient car research; mentions new 45-min commute",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 1/24]\nUser: I'm planning to buy a new car soon and I was wondering if you could help me w"
+      },
+      {
+        "id": "a143f9c2-fe20-431f-836e-3149f4b77cf5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fuel-efficient car research discussion (2023-05-23)",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 2/24]\n(in reply to) User: I'm planning to buy a new car soon and I was wondering if you c"
+      },
+      {
+        "id": "7ac3443b-b0ef-40ae-9953-18e947256bc9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants fuel-efficient car research",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 3/24]\n(in reply to) User: I'm planning to buy a new car soon and I was wondering if you c"
+      },
+      {
+        "id": "a293da8a-4d1e-4eea-8b29-01abd8384c35",
+        "score": 0.3564,
+        "memory_type": "preference",
+        "title": "Vehicle preferences: sedan/hatchback, ~$25k, highway fuel economy",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 4/24]\nUser: I'm open to different types of vehicles, but I think I'd prefer a sedan or ha"
+      },
+      {
+        "id": "aa7f3f7b-66cf-4042-94b8-4175c07d2a96",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Vehicle preferences: sedan/hatchback, ~$25k budget, 200\u2013250 mi/week",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 5/24]\n(in reply to) User: I'm open to different types of vehicles, but I think I'd prefer"
+      },
+      {
+        "id": "22138f2e-34fa-451b-aa20-5659b2b6fc62",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Vehicle preferences: sedan/hatchback, ~$25k budget",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 6/24]\n(in reply to) User: I'm open to different types of vehicles, but I think I'd prefer"
+      },
+      {
+        "id": "1f590a08-9b06-46ad-aee8-a042ba45db71",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Vehicle preferences: sedan/hatchback, ~$25k budget",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 7/24]\n(in reply to) User: I'm open to different types of vehicles, but I think I'd prefer"
+      },
+      {
+        "id": "97379b1c-fb4a-417f-b9d7-ab5137e3d4c8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Toyota Corolla Hybrid safety and infotainment",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 8/24]\nUser: I think I'd like to know more about the Toyota Corolla Hybrid. Can you tell m"
+      },
+      {
+        "id": "de2817be-79bf-4359-b7e0-addb97a8f60f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toyota Corolla Hybrid safety and infotainment overview",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 9/24]\n(in reply to) User: I think I'd like to know more about the Toyota Corolla Hybrid. "
+      },
+      {
+        "id": "26b31d62-3174-42da-a432-4752f2f7fade",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toyota Corolla Hybrid safety rating and infotainment details",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 10/24]\n(in reply to) User: I think I'd like to know more about the Toyota Corolla Hybrid."
+      },
+      {
+        "id": "f8b351c9-49f8-439a-a5e0-46d4df4f7c74",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toyota Corolla Hybrid features and trim levels",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 11/24]\n(in reply to) User: I think I'd like to know more about the Toyota Corolla Hybrid."
+      },
+      {
+        "id": "92b0c14d-08da-4d0b-b1af-7f3638ddaf13",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Entune 3.0 infotainment UI responsiveness",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 12/24]\nUser: Yeah, that sounds like a great safety feature set. I'm also interested in th"
+      },
+      {
+        "id": "806384fd-2096-48ed-9d76-6a31fa52456d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Entune 3.0 infotainment UI and responsiveness (review claims)",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 13/24]\n(in reply to) User: Yeah, that sounds like a great safety feature set. I'm also in"
+      },
+      {
+        "id": "682f524c-21be-4122-8c67-4903d753b2d5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Entune 3.0 infotainment UI responsiveness and features",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 14/24]\n(in reply to) User: Yeah, that sounds like a great safety feature set. I'm also in"
+      },
+      {
+        "id": "9920bb61-500f-42bc-84a5-b279409a207a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Entune 3.0 UI responsiveness notes (Corolla Hybrid)",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 15/24]\n(in reply to) User: Yeah, that sounds like a great safety feature set. I'm also in"
+      },
+      {
+        "id": "bb0bd4e1-d729-4e42-9a1f-1ac5156eb145",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants comfort details for Corolla Hybrid commute",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 16/24]\nUser: That sounds good to know about the Entune 3.0 system. I think I'd like to kn"
+      },
+      {
+        "id": "d0b3cc51-80f5-43a9-ac74-5660fab1ca10",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Corolla Hybrid interior dimensions and comfort overview",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 17/24]\n(in reply to) User: That sounds good to know about the Entune 3.0 system. I think "
+      },
+      {
+        "id": "d1d5f27b-948d-4a4a-81a2-aea0667cce2b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Corolla Hybrid comfort features overview",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 18/24]\n(in reply to) User: That sounds good to know about the Entune 3.0 system. I think "
+      },
+      {
+        "id": "464c5e7c-0f45-42f1-9a29-ddd0a5824037",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Corolla Hybrid comfort and noise-reduction features",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 19/24]\n(in reply to) User: That sounds good to know about the Entune 3.0 system. I think "
+      },
+      {
+        "id": "ce57fdef-1100-4a3d-9113-89f3b5475fef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Corolla Hybrid interior comfort",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 20/24]\n(in reply to) User: That sounds good to know about the Entune 3.0 system. I think "
+      },
+      {
+        "id": "dae59a48-5eb6-46d0-947e-ae62a6541cec",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in Corolla Hybrid driving dynamics for comfort/responsiveness",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 21/24]\nUser: I think I'd like to know more about the driving dynamics of the Corolla Hybr"
+      },
+      {
+        "id": "c38fc206-df8b-461a-b759-aefafb8924b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toyota Corolla Hybrid driving dynamics overview",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 22/24]\n(in reply to) User: I think I'd like to know more about the driving dynamics of th"
+      },
+      {
+        "id": "b221b683-360a-4c07-a157-22cd73f7e37d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Corolla Hybrid driving dynamics overview",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 23/24]\n(in reply to) User: I think I'd like to know more about the driving dynamics of th"
+      },
+      {
+        "id": "0d81e759-c438-4dd8-82fd-3d7fc48d5dcf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Corolla Hybrid driving modes and driver-assist features",
+        "text": "[date: 2023-05-23T15:57:00+00:00 | context: Session 3e4834857526 - happened on 2023-05-23 15:57:00 UTC. | turn 24/24]\n(in reply to) User: I think I'd like to know more about the driving dynamics of th"
+      },
+      {
+        "id": "d2012cc3-1c10-4770-af1f-9db73458940f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "List of FEE components and brief definitions (context: 2023-05-23)",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 1/15]\nAssistant: Sure, here is a list of the different FEE components, along with a brief"
+      },
+      {
+        "id": "77154bad-0dd1-4912-b4be-b72c650cb4c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Definitions of Fresh Earth ecosystem components (FET, FER, FEIV, etc.)",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 2/15]\n(in reply to) Assistant: Sure, here is a list of the different FEE components, alon"
+      },
+      {
+        "id": "cb4f7739-25d6-47b5-b5c4-99e7a5e81f31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Definitions of FEE components (Market Network, Buying Groups, etc.)",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 3/15]\n(in reply to) Assistant: Sure, here is a list of the different FEE components, alon"
+      },
+      {
+        "id": "5bd5e648-e9a2-4df2-9f59-d234aa0c04e6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Re-list and finalize FEE components for deck reference",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 4/15]\nUser: alsom include stakeholders, please note, the fresh earth community, and the e"
+      },
+      {
+        "id": "31753fa0-2ec6-4542-a10a-aa1eb3d1e687",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fresh Earth Ecosystem components discussed (FEE, stakeholders, expert network)",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 5/15]\n(in reply to) User: alsom include stakeholders, please note, the fresh earth commun"
+      },
+      {
+        "id": "3749ddfb-3d2b-4a76-9421-0a4a9c532a92",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fresh Earth ecosystem: FET, FER, FEIV and Fresh Earth Index",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 6/15]\n(in reply to) User: alsom include stakeholders, please note, the fresh earth commun"
+      },
+      {
+        "id": "9c456446-7645-4436-8448-617c219f5228",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Definitions of Expert Community, Market Network, Industry Network, B2B Sandbox",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 7/15]\n(in reply to) User: alsom include stakeholders, please note, the fresh earth commun"
+      },
+      {
+        "id": "58e8e66b-cff1-461d-bce2-279d19ac3848",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stakeholder ecosystem components: Projects, Consumer Movement, Buying Groups",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 8/15]\n(in reply to) User: alsom include stakeholders, please note, the fresh earth commun"
+      },
+      {
+        "id": "c08ea94a-2c63-4dc2-90c0-514906cf03cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fresh Earth Ecosystem tools and purpose",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 9/15]\n(in reply to) User: alsom include stakeholders, please note, the fresh earth commun"
+      },
+      {
+        "id": "26b224c1-6408-4f30-b438-50b76bfffc95",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft request for supply chain (FESC) plea content",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 10/15]\nUser: alkso plea include in this the problem, the cost, the solution, the opportun"
+      },
+      {
+        "id": "450d6f8c-ed7b-4534-bb4e-ca1cb04cfb6e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested FEE plea content incl. problem, cost, solution, auditing, digital",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 11/15]\n(in reply to) User: alkso plea include in this the problem, the cost, the solution"
+      },
+      {
+        "id": "427a2665-55f1-4810-922e-5d1895980773",
+        "score": 0.3853,
+        "memory_type": "fact",
+        "title": "Fresh Earth (FEE) ecosystem components: FET, FER, FEIV, FESI",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 12/15]\n(in reply to) User: alkso plea include in this the problem, the cost, the solution"
+      },
+      {
+        "id": "a4324b8f-4f40-4766-877a-08dc3cd444fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fresh Earth ecosystem components and marketplace sandbox",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 13/15]\n(in reply to) User: alkso plea include in this the problem, the cost, the solution"
+      },
+      {
+        "id": "b5c2c7e8-2011-4fd7-99eb-c2ef54615fc9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fresh Earth ecosystem components and digital twin sandbox",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 14/15]\n(in reply to) User: alkso plea include in this the problem, the cost, the solution"
+      },
+      {
+        "id": "33cad16d-7995-4d28-b40a-57e94ae692c1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FESC Fresh Earth Supply Chain ecosystem concept",
+        "text": "[date: 2023-05-23T20:44:00+00:00 | context: Session 333c3a940602 - happened on 2023-05-23 20:44:00 UTC. | turn 15/15]\n(in reply to) User: alkso plea include in this the problem, the cost, the solution"
+      },
+      {
+        "id": "aa140b0e-851f-441d-9733-1823cc9c82f6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan volunteer day activities for kids",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 1/25]\nUser: I'm planning a volunteer day at a local community center and I was wondering "
+      },
+      {
+        "id": "fae73344-954e-4389-bb4d-cb5e2fbef97f",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Ideas for kids\u2019 activities and games at a volunteer day",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 2/25]\n(in reply to) User: I'm planning a volunteer day at a local community center and I "
+      },
+      {
+        "id": "4fd27359-50cb-4dfc-a39b-4d598af485a7",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Volunteer day activity ideas for kids",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 3/25]\n(in reply to) User: I'm planning a volunteer day at a local community center and I "
+      },
+      {
+        "id": "7332bfba-d099-4290-bc4b-b7e0306619fa",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Volunteer day ideas for kids: sports, dance, yoga, snacks",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 4/25]\n(in reply to) User: I'm planning a volunteer day at a local community center and I "
+      },
+      {
+        "id": "b43b9ef4-5597-4d00-8c3b-4adac0d62546",
+        "score": null,
+        "memory_type": "task",
+        "title": "Volunteer day ideas for kids at community center",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 5/25]\n(in reply to) User: I'm planning a volunteer day at a local community center and I "
+      },
+      {
+        "id": "eab4f0f0-804f-44eb-b348-5dc2443ee333",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants community service ideas (food/clothing drives)",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 6/25]\nUser: I like the ideas you've suggested. I'm thinking of incorporating a community "
+      },
+      {
+        "id": "7ce9fc44-357f-42d8-a5b9-7f110e41b1b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Brainstormed community service ideas (food/clothing drives)",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 7/25]\n(in reply to) User: I like the ideas you've suggested. I'm thinking of incorporatin"
+      },
+      {
+        "id": "e0808620-ba70-4e04-9f9a-342619c972d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brainstormed community service ideas (clothing/food drives)",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 8/25]\n(in reply to) User: I like the ideas you've suggested. I'm thinking of incorporatin"
+      },
+      {
+        "id": "17b1a3d2-19c9-416c-b56a-73712cc3d33f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorm community service ideas (food/clothing drives)",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 9/25]\n(in reply to) User: I like the ideas you've suggested. I'm thinking of incorporatin"
+      },
+      {
+        "id": "98d8f8e8-01d0-493c-88ef-59ba26ddb2bf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants tips for successful food drive and sandwich station",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 10/25]\nUser: I'm thinking of organizing a food drive and sandwich-making station. I've se"
+      },
+      {
+        "id": "ba022252-fce9-4d0d-a930-1934b6d7a537",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed planning a food drive and sandwich-making station",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 11/25]\n(in reply to) User: I'm thinking of organizing a food drive and sandwich-making st"
+      },
+      {
+        "id": "54d587e2-1c04-44d6-b29a-c5b55aab6513",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Food drive and sandwich station setup steps",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 12/25]\n(in reply to) User: I'm thinking of organizing a food drive and sandwich-making st"
+      },
+      {
+        "id": "bf90129a-a055-4d0a-824b-ccd1181d1fe0",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Food drive sandwich-making station planning tips",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 13/25]\n(in reply to) User: I'm thinking of organizing a food drive and sandwich-making st"
+      },
+      {
+        "id": "7530d965-b08b-4662-ba1f-10097d5adb9e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan food drive/sandwich station with permissions, supervision, education, follo",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 14/25]\n(in reply to) User: I'm thinking of organizing a food drive and sandwich-making st"
+      },
+      {
+        "id": "942fd85f-0334-4270-be45-6c54b8a3bf3c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Kids age range and expected group size for activity",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 15/25]\nUser: I'm expecting around 20-25 kids, ranging in age from 8 to 12. I think it's a"
+      },
+      {
+        "id": "726054cb-0b41-4d4b-898f-48841996b44c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing 20\u201325 kids (ages 8\u201312) for sandwich-making",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 16/25]\n(in reply to) User: I'm expecting around 20-25 kids, ranging in age from 8 to 12. "
+      },
+      {
+        "id": "d01e0c1b-f2f0-44bd-bea0-ae45d29efbfd",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Sandwich-making activity plan for 20\u201325 kids (ages 8\u201312)",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 17/25]\n(in reply to) User: I'm expecting around 20-25 kids, ranging in age from 8 to 12. "
+      },
+      {
+        "id": "953a893b-8f8f-4388-a4ac-6431daf235b4",
+        "score": 0.3292,
+        "memory_type": "plan",
+        "title": "Kids food drive: agenda and fun elements for sandwich-making",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 18/25]\n(in reply to) User: I'm expecting around 20-25 kids, ranging in age from 8 to 12. "
+      },
+      {
+        "id": "2c78be37-7b62-40d1-ae92-995dffeef23b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Kids make thank-you cards/drawings for sandwiches",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 19/25]\nUser: I'm thinking of having the kids create thank-you cards or drawings to includ"
+      },
+      {
+        "id": "9e8b7ea6-13ef-4048-86d5-989b31248a03",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion: kids make thank-you cards/drawings for sandwiches",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 20/25]\n(in reply to) User: I'm thinking of having the kids create thank-you cards or draw"
+      },
+      {
+        "id": "db070367-de04-49b7-9b59-accf9c267980",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Kids\u2019 thank-you cards/drawings for sandwiches",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 21/25]\n(in reply to) User: I'm thinking of having the kids create thank-you cards or draw"
+      },
+      {
+        "id": "2b25e428-0988-4d91-addf-b9e7c50599f2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Idea: kids make thank-you cards/drawings for sandwiches",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 22/25]\n(in reply to) User: I'm thinking of having the kids create thank-you cards or draw"
+      },
+      {
+        "id": "253993b8-624e-4549-8cbd-5988219f3f1b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Support for adding thank-you cards to sandwiches",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 23/25]\nUser: What a wonderful idea! I completely agree with you. The thank-you cards or d"
+      },
+      {
+        "id": "4019533f-e8d9-4a3f-8593-96dee635014a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant encouraged gratitude cards with sandwiches idea",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 24/25]\n(in reply to) User: What a wonderful idea! I completely agree with you. The thank-"
+      },
+      {
+        "id": "35f77ac6-50b7-4fe1-ae58-d50728b321ce",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Encouraging reply about event and gratitude cards",
+        "text": "[date: 2023-05-27T07:25:00+00:00 | context: Session 7f449be2ee49 - happened on 2023-05-27 07:25:00 UTC. | turn 25/25]\n(in reply to) User: What a wonderful idea! I completely agree with you. The thank-"
+      },
+      {
+        "id": "a05510c7-e4e4-46ad-8563-fe933d729332",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find UberEats deals/promo codes for this week",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 1/24]\nUser: I'm planning to order food from UberEats again this week and I was wondering "
+      },
+      {
+        "id": "47584a2c-d228-4e30-b01e-66f78c0d6bc5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Helped user with UberEats promo code request",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 2/24]\n(in reply to) User: I'm planning to order food from UberEats again this week and I "
+      },
+      {
+        "id": "3e2747ba-b7e9-4100-8dca-2a96af3a3575",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for UberEats deals and promo codes",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 3/24]\n(in reply to) User: I'm planning to order food from UberEats again this week and I "
+      },
+      {
+        "id": "6ad663ba-3523-42c2-9084-59922e9aa05d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for saving on UberEats (cashback & promo emails)",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 4/24]\n(in reply to) User: I'm planning to order food from UberEats again this week and I "
+      },
+      {
+        "id": "5d287c61-021a-434d-a837-d03f9e768bbf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "UberEats promo code/deal seeking",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 5/24]\n(in reply to) User: I'm planning to order food from UberEats again this week and I "
+      },
+      {
+        "id": "ff3c047c-06a9-4f9a-9494-3e8d3c609501",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about restaurants/cuisines with more promo codes",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 6/24]\nUser: Do you think there are any specific types of restaurants or cuisines that usu"
+      },
+      {
+        "id": "9838f5ad-b6e6-4d98-a3b5-90c8e4bcc789",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on restaurant cuisines with more promo codes",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 7/24]\n(in reply to) User: Do you think there are any specific types of restaurants or cui"
+      },
+      {
+        "id": "9162bbb9-76c6-41b2-b89f-daac61f3e5d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Restaurant types likely to offer more promo codes/discounts",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 8/24]\n(in reply to) User: Do you think there are any specific types of restaurants or cui"
+      },
+      {
+        "id": "ba66f9c3-502b-4950-bd7c-20c9a4ae95c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Restaurant types likely to offer promo codes/discounts",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 9/24]\n(in reply to) User: Do you think there are any specific types of restaurants or cui"
+      },
+      {
+        "id": "5d62dfe1-2ab0-44d6-89b3-c4d78544754e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips for finding restaurant promo codes/discounts",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 10/24]\n(in reply to) User: Do you think there are any specific types of restaurants or cu"
+      },
+      {
+        "id": "e2f3305e-801e-4f13-818d-c6b5cba3fc20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about promotions at downtown Italian place",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 11/24]\nUser: That's really helpful! I was actually thinking of ordering from that new Ita"
+      },
+      {
+        "id": "cf99ad69-2930-464e-9a96-39a2cc2d05c4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to find promotions for a new downtown Italian restaurant",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 12/24]\n(in reply to) User: That's really helpful! I was actually thinking of ordering fro"
+      },
+      {
+        "id": "8ffaee91-8ea0-4755-b678-2b122709308c",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Steps to find promotions for an Italian restaurant on UberEats",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 13/24]\n(in reply to) User: That's really helpful! I was actually thinking of ordering fro"
+      },
+      {
+        "id": "4e9eb904-ff6b-4580-8947-bd6f1a4940cc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestion to check Italian restaurant promotions",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 14/24]\n(in reply to) User: That's really helpful! I was actually thinking of ordering fro"
+      },
+      {
+        "id": "16ee9283-4e5e-40a2-a392-d8a345817084",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers checking promotions and trying veggie lasagna",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 15/24]\nUser: I'll definitely check out their social media pages and website for promotion"
+      },
+      {
+        "id": "1ee87f33-89e2-4adf-b2b3-e5cd672b329e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about veggie lasagna and promotions",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 16/24]\n(in reply to) User: I'll definitely check out their social media pages and website"
+      },
+      {
+        "id": "572623ad-eb70-4d66-9105-f6edc63aa87e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to research veggie lasagna before trying",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 17/24]\n(in reply to) User: I'll definitely check out their social media pages and website"
+      },
+      {
+        "id": "8ee413ba-2941-4fcc-8a38-5c7d03467d32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about getting a discount on a specific dish",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 18/24]\nUser: I'll definitely check out the reviews and menu description. Do you think it'"
+      },
+      {
+        "id": "c68e2c29-6512-4b9f-8ac7-84a79860a191",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Discounts on UberEats typically apply to entire order",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 19/24]\n(in reply to) User: I'll definitely check out the reviews and menu description. Do"
+      },
+      {
+        "id": "16bbb50c-818c-4814-bcf2-c13ccc3b0199",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Promo codes may target specific dishes or menu categories",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 20/24]\n(in reply to) User: I'll definitely check out the reviews and menu description. Do"
+      },
+      {
+        "id": "932b25d9-d984-41ab-911a-953998acd633",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about discounting delivery fees",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 21/24]\nUser: Do you think it's possible to get a discount on the delivery fee itself, or "
+      },
+      {
+        "id": "697349a0-9f55-458c-945a-755c65f6dea5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Delivery fee discounts are less common than food-item discounts",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 22/24]\n(in reply to) User: Do you think it's possible to get a discount on the delivery f"
+      },
+      {
+        "id": "cc4351e5-a998-4e33-a5dd-7adb3b2ec09c",
+        "score": 0.4442,
+        "memory_type": "fact",
+        "title": "Food delivery discounts may apply to delivery fees",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 23/24]\n(in reply to) User: Do you think it's possible to get a discount on the delivery f"
+      },
+      {
+        "id": "3b15cd06-5127-4dae-9ffe-3edc6d05181e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to get discounts on delivery fees",
+        "text": "[date: 2023-05-28T06:20:00+00:00 | context: Session fc20c595e6b3 - happened on 2023-05-28 06:20:00 UTC. | turn 24/24]\n(in reply to) User: Do you think it's possible to get a discount on the delivery f"
+      },
+      {
+        "id": "828dad99-7216-4054-bb00-0e2af7dbfe82",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks how to link Walgreens Balance Rewards card",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 1/27]\nUser: I just signed up for the Walgreens Balance Rewards loyalty program today, and"
+      },
+      {
+        "id": "7afe6efa-f05a-4241-bba3-966adcab0c25",
+        "score": null,
+        "memory_type": "fact",
+        "title": "How to link Walgreens Balance Rewards card in the app",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 2/27]\n(in reply to) User: I just signed up for the Walgreens Balance Rewards loyalty prog"
+      },
+      {
+        "id": "c4712228-8d17-4160-8433-903dde5c7375",
+        "score": null,
+        "memory_type": "fact",
+        "title": "How to link Walgreens Balance Rewards card via website",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 3/27]\n(in reply to) User: I just signed up for the Walgreens Balance Rewards loyalty prog"
+      },
+      {
+        "id": "7c28f731-8d95-410d-8afd-0a0f38dc23f5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Walgreens Balance Rewards: linking loyalty card to app",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 4/27]\n(in reply to) User: I just signed up for the Walgreens Balance Rewards loyalty prog"
+      },
+      {
+        "id": "b10623b5-4639-4505-9a9e-9c9cbded28f8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks how to earn points on purchases",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 5/27]\nUser: I've got it linked! Now, can you tell me how to earn points on my purchases? "
+      },
+      {
+        "id": "8af49467-a371-4169-9a95-a86519cfec57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Balance Rewards: earning points at Walgreens",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 6/27]\n(in reply to) User: I've got it linked! Now, can you tell me how to earn points on "
+      },
+      {
+        "id": "eebe969a-a6b3-43ef-927c-9a2bd6860266",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Balance Rewards points multipliers and tips",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 7/27]\n(in reply to) User: I've got it linked! Now, can you tell me how to earn points on "
+      },
+      {
+        "id": "9381a3c8-29d8-4cb1-bd74-0c401d5486a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Loyalty points redemption: 1,000 points = $1, no limits",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 8/27]\n(in reply to) User: I've got it linked! Now, can you tell me how to earn points on "
+      },
+      {
+        "id": "2ea78f1d-e78c-4bbf-9aae-a449e5201c55",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about weekly sales on household essentials",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 9/27]\nUser: I'm planning to stock up on some household essentials this week. Are there an"
+      },
+      {
+        "id": "01cd67f2-9441-4a63-bebe-92daddba2c90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens weekly sales for household essentials (May 29, 2023)",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 10/27]\n(in reply to) User: I'm planning to stock up on some household essentials this wee"
+      },
+      {
+        "id": "f861e44e-742d-4fbf-a81e-228d72c4b142",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens household essentials weekly promotions (May 29, 2023)",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 11/27]\n(in reply to) User: I'm planning to stock up on some household essentials this wee"
+      },
+      {
+        "id": "47cee34c-f816-4407-b431-3772b42d7d32",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: using Balance Rewards points on sale/coupon items",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 12/27]\nUser: Can I use my Balance Rewards points on sale items or items with digital coup"
+      },
+      {
+        "id": "08b9a022-22fc-4965-92d9-379c0fb99195",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Balance Rewards points can be used on sale items and with digital coupons",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 13/27]\n(in reply to) User: Can I use my Balance Rewards points on sale items or items wit"
+      },
+      {
+        "id": "3781d205-30fc-47a2-bff1-06ceb1ebacd6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Using Balance Rewards points with sale items and digital coupons",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 14/27]\n(in reply to) User: Can I use my Balance Rewards points on sale items or items wit"
+      },
+      {
+        "id": "25a09c98-700f-440f-9835-6cddb189e853",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for toiletries/household essentials to maximize points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 15/27]\nUser: I'm thinking of buying some toiletries and household essentials this week. A"
+      },
+      {
+        "id": "7645fbe0-d655-4588-996b-60a9332351d2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for toiletries/household essentials to earn points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 16/27]\n(in reply to) User: I'm thinking of buying some toiletries and household essential"
+      },
+      {
+        "id": "0fde9fa3-2678-4c09-a629-46a5cd024ab6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Toiletries/essentials brand suggestions for points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 17/27]\n(in reply to) User: I'm thinking of buying some toiletries and household essential"
+      },
+      {
+        "id": "8f94ad8f-65ae-4da2-8615-14b4d2acff3a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for toiletries/household essentials to earn points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 18/27]\n(in reply to) User: I'm thinking of buying some toiletries and household essential"
+      },
+      {
+        "id": "9016835c-330c-4523-aef9-5175ba96b9c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat reply about high-point toiletries/household brands",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 19/27]\n(in reply to) User: I'm thinking of buying some toiletries and household essential"
+      },
+      {
+        "id": "188d10d4-91c5-4c21-8133-f102f408c65b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Learn about Walgreens app features and points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 20/27]\nUser: I'd like to know more about the Walgreens app. Can you tell me more about it"
+      },
+      {
+        "id": "24d85598-0031-4623-9173-a5a79a698492",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens app features and points-saving guidance (partial)",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 21/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "e17c697b-eff7-49f2-bf9c-00ba3ce80404",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens app features for coupons, points, and savings",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 22/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "ab012a85-8e2d-470f-83d1-b60a5fb2ed0f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens app: Push notifications feature",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 23/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "d5a585cc-7c4b-4896-b6fd-f8f7005daea8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Walgreens app features and points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 24/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "9447550a-ad82-4ff1-949f-9ed531b5cf2c",
+        "score": 0.3687,
+        "memory_type": "fact",
+        "title": "Walgreens app features to earn points and save money",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 25/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "1e5482a4-b23d-4a9d-ab87-5c97757de5f9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens app: share rewards and monitor points",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 26/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "2c9cb8a1-80f9-4c40-9aa3-9a94d4a8f41c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Walgreens app: earn points, save money, streamline shopping",
+        "text": "[date: 2023-05-29T10:16:00+00:00 | context: Session 657bc23fb481 - happened on 2023-05-29 10:16:00 UTC. | turn 27/27]\n(in reply to) User: I'd like to know more about the Walgreens app. Can you tell me"
+      },
+      {
+        "id": "b57df8c9-5738-4e49-a864-aa023915c546",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested summary of WIRED video",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 1/14]\nUser: Summarize the following.\nTitle: \"(2) A.I. Tries 20 Jobs | WIRED - YouTube\""
+      },
+      {
+        "id": "f8e12e05-8f60-472d-9d26-3466112689b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "AI-generated website code and brief medical AI response discussed",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 2/14]\nTranscript: \"I'm a lawyer copywriter Doctor music producer personal trainer softwar"
+      },
+      {
+        "id": "82205c0b-ee0b-45aa-8ecc-4b8f0cd356ed",
+        "score": 0.3646,
+        "memory_type": "episode",
+        "title": "Discussion: AI vs graphic design; relationship therapy question",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 3/14]\nuff talking to your healthcare provider which is pretty obvious can AI do my job I "
+      },
+      {
+        "id": "ddeebed5-0603-40be-9c02-3c402f304e17",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Session discussion on conflict reflection, AI usefulness, and stand-up jokes",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 4/14]\nstyle is reflect on your past conflicts observe your behavior during conflicts most"
+      },
+      {
+        "id": "2b1d677c-740b-4dde-ae99-cb9ccff62c6e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about AI capabilities and legal question on health data sales",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 5/14]\n concerned about the AI yet it could take a crappier comedian's job but it can't ta"
+      },
+      {
+        "id": "c41903ca-4637-4b77-b583-32f976b4e446",
+        "score": null,
+        "memory_type": "episode",
+        "title": "AI cocktail prompt and 1949 movie scene prompt attempt",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 6/14]\n threw in some Spanglish there miles to Hector is and the accent I have Casado she "
+      },
+      {
+        "id": "5705a60b-1a58-4729-9db5-8a931c43b40d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Music production session: brainstorming song with Lana Del Rey influence",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 7/14]\nys exactly what like you want the story to do what's going on Ruby seems tense I do"
+      },
+      {
+        "id": "789ca39e-2c51-4a45-8537-7733067401c6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Journalist discusses AI-written product review concerns",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 8/14]\narts for me right now these programs can't do my job I'm a journalist I'm the revie"
+      },
+      {
+        "id": "365abb56-027a-4f69-a29d-8e092c5f8a10",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Brainstorming AI taglines and a weekly at-home workout plan",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 9/14]\nthere's anything that I can think of that I would have the AI do for me I'm a copyw"
+      },
+      {
+        "id": "b96e96e5-43f0-4e41-b1b8-faa3909ab54d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Session discussion on fitness, DJ playlist, and AI limits",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 10/14]\n know how to correctly do a push-up it's saying three sets of eight to ten reps bu"
+      },
+      {
+        "id": "a12672b1-77c1-4c8d-89a2-57b6d6547f0b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "AI-generated IG caption discussion (influencer)",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 11/14]\new line of compostable hey but not great it's very computer-like it has a strange "
+      },
+      {
+        "id": "494f930e-a71d-4224-858c-51d89e42a947",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Session discussion: AI near chef/translator tasks",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 12/14]\ns not me probably from the overwhelming amount of emojis I would probably say like"
+      },
+      {
+        "id": "fc8203e2-ba25-412b-9d5e-4f1e744c0bca",
+        "score": null,
+        "memory_type": "episode",
+        "title": "AI can't do firefighter job (session quote)",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 13/14]\nit but so far it's like it made so many mistakes I'm a firefighter there's no way "
+      },
+      {
+        "id": "9a2f1432-7b55-4511-a35f-feb868caf8d1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Summary of WIRED video: AI tries 20 jobs",
+        "text": "[date: 2023-05-29T22:47:00+00:00 | context: Session 96ba55331dd6 - happened on 2023-05-29 22:47:00 UTC. | turn 14/14]\n(in reply to) User: Summarize the following.\nTitle: \"(2) A.I. Tries 20 Jobs | WIRE"
+      }
+    ]
+  },
+  "context": {
+    "chars": 105042,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 26260)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 51950,
+    "prompt_tokens": 48182,
+    "completion_tokens": 490,
+    "reasoning_tokens": 3278,
+    "generate_time_ms": 27679.15623099543,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23722,
+        "completion_tokens": 159,
+        "reasoning_tokens": 1119,
+        "total_tokens": 25000
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 633,
+        "completion_tokens": 83,
+        "reasoning_tokens": 424,
+        "total_tokens": 1140
+      },
+      {
+        "stage": "direct_fallback",
+        "prompt_tokens": 23000,
+        "completion_tokens": 113,
+        "reasoning_tokens": 1513,
+        "total_tokens": 24626
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 827,
+        "completion_tokens": 135,
+        "reasoning_tokens": 222,
+        "total_tokens": 1184
+      }
+    ]
+  },
+  "failure_label": "retrieved_wrong_answer"
+}

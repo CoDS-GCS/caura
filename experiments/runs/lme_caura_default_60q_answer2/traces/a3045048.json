@@ -1,0 +1,1409 @@
+{
+  "question_id": "a3045048",
+  "question_type": "temporal-reasoning",
+  "question": "How many days before my best friend's birthday party did I order her gift?",
+  "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+  "prediction": "You ordered the gift on April 15th, and your best friend's birthday party was held on April 22nd, meaning you ordered it 7 days before the party.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 898,
+    "by_type": {
+      "episode": 274,
+      "action": 4,
+      "fact": 429,
+      "task": 45,
+      "decision": 2,
+      "plan": 8,
+      "preference": 136
+    },
+    "by_status": {
+      "active": 894,
+      "conflicted": 4
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2642814,
+    "output_tokens": 127516,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many days before my best friend's birthday party did I order her gift?"
+    ],
+    "retrieve_time_ms": 7829.898102907464,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "fa3e08c7-87cd-440f-9fbb-18d01a8aa25b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas request for brother; Shutterfly photo album order",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 1/21]\nUser: I'm looking for some ideas for gifts for my brother's birthday in June. I've "
+      },
+      {
+        "id": "3b46a655-f914-432e-a683-9ce668309fc5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replies with watch gift suggestions request",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 2/21]\n(in reply to) User: I'm looking for some ideas for gifts for my brother's birthday "
+      },
+      {
+        "id": "f06cccec-88b9-4da3-9c1c-b5e0c6b6f8b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas discussion for brother's June birthday watch",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 3/21]\n(in reply to) User: I'm looking for some ideas for gifts for my brother's birthday "
+      },
+      {
+        "id": "ae3843c9-b4bf-42ba-bf90-60fc434365b8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Brother gift preference: mid-range $200-$300, sporty/minimalist, leather straps",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 4/21]\nUser: I'm thinking of getting something in the mid-range, around $200-$300. My brot"
+      },
+      {
+        "id": "2fcfbd2d-5992-43ce-a575-0404e6357e5a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Brother\u2019s mid-range style preference (casual/sporty/minimalist, leather straps)",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 5/21]\n(in reply to) User: I'm thinking of getting something in the mid-range, around $200"
+      },
+      {
+        "id": "7662f202-908e-4c91-af00-0a2a6ebd4843",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mid-range leather-strap watch options ($200\u2013$300)",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 6/21]\n(in reply to) User: I'm thinking of getting something in the mid-range, around $200"
+      },
+      {
+        "id": "cf14ba77-1aac-4b8b-8936-ffe1ef07e278",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mid-range leather-strap watch options ($200\u2013$300)",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 7/21]\n(in reply to) User: I'm thinking of getting something in the mid-range, around $200"
+      },
+      {
+        "id": "35895591-3566-4c15-a4f7-e5c29f1c5c2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for mid-range ($200-$300) sporty/minimalist leather-strap watch ideas",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 8/21]\n(in reply to) User: I'm thinking of getting something in the mid-range, around $200"
+      },
+      {
+        "id": "0bbae3e8-fa5a-4ade-85d1-39569ba660a5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in Skagen Ancher leather strap quality & engraving",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 9/21]\nUser: I like the sound of the Skagen Ancher, but before I make a decision, can you "
+      },
+      {
+        "id": "3d229409-f9e7-49f6-8056-e4edb3c467c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Skagen Ancher leather strap quality (cowhide, patina, treated)",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 10/21]\n(in reply to) User: I like the sound of the Skagen Ancher, but before I make a dec"
+      },
+      {
+        "id": "895bf715-c901-4391-b499-b381bea04cfb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Skagen Ancher engraving availability and options",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 11/21]\n(in reply to) User: I like the sound of the Skagen Ancher, but before I make a dec"
+      },
+      {
+        "id": "93121a9f-263c-4f56-9986-ac85c0ed63c0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Leather strap care tips for Skagen Ancher",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 12/21]\n(in reply to) User: I like the sound of the Skagen Ancher, but before I make a dec"
+      },
+      {
+        "id": "6aa19454-bf22-454c-a664-12da1387e113",
+        "score": 0.3862,
+        "memory_type": "episode",
+        "title": "User considers buying Skagen Ancher and asks about watch engraving",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 13/21]\nUser: That's really helpful, thanks! I think I'll go ahead with the Skagen Ancher."
+      },
+      {
+        "id": "c3df7cfc-b0fb-48a7-969c-ce09b1423c8c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned to buy Skagen Ancher; discussed personalized gifts",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 14/21]\n(in reply to) User: That's really helpful, thanks! I think I'll go ahead with the "
+      },
+      {
+        "id": "154049db-9be6-4609-94fc-6df3eac80b1b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for personalized watch engraving",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 15/21]\n(in reply to) User: That's really helpful, thanks! I think I'll go ahead with the "
+      },
+      {
+        "id": "12688fad-88d5-4f67-a2db-8504ac78b687",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Etsy as marketplace for customized/personalized watches",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 16/21]\n(in reply to) User: That's really helpful, thanks! I think I'll go ahead with the "
+      },
+      {
+        "id": "1b5a92c6-2660-4e5b-b2a9-144995dd5e0c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned to buy Skagen Ancher; discussed personalized gifts",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 17/21]\n(in reply to) User: That's really helpful, thanks! I think I'll go ahead with the "
+      },
+      {
+        "id": "14794037-8480-4414-8287-78d829765358",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Mother's Day necklace idea (birthstone + engraved names)",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 18/21]\nUser: I'm thinking of getting my mom a customized necklace for Mother's Day, somet"
+      },
+      {
+        "id": "bc62b89e-ab07-4dd5-8498-fb8c03c0bd59",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests customized birthstone necklace for Mother's Day",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 19/21]\n(in reply to) User: I'm thinking of getting my mom a customized necklace for Mothe"
+      },
+      {
+        "id": "302e901d-5ca2-4113-a0a9-fd8dc9e5c400",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Mother's Day customized birthstone necklace suggestions",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 20/21]\n(in reply to) User: I'm thinking of getting my mom a customized necklace for Mothe"
+      },
+      {
+        "id": "75726bd0-ce43-449e-9a3e-881f1b086209",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on customized Mother's Day necklace",
+        "text": "[date: 2022-05-15T04:32:00+00:00 | context: Session 1e9a8085f51a - happened on 2022-05-15 04:32:00 UTC. | turn 21/21]\n(in reply to) User: I'm thinking of getting my mom a customized necklace for Mothe"
+      },
+      {
+        "id": "f23dc6bd-717f-40e8-a6b3-021b6ffc9a21",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find durable daily commute bag; gym bag used Tue/Thu",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 1/22]\nUser: I'm having some issues with my daily commute bag. The straps are showing sign"
+      },
+      {
+        "id": "4f36d50d-4f44-4d62-9348-f80ed4751907",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for durable daily commute bag recommendations",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 2/22]\n(in reply to) User: I'm having some issues with my daily commute bag. The straps ar"
+      },
+      {
+        "id": "a99d62cb-5bbe-42ee-acc5-6a9f8fdd059d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help user find durable daily commute bag",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 3/22]\n(in reply to) User: I'm having some issues with my daily commute bag. The straps ar"
+      },
+      {
+        "id": "e653c4dc-5a2b-4710-a569-f939e3a9015e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute bag preferences: $100-$150, nylon/polyester, professional, compartments,",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 4/22]\nUser: My budget is around $100-$150. I prefer a durable material like nylon or poly"
+      },
+      {
+        "id": "8a3a2b26-ec39-49e1-a24e-7a4b0783fcee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Curated commute bag recommendations (budget $100-$150)",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 5/22]\n(in reply to) User: My budget is around $100-$150. I prefer a durable material like"
+      },
+      {
+        "id": "ecc0e51d-ef02-4767-be83-1a8296daf136",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute bag preferences and suggested backpack options",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 6/22]\n(in reply to) User: My budget is around $100-$150. I prefer a durable material like"
+      },
+      {
+        "id": "f08fc6b0-cd5e-45e2-a529-45ca7a585ead",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute bag preferences and budget; nylon/polyester preferred",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 7/22]\n(in reply to) User: My budget is around $100-$150. I prefer a durable material like"
+      },
+      {
+        "id": "84435796-7607-4392-9c7a-858a6a998a8c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute bag preferences and budget",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 8/22]\n(in reply to) User: My budget is around $100-$150. I prefer a durable material like"
+      },
+      {
+        "id": "97db3883-c782-4ede-9cda-49e0f524cc04",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Osprey Daylite 20L compartments, laptop sleeves, comfort",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 9/22]\nUser: I'm particularly interested in the Osprey Daylite 20L. Can you tell me more a"
+      },
+      {
+        "id": "11a35168-271d-47a0-bc3e-561f788fc64e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Osprey Daylite 20L compartments and laptop sleeve details",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 10/22]\n(in reply to) User: I'm particularly interested in the Osprey Daylite 20L. Can you"
+      },
+      {
+        "id": "23120d28-7c61-4044-ba58-68aa1651a56f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Osprey Daylite 20L laptop sleeve and comfort features",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 11/22]\n(in reply to) User: I'm particularly interested in the Osprey Daylite 20L. Can you"
+      },
+      {
+        "id": "e87e9d37-8c2e-4db6-aa88-63762da1ce8b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Osprey Daylite 20L comfort and features overview",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 12/22]\n(in reply to) User: I'm particularly interested in the Osprey Daylite 20L. Can you"
+      },
+      {
+        "id": "98d2b668-a05e-4541-a7fd-efd509722e8b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Osprey Daylite 20L warranty, service, and fit",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 13/22]\nUser: That sounds great! I'm really interested in the Osprey Daylite 20L. Can you "
+      },
+      {
+        "id": "afa10470-8ba6-4f3d-b4a9-74345060e5b2",
+        "score": 0.3666,
+        "memory_type": "fact",
+        "title": "Osprey warranty and customer service details (All Mighty Guarantee)",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 14/22]\n(in reply to) User: That sounds great! I'm really interested in the Osprey Daylite"
+      },
+      {
+        "id": "59b7430c-03ca-417e-9fb7-e897d84b4f3d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Osprey Daylite 20L: warranty/customer service and packing fit",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 15/22]\n(in reply to) User: That sounds great! I'm really interested in the Osprey Daylite"
+      },
+      {
+        "id": "1d0d028d-af1c-477b-bb79-9cc4de21ec2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Osprey Daylite 20L gym gear fit and support guidance",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 16/22]\n(in reply to) User: That sounds great! I'm really interested in the Osprey Daylite"
+      },
+      {
+        "id": "fdddb58b-194f-4ba5-bb21-b60bb16dc574",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses gym bag shoe fit and carrying separate bag",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 17/22]\nUser: That's great to know about Osprey's warranty and customer service! I think I"
+      },
+      {
+        "id": "f01fed24-6bde-47fb-8bd0-11c8f26e0cc4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on fitting gym clothes and shoes in Osprey Daylite 20L",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 18/22]\n(in reply to) User: That's great to know about Osprey's warranty and customer serv"
+      },
+      {
+        "id": "a85602fe-31f9-4060-9369-1435236768ab",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find a small packable gym bag for shoes/clothes",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 19/22]\nUser: I'm going to purchase the Osprey Daylite 20L. Can you help me find a small, "
+      },
+      {
+        "id": "b954eb82-11a9-460f-83d0-6e7d705337e0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Help requested: packable gym bag for shoes/clothes",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 20/22]\n(in reply to) User: I'm going to purchase the Osprey Daylite 20L. Can you help me "
+      },
+      {
+        "id": "2b9c8e6a-39bc-4050-bf16-f12296ad4639",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gym bag recommendations for Osprey Daylite 20L buyer",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 21/22]\n(in reply to) User: I'm going to purchase the Osprey Daylite 20L. Can you help me "
+      },
+      {
+        "id": "e338e855-0b40-428a-bf56-b65056216f8d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help find packable gym bag for shoes/clothes",
+        "text": "[date: 2022-05-15T09:34:00+00:00 | context: Session b129a481fc84 - happened on 2022-05-15 09:34:00 UTC. | turn 22/22]\n(in reply to) User: I'm going to purchase the Osprey Daylite 20L. Can you help me "
+      },
+      {
+        "id": "d1997ee5-9765-483a-8874-4aefce812a08",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 1/30]\nUser: I'm trying to get a better understanding of my online habits. Can you help me"
+      },
+      {
+        "id": "e5ca4fd8-dfd9-4b37-a0f3-92d135596911",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 2/30]\n(in reply to) User: I'm trying to get a better understanding of my online habits. C"
+      },
+      {
+        "id": "33ad12e3-60bc-4be3-88cf-50715af4c428",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 3/30]\n(in reply to) User: I'm trying to get a better understanding of my online habits. C"
+      },
+      {
+        "id": "9e9a780a-8bfd-4e94-8a06-fe16cec3b615",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 4/30]\nUser: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regularly. I have "
+      },
+      {
+        "id": "7877856e-d5c8-4b4a-9bce-aabfd2cab35e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 5/30]\n(in reply to) User: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regu"
+      },
+      {
+        "id": "2b6c4e95-29f1-4e52-a3b8-6e1e8edc3976",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 6/30]\n(in reply to) User: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regu"
+      },
+      {
+        "id": "88f04b74-9f4f-4179-b9c1-c2722082e66b",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 7/30]\n(in reply to) User: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regu"
+      },
+      {
+        "id": "dcfa9c39-9e22-4799-8dfe-fcc714c80910",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 8/30]\n(in reply to) User: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regu"
+      },
+      {
+        "id": "77c61e90-18a8-4468-a111-00bd6919d173",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 9/30]\n(in reply to) User: I use Facebook, Instagram, Twitter, LinkedIn, and WhatsApp regu"
+      },
+      {
+        "id": "c6db0765-4ed4-47e9-a798-bc960124137f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 10/30]\nUser: I went through the steps and retrieved my usage data. Based on my WhatsApp c"
+      },
+      {
+        "id": "e95a0ff5-84c7-4f81-a1ab-543df1d5ba3a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 11/30]\n(in reply to) User: I went through the steps and retrieved my usage data. Based on"
+      },
+      {
+        "id": "1fecfe2f-f5c6-48fd-990c-ac26a60a100f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 12/30]\n(in reply to) User: I went through the steps and retrieved my usage data. Based on"
+      },
+      {
+        "id": "5d5b4121-86fd-4456-8ac6-438e46d9a5aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 13/30]\n(in reply to) User: I went through the steps and retrieved my usage data. Based on"
+      },
+      {
+        "id": "1f3dc78a-d98d-4576-8569-c309af9025db",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 14/30]\nUser: I did notice that my Facebook usage increased slightly during the same perio"
+      },
+      {
+        "id": "7385b26d-2cfc-4a98-8d0c-ce9f59bba71f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 15/30]\n(in reply to) User: I did notice that my Facebook usage increased slightly during "
+      },
+      {
+        "id": "9342542a-45e9-4d22-a1eb-d17f38cd3fd9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 16/30]\n(in reply to) User: I did notice that my Facebook usage increased slightly during "
+      },
+      {
+        "id": "0c79f846-fb04-44da-b69e-aa710226e33d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 17/30]\n(in reply to) User: I did notice that my Facebook usage increased slightly during "
+      },
+      {
+        "id": "79c4ed88-5b69-4401-bbd0-6fbffee4a201",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 18/30]\n(in reply to) User: I did notice that my Facebook usage increased slightly during "
+      },
+      {
+        "id": "c3b88622-8bbe-4c82-8692-cecf1fbb3df4",
+        "score": 0.3689,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 19/30]\nUser: I've been using Instagram to keep up with my friends and family who live abr"
+      },
+      {
+        "id": "3d6cfb28-b203-4dc0-8e7f-1c5c2434c1cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 20/30]\n(in reply to) User: I've been using Instagram to keep up with my friends and famil"
+      },
+      {
+        "id": "f367f255-bf0a-4607-8a7b-af16f763ba26",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 21/30]\n(in reply to) User: I've been using Instagram to keep up with my friends and famil"
+      },
+      {
+        "id": "26882a18-fa38-4043-b0e4-282a15cf6eca",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 22/30]\n(in reply to) User: I've been using Instagram to keep up with my friends and famil"
+      },
+      {
+        "id": "7cf2310f-2055-42f8-aa78-eb49a9a7d147",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 23/30]\n(in reply to) User: I've been using Instagram to keep up with my friends and famil"
+      },
+      {
+        "id": "88c3e07c-6762-4e50-8e80-d78ff2dfd426",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 24/30]\n(in reply to) User: I've been using Instagram to keep up with my friends and famil"
+      },
+      {
+        "id": "62ab02b7-a284-41fe-947c-bf255779d232",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 25/30]\nUser: I've been thinking about my time management and boundaries, and I realized t"
+      },
+      {
+        "id": "36d2f180-5416-4d1f-8b24-e1111a858789",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 26/30]\n(in reply to) User: I've been thinking about my time management and boundaries, an"
+      },
+      {
+        "id": "fd65371a-b63c-444c-b1b5-044ad992ff43",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 27/30]\n(in reply to) User: I've been thinking about my time management and boundaries, an"
+      },
+      {
+        "id": "8c496aa8-aba3-4057-af90-8ac80a0e8d77",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 28/30]\n(in reply to) User: I've been thinking about my time management and boundaries, an"
+      },
+      {
+        "id": "c9cf63af-cfe1-4b08-959a-ea718635f39f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 29/30]\n(in reply to) User: I've been thinking about my time management and boundaries, an"
+      },
+      {
+        "id": "2171d721-875f-4579-98c3-44f3d35abf32",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T09:56:00+00:00 | context: Session e49fe72ad98f - happened on 2022-05-15 09:56:00 UTC. | turn 30/30]\n(in reply to) User: I've been thinking about my time management and boundaries, an"
+      },
+      {
+        "id": "1303af03-7075-4095-a9b1-df15d02d8596",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help organizing weekend tasks into a to-do list",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 1/12]\nUser: I need help organizing my tasks for this weekend. Can you help me make a to-d"
+      },
+      {
+        "id": "1dcec32d-a561-4dd3-90a3-876f026fb245",
+        "score": null,
+        "memory_type": "task",
+        "title": "Home cleaning and scheduling tasks",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 2/12]\nUser: I need to vacuum and clean the sofa cushions, sort through my closet and get "
+      },
+      {
+        "id": "1723985a-dd55-45ce-b56b-9567f4385f1f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Weekend cleaning and closet tasks + schedule carpet cleaning",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 3/12]\n(in reply to) User: I need to vacuum and clean the sofa cushions, sort through my c"
+      },
+      {
+        "id": "71d2a533-4ef7-4d4b-b67e-bedd7cc3eccd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Home chores: carpet cleaning + lavender oil refills",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 4/12]\n(in reply to) User: I need to vacuum and clean the sofa cushions, sort through my c"
+      },
+      {
+        "id": "4ac92aa5-f0dd-4095-81ee-d8abd2e2a346",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User mentions new velvet sofa set and care plan",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 5/12]\nUser: I think that's a great plan. I also need to remember that I got a new velvet "
+      },
+      {
+        "id": "87a862d4-c362-4e91-bcbe-7bda45fe52a4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about donating old clothes to Goodwill",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 6/12]\nUser: By the way, I think I got the sofa set on the 15th of February from Ashley Fu"
+      },
+      {
+        "id": "42fa6478-ced5-4d9a-bc7b-04a7c4041260",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Goodwill donation guidelines for clothing and household items",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 7/12]\n(in reply to) User: By the way, I think I got the sofa set on the 15th of February "
+      },
+      {
+        "id": "e54ed513-2dce-4799-ad94-883bd1298b91",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for donating clothes to Goodwill",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 8/12]\n(in reply to) User: By the way, I think I got the sofa set on the 15th of February "
+      },
+      {
+        "id": "e31c9ec8-e0c0-49bd-a5f7-c480c1754c5b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Donate old coffee table to Goodwill; save receipt for taxes",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 9/12]\nUser: I think I'll donate my old coffee table to Goodwill as well, since I got rid "
+      },
+      {
+        "id": "1f550092-83d5-4a26-a0da-ade1a2b6b435",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to donate coffee table to Goodwill and keep receipt",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 10/12]\n(in reply to) User: I think I'll donate my old coffee table to Goodwill as well, s"
+      },
+      {
+        "id": "83dbebf4-96d4-4939-875b-d0ce4df74a2c",
+        "score": 0.3674,
+        "memory_type": "task",
+        "title": "Schedule carpet cleaning and order lavender oil refills",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 11/12]\n(in reply to) User: I think I'll donate my old coffee table to Goodwill as well, s"
+      },
+      {
+        "id": "12736d82-75eb-4b22-8171-a58d3f5f0c0e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Flip and rotate bedroom area rug every few months",
+        "text": "[date: 2022-05-15T10:06:00+00:00 | context: Session d60344d38bf8 - happened on 2022-05-15 10:06:00 UTC. | turn 12/12]\nUser: I think that's it for now. I need to remember to flip and rotate the new are"
+      },
+      {
+        "id": "589f94ef-2dc7-480d-85dd-0fca3710d5ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Town festivities and rest after adventure",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 1/15]\nAssistant: After the intense adventure you just had, you decide to take some time t"
+      },
+      {
+        "id": "3d503ed6-92fd-4971-b634-eba13fa65d52",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Rested and prepared for a new day of adventures",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 2/15]\nUser: i wake up rested and prepared for a new day of adventures.\n\nAssistant: You wa"
+      },
+      {
+        "id": "24e385e2-4abd-4e27-ad18-7a5747b57eaa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Talked to innkeeper for supplies and town rumors",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 3/15]\nUser: i talk to the innkeeper, buy some supplies and ask him about any rumours in t"
+      },
+      {
+        "id": "34c497ce-1cd5-4bd1-8414-69cd44502070",
+        "score": 0.3598,
+        "memory_type": "episode",
+        "title": "Innkeeper reports strange lights and noises in nearby woods",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 4/15]\n(in reply to) User: i talk to the innkeeper, buy some supplies and ask him about an"
+      },
+      {
+        "id": "73da7f5f-c7e6-403c-ac53-9342228318da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Talked to innkeeper, bought supplies, asked about town rumors",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 5/15]\n(in reply to) User: i talk to the innkeeper, buy some supplies and ask him about an"
+      },
+      {
+        "id": "0807f6f2-b475-423a-ad8c-345c33b2c428",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on affording a horse with a jarl\u2019s gold reward",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 6/15]\nUser: can I afford to buy a horse with the gold jarl has awarded me?\n\nAssistant: Wi"
+      },
+      {
+        "id": "23241ed4-40b5-4342-9c4f-1476e279627a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Adventure: decide to go on foot toward nearby woods",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 7/15]\nUser: maybe we dont need a horse yet. the woods are not that far away and some gold"
+      },
+      {
+        "id": "fb7dc2c5-fabf-4b27-8465-d2a72708a711",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks what awaits on the journey to the woods",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 8/15]\nUser: what awaits us on our journey to the woods?"
+      },
+      {
+        "id": "c4bbaebc-0346-43ce-8969-dec11147031b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Narrative: journey toward the woods",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 9/15]\n(in reply to) User: what awaits us on our journey to the woods?\n\nAssistant: As you "
+      },
+      {
+        "id": "79e15296-5642-4df0-bb42-def684b8ef41",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Story episode: clearing with standing stones and hidden cave",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 10/15]\n(in reply to) User: what awaits us on our journey to the woods?\n\nEventually, you r"
+      },
+      {
+        "id": "d8983d28-91da-47bb-9664-51b20eea9f28",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User approaches cave with cultists performing a ritual",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 11/15]\nUser: slowly proceed into the cave\n\nAssistant: You approach the cave slowly and ca"
+      },
+      {
+        "id": "80809bcc-6714-48e3-b26f-078ed7feb4f0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Defeated cultists with random spells and disrupted ritual",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 12/15]\nUser: sneak up to the cultists and take a surprise strike at them with a random sp"
+      },
+      {
+        "id": "c064de21-35e9-4a55-9c61-89e75501e0d3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks to examine cultists for loot",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 13/15]\nUser: examine the cultists bodies for any valualbe loot."
+      },
+      {
+        "id": "b9c5f577-65d1-4f69-8c46-ff15a5b7ff6e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Searched defeated cultists for loot and clues",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 14/15]\n(in reply to) User: examine the cultists bodies for any valualbe loot.\n\nAssistant:"
+      },
+      {
+        "id": "94431df5-b6e9-4037-b068-dd879015f8ee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Looted cultists\u2019 items and left the cave",
+        "text": "[date: 2022-05-15T12:18:00+00:00 | context: Session c18a4cddb427 - happened on 2022-05-15 12:18:00 UTC. | turn 15/15]\n(in reply to) User: examine the cultists bodies for any valualbe loot.\n\nYou make a"
+      },
+      {
+        "id": "0c8f6dee-73fa-4ed2-9470-eb0e6bf7aebd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find popular watch brands on Amazon for brother's birthday",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 1/27]\nUser: I'm planning a gift for my brother's birthday in June and I'm considering get"
+      },
+      {
+        "id": "8bdb54eb-a706-4b42-abec-cf34745db433",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided popular watch brands on Amazon",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 2/27]\n(in reply to) User: I'm planning a gift for my brother's birthday in June and I'm c"
+      },
+      {
+        "id": "3f373590-e388-4e86-851a-c38d5a80091c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular watch brands on Amazon (Fossil, Skagen, Citizen, Seiko, Timex, DW, Casio",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 3/27]\n(in reply to) User: I'm planning a gift for my brother's birthday in June and I'm c"
+      },
+      {
+        "id": "2c5ce2b4-2a6f-4d5b-9754-883fcc431b30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular watch brands: Tissot, Orient, Invicta",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 4/27]\n(in reply to) User: I'm planning a gift for my brother's birthday in June and I'm c"
+      },
+      {
+        "id": "1551f912-ea93-4f29-ba3a-2b9d60651a09",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Examples of popular watch brands on Amazon (gift planning)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 5/27]\n(in reply to) User: I'm planning a gift for my brother's birthday in June and I'm c"
+      },
+      {
+        "id": "55012aed-054b-4de8-b868-bfeb7ce13651",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find $50\u2013$70 models from specified brands",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 6/27]\nUser: I'm looking for something around $50-$70, so can you show me some specific mo"
+      },
+      {
+        "id": "da5fe799-a319-4aff-bafd-c5abc80a70a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggested watch models in $50-$70 range",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 7/27]\n(in reply to) User: I'm looking for something around $50-$70, so can you show me so"
+      },
+      {
+        "id": "c26879db-a350-45ec-9c40-57650fd6ec75",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Watch models suggested within $50\u2013$70 range (Fossil/Skagen/Citizen/Timex)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 8/27]\n(in reply to) User: I'm looking for something around $50-$70, so can you show me so"
+      },
+      {
+        "id": "72aab390-6caf-4bf7-945f-c6c2b9992146",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Watch models in $50\u2013$70 range (Casio, Daniel Wellington)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 9/27]\n(in reply to) User: I'm looking for something around $50-$70, so can you show me so"
+      },
+      {
+        "id": "3680709c-f54a-47a2-9ccf-19f770b301eb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested $50\u2013$70 product models and price-check guidance",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 10/27]\n(in reply to) User: I'm looking for something around $50-$70, so can you show me s"
+      },
+      {
+        "id": "7ccfbe9f-f028-4f8b-891c-e7f475dc4224",
+        "score": 0.3627,
+        "memory_type": "episode",
+        "title": "User asks about Fossil Grant Chronograph; mentions birthday party",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 11/27]\nUser: I'm particularly interested in the Fossil Grant Chronograph Watch, can you t"
+      },
+      {
+        "id": "81818901-2d5d-4831-8b03-440dc09f3bae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided watch details for Fossil Grant Chronograph (FS4486)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 12/27]\n(in reply to) User: I'm particularly interested in the Fossil Grant Chronograph Wa"
+      },
+      {
+        "id": "09ab4e46-bcd7-4085-ae16-1f8a65b26ca7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fossil Grant Chronograph watch specs (chronograph, water resistance, size)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 13/27]\n(in reply to) User: I'm particularly interested in the Fossil Grant Chronograph Wa"
+      },
+      {
+        "id": "613be504-6372-4554-aebc-4411e2cb57e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fossil Grant Chronograph Watch FS4486 retail range",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 14/27]\n(in reply to) User: I'm particularly interested in the Fossil Grant Chronograph Wa"
+      },
+      {
+        "id": "4528e071-21e9-41e7-9365-99bef97e1c37",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 15/27]\nUser: I'm wondering if this watch comes in a smaller size, as my brother has a sma"
+      },
+      {
+        "id": "7f403968-66cc-4c85-830b-eb8c672d3beb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 16/27]\n(in reply to) User: I'm wondering if this watch comes in a smaller size, as my bro"
+      },
+      {
+        "id": "f083d183-e543-41f3-b6e8-af5f2cd95941",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 17/27]\n(in reply to) User: I'm wondering if this watch comes in a smaller size, as my bro"
+      },
+      {
+        "id": "e013d148-0769-4314-92b6-757db82ddced",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 18/27]\nUser: Can you show me some other brands that offer smaller watch sizes, like 36mm "
+      },
+      {
+        "id": "91812c0c-c0b3-469b-a412-36196255c5e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 19/27]\n(in reply to) User: Can you show me some other brands that offer smaller watch siz"
+      },
+      {
+        "id": "de9d179d-b172-45e8-a8d9-418e6be7167c",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 20/27]\n(in reply to) User: Can you show me some other brands that offer smaller watch siz"
+      },
+      {
+        "id": "5feef3f4-3d71-4fdb-9955-66613d24630b",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 21/27]\n(in reply to) User: Can you show me some other brands that offer smaller watch siz"
+      },
+      {
+        "id": "b0b9edc4-e34b-46df-951a-4e2b638dcd43",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 22/27]\n(in reply to) User: Can you show me some other brands that offer smaller watch siz"
+      },
+      {
+        "id": "73005e35-ac6c-4e08-a856-1f5c859b557a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 23/27]\nUser: I'm thinking of other gift ideas for my brother's birthday, besides a watch."
+      },
+      {
+        "id": "cf88534e-2f80-487d-b0b3-4bb5d882dbb8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift suggestions for brother's birthday ($50-$70)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 24/27]\n(in reply to) User: I'm thinking of other gift ideas for my brother's birthday, be"
+      },
+      {
+        "id": "7dcbf260-b74d-450c-b8d5-7bf248e8a86e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift ideas for brother\u2019s birthday ($50\u2013$70)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 25/27]\n(in reply to) User: I'm thinking of other gift ideas for my brother's birthday, be"
+      },
+      {
+        "id": "64461008-4aef-46a1-a3b2-189ae8e48c2b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift ideas for brother\u2019s birthday ($50-$70)",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 26/27]\n(in reply to) User: I'm thinking of other gift ideas for my brother's birthday, be"
+      },
+      {
+        "id": "ae64c1f1-49f7-4832-bb9a-210a0b2f58c2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift guidance: show you care and pay attention",
+        "text": "[date: 2022-05-15T14:45:00+00:00 | context: Session cbf77ed0c3f9 - happened on 2022-05-15 14:45:00 UTC. | turn 27/27]\n(in reply to) User: I'm thinking of other gift ideas for my brother's birthday, be"
+      },
+      {
+        "id": "0fbe8154-871f-4701-9f59-2d1732831644",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate public-transport travel time from Naha to Onna/Yomitan",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 2/8]\nUser: Do you know how long it would take to Onna or Yomitan from Naha when we take p"
+      },
+      {
+        "id": "036318ce-a14a-4bfb-b065-957369834896",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Public transport time from Naha to Onna/Yomitan",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 3/8]\n(in reply to) User: Do you know how long it would take to Onna or Yomitan from Naha "
+      },
+      {
+        "id": "76b1d986-6f17-4ce7-946f-1410c83b3761",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked travel time from Naha to Onna/Yomitan by public transport",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 4/8]\n(in reply to) User: Do you know how long it would take to Onna or Yomitan from Naha "
+      },
+      {
+        "id": "45928a1d-e4e6-4d6f-ac04-9ef97f0fc59f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant thanks user and wishes trip to Okinawa",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 5/8]\nUser: Thats good. Thank you for the suggestions.\n\nAssistant: You're welcome! I'm gla"
+      },
+      {
+        "id": "69c3abd8-6200-41a8-8850-8fa647243129",
+        "score": null,
+        "memory_type": "task",
+        "title": "Revise travel plan for dinner at Taiyo Golf Club & Steakhouse",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 6/8]\nUser: We would like to have a dinner at Taiyo Golf Club & Steakhouse. Could you revi"
+      },
+      {
+        "id": "057624d4-eb41-4641-8856-75174a6387a1",
+        "score": 0.3594,
+        "memory_type": "plan",
+        "title": "Revised 3-day Okinawa itinerary with Taiyo dinner",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 7/8]\n(in reply to) User: We would like to have a dinner at Taiyo Golf Club & Steakhouse. "
+      },
+      {
+        "id": "2b21b9ae-5f07-4170-bbf5-8c7a26c82ef7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Revised travel plan request for dinner at Taiyo Golf Club",
+        "text": "[date: 2022-05-15T18:27:00+00:00 | context: Session 891dc065fd98 - happened on 2022-05-15 18:27:00 UTC. | turn 8/8]\n(in reply to) User: We would like to have a dinner at Taiyo Golf Club & Steakhouse. "
+      },
+      {
+        "id": "7130eb1c-4aa4-40dd-8471-5cd330eb4443",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas request and Rachel engagement mention",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 1/29]\nUser: I'm looking for some gift ideas for my sister-in-law's sister, who got marrie"
+      },
+      {
+        "id": "9d296960-1585-4bbb-ba90-e5cba95ed5b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas discussion for sister-in-law's sister and Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some gift ideas for my sister-in-law's sister, "
+      },
+      {
+        "id": "84fe7658-3278-4767-84e4-f6335a1f869c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift ideas for sister-in-law's sister wedding",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some gift ideas for my sister-in-law's sister, "
+      },
+      {
+        "id": "4453d4f4-6228-4b6f-b5cd-032740451375",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift ideas: handwritten recipe cards and kitchen decor",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some gift ideas for my sister-in-law's sister, "
+      },
+      {
+        "id": "1d33bac9-14dd-48fe-aa8b-14df65a2d294",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas and Rachel engagement discussion",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some gift ideas for my sister-in-law's sister, "
+      },
+      {
+        "id": "e1bbc8bc-89e7-4667-b177-196a57c47052",
+        "score": 0.414,
+        "memory_type": "preference",
+        "title": "Personalized cookbook + kitchen appliance gift; beach getaway plans",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 6/29]\nUser: I like those ideas, especially the personalized cookbook. I think I'll combin"
+      },
+      {
+        "id": "170d7060-37bc-4147-84e3-2bd209d1d948",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bachelorette party and gift planning discussion (May 15, 2022)",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 7/29]\n(in reply to) User: I like those ideas, especially the personalized cookbook. I thi"
+      },
+      {
+        "id": "119c3a56-816f-4449-b9d3-6c60c1737c23",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Engagement gift ideas for Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 8/29]\nUser: I'm also thinking of getting a small gift for Rachel to commemorate her engag"
+      },
+      {
+        "id": "21764272-f201-4bac-b66d-72dbc7992532",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Engagement gift ideas for Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 9/29]\n(in reply to) User: I'm also thinking of getting a small gift for Rachel to commemo"
+      },
+      {
+        "id": "657db307-15f1-4165-8649-c270d839c4c7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Engagement gift ideas for Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 10/29]\n(in reply to) User: I'm also thinking of getting a small gift for Rachel to commem"
+      },
+      {
+        "id": "4ae2481d-c916-4ead-9805-8b02c70dde46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Engagement gift ideas: keychain and wine/champagne basket",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 11/29]\n(in reply to) User: I'm also thinking of getting a small gift for Rachel to commem"
+      },
+      {
+        "id": "09f53a7f-b22a-4d7f-a4e1-9d23ca667625",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Engagement gift ideas for Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 12/29]\n(in reply to) User: I'm also thinking of getting a small gift for Rachel to commem"
+      },
+      {
+        "id": "899ee984-6ff8-48db-863b-3ba1514b493f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find online service for customized engagement photo frame",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 13/29]\nUser: That's a great list of ideas. I think I'll go with the customized photo fram"
+      },
+      {
+        "id": "1de5f28e-9ea1-4c78-8e1a-1de62df76fae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested online services for customized photo frame gift",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 14/29]\n(in reply to) User: That's a great list of ideas. I think I'll go with the customi"
+      },
+      {
+        "id": "e11cd142-751b-4667-988f-a6ad72b5bc03",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online services for customized photo frames",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 15/29]\n(in reply to) User: That's a great list of ideas. I think I'll go with the customi"
+      },
+      {
+        "id": "6d478607-47e2-4b60-a3e9-2ced17e3d58c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mixbook online service for customized photo frames",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 16/29]\n(in reply to) User: That's a great list of ideas. I think I'll go with the customi"
+      },
+      {
+        "id": "77dfb5b9-2e47-4361-90a0-a9d480893265",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User chose customized photo frame for Rachel's engagement ring",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 17/29]\n(in reply to) User: That's a great list of ideas. I think I'll go with the customi"
+      },
+      {
+        "id": "860fa1a1-2ff1-425b-9402-ea543a2c5245",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for writing a heartfelt engagement letter to Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 18/29]\nUser: I'll check out those services and create a beautiful frame with a special me"
+      },
+      {
+        "id": "e44d0133-0ff3-4ef3-93ae-65eb65eb3f73",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for writing a heartfelt engagement letter to Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 19/29]\n(in reply to) User: I'll check out those services and create a beautiful frame wit"
+      },
+      {
+        "id": "9b052933-7e47-4e26-891d-43d8d96a22ae",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for writing a heartfelt engagement letter to Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 20/29]\n(in reply to) User: I'll check out those services and create a beautiful frame wit"
+      },
+      {
+        "id": "50e67e65-bd7e-4c66-b72d-d1e1a463b909",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for writing a heartfelt engagement letter to Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 21/29]\n(in reply to) User: I'll check out those services and create a beautiful frame wit"
+      },
+      {
+        "id": "0852094d-3a89-4977-9177-2ee89896e2fb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Heartfelt engagement letter template for Rachel",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 22/29]\n(in reply to) User: I'll check out those services and create a beautiful frame wit"
+      },
+      {
+        "id": "d24af09a-2c3b-4637-b0b2-02fc2cb37a21",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for writing a heartfelt engagement letter",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 23/29]\n(in reply to) User: I'll check out those services and create a beautiful frame wit"
+      },
+      {
+        "id": "c8971dd4-37c4-411a-abc8-f341d9e09599",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for romantic staycation ideas for July 22 anniversary",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 24/29]\nUser: I like those tips! I'll definitely keep them in mind when writing the letter"
+      },
+      {
+        "id": "5241ef43-48ea-4ff4-9407-ee1eaf47c198",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Anniversary staycation planning conversation (July 22)",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 25/29]\n(in reply to) User: I like those tips! I'll definitely keep them in mind when writ"
+      },
+      {
+        "id": "2349b74b-9065-4940-8b39-0a7596c57463",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed wedding anniversary plans (July 22)",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 26/29]\n(in reply to) User: I like those tips! I'll definitely keep them in mind when writ"
+      },
+      {
+        "id": "40b35031-5a96-4d2d-a3fd-9fe03d9139c7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed wedding anniversary plans (July 22)",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 27/29]\n(in reply to) User: I like those tips! I'll definitely keep them in mind when writ"
+      },
+      {
+        "id": "cfa5b6b5-8c82-49b9-bc04-4bf872c110e1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Anniversary celebration ideas (stargazing, scavenger hunt)",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 28/29]\n(in reply to) User: I like those tips! I'll definitely keep them in mind when writ"
+      },
+      {
+        "id": "06af0125-859c-4a04-bfd9-8d9916fe974d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wedding anniversary: prioritize quality time and personal meaning",
+        "text": "[date: 2022-05-15T19:06:00+00:00 | context: Session cc7f8e786f0a - happened on 2022-05-15 19:06:00 UTC. | turn 29/29]\n(in reply to) User: I like those tips! I'll definitely keep them in mind when writ"
+      },
+      {
+        "id": "6816a4a7-7025-4797-ace0-36a2c80af6a1",
+        "score": 0.3662,
+        "memory_type": "episode",
+        "title": "User seeks help planning an affordable trip to visit terminally ill contact",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 1/24]\nUser: I'm trying to plan a trip to visit my mom's best friend who's terminally ill."
+      },
+      {
+        "id": "90cc533d-bdac-424b-acac-eb3acdf3a5fe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant offered help planning an affordable trip to visit terminally ill frien",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 2/24]\n(in reply to) User: I'm trying to plan a trip to visit my mom's best friend who's t"
+      },
+      {
+        "id": "c96987ce-c938-43a5-8ae1-fdfbfa3add0c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests help planning an affordable trip to visit terminally ill contact",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 3/24]\n(in reply to) User: I'm trying to plan a trip to visit my mom's best friend who's t"
+      },
+      {
+        "id": "c778bccc-edad-40de-82d2-7207ad59f289",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan Denver trip within next two weeks (budget ~$500)",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 4/24]\nUser: I'm planning to visit my mom's best friend in Denver, Colorado. I'm flexible "
+      },
+      {
+        "id": "d60823db-0a52-408c-baca-7632e8ebf603",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided flight and accommodation options for Denver trip",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 5/24]\n(in reply to) User: I'm planning to visit my mom's best friend in Denver, Colorado."
+      },
+      {
+        "id": "170090ad-e066-4988-b54a-244fb09f3295",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel recommendation for Denver trip (Airbnb + Frontier)",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 6/24]\n(in reply to) User: I'm planning to visit my mom's best friend in Denver, Colorado."
+      },
+      {
+        "id": "6b6ed6e9-5255-450f-9a53-af8fbc52d7b8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User travel planning for Denver within two weeks",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 7/24]\n(in reply to) User: I'm planning to visit my mom's best friend in Denver, Colorado."
+      },
+      {
+        "id": "04769913-ec4a-4b31-aa03-8aaa84dd1f72",
+        "score": null,
+        "memory_type": "task",
+        "title": "Book Frontier Airlines and Airbnb; Denver recommendations",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 8/24]\nUser: That's very helpful, thank you! I think I'll go with the Frontier Airlines op"
+      },
+      {
+        "id": "189414a7-77b4-47eb-8b26-e3ace9937511",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant declined booking flights and Airbnb for Denver trip",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 9/24]\n(in reply to) User: That's very helpful, thank you! I think I'll go with the Fronti"
+      },
+      {
+        "id": "e61f375b-230f-4acc-bbf3-f4ef680e3ce2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Denver trip recommendations shared (Rocky Mountain Arsenal, parks, museums)",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 10/24]\n(in reply to) User: That's very helpful, thank you! I think I'll go with the Front"
+      },
+      {
+        "id": "832608d5-0779-4b75-80a4-0d323b251630",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Denver trip suggestions and booking request (May 15, 2022)",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 11/24]\n(in reply to) User: That's very helpful, thank you! I think I'll go with the Front"
+      },
+      {
+        "id": "98256bb9-ef5c-4b50-bb47-4d42a9bc5dad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Rocky Mountain Arsenal refuge and nearby lunch",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 12/24]\nUser: Can you give me some more information about the Rocky Mountain Arsenal Natio"
+      },
+      {
+        "id": "2f3db759-f9eb-47a7-8ec0-5fb2a0629711",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Rocky Mountain Arsenal National Wildlife Refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 13/24]\n(in reply to) User: Can you give me some more information about the Rocky Mountain"
+      },
+      {
+        "id": "ee2a3688-51cf-414c-9611-49316cde96a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Visitor info for Rocky Mountain Arsenal National Wildlife Refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 14/24]\n(in reply to) User: Can you give me some more information about the Rocky Mountain"
+      },
+      {
+        "id": "9ce37a1e-78b8-459a-afd1-c97b528de6fc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Visitor guidance and nearby restaurants for Rocky Mountain Arsenal NWR",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 15/24]\n(in reply to) User: Can you give me some more information about the Rocky Mountain"
+      },
+      {
+        "id": "e38c2b92-e13f-4457-a24d-5dd2046875d8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided visit info and nearby restaurant suggestions for Rocky Mountain Arsenal",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 16/24]\n(in reply to) User: Can you give me some more information about the Rocky Mountain"
+      },
+      {
+        "id": "24f26183-4e2b-4a87-a6f0-c77425e25823",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about bison safety and viewing times",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 17/24]\nUser: That sounds great! I'm really looking forward to visiting the refuge. Can yo"
+      },
+      {
+        "id": "ba8b69dd-5865-43c0-9c2b-eb37a6dbcc5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bison herd details and safety/viewing guidance at Rocky Mountain Arsenal refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 18/24]\n(in reply to) User: That sounds great! I'm really looking forward to visiting the "
+      },
+      {
+        "id": "cc5de1d5-854e-47e3-a808-a4d634b60c0b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best times and areas to view bison at the refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 19/24]\n(in reply to) User: That sounds great! I'm really looking forward to visiting the "
+      },
+      {
+        "id": "a6090006-e200-4c62-918e-06931dc334c1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bison viewing guidance and fun facts for Rocky Mountain Arsenal NWR",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 20/24]\n(in reply to) User: That sounds great! I'm really looking forward to visiting the "
+      },
+      {
+        "id": "37674c06-86e6-47d2-8fd3-1cb4c761165a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about bison safety and viewing at refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 21/24]\n(in reply to) User: That sounds great! I'm really looking forward to visiting the "
+      },
+      {
+        "id": "d2ddf431-4acb-4faa-a7db-636c726500d1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans cautious bison visit and asks for nearby coffee shop",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 22/24]\nUser: I'll make sure to keep a safe distance and respect their space. I've heard t"
+      },
+      {
+        "id": "ee48eeb9-5945-40a8-b97e-f4ea51e6a656",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned to keep distance from bison; coffee shop suggestions near refuge",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 23/24]\n(in reply to) User: I'll make sure to keep a safe distance and respect their space"
+      },
+      {
+        "id": "68ee3536-2b1d-4abc-b047-621683bb59e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for visiting Rocky Mountain Arsenal NWR (fuel up, picnic)",
+        "text": "[date: 2022-05-15T20:55:00+00:00 | context: Session 3c6911ff2623 - happened on 2022-05-15 20:55:00 UTC. | turn 24/24]\n(in reply to) User: I'll make sure to keep a safe distance and respect their space"
+      }
+    ]
+  },
+  "context": {
+    "chars": 98488,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24622)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26553,
+    "prompt_tokens": 25299,
+    "completion_tokens": 286,
+    "reasoning_tokens": 968,
+    "generate_time_ms": 10880.13924693223,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23688,
+        "completion_tokens": 108,
+        "reasoning_tokens": 453,
+        "total_tokens": 24249
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 575,
+        "completion_tokens": 38,
+        "reasoning_tokens": 112,
+        "total_tokens": 725
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 383,
+        "completion_tokens": 41,
+        "reasoning_tokens": 178,
+        "total_tokens": 602
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 653,
+        "completion_tokens": 99,
+        "reasoning_tokens": 225,
+        "total_tokens": 977
+      }
+    ]
+  },
+  "failure_label": null
+}

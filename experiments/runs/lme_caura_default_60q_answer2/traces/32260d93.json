@@ -1,0 +1,1311 @@
+{
+  "question_id": "32260d93",
+  "question_type": "single-session-preference",
+  "question": "Can you recommend a show or movie for me to watch tonight?",
+  "gold_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+  "prediction": "Based on your interests, here are a few personalized recommendations for tonight:\n\n1. **Stand-Up Comedy (Storytelling):**\n   * **John Mulaney: *Baby J*** or ***The Comeback Kid*** (Netflix) \u2013 Since you love narrative-driven comedy and John Mulaney\u2019s *Kid Gorgeous*, his other specials deliver the same sharp, long-form storytelling craft that can also inspire your own stand-up work.\n   * **Mike Birbiglia: *The New One*** (Netflix) \u2013 An excellent choice for an aspiring comedian who appreciates seamless, structured storytelling comedy.\n\n2. **True Crime:**\n   * **The Staircase** or ***Making a Murderer*** (Netflix) \u2013 Since you are a fan of true crime and binged all of *Crime Junkie*, these gripping, detail-heavy docuseries offer deep dives into complex investigations and legal battles.\n\n3. **Ancient Civilizations & History:**\n   * **Secrets of the Saqqara Tomb** (Netflix) \u2013 Given your keen interest in ancient Egyptian history, pyramids, and archaeology, this documentary follows a team of archaeologists unearthing an untouched tomb, providing a fascinating look into ancient Egypt.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "Yes"
+    }
+  },
+  "memories": {
+    "count": 866,
+    "by_type": {
+      "plan": 3,
+      "episode": 253,
+      "preference": 135,
+      "task": 46,
+      "fact": 420,
+      "decision": 3,
+      "action": 6
+    },
+    "by_status": {
+      "active": 865,
+      "conflicted": 1
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2548638,
+    "output_tokens": 122972,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Can you recommend a show or movie for me to watch tonight?"
+    ],
+    "retrieve_time_ms": 1711.2336870050058,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "be49c0df-b2c5-4889-acac-1d27ef671ff7",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Weekly snack prep schedule (weekend batch cooking)",
+        "text": "[date: 2023-05-22T23:37:00+00:00 | context: Session d643be5ee6ae - happened on 2023-05-22 23:37:00 UTC. | turn 3/27]\n(in reply to) User: I'm trying to get more organized with my snack planning. Can yo"
+      },
+      {
+        "id": "df4be9c7-0d3b-4961-a5cf-4e2096cf8fcf",
+        "score": 0.454,
+        "memory_type": "preference",
+        "title": "User wants healthy homemade sweet treats for 3pm cravings",
+        "text": "[date: 2023-05-22T23:37:00+00:00 | context: Session d643be5ee6ae - happened on 2023-05-22 23:37:00 UTC. | turn 4/27]\nUser: That looks like a great plan! I'm definitely going to try to prep some of tho"
+      },
+      {
+        "id": "99fdfc65-3db7-4485-9743-1c7b8b94b392",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided healthy sweet treat recommendations",
+        "text": "[date: 2023-05-22T23:37:00+00:00 | context: Session d643be5ee6ae - happened on 2023-05-22 23:37:00 UTC. | turn 5/27]\n(in reply to) User: That looks like a great plan! I'm definitely going to try to pr"
+      },
+      {
+        "id": "7297ebcf-05ab-4a15-9c57-504c9f56713b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend popular train-themed board games",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 1/27]\nUser: I'm thinking of buying a new board game, but I'm not sure which one to get. C"
+      },
+      {
+        "id": "a1ac0bf0-61ee-413b-b5cb-32ca66c6204c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended popular train-themed board games",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 2/27]\n(in reply to) User: I'm thinking of buying a new board game, but I'm not sure which"
+      },
+      {
+        "id": "345841a4-efcc-4a28-9cf5-6e3fec243d3f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for popular train-themed board games",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 3/27]\n(in reply to) User: I'm thinking of buying a new board game, but I'm not sure which"
+      },
+      {
+        "id": "6a78d427-e7ce-417a-a64c-97e94f6a879c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Train-themed board game recommendations (Steam Railways to Riches, Empires of th",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 4/27]\n(in reply to) User: I'm thinking of buying a new board game, but I'm not sure which"
+      },
+      {
+        "id": "17a3a613-88cd-46bc-ab65-db313da24e05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended train-themed board games (Ticket to Ride, Railways of the World)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 5/27]\n(in reply to) User: I'm thinking of buying a new board game, but I'm not sure which"
+      },
+      {
+        "id": "3cc798c8-af03-4896-b7ed-4f83366fb0d4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks comparison: Railways of the World vs Ticket to Ride",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 6/27]\nUser: I've played Ticket to Ride before and loved it. How does Railways of the Worl"
+      },
+      {
+        "id": "7be8f850-9a54-44be-aa4e-be3cc2946a80",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Railways of the World vs Ticket to Ride complexity/strategy",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 7/27]\n(in reply to) User: I've played Ticket to Ride before and loved it. How does Railwa"
+      },
+      {
+        "id": "a72fa41b-6e05-421e-bc4c-d268796d83dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Railways of the World vs Ticket to Ride (strategy layers)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 8/27]\n(in reply to) User: I've played Ticket to Ride before and loved it. How does Railwa"
+      },
+      {
+        "id": "1ae69f10-f8a7-40bb-972c-766e4fc84e5d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Railways of the World vs Ticket to Ride",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 9/27]\n(in reply to) User: I've played Ticket to Ride before and loved it. How does Railwa"
+      },
+      {
+        "id": "d9a63fac-5d74-4c49-9f54-00cded0dda19",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: Railways of the World vs Ticket to Ride complexity",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 10/27]\n(in reply to) User: I've played Ticket to Ride before and loved it. How does Railw"
+      },
+      {
+        "id": "5b4988fd-fdd6-4817-869f-905b78944331",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering Railways of the World expansion pack",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 11/27]\nUser: That's really helpful, thanks! I think I'm willing to give Railways of the W"
+      },
+      {
+        "id": "0bd7ca36-34dd-4a0a-a077-a690eba03c33",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested Railways of the World expansion pack to try first",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 12/27]\n(in reply to) User: That's really helpful, thanks! I think I'm willing to give Rai"
+      },
+      {
+        "id": "2f24d312-e637-448f-a863-bb85f6935a98",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for first Railways of the World expansion pack",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 13/27]\n(in reply to) User: That's really helpful, thanks! I think I'm willing to give Rai"
+      },
+      {
+        "id": "0242c545-ffb9-4537-9574-fa290a3d3aa0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested first expansion for Railways of the World",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 14/27]\n(in reply to) User: That's really helpful, thanks! I think I'm willing to give Rai"
+      },
+      {
+        "id": "d352dfd4-9381-4f26-8f89-28cf472817fa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks playtime for Railways of the World (Europe expansion)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 15/27]\nUser: I think I'll go with Railways of Europe. I'm excited to try out a new map an"
+      },
+      {
+        "id": "a4f4bd82-2b83-46d9-9e82-09f950e5ff79",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Estimated playtime for Railways of the World (Europe expansion)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 16/27]\n(in reply to) User: I think I'll go with Railways of Europe. I'm excited to try ou"
+      },
+      {
+        "id": "62c912a8-3fcb-47f4-8f89-6544c8770e06",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Railways of the World Europe expansion playtime",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 17/27]\n(in reply to) User: I think I'll go with Railways of Europe. I'm excited to try ou"
+      },
+      {
+        "id": "5862a4ee-841f-448d-b861-391b422a49e7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants game recommendations for Railways of Europe",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 18/27]\nUser: Yeah, I'm really looking forward to it! I've been thinking about organizing "
+      },
+      {
+        "id": "bd339065-f12c-4b48-947c-21c05c46c04a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses planning a game night with Railways of Europe",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 19/27]\n(in reply to) User: Yeah, I'm really looking forward to it! I've been thinking abo"
+      },
+      {
+        "id": "41da6bbb-ce7b-42c6-b9d6-256a20f9aa61",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Board game recommendations for game night",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 20/27]\n(in reply to) User: Yeah, I'm really looking forward to it! I've been thinking abo"
+      },
+      {
+        "id": "7b2b4c25-a6d4-47b7-b799-7a0ec8ab0def",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Board game recommendations: Ticket to Ride Europe and Azul",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 21/27]\n(in reply to) User: Yeah, I'm really looking forward to it! I've been thinking abo"
+      },
+      {
+        "id": "1ef87ba5-e21c-44d2-a52a-2c149fb87438",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Game night planning advice for Railways of Europe",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 22/27]\n(in reply to) User: Yeah, I'm really looking forward to it! I've been thinking abo"
+      },
+      {
+        "id": "6e8bfca3-9b8d-45f0-99c6-264a187cd1b8",
+        "score": 0.458,
+        "memory_type": "preference",
+        "title": "User plans to bring Pandemic to game night; asks for tips",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 23/27]\nUser: I think I'll also bring Pandemic to the game night. It's a great cooperative"
+      },
+      {
+        "id": "60ef93fd-4cb2-49cd-b905-0923991eac47",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided Pandemic game tips for game night",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 24/27]\n(in reply to) User: I think I'll also bring Pandemic to the game night. It's a gre"
+      },
+      {
+        "id": "71a0c476-2068-441d-90ef-5ccc480fc647",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for winning Pandemic (cooperative strategy)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 25/27]\n(in reply to) User: I think I'll also bring Pandemic to the game night. It's a gre"
+      },
+      {
+        "id": "958cc9a3-eb16-47d6-890f-73b0671e6668",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for winning at Pandemic (cooperative strategy)",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 26/27]\n(in reply to) User: I think I'll also bring Pandemic to the game night. It's a gre"
+      },
+      {
+        "id": "64568718-7838-4986-8ba4-66764715bb6e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Game night discussion: tips for winning Pandemic",
+        "text": "[date: 2023-05-27T02:18:00+00:00 | context: Session e423ebfd67a4 - happened on 2023-05-27 02:18:00 UTC. | turn 27/27]\n(in reply to) User: I think I'll also bring Pandemic to the game night. It's a gre"
+      },
+      {
+        "id": "0c764d45-33fc-4af4-b9ba-840975e5af7d",
+        "score": 0.5147,
+        "memory_type": "preference",
+        "title": "Train-themed board game recommendations for family game nights",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 1/28]\nUser: I'm considering buying a new board game, and I'd love some recommendations. I"
+      },
+      {
+        "id": "52ddad42-2e1b-4e74-97cb-9b3b5a59f683",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Train-themed board game recommendations discussion",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 2/28]\n(in reply to) User: I'm considering buying a new board game, and I'd love some reco"
+      },
+      {
+        "id": "68f7d6ea-a72d-4a31-94d5-28246dc24bdf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Board game recommendations for train-themed games",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 3/28]\n(in reply to) User: I'm considering buying a new board game, and I'd love some reco"
+      },
+      {
+        "id": "588b1d52-349e-48e4-9a23-ae8713c986db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Train-themed board game recommendations (TransAmerica, Locomotive Werks, Railroa",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 4/28]\n(in reply to) User: I'm considering buying a new board game, and I'd love some reco"
+      },
+      {
+        "id": "edff5926-da64-4c99-9303-47258c86d168",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for train-themed board game recommendations",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 5/28]\n(in reply to) User: I'm considering buying a new board game, and I'd love some reco"
+      },
+      {
+        "id": "f355dd51-a9d1-4cbc-81e1-877ca0b2fa3a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about 18xx gameplay complexity and game length",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 6/28]\nUser: I'm intrigued by the 18xx series, but I'm not sure if it's too complex for my"
+      },
+      {
+        "id": "fe829b4a-fcaf-4a06-a608-bf8f2ec4236c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "18xx gameplay overview for siblings (complexity & game length)",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 7/28]\n(in reply to) User: I'm intrigued by the 18xx series, but I'm not sure if it's too "
+      },
+      {
+        "id": "a04416dc-4f1e-4b59-bf84-7ae9f637bd34",
+        "score": null,
+        "memory_type": "fact",
+        "title": "18xx gameplay overview, complexity, and typical length (incomplete)",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 8/28]\n(in reply to) User: I'm intrigued by the 18xx series, but I'm not sure if it's too "
+      },
+      {
+        "id": "bf6ae23e-83bb-4559-9043-a12c59bbe69a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "18xx gameplay length and beginner recommendations",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 9/28]\n(in reply to) User: I'm intrigued by the 18xx series, but I'm not sure if it's too "
+      },
+      {
+        "id": "b57d217a-ab39-42aa-b682-a2c718bbee32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about 18xx complexity and game length",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 10/28]\n(in reply to) User: I'm intrigued by the 18xx series, but I'm not sure if it's too"
+      },
+      {
+        "id": "e5eb18ab-62ea-4bd8-8c0f-b5a43f9eb035",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Railroad Revolution and Locomotive Werks vs Ticket to Ride",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 11/28]\nUser: I think I'll start with 1830, it sounds like a good introduction to the seri"
+      },
+      {
+        "id": "db887a22-f35e-4f6e-981a-0ca86b7fd06f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Railroad Revolution and Locomotive Werks",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 12/28]\n(in reply to) User: I think I'll start with 1830, it sounds like a good introducti"
+      },
+      {
+        "id": "0c01f122-44ea-44d5-9100-712f28fd2cea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Railroad Revolution and Locomotive Werks vs Ticket to Ride",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 13/28]\n(in reply to) User: I think I'll start with 1830, it sounds like a good introducti"
+      },
+      {
+        "id": "68a23add-843b-4b82-846b-1147f5f21b75",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Train-themed board games compared to Ticket to Ride",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 14/28]\n(in reply to) User: I think I'll start with 1830, it sounds like a good introducti"
+      },
+      {
+        "id": "3cd29945-e1d1-4ff8-b1be-1d79bf61a068",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about 18xx series vs other railroad games",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 15/28]\n(in reply to) User: I think I'll start with 1830, it sounds like a good introducti"
+      },
+      {
+        "id": "5cfbe042-d576-4f43-8ecf-aef552105c4d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Locomotive Werks delivery mechanism",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 16/28]\nUser: I think I'll stick with 1830 for now, but I'm curious about Locomotive Werks"
+      },
+      {
+        "id": "d40fecc8-8ad4-477b-b37b-7b91572feea4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Locomotive Werks delivery mechanism overview",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 17/28]\n(in reply to) User: I think I'll stick with 1830 for now, but I'm curious about Lo"
+      },
+      {
+        "id": "ac3aa0b0-4bb3-4e9f-bafa-8967624b2665",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Rail delivery game mechanics: resources, routes, upgrades, city growth",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 18/28]\n(in reply to) User: I think I'll stick with 1830 for now, but I'm curious about Lo"
+      },
+      {
+        "id": "a4614b7f-c4a8-4518-9e13-c2228fe0745a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Locomotive Werks dynamic board uses interlocking random tiles",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 19/28]\n(in reply to) User: I think I'll stick with 1830 for now, but I'm curious about Lo"
+      },
+      {
+        "id": "b747d21c-6ecc-4b76-a5a8-4938d5251258",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Locomotive Werks delivery mechanism guidance",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 20/28]\n(in reply to) User: I think I'll stick with 1830 for now, but I'm curious about Lo"
+      },
+      {
+        "id": "8fe0c282-2d9f-4b5f-b578-1a461bff9e8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 21/28]\nUser: I think I understand Locomotive Werks better now. But before I consider gett"
+      },
+      {
+        "id": "e79f0ab9-9aa2-4a38-8e51-5be6e15b5b2e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 22/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "e38cddf1-1ba7-4c16-ad88-4e4f1f670d57",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 23/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "b091ce46-2c56-41e7-a40a-780f6cdb5af9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for teaching 1830 to new 18xx siblings",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 24/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "8e88ca82-0f29-4d7f-a398-8aceb7a92b3f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 25/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "4c974c1c-8d6f-4739-bfc6-2cc2b0f28cb4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 26/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "ab04a164-c726-4ab4-b38b-50aac0637af9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for teaching 1830 to new 18xx players",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 27/28]\n(in reply to) User: I think I understand Locomotive Werks better now. But before I"
+      },
+      {
+        "id": "a988a734-906d-4fa9-a138-c9b76a226aff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to teach 18xx 1830 to siblings",
+        "text": "[date: 2023-05-27T06:02:00+00:00 | context: Session 22d494edf2f3 - happened on 2023-05-27 06:02:00 UTC. | turn 28/28]\nUser: I think I'm ready to teach my siblings 1830 now. Thanks for the helpful tips"
+      },
+      {
+        "id": "c731572d-f92d-41e3-b52d-2eccb0524542",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 1/26]\nUser: I'm looking for some book recommendations on ancient civilizations. I recentl"
+      },
+      {
+        "id": "e81824fb-1e34-4db9-9b7a-1de5b637aef9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 2/26]\n(in reply to) User: I'm looking for some book recommendations on ancient civilizati"
+      },
+      {
+        "id": "6545a275-c95e-41a1-af6f-1066b22243a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 3/26]\n(in reply to) User: I'm looking for some book recommendations on ancient civilizati"
+      },
+      {
+        "id": "fe4a7b35-abd2-4413-945b-cfb73f990209",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 4/26]\n(in reply to) User: I'm looking for some book recommendations on ancient civilizati"
+      },
+      {
+        "id": "ee5aec71-16dd-4973-a756-4032a60751b4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 5/26]\nUser: I'm particularly interested in ancient Egypt, can you recommend some document"
+      },
+      {
+        "id": "a3aa74b1-7425-4607-995b-eec304e5433c",
+        "score": 0.4777,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 6/26]\n(in reply to) User: I'm particularly interested in ancient Egypt, can you recommend"
+      },
+      {
+        "id": "8ae018af-da52-4e5b-bf00-af0c22fa0cb1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 7/26]\n(in reply to) User: I'm particularly interested in ancient Egypt, can you recommend"
+      },
+      {
+        "id": "aff9997e-249a-4d04-89fc-7677225cd2bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 8/26]\n(in reply to) User: I'm particularly interested in ancient Egypt, can you recommend"
+      },
+      {
+        "id": "11cc1086-bd21-44ae-a342-2602646467b4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 9/26]\nUser: I'm interested in learning more about the pyramids, can you recommend some on"
+      },
+      {
+        "id": "ca4256bd-bea8-457c-9e65-4f91cfa8b58d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 10/26]\n(in reply to) User: I'm interested in learning more about the pyramids, can you re"
+      },
+      {
+        "id": "eea0aed9-274c-4a39-9744-d6c8708c0414",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 11/26]\n(in reply to) User: I'm interested in learning more about the pyramids, can you re"
+      },
+      {
+        "id": "eb3327bd-eb05-40bb-b31a-bd7788a86265",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 12/26]\n(in reply to) User: I'm interested in learning more about the pyramids, can you re"
+      },
+      {
+        "id": "c52d7401-bf19-4ae4-a533-0c5f0ea0f0c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 13/26]\n(in reply to) User: I'm interested in learning more about the pyramids, can you re"
+      },
+      {
+        "id": "2b284752-da95-4e12-b86b-f2c82937886e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 14/26]\nUser: I'm particularly interested in the Great Sphinx. Can you recommend some reso"
+      },
+      {
+        "id": "c3b98636-0602-4115-b035-6536a9a6141a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 15/26]\n(in reply to) User: I'm particularly interested in the Great Sphinx. Can you recom"
+      },
+      {
+        "id": "08728ae6-39cf-4c84-8861-e7c55fac506a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 16/26]\n(in reply to) User: I'm particularly interested in the Great Sphinx. Can you recom"
+      },
+      {
+        "id": "2c9fb062-4e67-4751-baa7-ae32b2fa0671",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 17/26]\n(in reply to) User: I'm particularly interested in the Great Sphinx. Can you recom"
+      },
+      {
+        "id": "b5197a10-f6a3-4ef8-8434-d3de9caf69cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 18/26]\n(in reply to) User: I'm particularly interested in the Great Sphinx. Can you recom"
+      },
+      {
+        "id": "61397865-d386-4392-927f-85ef07cc2943",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 19/26]\n(in reply to) User: I'm particularly interested in the Great Sphinx. Can you recom"
+      },
+      {
+        "id": "732ee81f-364f-4b17-a417-cd501f071514",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 20/26]\nUser: I'd like to explore more about the theories surrounding the Sphinx's origins"
+      },
+      {
+        "id": "089636de-ffaa-4007-b8c7-8ac8607dbfa3",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 21/26]\n(in reply to) User: I'd like to explore more about the theories surrounding the Sp"
+      },
+      {
+        "id": "67e4aefb-c99c-44a4-a5c8-ba56ebcca1de",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 22/26]\n(in reply to) User: I'd like to explore more about the theories surrounding the Sp"
+      },
+      {
+        "id": "fc8e8e91-cb62-4e10-bdff-22f010345ebc",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 23/26]\n(in reply to) User: I'd like to explore more about the theories surrounding the Sp"
+      },
+      {
+        "id": "09378ede-37d6-45be-a3d9-ecb794ba9e44",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 24/26]\n(in reply to) User: I'd like to explore more about the theories surrounding the Sp"
+      },
+      {
+        "id": "3fdd5f3b-bb41-4861-8bb9-46db68e096d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 25/26]\n(in reply to) User: I'd like to explore more about the theories surrounding the Sp"
+      },
+      {
+        "id": "2e0828ab-6b6f-440a-adfb-7ec7222f1f56",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-27T16:48:00+00:00 | context: Session 1ed94a5ac0a6 - happened on 2023-05-27 16:48:00 UTC. | turn 26/26]\nUser: I attended a lecture series at the History Museum later in February, which g"
+      },
+      {
+        "id": "4e5a8f81-63c2-4381-b6c0-8c169d83a5cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 1/29]\nUser: I'm looking to improve my skills in machine learning and artificial intellige"
+      },
+      {
+        "id": "2e364c8b-75fd-483f-8d30-826bc533f198",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking to improve my skills in machine learning and artifi"
+      },
+      {
+        "id": "f4c90be6-e5c2-4eb8-8cb9-c18a59b3b696",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking to improve my skills in machine learning and artifi"
+      },
+      {
+        "id": "5570abfa-8a29-4dfe-a50f-4b3e7c5f184b",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking to improve my skills in machine learning and artifi"
+      },
+      {
+        "id": "f91b92b9-b951-444d-8e24-49ddde4b3246",
+        "score": 0.4737,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 5/29]\nUser: I'm interested in exploring computer vision, can you recommend some resources"
+      },
+      {
+        "id": "5f805e7a-1014-421d-9bf1-4fe0b0b8def7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 6/29]\n(in reply to) User: I'm interested in exploring computer vision, can you recommend "
+      },
+      {
+        "id": "adbc9f53-02d2-4bfc-a13d-5b844cbe5e9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 7/29]\n(in reply to) User: I'm interested in exploring computer vision, can you recommend "
+      },
+      {
+        "id": "dab2a03e-57bb-47ac-8fcf-2f04dc80ff43",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 8/29]\n(in reply to) User: I'm interested in exploring computer vision, can you recommend "
+      },
+      {
+        "id": "16b38953-86ce-4957-87a0-71ec4d045e47",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 9/29]\n(in reply to) User: I'm interested in exploring computer vision, can you recommend "
+      },
+      {
+        "id": "afaee140-414f-4b9d-b4a0-820574c5f160",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 10/29]\nUser: I'm interested in exploring computer vision, especially object detection. Ca"
+      },
+      {
+        "id": "9c447c73-c4e8-441e-b76e-74b1d438f5b6",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 11/29]\n(in reply to) User: I'm interested in exploring computer vision, especially object"
+      },
+      {
+        "id": "aa159add-517f-4d12-a685-516461c26ae0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 12/29]\n(in reply to) User: I'm interested in exploring computer vision, especially object"
+      },
+      {
+        "id": "d126313f-ac30-4944-acab-0a2ea48a7038",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 13/29]\n(in reply to) User: I'm interested in exploring computer vision, especially object"
+      },
+      {
+        "id": "08e48429-16de-4572-a8d7-c49961b562bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 14/29]\n(in reply to) User: I'm interested in exploring computer vision, especially object"
+      },
+      {
+        "id": "fc20ebfa-9faa-477f-8aab-060bc0fb42f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 15/29]\nUser: I'm interested in exploring object detection using YOLO. Can you provide mor"
+      },
+      {
+        "id": "e51247cc-f187-4bc8-9c33-e03f6cad3425",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 16/29]\n(in reply to) User: I'm interested in exploring object detection using YOLO. Can y"
+      },
+      {
+        "id": "5af82996-1ffe-4fe3-8b3c-7b5750209c55",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 17/29]\n(in reply to) User: I'm interested in exploring object detection using YOLO. Can y"
+      },
+      {
+        "id": "59c8fd2a-80f4-436f-9d22-c5fc44b7fefd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 18/29]\n(in reply to) User: I'm interested in exploring object detection using YOLO. Can y"
+      },
+      {
+        "id": "e9f38abb-1df1-4237-9778-ce5b1c6bb95f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 19/29]\nUser: I'd like to explore YOLO further, specifically in the context of autonomous "
+      },
+      {
+        "id": "1dd87c34-e62d-4db3-959a-e50bc9af0326",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 20/29]\n(in reply to) User: I'd like to explore YOLO further, specifically in the context "
+      },
+      {
+        "id": "e4f4ed30-feea-414e-8ca8-8def62117b7a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 21/29]\n(in reply to) User: I'd like to explore YOLO further, specifically in the context "
+      },
+      {
+        "id": "ff2f6393-3872-43b1-bd3b-7268a862a2c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 22/29]\n(in reply to) User: I'd like to explore YOLO further, specifically in the context "
+      },
+      {
+        "id": "22896927-b5d1-4623-b4e2-cfcd65276d97",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 23/29]\n(in reply to) User: I'd like to explore YOLO further, specifically in the context "
+      },
+      {
+        "id": "9fa16758-73a9-4819-92c8-b7f85e74a344",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 24/29]\n(in reply to) User: I'd like to explore YOLO further, specifically in the context "
+      },
+      {
+        "id": "06de544f-6b32-4a2e-bb79-886612fad4f9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 25/29]\nUser: I'd like to explore more about object detection in autonomous vehicles, spec"
+      },
+      {
+        "id": "935e66e5-9d9b-45b6-a359-f44280ad04b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 26/29]\n(in reply to) User: I'd like to explore more about object detection in autonomous "
+      },
+      {
+        "id": "f90ec8a4-642e-4ef2-955f-6d24690cc903",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 27/29]\n(in reply to) User: I'd like to explore more about object detection in autonomous "
+      },
+      {
+        "id": "d3edd935-d116-477b-a8cd-7ab2dbdc653b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for YOLO pedestrian detection (datasets, videos, articles)",
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 28/29]\n(in reply to) User: I'd like to explore more about object detection in autonomous "
+      },
+      {
+        "id": "7bb1c0e4-da43-475b-93d5-0126bd99f241",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for YOLO pedestrian detection in autonomous vehicles",
+        "text": "[date: 2023-05-28T00:15:00+00:00 | context: Session e8df0d076a77 - happened on 2023-05-28 00:15:00 UTC. | turn 29/29]\n(in reply to) User: I'd like to explore more about object detection in autonomous "
+      },
+      {
+        "id": "e8a4c1f8-c0ae-4951-ae89-a6dcf333b96a",
+        "score": 0.4652,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 1/29]\nUser: I'm looking for some more true crime podcasts to listen to. I just finished b"
+      },
+      {
+        "id": "da638bcd-7ec5-44a1-b6d5-9b07e244a283",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for more true crime podcasts after bingeing Crime Junkie",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some more true crime podcasts to listen to. I j"
+      },
+      {
+        "id": "66abb525-44a8-4928-9ea0-98e090ebf5d3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for true crime podcast recommendations",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some more true crime podcasts to listen to. I j"
+      },
+      {
+        "id": "a5d838a2-a589-4b74-837c-c6ad4b652e18",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests true crime podcast recommendations",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some more true crime podcasts to listen to. I j"
+      },
+      {
+        "id": "0dd83e48-fe86-4dd9-a67b-7550460315d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests true crime podcast recommendations",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some more true crime podcasts to listen to. I j"
+      },
+      {
+        "id": "a3a16455-46b4-44cc-8b66-a8d568df85da",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks self-improvement podcasts for personal development",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 6/29]\nUser: I'm definitely going to check those out. I was surprised by how much I got in"
+      },
+      {
+        "id": "ea6c71b5-5d7a-4e5c-95b0-57bd01a4e0b0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends self-improvement podcasts after true crime binge",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 7/29]\n(in reply to) User: I'm definitely going to check those out. I was surprised by how"
+      },
+      {
+        "id": "0cce9e17-721e-4d01-8185-9affa2619019",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations: self-improvement podcasts list",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 8/29]\n(in reply to) User: I'm definitely going to check those out. I was surprised by how"
+      },
+      {
+        "id": "8fc30d52-2fa6-40aa-a7dd-dce6ca24b57c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations: productivity and self-improvement podcasts",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 9/29]\n(in reply to) User: I'm definitely going to check those out. I was surprised by how"
+      },
+      {
+        "id": "a63f0a94-db84-4c19-b0d5-a74edcb03c4f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed true crime and asked for self-improvement podcast recommendations",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 10/29]\n(in reply to) User: I'm definitely going to check those out. I was surprised by ho"
+      },
+      {
+        "id": "e70f1f21-5beb-41c2-b242-21b0c26f15d8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for commute productivity podcast recommendations",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 11/29]\nUser: I'll definitely check those out. I'm really interested in improving my produ"
+      },
+      {
+        "id": "2b8aafb5-66be-4e37-a4d6-e10f42ad5fa3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast recommendations for commute productivity",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 12/29]\n(in reply to) User: I'll definitely check those out. I'm really interested in impr"
+      },
+      {
+        "id": "6dc2babc-e152-4334-a46c-32b8c6e65693",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast recommendations for productivity and time management",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 13/29]\n(in reply to) User: I'll definitely check those out. I'm really interested in impr"
+      },
+      {
+        "id": "1ed97144-df33-4ef1-a29f-50e7a315d028",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Commute productivity audiobook/podcast services suggested",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 14/29]\n(in reply to) User: I'll definitely check those out. I'm really interested in impr"
+      },
+      {
+        "id": "a312e8e8-6589-466b-856d-1ac2a038f09f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in language learning podcasts and commute use",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 15/29]\nUser: I'm really interested in the language learning podcasts. I've been meaning t"
+      },
+      {
+        "id": "a8eb3f01-4830-4833-b513-3f0abfdbdb95",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended language learning apps for commute podcasts",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 16/29]\n(in reply to) User: I'm really interested in the language learning podcasts. I've "
+      },
+      {
+        "id": "76da9c74-916f-4506-9937-f693ed2f50d2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning app recommendations (Duolingo, Babbel, Rosetta Stone, Anki, Me",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 17/29]\n(in reply to) User: I'm really interested in the language learning podcasts. I've "
+      },
+      {
+        "id": "1e2346f0-7088-4c4a-806a-ac34d44e7c5e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning app recommendations (Quizlet, HelloTalk, Lingodeer, Busuu)",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 18/29]\n(in reply to) User: I'm really interested in the language learning podcasts. I've "
+      },
+      {
+        "id": "f28028ed-85a2-4f02-8aec-c3d00e3cacef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Language learning podcast/app recommendations during commute",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 19/29]\n(in reply to) User: I'm really interested in the language learning podcasts. I've "
+      },
+      {
+        "id": "d8b5fa76-764b-4447-afb7-1e656eb73207",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to start with Duolingo for language learning",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 20/29]\nUser: I'm excited to try out some of these language learning apps. I think I'll st"
+      },
+      {
+        "id": "8b1a2bc8-3a13-473c-b8f6-9117986112f1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Encouraged user to start with Duolingo and stay motivated",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 21/29]\n(in reply to) User: I'm excited to try out some of these language learning apps. I"
+      },
+      {
+        "id": "79974596-71cf-4b84-98bb-5158ccea911e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying motivated in language learning",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 22/29]\n(in reply to) User: I'm excited to try out some of these language learning apps. I"
+      },
+      {
+        "id": "49caf422-a4ca-4ec4-a36f-581bb42e218d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying motivated in language learning",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 23/29]\n(in reply to) User: I'm excited to try out some of these language learning apps. I"
+      },
+      {
+        "id": "08d1bef3-67a8-4c0a-b003-a417c4c022a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for staying motivated in language learning (Duolingo)",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 24/29]\n(in reply to) User: I'm excited to try out some of these language learning apps. I"
+      },
+      {
+        "id": "fc680b1b-b3ef-43c5-ad14-66e786e82051",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Language learning motivation tips for Duolingo",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 25/29]\n(in reply to) User: I'm excited to try out some of these language learning apps. I"
+      },
+      {
+        "id": "91b6130f-0b50-4609-a01e-d1c62737acc4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a language learning podcast",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 26/29]\nUser: I'm going to try to apply these tips to my own language learning journey. Sp"
+      },
+      {
+        "id": "e344b1ba-a469-40c0-a849-c8fb74bff9a2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests language learning podcast topics",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 27/29]\n(in reply to) User: I'm going to try to apply these tips to my own language learni"
+      },
+      {
+        "id": "068bfa2b-fb6a-41f0-8266-689b244aa4c0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: starting a language learning podcast",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 28/29]\n(in reply to) User: I'm going to try to apply these tips to my own language learni"
+      },
+      {
+        "id": "4d6074c3-f4c7-4785-85a5-21dc6413e46e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Encouraged user to start a language learning podcast",
+        "text": "[date: 2023-05-29T01:01:00+00:00 | context: Session a96429f1e477 - happened on 2023-05-29 01:01:00 UTC. | turn 29/29]\n(in reply to) User: I'm going to try to apply these tips to my own language learni"
+      },
+      {
+        "id": "fe741c03-7153-4ca6-8aac-0258cc09f274",
+        "score": 0.4897,
+        "memory_type": "preference",
+        "title": "Advice request: Netflix stand-up specials with strong storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 1/31]\nUser: As an aspiring stand-up comedian, I'm looking for some advice on how to impro"
+      },
+      {
+        "id": "ccfd35f5-70a2-472a-8455-7424bc667e4b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Netflix stand-up specials with strong storytelling (Mulaney-like)",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 2/31]\n(in reply to) User: As an aspiring stand-up comedian, I'm looking for some advice o"
+      },
+      {
+        "id": "a8f0c91d-7a8c-46a4-9b18-dde36f7d36c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Netflix stand-up specials with strong storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 3/31]\n(in reply to) User: As an aspiring stand-up comedian, I'm looking for some advice o"
+      },
+      {
+        "id": "d90cff5e-832d-4a00-9bbf-5cfaec40b3aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Netflix stand-up specials with strong storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 4/31]\n(in reply to) User: As an aspiring stand-up comedian, I'm looking for some advice o"
+      },
+      {
+        "id": "6ce636e4-cb86-44e7-8c4b-98e8f2542934",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Netflix stand-up specials recommended for storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 5/31]\n(in reply to) User: As an aspiring stand-up comedian, I'm looking for some advice o"
+      },
+      {
+        "id": "ac78f8bf-9022-403b-aca4-beeb27193c4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice request: stand-up storytelling specials on Netflix",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 6/31]\n(in reply to) User: As an aspiring stand-up comedian, I'm looking for some advice o"
+      },
+      {
+        "id": "120faf90-43f8-4da0-a223-57a1136525f0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering recording comedy jokes for YouTube",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 7/31]\nUser: I've been thinking about recording a video of myself performing some of my jo"
+      },
+      {
+        "id": "f65ebbbc-26b3-4bc7-a15a-635946a1f603",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for setting up a home studio for comedy video recording",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 8/31]\n(in reply to) User: I've been thinking about recording a video of myself performing"
+      },
+      {
+        "id": "23c6df23-9462-4bb8-a030-97e9560926c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for setting up a home recording studio for comedy videos",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 9/31]\n(in reply to) User: I've been thinking about recording a video of myself performing"
+      },
+      {
+        "id": "d55cfc13-2997-4672-bfed-49d492186348",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for setting up a home recording studio for comedy videos",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 10/31]\n(in reply to) User: I've been thinking about recording a video of myself performin"
+      },
+      {
+        "id": "304f3895-3335-429e-8e25-e69fa6a487aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for home recording studio setup for comedy videos",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 11/31]\n(in reply to) User: I've been thinking about recording a video of myself performin"
+      },
+      {
+        "id": "49584034-a368-4c2e-9029-89cebd0f7ba1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for home recording studio for comedy videos",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 12/31]\n(in reply to) User: I've been thinking about recording a video of myself performin"
+      },
+      {
+        "id": "7ec1b53d-c232-4cf6-b21b-8745a27d0057",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for comedy writing and storytelling resources",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 13/31]\nUser: Can you recommend some online resources or books on comedy writing and story"
+      },
+      {
+        "id": "739ad1b1-1c7d-499b-8015-56c502a8c510",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comedy writing resources and book recommendations",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 14/31]\n(in reply to) User: Can you recommend some online resources or books on comedy wri"
+      },
+      {
+        "id": "4175651a-d3ec-4a2b-9955-e2952842d0df",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources/books for comedy writing and storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 15/31]\n(in reply to) User: Can you recommend some online resources or books on comedy wri"
+      },
+      {
+        "id": "29c48012-1003-4f66-a972-b41924740595",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources/books for comedy writing and storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 16/31]\n(in reply to) User: Can you recommend some online resources or books on comedy wri"
+      },
+      {
+        "id": "cca214f3-5dd8-4fd7-b71e-6ecef2fc5e69",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for comedy writing and storytelling",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 17/31]\n(in reply to) User: Can you recommend some online resources or books on comedy wri"
+      },
+      {
+        "id": "47d3de82-dd97-4242-9fce-272cdddc4f26",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend resources for comedian personal brand",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 18/31]\nUser: Can you recommend some online resources or books on building a personal bran"
+      },
+      {
+        "id": "763652e6-0137-41ac-8b63-359dbfa9e95f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommended resources for comedian personal branding",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 19/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "037632c2-df9d-4efa-bee2-393b9ac3f0fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for building a comedian personal brand online",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 20/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "ac2ec27e-b650-45df-9fa4-abed5bf92f7b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for building a comedian personal brand",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 21/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "15d8fa94-8cdf-4fbb-aad0-badb17cca61f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendation: personal brand for comedians",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 22/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "ee889744-b525-4db4-a5f3-494532444a6b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for comedians building a personal brand",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 23/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "23787fe6-379e-4b22-837d-7387ba731785",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for building a comedian personal brand",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 24/31]\n(in reply to) User: Can you recommend some online resources or books on building a"
+      },
+      {
+        "id": "f20b4368-8289-415a-a946-83b937a40472",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 25/31]\nUser: I'm thinking of attending a comedy writing workshop at a local writing cente"
+      },
+      {
+        "id": "678f31cf-3a04-4b04-b5c3-13d130552e26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about attending a comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 26/31]\n(in reply to) User: I'm thinking of attending a comedy writing workshop at a local"
+      },
+      {
+        "id": "ab28e358-180f-4ee4-a55e-5787fe2de1dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of attending a comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 27/31]\n(in reply to) User: I'm thinking of attending a comedy writing workshop at a local"
+      },
+      {
+        "id": "d9d510cb-0beb-4417-beee-9c98723001f4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for attending a comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 28/31]\n(in reply to) User: I'm thinking of attending a comedy writing workshop at a local"
+      },
+      {
+        "id": "5de860d5-9653-428d-b651-02e123473f57",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Attending comedy writing workshop on Friday",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 29/31]\nUser: I'm going to attend the comedy writing workshop on Friday. I'm looking forwa"
+      },
+      {
+        "id": "b345d06e-5462-408d-b014-f25139cf5f73",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to attend comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 30/31]\n(in reply to) User: I'm going to attend the comedy writing workshop on Friday. I'm"
+      },
+      {
+        "id": "ea7c1b65-46fc-4d56-bbcf-0f5dd9f82a93",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to attend comedy writing workshop",
+        "text": "[date: 2023-05-29T04:39:00+00:00 | context: Session 8ad4b2008170 - happened on 2023-05-29 04:39:00 UTC. | turn 31/31]\n(in reply to) User: I'm going to attend the comedy writing workshop on Friday. I'm"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101866,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25466)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 27738,
+    "prompt_tokens": 24997,
+    "completion_tokens": 969,
+    "reasoning_tokens": 1772,
+    "generate_time_ms": 23034.886392997578,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22852,
+        "completion_tokens": 152,
+        "reasoning_tokens": 878,
+        "total_tokens": 23882
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 615,
+        "completion_tokens": 251,
+        "reasoning_tokens": 297,
+        "total_tokens": 1163
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 423,
+        "completion_tokens": 243,
+        "reasoning_tokens": 317,
+        "total_tokens": 983
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1107,
+        "completion_tokens": 323,
+        "reasoning_tokens": 280,
+        "total_tokens": 1710
+      }
+    ]
+  },
+  "failure_label": null
+}

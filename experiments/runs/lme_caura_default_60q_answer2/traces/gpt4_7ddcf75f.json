@@ -1,0 +1,1339 @@
+{
+  "question_id": "gpt4_7ddcf75f",
+  "question_type": "temporal-reasoning",
+  "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+  "gold_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+  "prediction": "You went on your whitewater rafting trip 3 days ago (on June 17, 2023).",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 869,
+    "by_type": {
+      "decision": 4,
+      "episode": 252,
+      "fact": 386,
+      "task": 48,
+      "action": 4,
+      "preference": 163,
+      "plan": 12
+    },
+    "by_status": {
+      "active": 856,
+      "conflicted": 13
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2557467,
+    "output_tokens": 123398,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?"
+    ],
+    "retrieve_time_ms": 543.3493930613622,
+    "candidates": 151,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "b8cfbc38-cc3a-4367-a194-63a6acf982bf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create efficient daily schedule with new work hours",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 1/16]\nUser: I'm looking to plan out my day more efficiently. Can you help me create a dai"
+      },
+      {
+        "id": "468a5546-c36f-4144-8d02-6beab64b2a01",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant requested details to build a daily schedule",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 2/16]\n(in reply to) User: I'm looking to plan out my day more efficiently. Can you help m"
+      },
+      {
+        "id": "f6ebd93a-8e37-4527-ab61-6cee20db45ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for an efficient daily schedule",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 3/16]\n(in reply to) User: I'm looking to plan out my day more efficiently. Can you help m"
+      },
+      {
+        "id": "a42dd9ce-0206-4d11-a47c-b28888428bab",
+        "score": 0.3325,
+        "memory_type": "preference",
+        "title": "Work hours and morning/lunch routines",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 4/16]\nUser: My new work hours are 8:00 am to 4:30 pm, fixed. My morning routine typically"
+      },
+      {
+        "id": "ebf32e05-f329-4b58-ada1-917a38df170a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User work hours and morning routine (sample schedule)",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 5/16]\n(in reply to) User: My new work hours are 8:00 am to 4:30 pm, fixed. My morning rou"
+      },
+      {
+        "id": "a0efb11d-206a-401e-91ae-88e4ac7fedbe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User work hours and morning routine schedule (8:00\u20134:30)",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 6/16]\n(in reply to) User: My new work hours are 8:00 am to 4:30 pm, fixed. My morning rou"
+      },
+      {
+        "id": "aa06857c-a829-4c29-b9f0-34e81dd0a2bf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User work hours and morning routine preferences",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 7/16]\n(in reply to) User: My new work hours are 8:00 am to 4:30 pm, fixed. My morning rou"
+      },
+      {
+        "id": "0a054654-428c-467f-9c92-03a31f461bd8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help incorporate hourly breaks and task prioritization into afternoon routine",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 8/16]\nUser: What about my afternoon routine? Can you help me incorporate my hourly breaks"
+      },
+      {
+        "id": "73b5df84-9d1b-464a-9985-7023ea4482a3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests workday blocks for hourly breaks and prioritization",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 9/16]\n(in reply to) User: What about my afternoon routine? Can you help me incorporate my"
+      },
+      {
+        "id": "d00b4ff3-01ad-4266-9eaa-b97d141d0792",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hourly work schedule with breaks (8:00\u20134:30)",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 10/16]\n(in reply to) User: What about my afternoon routine? Can you help me incorporate m"
+      },
+      {
+        "id": "6b5b3ff3-7e0e-41c6-a9a7-c0ee542de58f",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Afternoon routine schedule with hourly breaks and task prioritization",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 11/16]\n(in reply to) User: What about my afternoon routine? Can you help me incorporate m"
+      },
+      {
+        "id": "de6b8ead-85ce-4055-b52d-c167d7a58ab4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User questions 5:30\u20136:00 block for personal tasks",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 12/16]\nUser: I like the revised schedule, but I'm not sure about the 5:30 pm - 6:00 pm bl"
+      },
+      {
+        "id": "b0c7002f-0bff-433f-86b0-68a00abfb6b0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggest 30-minute exercise routines",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 13/16]\nUser: Can you suggest some exercise routines that I can do within a 30-minute time"
+      },
+      {
+        "id": "ac246f6e-1d0d-4a08-b9c6-69354a3936fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "30-minute exercise routine suggestions",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 14/16]\n(in reply to) User: Can you suggest some exercise routines that I can do within a "
+      },
+      {
+        "id": "790795c5-7af8-42f5-9de4-aa26e07a1a90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "30-minute exercise routine options (yoga flow, HIIT)",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 15/16]\n(in reply to) User: Can you suggest some exercise routines that I can do within a "
+      },
+      {
+        "id": "cc200ee7-3ae7-4211-b4d3-1acfd541238f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers brisk walking as an easy exercise option",
+        "text": "[date: 2023-05-19T15:32:00+00:00 | context: Session 6b95f21a541d - happened on 2023-05-19 15:32:00 UTC. | turn 16/16]\nUser: I think I'll try the brisk walking option for now. It's something I'm comfor"
+      },
+      {
+        "id": "b4e887d4-2249-474e-ba02-bf3a2c5e1fd3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planning a Miami trip and seeking recommendations",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 1/32]\nUser: I'm planning a trip to Miami and I'm looking for some travel recommendations."
+      },
+      {
+        "id": "71dc2eeb-f2ef-4189-88e0-d533a76c73d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided Miami travel recommendations",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 2/32]\n(in reply to) User: I'm planning a trip to Miami and I'm looking for some travel re"
+      },
+      {
+        "id": "25b991f0-a147-416a-a69d-f35f4d89f4bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Miami travel recommendations: Wynwood, Design District, Little Havana, South Bea",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 3/32]\n(in reply to) User: I'm planning a trip to Miami and I'm looking for some travel re"
+      },
+      {
+        "id": "a68c53ee-20e4-490d-aeb7-e2738a4a130a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Miami travel recommendations (Everglades, Vizcaya, food spots)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 4/32]\n(in reply to) User: I'm planning a trip to Miami and I'm looking for some travel re"
+      },
+      {
+        "id": "356b1119-9f50-48ae-af31-7d4fd4b95a2b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Miami travel recommendations (happy hour, beyond South Beach)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 5/32]\n(in reply to) User: I'm planning a trip to Miami and I'm looking for some travel re"
+      },
+      {
+        "id": "adaf55a9-b1c1-4ba4-be3a-aeed469df36a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Hotel near MIA airport with shuttle for early flight",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 6/32]\nUser: I'm looking to stay in a hotel near the airport since I have an early morning"
+      },
+      {
+        "id": "8acbe3b1-0a4e-438a-ab29-2e76afbe9a83",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hotel recommendations near MIA with airport shuttle",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 7/32]\n(in reply to) User: I'm looking to stay in a hotel near the airport since I have an"
+      },
+      {
+        "id": "a9edf264-31a1-4134-b05d-14ab3a2a011b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Airport hotel recommendations near MIA with shuttle service",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 8/32]\n(in reply to) User: I'm looking to stay in a hotel near the airport since I have an"
+      },
+      {
+        "id": "06ac5fbc-ee43-4b55-a688-97e5f8752751",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hotel recommendation near MIA with shuttle service",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 9/32]\n(in reply to) User: I'm looking to stay in a hotel near the airport since I have an"
+      },
+      {
+        "id": "7a4ffd5e-f09e-40a6-b254-a9879f5ff66b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hotel shuttle request near MIA airport (2023-06-01)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 10/32]\n(in reply to) User: I'm looking to stay in a hotel near the airport since I have a"
+      },
+      {
+        "id": "2074671f-3701-4be4-9932-2da047218648",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend Miami airport car rentals for one-day exploration",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 11/32]\nUser: I'm planning to rent a car for a day to explore the surrounding areas of Mia"
+      },
+      {
+        "id": "eff17e63-ba1d-4b76-9c4b-ed18a204109d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided Miami airport car rental recommendations",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 12/32]\n(in reply to) User: I'm planning to rent a car for a day to explore the surroundin"
+      },
+      {
+        "id": "fb3ccb77-97c6-456d-828f-d6dfbd1b0667",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Miami airport car rental options (Alamo, Enterprise, National)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 13/32]\n(in reply to) User: I'm planning to rent a car for a day to explore the surroundin"
+      },
+      {
+        "id": "5e6147ff-eb0d-45f6-bddf-6394ae05091c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Miami airport car rentals: Hertz, Avis, Budget (inside MIA RCC)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 14/32]\n(in reply to) User: I'm planning to rent a car for a day to explore the surroundin"
+      },
+      {
+        "id": "99296258-03c1-4e63-ab12-a736b8381d79",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance for renting a car near Miami airport",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 15/32]\n(in reply to) User: I'm planning to rent a car for a day to explore the surroundin"
+      },
+      {
+        "id": "14a4205e-d71a-4b89-93db-099df20c750e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering SUV rental for a Miami day trip",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 16/32]\nUser: I've had some experience with car rentals, considering I've taken 2 personal"
+      },
+      {
+        "id": "4f15af32-86b3-4b83-8544-e2f5bc4a2a37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for SUV rental recommendations in Miami",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 17/32]\n(in reply to) User: I've had some experience with car rentals, considering I've ta"
+      },
+      {
+        "id": "f13a078f-8939-440f-a903-52c18d289f93",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SUV rental recommendations for exploring Miami",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 18/32]\n(in reply to) User: I've had some experience with car rentals, considering I've ta"
+      },
+      {
+        "id": "aa2e89a9-8daf-4a18-a7fc-34a3ddfab999",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Nissan Rogue recommended as practical Miami SUV option",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 19/32]\n(in reply to) User: I've had some experience with car rentals, considering I've ta"
+      },
+      {
+        "id": "5f72b9a5-65f5-46f2-9436-95aaec97c838",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SUV rental recommendations for exploring Miami",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 20/32]\n(in reply to) User: I've had some experience with car rentals, considering I've ta"
+      },
+      {
+        "id": "139abbff-0ea4-4c59-bd18-060a8b339daf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Car rental guidance for Miami day trip",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 21/32]\n(in reply to) User: I've had some experience with car rentals, considering I've ta"
+      },
+      {
+        "id": "d65ede3d-e75f-46c1-82b9-a8623ce6c001",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend Everglades day-trip route or guided tour",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 22/32]\nUser: I'm thinking of visiting the Everglades National Park during my day trip. Ca"
+      },
+      {
+        "id": "9cda2f3a-e9cf-4d05-b396-8bf8fbc16f49",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades day-trip route/tour recommendation (partial)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 23/32]\n(in reply to) User: I'm thinking of visiting the Everglades National Park during m"
+      },
+      {
+        "id": "78f99007-7ff6-495c-87e1-ed880ca8cf46",
+        "score": 0.3437,
+        "memory_type": "fact",
+        "title": "Everglades day-trip highlights route (Shark Valley, Gumbo Limbo, Alligator Farm)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 24/32]\n(in reply to) User: I'm thinking of visiting the Everglades National Park during m"
+      },
+      {
+        "id": "485b76ea-7679-4634-bba0-811806e2bc67",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades day-trip highlight: Anhinga Trail",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 25/32]\n(in reply to) User: I'm thinking of visiting the Everglades National Park during m"
+      },
+      {
+        "id": "0e9d81ec-48fc-4566-960d-0cc0ad76e2cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades day-trip guided tour recommendations",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 26/32]\n(in reply to) User: I'm thinking of visiting the Everglades National Park during m"
+      },
+      {
+        "id": "b11660b3-a811-42f6-81e5-9df899ec02ce",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Everglades day-trip route and tour guidance",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 27/32]\n(in reply to) User: I'm thinking of visiting the Everglades National Park during m"
+      },
+      {
+        "id": "56883f76-ad3d-4808-89ff-96825074ca4b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers booking Everglades guided tour",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 28/32]\nUser: I think I'll book the Everglades National Park Guided Tour. It seems like th"
+      },
+      {
+        "id": "820bb8a0-9007-4634-ad1e-66709088a365",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades guided tour details (4 hours, Shark Valley Visitor Center)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 29/32]\n(in reply to) User: I think I'll book the Everglades National Park Guided Tour. It"
+      },
+      {
+        "id": "4c277225-2590-4732-b680-8c81d750fe39",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades guided tour itinerary highlights (Shark Valley, trails)",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 30/32]\n(in reply to) User: I think I'll book the Everglades National Park Guided Tour. It"
+      },
+      {
+        "id": "9c938e50-146d-4802-a559-4e7d100a809e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Everglades guided tour: what to bring and tips",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 31/32]\n(in reply to) User: I think I'll book the Everglades National Park Guided Tour. It"
+      },
+      {
+        "id": "eb78793d-5bcf-487b-96c2-15e0ba40af65",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Everglades guided tour booking discussion",
+        "text": "[date: 2023-06-01T20:13:00+00:00 | context: Session 461362adcff2 - happened on 2023-06-01 20:13:00 UTC. | turn 32/32]\n(in reply to) User: I think I'll book the Everglades National Park Guided Tour. It"
+      },
+      {
+        "id": "3cd60c36-8c09-41ea-be87-62c1a21ed7ec",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ghost story request with campfire setting and 6 survivors",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 1/14]\nUser: Write me a ghost story in a sit around the campfire setting. Make it have an "
+      },
+      {
+        "id": "0a64b292-030d-4094-9f76-ffc071f2268f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campfire ghost story draft (6 campers)",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 2/14]\n(in reply to) User: Write me a ghost story in a sit around the campfire setting. Ma"
+      },
+      {
+        "id": "609e6a20-4be5-445d-9a68-6053ffc2879f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campfire ghost story: all 6 survive and leave the woods",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 3/14]\n(in reply to) User: Write me a ghost story in a sit around the campfire setting. Ma"
+      },
+      {
+        "id": "633acbb5-6e90-4722-82a1-ce60d9c9299f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Add ghost stalking/near-kill details to story",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 4/14]\nUser: Add more details to the story like the ghost chasing/haunting the members. St"
+      },
+      {
+        "id": "2b533ae7-fc01-4df2-ac9a-a0a3d9d22f26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers nearly killed by ghost in horror story",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 5/14]\n(in reply to) User: Add more details to the story like the ghost chasing/haunting t"
+      },
+      {
+        "id": "38a1b58f-b9a3-4f1e-91ea-d903994350af",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers fend off a ghost in haunted woods",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 6/14]\n(in reply to) User: Add more details to the story like the ghost chasing/haunting t"
+      },
+      {
+        "id": "7171e581-5e67-41c6-b0bf-8285bf6ee4ef",
+        "score": 0.3497,
+        "memory_type": "task",
+        "title": "Add rope bridge scene where it snaps",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 7/14]\nUser: add a scene where the campers are running away from the ghost and come across"
+      },
+      {
+        "id": "ad1a6d30-597f-4708-8c86-41a6d4a9d648",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers escape ghost; rope bridge snaps over water",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 8/14]\n(in reply to) User: add a scene where the campers are running away from the ghost a"
+      },
+      {
+        "id": "6b374fbd-d95b-497b-9865-7c02f9d61818",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers escape ghost after rope bridge snaps",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 9/14]\n(in reply to) User: add a scene where the campers are running away from the ghost a"
+      },
+      {
+        "id": "5ff45588-ca80-4a83-9fa9-836573c22d49",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft ~1000-word suspense story for ghost campgrounds",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 10/14]\nUser: Take the previous responses and combine them into a full story with an intro"
+      },
+      {
+        "id": "20635935-a0e3-4933-8df2-420975d5aa85",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Camping trip story: ghost introduced at campsite",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 11/14]\n(in reply to) User: Take the previous responses and combine them into a full story"
+      },
+      {
+        "id": "73cd9ac1-e3d8-4b12-be09-00cf25b49452",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers encounter ghost and rope bridge collapse",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 12/14]\n(in reply to) User: Take the previous responses and combine them into a full story"
+      },
+      {
+        "id": "6d320ac4-4ec8-46bc-80a0-5261a4bb6dc3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Campers survive bridge destruction while escaping a ghost",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 13/14]\n(in reply to) User: Take the previous responses and combine them into a full story"
+      },
+      {
+        "id": "cdb13498-7017-4b2f-a2c8-eb896d44193b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Characters escape haunted woods after ghost encounter",
+        "text": "[date: 2023-06-12T02:11:00+00:00 | context: Session c45974ced7cc - happened on 2023-06-12 02:11:00 UTC. | turn 14/14]\n(in reply to) User: Take the previous responses and combine them into a full story"
+      },
+      {
+        "id": "d45456ce-0dae-421e-9c89-b620b32f57bf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request to generate next-week workout schedule",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 1/26]\nUser: I'm trying to plan out my workout routine for the next week. Can you help me "
+      },
+      {
+        "id": "bfb8db0c-b188-43cf-b79d-cc44ef33e984",
+        "score": 0.3384,
+        "memory_type": "preference",
+        "title": "Workout routine preferences and goals",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 2/26]\nUser: I want to work out 5 days a week, with 2 rest days on the weekend. My goals a"
+      },
+      {
+        "id": "ffceb913-eb13-45a8-87b8-f93b51786715",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Sample 5-day/week workout schedule (yoga, jogging, strength)",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 3/26]\n(in reply to) User: I want to work out 5 days a week, with 2 rest days on the weeke"
+      },
+      {
+        "id": "14524b3d-b142-4249-ba27-cb8679f85f3c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "5-day/week workout preference with weekend rest",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 4/26]\n(in reply to) User: I want to work out 5 days a week, with 2 rest days on the weeke"
+      },
+      {
+        "id": "f88d6a2a-6b61-4b81-8c60-50b5c666070f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User provided next response (session context)",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 5/26]\nUser: Here is the next response from the user's perspective:"
+      },
+      {
+        "id": "6106d25b-70e0-4781-ba51-283746c1746d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports consistent exercise and asks for tracking tips",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 6/26]\n(in reply to) User: Here is the next response from the user's perspective:\n\nI'm goo"
+      },
+      {
+        "id": "ab40bba5-e040-4844-84bd-71d919a0e7af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General fitness tracking suggestions",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 7/26]\n(in reply to) User: Here is the next response from the user's perspective:\n\n1. **Wo"
+      },
+      {
+        "id": "567c54e6-e936-4d28-b60f-f78b9dd9a2af",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitness motivation tips (SMART goals, variety, accountability)",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 8/26]\n(in reply to) User: Here is the next response from the user's perspective:\n\n1. **Se"
+      },
+      {
+        "id": "22814b00-4797-48ca-bbc9-7242f78b3346",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness encouragement message (routine and consistency)",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 9/26]\n(in reply to) User: Here is the next response from the user's perspective:\n\nRemembe"
+      },
+      {
+        "id": "3802623f-550a-4f4b-a991-50cab782c5fe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants upper-body strength routine with goal/reward approach",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 10/26]\nUser: Yeah, those are great tips! I've been using a fitness app to track my progre"
+      },
+      {
+        "id": "ae2af427-c145-4ca1-b60f-3190ddbf1601",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided upper body exercise suggestions in fitness app chat",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 11/26]\n(in reply to) User: Yeah, those are great tips! I've been using a fitness app to t"
+      },
+      {
+        "id": "5c88b953-ccb9-4d76-a049-36c3e71a2ba9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Workout exercise suggestions for back, shoulders, arms",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 12/26]\n(in reply to) User: Yeah, those are great tips! I've been using a fitness app to t"
+      },
+      {
+        "id": "7714f095-8ad6-419f-ba00-6a65e35bd201",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitness app goals and bodyweight/dumbbell exercise suggestions",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 13/26]\n(in reply to) User: Yeah, those are great tips! I've been using a fitness app to t"
+      },
+      {
+        "id": "3281febb-4429-4803-b005-df77e44b96bc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes goal-setting and rewards in fitness tracking",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 14/26]\n(in reply to) User: Yeah, those are great tips! I've been using a fitness app to t"
+      },
+      {
+        "id": "5c03f0cf-ee9f-4f37-bfc5-59c273bb4804",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants new back/shoulder exercises and correct form tips",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 15/26]\nUser: I've been doing push-ups and pull-ups, but I want to try some new exercises "
+      },
+      {
+        "id": "73533339-78be-4936-8815-9fc9128fa9d2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for bent-over rows and lateral raises form",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 16/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "6ceee061-912f-4eb5-8597-4334a95410fd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for bent-over rows and lateral raises form",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 17/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "7299c4c9-48df-437e-96b3-ebef5b050825",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips: lower weight slowly during bent-over rows/lateral raises",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 18/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "523ad6e2-14ff-4a23-95ac-d728b72855aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for bent-over rows and lateral raises form",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 19/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "c5c3ce33-0993-44c2-9e0e-086907f19f84",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for bent-over rows and lateral raises form",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 20/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "9da51936-e443-4c35-ad37-f8ee64a56314",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Exercise tips: bent-over rows & lateral raises form guidance",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 21/26]\n(in reply to) User: I've been doing push-ups and pull-ups, but I want to try some "
+      },
+      {
+        "id": "0876b7c3-fd85-4657-8cab-5fd58ece9058",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants balanced workout routine advice",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 22/26]\nUser: I think I understand the form for bent-over rows and lateral raises now. Tha"
+      },
+      {
+        "id": "3d829bdf-3551-409d-b28d-200b6ddb64c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on creating a balanced workout routine",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 23/26]\n(in reply to) User: I think I understand the form for bent-over rows and lateral r"
+      },
+      {
+        "id": "51cf5d11-5d74-4318-819f-2c651ccdd7a6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "General guidance for balanced workout routine",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 24/26]\n(in reply to) User: I think I understand the form for bent-over rows and lateral r"
+      },
+      {
+        "id": "4c9a5220-5484-4532-a5a7-8998f7d70c18",
+        "score": null,
+        "memory_type": "preference",
+        "title": "General guidance for balanced workout routines",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 25/26]\n(in reply to) User: I think I understand the form for bent-over rows and lateral r"
+      },
+      {
+        "id": "33efd4c9-97b2-4f64-88b0-dc3fe6460e54",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example balanced 4-day workout routine (major muscle groups)",
+        "text": "[date: 2023-06-17T01:00:00+00:00 | context: Session f64d019375cb - happened on 2023-06-17 01:00:00 UTC. | turn 26/26]\n(in reply to) User: I think I understand the form for bent-over rows and lateral r"
+      },
+      {
+        "id": "b123af12-bc59-47fb-8a58-f97b68226b4a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request waterproof camera recommendations",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 1/27]\nUser: I'm looking for some recommendations on waterproof cameras for my next outdoo"
+      },
+      {
+        "id": "48542293-c0f6-4392-bb99-c9d21cfcbdb3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User sought waterproof camera recommendations after rafting trip",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some recommendations on waterproof cameras for "
+      },
+      {
+        "id": "5b273601-b630-4c60-9595-9532e8db118a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Waterproof camera recommendations and depth ratings",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some recommendations on waterproof cameras for "
+      },
+      {
+        "id": "8720a2b6-e4fb-4620-920a-b162835f662b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ricoh WG-60 waterproof camera specs",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some recommendations on waterproof cameras for "
+      },
+      {
+        "id": "7756c92e-a5fd-47ee-96ee-852218a55fc0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for choosing a waterproof camera",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 5/27]\n(in reply to) User: I'm looking for some recommendations on waterproof cameras for "
+      },
+      {
+        "id": "e264673e-eddc-4ef2-aefe-39059d11ca85",
+        "score": 0.4341,
+        "memory_type": "episode",
+        "title": "User asked for waterproof camera recommendations after rafting trip",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 6/27]\n(in reply to) User: I'm looking for some recommendations on waterproof cameras for "
+      },
+      {
+        "id": "7cacb25c-1f16-4842-81ea-c7f2a5bf0179",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User asks about GoPro Hero8 Black stabilization for rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 7/27]\nUser: I'm particularly interested in the GoPro Hero8 Black, as I've heard great thi"
+      },
+      {
+        "id": "4b592614-1505-40b8-ac65-0acce008ad20",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black stabilization: HyperSmooth 2.0",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 8/27]\n(in reply to) User: I'm particularly interested in the GoPro Hero8 Black, as I've h"
+      },
+      {
+        "id": "080774b1-180a-43b0-b533-ff43e00c7855",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black HyperSmooth 2.0 stabilization features",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 9/27]\n(in reply to) User: I'm particularly interested in the GoPro Hero8 Black, as I've h"
+      },
+      {
+        "id": "e00f2a30-7c2f-4eb9-ae80-1600cfeba6ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black HyperSmooth 2.0 stabilization for whitewater rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 10/27]\n(in reply to) User: I'm particularly interested in the GoPro Hero8 Black, as I've "
+      },
+      {
+        "id": "46590de1-4cb5-40df-9e49-7bf67f0196a1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: Hero8 Black for whitewater rafting photos vs video",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 11/27]\nUser: Can I use the Hero8 Black to capture photos during whitewater rafting as wel"
+      },
+      {
+        "id": "44110606-3ebc-4660-aacf-a41cfa2c3219",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black supports still photos for whitewater rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 12/27]\n(in reply to) User: Can I use the Hero8 Black to capture photos during whitewater "
+      },
+      {
+        "id": "8d007d44-eddd-4fdf-b60a-31bafc61d529",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black photo features for rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 13/27]\n(in reply to) User: Can I use the Hero8 Black to capture photos during whitewater "
+      },
+      {
+        "id": "1a4481b4-9231-447d-9a94-8b1d2c9e7191",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for using Hero8 Black for still photos while rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 14/27]\n(in reply to) User: Can I use the Hero8 Black to capture photos during whitewater "
+      },
+      {
+        "id": "461a9615-b804-4357-9800-509c7be6d78e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hero8 Black suitable for photos and video during rafting",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 15/27]\n(in reply to) User: Can I use the Hero8 Black to capture photos during whitewater "
+      },
+      {
+        "id": "714eb6cd-6c26-4b19-b6a6-c33bcca85874",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User asks about Hero8 Black battery life for rafting/camping",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 16/27]\nUser: I'm curious about the battery life of the Hero8 Black. How long can I expect"
+      },
+      {
+        "id": "46266c4a-806a-4add-bef0-6d945d700b71",
+        "score": null,
+        "memory_type": "fact",
+        "title": "GoPro Hero8 Black battery life factors and usage considerations",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 17/27]\n(in reply to) User: I'm curious about the battery life of the Hero8 Black. How lon"
+      },
+      {
+        "id": "828deea4-6d1f-4eb1-a4f4-5fbd7edcbaee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hero8 Black battery life estimates for rafting/camping",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 18/27]\n(in reply to) User: I'm curious about the battery life of the Hero8 Black. How lon"
+      },
+      {
+        "id": "b61048e2-12ef-469a-a496-07d11d7bf8e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to maximize GoPro Hero8 Black battery life",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 19/27]\n(in reply to) User: I'm curious about the battery life of the Hero8 Black. How lon"
+      },
+      {
+        "id": "d495dc95-2b99-4230-98e9-9b557c7bada1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about 10,000mAh power bank for Hero8 Black",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 20/27]\nUser: I'm planning to bring a portable power bank to keep my devices charged durin"
+      },
+      {
+        "id": "1490bc35-e8e1-47ce-964e-1a272af6c3ff",
+        "score": null,
+        "memory_type": "fact",
+        "title": "10,000mAh power bank likely charges Hero8 Black 6\u20138 times",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 21/27]\n(in reply to) User: I'm planning to bring a portable power bank to keep my devices"
+      },
+      {
+        "id": "a1b3a579-2b77-4768-9a4d-1c7e889fcf87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "10,000mAh power bank likely sufficient for GoPro Hero8 Black",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 22/27]\n(in reply to) User: I'm planning to bring a portable power bank to keep my devices"
+      },
+      {
+        "id": "91704e1f-75a3-4447-bd29-7a6749a8d1fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Camping trip advice on packing power bank and accessories",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 23/27]\n(in reply to) User: I'm planning to bring a portable power bank to keep my devices"
+      },
+      {
+        "id": "a54b4559-db71-44a0-83b1-99f59a69fb57",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about sufficiency of 7W solar charger for 10,000mAh power bank",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 24/27]\nUser: I'm planning to bring a solar charger to keep my power bank charged during t"
+      },
+      {
+        "id": "b9be1923-4510-4d8e-a2f7-3715caeed44e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimate: 7W solar charger for 10,000mAh power bank",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 25/27]\n(in reply to) User: I'm planning to bring a solar charger to keep my power bank ch"
+      },
+      {
+        "id": "dc6be811-9766-4108-8493-9b419e92027b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimate: 7W solar charger charges 10,000mAh power bank in 6-8h",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 26/27]\n(in reply to) User: I'm planning to bring a solar charger to keep my power bank ch"
+      },
+      {
+        "id": "786a0a55-594e-4a82-a8e5-f5ba3344b3b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "7W solar charger likely sufficient for 10,000mAh power bank",
+        "text": "[date: 2023-06-17T17:34:00+00:00 | context: Session 073339a836a6 - happened on 2023-06-17 17:34:00 UTC. | turn 27/27]\n(in reply to) User: I'm planning to bring a solar charger to keep my power bank ch"
+      },
+      {
+        "id": "578961af-acb1-4cc2-afa7-95c98b0f12f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Seventh Generation & Ecover sustainability and packaging claims",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 14/33]\n(in reply to) User: I'm really interested in the Seventh Generation and Ecover opt"
+      },
+      {
+        "id": "2d887acf-a874-42f8-91da-f14860d27e7e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants eco-friendly dish soap to reduce waste",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 15/33]\nUser: I'm glad to hear that both brands offer refill options and subscription serv"
+      },
+      {
+        "id": "91ef5acc-c25b-4386-9fd5-6bafb66a60f1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends eco-friendly dish soap brands",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 16/33]\n(in reply to) User: I'm glad to hear that both brands offer refill options and sub"
+      },
+      {
+        "id": "a6bc8496-8179-4900-9bd9-a5a6173f2fc0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dish soap brands with refill options and eco claims",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 17/33]\n(in reply to) User: I'm glad to hear that both brands offer refill options and sub"
+      },
+      {
+        "id": "dece7972-8c1c-4ae2-9ffe-31e5211c682e",
+        "score": 0.3156,
+        "memory_type": "fact",
+        "title": "Mrs. Meyer's Clean Day dish soap product claims",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 18/33]\n(in reply to) User: I'm glad to hear that both brands offer refill options and sub"
+      },
+      {
+        "id": "c8a2eb0d-d61d-4b7e-a9a8-5cb3dc8db283",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly dish soap brand suggestions and sustainability tips",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 19/33]\n(in reply to) User: I'm glad to hear that both brands offer refill options and sub"
+      },
+      {
+        "id": "2e6f909d-d3d5-40c0-8aa2-d159fff1ffe7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks eco-friendly, gentle makeup removers/cleansers",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 20/33]\nUser: I've been using reusable cotton rounds for removing makeup instead of dispos"
+      },
+      {
+        "id": "4d1c4438-c69e-4359-88b6-f64f88b695b0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about switching to reusable cotton rounds",
+        "text": "[date: 2023-06-17T20:19:00+00:00 | context: Session ec07b9ce4299 - happened on 2023-06-17 20:19:00 UTC. | turn 21/33]\n(in reply to) User: I've been using reusable cotton rounds for removing makeup ins"
+      },
+      {
+        "id": "6dd039f6-8bb1-4997-864b-5c4832605e6e",
+        "score": 0.3128,
+        "memory_type": "episode",
+        "title": "Commute cost setback after missing train",
+        "text": "[date: 2023-06-17T20:56:00+00:00 | context: Session c14439518b15 - happened on 2023-06-17 20:56:00 UTC. | turn 1/16]\nUser: I'm trying to find ways to reduce my daily commute expenses. I've been tracki"
+      },
+      {
+        "id": "f3a83129-7e52-42cb-8a70-ed507a53596e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User seeks ways to reduce commute costs after missed train",
+        "text": "[date: 2023-06-17T20:56:00+00:00 | context: Session c14439518b15 - happened on 2023-06-17 20:56:00 UTC. | turn 2/16]\n(in reply to) User: I'm trying to find ways to reduce my daily commute expenses. I'"
+      },
+      {
+        "id": "0ca8077f-df0a-4c9c-8d96-ec76d3697e50",
+        "score": 0.352,
+        "memory_type": "episode",
+        "title": "Post-Hawaii trip: meal prep ideas after first marathon",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 1/29]\nUser: I just got back from a week-long trip to Hawaii and I'm feeling refreshed. I'"
+      },
+      {
+        "id": "24c90d90-560a-42d1-baae-6ae48b7f41ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Post-marathon meal prep ideas after Hawaii trip",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 2/29]\n(in reply to) User: I just got back from a week-long trip to Hawaii and I'm feeling"
+      },
+      {
+        "id": "d1bf283d-342e-4e1f-967e-7fe0e7ebec35",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared post-trip healthy meal prep ideas request",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 3/29]\n(in reply to) User: I just got back from a week-long trip to Hawaii and I'm feeling"
+      },
+      {
+        "id": "4ad69160-ab6f-4610-83c8-a280ea99fe37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares post-Hawaii meal prep and fitness context",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 4/29]\n(in reply to) User: I just got back from a week-long trip to Hawaii and I'm feeling"
+      },
+      {
+        "id": "8156824c-8945-416a-95d2-d583b90c701b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering yoga for digestion and less bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 5/29]\nUser: I'm thinking of incorporating yoga into my meal prep routine, as it has been "
+      },
+      {
+        "id": "5429f628-b8ef-463a-b028-eb83b4e6c264",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yoga advice for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 6/29]\n(in reply to) User: I'm thinking of incorporating yoga into my meal prep routine, a"
+      },
+      {
+        "id": "3af2ad48-3b83-437e-ac29-91f0cbdd75e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga poses suggested for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 7/29]\n(in reply to) User: I'm thinking of incorporating yoga into my meal prep routine, a"
+      },
+      {
+        "id": "57d9c325-7eb4-4edd-843f-3d38f2b19f9d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga poses for digestion and bloating (Child's Pose)",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 8/29]\n(in reply to) User: I'm thinking of incorporating yoga into my meal prep routine, a"
+      },
+      {
+        "id": "f574fbb3-46ad-4391-9b4a-027c651c74f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga tips for digestion and reducing bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 9/29]\n(in reply to) User: I'm thinking of incorporating yoga into my meal prep routine, a"
+      },
+      {
+        "id": "1445945b-bc76-4b33-97c0-20c28b5493e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga poses suggested for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 10/29]\n(in reply to) User: I'm thinking of incorporating yoga into my meal prep routine, "
+      },
+      {
+        "id": "66d5cf6a-a6a9-4e9e-85bd-4d681c57cb7e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try digestive-friendly yoga poses",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 11/29]\nUser: I'm glad you mentioned these poses, I'll definitely give them a try. I've be"
+      },
+      {
+        "id": "8452702e-9a72-4349-9aca-e0aa1d4bd583",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yoga advice for digestive health during 2023-06-17 chat",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 12/29]\n(in reply to) User: I'm glad you mentioned these poses, I'll definitely give them "
+      },
+      {
+        "id": "f817ebcc-351e-41d1-abf0-a3bcc27bb36f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga guidance for digestive-friendly practice",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 13/29]\n(in reply to) User: I'm glad you mentioned these poses, I'll definitely give them "
+      },
+      {
+        "id": "2f6c1f1f-8ab5-43d5-ac03-c667116d55b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga guidance for digestive-friendly poses",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 14/29]\n(in reply to) User: I'm glad you mentioned these poses, I'll definitely give them "
+      },
+      {
+        "id": "26cfee5f-1332-4b88-8b57-b343143cda77",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Essential oils for yoga digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 15/29]\nUser: I'm also thinking of using some essential oils to enhance my yoga practice a"
+      },
+      {
+        "id": "03cca500-1373-4af6-acc4-8e015dc50005",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yoga essential oils advice for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 16/29]\n(in reply to) User: I'm also thinking of using some essential oils to enhance my y"
+      },
+      {
+        "id": "dcf6bbab-19d1-4d79-a926-28c62942dadf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Essential oils suggested for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 17/29]\n(in reply to) User: I'm also thinking of using some essential oils to enhance my y"
+      },
+      {
+        "id": "486e0c61-b765-4e55-94f3-38c6e52e7ee0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frankincense oil suggested for digestion and bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 18/29]\n(in reply to) User: I'm also thinking of using some essential oils to enhance my y"
+      },
+      {
+        "id": "14378cb5-40b2-4951-9353-d39000386de6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Essential oils usage guidance for yoga and digestion",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 19/29]\n(in reply to) User: I'm also thinking of using some essential oils to enhance my y"
+      },
+      {
+        "id": "b68d32bc-0453-4b0f-ac7d-7b348a76b811",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Essential oils safety guidance for digestion/bloating",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 20/29]\n(in reply to) User: I'm also thinking of using some essential oils to enhance my y"
+      },
+      {
+        "id": "ebb356ec-2910-4bfb-9f5b-9bb91ed7533b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considers peppermint oil for yoga benefits",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 21/29]\nUser: I'm thinking of using peppermint oil during my yoga practice to help with di"
+      },
+      {
+        "id": "966dc2eb-2e73-443c-98c1-f093122cc4e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Peppermint oil benefits for digestion and mental focus (science-backed claims)",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 22/29]\n(in reply to) User: I'm thinking of using peppermint oil during my yoga practice t"
+      },
+      {
+        "id": "16debdca-997e-49bf-b326-9a18d71f68d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Peppermint oil claims for digestion and mental focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 23/29]\n(in reply to) User: I'm thinking of using peppermint oil during my yoga practice t"
+      },
+      {
+        "id": "9da3e5e6-1074-4127-bfa9-1bac52276c70",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Peppermint oil use methods for digestion and focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 24/29]\n(in reply to) User: I'm thinking of using peppermint oil during my yoga practice t"
+      },
+      {
+        "id": "b0d331f1-c4d9-4c6e-b1f2-51b376d60ede",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Peppermint oil may improve focus and digestion",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 25/29]\n(in reply to) User: I'm thinking of using peppermint oil during my yoga practice t"
+      },
+      {
+        "id": "a0486d36-8e2a-4493-81ab-23944ec9c81d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants to use peppermint oil for yoga digestion & focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 26/29]\nUser: I'm excited to try using peppermint oil during my yoga practice to improve m"
+      },
+      {
+        "id": "b46f2eaf-ce98-494c-a5e8-4ac1d4347559",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Peppermint oil advice for yoga digestion and focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 27/29]\n(in reply to) User: I'm excited to try using peppermint oil during my yoga practic"
+      },
+      {
+        "id": "8f5633cb-78c0-474d-ad3b-6aa6ae17ec66",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Supportive advice for yoga, digestion, and focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 28/29]\n(in reply to) User: I'm excited to try using peppermint oil during my yoga practic"
+      },
+      {
+        "id": "c57ebb99-df3e-4cc6-ade9-f47cf5f63b2a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about peppermint oil for yoga digestion and focus",
+        "text": "[date: 2023-06-17T22:07:00+00:00 | context: Session 93c15632ac01 - happened on 2023-06-17 22:07:00 UTC. | turn 29/29]\n(in reply to) User: I'm excited to try using peppermint oil during my yoga practic"
+      },
+      {
+        "id": "43e37532-882f-4c32-ae1c-a8233acfcf05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for healthy lunch ideas and mentions gym routine",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 1/23]\nUser: I'm planning my day and was wondering if you could suggest some healthy lunch"
+      },
+      {
+        "id": "c33c4068-88aa-416e-8b94-9f71390dfa4a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for healthy energy-boost lunch options",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 2/23]\n(in reply to) User: I'm planning my day and was wondering if you could suggest some"
+      },
+      {
+        "id": "7b5f6cc2-774a-406c-8ff2-2c7e65e83187",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy lunch options for energy boost",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 3/23]\n(in reply to) User: I'm planning my day and was wondering if you could suggest some"
+      },
+      {
+        "id": "671fd662-1041-4e1c-bb56-a970510a3c5c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy lunch options with energy-boosting ingredients",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 4/23]\n(in reply to) User: I'm planning my day and was wondering if you could suggest some"
+      },
+      {
+        "id": "3ff4e7fb-7d3b-4d8f-8761-2e77b6757d18",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested healthy lunch options and hydration tips",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 5/23]\n(in reply to) User: I'm planning my day and was wondering if you could suggest some"
+      },
+      {
+        "id": "3461db61-e633-44ac-8d67-0d9b8076243f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants simple, healthy recipes to cook this weekend",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 6/23]\nUser: I'm also considering to cook a new dish this weekend, do you have any simple "
+      },
+      {
+        "id": "2b833e84-08e5-4596-858c-fed8c3fbe657",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided simple healthy recipe ideas (salmon & quinoa bowls)",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 7/23]\n(in reply to) User: I'm also considering to cook a new dish this weekend, do you ha"
+      },
+      {
+        "id": "80441135-4cf4-4b8f-b03a-287ee8df9742",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple healthy recipes: quinoa black bean veggie bowl & stuffed chicken",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 8/23]\n(in reply to) User: I'm also considering to cook a new dish this weekend, do you ha"
+      },
+      {
+        "id": "ed440217-bf82-4f11-8a3f-4e978d4af456",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple healthy chicken spinach feta and lentil soup recipes",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 9/23]\n(in reply to) User: I'm also considering to cook a new dish this weekend, do you ha"
+      },
+      {
+        "id": "eb8257a9-ef5b-4746-bd3f-0f24636fb95d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for simple healthy recipes",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 10/23]\n(in reply to) User: I'm also considering to cook a new dish this weekend, do you h"
+      },
+      {
+        "id": "a3b1168c-0bb2-4beb-9e83-a923d8958f78",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans baked salmon recipe and wakes at 7:30am",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 11/23]\nUser: I think I'll try out the Baked Salmon with Roasted Vegetables recipe this we"
+      },
+      {
+        "id": "1c24ff4c-bb59-44be-a0ab-f88896603a87",
+        "score": 0.3468,
+        "memory_type": "preference",
+        "title": "Hydration and caffeine routine for focus",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 12/23]\nUser: I actually try to drink at least 8 cups of water throughout the day, and I'v"
+      },
+      {
+        "id": "f8ec522a-ee4a-4ac6-92a5-6626dfddd58c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports hydration and reduced caffeine routine",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 13/23]\n(in reply to) User: I actually try to drink at least 8 cups of water throughout th"
+      },
+      {
+        "id": "f64898c3-db87-4b03-9172-56eb08609222",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hydration and limited caffeine routine",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 14/23]\n(in reply to) User: I actually try to drink at least 8 cups of water throughout th"
+      },
+      {
+        "id": "09acd949-a5ab-4cab-ba7e-c0273528af9a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants herbal tea recommendations for relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 15/23]\nUser: I'm actually thinking of trying out some new tea flavors. Do you have any re"
+      },
+      {
+        "id": "00fd3d25-a634-4a97-9daa-ba87c3b8cd13",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Herbal tea recommendations for relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 16/23]\n(in reply to) User: I'm actually thinking of trying out some new tea flavors. Do y"
+      },
+      {
+        "id": "bceb38ed-efb4-4b9c-b709-50b4a572484a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herbal tea recommendations for relaxation and stress relief",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 17/23]\n(in reply to) User: I'm actually thinking of trying out some new tea flavors. Do y"
+      },
+      {
+        "id": "ffa66592-727c-4a2d-ac43-b8bdc39fea62",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herbal tea recommendations for relaxation and stress relief",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 18/23]\n(in reply to) User: I'm actually thinking of trying out some new tea flavors. Do y"
+      },
+      {
+        "id": "6509d98c-6188-4e20-b639-e03e2bd6e28f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Herbal tea recommendations for relaxation and stress relief",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 19/23]\n(in reply to) User: I'm actually thinking of trying out some new tea flavors. Do y"
+      },
+      {
+        "id": "d363c41f-43e6-492c-8eae-78c3d7104533",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering chamomile and lavender tea for evening relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 20/23]\nUser: I'm thinking of trying out the Chamomile Tea and the Lavender Tea. I've hear"
+      },
+      {
+        "id": "7c8e963d-56f0-4ed9-85a7-d07e4c9ed219",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on chamomile and lavender tea for relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 21/23]\n(in reply to) User: I'm thinking of trying out the Chamomile Tea and the Lavender "
+      },
+      {
+        "id": "4e933528-3218-497c-86c5-46de16c99481",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Chamomile/Lavender tea timing for relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 22/23]\n(in reply to) User: I'm thinking of trying out the Chamomile Tea and the Lavender "
+      },
+      {
+        "id": "521911c9-f761-454a-8c9c-1fa0f4110568",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Chamomile and lavender teas are safe for relaxation",
+        "text": "[date: 2023-06-17T22:20:00+00:00 | context: Session e32e3d6b313a - happened on 2023-06-17 22:20:00 UTC. | turn 23/23]\n(in reply to) User: I'm thinking of trying out the Chamomile Tea and the Lavender "
+      }
+    ]
+  },
+  "context": {
+    "chars": 100245,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25061)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 27259,
+    "prompt_tokens": 25891,
+    "completion_tokens": 253,
+    "reasoning_tokens": 1115,
+    "generate_time_ms": 12961.35196799878,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24295,
+        "completion_tokens": 113,
+        "reasoning_tokens": 421,
+        "total_tokens": 24829
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 580,
+        "completion_tokens": 25,
+        "reasoning_tokens": 276,
+        "total_tokens": 881
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 388,
+        "completion_tokens": 25,
+        "reasoning_tokens": 194,
+        "total_tokens": 607
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 628,
+        "completion_tokens": 90,
+        "reasoning_tokens": 224,
+        "total_tokens": 942
+      }
+    ]
+  },
+  "failure_label": null
+}

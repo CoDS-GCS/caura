@@ -1,0 +1,7 @@
+{
+  "run": "lme_caura_default_60q",
+  "ids": "/shared_mnt/loubna/caura/experiments/configs/lme_subset60_from_mem0.txt",
+  "ingest_done": true,
+  "judged": true,
+  "finished": true
+}

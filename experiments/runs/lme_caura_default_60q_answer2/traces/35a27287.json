@@ -1,0 +1,1339 @@
+{
+  "question_id": "35a27287",
+  "question_type": "single-session-preference",
+  "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+  "gold_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+  "prediction": "Because your specific city or geographic location hasn\u2019t been mentioned in our chat history, I cannot provide exact event listings happening right around you this weekend. If you share your current city or area, I would be happy to help you find specific local options!\n\nIn the meantime, based on your established cultural interests, here are tailored categories and ideas you can look for on local community calendars, event platforms, or venue listings for the upcoming weekend:\n\n* **Theater Productions:** Check the schedules of local playhouses, performing arts centers, or renowned regional theater companies for weekend stage plays or classical dramas, aligning with your passion for theater.\n* **Multicultural Festivals & Language Exchanges:** Look for community cultural festivals or weekend language exchange meetups celebrating linguistic diversity\u2014particularly French or Spanish conversation tables, Spanish-speaking social clubs, or events celebrating multicultural traditions and music.\n* **Visual Arts & Gallery Exhibitions:** Explore local art galleries, museum exhibitions featuring painting collections (such as watercolors), or open studio tours and weekend community art workshops/classes.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 883,
+    "by_type": {
+      "decision": 5,
+      "episode": 275,
+      "plan": 8,
+      "fact": 397,
+      "action": 3,
+      "preference": 145,
+      "task": 50
+    },
+    "by_status": {
+      "active": 880,
+      "conflicted": 3
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2598669,
+    "output_tokens": 125386,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Can you recommend some interesting cultural events happening around me this weekend?"
+    ],
+    "retrieve_time_ms": 2007.5337280286476,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "918f6855-2a7c-4f09-ac97-b889ebdf8285",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considering summer theater camp; watched Hamlet production",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 1/30]\nUser: I'm considering auditioning for a summer theater camp and I was wondering if "
+      },
+      {
+        "id": "0cf8f91c-b4b7-4e6d-97bf-4918816cdbf7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided general info on two-week theater camp",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 2/30]\n(in reply to) User: I'm considering auditioning for a summer theater camp and I was"
+      },
+      {
+        "id": "e9d91970-4797-47e8-9115-d22c23b47610",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical two-week summer theater camp expectations",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 3/30]\n(in reply to) User: I'm considering auditioning for a summer theater camp and I was"
+      },
+      {
+        "id": "a13238c1-d980-4772-8db5-5fbc5ba600b0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical expectations for a two-week summer theater camp",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 4/30]\n(in reply to) User: I'm considering auditioning for a summer theater camp and I was"
+      },
+      {
+        "id": "95241afa-b071-40d7-9c79-0004b2b2c78e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips for a two-week summer theater camp",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 5/30]\n(in reply to) User: I'm considering auditioning for a summer theater camp and I was"
+      },
+      {
+        "id": "03c9b734-8f56-4b2a-bdac-07ca3b2ecfc2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Encouraged user for summer theater camp audition",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 6/30]\n(in reply to) User: I'm considering auditioning for a summer theater camp and I was"
+      },
+      {
+        "id": "8ecee395-e74f-423a-89d9-8d6c49106102",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about audition process expectations and mistakes",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 7/30]\nUser: What about the audition process itself? What can I expect from the audition, "
+      },
+      {
+        "id": "2d724e6a-6234-45e6-94eb-8b6425b877a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical summer theater camp audition expectations",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 8/30]\n(in reply to) User: What about the audition process itself? What can I expect from "
+      },
+      {
+        "id": "18126c03-71ac-465f-afe2-03ffd25fcc90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audition process expectations and preparation checklist",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 9/30]\n(in reply to) User: What about the audition process itself? What can I expect from "
+      },
+      {
+        "id": "ca7e706c-84ae-4f12-aee6-b062aed57596",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audition process expectations and common mistakes",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 10/30]\n(in reply to) User: What about the audition process itself? What can I expect from"
+      },
+      {
+        "id": "729da024-cf74-4195-85b3-31105016b01d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audition process expectations and common mistakes to avoid",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 11/30]\n(in reply to) User: What about the audition process itself? What can I expect from"
+      },
+      {
+        "id": "b305af29-68a5-4617-8e06-3671c031a1bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audition guidance: expectations and common mistakes",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 12/30]\n(in reply to) User: What about the audition process itself? What can I expect from"
+      },
+      {
+        "id": "fa114c1d-3af2-4a66-9835-8b8e2c50ea80",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about camp living arrangements and supervision",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 13/30]\nUser: What about the living arrangements and supervision during the camp? Will I b"
+      },
+      {
+        "id": "737c1664-e39d-4918-803d-dddb24545694",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on camp living arrangements and supervision",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 14/30]\n(in reply to) User: What about the living arrangements and supervision during the "
+      },
+      {
+        "id": "309f99e6-2f40-4164-918c-9383501a0a4b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Typical camp rules: curfews, quiet hours, electronics, visitation",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 15/30]\n(in reply to) User: What about the living arrangements and supervision during the "
+      },
+      {
+        "id": "23c255c5-2ad9-4931-a50a-7d14c80d2663",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on summer theater camp living arrangements",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 16/30]\n(in reply to) User: What about the living arrangements and supervision during the "
+      },
+      {
+        "id": "d3a4f2d9-10e5-47af-9240-ce4b1f106757",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summer theater camp: ask about living arrangements and supervision",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 17/30]\n(in reply to) User: What about the living arrangements and supervision during the "
+      },
+      {
+        "id": "f9d6f4b1-cb8e-41e5-9cdb-fb84017a1908",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about counselor supervision training",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 18/30]\nUser: I'm still a bit concerned about the supervision aspect. What kind of trainin"
+      },
+      {
+        "id": "f08eee9d-2fea-4cd2-905d-0095bd44c223",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant described summer theater camp staff training and safety measures",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 19/30]\n(in reply to) User: I'm still a bit concerned about the supervision aspect. What k"
+      },
+      {
+        "id": "8a856b8a-95dc-4bc5-b5a5-1a7a72796079",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Camp supervision ratios and safety protocols overview",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 20/30]\n(in reply to) User: I'm still a bit concerned about the supervision aspect. What k"
+      },
+      {
+        "id": "55bfd417-fd5c-4798-b697-61a67fd3c1cd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summer camp supervision and staff support components",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 21/30]\n(in reply to) User: I'm still a bit concerned about the supervision aspect. What k"
+      },
+      {
+        "id": "a6881d95-d50c-4ce8-9f93-34a05cf8651c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about camp focus and activities",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 22/30]\nUser: I'm glad you're taking the time to research the camp thoroughly. By the way,"
+      },
+      {
+        "id": "a7f99919-5b62-4969-a23b-3a1a4f3f3e70",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant clarified it isn't researching a specific theater camp",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 23/30]\n(in reply to) User: I'm glad you're taking the time to research the camp thoroughl"
+      },
+      {
+        "id": "484078fc-aea6-40bc-aa10-efde3cca0f4e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed summer theater camp research and Hamlet production",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 24/30]\n(in reply to) User: I'm glad you're taking the time to research the camp thoroughl"
+      },
+      {
+        "id": "fa870159-c65f-4b15-95bb-ef598fc4a883",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about summer theater camp types and focuses",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 25/30]\nUser: I'd like to know more about the different types of summer theater camps avai"
+      },
+      {
+        "id": "4c52eac4-9998-4499-b807-9fe0a808a682",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: summer theater camp focuses and specializations",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 26/30]\n(in reply to) User: I'd like to know more about the different types of summer thea"
+      },
+      {
+        "id": "4867e41c-1e0b-4515-8b3e-ebfcb7ef0a47",
+        "score": 0.3738,
+        "memory_type": "fact",
+        "title": "Common focuses of summer theater camps",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 27/30]\n(in reply to) User: I'd like to know more about the different types of summer thea"
+      },
+      {
+        "id": "daadf408-d809-4ca7-9d77-c9fb4978b5e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summer theater camp types and common specializations",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 28/30]\n(in reply to) User: I'd like to know more about the different types of summer thea"
+      },
+      {
+        "id": "2bcbe9e0-990e-4409-a6fb-59ba425533c3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summer theater camp specializations: Film/TV and International",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 29/30]\n(in reply to) User: I'd like to know more about the different types of summer thea"
+      },
+      {
+        "id": "1c2664a2-ee1d-4baf-9a66-3fb5a12fe9fc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on summer theater camp types",
+        "text": "[date: 2023-05-23T05:50:00+00:00 | context: Session d4ed03a3034b - happened on 2023-05-23 05:50:00 UTC. | turn 30/30]\n(in reply to) User: I'd like to know more about the different types of summer thea"
+      },
+      {
+        "id": "c8b44a01-e55b-47ba-a1da-8720b8b22058",
+        "score": 0.4057,
+        "memory_type": "task",
+        "title": "Recipe ideas for Nigerian/Mozambican cultural dinner",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 1/27]\nUser: Hi! I'm looking for some recipe ideas for a cultural dinner party I'm hosting"
+      },
+      {
+        "id": "c0b18889-c296-4358-94de-082d5b1992d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests Nigerian dishes for cultural dinner party",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 2/27]\n(in reply to) User: Hi! I'm looking for some recipe ideas for a cultural dinner par"
+      },
+      {
+        "id": "2a3b77f4-861b-4f1a-85a8-7bdbe2268098",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recipe ideas: Nigerian dishes and Mozambican complements",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 3/27]\n(in reply to) User: Hi! I'm looking for some recipe ideas for a cultural dinner par"
+      },
+      {
+        "id": "8070e16d-e312-4c4e-a448-d320ec7ca1c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recipe ideas for cultural dinner: piri piri chicken, matapa, calulu, mango salsa",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 4/27]\n(in reply to) User: Hi! I'm looking for some recipe ideas for a cultural dinner par"
+      },
+      {
+        "id": "434eddb2-76e2-4e23-adba-d12c6176e264",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for recipe ideas for Indian/Pakistani cultural dinner party",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 5/27]\n(in reply to) User: Hi! I'm looking for some recipe ideas for a cultural dinner par"
+      },
+      {
+        "id": "5d29aff5-3974-4f0c-843a-1d0ad0e1009d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to find ingredients for Akara",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 6/27]\nUser: That's a great list, thank you! I'm definitely going to try making some of th"
+      },
+      {
+        "id": "9e0ac84f-213c-4bfe-ac97-4a9b808e235b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding ingredients to make Akara",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 7/27]\n(in reply to) User: That's a great list, thank you! I'm definitely going to try mak"
+      },
+      {
+        "id": "4f700a4c-0a00-4928-a558-61b470f2b93a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Akara ingredient guidance (beans, oil, spices, baking powder)",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 8/27]\n(in reply to) User: That's a great list, thank you! I'm definitely going to try mak"
+      },
+      {
+        "id": "4b95a013-815e-4475-809e-3edad4b01e1f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Akara recipe guidance (soak, grind, rest, fry)",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 9/27]\n(in reply to) User: That's a great list, thank you! I'm definitely going to try mak"
+      },
+      {
+        "id": "6cad7d7f-17a2-45d9-9304-f74cecbe2711",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dinner party music recommendations request",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 10/27]\nUser: That's really helpful, thank you! I'll make sure to follow those tips. I'm a"
+      },
+      {
+        "id": "718a31f7-91de-4f87-babe-11bd595ccdaa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dinner party music recommendations for Nigerian/Mozambican mood",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 11/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to follow tho"
+      },
+      {
+        "id": "e32920e1-fb5c-4ef8-8f9c-d658623260f2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Music recommendations for Nigerian/Mozambican dinner party mood",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 12/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to follow tho"
+      },
+      {
+        "id": "fab9e744-af56-43a3-b0f3-9259f875c076",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dinner party music tips for Nigerian/Mozambican mood",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 13/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to follow tho"
+      },
+      {
+        "id": "f67456f0-de4e-4e89-8822-78d49b20dca9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dinner party cultural theme: Nigerian & Mozambican music",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 14/27]\nUser: That's really helpful, thank you! I'll make sure to create a playlist with a"
+      },
+      {
+        "id": "abc27efc-c4eb-490f-8be9-30df8b36a2d2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Nigerian/Mozambican decorations and table settings",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 15/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to create a p"
+      },
+      {
+        "id": "9835715c-1c23-4264-9615-f72c9d65d8a4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "African-themed decorations and table settings ideas",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 16/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to create a p"
+      },
+      {
+        "id": "1b680b00-bc64-4b07-8130-b3298e8544f4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Ideas for Nigerian/Mozambican themed playlist and decor",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 17/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to create a p"
+      },
+      {
+        "id": "4ff835c4-d125-4570-b95f-9042d7fdeb04",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for dinner party games and activities",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 18/27]\nUser: That's really helpful, thank you! I'll make sure to incorporate some of thes"
+      },
+      {
+        "id": "46dff68f-1fb9-42a1-8a0f-d6cbd5613d84",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party games/activities ideas (Afrobeats, trivia, fashion show)",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 19/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to incorporat"
+      },
+      {
+        "id": "ca62d520-52d0-498c-8eb7-a4fec0e63041",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party ideas: African-themed activities and icebreakers",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 20/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to incorporat"
+      },
+      {
+        "id": "6767fa70-5f41-464e-b731-a3fb667c99ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Party games: Two Truths and a Lie, Human Bingo, Scavenger Hunt",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 21/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to incorporat"
+      },
+      {
+        "id": "33a7c41e-8d1a-4e45-b55d-e8f16cf9b402",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dinner party activity ideas: photobooth, cultural exchange, giveaways",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 22/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to incorporat"
+      },
+      {
+        "id": "1fb418c8-04ca-4524-9eca-b258e3f9f27d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for jollof rice recipe tips",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 23/27]\nUser: I'm going to ask about the recipe for jollof rice, since I tried making it r"
+      },
+      {
+        "id": "0882a763-f5fe-43a0-92b1-d93de59b83a6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided jollof rice troubleshooting tips",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 24/27]\n(in reply to) User: I'm going to ask about the recipe for jollof rice, since I tri"
+      },
+      {
+        "id": "01d1947b-284c-4303-aafe-0b0141e32ed3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making jollof rice (rice type, toasting, ratios)",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 25/27]\n(in reply to) User: I'm going to ask about the recipe for jollof rice, since I tri"
+      },
+      {
+        "id": "396c84b7-d7b7-4105-a176-cc4121188203",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making jollof rice (avoid overmixing, rest 10\u201315 min)",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 26/27]\n(in reply to) User: I'm going to ask about the recipe for jollof rice, since I tri"
+      },
+      {
+        "id": "4b5c8e58-15db-46f5-b755-b20f553fbd90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for adjusting jollof rice recipe",
+        "text": "[date: 2023-05-25T21:44:00+00:00 | context: Session eb05a3e359e9 - happened on 2023-05-25 21:44:00 UTC. | turn 27/27]\n(in reply to) User: I'm going to ask about the recipe for jollof rice, since I tri"
+      },
+      {
+        "id": "52370f30-134c-45f0-a8aa-9d35efcdce31",
+        "score": 0.3527,
+        "memory_type": "preference",
+        "title": "Preference for eco-friendly, minimal-packaging essentials",
+        "text": "[date: 2023-05-27T02:54:00+00:00 | context: Session 4d0633b469e0 - happened on 2023-05-27 02:54:00 UTC. | turn 1/28]\nUser: I'm trying to make more eco-friendly choices in my daily life. I was thinking"
+      },
+      {
+        "id": "6b71bd64-dc94-4c2e-b8cf-d44d5ed49351",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Budget accommodation suggestions for Belo Horizonte",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 1/10]\nUser: Can you recommend any budget-friendly accommodations for travelers visiting B"
+      },
+      {
+        "id": "50579c3a-a59d-4b4c-9945-8523c89a8950",
+        "score": null,
+        "memory_type": "task",
+        "title": "Budget-friendly tourist-area options in Belo Horizonte",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 2/10]\nUser: Are there any budget-friendly options that are also located near popular tour"
+      },
+      {
+        "id": "ba97326c-2268-4d33-878c-c6b9ca8e4479",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Budget-friendly hotels near Belo Horizonte attractions",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 3/10]\n(in reply to) User: Are there any budget-friendly options that are also located nea"
+      },
+      {
+        "id": "0e6d8925-3519-4d63-a990-b28108fff3dc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Budget-friendly hotel near Belo Horizonte attractions",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 4/10]\n(in reply to) User: Are there any budget-friendly options that are also located nea"
+      },
+      {
+        "id": "dece0ca8-decd-4da3-89a1-3859e47997ff",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Budget-friendly nightlife recommendations in Belo Horizonte",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 5/10]\nUser: I'm interested in exploring the nightlife scene in Belo Horizonte. Any recomm"
+      },
+      {
+        "id": "315c6963-708d-440d-b6d1-a9fe3e5b60ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Budget-friendly nightlife options in Belo Horizonte",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 6/10]\n(in reply to) User: I'm interested in exploring the nightlife scene in Belo Horizon"
+      },
+      {
+        "id": "88a393d8-28d1-4c4e-a3ea-335c87a8f7aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Nightlife recommendations in Belo Horizonte (budget-friendly bars)",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 7/10]\n(in reply to) User: I'm interested in exploring the nightlife scene in Belo Horizon"
+      },
+      {
+        "id": "a2049878-a895-4159-a65f-1214ceefab2a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for fun activities near Chopp da F\u00e1brica (Santa Teresa)",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 8/10]\nUser: Wow, these options all sound great! I think I'll definitely check out the Cho"
+      },
+      {
+        "id": "316cf650-6854-48b9-bec0-39999eb89221",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested activities in Santa Teresa, Belo Horizonte",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 9/10]\n(in reply to) User: Wow, these options all sound great! I think I'll definitely che"
+      },
+      {
+        "id": "cecd4945-6228-4952-a533-e75b23d54e28",
+        "score": 0.4171,
+        "memory_type": "fact",
+        "title": "Fun activities near Santa Teresa (BH)",
+        "text": "[date: 2023-05-28T20:52:00+00:00 | context: Session 5942504be938 - happened on 2023-05-28 20:52:00 UTC. | turn 10/10]\n(in reply to) User: Wow, these options all sound great! I think I'll definitely ch"
+      },
+      {
+        "id": "aa03d354-7521-48a8-937a-df6bb871d472",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for French language-learning podcasts",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 1/40]\nUser: I'm looking for some new language learning resources, specifically podcasts i"
+      },
+      {
+        "id": "ee8c0ef7-6124-4554-9fd7-c721a104e18f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "French podcast recommendations for listening practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 2/40]\n(in reply to) User: I'm looking for some new language learning resources, specifica"
+      },
+      {
+        "id": "2ca43938-c952-400a-9c23-6ea1c256dcc1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "French podcast recommendations for listening practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 3/40]\n(in reply to) User: I'm looking for some new language learning resources, specifica"
+      },
+      {
+        "id": "22c3bb12-88f6-4340-89d4-365a0b89c3d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "French podcast recommendations for listening practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 4/40]\n(in reply to) User: I'm looking for some new language learning resources, specifica"
+      },
+      {
+        "id": "cb49e2cc-9ed5-4fb7-b50e-c1d84a31e766",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for using French learning podcasts",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 5/40]\n(in reply to) User: I'm looking for some new language learning resources, specifica"
+      },
+      {
+        "id": "ac6d3255-9242-4a94-bfb9-3e259adef716",
+        "score": 0.4606,
+        "memory_type": "task",
+        "title": "Find cultural events/festivals celebrating language diversity",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 6/40]\nUser: What are some cultural events or festivals in my area that celebrate language"
+      },
+      {
+        "id": "f27b3866-77ae-4aa7-971a-efc6675a7808",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests ways to find language diversity cultural events",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 7/40]\n(in reply to) User: What are some cultural events or festivals in my area that cele"
+      },
+      {
+        "id": "f350d4cc-4515-46a9-8485-831fcdc9c236",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding language-diversity cultural events",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 8/40]\n(in reply to) User: What are some cultural events or festivals in my area that cele"
+      },
+      {
+        "id": "204da552-d069-49e3-92a0-4abc0751f691",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find local language-diversity cultural events",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 9/40]\n(in reply to) User: What are some cultural events or festivals in my area that cele"
+      },
+      {
+        "id": "0f8a11af-1d34-4ad0-8759-351039e8767e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Examples of language/cultural diversity events to attend",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 10/40]\n(in reply to) User: What are some cultural events or festivals in my area that cel"
+      },
+      {
+        "id": "d3114ccc-175c-47a7-b460-56364d7ee5b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for language-diversity cultural events locally",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 11/40]\n(in reply to) User: What are some cultural events or festivals in my area that cel"
+      },
+      {
+        "id": "366d7928-35cc-4f67-94d2-2f6db0ed049d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants idiomatic/colloquial French & Spanish learning resources",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 12/40]\nUser: Can you recommend any language learning apps or websites that focus on idiom"
+      },
+      {
+        "id": "09982325-3b03-4954-ab7b-e5c9a2d215d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning apps/websites for idiomatic French & Spanish",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 13/40]\n(in reply to) User: Can you recommend any language learning apps or websites that "
+      },
+      {
+        "id": "8d9c07e5-643b-4cc5-919b-79dfab89ff7e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning resources for French idioms and colloquialisms",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 14/40]\n(in reply to) User: Can you recommend any language learning apps or websites that "
+      },
+      {
+        "id": "95506005-3591-488e-9386-b9b59a3e85f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning resources for idioms (French/Spanish)",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 15/40]\n(in reply to) User: Can you recommend any language learning apps or websites that "
+      },
+      {
+        "id": "c083548c-295f-4020-a114-c24584c7634d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Language learning app recommendations for idioms/colloquialisms",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 16/40]\n(in reply to) User: Can you recommend any language learning apps or websites that "
+      },
+      {
+        "id": "cf7195cf-4637-4195-995a-3c886bbf2b43",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggest language exchange event websites/apps",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 17/40]\nUser: I'm interested in attending language exchange events, especially those that "
+      },
+      {
+        "id": "565ac2c0-7777-4d21-83da-f40d56058054",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested websites/apps for language exchange events",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 18/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "144831a2-64de-48c2-94a8-e5619a372c9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Websites/apps for language exchange events and partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 19/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "5b18f2c6-15e2-48f7-b667-b5bf1fd5af9a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language exchange event discovery via Meetup",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 20/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "3d846342-59a4-4f6a-af7e-2afa160cc95e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language exchange apps suggested (Tandem, HelloTalk, Speaky, iTalki, Lingbe)",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 21/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "eaecb4f8-ffea-4259-8972-3dd976dccb08",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding language exchange events and partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 22/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "06fb8a85-cdf1-445b-9ae8-4de00a4e55b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Language exchange event inquiry and safety reminder",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 23/40]\n(in reply to) User: I'm interested in attending language exchange events, especial"
+      },
+      {
+        "id": "ffca1bb2-8287-48fc-84f0-61068aca1d8e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips for effective language exchange conversation practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 24/40]\nUser: What are some tips for effective language exchange and conversation practice"
+      },
+      {
+        "id": "42fe76e5-9f5b-4b51-82e1-f7c9258a32f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for effective language exchange conversation practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 25/40]\n(in reply to) User: What are some tips for effective language exchange and convers"
+      },
+      {
+        "id": "ba52cdb5-2a7a-489a-a71c-febf77ca827e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for effective language exchange conversation practice",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 26/40]\n(in reply to) User: What are some tips for effective language exchange and convers"
+      },
+      {
+        "id": "f0b3bb1c-c533-4da0-9f47-bc14c31a613f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for effective language exchange conversations",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 27/40]\n(in reply to) User: What are some tips for effective language exchange and convers"
+      },
+      {
+        "id": "e0739d5b-e7f2-40b7-81c4-c5c97ac59a03",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for effective language exchange conversations",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 28/40]\n(in reply to) User: What are some tips for effective language exchange and convers"
+      },
+      {
+        "id": "deb05822-1433-475f-b2f5-4080b74f2809",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language exchange tips (conversation practice)",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 29/40]\n(in reply to) User: What are some tips for effective language exchange and convers"
+      },
+      {
+        "id": "d4339efc-47e6-4e72-ab6e-3835b2520fe0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend conversational French & Spanish language podcasts",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 30/40]\nUser: Can you recommend some language learning podcasts that focus on conversation"
+      },
+      {
+        "id": "fb7e347c-f3e9-4830-b1e2-9e8661f6202a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended French and Spanish conversational language podcasts",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 31/40]\n(in reply to) User: Can you recommend some language learning podcasts that focus o"
+      },
+      {
+        "id": "a11c530d-aa4d-4d6c-8b13-6f0f6f3ea364",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning podcast recommendations (French)",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 32/40]\n(in reply to) User: Can you recommend some language learning podcasts that focus o"
+      },
+      {
+        "id": "9ae40196-142b-4b4e-9300-c1995deb2180",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended conversational French/Spanish language learning podcasts",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 33/40]\n(in reply to) User: Can you recommend some language learning podcasts that focus o"
+      },
+      {
+        "id": "bca07cd6-c54a-484d-a311-156fce48f330",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Podcast recommendations for conversational French and Spanish",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 34/40]\n(in reply to) User: Can you recommend some language learning podcasts that focus o"
+      },
+      {
+        "id": "f26fdb85-e231-4b9b-b1c4-3a920355de84",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find French/Spanish language exchange partners and events",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 35/40]\nUser: I'd like to explore more language exchange opportunities and cultural events"
+      },
+      {
+        "id": "2bcbb3d3-de80-4c6b-9405-54e33d66f09e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested ways to find French/Spanish language exchange partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 36/40]\n(in reply to) User: I'd like to explore more language exchange opportunities and c"
+      },
+      {
+        "id": "d5881595-ace4-424f-9f71-5b8536b8534d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ways to find French/Spanish language exchange partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 37/40]\n(in reply to) User: I'd like to explore more language exchange opportunities and c"
+      },
+      {
+        "id": "eaf244f0-b2be-4a4b-9411-5de3760359ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ways to find French/Spanish language exchange partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 38/40]\n(in reply to) User: I'd like to explore more language exchange opportunities and c"
+      },
+      {
+        "id": "75ea942a-5d0a-4957-92fa-4f5d90834e93",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ways to find French/Spanish language exchange partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 39/40]\n(in reply to) User: I'd like to explore more language exchange opportunities and c"
+      },
+      {
+        "id": "49e5f5f5-4234-4fe1-a65b-11784d6714c8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for finding French/Spanish language exchange partners",
+        "text": "[date: 2023-05-29T12:32:00+00:00 | context: Session 709104691f56 - happened on 2023-05-29 12:32:00 UTC. | turn 40/40]\n(in reply to) User: I'd like to explore more language exchange opportunities and c"
+      },
+      {
+        "id": "3feb4302-68dd-4fcd-b3db-d796d2194a8e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for popular Colombian dishes to try",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 1/22]\nUser: I'm planning a trip to Colombia and I'm wondering if you can recommend some p"
+      },
+      {
+        "id": "3761b07b-3044-469b-8265-84c84f60df98",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip to Colombia: assistant recommends popular dishes",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 2/22]\n(in reply to) User: I'm planning a trip to Colombia and I'm wondering if you can re"
+      },
+      {
+        "id": "69e89a19-b37d-4459-87e0-8169173cb395",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular Colombian dishes recommendations",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 3/22]\n(in reply to) User: I'm planning a trip to Colombia and I'm wondering if you can re"
+      },
+      {
+        "id": "925d336f-ac2c-4f68-89aa-9e507d8551c3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Colombia dishes recommended: Tamales, Arepa de Huevo, Ceviche, Tortas",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 4/22]\n(in reply to) User: I'm planning a trip to Colombia and I'm wondering if you can re"
+      },
+      {
+        "id": "7ee498e4-91ff-4b3f-9550-d798acb03950",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Colombia trip: suggested local foods and drinks",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 5/22]\n(in reply to) User: I'm planning a trip to Colombia and I'm wondering if you can re"
+      },
+      {
+        "id": "cd499178-4672-4ff4-bb70-24e1e897e07f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips on Colombian food markets and street food",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 6/22]\nUser: I've heard that Colombian cuisine is heavily influenced by the country's cult"
+      },
+      {
+        "id": "043eca91-e548-499c-a0b9-a544b4600310",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about Colombian cuisine and food markets",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 7/22]\n(in reply to) User: I've heard that Colombian cuisine is heavily influenced by the "
+      },
+      {
+        "id": "5d7a1dcc-cb3d-4fbf-bb11-ab250f23585e",
+        "score": 0.357,
+        "memory_type": "fact",
+        "title": "Colombian markets and street food suggestions",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 8/22]\n(in reply to) User: I've heard that Colombian cuisine is heavily influenced by the "
+      },
+      {
+        "id": "d3710c33-9a01-4b1f-bece-66185866db6a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Colombian street food suggestions (patacones, arepas, churros, etc.)",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 9/22]\n(in reply to) User: I've heard that Colombian cuisine is heavily influenced by the "
+      },
+      {
+        "id": "5d371ff9-9031-4c69-bfed-c0dfd1702c41",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Colombia food tips (local stalls, drinks, bargaining)",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 10/22]\n(in reply to) User: I've heard that Colombian cuisine is heavily influenced by the"
+      },
+      {
+        "id": "76993f4e-aba0-40d5-b1f4-ef303604fb93",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Spanish practice in Medell\u00edn via language exchange apps/websites",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 11/22]\nUser: I'm actually planning to stay in Medell\u00edn for a few weeks, so I'll definitel"
+      },
+      {
+        "id": "a1512229-334a-48f6-ad9b-eeb7f390f166",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Spanish language exchange recommendations (Tandem, HelloTalk, iTalki)",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 12/22]\n(in reply to) User: I'm actually planning to stay in Medell\u00edn for a few weeks, so "
+      },
+      {
+        "id": "d5c9ff39-c7c5-4591-bba7-78820015cbfa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Spanish language exchange resources for Medell\u00edn",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 13/22]\n(in reply to) User: I'm actually planning to stay in Medell\u00edn for a few weeks, so "
+      },
+      {
+        "id": "dc59bc8e-e0df-4cdf-be6d-77369845ac4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Spanish practice tips for language exchange in Medell\u00edn",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 14/22]\n(in reply to) User: I'm actually planning to stay in Medell\u00edn for a few weeks, so "
+      },
+      {
+        "id": "1f468e0f-be1e-4e5b-8aa6-4f2759ff717e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about finding a Spanish native language exchange partner via tutor",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 15/22]\nUser: I've been trying to find a language exchange partner who's a native Spanish "
+      },
+      {
+        "id": "dc082120-272a-43e7-b7c8-eca4f9a04b7a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested using tutor Juan to find a native Spanish language partner",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 16/22]\n(in reply to) User: I've been trying to find a language exchange partner who's a n"
+      },
+      {
+        "id": "7ba45e03-37a7-4b9c-b8fd-c30e1814541f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find Spanish language exchange partner via tutor Juan",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 17/22]\n(in reply to) User: I've been trying to find a language exchange partner who's a n"
+      },
+      {
+        "id": "68f4c160-8fb9-4a9e-8932-1bb15369eee4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on finding a Spanish language exchange via tutor Juan",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 18/22]\n(in reply to) User: I've been trying to find a language exchange partner who's a n"
+      },
+      {
+        "id": "b011cb12-0357-469d-a153-d4aea1edde76",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestion to ask Juan for English language exchange partner",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 19/22]\nUser: I'll ask Juan if he knows anyone who's interested in practicing English. May"
+      },
+      {
+        "id": "a498cb4c-2268-4789-8510-c93743aa2c49",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports progress in Spanish classes with Juan",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 20/22]\nUser: I'm doing well, thanks for asking! I've been enjoying my classes with Juan, "
+      },
+      {
+        "id": "9ad3875a-ea60-4c22-b45c-693cb66e1bfb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Spanish tutoring progress and Colombian culture discussion",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 21/22]\n(in reply to) User: I'm doing well, thanks for asking! I've been enjoying my class"
+      },
+      {
+        "id": "1966e0a6-d130-40cd-8b49-f6179cc1c6e5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Colombian music/movies for Spanish learning",
+        "text": "[date: 2023-05-30T01:37:00+00:00 | context: Session a103bf93c9b6 - happened on 2023-05-30 01:37:00 UTC. | turn 22/22]\n(in reply to) User: I'm doing well, thanks for asking! I've been enjoying my class"
+      },
+      {
+        "id": "85d0f684-dfb8-4ade-a8f6-c85d3fd6d1ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Watercolor painting care: handling, framing, dusting",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 4/26]\n(in reply to) User: I'm looking for some advice on how to properly care for my new "
+      },
+      {
+        "id": "32271c26-c954-46cc-98fa-74ee6c8b4e21",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Watercolor painting care: storage, conservation, avoid adhesives",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 5/26]\n(in reply to) User: I'm looking for some advice on how to properly care for my new "
+      },
+      {
+        "id": "12d73887-4edb-4b62-8790-ae0d273042aa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice requested for caring for a new watercolor painting",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 6/26]\n(in reply to) User: I'm looking for some advice on how to properly care for my new "
+      },
+      {
+        "id": "2fc68e31-166b-43dc-b7d5-3c886ff5e7c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for local watercolor classes/workshops",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 7/26]\nUser: That's really helpful, thanks for the tips. The painting is actually inspired"
+      },
+      {
+        "id": "3b533179-ff8e-4809-80ac-fb47926e74cf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses watercolor painting inspiration from Japan",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 8/26]\n(in reply to) User: That's really helpful, thanks for the tips. The painting is act"
+      },
+      {
+        "id": "5165cac7-807b-440d-8e9e-9eebf1401668",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding local watercolor classes",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 9/26]\n(in reply to) User: That's really helpful, thanks for the tips. The painting is act"
+      },
+      {
+        "id": "29daede6-7745-4a79-83e0-c884156db1eb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding watercolor painting classes and resources",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 10/26]\n(in reply to) User: That's really helpful, thanks for the tips. The painting is ac"
+      },
+      {
+        "id": "6e6c9511-7db5-473b-87b1-3349c1f87a4d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for choosing watercolor classes/workshops",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 11/26]\n(in reply to) User: That's really helpful, thanks for the tips. The painting is ac"
+      },
+      {
+        "id": "422e7b3e-b68a-40a9-9aef-5d1da4d9839b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Saw flyer for beginner watercolor class",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 12/26]\nUser: I actually saw a flyer for a beginner's watercolor class at the local commun"
+      },
+      {
+        "id": "4c0a72b5-79d8-4d05-809e-ff87cf6e6f78",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about beginner watercolor class flyer and pricing",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 13/26]\n(in reply to) User: I actually saw a flyer for a beginner's watercolor class at th"
+      },
+      {
+        "id": "a8351cc1-55dd-48aa-a2fb-81ca88ec26b2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed beginner watercolor class flyer",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 14/26]\n(in reply to) User: I actually saw a flyer for a beginner's watercolor class at th"
+      },
+      {
+        "id": "9c6843c2-1821-400f-a1f2-1a7976bf8086",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a garage studio for art projects",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 15/26]\nUser: I'm also thinking about setting up a little studio in my garage and starting"
+      },
+      {
+        "id": "1e872e66-faa2-4b70-8ff1-4e555349891a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses setting up a garage art studio",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 16/26]\n(in reply to) User: I'm also thinking about setting up a little studio in my garag"
+      },
+      {
+        "id": "9e90548e-73b5-41c0-9d97-24b07ff56b17",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed setting up a garage art studio",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 17/26]\n(in reply to) User: I'm also thinking about setting up a little studio in my garag"
+      },
+      {
+        "id": "5a75556f-6175-4ff4-a4d0-53a5bb536c57",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses setting up a garage studio",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 18/26]\n(in reply to) User: I'm also thinking about setting up a little studio in my garag"
+      },
+      {
+        "id": "589c151d-e05f-4059-9de8-9ea68e4781cf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering an art journal for inspiration and sketching",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 19/26]\nUser: I'm actually thinking of setting up an art journal, where I can record my th"
+      },
+      {
+        "id": "4a5dda80-1a35-4f75-a3e0-750a5b318851",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant encourages user to start an art journal",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 20/26]\n(in reply to) User: I'm actually thinking of setting up an art journal, where I ca"
+      },
+      {
+        "id": "fde48497-bdf0-466c-842d-d94f169b43ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of keeping an art journal",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 21/26]\n(in reply to) User: I'm actually thinking of setting up an art journal, where I ca"
+      },
+      {
+        "id": "0fb12d29-2164-4dae-a637-31d0372e4e26",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for setting up an art journal",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 22/26]\n(in reply to) User: I'm actually thinking of setting up an art journal, where I ca"
+      },
+      {
+        "id": "e8da7e46-47ec-4f00-b0b9-ef11c58ec850",
+        "score": 0.3565,
+        "memory_type": "preference",
+        "title": "Art journal habit: relaxing, low-pressure weekly time",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 23/26]\nUser: I think I'll start by setting aside some time each week to work on my art jo"
+      },
+      {
+        "id": "5dff6984-aec4-4c27-93fd-b7f5d54236ad",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly art journal habit with low pressure",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 24/26]\n(in reply to) User: I think I'll start by setting aside some time each week to wor"
+      },
+      {
+        "id": "99be0412-704b-4d79-b92b-bcf6d5bea2c1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly art journal habit with low pressure",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 25/26]\n(in reply to) User: I think I'll start by setting aside some time each week to wor"
+      },
+      {
+        "id": "834423f4-9942-438c-bf6a-1c2f9415390f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly habit for art journal (1\u20132 hours on weekends)",
+        "text": "[date: 2023-05-30T02:19:00+00:00 | context: Session 1f5d7ea4f42b - happened on 2023-05-30 02:19:00 UTC. | turn 26/26]\n(in reply to) User: I think I'll start by setting aside some time each week to wor"
+      },
+      {
+        "id": "3a3688e5-83da-4f48-aa64-e4d24c0bd041",
+        "score": 0.3716,
+        "memory_type": "preference",
+        "title": "Weekend ride route suggestions; Garmin Edge 530 tracking",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 1/24]\nUser: I'm looking for some route suggestions for my weekend ride. I've been doing t"
+      },
+      {
+        "id": "044c87c3-906e-487f-ab03-ba3cfa2428f0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant asked for preferences for weekend ride routes",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some route suggestions for my weekend ride. I'v"
+      },
+      {
+        "id": "cd3db17d-1f13-4693-bc66-396c87bad835",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for weekend ride route suggestions",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some route suggestions for my weekend ride. I'v"
+      },
+      {
+        "id": "aed2ba7a-7026-4560-b4dc-f1f51aad6c1e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cycling preference: elevation change and 30\u201340 mile rides",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 4/24]\nUser: I'm open to a variety of terrains, but I've been doing a lot of flat rides la"
+      },
+      {
+        "id": "4358539d-1864-44a7-921e-7a4e8c53309c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cycling preferences: 30\u201340 mile rides with some elevation",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 5/24]\n(in reply to) User: I'm open to a variety of terrains, but I've been doing a lot of"
+      },
+      {
+        "id": "23e70341-154d-4803-b398-65ced53e3a14",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike route suggestion: river valley with hills and gravel",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 6/24]\n(in reply to) User: I'm open to a variety of terrains, but I've been doing a lot of"
+      },
+      {
+        "id": "73c8f1cd-a480-4a5f-b96b-b96abe98d1f3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bike ride preference: 30\u201340 miles with gentle elevation",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 7/24]\n(in reply to) User: I'm open to a variety of terrains, but I've been doing a lot of"
+      },
+      {
+        "id": "8f56117d-b8f4-4819-9b8c-bbbbf6191b98",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about hills/climbs on Route 1",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 8/24]\nUser: I think Route 1 sounds interesting, but I'm a bit concerned about the elevati"
+      },
+      {
+        "id": "e81260fd-9fd7-4926-b206-dd8b8c4ee006",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Route 1 hill/climb details provided",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 9/24]\n(in reply to) User: I think Route 1 sounds interesting, but I'm a bit concerned abo"
+      },
+      {
+        "id": "bacab7ab-c984-421e-986b-553a8fca5dea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Route 1 hills/climbs profile and gradients",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 10/24]\n(in reply to) User: I think Route 1 sounds interesting, but I'm a bit concerned ab"
+      },
+      {
+        "id": "3b0e8c5a-768b-486d-aa9e-a4eea36b925a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Route 1 cycling advice on climbs and descents",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 11/24]\n(in reply to) User: I think Route 1 sounds interesting, but I'm a bit concerned ab"
+      },
+      {
+        "id": "526c0eb7-9e0d-428c-a7e6-cd32e5f117fd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Cycling route question about road surface on Route 1",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 12/24]\nUser: I think I can handle the elevation gain. Since I have my Garmin Edge 530, wh"
+      },
+      {
+        "id": "a51e6b9c-142d-4d69-a17b-50c4f6ec9c27",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Road Surface for Route 1 (good to excellent)",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 13/24]\n(in reply to) User: I think I can handle the elevation gain. Since I have my Garmi"
+      },
+      {
+        "id": "ab174fac-98b1-4939-8ccf-aa71303fc336",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Route road surface: mostly paved with short gravel sections",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 14/24]\n(in reply to) User: I think I can handle the elevation gain. Since I have my Garmi"
+      },
+      {
+        "id": "cc81bcf7-635a-4630-8928-bbfdbbecaab0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Route 1 road surface and tire guidance",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 15/24]\n(in reply to) User: I think I can handle the elevation gain. Since I have my Garmi"
+      },
+      {
+        "id": "d893ba30-9302-4ce0-9ac8-17a496833626",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bike recommendation request for a specific route",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 16/24]\nUser: What kind of bike do you recommend for this route? Would my road bike with a"
+      },
+      {
+        "id": "5c8a7016-dc6e-44a6-8927-bb55c60f3e42",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Road bike suitability for route with gravel sections",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 17/24]\n(in reply to) User: What kind of bike do you recommend for this route? Would my ro"
+      },
+      {
+        "id": "8ec5ac1d-2975-497e-b291-8695cde409f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Road bike suitability for Route 1 (Ultegra 22-speed)",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 18/24]\n(in reply to) User: What kind of bike do you recommend for this route? Would my ro"
+      },
+      {
+        "id": "feb6eba5-a94e-4141-8997-13acaf6d517b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Road bike can work for mixed route; consider gravel/adventure bike",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 19/24]\n(in reply to) User: What kind of bike do you recommend for this route? Would my ro"
+      },
+      {
+        "id": "126bc925-7413-4bde-bea4-4d9b2d3f5a9a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks what clothing/accessories to wear for bike route",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 20/24]\nUser: I think my road bike will be fine for this route. I've been riding it on som"
+      },
+      {
+        "id": "328021c3-29e9-48ce-a904-965a2ebbd504",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cycling route clothing/accessory recommendations",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 21/24]\n(in reply to) User: I think my road bike will be fine for this route. I've been ri"
+      },
+      {
+        "id": "5261972b-3b1c-44c2-9878-4914330c6c6f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Road biking gear checklist (helmet, water, tools, etc.)",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 22/24]\n(in reply to) User: I think my road bike will be fine for this route. I've been ri"
+      },
+      {
+        "id": "6e93ad95-ec3b-46cc-a240-d9ee0e63e975",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Carry ID, insurance, and emergency contact info",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 23/24]\n(in reply to) User: I think my road bike will be fine for this route. I've been ri"
+      },
+      {
+        "id": "1d23990e-79a8-4545-8d94-c6290afe1f1e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Cycling route advice and preparation tips (Route 1)",
+        "text": "[date: 2023-05-30T02:22:00+00:00 | context: Session 26fe8a605281 - happened on 2023-05-30 02:22:00 UTC. | turn 24/24]\n(in reply to) User: I think my road bike will be fine for this route. I've been ri"
+      }
+    ]
+  },
+  "context": {
+    "chars": 100420,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25105)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 3,
+    "gold_turns_present": 3,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 29217,
+    "prompt_tokens": 25137,
+    "completion_tokens": 986,
+    "reasoning_tokens": 3094,
+    "generate_time_ms": 27961.3695909502,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22579,
+        "completion_tokens": 314,
+        "reasoning_tokens": 1451,
+        "total_tokens": 24344
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 782,
+        "completion_tokens": 211,
+        "reasoning_tokens": 621,
+        "total_tokens": 1614
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 590,
+        "completion_tokens": 195,
+        "reasoning_tokens": 437,
+        "total_tokens": 1222
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1186,
+        "completion_tokens": 266,
+        "reasoning_tokens": 585,
+        "total_tokens": 2037
+      }
+    ]
+  },
+  "failure_label": "judge_disagreement"
+}

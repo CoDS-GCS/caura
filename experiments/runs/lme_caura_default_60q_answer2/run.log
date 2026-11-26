@@ -1,0 +1,92 @@
+Judges: primary gpt-4o, secondary gemini-3.5-flash-lite
+Restricting to 60 question IDs from 
+/shared_mnt/loubna/caura/experiments/configs/lme_subset60_from_mem0.txt
+
+Starting LongMemEval Benchmark
+Provider: caura | Pipeline: agentic-v1 | Questions: 60 | Run: lme_caura_default_60q_answer2
+
+Processing 60 questions with concurrency=5...
+  [1/60] #94f70d80 (single-session-user) in 1263ms ret / 7265ms gen
+  [2/60] #c960da58 (single-session-user) in 1195ms ret / 11242ms gen
+  [3/60] #ad7109d1 (single-session-user) in 1342ms ret / 11984ms gen
+  [4/60] #726462e0 (single-session-user) in 5024ms ret / 12679ms gen
+  [5/60] #75499fd8 (single-session-user) in 3293ms ret / 15295ms gen
+  [6/60] #21436231 (single-session-user) in 4350ms ret / 12008ms gen
+  [7/60] #36580ce8 (single-session-user) in 8793ms ret / 8833ms gen
+  [8/60] #3d86fd0a (single-session-user) in 8080ms ret / 12722ms gen
+  [9/60] #bc8a6e93_abs (single-session-user) in 2200ms ret / 16685ms gen
+  [10/60] #15745da0_abs (single-session-user) in 8173ms ret / 23227ms gen
+  [11/60] #6cb6f249 (multi-session) in 6385ms ret / 16024ms gen
+  [12/60] #gpt4_d12ceb0e (multi-session) in 2301ms ret / 16896ms gen
+  [13/60] #2ce6a0f2 (multi-session) in 4386ms ret / 30845ms gen
+  [14/60] #10d9b85a (multi-session) in 5008ms ret / 15560ms gen
+  [15/60] #edced276_abs (multi-session) in 1846ms ret / 15048ms gen
+  [16/60] #81507db6 (multi-session) in 2998ms ret / 22165ms gen
+  [17/60] #0a995998 (multi-session) in 1359ms ret / 65339ms gen
+  [18/60] #32260d93 (single-session-preference) in 1711ms ret / 23035ms gen
+  [19/60] #35a27287 (single-session-preference) in 2008ms ret / 27961ms gen
+  [20/60] #195a1a1b (single-session-preference) in 1413ms ret / 34507ms gen
+  [21/60] #b0479f84 (single-session-preference) in 2177ms ret / 21244ms gen
+  [22/60] #caf03d32 (single-session-preference) in 6463ms ret / 41257ms gen
+  [23/60] #09d032c9 (single-session-preference) in 4823ms ret / 34774ms gen
+  [24/60] #1da05512 (single-session-preference) in 2700ms ret / 35499ms gen
+  [25/60] #07b6f563 (single-session-preference) in 2412ms ret / 20925ms gen
+  [26/60] #77eafa52 (multi-session) in 369ms ret / 15932ms gen
+  [27/60] #0ea62687 (multi-session) in 802ms ret / 17134ms gen
+  [28/60] #0a34ad58 (single-session-preference) in 449ms ret / 27587ms gen
+  [29/60] #1c0ddc50 (single-session-preference) in 1681ms ret / 33203ms gen
+  [30/60] #7405e8b1 (multi-session) in 3144ms ret / 27679ms gen
+  [31/60] #gpt4_59149c77 (temporal-reasoning) in 1807ms ret / 16123ms gen
+  [32/60] #gpt4_7ddcf75f (temporal-reasoning) in 543ms ret / 12961ms gen
+  [33/60] #gpt4_1d4ab0c9 (temporal-reasoning) in 896ms ret / 15763ms gen
+  [34/60] #gpt4_85da3956 (temporal-reasoning) in 2603ms ret / 17720ms gen
+  [35/60] #gpt4_2d58bcd6 (temporal-reasoning) in 2229ms ret / 14044ms gen
+  [36/60] #4dfccbf8 (temporal-reasoning) in 3064ms ret / 13566ms gen
+  [37/60] #982b5123 (temporal-reasoning) in 2594ms ret / 26255ms gen
+  [38/60] #71017277 (temporal-reasoning) in 5856ms ret / 28937ms gen
+  [39/60] #gpt4_2c50253f (temporal-reasoning) in 3349ms ret / 15641ms gen
+  [40/60] #a3045048 (temporal-reasoning) in 7830ms ret / 10880ms gen
+  [41/60] #184da446 (knowledge-update) in 2824ms ret / 13120ms gen
+  [42/60] #a1eacc2a (knowledge-update) in 7467ms ret / 21490ms gen
+  [43/60] #5a4f22c0 (knowledge-update) in 11993ms ret / 9432ms gen
+  [44/60] #0f05491a (knowledge-update) in 8645ms ret / 21383ms gen
+  [45/60] #18bc8abd (knowledge-update) in 4917ms ret / 10252ms gen
+  [46/60] #50635ada (knowledge-update) in 3125ms ret / 14990ms gen
+  [47/60] #618f13b2 (knowledge-update) in 9916ms ret / 18838ms gen
+  [48/60] #dfde3500 (knowledge-update) in 4063ms ret / 11650ms gen
+  [49/60] #06db6396 (knowledge-update) in 2070ms ret / 12409ms gen
+  [50/60] #4c36ccef (single-session-assistant) in 1902ms ret / 10348ms gen
+  [51/60] #ceb54acb (single-session-assistant) in 2277ms ret / 12397ms gen
+  [52/60] #2133c1b5_abs (knowledge-update) in 2991ms ret / 23502ms gen
+  [53/60] #0e5e2d1a (single-session-assistant) in 9870ms ret / 14719ms gen
+  [54/60] #58470ed2 (single-session-assistant) in 11422ms ret / 7637ms gen
+  [55/60] #3249768e (single-session-assistant) in 12369ms ret / 7856ms gen
+  [56/60] #71a3fd6b (single-session-assistant) in 14865ms ret / 7984ms gen
+  [57/60] #a40e080f (single-session-assistant) in 2406ms ret / 10903ms gen
+  [58/60] #e48988bc (single-session-assistant) in 3563ms ret / 10018ms gen
+  [59/60] #e982271f (single-session-assistant) in 5938ms ret / 18798ms gen
+  [60/60] #778164c6 (single-session-assistant) in 3239ms ret / 26916ms gen
+
+Evaluating hypotheses with primary judge (gpt-4o)...
+Saved evaluation results to outputs/lme_caura_default_60q_answer2/eval_results.json
+Evaluating hypotheses with secondary judge (gemini-3.5-flash-lite)...
+Saved evaluation results to 
+outputs/lme_caura_default_60q_answer2/eval_results_gemini35flashlite.json
+                     LongMemEval Results: lme_caura_default_60q_answer2                     
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━┓
+┃ Category                  ┃ gpt-4o (primary) ┃ gemini-3.5-flash-lite (secondary) ┃ Total ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━┩
+│ single-session-user       │           100.0% │                            100.0% │    10 │
+│ multi-session             │            70.0% │                             70.0% │    10 │
+│ single-session-preference │            70.0% │                             70.0% │    10 │
+│ temporal-reasoning        │            90.0% │                             90.0% │    10 │
+│ knowledge-update          │           100.0% │                            100.0% │    10 │
+│ single-session-assistant  │           100.0% │                             90.0% │    10 │
+│ OVERALL                   │            88.3% │                             86.7% │    60 │
+└───────────────────────────┴──────────────────┴───────────────────────────────────┴───────┘
+Judge protocol: gpt-4o primary (LongMemEval reference judge, headline number); 
+gemini-3.5-flash-lite secondary (strict development judge); both always reported. Agreement 
+57/60; secondary verdicts in eval_results_gemini35flashlite.json
+
+HTML Benchmark Report: outputs/lme_caura_default_60q_answer2/report.html
+

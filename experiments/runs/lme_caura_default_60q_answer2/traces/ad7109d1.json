@@ -1,0 +1,1367 @@
+{
+  "question_id": "ad7109d1",
+  "question_type": "single-session-user",
+  "question": "What speed is my new internet plan?",
+  "gold_answer": "500 Mbps",
+  "prediction": "Your new internet plan speed is 500 Mbps.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 878,
+    "by_type": {
+      "action": 8,
+      "task": 80,
+      "plan": 18,
+      "preference": 80,
+      "episode": 77,
+      "decision": 12,
+      "fact": 603
+    },
+    "by_status": {
+      "active": 875,
+      "outdated": 3
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2583954,
+    "output_tokens": 124676,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What speed is my new internet plan?"
+    ],
+    "retrieve_time_ms": 1341.8186419876292,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "c0477287-c780-40b3-9f09-e926fc855e08",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User road trip history and travel plans",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 1/24]\nUser: I'm planning a road trip to the Grand Canyon with my friends next month and I"
+      },
+      {
+        "id": "1af2e2db-4ecf-440c-9e52-1f82f1c99b41",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User completed Yellowstone road trip",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 2/24]\n(in reply to) User: I'm planning a road trip to the Grand Canyon with my friends ne"
+      },
+      {
+        "id": "9246d2bc-e44b-4d06-8431-21d70dbdc484",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Restaurant recommendations near Mather Campground",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 3/24]\n(in reply to) User: I'm planning a road trip to the Grand Canyon with my friends ne"
+      },
+      {
+        "id": "026344e3-3c74-40b2-a2cf-37ff8b5ddef5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Restaurant recommendation near Mather Campground",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 4/24]\n(in reply to) User: I'm planning a road trip to the Grand Canyon with my friends ne"
+      },
+      {
+        "id": "325da545-7afa-4e0e-ae8e-7c7dfc211227",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining recommendations near Mather Campground",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 5/24]\n(in reply to) User: I'm planning a road trip to the Grand Canyon with my friends ne"
+      },
+      {
+        "id": "5b5bc170-7c14-4df8-b305-c6c8f0c8f5d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fuel efficiency of Ford F-150",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 6/24]\nUser: That's really helpful, thanks. I'm actually more concerned about fuel efficie"
+      },
+      {
+        "id": "5d1374e1-1354-474c-934d-4f9106cc8b90",
+        "score": 0.4123,
+        "memory_type": "fact",
+        "title": "Ford F-150 fuel economy estimates",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 7/24]\n(in reply to) User: That's really helpful, thanks. I'm actually more concerned abou"
+      },
+      {
+        "id": "a68262cd-cb7f-40d6-b83f-1813c3b6cc89",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Factors and tips for improving fuel efficiency in a Ford F-150",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 8/24]\n(in reply to) User: That's really helpful, thanks. I'm actually more concerned abou"
+      },
+      {
+        "id": "347c8c06-ac37-41fd-a882-ed80a02c8034",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fuel cost estimation resources for road trips",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 9/24]\n(in reply to) User: That's really helpful, thanks. I'm actually more concerned abou"
+      },
+      {
+        "id": "90e9e790-6ece-4f5a-a0bc-836e5a437481",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for scenic stop recommendations for SF to Grand Canyon road trip",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 10/24]\nUser: Since we're planning to drive from San Francisco to the Grand Canyon, I'm al"
+      },
+      {
+        "id": "5ff0304b-e43b-4e5b-9431-3153b2227316",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scenic stops from San Francisco to Grand Canyon",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 11/24]\n(in reply to) User: Since we're planning to drive from San Francisco to the Grand "
+      },
+      {
+        "id": "76c8d702-e870-420f-ac23-e4e9ecc14ff9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scenic stops between San Francisco and the Grand Canyon",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 12/24]\n(in reply to) User: Since we're planning to drive from San Francisco to the Grand "
+      },
+      {
+        "id": "4940d2d4-d1e2-4538-991a-8fee6834dc1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scenic stops between San Francisco and the Grand Canyon",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 13/24]\n(in reply to) User: Since we're planning to drive from San Francisco to the Grand "
+      },
+      {
+        "id": "749dfb42-b9ec-40cc-b965-e45c2df242ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wigwam Motels in Holbrook, Arizona",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 14/24]\n(in reply to) User: Since we're planning to drive from San Francisco to the Grand "
+      },
+      {
+        "id": "32398662-5e98-404f-a88f-eff35e4b2317",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scenic stops for San Francisco to Grand Canyon road trip",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 15/24]\n(in reply to) User: Since we're planning to drive from San Francisco to the Grand "
+      },
+      {
+        "id": "4b398d0f-c1b7-46a7-a74e-7509da9e0b99",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User trip to San Francisco via Sacramento",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 16/24]\nUser: That's really helpful. I think we'll definitely stop at the Hoover Dam and m"
+      },
+      {
+        "id": "9018124e-35d7-48c6-9ada-0da8aaf24d54",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User trip to San Francisco via Sacramento",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 17/24]\n(in reply to) User: That's really helpful. I think we'll definitely stop at the Ho"
+      },
+      {
+        "id": "6ed22645-3b87-446b-a258-2da42a27503d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User trip to San Francisco via Sacramento",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 18/24]\n(in reply to) User: That's really helpful. I think we'll definitely stop at the Ho"
+      },
+      {
+        "id": "532725bd-ab3d-4b80-bc8e-5552fa6be78b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User music preference: Radiohead",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 19/24]\nUser: I'm thinking of creating a playlist for our road trip to the Grand Canyon. I"
+      },
+      {
+        "id": "9b2b64b9-cf5e-4d11-8d4a-5c3065032e6e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User music preferences for road trip",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 20/24]\n(in reply to) User: I'm thinking of creating a playlist for our road trip to the G"
+      },
+      {
+        "id": "eea77084-ad16-4141-b36b-6a813f7bcbb9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Road trip music recommendations",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 21/24]\n(in reply to) User: I'm thinking of creating a playlist for our road trip to the G"
+      },
+      {
+        "id": "05d48c1f-e849-4324-a4eb-b7d7e36131e5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Road trip playlist creation plan",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 22/24]\nUser: That's really helpful, thanks! I think I'll create a playlist with a mix of "
+      },
+      {
+        "id": "a765803e-820a-40a7-b44d-c43a18d2eec5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User music preferences for Grand Canyon road trip",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 23/24]\n(in reply to) User: That's really helpful, thanks! I think I'll create a playlist "
+      },
+      {
+        "id": "e9fb0d0f-6f66-4b02-97fb-a5064b9edbbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Road trip playlist suggestion",
+        "text": "[date: 2023-05-20T10:43:00+00:00 | context: Session a96451ccb922 - happened on 2023-05-20 10:43:00 UTC. | turn 24/24]\n(in reply to) User: That's really helpful, thanks! I think I'll create a playlist "
+      },
+      {
+        "id": "7d39abce-9587-4734-b8c2-4574450fb14d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness member profiles and value propositions",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 1/19]\nUser: Can you write again those 10 contextual nudges personalized for each differen"
+      },
+      {
+        "id": "c594f23b-027f-45f1-a239-22412750004b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual nudges for Anytime Fitness members",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 2/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "62ef9760-32cf-47c8-bcc5-b9ecef7f9930",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness contextual member nudges",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 3/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "cf494bc3-7c0b-4107-a588-bad98f1ba382",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness member engagement nudges",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 4/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "2fb7613f-f5f9-4428-b0e0-17e233574296",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness contextual nudge strategies",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 5/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "5c71abd9-657f-41e5-94c3-159dd6a1054a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual nudge strategies for Anytime Fitness members",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 6/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "9687d133-aa8b-47eb-9c44-e081406d1dec",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness contextual engagement nudges",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 7/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "069638c7-78c5-4a45-a77a-3f152e85ee0e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Contextual Nudge Strategy for Anytime Fitness Members",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 8/19]\n(in reply to) User: Can you write again those 10 contextual nudges personalized for"
+      },
+      {
+        "id": "930cb26c-76bc-4e1e-85cb-e6a906be9464",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interaction session 0bdb62926129",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 9/19]\nUser: pls continue"
+      },
+      {
+        "id": "24b1d516-1354-4e69-90b3-36e48123435f",
+        "score": 0.3966,
+        "memory_type": "fact",
+        "title": "Nudge strategy by user segment",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 10/19]\n(in reply to) User: pls continue\n\nAssistant: | Nudge # | Young Adults/Students | P"
+      },
+      {
+        "id": "dee7db2a-76ca-4d12-a518-a70015e6ae93",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Fitness progress tracking strategies by demographic",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 11/19]\n(in reply to) User: pls continue\n\n| 10 | Highlight progress toward fitness goals, "
+      },
+      {
+        "id": "c88ffe2f-2f0d-41e5-874a-30d2cb0b40b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anytime Fitness contextual nudge strategy",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 12/19]\n(in reply to) User: pls continue\n\nThese contextual nudges take into account the di"
+      },
+      {
+        "id": "b0537bad-a987-41d6-991d-69f21d006fc6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Map contextual nudges to BCTs",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 13/19]\nUser: Can you map the previous 10 contextual nudges for various members' type with"
+      },
+      {
+        "id": "b52dabee-5f3d-4e53-8997-c7ba417f9803",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mapping of contextual nudges to BCTs",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 14/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "a593f72f-1deb-4de7-9083-27aeb8fa9021",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual Nudge Mapping to Behavior Change Techniques",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 15/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "a796391c-16e6-46fb-8348-7aebd965c513",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual Nudge Mapping by User Type and BCT",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 16/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "1294f180-8077-452a-aa33-8f2e4c767b5c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual Nudge Mapping to Behavior Change Techniques",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 17/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "4973b1c1-7bad-4160-b9c9-6bdc57c5a919",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual Nudge Mapping: Social Comparison and Salience of Consequences",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 18/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "7d67b2f1-029b-4a15-ba26-d2bf8a1c1b4b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Behavior Change Technique (BCT) mapping for reward nudges",
+        "text": "[date: 2023-05-22T07:10:00+00:00 | context: Session 0bdb62926129 - happened on 2023-05-22 07:10:00 UTC. | turn 19/19]\n(in reply to) User: Can you map the previous 10 contextual nudges for various memb"
+      },
+      {
+        "id": "bf8ec17b-5e4c-4658-b05a-b6ebef9335d0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research sources for thesis on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 1/42]\nUser: I'm looking for some help with finding reliable sources on social media's imp"
+      },
+      {
+        "id": "c4072b6c-2c66-4e3e-a115-aaaccd82a4a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academic resources for social media and mental health research",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 2/42]\n(in reply to) User: I'm looking for some help with finding reliable sources on soci"
+      },
+      {
+        "id": "0ec85f23-05f1-4e6d-96ba-61ae87074688",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academic journals on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 3/42]\n(in reply to) User: I'm looking for some help with finding reliable sources on soci"
+      },
+      {
+        "id": "fda913ef-81b9-4640-a55a-9ce8c8b21c63",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academic research databases for mental health and social media",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 4/42]\n(in reply to) User: I'm looking for some help with finding reliable sources on soci"
+      },
+      {
+        "id": "86cc0ec5-13e2-47ba-9ecd-d4b407e52c2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reliable sources on social media's impact on mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 5/42]\n(in reply to) User: I'm looking for some help with finding reliable sources on soci"
+      },
+      {
+        "id": "e3c75519-1389-4c51-b0d1-b9efdc60283c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research strategy for social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 6/42]\n(in reply to) User: I'm looking for some help with finding reliable sources on soci"
+      },
+      {
+        "id": "a2ec2026-0c2f-47b0-bfb9-a5cfb921ba97",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research request: Social media impact on mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 7/42]\nUser: I'm interested in exploring the topic of social media's impact on mental heal"
+      },
+      {
+        "id": "4851aece-82f8-40f0-88e9-ffc78763873f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 8/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact "
+      },
+      {
+        "id": "3e62a498-434b-4b63-ae96-29304c192f0c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media impact on young adult mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 9/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact "
+      },
+      {
+        "id": "f31d3da9-a27b-47da-9c36-f6228ee99c04",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 10/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact"
+      },
+      {
+        "id": "35f7aca3-ba5d-47be-806c-25a8c98e2fe7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media impact on mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 11/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact"
+      },
+      {
+        "id": "9d14ca6d-e4c0-4bc7-8a17-0afdfccc8390",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 12/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact"
+      },
+      {
+        "id": "1e05e8db-8b51-4f12-845f-3d8f45cc02a8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on social media and mental health",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 13/42]\n(in reply to) User: I'm interested in exploring the topic of social media's impact"
+      },
+      {
+        "id": "b45910ac-79aa-4cc5-8d90-9b5f64becd55",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research methodology for social media impact study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 14/42]\nUser: I'm particularly interested in exploring the impact of social media on self-"
+      },
+      {
+        "id": "153c4901-21ea-4cef-b3b0-8df72d97983d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research operationalization for social media impact study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 15/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "a1269976-e120-4ccc-8649-f2999cd86435",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research measures for social media, self-esteem, and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 16/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "2b410a53-90d0-494b-9fdc-8956217ad1e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social Media Addiction Scale (SMAS) definition",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 17/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "49d21baf-8d89-4891-b2b0-2a2c723ae0a1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research operationalization for social media impact study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 18/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "16f3d05b-ee42-4a26-b27a-7e933bd1fdeb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodologies for social media and self-esteem study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 19/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "a0f89443-f04a-4c74-8b28-653eac832e77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodology for audio/video transcription",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 20/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "7c6baccc-d439-4f02-b1c8-7cdc6d9b3873",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodologies for social media impact studies",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 21/42]\n(in reply to) User: I'm particularly interested in exploring the impact of social "
+      },
+      {
+        "id": "6ad146b6-16df-422f-b801-bf00bf3d9e88",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research proposal: Instagram impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 22/42]\nUser: I'm thinking of exploring the impact of social media on body image in young "
+      },
+      {
+        "id": "78c0865c-6499-45c5-9464-74fc5751de1a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Thesis proposal submission and research discussion",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 23/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "f1b85a6c-3069-453e-ba4e-4b366b611f6f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodology for Instagram body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 24/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "d0a04ce6-efe8-4ebc-8f2b-0ac494d1c520",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodology for Instagram body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 25/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "0295a9b0-1c27-43aa-882b-d713090974e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodology for Instagram body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 26/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "d173e218-89eb-480f-bd35-073a0ffa2123",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research methodologies for Instagram body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 27/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "332696ea-aee6-4bc8-ad8f-43e2e5251ec3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research suggestions for thesis on Instagram and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 28/42]\n(in reply to) User: I'm thinking of exploring the impact of social media on body i"
+      },
+      {
+        "id": "3794ba6c-9381-44f1-9dcc-198f1856555b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research inquiry: Instagram impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 29/42]\nUser: I'm interested in exploring the impact of Instagram on body image in young a"
+      },
+      {
+        "id": "fb88a1ec-07f5-4193-99f5-e75bf9c1d79e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research topics on Instagram's impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 30/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "47ed400b-0638-4bad-97aa-682ae0456e6f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research questions on Instagram's impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 31/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "8d973fca-d221-4263-97a3-8289b5bb0765",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research questions on Instagram and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 32/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "8d132959-2df8-49b8-af87-bf9c866aa6e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research hypotheses on Instagram and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 33/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "6574b380-e2d2-4fa7-90e4-88fd7daeeb35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research hypotheses on Instagram and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 34/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "80d664f8-ce7e-4a1a-abec-f475672f3abf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research hypothesis on Instagram content and body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 35/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "97ba64b4-3d52-4dd2-a701-9e2a05435cca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research suggestions for Instagram and body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 36/42]\n(in reply to) User: I'm interested in exploring the impact of Instagram on body im"
+      },
+      {
+        "id": "380d5720-90a0-49fa-bfde-45911ad6438a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research proposal: Instagram impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 37/42]\nUser: I'm excited to help you explore the impact of Instagram on body image in you"
+      },
+      {
+        "id": "599a4b98-a46a-43a3-af5b-3003267eedf2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research hypothesis on Instagram's impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 38/42]\n(in reply to) User: I'm excited to help you explore the impact of Instagram on bod"
+      },
+      {
+        "id": "7875a94e-39dc-437a-b61b-126648b2f25e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Research plan for Instagram body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 39/42]\n(in reply to) User: I'm excited to help you explore the impact of Instagram on bod"
+      },
+      {
+        "id": "08f7731b-96c0-40b0-aab2-5acea63d332d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Validated measures for body image and social media research",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 40/42]\n(in reply to) User: I'm excited to help you explore the impact of Instagram on bod"
+      },
+      {
+        "id": "b5f12347-fc20-460f-b6ce-e3374a5bc28e",
+        "score": 0.3938,
+        "memory_type": "plan",
+        "title": "Research plan for Instagram and body image study",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 41/42]\n(in reply to) User: I'm excited to help you explore the impact of Instagram on bod"
+      },
+      {
+        "id": "50dcba89-802a-4c64-b5ed-09872f21a881",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research hypothesis on Instagram's impact on body image",
+        "text": "[date: 2023-05-23T12:00:00+00:00 | context: Session cc877255a4c6 - happened on 2023-05-23 12:00:00 UTC. | turn 42/42]\n(in reply to) User: I'm excited to help you explore the impact of Instagram on bod"
+      },
+      {
+        "id": "8a9975ea-2cea-448b-82f3-fa89673fa211",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery life optimization tips",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 1/27]\nUser: I'm having some issues with my laptop's battery life. Can you give me some ti"
+      },
+      {
+        "id": "281838d5-f4bb-4cf6-9bca-33ee5ec24301",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery optimization tips",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 2/27]\n(in reply to) User: I'm having some issues with my laptop's battery life. Can you g"
+      },
+      {
+        "id": "4232bf90-6592-4e31-bba4-2d43f6248b2e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery optimization tips",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 3/27]\n(in reply to) User: I'm having some issues with my laptop's battery life. Can you g"
+      },
+      {
+        "id": "66065232-b7e0-4108-99de-90a1fb7c2a77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery maintenance tips",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 4/27]\n(in reply to) User: I'm having some issues with my laptop's battery life. Can you g"
+      },
+      {
+        "id": "463f791e-1ec6-4c88-969e-230ba1b4c47f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery maintenance best practices",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 5/27]\n(in reply to) User: I'm having some issues with my laptop's battery life. Can you g"
+      },
+      {
+        "id": "e1d6ad7d-e20d-4941-829b-1a486c89d457",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for extending laptop battery life",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 6/27]\n(in reply to) User: I'm having some issues with my laptop's battery life. Can you g"
+      },
+      {
+        "id": "40eb1cde-1227-42db-96fe-0b0b833670a3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check laptop battery health",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 7/27]\nUser: I've already tried some of those tips, but it's still not ideal. What's the b"
+      },
+      {
+        "id": "a442a689-0ce1-42db-aea8-cd73ffb6d005",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Methods for checking laptop battery health",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 8/27]\n(in reply to) User: I've already tried some of those tips, but it's still not ideal"
+      },
+      {
+        "id": "9b10e7bd-5b30-48eb-a282-fab675fddd22",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Methods for checking laptop battery health",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 9/27]\n(in reply to) User: I've already tried some of those tips, but it's still not ideal"
+      },
+      {
+        "id": "f7e17f2c-0aaa-430e-83d4-c5c0eca7e208",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Indicators of laptop battery degradation",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 10/27]\n(in reply to) User: I've already tried some of those tips, but it's still not idea"
+      },
+      {
+        "id": "75eb1f93-c425-463b-bb83-c0174c9520f9",
+        "score": 0.4712,
+        "memory_type": "fact",
+        "title": "User internet speed upgrade",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 11/27]\nUser: I did notice that my internet speed has been really good lately, especially "
+      },
+      {
+        "id": "75b4da38-d006-4694-aef5-2069632f1bc0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Factors affecting laptop battery lifespan",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 12/27]\n(in reply to) User: I did notice that my internet speed has been really good latel"
+      },
+      {
+        "id": "ce5a4d82-308e-4136-ba30-c1dbc9734d78",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laptop battery lifespan degradation guidelines",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 13/27]\n(in reply to) User: I did notice that my internet speed has been really good latel"
+      },
+      {
+        "id": "bff03e12-7690-4c5f-bf2a-d2f08fb99baa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User internet speed upgrade",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 14/27]\n(in reply to) User: I did notice that my internet speed has been really good latel"
+      },
+      {
+        "id": "179ff69e-f9a9-4cc5-b77a-923e744ab0d1",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research battery disposal methods",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 15/27]\nUser: That's really helpful, thanks. I think I'll look into replacing the battery "
+      },
+      {
+        "id": "59b4a557-e0a2-4ccb-9cd4-4814ce92cf60",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for lithium-ion battery disposal",
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 16/27]\n(in reply to) User: That's really helpful, thanks. I think I'll look into replacin"
+      },
+      {
+        "id": "95f7af49-a5a7-4249-9535-c20b671a7757",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 17/27]\n(in reply to) User: That's really helpful, thanks. I think I'll look into replacin"
+      },
+      {
+        "id": "68d55b93-b220-4d45-8a73-f0873a8e7dff",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 18/27]\n(in reply to) User: That's really helpful, thanks. I think I'll look into replacin"
+      },
+      {
+        "id": "ab3ce4d2-adc9-467a-a711-12880364fa06",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 19/27]\n(in reply to) User: That's really helpful, thanks. I think I'll look into replacin"
+      },
+      {
+        "id": "9cff4a1e-50f9-482a-8566-88a05fd1a8e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 20/27]\nUser: I'll definitely look into recycling my old battery. Thanks for the tips! I'm"
+      },
+      {
+        "id": "57604585-72b1-4957-8991-9c79272f5fe7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 21/27]\n(in reply to) User: I'll definitely look into recycling my old battery. Thanks for"
+      },
+      {
+        "id": "9cb51d9a-46e2-41eb-a8a0-c33b5a0e27b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 22/27]\n(in reply to) User: I'll definitely look into recycling my old battery. Thanks for"
+      },
+      {
+        "id": "3b1f3c32-1107-4181-ad62-f7147b0f3a75",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 23/27]\n(in reply to) User: I'll definitely look into recycling my old battery. Thanks for"
+      },
+      {
+        "id": "72314c5e-92ed-425f-8a75-06e2fe91cd7e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 24/27]\n(in reply to) User: I'll definitely look into recycling my old battery. Thanks for"
+      },
+      {
+        "id": "8875d025-df28-4690-926c-adb5f47f92fe",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 25/27]\nUser: I actually already got a Western Digital 2TB external hard drive, and it's b"
+      },
+      {
+        "id": "932674a1-3966-44d4-8692-2c5892b9fe7d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 26/27]\n(in reply to) User: I actually already got a Western Digital 2TB external hard dri"
+      },
+      {
+        "id": "337a93d4-0cd5-4d8b-b2db-428d07fbe19e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-24T03:21:00+00:00 | context: Session 9f4a4d8274fb - happened on 2023-05-24 03:21:00 UTC. | turn 27/27]\n(in reply to) User: I actually already got a Western Digital 2TB external hard dri"
+      },
+      {
+        "id": "b756ebca-4bdc-480d-b589-ee777870beeb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User triathlon training and soccer league update",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 1/26]\nUser: I'm training for a sprint triathlon on April 16th and I'm looking for some ad"
+      },
+      {
+        "id": "07720823-547f-4d3c-9d74-d36622719ccb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Nutrition recommendations for sprint triathlon training",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 2/26]\n(in reply to) User: I'm training for a sprint triathlon on April 16th and I'm looki"
+      },
+      {
+        "id": "87a3a3c2-0231-4c02-8cc2-56751fe0c960",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Endurance athlete nutrition recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 3/26]\n(in reply to) User: I'm training for a sprint triathlon on April 16th and I'm looki"
+      },
+      {
+        "id": "e9e8f624-5a0e-4bd5-a50f-216ce1d977dc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Protein supplement recommendations for endurance athletes",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 4/26]\n(in reply to) User: I'm training for a sprint triathlon on April 16th and I'm looki"
+      },
+      {
+        "id": "40374762-fedc-43d7-8ae4-fb14720ac561",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Endurance athlete nutrition guidelines",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 5/26]\n(in reply to) User: I'm training for a sprint triathlon on April 16th and I'm looki"
+      },
+      {
+        "id": "7f5a79ee-64d0-4ca2-bcce-9caf15c24c4b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User dietary preferences for endurance training",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 6/26]\nUser: I've been trying out Clif Bars and Gu Chomps during my long bike rides, but I"
+      },
+      {
+        "id": "767ae44a-dd07-4262-82d0-82c149eee1e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Plant-based protein powder recommendations for endurance athletes",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 7/26]\n(in reply to) User: I've been trying out Clif Bars and Gu Chomps during my long bik"
+      },
+      {
+        "id": "2ae0cfa4-f9cf-4c54-83b8-1b4e0e01df8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Plant-based protein powder recommendations for endurance athletes",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 8/26]\n(in reply to) User: I've been trying out Clif Bars and Gu Chomps during my long bik"
+      },
+      {
+        "id": "691b3087-ef19-46a9-9dcb-23463e6dd1a1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Plant-based protein powder recommendations for endurance athletes",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 9/26]\n(in reply to) User: I've been trying out Clif Bars and Gu Chomps during my long bik"
+      },
+      {
+        "id": "f89311e1-33e9-49f5-8f39-4557f9a956ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for selecting plant-based protein powder",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 10/26]\n(in reply to) User: I've been trying out Clif Bars and Gu Chomps during my long bi"
+      },
+      {
+        "id": "36d33856-da0d-4f83-a3aa-e583a617006d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry about Growing Naturals Rice Protein",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 11/26]\nUser: I've been using Vega Sport Pea Protein for a while now, but I'm interested i"
+      },
+      {
+        "id": "3f03513d-a12e-4c07-a84d-fdc658047b2c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Product details for Growing Naturals Rice Protein",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 12/26]\n(in reply to) User: I've been using Vega Sport Pea Protein for a while now, but I'"
+      },
+      {
+        "id": "3400560b-2cb6-4020-bb6f-f339cf1982c3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Product details for Growing Naturals Rice Protein",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 13/26]\n(in reply to) User: I've been using Vega Sport Pea Protein for a while now, but I'"
+      },
+      {
+        "id": "f3e40475-d7cc-40c8-90ed-988c81f4ed77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Growing Naturals Rice Protein product details",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 14/26]\n(in reply to) User: I've been using Vega Sport Pea Protein for a while now, but I'"
+      },
+      {
+        "id": "e6c9fc9d-0b5b-40c1-9a48-16bb3e8759a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User interests and soccer league progress",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 15/26]\nUser: I'm thinking of trying out a new energy bar for my upcoming cycling event. C"
+      },
+      {
+        "id": "e27ac51d-2c37-445a-91ee-de0aef927a36",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User soccer league update",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 16/26]\n(in reply to) User: I'm thinking of trying out a new energy bar for my upcoming cy"
+      },
+      {
+        "id": "bd79dc38-fcb3-4ca7-8c59-d90065c19c40",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Low-sugar, high-protein energy bar recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 17/26]\n(in reply to) User: I'm thinking of trying out a new energy bar for my upcoming cy"
+      },
+      {
+        "id": "416035a6-d1b4-4df3-9748-6afe5c8e8005",
+        "score": 0.3995,
+        "memory_type": "fact",
+        "title": "Nutritional guidelines for energy bars",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 18/26]\n(in reply to) User: I'm thinking of trying out a new energy bar for my upcoming cy"
+      },
+      {
+        "id": "21e8e29f-88f7-4f78-87d8-be25c7a6b1f4",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for pre-ride meal recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 19/26]\nUser: I'm planning to do a 30-mile bike ride this weekend, and I want to make sure"
+      },
+      {
+        "id": "d36ca0f6-45c0-4269-a47f-a5eb993891f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-ride meal recommendations for cycling",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 20/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "3e1c7e6d-769f-494c-a4c4-dc77d727d7a0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-ride nutrition recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 21/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "7f566c94-b4ee-4dff-a7d6-3a0a9d125cbb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cycling nutrition advice",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 22/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "ec649312-1c59-4c12-bb8c-ca0482eec847",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User personal updates: bike ride and soccer league",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 23/26]\nUser: I'm planning to do a 30-mile bike ride this weekend, and I want to make sure"
+      },
+      {
+        "id": "6b74cf3a-e4c0-4d00-afa0-2b3a9486bae2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-ride meal recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 24/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "bb9b5b09-2279-4cdb-b594-aba37d391694",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-ride meal recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 25/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "9b22e0f1-0443-4a77-9360-7310236f66a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-ride fueling recommendations",
+        "text": "[date: 2023-05-25T22:45:00+00:00 | context: Session ebe224b48d75 - happened on 2023-05-25 22:45:00 UTC. | turn 26/26]\n(in reply to) User: I'm planning to do a 30-mile bike ride this weekend, and I wan"
+      },
+      {
+        "id": "6fca4dee-7889-4cb9-948a-bc4a433dc433",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggest hashtags for Marvel movie tweet",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 1/24]\nUser: I'm trying to increase my Twitter engagement, and I was wondering if you coul"
+      },
+      {
+        "id": "bdc99c74-6d9c-4a1e-b504-b7c9b0a93ccd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twitter hashtag suggestions for Marvel movie content",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 2/24]\n(in reply to) User: I'm trying to increase my Twitter engagement, and I was wonderi"
+      },
+      {
+        "id": "e80c3ac2-d7f9-42ca-826a-344077c00ebd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twitter engagement strategy for movie-related content",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 3/24]\n(in reply to) User: I'm trying to increase my Twitter engagement, and I was wonderi"
+      },
+      {
+        "id": "bc19d907-ce38-46f4-a22a-c38b4c0b3f07",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twitter engagement advice",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 4/24]\n(in reply to) User: I'm trying to increase my Twitter engagement, and I was wonderi"
+      },
+      {
+        "id": "a57e6df3-eeac-4083-bfcb-d09ed9c43eb1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry regarding Twitter poll engagement",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 5/24]\nUser: That's really helpful, thanks for the suggestions! I'll definitely use them f"
+      },
+      {
+        "id": "ccc3f9d2-619b-4d91-b05b-6c7080db038d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of Twitter polls for engagement",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 6/24]\n(in reply to) User: That's really helpful, thanks for the suggestions! I'll definit"
+      },
+      {
+        "id": "56a30120-ce67-4285-8e2f-d433768e9adf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits and best practices for Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 7/24]\n(in reply to) User: That's really helpful, thanks for the suggestions! I'll definit"
+      },
+      {
+        "id": "2f705dbd-1291-4b71-93c6-7034d0dd3663",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 8/24]\n(in reply to) User: That's really helpful, thanks for the suggestions! I'll definit"
+      },
+      {
+        "id": "dd5d0144-1bc6-4eba-9c98-b2c002995e8d",
+        "score": null,
+        "memory_type": "action",
+        "title": "Suggested Twitter engagement strategy",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 9/24]\n(in reply to) User: That's really helpful, thanks for the suggestions! I'll definit"
+      },
+      {
+        "id": "7e5024ec-f80b-4a37-b518-e5f1ab39fe8c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorming Twitter poll questions for Marvel movie",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 10/24]\nUser: So, I was thinking of creating a Twitter poll about the Marvel movie, but I'"
+      },
+      {
+        "id": "5c4c981e-ad81-4730-ac2e-0ce1ecd1ae42",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Marvel movie Twitter poll engagement strategies",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 11/24]\n(in reply to) User: So, I was thinking of creating a Twitter poll about the Marvel"
+      },
+      {
+        "id": "1fd1f9a9-622d-48ec-91ce-e29bb0194ea6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Engagement strategies for Marvel-themed Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 12/24]\n(in reply to) User: So, I was thinking of creating a Twitter poll about the Marvel"
+      },
+      {
+        "id": "21848308-19a7-441b-9c72-03404e106f60",
+        "score": null,
+        "memory_type": "task",
+        "title": "Suggestion for Marvel movie Twitter poll",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 13/24]\n(in reply to) User: So, I was thinking of creating a Twitter poll about the Marvel"
+      },
+      {
+        "id": "e6fa2f0a-f7ca-44ee-aeac-d8fd4843a6d0",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to use 'Favorite Character' question",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 14/24]\nUser: That's a great help! I think I'll go with the \"Favorite Character\" question."
+      },
+      {
+        "id": "76980991-cc0d-4940-8b9a-1d82c43352cb",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to include 'Other' option in Marvel character poll",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 15/24]\n(in reply to) User: That's a great help! I think I'll go with the \"Favorite Charac"
+      },
+      {
+        "id": "b6b5ddbb-4715-4a8c-810c-5e976b424fa1",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision on Favorite Character survey structure",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 16/24]\n(in reply to) User: That's a great help! I think I'll go with the \"Favorite Charac"
+      },
+      {
+        "id": "737c0f6f-7191-4e76-b3be-d86d9043a97e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Optimal number of options for Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 17/24]\nUser: What do you think about the optimal number of options for a Twitter poll? Sh"
+      },
+      {
+        "id": "14463568-7cbc-4918-baa2-2d5be27e2a08",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Optimal number of options for Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 18/24]\n(in reply to) User: What do you think about the optimal number of options for a Tw"
+      },
+      {
+        "id": "496baffc-56e2-416a-828a-1f02ea45065a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Optimal Twitter poll options guidance",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 19/24]\n(in reply to) User: What do you think about the optimal number of options for a Tw"
+      },
+      {
+        "id": "444532dc-da9e-4276-8f5d-3023ec6ba5c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for Twitter polls",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 20/24]\n(in reply to) User: What do you think about the optimal number of options for a Tw"
+      },
+      {
+        "id": "07d50e58-d6bd-4672-aa3e-3a09055ac771",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to limit poll to 4 options",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 21/24]\nUser: I think I'll stick to 4 options for my poll, including the \"Other\" option. T"
+      },
+      {
+        "id": "375d00a4-588e-4537-95ff-3df9ac3aac72",
+        "score": 0.39,
+        "memory_type": "decision",
+        "title": "Decision to limit poll to 4 options",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 22/24]\n(in reply to) User: I think I'll stick to 4 options for my poll, including the \"Ot"
+      },
+      {
+        "id": "2db8012c-4cb1-4ef7-8310-676e396648c5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Engagement strategy for Twitter poll",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 23/24]\n(in reply to) User: I think I'll stick to 4 options for my poll, including the \"Ot"
+      },
+      {
+        "id": "b74c09bc-b0ba-412d-9ff2-b9bec39d0520",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to limit poll to 4 options",
+        "text": "[date: 2023-05-28T03:32:00+00:00 | context: Session 3876bc978342 - happened on 2023-05-28 03:32:00 UTC. | turn 24/24]\n(in reply to) User: I think I'll stick to 4 options for my poll, including the \"Ot"
+      },
+      {
+        "id": "bbec353b-641f-4e91-8b8d-3a189f0dc55b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended tools for keyword research and social media analytics",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 6/25]\n(in reply to) User: What tools do you recommend for keyword research and social med"
+      },
+      {
+        "id": "ed4389ed-618d-4f84-81f6-d63363cd6321",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for social media headline tips",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 7/25]\nUser: I haven't used SEMrush before, I'll definitely check it out. Do you have any "
+      },
+      {
+        "id": "b791df62-3ccf-41ed-821f-92b31957f15d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for crafting social media headlines",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 8/25]\n(in reply to) User: I haven't used SEMrush before, I'll definitely check it out. Do"
+      },
+      {
+        "id": "331095d6-9820-490d-b7c5-7ec3ff37cc09",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for social media headlines",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 9/25]\n(in reply to) User: I haven't used SEMrush before, I'll definitely check it out. Do"
+      },
+      {
+        "id": "07f75c50-0b09-42d4-91ee-bc83652be4d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media headline strategy",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 10/25]\n(in reply to) User: I haven't used SEMrush before, I'll definitely check it out. D"
+      },
+      {
+        "id": "fa767c5a-dea9-4948-bfff-c134dc1a6d3b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for expressive social media headlines",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 11/25]\nUser: These are all great tips! I especially like the idea of using emoticons and "
+      },
+      {
+        "id": "75dd3d88-0cba-426b-80a1-fe9da1bfebeb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for social media headline customization",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 12/25]\n(in reply to) User: These are all great tips! I especially like the idea of using "
+      },
+      {
+        "id": "2c7b65c9-1fbb-4155-af9a-6a78a42c25f5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Social media headline strategy",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 13/25]\n(in reply to) User: These are all great tips! I especially like the idea of using "
+      },
+      {
+        "id": "5e601b5f-54bc-4c78-996c-41900f7b3946",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in content creation resources",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 14/25]\nUser: I'll definitely take all these tips into account when creating my headlines."
+      },
+      {
+        "id": "c3b076d3-dc14-4a8d-b2a9-1f80ea9127de",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for creating engaging content",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 15/25]\n(in reply to) User: I'll definitely take all these tips into account when creating"
+      },
+      {
+        "id": "60d3f92a-a664-44b6-8529-8f7a00175d5c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for creating engaging content",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 16/25]\n(in reply to) User: I'll definitely take all these tips into account when creating"
+      },
+      {
+        "id": "85073f44-37f5-46ee-ae21-7c5879f09339",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Content creation and strategy advice",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 17/25]\n(in reply to) User: I'll definitely take all these tips into account when creating"
+      },
+      {
+        "id": "ea74d473-4cc4-4c32-b138-b9b9739362ca",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for content posting frequency advice",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 18/25]\nUser: I'll definitely start using these tips to create more engaging content. Do y"
+      },
+      {
+        "id": "6a34246d-3199-4a29-8f45-0c6a33193287",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Content posting frequency guidelines",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 19/25]\n(in reply to) User: I'll definitely start using these tips to create more engaging"
+      },
+      {
+        "id": "98670d98-2764-44f5-a92a-666191136eeb",
+        "score": 0.3899,
+        "memory_type": "fact",
+        "title": "Best practices for social media posting frequency",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 20/25]\n(in reply to) User: I'll definitely start using these tips to create more engaging"
+      },
+      {
+        "id": "911aec2e-926e-468e-81cf-f6dd399309ec",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content posting frequency guidance",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 21/25]\n(in reply to) User: I'll definitely start using these tips to create more engaging"
+      },
+      {
+        "id": "f1ef132d-4003-4851-8b5d-bcab3113bef4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for weekly content posting schedule",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 22/25]\nUser: I think I'll start with a weekly posting schedule and see how my audience re"
+      },
+      {
+        "id": "0ffe0045-5304-4862-b3d5-6b65ba242d67",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for content calendar organization",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 23/25]\n(in reply to) User: I think I'll start with a weekly posting schedule and see how "
+      },
+      {
+        "id": "51804086-a0be-417a-a0b0-7d09199e86c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for content calendar organization",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 24/25]\n(in reply to) User: I think I'll start with a weekly posting schedule and see how "
+      },
+      {
+        "id": "3ed5b012-ea8a-4bfd-befa-5d3ee3ed0a65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing a content calendar",
+        "text": "[date: 2023-05-30T20:19:00+00:00 | context: Session 703428c09a3d - happened on 2023-05-30 20:19:00 UTC. | turn 25/25]\n(in reply to) User: I think I'll start with a weekly posting schedule and see how "
+      }
+    ]
+  },
+  "context": {
+    "chars": 97108,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24277)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 23823,
+    "prompt_tokens": 22905,
+    "completion_tokens": 120,
+    "reasoning_tokens": 798,
+    "generate_time_ms": 11983.566836919636,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 21868,
+        "completion_tokens": 60,
+        "reasoning_tokens": 461,
+        "total_tokens": 22389
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 516,
+        "completion_tokens": 12,
+        "reasoning_tokens": 228,
+        "total_tokens": 756
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 521,
+        "completion_tokens": 48,
+        "reasoning_tokens": 109,
+        "total_tokens": 678
+      }
+    ]
+  },
+  "failure_label": null
+}

@@ -1,0 +1,1332 @@
+{
+  "question_id": "77eafa52",
+  "question_type": "multi-session",
+  "question": "How much more did I have to pay for the trip after the initial quote?",
+  "gold_answer": "$300",
+  "prediction": "You had to pay $300 more for the trip after the initial quote, as the price changed from the initial quote of $2,500 to the corrected price of $2,800 ($2,800 - $2,500 = $300).",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 889,
+    "by_type": {
+      "preference": 131,
+      "fact": 386,
+      "task": 63,
+      "episode": 277,
+      "action": 6,
+      "decision": 5,
+      "plan": 21
+    },
+    "by_status": {
+      "active": 888,
+      "conflicted": 1
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2616327,
+    "output_tokens": 126238,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How much more did I have to pay for the trip after the initial quote?"
+    ],
+    "retrieve_time_ms": 368.8176670111716,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "2a79a693-7a11-415f-b407-841c7e9f0a09",
+        "score": null,
+        "memory_type": "task",
+        "title": "Speed up Japan trip flight ticket confirmation (Sakura Travel)",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 1/19]\nUser: I'm planning a trip to Japan and I'm trying to finalize my travel arrangement"
+      },
+      {
+        "id": "75d9aac1-b7b2-4f76-8979-997aff0a0f4e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sakura Travel Agency may be non-existent; advise fraud-protection steps",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 2/19]\n(in reply to) User: I'm planning a trip to Japan and I'm trying to finalize my trav"
+      },
+      {
+        "id": "571c157f-08e3-4de9-ae5f-aa398c17c3f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for handling potential travel agency scam",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 3/19]\n(in reply to) User: I'm planning a trip to Japan and I'm trying to finalize my trav"
+      },
+      {
+        "id": "cad6a121-1494-4fb5-ae6d-f2a0a9414a98",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Caution when paying travel agencies online",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 4/19]\n(in reply to) User: I'm planning a trip to Japan and I'm trying to finalize my trav"
+      },
+      {
+        "id": "88ba1c48-5e05-4417-9f81-6d298adeda76",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about disputing bank transfer and flight ticket update",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 5/19]\nUser: I didn't pay by credit card, I paid by bank transfer, so I'm not sure if I ca"
+      },
+      {
+        "id": "35454840-96ce-4551-8af5-a508bdb74444",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on disputing bank transfer vs credit card charge",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 6/19]\n(in reply to) User: I didn't pay by credit card, I paid by bank transfer, so I'm no"
+      },
+      {
+        "id": "94faf73e-775f-4b00-825f-7e105d3f0f87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on disputing bank transfer vs contacting travel agency",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 7/19]\n(in reply to) User: I didn't pay by credit card, I paid by bank transfer, so I'm no"
+      },
+      {
+        "id": "d895cbc3-412d-4bc1-bf02-fadf6772a498",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on disputing potential travel payment fraud",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 8/19]\n(in reply to) User: I didn't pay by credit card, I paid by bank transfer, so I'm no"
+      },
+      {
+        "id": "54ee506b-30fc-42f1-919a-1dedd309c19f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request flight/hotel details and itinerary from Sakura Travel",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 9/19]\n(in reply to) User: I didn't pay by credit card, I paid by bank transfer, so I'm no"
+      },
+      {
+        "id": "b4d37492-fcd4-4221-871e-c167cf96112c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Remind user when March 1 is relative to today",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 10/19]\nUser: I'm also concerned about my hotel booking in Tokyo. I booked it through Expe"
+      },
+      {
+        "id": "d416a49d-3c1c-44ae-88ce-00aa10a7f7b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about paying Expedia hotel balance",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 11/19]\nUser: What's the best way to pay the outstanding balance for my hotel booking on E"
+      },
+      {
+        "id": "ffaebbaa-7611-4041-bfd0-d0e1d8f1a795",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on Expedia payment methods",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 12/19]\n(in reply to) User: What's the best way to pay the outstanding balance for my hote"
+      },
+      {
+        "id": "c4cbfc95-42b0-45f6-9c1a-948c29834c82",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Expedia outstanding hotel balance payment steps",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 13/19]\n(in reply to) User: What's the best way to pay the outstanding balance for my hote"
+      },
+      {
+        "id": "edd2ebb9-2cbb-45c7-876d-6408e3d76686",
+        "score": null,
+        "memory_type": "task",
+        "title": "Remind Japan trip total including hotel balance",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 14/19]\nUser: I think I'll use my credit card to pay the outstanding balance. Can you remi"
+      },
+      {
+        "id": "4f9ca6cc-6e41-45a5-b237-466040d47833",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant advised user to check Japan trip balance and hotel details",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 15/19]\n(in reply to) User: I think I'll use my credit card to pay the outstanding balance"
+      },
+      {
+        "id": "83892c25-6691-4b40-80ea-a85bc15c7a03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Japan trip total due including hotel booking",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 16/19]\n(in reply to) User: I think I'll use my credit card to pay the outstanding balance"
+      },
+      {
+        "id": "37b1bfe1-6e16-492d-8146-d5ae1e7f6038",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Trip corrected total price $2,800 (hotel portion unknown)",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 17/19]\nUser: I remember that the corrected price for the entire trip was $2,800. I'm not "
+      },
+      {
+        "id": "e2442ff3-d1fe-456a-a649-d9ba6b4b16fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Warned about Sakura Travel Agency legitimacy and advised verifying Expedia booki",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 18/19]\n(in reply to) User: I remember that the corrected price for the entire trip was $2"
+      },
+      {
+        "id": "36107623-cee4-4333-8e05-123f80f8d3a6",
+        "score": 0.4746,
+        "memory_type": "task",
+        "title": "Review trip booking details for cost breakdown",
+        "text": "[date: 2023-05-21T05:47:00+00:00 | context: Session d6d2455227fd - happened on 2023-05-21 05:47:00 UTC. | turn 19/19]\n(in reply to) User: I remember that the corrected price for the entire trip was $2"
+      },
+      {
+        "id": "c0a58e2e-7139-46e5-aa16-0e89cda13da1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Brand name suggestion for VR platform (55+ demographic)",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 1/21]\nAssistant: Legacy Space Connect is a great name for your VR platform targeting the "
+      },
+      {
+        "id": "97fd6101-9ac4-4792-a544-f72585f2f1a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legacy Space Platform components and purpose",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 2/21]\nUser: Legacy space connect is part of the legacy space platform. A VR celebration o"
+      },
+      {
+        "id": "0f42bd40-2561-4f20-be61-99b159d4eb9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legacy Space platform components overview",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 3/21]\n(in reply to) User: Legacy space connect is part of the legacy space platform. A VR"
+      },
+      {
+        "id": "48a3c1e9-0ae7-4cb1-b1a4-8cc5f94ce62e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legacy Space platform components (Resting Space, Journal, Vault)",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 4/21]\n(in reply to) User: Legacy space connect is part of the legacy space platform. A VR"
+      },
+      {
+        "id": "50277e15-0d3f-45db-8d99-990ca2cc83b3",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Legacy Space platform marketing strategy and brand plan",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 5/21]\n(in reply to) User: Legacy space connect is part of the legacy space platform. A VR"
+      },
+      {
+        "id": "79b084be-b6f6-4b8e-8f4e-15abc21d5f38",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Legacy Space platform components and iteration strategy",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 6/21]\n(in reply to) User: Legacy space connect is part of the legacy space platform. A VR"
+      },
+      {
+        "id": "f5735642-3a40-41c1-979b-4f5d33d380ea",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Concur on primary buyer demographic for legacy space product",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 7/21]\nUser: We are considering that the buyer of this product is in the demographic of 32"
+      },
+      {
+        "id": "aaaaf39f-34aa-4ce1-9325-e5db1e82924f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Marketing strategy for Legacy Space targeting ages 32\u201347",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 8/21]\n(in reply to) User: We are considering that the buyer of this product is in the dem"
+      },
+      {
+        "id": "fdc0d3d8-2236-4afb-8e95-c0285df50a18",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Marketing plan for Legacy Space (32\u201347 buyers)",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 9/21]\n(in reply to) User: We are considering that the buyer of this product is in the dem"
+      },
+      {
+        "id": "a36787fb-f709-461b-bd0c-56133d69e206",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Target buyer demographic 32\u201347 for Legacy Space",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 10/21]\n(in reply to) User: We are considering that the buyer of this product is in the de"
+      },
+      {
+        "id": "bd747214-1809-493b-9836-673d5a8429af",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks for questions to execute a business",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 11/21]\nUser: What are some questions that I should be asking to successfully execute this"
+      },
+      {
+        "id": "ed42bfb9-fe9c-413c-b153-299361763574",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Questions to ask for executing Legacy Space business",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 12/21]\n(in reply to) User: What are some questions that I should be asking to successfull"
+      },
+      {
+        "id": "19ff2dde-f91c-462d-9724-450afc5bb8b4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Business execution questions across marketing, ops, legal, growth",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 13/21]\n(in reply to) User: What are some questions that I should be asking to successfull"
+      },
+      {
+        "id": "cc1f12cf-2f51-4e47-864d-84c3d362e936",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Questions to ask for successful business execution",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 14/21]\n(in reply to) User: What are some questions that I should be asking to successfull"
+      },
+      {
+        "id": "e1f3a698-05f7-457a-96e3-8718bc0f25d3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request: comprehensive business plan for Legacy Space (investors)",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 15/21]\nUser: Using our conversation above, please write a comprehensive business plan for"
+      },
+      {
+        "id": "53607875-37d5-43a3-8b3e-34dad8245d21",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request: comprehensive business plan for Legacy Space",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 16/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "88a85ea7-2f8f-4724-add0-e79170f2904b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Draft business plan for Legacy Space VR platform components",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 17/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "4d2d3cc3-b17d-455f-96b2-df035ee8b76e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft comprehensive business plan for Legacy Space",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 18/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "78467598-3bce-4fbf-89c2-190082a7fb00",
+        "score": 0.3622,
+        "memory_type": "plan",
+        "title": "Legacy Space business plan outline topics (branding, content, ops, legal)",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 19/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "37c4366c-cb73-4dca-b23b-6b057d70e341",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Legacy Space business plan topics: compliance, security, insurance, growth",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 20/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "e60aed62-4aef-4138-922a-54567f97887f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Legacy Space VR platform for seniors 55+",
+        "text": "[date: 2023-05-22T10:25:00+00:00 | context: Session 62ef9b6bc2e2 - happened on 2023-05-22 10:25:00 UTC. | turn 21/21]\n(in reply to) User: Using our conversation above, please write a comprehensive bus"
+      },
+      {
+        "id": "8553b5a7-4029-49eb-808f-d9b53586af20",
+        "score": null,
+        "memory_type": "task",
+        "title": "User will send recommendations for step-by-step process",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 1/17]\nUser: i will be sending recommendations and it will provide me a step by step proce"
+      },
+      {
+        "id": "791ff35f-7330-48c5-9192-bdacfbdc3ff9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tablet Ordering request",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 2/17]\nUser: Tablet Ordering"
+      },
+      {
+        "id": "2521be60-ca35-44fa-94a3-d34679530518",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tablet ordering benefits for Coffee Rock Bagel expansion",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 3/17]\n(in reply to) User: Tablet Ordering\n\nIncorporating tablets with ordering capabiliti"
+      },
+      {
+        "id": "ae0f2e3d-3132-4bac-b765-7cc7de7a3b93",
+        "score": null,
+        "memory_type": "plan",
+        "title": "7-step plan to incorporate tablet ordering",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 4/17]\n(in reply to) User: Tablet Ordering\n\nAssistant: Great, here are 7 steps to help you"
+      },
+      {
+        "id": "6b8893f1-eee2-4433-9efe-94c3d872226c",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Tablet ordering system: research, install, train",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 5/17]\n(in reply to) User: Tablet Ordering\n\n1. Determine the tablet ordering system that w"
+      },
+      {
+        "id": "a19bd4b4-c4fc-46cf-a417-f17e9f0f1408",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Tablet ordering system integration, promotion, and optimization steps",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 6/17]\n(in reply to) User: Tablet Ordering\n\n4. Integrate the tablet ordering system with y"
+      },
+      {
+        "id": "90427e3f-0484-4770-ac27-43ae43400bfc",
+        "score": null,
+        "memory_type": "task",
+        "title": "Step-by-step request for Monthly Subscription Program",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 7/17]\nUser: now do step by step for this: Monthly Subscription Program"
+      },
+      {
+        "id": "6669ba56-16f8-4070-81d2-cd5f5422f78f",
+        "score": 0.3504,
+        "memory_type": "plan",
+        "title": "Step-by-step plan for Monthly Subscription Program",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 8/17]\n(in reply to) User: now do step by step for this: Monthly Subscription Program\n\nInt"
+      },
+      {
+        "id": "39e45454-3858-4417-80ef-ae1613319c2c",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Step-by-step plan for Monthly Subscription Program",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 9/17]\n(in reply to) User: now do step by step for this: Monthly Subscription Program\n\nAss"
+      },
+      {
+        "id": "793adab0-80fc-49c2-9daa-df04f004ada4",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Step-by-step plan for Monthly Subscription Program",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 10/17]\n(in reply to) User: now do step by step for this: Monthly Subscription Program\n\n1."
+      },
+      {
+        "id": "cd8e9271-0dd8-46e9-8a01-5fcdcd3555bb",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Steps for Monthly Subscription Program (training, monitoring, improvement)",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 11/17]\n(in reply to) User: now do step by step for this: Monthly Subscription Program\n\n6."
+      },
+      {
+        "id": "49135d94-b7f3-4ea9-8c1f-2534a1504d74",
+        "score": null,
+        "memory_type": "task",
+        "title": "Step-by-step request for Website and App",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 12/17]\nUser: now do step by step for this: Website and App"
+      },
+      {
+        "id": "254774f1-8c26-4e57-9b39-3ccb90280d9e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Step-by-step modernization plan for website and online ordering app",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 13/17]\n(in reply to) User: now do step by step for this: Website and App\n\nModernizing the"
+      },
+      {
+        "id": "c4bb49cc-af8f-465c-89c2-de4aba94ff16",
+        "score": null,
+        "memory_type": "task",
+        "title": "Step-by-step plan request for Website and App growth",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 14/17]\n(in reply to) User: now do step by step for this: Website and App\n\nue growth, and "
+      },
+      {
+        "id": "d17e9cd4-0012-4c1a-a558-401ebb7da656",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-step plan to modernize website and introduce an app",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 15/17]\n(in reply to) User: now do step by step for this: Website and App\n\nAssistant: Sure"
+      },
+      {
+        "id": "8cbb7a17-a2e4-48d2-8fbb-3ec4d2d0fbe3",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Step-by-step plan for website and app",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 16/17]\n(in reply to) User: now do step by step for this: Website and App\n\n1. Determine th"
+      },
+      {
+        "id": "a6c25417-ba17-4c69-ba67-2927c20651c5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Promote and monitor website/app; continuously improve",
+        "text": "[date: 2023-05-22T17:29:00+00:00 | context: Session 6ff45d260cd1 - happened on 2023-05-22 17:29:00 UTC. | turn 17/17]\n(in reply to) User: now do step by step for this: Website and App\n\n6. Promote the "
+      },
+      {
+        "id": "f5636112-32e0-4721-b9be-0166b62154da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about concert venue seating and rules",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 9/22]\nUser: That's really helpful, thanks! Can you tell me more about the concert venue i"
+      },
+      {
+        "id": "c5244c9c-bffd-429c-8201-9c00df540dd9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bellagio Ovation Showroom seating and venue details",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 10/22]\n(in reply to) User: That's really helpful, thanks! Can you tell me more about the "
+      },
+      {
+        "id": "1d85bb85-47b3-45b0-a2d2-6ba43d5d237f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Concert venue seating and general rules (theater-style)",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 11/22]\n(in reply to) User: That's really helpful, thanks! Can you tell me more about the "
+      },
+      {
+        "id": "c86e1ce2-f77b-4d3d-9887-83c9b991af81",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bellagio Ovation Showroom concert venue guidance",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 12/22]\n(in reply to) User: That's really helpful, thanks! Can you tell me more about the "
+      },
+      {
+        "id": "4b86bc4e-233c-43db-bede-1ad53c6db0e2",
+        "score": 0.3338,
+        "memory_type": "fact",
+        "title": "Ovation Showroom accessibility and accommodations",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 13/22]\n(in reply to) User: That's really helpful, thanks! Can you tell me more about the "
+      },
+      {
+        "id": "3c6de39e-2010-4f61-bb24-06daa2b2bc97",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Concert venue guidance for Bellagio show",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 14/22]\n(in reply to) User: That's really helpful, thanks! Can you tell me more about the "
+      },
+      {
+        "id": "5b6f95db-dfa7-463c-9e3e-ad5fc05bb789",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bellagio hotel booking for concert (2023-05-23)",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 15/22]\nUser: I'm glad I booked a room at the Bellagio since we'll be seeing a concert her"
+      },
+      {
+        "id": "ce21f0ba-1d8f-4510-b170-a6dd4f58edb2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Directions to Ovation Showroom",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 16/22]\nUser: What's the best way to get to the Ovation Showroom from our room? Are there "
+      },
+      {
+        "id": "2293db90-22cd-4f48-ae80-7a0762e004e9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Directions to Ovation Showroom in Bellagio",
+        "text": "[date: 2023-05-23T07:17:00+00:00 | context: Session 8397b128763a - happened on 2023-05-23 07:17:00 UTC. | turn 17/22]\n(in reply to) User: What's the best way to get to the Ovation Showroom from our ro"
+      },
+      {
+        "id": "8afb19da-2330-4cfc-9b67-362194a9190b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Packing essentials tips for UK study abroad clothes",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 1/27]\nUser: I'm planning to move to the UK for my study abroad program and I need some he"
+      },
+      {
+        "id": "4c47e01e-1ba4-4588-ba4a-5a2fd01e36ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for packing essentials for UK study abroad after visa approval",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 2/27]\n(in reply to) User: I'm planning to move to the UK for my study abroad program and "
+      },
+      {
+        "id": "43933b69-6b9a-448a-9317-36a8a7b51a0e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Packing essentials tips for UK study abroad",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 3/27]\n(in reply to) User: I'm planning to move to the UK for my study abroad program and "
+      },
+      {
+        "id": "028583ab-320a-413c-a30c-ff7b588524d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Study abroad packing tips after UK visa approval",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 4/27]\n(in reply to) User: I'm planning to move to the UK for my study abroad program and "
+      },
+      {
+        "id": "2419a9dd-abc2-42ae-9ddd-4721e0064c5c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Study abroad packing tips after UK visa approval",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 5/27]\n(in reply to) User: I'm planning to move to the UK for my study abroad program and "
+      },
+      {
+        "id": "b5c6ef68-8d31-4394-b80a-61fca6ad5e4a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend UK power adapters and converters",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 6/27]\nUser: What about power adapters? I've heard the UK uses different plugs and voltage"
+      },
+      {
+        "id": "a0f53993-edde-4809-a56a-ef663ce2850c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UK power adapters: Type G plug guidance and recommendations",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 7/27]\n(in reply to) User: What about power adapters? I've heard the UK uses different plu"
+      },
+      {
+        "id": "1878e65e-ff12-463c-ae07-636f7cced67b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UK vs US power adapters: 230V/50Hz and converter options",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 8/27]\n(in reply to) User: What about power adapters? I've heard the UK uses different plu"
+      },
+      {
+        "id": "e6891add-f12a-4f6e-88f5-23b1fde33e95",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UK power adapters: compatibility, multi-port, wattage, airline checks",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 9/27]\n(in reply to) User: What about power adapters? I've heard the UK uses different plu"
+      },
+      {
+        "id": "bcf6cb7c-6a93-43ca-9095-daa624497ae1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about student housing in Edinburgh city center",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 10/27]\nUser: I've been looking at some accommodation options in Edinburgh, can you give m"
+      },
+      {
+        "id": "91d093ee-fcbb-4f30-9c89-d80bee6b1421",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips on Edinburgh city-center student housing (2023-05-24)",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 11/27]\n(in reply to) User: I've been looking at some accommodation options in Edinburgh, "
+      },
+      {
+        "id": "08fb2e54-3017-4bad-aa94-44edd2686bf1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips on Edinburgh student housing options",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 12/27]\n(in reply to) User: I've been looking at some accommodation options in Edinburgh, "
+      },
+      {
+        "id": "2a7b83c7-08ed-4758-ac51-c7bab2078fae",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for Edinburgh student housing (city center)",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 13/27]\n(in reply to) User: I've been looking at some accommodation options in Edinburgh, "
+      },
+      {
+        "id": "299f8ef4-0bc3-4119-a5a7-b7c12ec0ec66",
+        "score": 0.3464,
+        "memory_type": "fact",
+        "title": "Tips on Edinburgh student housing costs and budgeting",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 14/27]\n(in reply to) User: I've been looking at some accommodation options in Edinburgh, "
+      },
+      {
+        "id": "25f2b6b6-e0e1-4ecc-bf8d-3d7402924822",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for shared flat living (Student.com booking)",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 15/27]\nUser: I've already booked a room in a shared flat in the city center through Stude"
+      },
+      {
+        "id": "778324ea-507a-4d6d-abd9-0c93a51e4d4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for making the most of shared flat living",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 16/27]\n(in reply to) User: I've already booked a room in a shared flat in the city center"
+      },
+      {
+        "id": "185dd318-c581-4a1b-be68-04609ecaae65",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for making shared flat living work",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 17/27]\n(in reply to) User: I've already booked a room in a shared flat in the city center"
+      },
+      {
+        "id": "5eac3f3e-6910-49fc-b9fb-07e1adcfeabb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making shared flat living work",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 18/27]\n(in reply to) User: I've already booked a room in a shared flat in the city center"
+      },
+      {
+        "id": "6565c6f7-87f9-4a34-9d59-dc2efcfb55c1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Request for affordable quality warm winter clothing for UK",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 19/27]\nUser: I've been thinking about buying some warm clothing for the UK climate. Can y"
+      },
+      {
+        "id": "5e56a7b7-6990-492b-ac34-dba229d0a782",
+        "score": null,
+        "memory_type": "episode",
+        "title": "UK winter clothing brand recommendations (warm clothing)",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 20/27]\n(in reply to) User: I've been thinking about buying some warm clothing for the UK "
+      },
+      {
+        "id": "6d7e996f-2acc-4fa3-8ed0-248cb618a0a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UK winter clothing brand recommendations (M&S, John Lewis, Crew, base layers)",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 21/27]\n(in reply to) User: I've been thinking about buying some warm clothing for the UK "
+      },
+      {
+        "id": "1c3a9b40-945e-4774-a806-98561a3717d7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Affordable winter clothing recommendations for UK climate",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 22/27]\n(in reply to) User: I've been thinking about buying some warm clothing for the UK "
+      },
+      {
+        "id": "4c268d99-d7f0-4da0-bb34-8630d5f09098",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for waterproof UK packing gear recommendations",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 23/27]\nUser: I've got a question about packing for the UK climate. I've heard it can be q"
+      },
+      {
+        "id": "7d3e321c-5f13-41bd-88fc-8c271619a8db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "UK packing advice: waterproof backpacks/bags recommendations",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 24/27]\n(in reply to) User: I've got a question about packing for the UK climate. I've hea"
+      },
+      {
+        "id": "8d2f7950-c7aa-4780-92ad-e86c11587a51",
+        "score": null,
+        "memory_type": "episode",
+        "title": "UK packing advice: waterproof backpacks/dry bags",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 25/27]\n(in reply to) User: I've got a question about packing for the UK climate. I've hea"
+      },
+      {
+        "id": "e6912b08-8be8-45c1-aee9-55bce6258553",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UK packing advice: waterproof backpack/bag features",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 26/27]\n(in reply to) User: I've got a question about packing for the UK climate. I've hea"
+      },
+      {
+        "id": "144c7c50-125e-4860-a3e0-75dce5d70f5e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for waterproof backpack recommendations for UK weather",
+        "text": "[date: 2023-05-24T15:52:00+00:00 | context: Session 8a4902fdca2e - happened on 2023-05-24 15:52:00 UTC. | turn 27/27]\n(in reply to) User: I've got a question about packing for the UK climate. I've hea"
+      },
+      {
+        "id": "e4c42c9f-f3a6-411e-8975-c580e1f0eb5e",
+        "score": 0.3333,
+        "memory_type": "preference",
+        "title": "User wants productive commute apps to avoid social scrolling",
+        "text": "[date: 2023-05-25T10:10:00+00:00 | context: Session 6836f2854ff6 - happened on 2023-05-25 10:10:00 UTC. | turn 13/28]\nUser: That sounds really helpful for my daily commute. I've been trying to make th"
+      },
+      {
+        "id": "d2c13775-adf5-41a2-9946-268e439db571",
+        "score": null,
+        "memory_type": "task",
+        "title": "Schedule oil change based on last service date",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 1/20]\nUser: I'm thinking of getting my oil changed soon. Do you know when I should do it "
+      },
+      {
+        "id": "a2a1601b-e8c6-438a-b2d1-00dd455e8259",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replies about oil change timing",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 2/20]\n(in reply to) User: I'm thinking of getting my oil changed soon. Do you know when I"
+      },
+      {
+        "id": "b4dffbb3-ff73-4c61-846d-253ca76451b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for when to get an oil change",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 3/20]\n(in reply to) User: I'm thinking of getting my oil changed soon. Do you know when I"
+      },
+      {
+        "id": "c4d9560f-8e33-43d0-aa2b-c5f6fc495b8e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about oil change timing and tire rotation frequency",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 4/20]\nUser: I think I remember my last oil change was in December, so it's probably due s"
+      },
+      {
+        "id": "e1e6e5b3-3576-4489-93b6-115ae66ddf67",
+        "score": 0.3445,
+        "memory_type": "episode",
+        "title": "Car maintenance discussion: oil change due and tire rotation guidance",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 5/20]\n(in reply to) User: I think I remember my last oil change was in December, so it's "
+      },
+      {
+        "id": "120b652a-bbd4-447d-a6d1-333d2ce954da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested bundling oil change with tire rotation",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 6/20]\n(in reply to) User: I think I remember my last oil change was in December, so it's "
+      },
+      {
+        "id": "fbd7737b-3853-4c48-8b4f-05fcd961adfc",
+        "score": null,
+        "memory_type": "task",
+        "title": "Advice request: what to include when listing an old bike for sale",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 7/20]\nUser: I'm thinking of selling my old bike that's been stored in my trunk for years."
+      },
+      {
+        "id": "452f4e27-3a40-44e2-8eea-7765a3430e4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike listing info for Craigslist/Facebook Marketplace",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 8/20]\n(in reply to) User: I'm thinking of selling my old bike that's been stored in my tr"
+      },
+      {
+        "id": "17635be4-cd40-46d0-91d9-87a9181da026",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for listing an old bike on Marketplace/Craigslist",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 9/20]\n(in reply to) User: I'm thinking of selling my old bike that's been stored in my tr"
+      },
+      {
+        "id": "bf311058-9f58-4fac-a970-3276261fd092",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike listing info checklist for Craigslist/Facebook Marketplace",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 10/20]\n(in reply to) User: I'm thinking of selling my old bike that's been stored in my t"
+      },
+      {
+        "id": "5ab8c2c3-f0ae-42de-8605-4cae68469877",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for listing an old bike on Craigslist/Facebook Marketplace",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 11/20]\n(in reply to) User: I'm thinking of selling my old bike that's been stored in my t"
+      },
+      {
+        "id": "efe7ae63-6211-432a-806f-808ecb5461de",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Consider vehicle inspection before selling a bike",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 12/20]\nUser: I've had my car for a while now, and I've been doing okay with maintenance. "
+      },
+      {
+        "id": "cb83bdf7-8084-48dd-9f9f-c19cbb245205",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice about bike inspection before selling",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 13/20]\n(in reply to) User: I've had my car for a while now, and I've been doing okay with"
+      },
+      {
+        "id": "89a68615-03aa-4447-b201-2dd9f7ad2587",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pre-sale vehicle inspection checklist (tires, brakes, frame, wheels)",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 14/20]\n(in reply to) User: I've had my car for a while now, and I've been doing okay with"
+      },
+      {
+        "id": "cf588f6a-0384-4d75-994e-b941b780385d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on car maintenance and deductible",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 15/20]\n(in reply to) User: I've had my car for a while now, and I've been doing okay with"
+      },
+      {
+        "id": "4fcd4248-e6cc-4a9b-81c8-ed13c4003645",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on what to mention in bike listing",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 16/20]\nUser: That's a good point about the bike inspection. I'll make sure to give it a g"
+      },
+      {
+        "id": "83cdb27f-768d-4f9c-9167-104c4aa31ff1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks whether to include bike photos in listing",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 17/20]\nUser: I think I'll mention that I've kept the bike clean and stored it in my trunk"
+      },
+      {
+        "id": "8b2ca2c5-1395-4b50-bea9-5a9ee56e4aaa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on bike listing photos and storage presentation",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 18/20]\n(in reply to) User: I think I'll mention that I've kept the bike clean and stored "
+      },
+      {
+        "id": "e6bf56f2-a0df-4f39-9b55-346e853fcb52",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bike listing photo guidance (clean, lighting, angles, honesty)",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 19/20]\n(in reply to) User: I think I'll mention that I've kept the bike clean and stored "
+      },
+      {
+        "id": "56d58e62-44dd-4f17-a1ce-db5a15fdc6b7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on using clear photos for bike listing",
+        "text": "[date: 2023-05-26T03:12:00+00:00 | context: Session 6cd5ed48fd94 - happened on 2023-05-26 03:12:00 UTC. | turn 20/20]\n(in reply to) User: I think I'll mention that I've kept the bike clean and stored "
+      },
+      {
+        "id": "15eeefbc-5a1d-4ba9-9d6e-afb7dd4a71a2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant advises user to check credit card balance for Japan hotel",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 1/18]\nUser: I'm planning a trip to Japan and I'm trying to finalize some details. I need "
+      },
+      {
+        "id": "52025ee4-3c78-491e-b13a-2a5edd8bcbac",
+        "score": 0.4577,
+        "memory_type": "task",
+        "title": "Follow up on Sakura Travel Agency flight payment",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 2/18]\nUser: I'm also trying to finalize the payment for my flight tickets with Sakura Tra"
+      },
+      {
+        "id": "7c4caf70-b480-4d24-8429-862220a9117b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "General tips for following up on flight payment",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 3/18]\n(in reply to) User: I'm also trying to finalize the payment for my flight tickets w"
+      },
+      {
+        "id": "457e8ec0-11eb-4eba-8b17-6a068eaca8eb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for following up with travel agency on flight payment/ticket confirmation",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 4/18]\n(in reply to) User: I'm also trying to finalize the payment for my flight tickets w"
+      },
+      {
+        "id": "27265dea-df85-453d-b065-61ec85e1ddf1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finalizing flight payment with travel agency",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 5/18]\n(in reply to) User: I'm also trying to finalize the payment for my flight tickets w"
+      },
+      {
+        "id": "6451310c-1295-42ad-9a38-4f1f4a79a932",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for communicating with travel agency",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 6/18]\n(in reply to) User: I'm also trying to finalize the payment for my flight tickets w"
+      },
+      {
+        "id": "497951f6-8b2e-41ed-992e-d700dcadd68f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for travel insurance provider recommendations",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 7/18]\nUser: I'll try to follow up with them again, thanks for the tips. By the way, do yo"
+      },
+      {
+        "id": "96120282-bc8c-49fa-b59b-5d803c090433",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General advice on choosing travel insurance providers",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 8/18]\n(in reply to) User: I'll try to follow up with them again, thanks for the tips. By "
+      },
+      {
+        "id": "e63efff0-d180-4717-a892-7337244aeda3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Travel insurance: compare providers and check coverage",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 9/18]\n(in reply to) User: I'll try to follow up with them again, thanks for the tips. By "
+      },
+      {
+        "id": "b31d260a-8eda-4f70-b73d-855980a66e8c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for travel insurance providers",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 10/18]\n(in reply to) User: I'll try to follow up with them again, thanks for the tips. By"
+      },
+      {
+        "id": "f22728dd-a938-454c-8579-8922bc004444",
+        "score": null,
+        "memory_type": "decision",
+        "title": "User considering AXA vs other insurance options",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 11/18]\nUser: I'll definitely look into those insurance providers, thanks for the suggesti"
+      },
+      {
+        "id": "f4bc9e94-0e40-41c4-8dd5-933faf77c4eb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Insurance provider comparison discussion (AXA vs Allianz)",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 12/18]\n(in reply to) User: I'll definitely look into those insurance providers, thanks fo"
+      },
+      {
+        "id": "4f807791-41f2-4917-9475-1dcaa4d2f637",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considering AXA vs Allianz for travel insurance",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 13/18]\n(in reply to) User: I'll definitely look into those insurance providers, thanks fo"
+      },
+      {
+        "id": "5112e345-f1ac-4a32-b5bf-187a56c44175",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering alternative flights if Sakura Travel delays",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 14/18]\nUser: I'm still waiting to hear back from Sakura Travel Agency about my flight tic"
+      },
+      {
+        "id": "183c67bd-a416-4623-a88e-b29c5a8ef422",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggest having a Plan B for flight tickets",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 15/18]\n(in reply to) User: I'm still waiting to hear back from Sakura Travel Agency about"
+      },
+      {
+        "id": "fccd3349-e0ca-4883-bec1-c50bdba1e2df",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on alternative flights while waiting for Sakura Travel Agency",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 16/18]\n(in reply to) User: I'm still waiting to hear back from Sakura Travel Agency about"
+      },
+      {
+        "id": "23d0e1bb-9db5-437d-86fa-ad8b3beb0132",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User waiting on Sakura Travel Agency flight tickets",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 17/18]\n(in reply to) User: I'm still waiting to hear back from Sakura Travel Agency about"
+      },
+      {
+        "id": "fe3a46c0-29d4-4fd6-9e3e-b748ce027ade",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considering alternative flights; Sakura Travel quote $2,500",
+        "text": "[date: 2023-05-27T00:38:00+00:00 | context: Session b50c80459de9 - happened on 2023-05-27 00:38:00 UTC. | turn 18/18]\nUser: I'll definitely start looking into alternative flight options, thanks for th"
+      },
+      {
+        "id": "2475f452-0005-44a1-9962-7943c7d6ff4a",
+        "score": 0.3578,
+        "memory_type": "episode",
+        "title": "Reworded employee feedback about OCBC/RBC expenses",
+        "text": "[date: 2023-05-27T08:52:00+00:00 | context: Session 03f673c09c0e - happened on 2023-05-27 08:52:00 UTC. | turn 1/2]\nUser: could you please reword what I said to make it great employee feedback?\n\nAssis"
+      },
+      {
+        "id": "ffaeb630-8556-4174-82b1-8be86a864922",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Reworded feedback to be more casual",
+        "text": "[date: 2023-05-27T08:52:00+00:00 | context: Session 03f673c09c0e - happened on 2023-05-27 08:52:00 UTC. | turn 2/2]\nUser: could you say the same thing but more human-like and less like an email\n\nAssis"
+      },
+      {
+        "id": "8f038701-ca21-4ac9-b918-e13a8c6cdae1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Family reunion planning request and note about grandfather\u2019s 80th",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 1/28]\nUser: I'm planning a big family reunion on my dad's side and I need some help with "
+      },
+      {
+        "id": "6a414067-00b4-413b-a1bf-e9a30e7d3dd0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for tips organizing family reunion guest list and venue",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 2/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "5a185342-8d24-4935-87e6-fbd6b7fdf65c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for building a family reunion guest list",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 3/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "a65b7ebc-6d11-490e-8aab-2ff2ebb714e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tip: get input from other family members for guest list",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 4/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "fe5f0481-6915-49d0-92bb-fca292f88fd6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips requested for family reunion guest list and venue",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 5/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "69ce85f1-67e0-4847-b2ef-d3deeee5f1c9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for planning family reunion guest list and venue",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 6/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "103a3522-0c2a-4049-aaab-c66e1b5ca349",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant responded to family reunion planning query",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 7/28]\n(in reply to) User: I'm planning a big family reunion on my dad's side and I need s"
+      },
+      {
+        "id": "148f9a59-534d-497c-a02e-2b5b5195f00b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for finding a large-group mountain cabin",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 8/28]\nUser: I'm thinking of having the reunion at a cabin in the mountains, but I'm not s"
+      },
+      {
+        "id": "e57550c5-1aa8-4b87-8002-9461a848c818",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for searching mountain cabin for large family reunion",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 9/28]\n(in reply to) User: I'm thinking of having the reunion at a cabin in the mountains,"
+      },
+      {
+        "id": "72343d24-27cf-46ae-9fa8-e12f6b6cf7a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding a large-group mountain cabin",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 10/28]\n(in reply to) User: I'm thinking of having the reunion at a cabin in the mountains"
+      },
+      {
+        "id": "0507e355-5520-498b-9d51-068d8a06f79e",
+        "score": 0.3423,
+        "memory_type": "fact",
+        "title": "Tips for booking a large-group mountain cabin",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 11/28]\n(in reply to) User: I'm thinking of having the reunion at a cabin in the mountains"
+      },
+      {
+        "id": "852037fc-6051-4be6-b649-c5002c108333",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Planning outdoor reunion activities for all ages",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 12/28]\nUser: I'm also thinking of planning some outdoor activities, like hiking and games"
+      },
+      {
+        "id": "5f3baed5-cd5f-448b-a7e5-1700fa258d3d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestions for family reunion outdoor activities",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 13/28]\n(in reply to) User: I'm also thinking of planning some outdoor activities, like hi"
+      },
+      {
+        "id": "f634837c-73d3-4821-b471-b0e3ab0659e6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outdoor reunion activity suggestions for all ages",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 14/28]\n(in reply to) User: I'm also thinking of planning some outdoor activities, like hi"
+      },
+      {
+        "id": "2cc3ed86-27d3-401c-9f51-17884369e8ab",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reunion outdoor activities planning suggestions",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 15/28]\n(in reply to) User: I'm also thinking of planning some outdoor activities, like hi"
+      },
+      {
+        "id": "232a81b2-a9d2-4ecf-87c0-904ec57173d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reunion outdoor activity ideas (games, crafts, talent show)",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 16/28]\n(in reply to) User: I'm also thinking of planning some outdoor activities, like hi"
+      },
+      {
+        "id": "979463e3-1f6a-44be-819c-04a55d9a818d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for ideas to incorporate family traditions into reunion activities",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 17/28]\nUser: That's really helpful! I was thinking of organizing a family talent show, an"
+      },
+      {
+        "id": "2b51cd13-69ea-4ebb-a4a8-38951611d150",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests ideas for family talent show and traditions",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 18/28]\n(in reply to) User: That's really helpful! I was thinking of organizing a family t"
+      },
+      {
+        "id": "0fd7ad9d-98f4-4f7d-a460-dad22aaa27bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for family talent show and cultural heritage activities",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 19/28]\n(in reply to) User: That's really helpful! I was thinking of organizing a family t"
+      },
+      {
+        "id": "95a3f987-46ca-439c-a7eb-125e8f5b85f0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for family talent show and cultural heritage activities",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 20/28]\n(in reply to) User: That's really helpful! I was thinking of organizing a family t"
+      },
+      {
+        "id": "275629ad-8d11-4c27-8094-0501e8effa7f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidance for organizing a family talent show",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 21/28]\n(in reply to) User: That's really helpful! I was thinking of organizing a family t"
+      },
+      {
+        "id": "59811f90-beb7-4140-b97a-fb9724c7c455",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about family talent show and grandfather\u2019s 80th birthday",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 22/28]\n(in reply to) User: That's really helpful! I was thinking of organizing a family t"
+      },
+      {
+        "id": "55e4374d-1e26-4ddf-8c1d-65b8c8441028",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize engaging family history session during reunion",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 23/28]\nUser: I'm thinking of having a family history session during the reunion, where we"
+      },
+      {
+        "id": "6b59e0da-0735-4050-9fcc-a42f664dcfeb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for organizing an engaging family history session",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 24/28]\n(in reply to) User: I'm thinking of having a family history session during the reu"
+      },
+      {
+        "id": "e19c9bc1-f48b-4433-9775-42068d7cb5e0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for organizing an engaging family history reunion session",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 25/28]\n(in reply to) User: I'm thinking of having a family history session during the reu"
+      },
+      {
+        "id": "798c356a-39a0-443b-bc39-6e1c546d5276",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for organizing an engaging family history reunion session",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 26/28]\n(in reply to) User: I'm thinking of having a family history session during the reu"
+      },
+      {
+        "id": "ca042bf2-d81f-4bec-88c2-8d200634504d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for organizing a family history reunion session",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 27/28]\n(in reply to) User: I'm thinking of having a family history session during the reu"
+      },
+      {
+        "id": "db478055-4907-4134-9a78-2551c5204bc9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant clarifies it\u2019s an AI and asks next step for reunion planning",
+        "text": "[date: 2023-05-27T17:07:00+00:00 | context: Session db9fc7b751b3 - happened on 2023-05-27 17:07:00 UTC. | turn 28/28]\nUser: I'm excited to help you plan a fantastic family history session!\n\nAssistant:"
+      },
+      {
+        "id": "8015faba-e8cb-4a81-ae70-846825f51c55",
+        "score": null,
+        "memory_type": "task",
+        "title": "Scrape LoopNet listings and space details into Postgres",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 1/14]\nUser: using python, write a script that scrapes loopnet for real estate properties,"
+      },
+      {
+        "id": "b39a886f-929c-4b02-8f0c-1101f9d3a029",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Python LoopNet scraper script outline (requests/BS4/PostgreSQL)",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 2/14]\n(in reply to) User: using python, write a script that scrapes loopnet for real esta"
+      },
+      {
+        "id": "9261991d-9a19-4f6c-9b26-c718cc007db7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Python LoopNet scraping script snippet (search pagination)",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 3/14]\n(in reply to) User: using python, write a script that scrapes loopnet for real esta"
+      },
+      {
+        "id": "a843ec3c-9c9b-44c0-97fb-77cb2fab412c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Python scraping loopnet listing details with BeautifulSoup",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 4/14]\n(in reply to) User: using python, write a script that scrapes loopnet for real esta"
+      },
+      {
+        "id": "d41f4a2c-4cd4-4cec-bd03-194a0a76cde2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Python scraping snippet for LoopNet property spaces",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 5/14]\n(in reply to) User: using python, write a script that scrapes loopnet for real esta"
+      },
+      {
+        "id": "171dee15-eeac-48b0-8840-1f7f5c213cbe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested Python LoopNet scraping script",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 6/14]\n(in reply to) User: using python, write a script that scrapes loopnet for real esta"
+      },
+      {
+        "id": "cacaa630-196e-4e33-a886-318d56be312e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Implement 2-6 in the script",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 7/14]\nUser: implement 2-6 in the script"
+      },
+      {
+        "id": "ac837d92-262b-481e-bac0-80da2cb82d1b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Script update includes error handling and rate limiting",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 8/14]\n(in reply to) User: implement 2-6 in the script\n\nAssistant: Sure! Here's an updated"
+      },
+      {
+        "id": "75572916-c3a3-48c2-92c1-0aec53a7305a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Python script rate limiting and property parsing loop",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 9/14]\n(in reply to) User: implement 2-6 in the script\n\n# Set up rate limiting parameters\n"
+      },
+      {
+        "id": "b4fc1152-83fd-4cd3-b047-2c01f419e0b0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Implement 2-6 in the script (HTML parsing loop)",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 10/14]\n(in reply to) User: implement 2-6 in the script\n\n        # Follow the link to the "
+      },
+      {
+        "id": "29c00fbb-8d06-4f81-b03d-027413e32cb2",
+        "score": null,
+        "memory_type": "task",
+        "title": "Implement 2-6 in the script (space details loop)",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 11/14]\n(in reply to) User: implement 2-6 in the script\n\n        # Loop through each space"
+      },
+      {
+        "id": "4f313f05-31f4-4c91-ae3f-1075ed5e0bac",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue an incomplete example",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 12/14]\nUser: the example is incomplete. continue2 / 2"
+      },
+      {
+        "id": "a9821930-1607-47c0-833e-d080c4d32dc2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided continuation of incomplete Python scraping script",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 13/14]\n(in reply to) User: the example is incomplete. continue2 / 2\n\nAssistant: My apolog"
+      },
+      {
+        "id": "3b5f1ae2-8a84-46e1-a8db-eddf7caad197",
+        "score": 0.3396,
+        "memory_type": "fact",
+        "title": "Robust script: DB/parse/format/request errors + rate limiting",
+        "text": "[date: 2023-05-28T12:28:00+00:00 | context: Session 1febe99ecc99 - happened on 2023-05-28 12:28:00 UTC. | turn 14/14]\n(in reply to) User: the example is incomplete. continue2 / 2\n\n    # Check if we've"
+      }
+    ]
+  },
+  "context": {
+    "chars": 103665,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25916)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26096,
+    "prompt_tokens": 24822,
+    "completion_tokens": 323,
+    "reasoning_tokens": 951,
+    "generate_time_ms": 15932.048249058425,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23207,
+        "completion_tokens": 98,
+        "reasoning_tokens": 365,
+        "total_tokens": 23670
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 564,
+        "completion_tokens": 62,
+        "reasoning_tokens": 136,
+        "total_tokens": 762
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 372,
+        "completion_tokens": 55,
+        "reasoning_tokens": 114,
+        "total_tokens": 541
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 679,
+        "completion_tokens": 108,
+        "reasoning_tokens": 336,
+        "total_tokens": 1123
+      }
+    ]
+  },
+  "failure_label": null
+}

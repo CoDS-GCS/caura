@@ -1,0 +1,1430 @@
+{
+  "question_id": "gpt4_2d58bcd6",
+  "question_type": "temporal-reasoning",
+  "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+  "gold_answer": "'The Hate U Give'",
+  "prediction": "You finished reading **'The Hate U Give'** first. You completed it over two weeks ago (a few days before a book club meeting that took place two weeks ago), whereas you finished 'The Nightingale' more recently, last weekend.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 887,
+    "by_type": {
+      "decision": 4,
+      "episode": 304,
+      "action": 7,
+      "fact": 333,
+      "preference": 195,
+      "plan": 8,
+      "task": 36
+    },
+    "by_status": {
+      "active": 866,
+      "conflicted": 21
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2610441,
+    "output_tokens": 125954,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?"
+    ],
+    "retrieve_time_ms": 2228.7590650375932,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "065cbfe3-afc8-4f22-8cd0-ea52b20f9543",
+        "score": 0.2615,
+        "memory_type": "episode",
+        "title": "Brief encounter with Odyl before Unnamed City mission",
+        "text": "[date: 2023-05-30T00:24:00+00:00 | context: Session 24e56c3d3e53 - happened on 2023-05-30 00:24:00 UTC. | turn 5/9]\nUser: As Val: You had one more brief encounter like that with Odyl, before meeting a"
+      },
+      {
+        "id": "58b87114-e77e-46cb-95d5-4092c576a0f2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Analysis of song \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d themes and musical elements",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 1/17]\nAssistant: In addition to the imagery of the alley, \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d also uses nature"
+      },
+      {
+        "id": "ead49ce5-66af-473d-bc8e-20f6b23b1792",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Analysis of song \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d themes and emotional impact",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 2/17]\nOverall, \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d is a powerful and emotional song that explores the pain of "
+      },
+      {
+        "id": "91596dbd-f361-408a-a472-ad0229c43020",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (Session turn)",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 3/17]\nUser: Please continue"
+      },
+      {
+        "id": "fed794a4-06e3-47b3-959b-598641352243",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Analysis of song \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d themes and musical elements",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 4/17]\n(in reply to) User: Please continue\n\nAssistant: Another notable aspect of \u201cJONY - \u0410"
+      },
+      {
+        "id": "0b92e138-024b-45d2-a832-2e2a117cf3d0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Analysis of song \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d themes and imagery",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 5/17]\n(in reply to) User: Please continue\n\nOverall, \u201cJONY - \u0410\u043b\u043b\u0435\u044f\u201d is a powerful and emot"
+      },
+      {
+        "id": "6abc34d2-dc13-425f-b2ae-eb1955e86f83",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about love life",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 6/17]\nUser: kageno love life"
+      },
+      {
+        "id": "e114e592-9202-4031-a858-95c6ca9df64d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Info about song \u201cKageno Love Life\u201d by \u03bc\u2019s",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 7/17]\n(in reply to) User: kageno love life\n\nAssistant: \u201cKageno Love Life\u201d is a song by th"
+      },
+      {
+        "id": "4533af0c-bfd4-46cf-adbd-156ce09ace2b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Description of \u201cKageno Love Life\u201d as an upbeat pop song",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 8/17]\n(in reply to) User: kageno love life\n\nMusically, \u201cKageno Love Life\u201d is an upbeat an"
+      },
+      {
+        "id": "971577b0-9b70-4350-b61a-ec48363b3ec0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "\u201cKageno Love Life\u201d is a Love Live! anime song",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 9/17]\nUser: Kageno love life in anime name\n\nAssistant: \u201cKageno Love Life\u201d is a song featu"
+      },
+      {
+        "id": "ca1ee790-ace0-4b21-87b8-4f58748e6e9c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User message: \"CID KAGENO have love\"",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 10/17]\nUser: CID KAGENO have love\n\nAssistant: I\u2019m sorry, but I\u2019m not familiar with \u201cCID K"
+      },
+      {
+        "id": "86897d1f-140d-4a30-accf-d7bac1d85d1d",
+        "score": 0.2795,
+        "memory_type": "fact",
+        "title": "Overview of The Eminence in Shadow light novel",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 11/17]\nUser: The Eminence in Shadow\n\nAssistant: \u201cThe Eminence in Shadow\u201d is a Japanese li"
+      },
+      {
+        "id": "6ec5031d-7336-4e0e-9828-367327c84fee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about The Eminence in Shadow story elements",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 12/17]\nUser: Please continue\n\nAssistant: As the story progresses, Cid and his friends enc"
+      },
+      {
+        "id": "9896231d-b020-42af-926e-c0d3cc24527a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User mentions 'his love intrest'",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 13/17]\nUser: his love intrest"
+      },
+      {
+        "id": "b7a70068-1fc3-44cf-8b18-1bf811dc2442",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (session turn)",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 14/17]\nUser: Please continue"
+      },
+      {
+        "id": "241863f7-4aba-4af9-8fd3-7f0a4eb5ce75",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (session turn)",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 15/17]\nUser: Please continue"
+      },
+      {
+        "id": "c53d2026-3dfb-43b5-bf25-b4b14997bc98",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (2023-05-30)",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 16/17]\nUser: Please continue"
+      },
+      {
+        "id": "caf091a6-f5cb-4760-80d3-4dedd30f87f3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (session turn 17/17)",
+        "text": "[date: 2023-05-30T01:56:00+00:00 | context: Session 5f1bec8ec099 - happened on 2023-05-30 01:56:00 UTC. | turn 17/17]\nUser: Please continue"
+      },
+      {
+        "id": "00f2f17b-ce39-47b7-b0e5-d4ac71d929e0",
+        "score": 0.2725,
+        "memory_type": "preference",
+        "title": "User prefers cozy soft white lighting shades",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 1/26]\nUser: I'm looking to get some advice on lighting options for my dining room. The ov"
+      },
+      {
+        "id": "af953c39-c147-43d1-b99a-d56e203e1358",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dining room lighting advice request (general guidance)",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 2/26]\n(in reply to) User: I'm looking to get some advice on lighting options for my dinin"
+      },
+      {
+        "id": "18086efa-275a-48aa-ad67-e2623927e022",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining room lighting advice (ambiance, layers, dimmers)",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 3/26]\n(in reply to) User: I'm looking to get some advice on lighting options for my dinin"
+      },
+      {
+        "id": "e7a50fcb-9c23-4fda-9cab-7d00cdaaba9f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining room lighting options: chandeliers, pendants, recessed, lamps, sconces",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 4/26]\n(in reply to) User: I'm looking to get some advice on lighting options for my dinin"
+      },
+      {
+        "id": "3c5ae2ff-5956-46fe-8b6e-1aa0afea3637",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering modern, energy-efficient dining room lighting",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 5/26]\nUser: I'm thinking of going for a more modern and energy-efficient option. The dini"
+      },
+      {
+        "id": "40d24025-2d66-4336-92ff-bc4d109c8ba7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dining room lighting advice discussion (pendant lights)",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 6/26]\n(in reply to) User: I'm thinking of going for a more modern and energy-efficient op"
+      },
+      {
+        "id": "7373b2b7-29ea-462b-9a17-4e53afedf302",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on pendant lighting for small dining room",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 7/26]\n(in reply to) User: I'm thinking of going for a more modern and energy-efficient op"
+      },
+      {
+        "id": "967d5930-3f29-4042-9a1c-d035090325c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LED pendant lights as energy-efficient option",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 8/26]\n(in reply to) User: I'm thinking of going for a more modern and energy-efficient op"
+      },
+      {
+        "id": "daebc444-3030-484c-9709-c7a03874f2df",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Modern, energy-efficient dining room pendant light ideas",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 9/26]\n(in reply to) User: I'm thinking of going for a more modern and energy-efficient op"
+      },
+      {
+        "id": "efae2c8f-a7d3-40cd-b8ca-7c15f51bd9a8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for choosing energy-efficient dining room pendant lights",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 10/26]\n(in reply to) User: I'm thinking of going for a more modern and energy-efficient o"
+      },
+      {
+        "id": "0143ed1b-cd13-4bab-85ea-2509c9de5db0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering new lighting setup for small home office",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 11/26]\nUser: I'm also thinking of updating the lighting in my home office, which is a pre"
+      },
+      {
+        "id": "5d1b1f07-7346-44fd-954c-4fc6bb104086",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given for improving small home office lighting",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 12/26]\n(in reply to) User: I'm also thinking of updating the lighting in my home office, "
+      },
+      {
+        "id": "9ce45b50-9ad8-4c6c-91e1-bb225ff555bd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Home office lighting suggestions (layered/task/overhead/ambient)",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 13/26]\n(in reply to) User: I'm also thinking of updating the lighting in my home office, "
+      },
+      {
+        "id": "72185d07-0482-45cc-9f60-20b0512fe136",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lighting tip: use dimmer switches",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 14/26]\n(in reply to) User: I'm also thinking of updating the lighting in my home office, "
+      },
+      {
+        "id": "8cc5ec16-f6b9-42a1-8ddb-b4fcfc27a480",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Small home office lighting options",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 15/26]\n(in reply to) User: I'm also thinking of updating the lighting in my home office, "
+      },
+      {
+        "id": "b156e7eb-6674-4bbc-bd82-9dcaade2c854",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Lighting advice: choose color temperature for focus vs cozy",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 16/26]\n(in reply to) User: I'm also thinking of updating the lighting in my home office, "
+      },
+      {
+        "id": "cf47853e-eba0-4aed-8c81-e0681fb0ffc3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants brighter, whiter kitchen light bulbs",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 17/26]\nUser: I've also been meaning to replace the light bulbs in my kitchen with some br"
+      },
+      {
+        "id": "4ac65830-a6ac-4f1a-8b31-641aba95c130",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about replacing kitchen bulbs with brighter whiter options",
+        "text": "[date: 2023-05-30T03:48:00+00:00 | context: Session 78554be55470 - happened on 2023-05-30 03:48:00 UTC. | turn 18/26]\n(in reply to) User: I've also been meaning to replace the light bulbs in my kitche"
+      },
+      {
+        "id": "e5aa16c3-1fee-48d8-b379-433206e35132",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional scene: demon dissipates, black stones remain",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 1/16]\nAssistant: As you approach the spot where the demon dissipated, you can see that th"
+      },
+      {
+        "id": "c3ecdc19-c382-4bfc-88e2-1c343cbc75de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discovery of demon-soul shards and vampire gang note",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 2/16]\n(in reply to) Assistant: As you approach the spot where the demon dissipated, you c"
+      },
+      {
+        "id": "dfb8dac1-10b3-4267-80c7-bb030fb8c175",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional scene: demon dissipates; black stones remain",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 3/16]\n(in reply to) Assistant: As you approach the spot where the demon dissipated, you c"
+      },
+      {
+        "id": "b8f91bc3-5ca6-470a-9bb6-43355b30d78b",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decides to talk to Bob about vampire master/demon issue",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 4/16]\nUser: I ruminate on whether or not the vampires being more active has to do with th"
+      },
+      {
+        "id": "da77d26c-2355-4301-853f-646b70b08399",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Talk with spirit companion about vampire master",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 5/16]\n(in reply to) User: I ruminate on whether or not the vampires being more active has"
+      },
+      {
+        "id": "4745821d-8a3f-4191-b881-7ee8b7d5501e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bob offers leads on vampires and warns the user",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 6/16]\n(in reply to) User: I ruminate on whether or not the vampires being more active has"
+      },
+      {
+        "id": "c237c978-8eac-4fb4-8358-5cd589f8829d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask friends for help",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 7/16]\nUser: What other friends could I ask help from?"
+      },
+      {
+        "id": "98765c8d-22b8-4b47-a739-78fe9d3d5cba",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Wizard allies suggested: Murphy, Carpenter, Raith",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 8/16]\n(in reply to) User: What other friends could I ask help from?\n\nAssistant: As a powe"
+      },
+      {
+        "id": "04391c51-8c63-4f2d-b182-a7d8b91956ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestion to seek help from the White Council of Wizards",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 9/16]\n(in reply to) User: What other friends could I ask help from?\n\nFinally, you could a"
+      },
+      {
+        "id": "0b34c91c-e7fc-4c10-8a2e-28b28bb1b33f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Plan to meet Michael and Thomas at local crypt at 3pm",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 10/16]\nUser: I think Michael and Thomas could help me the most, I send them messages to m"
+      },
+      {
+        "id": "112b9075-388a-4c18-aa8a-b67269eca81d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Meet Michael and Thomas at the protected crypt",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 11/16]\n(in reply to) User: I think Michael and Thomas could help me the most, I send them"
+      },
+      {
+        "id": "47c97d03-4b5e-4532-b388-646113466d54",
+        "score": 0.2832,
+        "memory_type": "plan",
+        "title": "Split up to investigate vampires; reconvene in 24 hours",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 12/16]\n(in reply to) User: I think Michael and Thomas could help me the most, I send them"
+      },
+      {
+        "id": "c4ca632c-a416-4a72-9850-bb878bc78a39",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bar inquiry about local vampire gang",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 13/16]\nUser: But first I need a cold drink, it was a busy morning killing demons, and the"
+      },
+      {
+        "id": "ea558b99-2ba2-463e-badb-27aa3a7f3f60",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers asking werewolf friends about local gangs",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 14/16]\nUser: Maybe my werewolf friends will have an idea about the local gangs, they keep"
+      },
+      {
+        "id": "0da0fbc6-5d26-4cd1-a6d0-92437ec9f678",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Werewolf alpha Marcone agrees to share rumors about a new gang",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 15/16]\n(in reply to) User: Maybe my werewolf friends will have an idea about the local ga"
+      },
+      {
+        "id": "f42a2d8a-c5b4-460a-a742-985027a543fe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User heads back to crypt after learning about local gangs",
+        "text": "[date: 2023-05-30T06:09:00+00:00 | context: Session 11044a5179e4 - happened on 2023-05-30 06:09:00 UTC. | turn 16/16]\n(in reply to) User: Maybe my werewolf friends will have an idea about the local ga"
+      },
+      {
+        "id": "171adfc5-b74a-47cd-8228-dd84d926ef11",
+        "score": 0.3838,
+        "memory_type": "preference",
+        "title": "Book recommendations request after recent fiction reads",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 1/34]\nUser: I'm looking for some book recommendations. I just finished reading three fict"
+      },
+      {
+        "id": "f8be3dd3-f0cd-428c-8d73-74451749510c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided book recommendations based on recent reads",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 2/34]\n(in reply to) User: I'm looking for some book recommendations. I just finished read"
+      },
+      {
+        "id": "90a31623-154a-492e-9e7a-776050dfea61",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for psychological thrillers",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 3/34]\n(in reply to) User: I'm looking for some book recommendations. I just finished read"
+      },
+      {
+        "id": "781905d7-d1fe-4e7c-81ad-bcb9b5fd3d96",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations: All the Light We Cannot See, The Alice Network, The Lost G",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 4/34]\n(in reply to) User: I'm looking for some book recommendations. I just finished read"
+      },
+      {
+        "id": "d6210d32-c179-4fd3-9c89-22eac9176f08",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendation suggestions (Colleen Hoover, Emily Giffin, Liane Moriarty)",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 5/34]\n(in reply to) User: I'm looking for some book recommendations. I just finished read"
+      },
+      {
+        "id": "8082410a-2c34-46c4-9e74-518da7cb4efe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User enjoys genre-mixing and wants self-help non-fiction recommendations",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 6/34]\nUser: I'm glad you suggested some similar authors and books. I've actually listened"
+      },
+      {
+        "id": "ca628d46-ed5a-4d65-b396-c347815887cc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendation discussion: Daisy Jones and The Six",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 7/34]\n(in reply to) User: I'm glad you suggested some similar authors and books. I've act"
+      },
+      {
+        "id": "a021bc9d-209d-46ec-87ce-285968ede949",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared audiobook/book preferences and genre-mixing goal",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 8/34]\n(in reply to) User: I'm glad you suggested some similar authors and books. I've act"
+      },
+      {
+        "id": "b20883c2-931b-485b-b9c4-5ebab26fcdc2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended relationship books (attachment, NVC, Hold Me Tight)",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 9/34]\n(in reply to) User: I'm glad you suggested some similar authors and books. I've act"
+      },
+      {
+        "id": "ce4b4994-1652-4890-a2ae-311e75e03dd4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for self-acceptance and mindset",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 10/34]\n(in reply to) User: I'm glad you suggested some similar authors and books. I've ac"
+      },
+      {
+        "id": "23cf4a2f-3664-42fc-bc89-44c4585f2d1c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed audiobook and memoir book recommendations",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 11/34]\n(in reply to) User: I'm glad you suggested some similar authors and books. I've ac"
+      },
+      {
+        "id": "51fbd8e8-d167-41c8-96da-29c244b1bf9f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User uses a reading log and wants reflection prompts",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 12/34]\nUser: I've been tracking my reading progress and writing down my thoughts on each "
+      },
+      {
+        "id": "6dcfd394-b51a-4648-8611-93f9d383744c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reading log reflection prompts for non-fiction self-help books",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 13/34]\n(in reply to) User: I've been tracking my reading progress and writing down my tho"
+      },
+      {
+        "id": "1d5f4046-2b07-48f6-bf93-727143b21554",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Action-oriented and critical reflection prompts for reading logs",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 14/34]\n(in reply to) User: I've been tracking my reading progress and writing down my tho"
+      },
+      {
+        "id": "c391f525-b85e-418a-9679-4baa910c254e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reading log reflection prompts",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 15/34]\n(in reply to) User: I've been tracking my reading progress and writing down my tho"
+      },
+      {
+        "id": "b6d9e9c5-f125-4276-8247-7cdd12ce2bf7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares reading log motivation and asks for reflection prompts",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 16/34]\n(in reply to) User: I've been tracking my reading progress and writing down my tho"
+      },
+      {
+        "id": "fe08cd69-bfb6-4e6b-a664-c0544078433f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User uses reading log and audiobooks for motivation",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 17/34]\nUser: I like these reflection prompts. I've been using a reading log to track my p"
+      },
+      {
+        "id": "bf841640-2669-4941-90bb-3601d85f00db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares reading log and audiobook interest",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 18/34]\n(in reply to) User: I like these reflection prompts. I've been using a reading log"
+      },
+      {
+        "id": "2da63114-13a6-4d5c-98ac-ce0585ac77b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook platform options and pricing (Audible, Libro.fm, Scribd, Hoopla)",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 19/34]\n(in reply to) User: I like these reflection prompts. I've been using a reading log"
+      },
+      {
+        "id": "0041dce6-ba9b-4307-b8bb-65773fae82ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital audiobook/e-book platforms (OverDrive, Google Play Books, Audiobooks.com",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 20/34]\n(in reply to) User: I like these reflection prompts. I've been using a reading log"
+      },
+      {
+        "id": "fab85a59-e259-487e-b3f8-04709a4a0d29",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reflection prompts and audiobook book recommendations",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 21/34]\n(in reply to) User: I like these reflection prompts. I've been using a reading log"
+      },
+      {
+        "id": "19685044-53d2-4eb6-910d-7e4619ddba5c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User runs a bookstagram and wants engagement tips",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 22/34]\nUser: I've been following book bloggers and bookstagrammers on social media, which"
+      },
+      {
+        "id": "2019a740-cd62-4d5d-9648-cbe828ac45b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replied to user about book bloggers/bookstagram",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 23/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "92bfa2f2-8f1b-4ca3-93f4-8a449c170e54",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bookstagram content guidance and aesthetics",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 24/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "ebf04a41-dc8c-4dc1-8e46-29ae9818b420",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for visually appealing bookstagram theme",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 25/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "acbbfeed-ac62-417c-bda2-2a235df322db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bookstagram growth ideas: engagement, giveaways, collaborations",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 26/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "b236f8cc-e540-4d5f-85c9-61766cad1e6a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bookstagram inspiration and engagement tips",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 27/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "61d2ed48-0b18-45d5-bec4-86e10eaa05c9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for creating an engaging bookstagram account",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 28/34]\n(in reply to) User: I've been following book bloggers and bookstagrammers on socia"
+      },
+      {
+        "id": "03cbe55e-3911-40be-a421-4e24c324a7ba",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants more audiobook options",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 29/34]\nUser: I'd love to explore more audiobook options!"
+      },
+      {
+        "id": "8bba0c3d-df0f-4d64-8bc5-2c84ba6513a9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for more audiobook options",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 30/34]\n(in reply to) User: I'd love to explore more audiobook options!\n\nAssistant: Audiob"
+      },
+      {
+        "id": "5fa2c603-036b-42c4-b9c5-293fc0605d97",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook platform options: Audible, Libro.fm, Scribd, Hoopla",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 31/34]\n(in reply to) User: I'd love to explore more audiobook options!\n\n1. **Audible**: A"
+      },
+      {
+        "id": "0f38ab46-5cdc-410d-bd27-a2d74ea4d69a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook platforms overview (OverDrive, Google Play Books, etc.)",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 32/34]\n(in reply to) User: I'd love to explore more audiobook options!\n\n5. **OverDrive**:"
+      },
+      {
+        "id": "d396146d-7f48-46fe-970a-6a73168690c4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobooksync summer reading program details",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 33/34]\n(in reply to) User: I'd love to explore more audiobook options!\n\n10. **Audiobooksy"
+      },
+      {
+        "id": "88f0c7fc-5568-4f4a-b362-e94aae162cc9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for more audiobook options",
+        "text": "[date: 2023-05-30T07:08:00+00:00 | context: Session 8303de6a766f - happened on 2023-05-30 07:08:00 UTC. | turn 34/34]\n(in reply to) User: I'd love to explore more audiobook options!\n\nThese are just a "
+      },
+      {
+        "id": "045d69c9-e1b4-4676-b06c-e851d431f2a4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests diverse book recommendations",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 1/30]\nUser: I'm looking for some book recommendations. I've been trying to read more dive"
+      },
+      {
+        "id": "3cd4dbe8-f8c9-4260-a1b7-0a96f12dbc1e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided book recommendations after user asked for diverse reads",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 2/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "0e7de6cb-17e2-48f6-a750-c9643ac33de3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for diverse YA reads",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 3/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "44e84c2c-52c2-44be-8333-b8477e9eb946",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendation: The Sun Is Also a Star",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "837972df-2560-41ff-9cc5-182545104250",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for diverse book recommendations",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "80c943fa-94c0-4935-9b5d-be33e2157693",
+        "score": null,
+        "memory_type": "fact",
+        "title": "YA book recommendations by diverse authors",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 6/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "ff0c8343-5849-45e3-8726-14d4b27fc0de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for diverse book recommendations",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 7/30]\n(in reply to) User: I'm looking for some book recommendations. I've been trying to "
+      },
+      {
+        "id": "8a3d8935-269a-4586-a883-3d2fabb6243b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares recent fiction reading for book club",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 8/30]\nUser: I'm glad you liked \"The Hate U Give\". I've been trying to read more diversely"
+      },
+      {
+        "id": "bebf955d-e262-4cfe-9790-a8a5445ded84",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User finished three fiction novels in one weekend",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 9/30]\n(in reply to) User: I'm glad you liked \"The Hate U Give\". I've been trying to read "
+      },
+      {
+        "id": "70212dd1-4983-42ec-b2f1-9f194261c798",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book club recommendations for diversely reading novels",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 10/30]\n(in reply to) User: I'm glad you liked \"The Hate U Give\". I've been trying to read"
+      },
+      {
+        "id": "6292c950-ca84-4c1f-b263-d38ce22ecdef",
+        "score": 0.444,
+        "memory_type": "episode",
+        "title": "Book club reading recommendations (The Hate U Give)",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 11/30]\n(in reply to) User: I'm glad you liked \"The Hate U Give\". I've been trying to read"
+      },
+      {
+        "id": "50f0e897-8535-4900-bdad-e58e5b221657",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book club reading recommendations discussion (May 30, 2023)",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 12/30]\n(in reply to) User: I'm glad you liked \"The Hate U Give\". I've been trying to read"
+      },
+      {
+        "id": "39081982-cc0c-41eb-ac5c-4e4d7ae9aec6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes audiobooks for commute",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 13/30]\nUser: What do you think about audiobooks? I've recently started listening to them "
+      },
+      {
+        "id": "2c31ddda-6917-4ffd-b350-2fea8ff678cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Positive view of audiobooks for multitasking/commutes",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 14/30]\n(in reply to) User: What do you think about audiobooks? I've recently started list"
+      },
+      {
+        "id": "b8d49480-7dda-4c6b-bb69-d4c3303513c2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Positive view of audiobooks for commuting and multitasking",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 15/30]\n(in reply to) User: What do you think about audiobooks? I've recently started list"
+      },
+      {
+        "id": "678b1133-9276-4747-899e-daca14a5bbb2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about audiobooks and platforms",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 16/30]\n(in reply to) User: What do you think about audiobooks? I've recently started list"
+      },
+      {
+        "id": "751b891a-6225-42ae-9cf7-7fba48f7d0ef",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for full-cast audiobook narration",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 17/30]\nUser: I actually prefer full-cast narrations, especially for novels with multiple "
+      },
+      {
+        "id": "093845ae-6fcc-43ff-a68d-6bcc43db0b60",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers full-cast narrations for dialogue-heavy novels",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 18/30]\n(in reply to) User: I actually prefer full-cast narrations, especially for novels "
+      },
+      {
+        "id": "a8afe40f-ff7a-462c-9229-bb6a72fe114f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for full-cast, dialogue-heavy audiobook narration",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 19/30]\n(in reply to) User: I actually prefer full-cast narrations, especially for novels "
+      },
+      {
+        "id": "910468fc-b867-4f2b-b557-693f80641cf0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers full-cast, dialogue-heavy audiobook narrations",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 20/30]\n(in reply to) User: I actually prefer full-cast narrations, especially for novels "
+      },
+      {
+        "id": "865de9c4-0cac-46a4-b0f8-030256fb8ce8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Narration quality is crucial in audiobooks",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 21/30]\nUser: I think narration is crucial in audiobooks. A good narrator can elevate the "
+      },
+      {
+        "id": "c69d4b9c-ef19-448d-8f93-354277e7b428",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: audiobook narration and listener imagination",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 22/30]\n(in reply to) User: I think narration is crucial in audiobooks. A good narrator ca"
+      },
+      {
+        "id": "29153c3c-de9c-4242-989e-12afebc0efc1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook narration influences listener imagination",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 23/30]\n(in reply to) User: I think narration is crucial in audiobooks. A good narrator ca"
+      },
+      {
+        "id": "f7a7dbf9-37d0-4e6f-809f-e49d0b3a9fd0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook narration is crucial for immersion",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 24/30]\n(in reply to) User: I think narration is crucial in audiobooks. A good narrator ca"
+      },
+      {
+        "id": "29f4616a-87bb-40a5-ac28-68c1560b001f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on audiobook narration and emotional impact",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 25/30]\n(in reply to) User: I think narration is crucial in audiobooks. A good narrator ca"
+      },
+      {
+        "id": "70532acd-95e1-434c-ac55-e4bcaf2ef8eb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook narration affects listeners emotionally",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 26/30]\nUser: I think audiobook narration can have a significant impact on the listener's "
+      },
+      {
+        "id": "8b3eee37-a22d-48cc-9697-95e8bf77486d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook narration influences listeners' emotional response",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 27/30]\n(in reply to) User: I think audiobook narration can have a significant impact on t"
+      },
+      {
+        "id": "b104d91d-d676-4b7e-96c1-51a4e4fb54a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook narration impacts emotional response",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 28/30]\n(in reply to) User: I think audiobook narration can have a significant impact on t"
+      },
+      {
+        "id": "f73e5459-b805-4cb4-8278-72334c45e7d0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook narration enhances emotional impact",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 29/30]\n(in reply to) User: I think audiobook narration can have a significant impact on t"
+      },
+      {
+        "id": "f84d16db-b7a1-4c6b-8f6f-e2136ea315c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: audiobook narration and listener emotions",
+        "text": "[date: 2023-05-30T12:42:00+00:00 | context: Session 873ba276a20c - happened on 2023-05-30 12:42:00 UTC. | turn 30/30]\n(in reply to) User: I think audiobook narration can have a significant impact on t"
+      },
+      {
+        "id": "ba4a7651-6b23-4c75-897a-00b47e47c181",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendations request and kindness anecdotes",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 1/23]\nUser: I'm looking for some book recommendations. I recently had a conversation with"
+      },
+      {
+        "id": "451f8be3-bbb9-4526-b975-590786a23593",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided book recommendations for Celeste Ng",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 2/23]\n(in reply to) User: I'm looking for some book recommendations. I recently had a con"
+      },
+      {
+        "id": "4c3fa4eb-7dff-4235-b1f5-36754f8fdecb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations across literary, psychological, and women's fiction",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 3/23]\n(in reply to) User: I'm looking for some book recommendations. I recently had a con"
+      },
+      {
+        "id": "bccd1800-362d-4f01-82fd-1b586b59ff98",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations: Brit Bennett and Sally Rooney",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 4/23]\n(in reply to) User: I'm looking for some book recommendations. I recently had a con"
+      },
+      {
+        "id": "72641310-d6db-45f7-ae0b-a55c2b516f26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendations conversation (Celeste Ng)",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 5/23]\n(in reply to) User: I'm looking for some book recommendations. I recently had a con"
+      },
+      {
+        "id": "364b91d4-c0b8-43d3-9ba6-8fbe02986835",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Meg Wolitzer style and The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 6/23]\nUser: I've been meaning to explore more literary fiction, so \"The Interestings\" and"
+      },
+      {
+        "id": "d03757a7-e6d8-46db-9c83-757924e2c1e2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Meg Wolitzer style and The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 7/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The Int"
+      },
+      {
+        "id": "9a0db6f2-d623-46de-a368-b2d17bcb5138",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meg Wolitzer writing style and expectations for The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 8/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The Int"
+      },
+      {
+        "id": "b1b2710f-b8dc-4da4-9fdf-650f533b818e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meg Wolitzer expectations for The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 9/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The Int"
+      },
+      {
+        "id": "7fd91eb2-1f5f-4bb9-87a8-70f20937f5cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meg Wolitzer's The Interestings: narrative, characters, themes",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 10/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The In"
+      },
+      {
+        "id": "9bbe05ca-4437-4f89-80d9-e4ae38708ba2",
+        "score": 0.2861,
+        "memory_type": "fact",
+        "title": "Meg Wolitzer\u2019s style and what to expect in The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 11/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The In"
+      },
+      {
+        "id": "122c585e-857a-4152-8a28-9891e0150841",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Expectations for Meg Wolitzer's The Interestings",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 12/23]\n(in reply to) User: I've been meaning to explore more literary fiction, so \"The In"
+      },
+      {
+        "id": "2c78e85a-9258-420a-86ae-30f92977ab0d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User book plans and asks for pasta sauce recommendations",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 13/23]\nUser: That helps a lot, thank you! I'm definitely looking forward to reading \"The "
+      },
+      {
+        "id": "6378be02-8593-46d2-9e10-d44353874030",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Shared tomato sauce recipe after book recommendations",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 14/23]\n(in reply to) User: That helps a lot, thank you! I'm definitely looking forward to"
+      },
+      {
+        "id": "6febb563-1989-439a-b413-6be025b23f00",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Spaghetti sauce cooking steps and customization ideas",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 15/23]\n(in reply to) User: That helps a lot, thank you! I'm definitely looking forward to"
+      },
+      {
+        "id": "e6d4dca2-a043-4880-bca4-7025b3e3731d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to read Celeste Ng and mentions kindness story",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 16/23]\n(in reply to) User: That helps a lot, thank you! I'm definitely looking forward to"
+      },
+      {
+        "id": "082da54c-9283-42dc-93be-93f45078f1a3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for cooking recommendations",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 17/23]\nUser: That pasta sauce recipe sounds delicious, I'll have to give it a try! I'm ac"
+      },
+      {
+        "id": "93e400e0-1584-4aa1-a29d-070f29951e44",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends cookbooks and websites for cooking",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 18/23]\n(in reply to) User: That pasta sauce recipe sounds delicious, I'll have to give it"
+      },
+      {
+        "id": "bdbbb671-7c6c-4152-8ed9-04ef35fd6148",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cookbook and website recommendations for new recipes",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 19/23]\n(in reply to) User: That pasta sauce recipe sounds delicious, I'll have to give it"
+      },
+      {
+        "id": "25ae6491-5948-4e4d-8c56-a22017daa9e0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cooking resources: recipe sites, courses, and YouTube channels",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 20/23]\n(in reply to) User: That pasta sauce recipe sounds delicious, I'll have to give it"
+      },
+      {
+        "id": "59f5dc54-5a30-49f6-a646-13b1fd54a41f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cooking resources recommended: Babish, Tasty, Jamie Oliver, Mark Wiens",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 21/23]\n(in reply to) User: That pasta sauce recipe sounds delicious, I'll have to give it"
+      },
+      {
+        "id": "7b4b69e9-df24-4904-9ad5-8c1df8907597",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering trying grocery helper's restaurant",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 22/23]\nUser: Thanks for the recommendations! I'll definitely check out some of these cook"
+      },
+      {
+        "id": "8fb38abb-0434-4609-a117-d14b5dbbb5d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to try chef\u2019s nearby restaurant",
+        "text": "[date: 2023-05-30T12:58:00+00:00 | context: Session a5ba77deaa54 - happened on 2023-05-30 12:58:00 UTC. | turn 23/23]\nUser: I think I got a bit carried away with the conversation. You're right, I was "
+      },
+      {
+        "id": "340c4de2-33dd-4a3d-8ec6-b670cf3f8002",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants TV show recommendations like Ozark for commute",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 1/26]\nUser: I'm trying to catch up on some TV shows during my daily commute, which usuall"
+      },
+      {
+        "id": "6e0cdf37-a1c7-450e-9a18-38bb0a93697f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "TV show recommendations similar to Ozark",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 2/26]\n(in reply to) User: I'm trying to catch up on some TV shows during my daily commute"
+      },
+      {
+        "id": "efe1632e-721d-4704-8807-46cd8f77f10d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "TV show recommendations similar to Ozark",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 3/26]\n(in reply to) User: I'm trying to catch up on some TV shows during my daily commute"
+      },
+      {
+        "id": "7e792385-f954-41b5-b5ca-6361166be418",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations similar to Ozark",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 4/26]\n(in reply to) User: I'm trying to catch up on some TV shows during my daily commute"
+      },
+      {
+        "id": "4906940d-d01f-4c6f-82f4-cc1ebbe20aa1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations similar to Ozark",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 5/26]\n(in reply to) User: I'm trying to catch up on some TV shows during my daily commute"
+      },
+      {
+        "id": "579f5e9b-ee24-4e52-86bb-903419420569",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations similar to Ozark (commute-friendly)",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 6/26]\n(in reply to) User: I'm trying to catch up on some TV shows during my daily commute"
+      },
+      {
+        "id": "d496b680-0cf1-43b2-bd79-c2f7345b289e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about actor who plays Chicago lawyer character",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 7/26]\nUser: I've been really enjoying the new characters introduced this season, especial"
+      },
+      {
+        "id": "0db6634a-a554-489c-85ac-b462027bcc1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Actor Tom Pelphrey bio details",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 8/26]\n(in reply to) User: I've been really enjoying the new characters introduced this se"
+      },
+      {
+        "id": "3739801a-4a01-4ab7-9ec0-73b90f5c8a56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Actor Charlie Pelphrey roles in TV series and film",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 9/26]\n(in reply to) User: I've been really enjoying the new characters introduced this se"
+      },
+      {
+        "id": "a6035b7f-2408-4eca-bfbb-01fd0a75e699",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about actor who plays Chicago lawyer character",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 10/26]\n(in reply to) User: I've been really enjoying the new characters introduced this s"
+      },
+      {
+        "id": "4d2dcb54-0116-4d7c-ab59-0a8102a03d8b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "TV show preference: complex characters, 20\u201330 min episodes",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 11/26]\nUser: Can you recommend some other shows with complex characters like Ozark, but w"
+      },
+      {
+        "id": "7bd01247-4f79-4315-b7d1-fc9e3cbd26ef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "TV show recommendations for shorter episodes like Ozark",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 12/26]\n(in reply to) User: Can you recommend some other shows with complex characters lik"
+      },
+      {
+        "id": "f3adb830-6dc8-4a4a-943c-dbe3ab6ab97d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations with ~20\u201330 minute episodes",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 13/26]\n(in reply to) User: Can you recommend some other shows with complex characters lik"
+      },
+      {
+        "id": "e53a0e6e-16bf-4ccf-9082-19ff599b3844",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations with 20\u201330 minute episodes",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 14/26]\n(in reply to) User: Can you recommend some other shows with complex characters lik"
+      },
+      {
+        "id": "a5510ac1-4baa-460e-b4df-bf6fc8739f1a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TV show recommendations for complex characters (20\u201330 min episodes)",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 15/26]\n(in reply to) User: Can you recommend some other shows with complex characters lik"
+      },
+      {
+        "id": "23767094-c1c8-4a0a-ab66-9f8d5f820830",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Streaming services: Apple TV+ originals appeal but diversity concern",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 16/26]\nUser: I'm also exploring other streaming services, like Apple TV+, and I've been w"
+      },
+      {
+        "id": "58765023-ddfa-4478-97b2-fe21d3e63a7f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Apple TV+ originals and subscription decision",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 17/26]\n(in reply to) User: I'm also exploring other streaming services, like Apple TV+, a"
+      },
+      {
+        "id": "6ef2b3ac-bbf0-4bb5-86ae-303f1d8b2471",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion of Apple TV+ originals and subscription value",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 18/26]\n(in reply to) User: I'm also exploring other streaming services, like Apple TV+, a"
+      },
+      {
+        "id": "5de8f1c8-7047-49a7-81cc-71c167dc88e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tip: Apple TV+ free trial extensions/promos",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 19/26]\n(in reply to) User: I'm also exploring other streaming services, like Apple TV+, a"
+      },
+      {
+        "id": "f04c010f-cd75-43fc-9755-95cb72885f98",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about whether Apple TV+ is worth subscribing",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 20/26]\n(in reply to) User: I'm also exploring other streaming services, like Apple TV+, a"
+      },
+      {
+        "id": "bc86c924-f53a-4d39-b14f-3f21fc7b48b1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering more comedy on Apple TV+ (Schitt's Creek)",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 21/26]\nUser: I'm actually thinking of exploring more comedy content on Apple TV+. I've he"
+      },
+      {
+        "id": "55b693b2-2a63-4640-91fd-3c8cd6db62ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Schitt's Creek not on Apple TV+; Schmigadoon! is",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 22/26]\n(in reply to) User: I'm actually thinking of exploring more comedy content on Appl"
+      },
+      {
+        "id": "94aa449e-33ab-48d6-888a-0d357d6d2942",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice about where to watch Schitt's Creek",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 23/26]\n(in reply to) User: I'm actually thinking of exploring more comedy content on Appl"
+      },
+      {
+        "id": "b5f94402-77b0-4a2a-8d74-a4b12f7b4e79",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Comedy show recommendation for commute",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 24/26]\nUser: I've been meaning to check out more comedy content, especially since my dail"
+      },
+      {
+        "id": "4d070cc5-96de-4f6e-8b46-4da9df54c169",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Comedy show recommendations for commute",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 25/26]\n(in reply to) User: I've been meaning to check out more comedy content, especially"
+      },
+      {
+        "id": "5c304634-5417-4056-8e6f-16859d25aae3",
+        "score": 0.2796,
+        "memory_type": "preference",
+        "title": "Comedy show recommendation for commute",
+        "text": "[date: 2023-05-30T13:50:00+00:00 | context: Session d9e24d33837e - happened on 2023-05-30 13:50:00 UTC. | turn 26/26]\n(in reply to) User: I've been meaning to check out more comedy content, especially"
+      },
+      {
+        "id": "9f16c7eb-df4e-4503-9572-8c48f8d1ba23",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook recommendations similar to 'The Power'",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 1/25]\nUser: I'm looking for some new audiobook recommendations. I've recently finished \"T"
+      },
+      {
+        "id": "b233d854-ea35-41fb-8dfc-0f87b82f3b1b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook recommendations similar to 'The Power'",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 2/25]\n(in reply to) User: I'm looking for some new audiobook recommendations. I've recent"
+      },
+      {
+        "id": "553bffd1-2231-425f-abf2-9991876b16c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook recommendations similar to The Power (2023-05-30)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 3/25]\n(in reply to) User: I'm looking for some new audiobook recommendations. I've recent"
+      },
+      {
+        "id": "3494e2ae-7e90-416a-b981-d92b1a7085d6",
+        "score": 0.3147,
+        "memory_type": "episode",
+        "title": "Audiobook recommendations requested and provided",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 4/25]\n(in reply to) User: I'm looking for some new audiobook recommendations. I've recent"
+      },
+      {
+        "id": "e50e3de4-6006-4d76-8439-57a2a721722f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested audiobook recommendations similar to 'The Power'",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 5/25]\n(in reply to) User: I'm looking for some new audiobook recommendations. I've recent"
+      },
+      {
+        "id": "1c67af97-e486-4b7f-a06b-58c90efd1362",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sci-fi audiobook recommendations focused on characters",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 6/25]\nUser: I've actually already read The Song of Achilles and I'm currently reading it "
+      },
+      {
+        "id": "a1a781ab-a8c2-43c7-aadf-36980b91f9c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sci-fi audiobook recommendations request (Song of Achilles)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 7/25]\n(in reply to) User: I've actually already read The Song of Achilles and I'm current"
+      },
+      {
+        "id": "a51c030a-d903-4b3b-99b1-649e628935e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sci-fi audiobook recommendations with strong character focus",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 8/25]\n(in reply to) User: I've actually already read The Song of Achilles and I'm current"
+      },
+      {
+        "id": "d58ff4d7-554b-4d64-ae76-acfec1de0b2e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sci-fi audiobook recommendations (Murderbot, Illuminae, Three-Body)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 9/25]\n(in reply to) User: I've actually already read The Song of Achilles and I'm current"
+      },
+      {
+        "id": "ff24af5d-6158-462f-ba5d-2c57bdbb8c90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sci-fi audiobook recommendations (Provenance, The Collapsing Empire)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 10/25]\n(in reply to) User: I've actually already read The Song of Achilles and I'm curren"
+      },
+      {
+        "id": "b02796fd-e837-417e-b8ae-f2373dcbc08d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sci-fi audiobook recommendations for character-focused listening",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 11/25]\n(in reply to) User: I've actually already read The Song of Achilles and I'm curren"
+      },
+      {
+        "id": "60e89449-c514-4b89-915a-abc8ce636d94",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Murderbot Diaries recommendations",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 12/25]\nUser: I'm interested in the Murderbot Diaries series. Can you tell me more about i"
+      },
+      {
+        "id": "59e1f997-db17-4417-8cdf-2b11ff2a20e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Murderbot Diaries overview and reading recommendation",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 13/25]\n(in reply to) User: I'm interested in the Murderbot Diaries series. Can you tell m"
+      },
+      {
+        "id": "f5ff9c25-b08d-4c68-85c7-9c7aaec167b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Murderbot Diaries: recommended starting points and summaries",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 14/25]\n(in reply to) User: I'm interested in the Murderbot Diaries series. Can you tell m"
+      },
+      {
+        "id": "881e95d5-dc86-45f7-a897-5c79e23622e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Murderbot Diaries: Network Effect (2020) plot summary",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 15/25]\n(in reply to) User: I'm interested in the Murderbot Diaries series. Can you tell m"
+      },
+      {
+        "id": "d3308aa4-5053-4962-b392-a78f1f842c7f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Murderbot Diaries starter: All Systems Red (audiobooks by Kevin R. Free)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 16/25]\n(in reply to) User: I'm interested in the Murderbot Diaries series. Can you tell m"
+      },
+      {
+        "id": "bce91121-0fe1-4dfe-a4f6-c83725ce182c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if Murderbot Diaries can be started with later novella",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 17/25]\nUser: I've heard a lot about the Murderbot Diaries series, but I didn't know it wa"
+      },
+      {
+        "id": "e1fbb3d7-8a55-4af6-b784-3c5d1b4b0a82",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendation to start Murderbot Diaries from All Systems Red",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 18/25]\n(in reply to) User: I've heard a lot about the Murderbot Diaries series, but I did"
+      },
+      {
+        "id": "3a7a740a-45ec-434d-ac1d-52350aaff251",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendation to start Murderbot Diaries with All Systems Red",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 19/25]\n(in reply to) User: I've heard a lot about the Murderbot Diaries series, but I did"
+      },
+      {
+        "id": "f2099d4b-56d7-456c-8812-ca0954f16af2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Murderbot Diaries: start early for tone/humor",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 20/25]\n(in reply to) User: I've heard a lot about the Murderbot Diaries series, but I did"
+      },
+      {
+        "id": "07d08c4e-338d-4ad6-9ffa-17717d29b6c9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on starting Murderbot Diaries with Network Effect",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 21/25]\n(in reply to) User: I've heard a lot about the Murderbot Diaries series, but I did"
+      },
+      {
+        "id": "cd265730-f568-4a96-a591-084c6f0224e2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to start with All Systems Red",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 22/25]\nUser: I think I'll start with All Systems Red then. I'm curious to see how Murderb"
+      },
+      {
+        "id": "2b2f4ab6-eb36-4527-8104-3c651428afc7",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Recommendation to start Murderbot series with All Systems Red",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 23/25]\n(in reply to) User: I think I'll start with All Systems Red then. I'm curious to s"
+      },
+      {
+        "id": "21489852-2a2a-4f88-bb5a-6208ff76ecb9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about starting Murderbot series (All Systems Red)",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 24/25]\n(in reply to) User: I think I'll start with All Systems Red then. I'm curious to s"
+      },
+      {
+        "id": "e8585a40-5f4a-458b-a857-c93ed9cc4a5f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Readathon planning: assistant asks for book criteria",
+        "text": "[date: 2023-05-30T19:32:00+00:00 | context: Session 0ae0ec1674ce - happened on 2023-05-30 19:32:00 UTC. | turn 25/25]\nUser: I'm planning to participate in a readathon next month, and I'm looking for s"
+      }
+    ]
+  },
+  "context": {
+    "chars": 98714,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24678)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26056,
+    "prompt_tokens": 24454,
+    "completion_tokens": 291,
+    "reasoning_tokens": 1311,
+    "generate_time_ms": 14043.581195990555,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22858,
+        "completion_tokens": 94,
+        "reasoning_tokens": 531,
+        "total_tokens": 23483
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 563,
+        "completion_tokens": 49,
+        "reasoning_tokens": 161,
+        "total_tokens": 773
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 371,
+        "completion_tokens": 52,
+        "reasoning_tokens": 312,
+        "total_tokens": 735
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 662,
+        "completion_tokens": 96,
+        "reasoning_tokens": 307,
+        "total_tokens": 1065
+      }
+    ]
+  },
+  "failure_label": null
+}

@@ -1,0 +1,1310 @@
+{
+  "question_id": "71017277",
+  "question_type": "temporal-reasoning",
+  "question": "I received a piece of jewelry last Saturday from whom?",
+  "gold_answer": "my aunt",
+  "prediction": "The chat history does not mention you receiving a piece of jewelry last Saturday or who gave it to you. (You did mention receiving a crystal chandelier from your aunt on Saturday, March 4, 2023.)",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": false,
+      "reason": "no"
+    }
+  },
+  "memories": {
+    "count": 893,
+    "by_type": {
+      "task": 45,
+      "action": 5,
+      "episode": 276,
+      "preference": 174,
+      "fact": 382,
+      "plan": 8,
+      "decision": 3
+    },
+    "by_status": {
+      "active": 893
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2628099,
+    "output_tokens": 126806,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "I received a piece of jewelry last Saturday from whom?"
+    ],
+    "retrieve_time_ms": 5856.365966959856,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "e29f45cf-d355-428e-89fd-b90b6cfa4764",
+        "score": 0.3638,
+        "memory_type": "task",
+        "title": "Gift ideas for friends' upcoming birthdays",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 1/18]\nUser: I'm looking for some gift ideas for my friends' birthdays, which are coming u"
+      },
+      {
+        "id": "6164cc15-eb8c-411c-bb1c-9d8b1133f78d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for friends' birthdays (affordable trendy clothing)",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 2/18]\n(in reply to) User: I'm looking for some gift ideas for my friends' birthdays, whic"
+      },
+      {
+        "id": "872af140-d29f-44eb-85f3-413e5d6b8628",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Affordable trendy clothing gift ideas",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 3/18]\n(in reply to) User: I'm looking for some gift ideas for my friends' birthdays, whic"
+      },
+      {
+        "id": "7292062a-0d9e-465c-a108-0995603e980c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shopped at H&M sale after Black Friday; asks skincare gift ideas",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 4/18]\nUser: I really like some of those suggestions. Speaking of shopping, I recently wen"
+      },
+      {
+        "id": "c04036d6-15ad-40de-aae9-bde6cdb21a88",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about H&M sale and skincare gift ideas",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 5/18]\n(in reply to) User: I really like some of those suggestions. Speaking of shopping, "
+      },
+      {
+        "id": "902221fb-3cb8-40ce-ad64-c2ff0766300b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Skincare shopping suggestions (masks, serums, moisturizers)",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 6/18]\n(in reply to) User: I really like some of those suggestions. Speaking of shopping, "
+      },
+      {
+        "id": "1f7b4c66-7f22-4854-add5-05cbcce83fd0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shopped H&M sale after Black Friday with friends",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 7/18]\n(in reply to) User: I really like some of those suggestions. Speaking of shopping, "
+      },
+      {
+        "id": "898f04b4-3366-4ff7-8428-13d421195aa8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User bought skincare at Sephora and asked about fitness tracker",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 8/18]\nUser: Those are great ideas! I think I'll get her a skincare set from Dr. Jart+. Sh"
+      },
+      {
+        "id": "59184791-db7a-4c32-8738-a6ec35f0ab05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User bought Dr. Jart+ skincare set; assistant suggested fitness trackers",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 9/18]\n(in reply to) User: Those are great ideas! I think I'll get her a skincare set from"
+      },
+      {
+        "id": "2ea2a0d6-b8f7-4ee2-9afc-e242a9efac57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitness tracker feature guidance (HR, GPS, water resistance, sleep, notification",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 10/18]\n(in reply to) User: Those are great ideas! I think I'll get her a skincare set fro"
+      },
+      {
+        "id": "57f91025-aecc-41b4-bf0d-cc8136185ecf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering Fitbit Inspire as beginner option",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 11/18]\nUser: I've been eyeing the Fitbit brand, actually. I've heard great things about t"
+      },
+      {
+        "id": "e8d4b4c8-c6c3-499e-b019-2e90fe7ff82d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Fitbit Inspire for beginners",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 12/18]\n(in reply to) User: I've been eyeing the Fitbit brand, actually. I've heard great "
+      },
+      {
+        "id": "ac1d01c4-e2e6-4c56-8311-656f338e983a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit Inspire as a beginner fitness tracker",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 13/18]\n(in reply to) User: I've been eyeing the Fitbit brand, actually. I've heard great "
+      },
+      {
+        "id": "c9ccd04c-9245-49f7-8e7b-dfac4f79319e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers basic, affordable fitness tracker (Fitbit Inspire)",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 14/18]\nUser: Yeah, I think so! The Inspire seems like a great starting point for me. I'm "
+      },
+      {
+        "id": "417e3600-89b1-4765-86d1-cb6ce1d7db37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for handbag suggestions for mom's birthday",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 15/18]\nUser: I'm thinking of getting a new handbag for my mom's birthday, which is coming"
+      },
+      {
+        "id": "38e4b37d-c533-41df-b622-0015daac2d96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag suggestions for mom's birthday",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 16/18]\n(in reply to) User: I'm thinking of getting a new handbag for my mom's birthday, w"
+      },
+      {
+        "id": "5f9aafde-8571-4166-a062-6e2a6a452378",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag suggestions for mom's birthday",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 17/18]\n(in reply to) User: I'm thinking of getting a new handbag for my mom's birthday, w"
+      },
+      {
+        "id": "6ae5f3fc-eb0c-4516-9d68-b01143d7b822",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Handbag suggestions for mom\u2019s birthday",
+        "text": "[date: 2023-02-02T13:53:00+00:00 | context: Session b76501a3273c - happened on 2023-02-02 13:53:00 UTC. | turn 18/18]\n(in reply to) User: I'm thinking of getting a new handbag for my mom's birthday, w"
+      },
+      {
+        "id": "d6183aff-447e-4915-acb7-f1dafd499b11",
+        "score": 0.3805,
+        "memory_type": "preference",
+        "title": "Ideas for thoughtful twin baby gift",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 1/21]\nUser: I'm trying to plan a baby gift for my sister-in-law's friend who just had twi"
+      },
+      {
+        "id": "3600daa8-02f7-48bc-91f4-bab75577c04f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided twin baby gift ideas",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 2/21]\n(in reply to) User: I'm trying to plan a baby gift for my sister-in-law's friend wh"
+      },
+      {
+        "id": "e57aa41e-2e02-442a-812d-282ba1d8fffa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for thoughtful twin baby gifts",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 3/21]\n(in reply to) User: I'm trying to plan a baby gift for my sister-in-law's friend wh"
+      },
+      {
+        "id": "445cacc2-31a0-4fdd-bcae-3eecbcc15387",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift ideas for twins (carriers, meal delivery, books, toys)",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 4/21]\n(in reply to) User: I'm trying to plan a baby gift for my sister-in-law's friend wh"
+      },
+      {
+        "id": "dde4d4d8-a83d-4549-9bb7-5f0ae61a3ba1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideas for thoughtful gifts for twins",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 5/21]\n(in reply to) User: I'm trying to plan a baby gift for my sister-in-law's friend wh"
+      },
+      {
+        "id": "459f32e9-d450-4f22-9823-e056f3d6680e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Baby twins gift ideas and support message",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 6/21]\n(in reply to) User: I'm trying to plan a baby gift for my sister-in-law's friend wh"
+      },
+      {
+        "id": "5e04190c-1489-45a1-9b57-47bec9a9f674",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Twin-themed gift basket idea with baby books/journals",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 7/21]\nUser: I like the idea of a twin-themed gift basket. Do you think I could include a "
+      },
+      {
+        "id": "c804d2e3-8bea-4a05-ac2d-0505a9177e54",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Twin-themed gift basket idea with baby books/journals",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 8/21]\n(in reply to) User: I like the idea of a twin-themed gift basket. Do you think I co"
+      },
+      {
+        "id": "32455ccf-e43e-41ab-b0d3-1e6a144287a6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Twin-themed gift basket ideas (baby books/journals)",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 9/21]\n(in reply to) User: I like the idea of a twin-themed gift basket. Do you think I co"
+      },
+      {
+        "id": "773e96fb-49a2-4cf9-9c6d-c2fa49413a7e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Twin-themed gift basket: include baby books/journals",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 10/21]\n(in reply to) User: I like the idea of a twin-themed gift basket. Do you think I c"
+      },
+      {
+        "id": "d05226d5-cdf2-49a6-b38d-55c4af3b552d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants twin baby book gift with notecards",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 11/21]\nUser: That's a great idea. I think I'll go with a twin baby book that allows the p"
+      },
+      {
+        "id": "e481ffcd-9875-424e-90b0-4ea9482f8222",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests adding notecards to twin baby book gift",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 12/21]\n(in reply to) User: That's a great idea. I think I'll go with a twin baby book tha"
+      },
+      {
+        "id": "3ff23858-f190-4d6f-8f74-b87342edfee7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift idea: twin baby book plus notecards/stationery",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 13/21]\n(in reply to) User: That's a great idea. I think I'll go with a twin baby book tha"
+      },
+      {
+        "id": "5a05a541-d030-4e8f-a4b4-cf7e95c98a26",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Twin baby book gift add-on: neutral/twin-themed notecards",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 14/21]\n(in reply to) User: That's a great idea. I think I'll go with a twin baby book tha"
+      },
+      {
+        "id": "410513ef-6e80-465c-94df-73ce0f57532b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans twin-themed notecards; mentions seeing baby Oliver photos",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 15/21]\nUser: That's a wonderful idea. I think I'll go with a set of twin-themed notecards"
+      },
+      {
+        "id": "a9d06cd6-7033-4041-8b50-cb8ce9006073",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about twin-themed notecards and baby updates",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 16/21]\n(in reply to) User: That's a wonderful idea. I think I'll go with a set of twin-th"
+      },
+      {
+        "id": "2ef9fe66-0c72-4535-9fb7-38a945c7fa20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans gift basket for sister-in-law's friend (twins)",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 17/21]\nUser: That's true. Technology can be really helpful in keeping us connected, but i"
+      },
+      {
+        "id": "c96e41f4-c0e0-48c6-9a2e-ccc5c96a1304",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift basket presentation question",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 18/21]\nUser: I'm going to ask, what's the best way to wrap and present the gift basket? S"
+      },
+      {
+        "id": "fef23352-a23c-44d6-b6ea-24834b08ea9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift basket wrapping and presentation ideas",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 19/21]\n(in reply to) User: I'm going to ask, what's the best way to wrap and present the "
+      },
+      {
+        "id": "284e5b7b-b109-4314-a73e-ac3ba66d3235",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift basket presentation suggestions (tag/card/note)",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 20/21]\n(in reply to) User: I'm going to ask, what's the best way to wrap and present the "
+      },
+      {
+        "id": "c8a45266-9365-4826-920a-4a2bbae3318f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift basket wrapping and message guidance",
+        "text": "[date: 2023-02-03T03:44:00+00:00 | context: Session d56991d3bb13 - happened on 2023-02-03 03:44:00 UTC. | turn 21/21]\n(in reply to) User: I'm going to ask, what's the best way to wrap and present the "
+      },
+      {
+        "id": "2a7e2d38-adfc-48a2-bc56-ee8ce898e425",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for knitting hat ideas using leftover yarn",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 1/23]\nUser: I'm looking for some inspiration for my next knitting project. I just finishe"
+      },
+      {
+        "id": "bb0f3619-06d0-4332-8d2b-bf3c5ee17b7f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Knitting project inspiration: matching hat suggestions",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 2/23]\n(in reply to) User: I'm looking for some inspiration for my next knitting project. "
+      },
+      {
+        "id": "bfbb505c-0083-4025-91ba-5572723ef5db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Knitting hat style suggestions (beanies, slouch, cables, etc.)",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 3/23]\n(in reply to) User: I'm looking for some inspiration for my next knitting project. "
+      },
+      {
+        "id": "148221f5-d680-40a6-bb3e-14a84d54040b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Knitting project suggestions (brioche, color blocking, lace)",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 4/23]\n(in reply to) User: I'm looking for some inspiration for my next knitting project. "
+      },
+      {
+        "id": "a5524a89-8aff-4d5e-bb34-76c14af9e732",
+        "score": 0.3741,
+        "memory_type": "preference",
+        "title": "User wants a simple textured hat pattern for pastel pink merino yarn",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 5/23]\nUser: I think the yarn I have left is a soft, pastel pink merino wool blend, which "
+      },
+      {
+        "id": "e57fcce0-c70b-413b-983e-c9edb051c235",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about pastel pink merino yarn and simple hat patterns",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 6/23]\n(in reply to) User: I think the yarn I have left is a soft, pastel pink merino wool"
+      },
+      {
+        "id": "ce025b78-75e8-4ed4-9a39-9ca8d88e4b43",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple knit hat patterns for pastel pink merino blend",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 7/23]\n(in reply to) User: I think the yarn I have left is a soft, pastel pink merino wool"
+      },
+      {
+        "id": "74500fe7-b897-4928-b5f9-8e2509b8b5ff",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ribbed Hat with Twist knitting pattern description",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 8/23]\n(in reply to) User: I think the yarn I have left is a soft, pastel pink merino wool"
+      },
+      {
+        "id": "7931a6d9-8cae-4d7f-837a-927cf1317ef5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for simple hat patterns using lightweight pastel pink yarn",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 9/23]\n(in reply to) User: I think the yarn I have left is a soft, pastel pink merino wool"
+      },
+      {
+        "id": "4ec76ca6-de70-4c81-8add-33af89fb9642",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for Seed Stitch Hat pattern and needle sizing advice",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 10/23]\nUser: I think I'll go with the Seed Stitch Hat. I've heard it's a great pattern fo"
+      },
+      {
+        "id": "3d161215-e8d9-4d03-8312-cf23a265f19c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Seed Stitch Hat beginner pattern (materials, gauge, pattern)",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 11/23]\n(in reply to) User: I think I'll go with the Seed Stitch Hat. I've heard it's a gr"
+      },
+      {
+        "id": "0c6c75bd-5d78-4b09-adab-3e07580476bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Seed stitch hat beginner recipe (cast on, stitch pattern, crown decreases)",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 12/23]\n(in reply to) User: I think I'll go with the Seed Stitch Hat. I've heard it's a gr"
+      },
+      {
+        "id": "c449237c-ce18-4e1d-8261-fad81bcfd4e9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Seed stitch hat beginner guidance: needle size & swatching",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 13/23]\n(in reply to) User: I think I'll go with the Seed Stitch Hat. I've heard it's a gr"
+      },
+      {
+        "id": "535c4a83-32cc-4bdf-b355-06e68adc695a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Swatch yarn with US 6 and 7 needles to choose fit",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 14/23]\nUser: I've heard that using the right needle size is crucial for getting the right"
+      },
+      {
+        "id": "ca20be41-7b25-4ac5-a690-8db4f45bed34",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Knitting swatch with US 6 and 7 needles",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 15/23]\n(in reply to) User: I've heard that using the right needle size is crucial for get"
+      },
+      {
+        "id": "4b214ceb-4354-41ce-bafb-ed7b91831b58",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Knitting swatch guidance for Seed Stitch Hat needle size",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 16/23]\n(in reply to) User: I've heard that using the right needle size is crucial for get"
+      },
+      {
+        "id": "dd11041a-516d-4e78-9092-489440955dd0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans yarn swatch with US 6 and 7 needles",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 17/23]\n(in reply to) User: I've heard that using the right needle size is crucial for get"
+      },
+      {
+        "id": "0db6c009-d975-4b57-ad17-cf7c276dc513",
+        "score": null,
+        "memory_type": "task",
+        "title": "Tips requested for accurate knitting gauge measurement",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 18/23]\nUser: I'm going to start swatching with the US 6 and 7 needles now. I'll make sure"
+      },
+      {
+        "id": "a4b02de0-9e66-464c-8ea6-de518e25d803",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User begins swatching with US 6 and 7 needles",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 19/23]\n(in reply to) User: I'm going to start swatching with the US 6 and 7 needles now. "
+      },
+      {
+        "id": "1f7d3f38-7739-4418-b2b9-237067e20198",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Knitting gauge measurement guidance",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 20/23]\n(in reply to) User: I'm going to start swatching with the US 6 and 7 needles now. "
+      },
+      {
+        "id": "0714b2b4-b7b5-44a9-853e-b2742ebfb01a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Knitting swatch gauge measurement tips",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 21/23]\n(in reply to) User: I'm going to start swatching with the US 6 and 7 needles now. "
+      },
+      {
+        "id": "14b41d4d-0b00-4942-b909-c2d64cf9a2b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gauge measurement formulas (SPI/RPI)",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 22/23]\n(in reply to) User: I'm going to start swatching with the US 6 and 7 needles now. "
+      },
+      {
+        "id": "7ee0466f-891a-4d0c-ad78-9968f87841c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant asks about swatching results with US 6 vs 7 needles",
+        "text": "[date: 2023-02-03T23:36:00+00:00 | context: Session f6b50f5a8bce - happened on 2023-02-03 23:36:00 UTC. | turn 23/23]\nUser: I'm excited to hear about your swatching progress! What did you discover whe"
+      },
+      {
+        "id": "3c74a38c-a1d6-4ac5-a5dd-55bf5f5d87be",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User started wearing fitness tracker Feb 15 (Tuesday)",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 1/22]\nUser: I'm trying to get more into fitness tracking and was wondering if you could r"
+      },
+      {
+        "id": "7065dc20-059d-46fa-bb04-a11c97b8db08",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness tracking conversation: step goal workout tips",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 2/22]\n(in reply to) User: I'm trying to get more into fitness tracking and was wondering "
+      },
+      {
+        "id": "0313c17d-6bcc-4d7a-92f5-171efb19039e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness step-goal workout routine suggestions (2023-02-11)",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 3/22]\n(in reply to) User: I'm trying to get more into fitness tracking and was wondering "
+      },
+      {
+        "id": "da83636e-0f3e-4290-8abd-02c943153c1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sample step-based walking and workout routine",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 4/22]\n(in reply to) User: I'm trying to get more into fitness tracking and was wondering "
+      },
+      {
+        "id": "165b38ec-b21b-46b1-9435-0ce600c1d705",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User hit a new 12,345-step personal best",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 5/22]\nUser: I'm currently aiming for 10,000 steps a day, and I'd like to focus on enduran"
+      },
+      {
+        "id": "2c8d0a94-4be7-4846-9182-1f3b5c5c85b1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User aims for 10,000 steps/day for endurance",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 6/22]\n(in reply to) User: I'm currently aiming for 10,000 steps a day, and I'd like to fo"
+      },
+      {
+        "id": "9c394567-3f8e-4536-81a1-bfa162bfffc0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User aims for 10,000 steps/day for endurance",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 7/22]\n(in reply to) User: I'm currently aiming for 10,000 steps a day, and I'd like to fo"
+      },
+      {
+        "id": "1264a061-1d6d-4937-b4a6-d8de08125de7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User aims for 10,000 steps/day for endurance",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 8/22]\n(in reply to) User: I'm currently aiming for 10,000 steps a day, and I'd like to fo"
+      },
+      {
+        "id": "11b0b811-011b-44cb-a797-10267ce40e9a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User aims for 10,000 steps/day for endurance and fitness",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 9/22]\n(in reply to) User: I'm currently aiming for 10,000 steps a day, and I'd like to fo"
+      },
+      {
+        "id": "78ff5102-10e9-435d-8f1c-1097739ceec1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses aiming for 10,000 steps/day and a 12,345-step PR",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 10/22]\n(in reply to) User: I'm currently aiming for 10,000 steps a day, and I'd like to f"
+      },
+      {
+        "id": "102af33f-b6a0-4242-b09b-a5ef5556fe4a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to vary walks, try intervals, and use foam roller",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 11/22]\nUser: I think these tips are really helpful and I'll definitely try to mix it up. "
+      },
+      {
+        "id": "4170dfd8-2b5f-47a8-b130-03b4779da2ab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness tips exchanged about walking variety and foam rolling",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 12/22]\n(in reply to) User: I think these tips are really helpful and I'll definitely try "
+      },
+      {
+        "id": "6fe38e3f-1071-498a-8bbb-3d10497ce0a9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to add hills/stairs and foam rolling tips",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 13/22]\n(in reply to) User: I think these tips are really helpful and I'll definitely try "
+      },
+      {
+        "id": "0cbd379f-4e68-42c8-8fac-5ab9310e22ae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans phone timer intervals; foam roller delivery noted",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 14/22]\nUser: I think I'll try using a timer on my phone to guide my intervals. I've heard"
+      },
+      {
+        "id": "ca73d577-758d-43b1-9305-0e853ca43594",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fitness interval guidance and foam roller mention (Feb 11, 2023)",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 15/22]\n(in reply to) User: I think I'll try using a timer on my phone to guide my interva"
+      },
+      {
+        "id": "d61aa096-3013-4114-bd9b-c212fa1c16b8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans phone timer for short interval walks",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 16/22]\n(in reply to) User: I think I'll try using a timer on my phone to guide my interva"
+      },
+      {
+        "id": "c39af399-8469-4e46-8a62-896edab8f4c0",
+        "score": 0.3639,
+        "memory_type": "episode",
+        "title": "User tracks BP with Omron monitor; unsure about walking buddy",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 17/22]\nUser: I'm not sure about finding a walking buddy just yet. I kind of enjoy the alo"
+      },
+      {
+        "id": "82c75f7d-343c-4add-a37b-9ae7484044a2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on walking alone and monitoring blood pressure",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 18/22]\n(in reply to) User: I'm not sure about finding a walking buddy just yet. I kind of"
+      },
+      {
+        "id": "0f637ecc-88e8-4852-a607-b8503c1af2be",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses walking alone time and blood pressure tracking",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 19/22]\n(in reply to) User: I'm not sure about finding a walking buddy just yet. I kind of"
+      },
+      {
+        "id": "80acd601-8a65-4d5d-b536-e31ab6c33d15",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to track blood pressure 3+ times weekly",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 20/22]\nUser: I plan on tracking my blood pressure at least three times a week, maybe more"
+      },
+      {
+        "id": "9297032b-956c-42d3-a1f4-3196cbab4f4a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to track blood pressure 3+ times weekly",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 21/22]\n(in reply to) User: I plan on tracking my blood pressure at least three times a we"
+      },
+      {
+        "id": "53c1cf54-b23b-4a8c-af99-5a6ecd32a659",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to track blood pressure 3+ times weekly",
+        "text": "[date: 2023-02-11T02:09:00+00:00 | context: Session 598ac717eee6 - happened on 2023-02-11 02:09:00 UTC. | turn 22/22]\n(in reply to) User: I plan on tracking my blood pressure at least three times a we"
+      },
+      {
+        "id": "265de027-6621-4989-a5ca-ea8e4f91cc4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User sought new celebration recipe ideas; sister's birthday cake success",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 1/19]\nUser: I'm looking for some new recipe ideas for my next celebration. By the way, I "
+      },
+      {
+        "id": "d3ce4a3f-eec9-49f5-98dd-56a0ffdaaac5",
+        "score": 0.3485,
+        "memory_type": "preference",
+        "title": "Preference for Madagascar vanilla beans",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 2/19]\nUser: I'm thinking of hosting a casual gathering with friends, maybe a brunch or af"
+      },
+      {
+        "id": "41b3c9be-5b32-4e2b-b57b-81fdb34056e8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed hosting a brunch/afternoon tea gathering",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 3/19]\n(in reply to) User: I'm thinking of hosting a casual gathering with friends, maybe "
+      },
+      {
+        "id": "98a75550-397f-4a3a-8dfa-759107cfbfbd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Casual gathering food ideas (brunch/afternoon tea)",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 4/19]\n(in reply to) User: I'm thinking of hosting a casual gathering with friends, maybe "
+      },
+      {
+        "id": "421c834a-d31e-4ead-a02b-d404a9e9b384",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User brainstorms brunch/tea drink ideas",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 5/19]\n(in reply to) User: I'm thinking of hosting a casual gathering with friends, maybe "
+      },
+      {
+        "id": "646263bc-2e5d-4dc5-a403-6751d03268f0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Substitute caramelized sugar crust for French toast",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 6/19]\nUser: I like the idea of the Vanilla Bean Cr\u00e8me Br\u00fbl\u00e9e French Toast, but I'm not su"
+      },
+      {
+        "id": "6bd0f898-c1a0-48c8-8f8a-7c9e70824d16",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks about substituting cr\u00e8me br\u00fbl\u00e9e French toast sugar crust",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 7/19]\n(in reply to) User: I like the idea of the Vanilla Bean Cr\u00e8me Br\u00fbl\u00e9e French Toast, "
+      },
+      {
+        "id": "b4786f18-e19b-4bd2-a20c-442c150c1ef6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Substitutes for caramelized sugar crust on French toast",
+        "text": "[date: 2023-02-11T11:27:00+00:00 | context: Session f8f2189191ea - happened on 2023-02-11 11:27:00 UTC. | turn 8/19]\n(in reply to) User: I like the idea of the Vanilla Bean Cr\u00e8me Br\u00fbl\u00e9e French Toast, "
+      },
+      {
+        "id": "5008b522-7802-4222-aaa4-b5c2001cd351",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested a brief outline rewrite",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 1/12]\nUser: Rewrite this for brevity, in outline form:"
+      },
+      {
+        "id": "6341cbb2-ee57-4c98-a788-7be59c7f2559",
+        "score": null,
+        "memory_type": "fact",
+        "title": "OperationsInc testimonials from RUAG, PEZ Candy, Hitachi Capital",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 2/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cThe diversity \\[OI"
+      },
+      {
+        "id": "70f68f63-ca68-4b6e-a531-85385edeaa0d",
+        "score": 0.3502,
+        "memory_type": "episode",
+        "title": "HR consulting testimonials from Joanne Cordaro and Kelley Hoff",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 3/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cThis was one of th"
+      },
+      {
+        "id": "57e05615-3f1e-4bf3-905e-4c862c06a191",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Client testimonials about ACA data and HR outsourcing",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 4/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n![](data:image/svg+"
+      },
+      {
+        "id": "333473e4-ae8d-4599-8d82-8221c79bae22",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer testimonials for OpsInc payroll services",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 5/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cOpsInc provides ex"
+      },
+      {
+        "id": "8e0307ac-e842-4795-b2ce-d82b6c08efdf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "OperationsInc testimonials from RUAG, PEZ Candy, Hitachi Capital",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 6/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cThe diversity \\[OI"
+      },
+      {
+        "id": "40ead927-2833-4d25-aaa9-7136d588fa9a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "HR consulting testimonials from OperationsInc clients",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 7/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cThis was one of th"
+      },
+      {
+        "id": "2c292112-bbce-4105-a382-d781f4cebb7e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Customer testimonials about ACA/HR outsourcing experience",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 8/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n![](data:image/svg+"
+      },
+      {
+        "id": "ada60a24-a0b6-4800-954c-fc5880ec58c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer testimonials for OperationsInc payroll services",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 9/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cOpsInc provides ex"
+      },
+      {
+        "id": "6d14bae5-6dd2-499c-ae0e-9b173e0a4215",
+        "score": null,
+        "memory_type": "episode",
+        "title": "RUAG Inc. President quote on OI diversity and leverage",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 10/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n\u201cThe diversity \\[O"
+      },
+      {
+        "id": "27ae5164-ba41-4866-b2e9-efa09094f680",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Testimonials praising OI HR resources (RUAG, PEZ Candy, Hitachi Capital, etc.)",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 11/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\nAssistant: * Sasch"
+      },
+      {
+        "id": "1c000aa4-d87d-49cb-8eaf-fe8184ab6247",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Payroll partner testimonials (OceanFirst Bank)",
+        "text": "[date: 2023-02-20T20:07:00+00:00 | context: Session daa3f6d94c25 - happened on 2023-02-20 20:07:00 UTC. | turn 12/12]\n(in reply to) User: Rewrite this for brevity, in outline form:\n\n* Elise Tenney of "
+      },
+      {
+        "id": "6f7f5876-7414-419f-981f-29c1e6d6ce7c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for antique furniture and crystal chandelier care tips",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 1/35]\nUser: I'm looking for some advice on cleaning and maintaining my antique furniture."
+      },
+      {
+        "id": "89a3e79c-2fac-464f-83b6-97655eb745ef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on cleaning antique furniture and crystal chandelier",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 2/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "6320b62b-7343-4ad0-81a8-cfd1d920a378",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Antique/vintage armchair cleaning and maintenance tips",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 3/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "a7a273fa-b4b2-442d-a39d-e510ea7f5950",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Antique armchair care: protect from direct sunlight",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 4/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "5e7e2d32-aa1f-4ac7-842b-4a46278e5460",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for antique furniture and chandelier cleaning advice",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 5/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "ddf756c0-66ab-4442-af37-5d5995a5366e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Antique furniture/chandelier cleaning guidance (vinegar mix, gentle dusting)",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 6/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "12f59f1d-6efd-463c-a72c-d18c7e21571a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Crystal chandelier care tips: avoid sunlight, regular cleaning",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 7/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "910a46f5-36c3-4d7e-9e9c-b76fa9a3edb0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General tips for cleaning antique furniture and crystal",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 8/35]\n(in reply to) User: I'm looking for some advice on cleaning and maintaining my anti"
+      },
+      {
+        "id": "6fa6f4d9-5463-4e0f-bc53-80a1349b6f98",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research resources for antique crystal chandelier history",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 9/35]\nUser: I'm also thinking of doing some research on the history of my great-grandmoth"
+      },
+      {
+        "id": "6fc11dac-624d-46b5-b263-52ca8129129d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests online resources for antique crystal chandelier research",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 10/35]\n(in reply to) User: I'm also thinking of doing some research on the history of my "
+      },
+      {
+        "id": "fe4e16ac-416d-4ff6-91b4-7dc37f71c089",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching antique crystal chandeliers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 11/35]\n(in reply to) User: I'm also thinking of doing some research on the history of my "
+      },
+      {
+        "id": "3c9dad58-4fac-4612-972d-030985f54953",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching antique crystal chandeliers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 12/35]\n(in reply to) User: I'm also thinking of doing some research on the history of my "
+      },
+      {
+        "id": "e6303792-2067-4121-9dc0-414965e6a78b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for researching antique crystal chandelier makers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 13/35]\n(in reply to) User: I'm also thinking of doing some research on the history of my "
+      },
+      {
+        "id": "0a13deeb-c0ea-477e-8b96-312ed3f96b87",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for researching an antique crystal chandelier",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 14/35]\n(in reply to) User: I'm also thinking of doing some research on the history of my "
+      },
+      {
+        "id": "3474a8fa-a5e9-4484-969e-92a1dae5b2b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for online resources on great-grandmother's estate history",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 15/35]\nUser: I'm also interested in learning more about the history of my great-grandmoth"
+      },
+      {
+        "id": "43e9bd4d-2606-4bdb-a318-f4b221009b8e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests online resources for great-grandmother estate research",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 16/35]\n(in reply to) User: I'm also interested in learning more about the history of my g"
+      },
+      {
+        "id": "398fd2c1-bb9f-4a86-8006-27ae050e1111",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching a historic estate",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 17/35]\n(in reply to) User: I'm also interested in learning more about the history of my g"
+      },
+      {
+        "id": "3ae46cec-6063-48ee-8d68-d3de592fc3b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching a historic mansion",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 18/35]\n(in reply to) User: I'm also interested in learning more about the history of my g"
+      },
+      {
+        "id": "5182ad78-c744-4216-a595-fef55418327f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching a great-grandmother's estate",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 19/35]\n(in reply to) User: I'm also interested in learning more about the history of my g"
+      },
+      {
+        "id": "4f24b6f3-52cb-4bef-8ec7-c998accab604",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for researching great-grandmother's estate history",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 20/35]\n(in reply to) User: I'm also interested in learning more about the history of my g"
+      },
+      {
+        "id": "2e0c224c-d7cd-4274-b28c-1a69ffeb9a71",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find online resources for local estate sales/antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 21/35]\nUser: I'm also curious about the history of the estate sale where I found my vinta"
+      },
+      {
+        "id": "559a056a-b9a2-4d0c-8d88-285489e88d54",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for researching estate sales and antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 22/35]\n(in reply to) User: I'm also curious about the history of the estate sale where I "
+      },
+      {
+        "id": "ea993da6-7d87-4667-9b17-dea6205cb078",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for estate sales and antique dealer directories",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 23/35]\n(in reply to) User: I'm also curious about the history of the estate sale where I "
+      },
+      {
+        "id": "712b338f-442a-4337-a729-1135d413b231",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for estate sales and antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 24/35]\n(in reply to) User: I'm also curious about the history of the estate sale where I "
+      },
+      {
+        "id": "e67278bb-8162-4035-a35e-e2089abaa62c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for estate sales and antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 25/35]\n(in reply to) User: I'm also curious about the history of the estate sale where I "
+      },
+      {
+        "id": "45ee705f-818d-4afb-bef5-3dc2ed2a9243",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for researching an estate sale and antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 26/35]\n(in reply to) User: I'm also curious about the history of the estate sale where I "
+      },
+      {
+        "id": "848f2669-3f86-4bd1-86cb-c8c63fb5f63b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering visiting local antique dealers for estate sale info",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 27/35]\nUser: I'm thinking of visiting some local antique dealers in my area to see if the"
+      },
+      {
+        "id": "50b5ffcc-f317-40b7-a538-1b8c16092779",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on visiting local antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 28/35]\n(in reply to) User: I'm thinking of visiting some local antique dealers in my area"
+      },
+      {
+        "id": "c5888fc5-a479-4205-9236-9ce2150d4c5d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Visit local antique dealers to learn about estate sale",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 29/35]\n(in reply to) User: I'm thinking of visiting some local antique dealers in my area"
+      },
+      {
+        "id": "2662601e-c57d-4b01-a39d-220781f21f03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestion to check local antique dealers for estate sale info",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 30/35]\n(in reply to) User: I'm thinking of visiting some local antique dealers in my area"
+      },
+      {
+        "id": "3e6bb338-d7d2-4cbd-83a1-197189d84105",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for visiting antique dealers to learn about estate sale",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 31/35]\n(in reply to) User: I'm thinking of visiting some local antique dealers in my area"
+      },
+      {
+        "id": "6bec1c62-e09a-4ef3-9ef2-bcb629e6a53a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given about visiting local antique dealers",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 32/35]\n(in reply to) User: I'm thinking of visiting some local antique dealers in my area"
+      },
+      {
+        "id": "0c9b41b2-5558-488b-960e-e17812cd7e9e",
+        "score": 0.3874,
+        "memory_type": "task",
+        "title": "Visit antique dealers to learn about armchair estate sale",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 33/35]\nUser: I'm going to visit some local antique dealers in my area to see if they have"
+      },
+      {
+        "id": "52f4814a-abe8-4784-aec9-5f8b0c6f15b9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for visiting antique dealers about armchair estate sale",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 34/35]\n(in reply to) User: I'm going to visit some local antique dealers in my area to se"
+      },
+      {
+        "id": "1c29334d-0697-48c8-82b1-8746aa69f024",
+        "score": null,
+        "memory_type": "task",
+        "title": "Visit antique dealers to research vintage armchair estate sale",
+        "text": "[date: 2023-03-04T16:45:00+00:00 | context: Session ff5503e75ef8 - happened on 2023-03-04 16:45:00 UTC. | turn 35/35]\n(in reply to) User: I'm going to visit some local antique dealers in my area to se"
+      },
+      {
+        "id": "3f79265d-aac3-4d6f-9789-64eeb6fe1cc3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Advice request: stain options for refurbished wooden rocking chair",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 1/25]\nUser: I'm looking for some advice on stain options for a wooden rocking chair I'm r"
+      },
+      {
+        "id": "520df825-d6a8-40d8-8f19-6da96c42a79d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on stain options for primed wooden rocking chair",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 2/25]\n(in reply to) User: I'm looking for some advice on stain options for a wooden rocki"
+      },
+      {
+        "id": "b19c1799-3e20-4dab-8572-5cec61d03dee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stain recommendations for wooden rocking chair",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 3/25]\n(in reply to) User: I'm looking for some advice on stain options for a wooden rocki"
+      },
+      {
+        "id": "a3a789aa-059c-4cd7-b600-554963da0102",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stain options for wooden rocking chair refurbishing",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 4/25]\n(in reply to) User: I'm looking for some advice on stain options for a wooden rocki"
+      },
+      {
+        "id": "284a3f20-b429-4a28-b738-f139ef2c8663",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on choosing stain for a wooden rocking chair",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 5/25]\n(in reply to) User: I'm looking for some advice on stain options for a wooden rocki"
+      },
+      {
+        "id": "83a1c0c9-6505-4e84-89d0-e1da98e0ae52",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers Minwax Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 6/25]\nUser: I think I'll go with the Minwax Golden Oak, it sounds like a classic choice. "
+      },
+      {
+        "id": "e990e84e-71ae-4c8f-891a-2a749ff1d6c7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Stain application tips for Minwax Golden Oak",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 7/25]\n(in reply to) User: I think I'll go with the Minwax Golden Oak, it sounds like a cl"
+      },
+      {
+        "id": "19dab4c2-8293-4cfc-a9f3-c4b17ba56732",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for applying Minwax Golden Oak stain evenly",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 8/25]\n(in reply to) User: I think I'll go with the Minwax Golden Oak, it sounds like a cl"
+      },
+      {
+        "id": "c997417f-796f-498f-bf2d-55c3f82fbfdd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for applying Minwax Golden Oak stain evenly",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 9/25]\n(in reply to) User: I think I'll go with the Minwax Golden Oak, it sounds like a cl"
+      },
+      {
+        "id": "120f493e-044e-49c4-a6fd-bf976bd0add5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stain finishing tip: apply topcoat after desired color",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 10/25]\n(in reply to) User: I think I'll go with the Minwax Golden Oak, it sounds like a c"
+      },
+      {
+        "id": "7a1e9e0d-2475-44aa-b3f3-c5a0920f9983",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference: Minwax Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 11/25]\n(in reply to) User: I think I'll go with the Minwax Golden Oak, it sounds like a c"
+      },
+      {
+        "id": "8b3fcff1-9444-4c4a-af2c-7c85e7ba50fb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request: wood choice for coasters with Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 12/25]\nUser: I'm also thinking of making some matching wooden coasters to go along with t"
+      },
+      {
+        "id": "d85efc34-6385-4835-9bc5-409a08952d54",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on choosing wood for coasters to match Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 13/25]\n(in reply to) User: I'm also thinking of making some matching wooden coasters to g"
+      },
+      {
+        "id": "1b2780a6-be64-4501-92b1-6dffd033f3dd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on choosing wood for coasters to match Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 14/25]\n(in reply to) User: I'm also thinking of making some matching wooden coasters to g"
+      },
+      {
+        "id": "5f42be08-064a-4670-a6a4-2ff5c685d338",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wood choices for coasters to match Golden Oak stain",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 15/25]\n(in reply to) User: I'm also thinking of making some matching wooden coasters to g"
+      },
+      {
+        "id": "c045a4ea-47d7-47f0-9932-77bb8892ac5d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for choosing wood and finishing matching coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 16/25]\n(in reply to) User: I'm also thinking of making some matching wooden coasters to g"
+      },
+      {
+        "id": "f758a197-b243-43b6-ad3a-66299e6efb29",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about using leftover wood scraps for coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 17/25]\nUser: I was thinking of using some leftover wood scraps from my craft room to make"
+      },
+      {
+        "id": "385ed2c8-5189-4c7b-87c3-50a2b311a24c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on using leftover wood scraps for coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 18/25]\n(in reply to) User: I was thinking of using some leftover wood scraps from my craf"
+      },
+      {
+        "id": "3f10a936-f4de-412f-8fe2-56eb9562fd39",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on using scrap wood for coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 19/25]\n(in reply to) User: I was thinking of using some leftover wood scraps from my craf"
+      },
+      {
+        "id": "77ac32d9-2523-40d0-831f-a29500a9b70d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on using scrap wood for making coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 20/25]\n(in reply to) User: I was thinking of using some leftover wood scraps from my craf"
+      },
+      {
+        "id": "076d66be-5ffd-4a57-8d23-e5c86f19b6dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to make coasters from leftover wood scraps",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 21/25]\nUser: I think I'll go with using the leftover wood scraps from my craft room. I've"
+      },
+      {
+        "id": "336bc590-3d2c-4196-b521-0a3511e017a1",
+        "score": 0.3746,
+        "memory_type": "preference",
+        "title": "Question about wire-wrapped jewelry tools for coaster accents",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 22/25]\nUser: I'm thinking of using some wire-wrapped jewelry-making tools I have to creat"
+      },
+      {
+        "id": "52e0e176-dd0e-4e1c-af4e-ba22bb5e217e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on wire-wrapped accents for coasters",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 23/25]\n(in reply to) User: I'm thinking of using some wire-wrapped jewelry-making tools I"
+      },
+      {
+        "id": "4f48e993-8465-4ec4-86b5-926ed5fdbfda",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on wire-wrapped coaster accents vs wood finish",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 24/25]\n(in reply to) User: I'm thinking of using some wire-wrapped jewelry-making tools I"
+      },
+      {
+        "id": "b03d13d6-ea8f-42b1-8aee-aa1d6b0a2dda",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on wire-wrapped vs traditional wood coaster accents",
+        "text": "[date: 2023-03-04T18:26:00+00:00 | context: Session 5008865f6989 - happened on 2023-03-04 18:26:00 UTC. | turn 25/25]\n(in reply to) User: I'm thinking of using some wire-wrapped jewelry-making tools I"
+      },
+      {
+        "id": "42173234-6ec8-4dbc-aa82-a84f8dea52f5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Indian wedding dress codes",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 1/9]\nUser: Can you explain the traditional dress codes of Indian weddings and their signi"
+      },
+      {
+        "id": "93abda50-a51e-43ec-8fab-d98081ab55f7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Indian wedding dress codes and their significance",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 2/9]\n(in reply to) User: Can you explain the traditional dress codes of Indian weddings a"
+      },
+      {
+        "id": "e2ed7460-3ea4-4713-ab50-058ee0aa0250",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Indian wedding traditional dress codes and symbolism",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 3/9]\n(in reply to) User: Can you explain the traditional dress codes of Indian weddings a"
+      },
+      {
+        "id": "6895d97b-f64e-46ad-8da0-143e400be14e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question about accessories for traditional wedding attire",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 4/9]\nUser: Are there any specific accessories that are usually paired with the traditiona"
+      },
+      {
+        "id": "a00ba01d-b0a3-435d-8b34-830a71332ee4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Accessories paired with traditional Indian wedding attire",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 5/9]\n(in reply to) User: Are there any specific accessories that are usually paired with "
+      },
+      {
+        "id": "a18ab21a-a834-465f-b4c9-ea9245942f41",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Accessories paired with traditional Indian wedding attire",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 6/9]\n(in reply to) User: Are there any specific accessories that are usually paired with "
+      },
+      {
+        "id": "937164dd-7026-4e72-bcdb-74a12b340161",
+        "score": 0.385,
+        "memory_type": "episode",
+        "title": "User asks about symbolism of jewelry in Indian weddings",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 7/9]\nUser: Wow, I had no idea that jewelry played such a significant role in Indian weddi"
+      },
+      {
+        "id": "3726083f-2c70-479a-bead-c714e4f098bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Symbolism of common Indian wedding jewelry types",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 8/9]\n(in reply to) User: Wow, I had no idea that jewelry played such a significant role i"
+      },
+      {
+        "id": "f22c9c9d-103f-4b96-9b8d-da83148cdf02",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Indian wedding jewelry symbolism: armlets (bajuband)",
+        "text": "[date: 2023-03-04T20:26:00+00:00 | context: Session fb478e6d7373 - happened on 2023-03-04 20:26:00 UTC. | turn 9/9]\n(in reply to) User: Wow, I had no idea that jewelry played such a significant role i"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101814,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25453)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 52325,
+    "prompt_tokens": 49048,
+    "completion_tokens": 274,
+    "reasoning_tokens": 3003,
+    "generate_time_ms": 28937.2936130967,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24306,
+        "completion_tokens": 64,
+        "reasoning_tokens": 932,
+        "total_tokens": 25302
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 522,
+        "completion_tokens": 45,
+        "reasoning_tokens": 199,
+        "total_tokens": 766
+      },
+      {
+        "stage": "direct_fallback",
+        "prompt_tokens": 23584,
+        "completion_tokens": 71,
+        "reasoning_tokens": 1662,
+        "total_tokens": 25317
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 636,
+        "completion_tokens": 94,
+        "reasoning_tokens": 210,
+        "total_tokens": 940
+      }
+    ]
+  },
+  "failure_label": "retrieved_wrong_answer"
+}

@@ -1,0 +1,1361 @@
+{
+  "question_id": "75499fd8",
+  "question_type": "single-session-user",
+  "question": "What breed is my dog?",
+  "gold_answer": "Golden Retriever",
+  "prediction": "Your dog, Max, is a Golden Retriever.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 879,
+    "by_type": {
+      "decision": 4,
+      "task": 70,
+      "preference": 86,
+      "action": 25,
+      "fact": 591,
+      "plan": 15,
+      "episode": 88
+    },
+    "by_status": {
+      "active": 867,
+      "outdated": 2,
+      "conflicted": 10
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2586897,
+    "output_tokens": 124818,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What breed is my dog?"
+    ],
+    "retrieve_time_ms": 3292.879134998657,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "2e68fe1d-6f06-4317-ab9f-7d07b9dd38c9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for English language learning resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 1/30]\nUser: I'm trying to improve my language skills, so I can better navigate my new lif"
+      },
+      {
+        "id": "eab77b48-0694-4f74-8027-0849a0c948c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Language learning app recommendations",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 2/30]\n(in reply to) User: I'm trying to improve my language skills, so I can better navig"
+      },
+      {
+        "id": "70a66680-642f-478c-a02b-edbd54c5acd9",
+        "score": 0.3622,
+        "memory_type": "fact",
+        "title": "Recommended English language learning resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 3/30]\n(in reply to) User: I'm trying to improve my language skills, so I can better navig"
+      },
+      {
+        "id": "881c9230-3196-4109-820e-df41b7984f8d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "English language learning resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 4/30]\n(in reply to) User: I'm trying to improve my language skills, so I can better navig"
+      },
+      {
+        "id": "7e4ec17b-5256-4cdf-971c-bbc19d63bbc3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "English language learning strategies",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 5/30]\n(in reply to) User: I'm trying to improve my language skills, so I can better navig"
+      },
+      {
+        "id": "a685d1ab-99a6-4521-b18c-4492822f3c2a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in English language learning resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 6/30]\nUser: I'll definitely check out these resources. I've been trying to improve my lis"
+      },
+      {
+        "id": "5488867c-e297-4f05-bfd8-3f67058752d5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended TV shows for English language learners",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 7/30]\n(in reply to) User: I'll definitely check out these resources. I've been trying to "
+      },
+      {
+        "id": "258d04e9-6b5c-417c-a421-4d72eb6b8496",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended English language learning movies",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 8/30]\n(in reply to) User: I'll definitely check out these resources. I've been trying to "
+      },
+      {
+        "id": "9e056eb4-39a2-4773-a6fc-b0c17b3dc40b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for improving English listening skills",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 9/30]\n(in reply to) User: I'll definitely check out these resources. I've been trying to "
+      },
+      {
+        "id": "19128ae8-6144-4611-be4d-c863be936516",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for English language learning",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 10/30]\n(in reply to) User: I'll definitely check out these resources. I've been trying to"
+      },
+      {
+        "id": "febde18c-9321-47d3-94bc-1ce2209f3bd2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in watching Friends",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 11/30]\nUser: I think I'll start with Friends, I've heard a lot about it. What's the best "
+      },
+      {
+        "id": "a37330c0-aefd-4428-90af-dfd3955d72b6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Streaming services with subtitle support",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 12/30]\n(in reply to) User: I think I'll start with Friends, I've heard a lot about it. Wh"
+      },
+      {
+        "id": "93babbf8-7fb5-48f7-ab08-274c235f32c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Methods for accessing TV shows and movies with subtitles",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 13/30]\n(in reply to) User: I think I'll start with Friends, I've heard a lot about it. Wh"
+      },
+      {
+        "id": "71b3a976-1323-4531-b868-1add7de1b906",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on accessing TV shows with subtitles",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 14/30]\n(in reply to) User: I think I'll start with Friends, I've heard a lot about it. Wh"
+      },
+      {
+        "id": "6a219133-9969-493f-acc7-5c3be9f7ad20",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for US culture and customs resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 15/30]\nUser: I'll definitely check out these options. I'm not sure if I'll be able to acc"
+      },
+      {
+        "id": "7337b12e-e6ca-459d-b166-6958028d89f0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning about American culture",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 16/30]\n(in reply to) User: I'll definitely check out these options. I'm not sure if I'll "
+      },
+      {
+        "id": "6e755fec-fe7c-4c53-ae74-c57949e68c40",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning about American culture",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 17/30]\n(in reply to) User: I'll definitely check out these options. I'm not sure if I'll "
+      },
+      {
+        "id": "80778ec3-9125-46b5-9a2e-e9e5d369d448",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning American culture",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 18/30]\n(in reply to) User: I'll definitely check out these options. I'm not sure if I'll "
+      },
+      {
+        "id": "d13e8089-0a23-42df-a111-749277451495",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Interaction regarding American traditions resources",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 19/30]\n(in reply to) User: I'll definitely check out these options. I'm not sure if I'll "
+      },
+      {
+        "id": "de1c40c5-1efb-4a18-a670-8875776685af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Significance and traditions of Memorial Day",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 20/30]\nUser: I'll definitely check out these resources. I think it's really important to "
+      },
+      {
+        "id": "3e288605-20f8-42c6-8982-9aa0664ef87a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Definition and significance of Memorial Day",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 21/30]\n(in reply to) User: I'll definitely check out these resources. I think it's really"
+      },
+      {
+        "id": "8f925cca-b346-452a-801f-bcf68b6914e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural context: Memorial Day traditions",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 22/30]\n(in reply to) User: I'll definitely check out these resources. I think it's really"
+      },
+      {
+        "id": "059e9387-5f4b-4974-b41e-c715d225daa6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Memorial Day traditions in the United States",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 23/30]\n(in reply to) User: I'll definitely check out these resources. I think it's really"
+      },
+      {
+        "id": "456f46f5-348b-44ef-9117-e47572e467f3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Memorial Day retail trends",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 24/30]\n(in reply to) User: I'll definitely check out these resources. I think it's really"
+      },
+      {
+        "id": "7808f9d4-2b01-41d7-917e-690359c53274",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural guide to Memorial Day in the US",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 25/30]\n(in reply to) User: I'll definitely check out these resources. I think it's really"
+      },
+      {
+        "id": "0eebec7e-447f-457f-a3ce-5c816cb00670",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in Memorial Day and veteran volunteering",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 26/30]\nUser: I think I'll attend a local Memorial Day ceremony to show my respect and app"
+      },
+      {
+        "id": "b17d531d-0f99-4265-a738-03ef7e981efe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in Memorial Day and veterans' volunteering",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 27/30]\n(in reply to) User: I think I'll attend a local Memorial Day ceremony to show my r"
+      },
+      {
+        "id": "9fd935e6-4c7c-4e3c-8231-9f9d28a6ee43",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in volunteering for veterans' organizations",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 28/30]\n(in reply to) User: I think I'll attend a local Memorial Day ceremony to show my r"
+      },
+      {
+        "id": "1d36cdb9-01c8-4e61-8eba-4f0e90291293",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Volunteer opportunities for veterans' organizations",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 29/30]\n(in reply to) User: I think I'll attend a local Memorial Day ceremony to show my r"
+      },
+      {
+        "id": "f7076605-d92d-4f6c-92d5-0569842d4c18",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for volunteering at veterans' organizations",
+        "text": "[date: 2023-05-20T04:08:00+00:00 | context: Session 115750ca3a1f - happened on 2023-05-20 04:08:00 UTC. | turn 30/30]\n(in reply to) User: I think I'll attend a local Memorial Day ceremony to show my r"
+      },
+      {
+        "id": "a9ee9d5a-b46f-4618-8edf-abc71abbd76c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Shopping trip to local outlet mall",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 1/24]\nUser: I'm looking for some skincare product recommendations. I recently got a skinc"
+      },
+      {
+        "id": "0f39284e-d64f-4681-8f5d-efe934bfd40e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User skincare preferences and recent shopping trip",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "68682a20-c632-4a94-8593-40a63bcf2bd5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Skincare product recommendations for combination skin",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "d05748d3-1c5b-4bd8-8000-18a14fdf4546",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Skincare product recommendations",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "2058a671-d477-4941-9845-d80f5e8c4182",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User skincare shopping experience",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 5/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "6d1d502a-fb45-44a7-b5f7-42c7dad6867a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User skincare and makeup preferences",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 6/24]\nUser: That's a great list! I'll definitely check them out. I'm especially intereste"
+      },
+      {
+        "id": "2727e6a1-eb29-4ae9-906a-79a2c7853c00",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant interaction regarding skincare and foundation",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 7/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "6b919923-775d-4b87-bc4d-e59240d451ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for finding a foundation color match",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 8/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "abbd48dc-0215-43ea-a1f9-1b9c1c290d52",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for Drunk Elephant and natural skin-like foundation",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 9/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "ccdfd0e4-14d2-4e21-8757-5f86792dfcc3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Foundation product recommendations",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 10/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm espec"
+      },
+      {
+        "id": "e0601db9-834a-457d-a203-5679970d89b3",
+        "score": 0.3754,
+        "memory_type": "preference",
+        "title": "User preference for Drunk Elephant products",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 11/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm espec"
+      },
+      {
+        "id": "6b74438f-d94c-4cd8-bcf2-df86814cf51f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for work jeans",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 12/24]\nUser: I'll definitely check out those foundations. Thanks for the tips! By the way"
+      },
+      {
+        "id": "340e1c30-43b8-46e6-967b-e7f0e8755412",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in denim recommendations",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 13/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "ffcbaa77-ab27-4bd4-aaf8-de5a09921785",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for denim brands",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 14/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "6e6cc5cd-5a36-48d3-8dec-845ce5e65eab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General advice for purchasing jeans",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 15/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "b8b9b985-2ffd-48cd-9044-ebec2ad5dfbc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Jeans style recommendations for work",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 16/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "31f9b490-840e-4afe-a7cf-9f59cc0f09ee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User visit to Asian fusion restaurant",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 17/24]\nUser: That's really helpful, thanks! I'll definitely check out those brands and st"
+      },
+      {
+        "id": "d611fc8b-df16-446e-bac0-580f62498d88",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Dining experience feedback",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 18/24]\nUser: The food! It was actually the combination of flavors and the variety of opti"
+      },
+      {
+        "id": "185c55a3-ef91-4a8f-a677-eae4f2d03f57",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User's dining experience at an Asian fusion restaurant",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 19/24]\n(in reply to) User: The food! It was actually the combination of flavors and the v"
+      },
+      {
+        "id": "dc688a5d-14db-4065-82cf-4db930b895ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Foodie gathering without photos",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 20/24]\nUser: No, I didn't take any photos, but I wish I did! We were all too busy chattin"
+      },
+      {
+        "id": "6913c4d9-76f4-4ad3-87b9-d916f4f03568",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in healthy home cooking",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 21/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "60c9ca1b-79d3-4c5c-979d-eebd1cb4befa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple meal recipes",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 22/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "89eeb5db-1881-46ab-a43e-e32615bf11fd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recipe: Veggie-stuffed quesadilla",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 23/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "fd7aadb6-1e54-4252-9744-3ce674a81829",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General meal recommendation context",
+        "text": "[date: 2023-05-20T09:51:00+00:00 | context: Session 3b8280fa9c7b - happened on 2023-05-20 09:51:00 UTC. | turn 24/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "b550429f-8d48-4d1a-88a1-dda9f0c7cb09",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User bike ownership",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 1/27]\nUser: I'm looking for some recommendations on bike racks for my car. I just got my "
+      },
+      {
+        "id": "d880f9fe-7d7d-44dc-8fcf-0c127a218638",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike rack types and recommendations",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some recommendations on bike racks for my car. "
+      },
+      {
+        "id": "f80ac381-c23c-4271-afad-8ddd494d112c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike rack recommendations for road bikes",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some recommendations on bike racks for my car. "
+      },
+      {
+        "id": "93d853c6-2cd2-4609-a1a3-f134fe9f772f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike rack selection criteria",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some recommendations on bike racks for my car. "
+      },
+      {
+        "id": "20283220-8939-4d03-a086-3de49e26a229",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in hitch-mounted bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 5/27]\nUser: I'm thinking of getting a hitch-mounted rack, probably Thule or Saris. Do you"
+      },
+      {
+        "id": "aaec59f7-3ebe-4f67-aac3-7fee2f2c0adf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Thule and Saris hitch-mounted bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 6/27]\n(in reply to) User: I'm thinking of getting a hitch-mounted rack, probably Thule or"
+      },
+      {
+        "id": "439f079d-5367-4bdd-a974-e62ea7530e38",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Thule and Saris bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 7/27]\n(in reply to) User: I'm thinking of getting a hitch-mounted rack, probably Thule or"
+      },
+      {
+        "id": "c57e686a-c785-4ffd-acad-85d194317af4",
+        "score": null,
+        "memory_type": "task",
+        "title": "Researching hitch-mounted bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 8/27]\n(in reply to) User: I'm thinking of getting a hitch-mounted rack, probably Thule or"
+      },
+      {
+        "id": "3ae6f2fc-9e9e-4baf-9c45-77927b1a0fe0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding Thule and Saris hitch-mounted rack installation",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 9/27]\nUser: I've heard that Thule is a great brand, but I've also read some good reviews "
+      },
+      {
+        "id": "eadb9d8a-3482-4ed4-b415-d5f29bf2d1d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Thule hitch-mounted rack installation overview",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 10/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "4f6c09a0-963a-4d6e-a7f6-0b37c4714358",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Thule hitch-mounted bike rack installation process",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 11/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "8d437445-52fa-48ac-807f-a5ce9e6c3d47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hitch-mounted bike rack installation safety",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 12/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "02ad63e4-94ef-41c5-a3be-76508a2b2fd1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Saris hitch-mounted rack installation overview",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 13/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "b8ffc9b5-503f-49e1-bb0c-ebf0c5a170a8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Saris hitch-mounted bike rack installation process",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 14/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "558d2ae8-be1e-4fb9-be9a-6006a38c73cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Installation safety checks for hitch-mounted bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 15/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "e2041124-8c4d-44ca-a842-324d178e9ac7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Installation guidance for hitch-mounted bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 16/27]\n(in reply to) User: I've heard that Thule is a great brand, but I've also read som"
+      },
+      {
+        "id": "c720ad69-4ddb-429f-a131-31893749014a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User bike and brand preferences",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 17/27]\nUser: I've heard that both Thule and Saris offer good customer support, which is i"
+      },
+      {
+        "id": "332bdc6d-a854-4cac-8c5c-3922acc7130d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Thule and Saris customer support and warranties",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 18/27]\n(in reply to) User: I've heard that both Thule and Saris offer good customer suppo"
+      },
+      {
+        "id": "4e3b1759-e83c-4b9b-bbdc-f8feef26b181",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Cannondale Synapse and bike racks",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 19/27]\n(in reply to) User: I've heard that both Thule and Saris offer good customer suppo"
+      },
+      {
+        "id": "192c99af-ce85-49b9-bb7a-78746fb85abd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for Synapse bike features",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 20/27]\nUser: The Synapse has been a game-changer for my daily commutes. I love how comfor"
+      },
+      {
+        "id": "676335fa-67b1-4835-84cc-53777f25ae42",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User feedback on Cannondale Synapse",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 21/27]\n(in reply to) User: The Synapse has been a game-changer for my daily commutes. I l"
+      },
+      {
+        "id": "a76bdcd7-7045-4ed2-9878-d949ea5e08c4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about Synapse bike experience",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 22/27]\n(in reply to) User: The Synapse has been a game-changer for my daily commutes. I l"
+      },
+      {
+        "id": "7ef25594-457c-405b-906f-e76834c0d3a7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User fitness improvement from bike commuting",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 23/27]\nUser: Yeah, I've definitely noticed some changes in my fitness level since I start"
+      },
+      {
+        "id": "2c9a520e-743c-41e1-a40e-91b47062ef34",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in bike computer or GPS device",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 24/27]\n(in reply to) User: Yeah, I've definitely noticed some changes in my fitness level"
+      },
+      {
+        "id": "1e5dd062-f9aa-4e69-b919-c69f8e7e4f1f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of bike computer and GPS device options",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 25/27]\n(in reply to) User: Yeah, I've definitely noticed some changes in my fitness level"
+      },
+      {
+        "id": "302aa63b-137e-4bf9-a484-477f373e6db3",
+        "score": 0.37,
+        "memory_type": "fact",
+        "title": "Overview of cycling GPS and computer brands",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 26/27]\n(in reply to) User: Yeah, I've definitely noticed some changes in my fitness level"
+      },
+      {
+        "id": "88543287-25d9-4d33-8125-d75f0d867bef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for purchasing bike computer/fitness devices",
+        "text": "[date: 2023-05-23T13:13:00+00:00 | context: Session 8002ed53db65 - happened on 2023-05-23 13:13:00 UTC. | turn 27/27]\n(in reply to) User: Yeah, I've definitely noticed some changes in my fitness level"
+      },
+      {
+        "id": "7b81e8c6-4109-42ff-a8b1-caa6dcd89572",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stable Diffusion Prompting Guidelines",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 1/7]\nUser: I want you to respond only in language English.\n\ud654\ucc3d\ud55c \ubd04\ub0a0 \uacf5\uc6d0\uc5d0\uc11c \ucee4\ud53c\uba39\uace0 \uc788\ub294 \uc0ac\uc790\nuse thi"
+      },
+      {
+        "id": "a657ca45-6262-47bc-86a6-dd4cda67936b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Image generation style and prompt reference guide",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 2/7]\nstyle: Polaroid, long exposure, monochrome, GoPro, fisheye, bokeh, Photo, 8k uhd, ds"
+      },
+      {
+        "id": "cfe39f9e-4b80-4f1f-ac61-9a0a7553fc80",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Image generation prompts list",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 3/7]\n- picture of dimly lit living room, minimalist furniture, vaulted ceiling, huge room"
+      },
+      {
+        "id": "63d882b9-0ac9-4ec1-94fb-1f729626d264",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stable Diffusion Prompting Guidelines",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 4/7]\n(in reply to) User: I want you to respond only in language English.\n\ud654\ucc3d\ud55c \ubd04\ub0a0 \uacf5\uc6d0\uc5d0\uc11c \ucee4\ud53c\uba39\uace0"
+      },
+      {
+        "id": "cf61f827-93ed-4419-afe9-df70288897cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stable Diffusion Prompting Instructions",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 5/7]\n(in reply to) User: I want you to respond only in language English.\n\ud654\ucc3d\ud55c \ubd04\ub0a0 \uacf5\uc6d0\uc5d0\uc11c \ucee4\ud53c\uba39\uace0"
+      },
+      {
+        "id": "6d2ccdda-b9ee-4bc1-8f0e-0597dbed1b76",
+        "score": 0.3821,
+        "memory_type": "fact",
+        "title": "Stable Diffusion Prompting Guide",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 6/7]\n(in reply to) User: I want you to respond only in language English.\n\ud654\ucc3d\ud55c \ubd04\ub0a0 \uacf5\uc6d0\uc5d0\uc11c \ucee4\ud53c\uba39\uace0"
+      },
+      {
+        "id": "fe74e7f4-fec0-422a-b37a-fdb098e1503a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stable Diffusion Prompting Example: Lion in a Park",
+        "text": "[date: 2023-05-24T19:26:00+00:00 | context: Session e199ea4bb47e - happened on 2023-05-24 19:26:00 UTC. | turn 7/7]\n(in reply to) User: I want you to respond only in language English.\n\ud654\ucc3d\ud55c \ubd04\ub0a0 \uacf5\uc6d0\uc5d0\uc11c \ucee4\ud53c\uba39\uace0"
+      },
+      {
+        "id": "39242dd8-702d-4103-b901-3162d90a3595",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for dog walker recommendations",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 1/26]\nUser: I need help finding a good dog walker in my area. Do you have any recommendat"
+      },
+      {
+        "id": "e2038163-c690-4d86-a08c-403d492fb136",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dog walking service platforms",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 2/26]\n(in reply to) User: I need help finding a good dog walker in my area. Do you have a"
+      },
+      {
+        "id": "6a1ed0c7-cb50-4a30-bffa-757d026b047d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for finding dog walking services",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 3/26]\n(in reply to) User: I need help finding a good dog walker in my area. Do you have a"
+      },
+      {
+        "id": "cf7c9412-fa20-405b-9c8a-cc07ef643e12",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for hiring a dog walker",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 4/26]\n(in reply to) User: I need help finding a good dog walker in my area. Do you have a"
+      },
+      {
+        "id": "5f75072c-ca61-4c8f-9bb8-c10fe85a34e7",
+        "score": null,
+        "memory_type": "task",
+        "title": "Inquiry regarding dog walker responsibilities for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 5/26]\nUser: I will definitely check out those platforms. Do you think a dog walker would "
+      },
+      {
+        "id": "766af978-f250-4019-b8c3-6e4f129a7b55",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for dog walker medication administration",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 6/26]\n(in reply to) User: I will definitely check out those platforms. Do you think a dog"
+      },
+      {
+        "id": "afcbebe2-65c7-48a2-a328-761dce6025c5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Vetting dog walker for medication administration",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 7/26]\n(in reply to) User: I will definitely check out those platforms. Do you think a dog"
+      },
+      {
+        "id": "a879e253-2ae2-4438-8926-8cadc24fc522",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for managing Max's medication via a dog walker",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 8/26]\n(in reply to) User: I will definitely check out those platforms. Do you think a dog"
+      },
+      {
+        "id": "7499c3c1-ad21-46a6-8c51-960ddc3fd434",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Prioritize Max's health and safety",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 9/26]\n(in reply to) User: I will definitely check out those platforms. Do you think a dog"
+      },
+      {
+        "id": "c76b212d-4e2d-4eac-b9d1-e9d155074bdb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research interactive dog toys for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 10/26]\nUser: I'm also thinking of getting Max a new toy, something that can keep him enga"
+      },
+      {
+        "id": "09a9c3d5-1b5c-404c-acfd-1c287cb5bfe4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Interactive dog toy recommendations",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 11/26]\n(in reply to) User: I'm also thinking of getting Max a new toy, something that can"
+      },
+      {
+        "id": "5243439c-ae73-4280-abcb-602e119d7ca6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Interactive dog toy recommendations",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 12/26]\n(in reply to) User: I'm also thinking of getting Max a new toy, something that can"
+      },
+      {
+        "id": "132331dc-18b7-4343-81c1-ff27bda0164e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for interactive dog toys",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 13/26]\n(in reply to) User: I'm also thinking of getting Max a new toy, something that can"
+      },
+      {
+        "id": "6e122c12-2bbb-46c0-9ba3-fc4b77e0c970",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dog toy preferences for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 14/26]\n(in reply to) User: I'm also thinking of getting Max a new toy, something that can"
+      },
+      {
+        "id": "fbfa767d-8425-484d-8ab1-a5ee1c79d3fb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Max's treat preferences",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 15/26]\nUser: I think Max would love the Kong Toy. I already know he loves peanut butter, "
+      },
+      {
+        "id": "740347a8-ddac-42d2-8f5b-b01150e498a4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Max's preferences: Kong toys and peanut butter",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 16/26]\n(in reply to) User: I think Max would love the Kong Toy. I already know he loves p"
+      },
+      {
+        "id": "786e9066-717b-4fcf-a6ef-033511f8ff4d",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for introducing Kong toy to Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 17/26]\n(in reply to) User: I think Max would love the Kong Toy. I already know he loves p"
+      },
+      {
+        "id": "6cf9d417-4723-460c-ab43-035b10a08200",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Max's toy preferences and care",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 18/26]\n(in reply to) User: I think Max would love the Kong Toy. I already know he loves p"
+      },
+      {
+        "id": "47c02883-12c3-4814-853d-d6e3f95a6076",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Max's preferences and enrichment",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 19/26]\n(in reply to) User: I think Max would love the Kong Toy. I already know he loves p"
+      },
+      {
+        "id": "1137cc7a-fde8-49db-9c1c-244bca9df826",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research collar brands for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 20/26]\nUser: I'm thinking of getting Max a new collar with a nice name tag. Do you have a"
+      },
+      {
+        "id": "5f4501c1-19a4-4881-9778-71d32225bb0f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Collar recommendations for Golden Retrievers",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 21/26]\n(in reply to) User: I'm thinking of getting Max a new collar with a nice name tag."
+      },
+      {
+        "id": "fc7354ee-6fe8-4236-9add-8f7345998279",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dog collar brand recommendations",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 22/26]\n(in reply to) User: I'm thinking of getting Max a new collar with a nice name tag."
+      },
+      {
+        "id": "fe843088-c401-4f2b-8321-e0344c260a86",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dog collar types and recommendations",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 23/26]\n(in reply to) User: I'm thinking of getting Max a new collar with a nice name tag."
+      },
+      {
+        "id": "52a2e693-8c80-4967-a465-0305f579abee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Collar and name tag recommendations for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 24/26]\n(in reply to) User: I'm thinking of getting Max a new collar with a nice name tag."
+      },
+      {
+        "id": "fecce876-565d-4077-9624-1de7090d5bfd",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to purchase Yellow Dog Design nylon collar for Max",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 25/26]\nUser: I think I'll go with a nylon collar from Yellow Dog Design. I've heard great"
+      },
+      {
+        "id": "bc0e100d-3b1f-44e6-855d-836a9225f994",
+        "score": 0.4573,
+        "memory_type": "preference",
+        "title": "User preference for Yellow Dog Design nylon dog collar",
+        "text": "[date: 2023-05-25T23:07:00+00:00 | context: Session b4a29af2608f - happened on 2023-05-25 23:07:00 UTC. | turn 26/26]\n(in reply to) User: I think I'll go with a nylon collar from Yellow Dog Design. I'"
+      },
+      {
+        "id": "4190673e-f79f-4f4e-824e-f7e85fcc2527",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier recommendations",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking for some recommendations on eco-friendly air purifi"
+      },
+      {
+        "id": "ee4a02f5-7d67-47a5-a373-99b49c873cbe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for selecting eco-friendly air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking for some recommendations on eco-friendly air purifi"
+      },
+      {
+        "id": "f4cd9186-ccea-43df-a7b5-fc2da45d2296",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research eco-friendly air purifiers with trade-in programs",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 6/30]\nUser: Can you suggest any eco-friendly air purifier brands that offer a trade-in pr"
+      },
+      {
+        "id": "34235921-6bfb-414b-93b0-f29f9f3b6570",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier brands with trade-in programs",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 7/30]\n(in reply to) User: Can you suggest any eco-friendly air purifier brands that offer"
+      },
+      {
+        "id": "a2c745fb-88bd-45b1-9d9e-aa931a9e76ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier trade-in and recycling programs",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 8/30]\n(in reply to) User: Can you suggest any eco-friendly air purifier brands that offer"
+      },
+      {
+        "id": "38f4c174-c730-41e5-bbeb-1a5118921744",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier trade-in and recycling programs",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 9/30]\n(in reply to) User: Can you suggest any eco-friendly air purifier brands that offer"
+      },
+      {
+        "id": "7b57aac2-5b7f-408a-8fa7-3071928d384c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Requirements for air purifier trade-in programs",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 10/30]\n(in reply to) User: Can you suggest any eco-friendly air purifier brands that offe"
+      },
+      {
+        "id": "63132fe3-f19a-4076-b829-4cc675050be5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research maintenance and filter costs for eco-friendly air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 11/30]\nUser: What about the maintenance and filter replacement costs for these eco-friend"
+      },
+      {
+        "id": "b703a6ac-0144-4ed4-8ac4-86d48e74a010",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance and filter replacement costs for eco-friendly air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 12/30]\n(in reply to) User: What about the maintenance and filter replacement costs for th"
+      },
+      {
+        "id": "ae00dc3f-288d-4fe6-83b2-44826600e7c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance and filter costs for air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 13/30]\n(in reply to) User: What about the maintenance and filter replacement costs for th"
+      },
+      {
+        "id": "0463309b-b5d8-4561-b362-8a7093a74229",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance and filter costs for Coway and Winix air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 14/30]\n(in reply to) User: What about the maintenance and filter replacement costs for th"
+      },
+      {
+        "id": "a5605976-1594-4178-808e-4a7016aacbd9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance and cost considerations for eco-friendly air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 15/30]\n(in reply to) User: What about the maintenance and filter replacement costs for th"
+      },
+      {
+        "id": "736bea93-659a-4ff9-952a-1f114fa7c9eb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for quiet air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 16/30]\nUser: What about the noise level of these air purifiers? I have a small apartment "
+      },
+      {
+        "id": "45d8d36a-50b1-4eeb-9568-80356be79eb7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Noise level considerations for eco-friendly air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 17/30]\n(in reply to) User: What about the noise level of these air purifiers? I have a sm"
+      },
+      {
+        "id": "a3d08db2-9609-4d30-af4d-14869a839ec5",
+        "score": 0.3571,
+        "memory_type": "fact",
+        "title": "Noise level specifications for air purifier brands",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 18/30]\n(in reply to) User: What about the noise level of these air purifiers? I have a sm"
+      },
+      {
+        "id": "9d0144a9-f25c-4720-ba9c-74f77ba5f6d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Noise levels of Coway and Winix air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 19/30]\n(in reply to) User: What about the noise level of these air purifiers? I have a sm"
+      },
+      {
+        "id": "53d56dc1-2084-4d3b-91e6-3dbdd54d18f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Air purifier noise level comparison by brand",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 20/30]\n(in reply to) User: What about the noise level of these air purifiers? I have a sm"
+      },
+      {
+        "id": "41c97260-38e7-43af-aef1-e409434b63f3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research eco-friendly, silent air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 21/30]\nUser: Can you also suggest some eco-friendly air purifier brands that offer a sile"
+      },
+      {
+        "id": "c2c4b58a-3a16-4022-8bb5-915112afab47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly silent air purifier brands",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 22/30]\n(in reply to) User: Can you also suggest some eco-friendly air purifier brands tha"
+      },
+      {
+        "id": "7b812ae0-b709-4a25-9877-ae6d733215ef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly silent air purifier brands",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 23/30]\n(in reply to) User: Can you also suggest some eco-friendly air purifier brands tha"
+      },
+      {
+        "id": "593106e8-3634-4be1-adfa-0544879c2102",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier brands with silent modes",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 24/30]\n(in reply to) User: Can you also suggest some eco-friendly air purifier brands tha"
+      },
+      {
+        "id": "fde0e80c-6da6-4129-bdb4-34fa97aeb82e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Features to look for in silent air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 25/30]\n(in reply to) User: Can you also suggest some eco-friendly air purifier brands tha"
+      },
+      {
+        "id": "65abaada-356a-4104-a463-c8c2b8f8f1a0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research eco-friendly, ultra-quiet air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 26/30]\nUser: I'm looking for eco-friendly air purifiers with a silent or ultra-quiet mode"
+      },
+      {
+        "id": "603818d7-aa9a-4ae8-ba30-9e6176a5c65c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifiers with silent mode",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 27/30]\n(in reply to) User: I'm looking for eco-friendly air purifiers with a silent or ul"
+      },
+      {
+        "id": "ffa2ab69-6cdb-4fbe-a3df-6e7ce88b9c75",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier brands with silent modes",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 28/30]\n(in reply to) User: I'm looking for eco-friendly air purifiers with a silent or ul"
+      },
+      {
+        "id": "4a9f0885-1bb0-453d-89eb-d2ffef688799",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly air purifier brands with silent modes",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 29/30]\n(in reply to) User: I'm looking for eco-friendly air purifiers with a silent or ul"
+      },
+      {
+        "id": "d700fe0b-4b1e-476a-932d-5cde53a4ee27",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Features to look for in silent air purifiers",
+        "text": "[date: 2023-05-26T04:49:00+00:00 | context: Session fbab821ebbcf - happened on 2023-05-26 04:49:00 UTC. | turn 30/30]\n(in reply to) User: I'm looking for eco-friendly air purifiers with a silent or ul"
+      },
+      {
+        "id": "ca3eed4d-203c-4551-8d5b-16b46613435d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar repair shop recommendation",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 1/16]\nUser: I'm looking for some advice on buying a new amp. I've been reading reviews an"
+      },
+      {
+        "id": "4c45064c-8569-4441-b37b-3be6a7c788bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Fender Mustang and Marshall MG30 amplifiers",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 2/16]\n(in reply to) User: I'm looking for some advice on buying a new amp. I've been read"
+      },
+      {
+        "id": "3bf08d48-b4cb-4ab4-86f3-1cadce2294df",
+        "score": 0.368,
+        "memory_type": "fact",
+        "title": "Technical specifications of Fender Mustang series amplifiers",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 3/16]\n(in reply to) User: I'm looking for some advice on buying a new amp. I've been read"
+      },
+      {
+        "id": "55712a81-25cb-4b56-9975-b6b7650da929",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Marshall MG30 and Fender Mustang amplifiers",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 4/16]\n(in reply to) User: I'm looking for some advice on buying a new amp. I've been read"
+      },
+      {
+        "id": "c664617e-c5e5-4846-8771-17f38068ee2c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar amplifier selection criteria",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 5/16]\n(in reply to) User: I'm looking for some advice on buying a new amp. I've been read"
+      },
+      {
+        "id": "de2af3b2-7616-40e1-95f1-a6523b64c673",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in Fender Mustang amplifier power requirements",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 6/16]\nUser: I'm really interested in the Mustang's versatility, but I'm not sure if 20 wa"
+      },
+      {
+        "id": "d1ac0d20-1f9d-415b-b1b5-3b1e36deca2e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Fender Mustang I and II amplifiers",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 7/16]\n(in reply to) User: I'm really interested in the Mustang's versatility, but I'm not"
+      },
+      {
+        "id": "59ff61cc-2569-424c-9645-30cef22c32ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fender Mustang II amplifier characteristics",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 8/16]\n(in reply to) User: I'm really interested in the Mustang's versatility, but I'm not"
+      },
+      {
+        "id": "99a064a8-e790-4a72-8e85-46f15bda8530",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fender Mustang II amplifier suitability",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 9/16]\n(in reply to) User: I'm really interested in the Mustang's versatility, but I'm not"
+      },
+      {
+        "id": "7d476dd9-87e1-4bcb-85f2-d18eb6bf1a5e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check availability of Mustang II at downtown music store",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 10/16]\nUser: I think I'll go try out the Mustang II this weekend, see how it sounds and f"
+      },
+      {
+        "id": "0297721f-4e2f-4a5f-be8c-7bf72d4328b1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry about Fender Mustang II availability",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 11/16]\n(in reply to) User: I think I'll go try out the Mustang II this weekend, see how i"
+      },
+      {
+        "id": "06516798-51c0-46a5-b9e9-4a3cadfc07bf",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Steps to locate a Fender Mustang II amplifier",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 12/16]\n(in reply to) User: I think I'll go try out the Mustang II this weekend, see how i"
+      },
+      {
+        "id": "ad75c2fb-1a9b-40af-9e61-2b025cc11eb5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interest in Mustang II amplifier",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 13/16]\n(in reply to) User: I think I'll go try out the Mustang II this weekend, see how i"
+      },
+      {
+        "id": "2b4704cc-2c9e-4b95-adf4-4be664b9445c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Call music store for inventory check",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 14/16]\nUser: I'll definitely call the store beforehand to confirm they have the Mustang I"
+      },
+      {
+        "id": "3165e9d9-e1f0-485b-a0e4-4df9aabf45c9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Call store regarding Mustang II and drumheads",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 15/16]\nUser: I'll call the store and ask about the Mustang II and drumheads. Oh, and sinc"
+      },
+      {
+        "id": "4eef986a-af09-4d59-a529-0cb72a4bfdf5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User feedback on GuitarWorks repair shop",
+        "text": "[date: 2023-05-29T03:15:00+00:00 | context: Session 10685a650df9 - happened on 2023-05-29 03:15:00 UTC. | turn 16/16]\nUser: I think there's been a misunderstanding! I did mention GuitarWorks on 5th st"
+      },
+      {
+        "id": "bc53ce46-a0cf-4207-b12b-e1856c80c46c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Kodia III wheeled vehicle policy",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 1/24]\nAssistant: In order to minimize the impact on the environment and reduce the potent"
+      },
+      {
+        "id": "27b18253-5f70-4efc-bbb6-69e94e0a10fb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Kodian Frontier transportation protocols",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 2/24]\n(in reply to) Assistant: In order to minimize the impact on the environment and red"
+      },
+      {
+        "id": "78377d45-7590-415c-9f27-f46a3c69d863",
+        "score": 0.3736,
+        "memory_type": "fact",
+        "title": "Policy: Ban on wheeled vehicles on Kodia III",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 3/24]\n(in reply to) Assistant: In order to minimize the impact on the environment and red"
+      },
+      {
+        "id": "d84f7ebc-4258-442e-bd61-8268a0c18190",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Absence of combustion engines on the forest moon",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 4/24]\nUser: there are no combustion engines on the forest moon whatsoever"
+      },
+      {
+        "id": "d3e3a39e-0f9f-4326-a7e7-b806d8cd21ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Energy and transportation standards on Kodia III",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 5/24]\n(in reply to) User: there are no combustion engines on the forest moon whatsoever\n\n"
+      },
+      {
+        "id": "70e2aa34-274b-42df-bdc3-4553ec214858",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Combustion engine ban on the forest moon",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 6/24]\n(in reply to) User: there are no combustion engines on the forest moon whatsoever\n\n"
+      },
+      {
+        "id": "24e5d641-5204-4979-adbc-1d981ed17a30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Landing skid specifications",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 7/24]\nUser: the extendable, hydraulic and pneumatically operated landing skids"
+      },
+      {
+        "id": "9edf00f3-49f7-4994-827f-c68d3909f06c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT Landing Skid Specifications",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 8/24]\n(in reply to) User: the extendable, hydraulic and pneumatically operated landing sk"
+      },
+      {
+        "id": "fdad6171-2b99-4a96-9750-de6f5c17bb90",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT landing skid design specifications",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 9/24]\n(in reply to) User: the extendable, hydraulic and pneumatically operated landing sk"
+      },
+      {
+        "id": "9652b6fa-efef-4a73-8046-c6b16affaea5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT camera configuration",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 10/24]\nUser: fhlt has landing and maneuver cameras all ove rit"
+      },
+      {
+        "id": "afc6bb9b-7cf4-48f4-8ce1-413b8c755959",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT landing and maneuver camera system",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 11/24]\n(in reply to) User: fhlt has landing and maneuver cameras all ove rit\n\nAssistant: "
+      },
+      {
+        "id": "69f7b6a2-db8c-44e6-916c-5ea61cd444ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT camera system specifications",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 12/24]\n(in reply to) User: fhlt has landing and maneuver cameras all ove rit\n\n1. High-res"
+      },
+      {
+        "id": "c5553ed8-eba1-4b7b-8faf-cded7c7a3982",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT camera housing specifications",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 13/24]\n(in reply to) User: fhlt has landing and maneuver cameras all ove rit\n\n6. Weather-"
+      },
+      {
+        "id": "7d9e843e-54c0-4de3-a3f8-a6d9c7a7eb77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT landing and maneuver camera capabilities",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 14/24]\n(in reply to) User: fhlt has landing and maneuver cameras all ove rit\n\nThese landi"
+      },
+      {
+        "id": "9e751042-bd58-4207-8917-181201ecf233",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Operational space awareness sensor systems",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 15/24]\nUser: and a variety of types radar, sonar, and lidar systems, using synthetic aper"
+      },
+      {
+        "id": "51674400-3652-45eb-8321-f584d08de5b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT sensor and navigation systems",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 16/24]\n(in reply to) User: and a variety of types radar, sonar, and lidar systems, using "
+      },
+      {
+        "id": "8c0abb77-b3d1-4d5f-b73f-77006b76e6a4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT Sensor Suite Capabilities",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 17/24]\n(in reply to) User: and a variety of types radar, sonar, and lidar systems, using "
+      },
+      {
+        "id": "84cdf970-a39b-4dd5-b8d2-c7af06fd7641",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT Sensor Fusion and Data Network Capabilities",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 18/24]\n(in reply to) User: and a variety of types radar, sonar, and lidar systems, using "
+      },
+      {
+        "id": "401dc841-3808-4666-94c5-64946edf7cfa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "FHLT System Capabilities and Operational Context",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 19/24]\n(in reply to) User: and a variety of types radar, sonar, and lidar systems, using "
+      },
+      {
+        "id": "8bad676a-d7fb-4e79-9ef4-2d6d3bd9a40a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SACH school for frontier bush pilots",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 20/24]\nUser: the frontier service bush pilots go to a school called the \"Survive and Come"
+      },
+      {
+        "id": "966f50f1-0cda-48cf-855e-30ea31c77cd4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Survive and Come Home (SACH) School Overview",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 21/24]\n(in reply to) User: the frontier service bush pilots go to a school called the \"Su"
+      },
+      {
+        "id": "c88a7924-70e5-4a1f-bfe2-d87d43cf2c65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Survive and Come Home (SACH) School Curriculum",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 22/24]\n(in reply to) User: the frontier service bush pilots go to a school called the \"Su"
+      },
+      {
+        "id": "2e837245-c494-49a9-8f02-7f9a2cbf7c70",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Survive and Come Home (SACH) school curriculum",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 23/24]\n(in reply to) User: the frontier service bush pilots go to a school called the \"Su"
+      },
+      {
+        "id": "b8d6c5d1-8029-4fd1-a78a-660b6a360a35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Survive and Come Home (SACH) school for Kodian Frontier Service pilots",
+        "text": "[date: 2023-05-30T13:21:00+00:00 | context: Session 5c5f6b20a4a9 - happened on 2023-05-30 13:21:00 UTC. | turn 24/24]\n(in reply to) User: the frontier service bush pilots go to a school called the \"Su"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101534,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25383)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25063,
+    "prompt_tokens": 24283,
+    "completion_tokens": 106,
+    "reasoning_tokens": 674,
+    "generate_time_ms": 15295.301263104193,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23258,
+        "completion_tokens": 56,
+        "reasoning_tokens": 286,
+        "total_tokens": 23600
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 511,
+        "completion_tokens": 10,
+        "reasoning_tokens": 255,
+        "total_tokens": 776
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 514,
+        "completion_tokens": 40,
+        "reasoning_tokens": 133,
+        "total_tokens": 687
+      }
+    ]
+  },
+  "failure_label": null
+}

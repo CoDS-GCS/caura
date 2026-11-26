@@ -1,0 +1,1311 @@
+{
+  "question_id": "gpt4_59149c77",
+  "question_type": "temporal-reasoning",
+  "question": "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?",
+  "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+  "prediction": "7 days passed between your visits. You visited the Museum of Modern Art (MoMA) on January 8, 2023, and attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art on January 15, 2023.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 897,
+    "by_type": {
+      "episode": 309,
+      "preference": 129,
+      "task": 41,
+      "plan": 7,
+      "action": 8,
+      "fact": 401,
+      "decision": 2
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 896
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2639871,
+    "output_tokens": 127374,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?"
+    ],
+    "retrieve_time_ms": 1807.3928740341216,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "670457f3-8778-49ba-a5a1-ec4236788084",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about key Cubism artists after MoMA tour",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 1/36]\nUser: I'm looking for some information on modern art movements. I just got back fro"
+      },
+      {
+        "id": "8b546adf-1ac4-484d-afe5-56abaeee8f16",
+        "score": 0.3734,
+        "memory_type": "fact",
+        "title": "Overview of Cubism as a 20th-century modern art movement",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 2/36]\n(in reply to) User: I'm looking for some information on modern art movements. I jus"
+      },
+      {
+        "id": "1fb8d0ab-24a0-4574-a39b-22c37a77b6f1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Modern art: key Cubism figures (Picasso, Braque, Gris)",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 3/36]\n(in reply to) User: I'm looking for some information on modern art movements. I jus"
+      },
+      {
+        "id": "8db827cf-719c-4ef3-8f4b-ea9cd0b84813",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Notes on Cubism figures: Albert Gleizes and Fernand L\u00e9ger",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 4/36]\n(in reply to) User: I'm looking for some information on modern art movements. I jus"
+      },
+      {
+        "id": "fe7ce624-af0e-4003-9a00-dfdc2ecd7150",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Key characteristics and influence of Cubist art",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 5/36]\n(in reply to) User: I'm looking for some information on modern art movements. I jus"
+      },
+      {
+        "id": "7b83f3ae-79da-4932-8001-22c8fd86fb82",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about modern art movements (Cubism)",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 6/36]\n(in reply to) User: I'm looking for some information on modern art movements. I jus"
+      },
+      {
+        "id": "c8010225-a36e-4d54-9fd7-6ed9f40ce327",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Frida Kahlo\u2019s style and inspirations",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 7/36]\nUser: That's really helpful, thanks for the information. I'm curious about Frida Ka"
+      },
+      {
+        "id": "0a2a0603-2583-4bd0-9d4e-ddfd1607142a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant reply about Frida Kahlo\u2019s artistic style",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 8/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious "
+      },
+      {
+        "id": "408c9711-e698-40d7-8c27-f2a17842b2b3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo artistic style: colors, symbolism, self-portraits",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 9/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious "
+      },
+      {
+        "id": "43ee682f-9089-4403-8213-32cb1f0b28eb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo: Surrealist-like elements in her work",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 10/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "41461a2c-0a52-4ad5-8ba1-1acbc78b9746",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Frida Kahlo\u2019s style and inspirations",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 11/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "30dc991c-ff73-4b20-b36b-34efbff225fc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo influences and artistic style themes",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 12/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "aaa70d0d-d029-489c-937a-47426e5dfea6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Kahlo influences: Surrealism, European modernism, mythology/folklore",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 13/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "04174092-5af1-4fe0-8051-cd40d667e5aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Frida Kahlo\u2019s famous works and themes",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 14/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "d99fdd48-d0c6-4b81-b5ed-56c4e249b2f8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Frida Kahlo\u2019s style and inspirations",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 15/36]\n(in reply to) User: That's really helpful, thanks for the information. I'm curious"
+      },
+      {
+        "id": "849d15bd-9c4d-43a3-a279-481f90bd490e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Frida Kahlo and Diego Rivera relationship",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 16/36]\nUser: I'd like to know more about her relationship with Diego Rivera. How did they"
+      },
+      {
+        "id": "c4debddf-cc6e-4a35-a1d1-6e9d1378258b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo and Diego Rivera: met in 1927, married in 1929",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 17/36]\n(in reply to) User: I'd like to know more about her relationship with Diego Rivera"
+      },
+      {
+        "id": "b5cb644c-c133-4f54-8c5d-dd60616b210c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo and Diego Rivera relationship overview",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 18/36]\n(in reply to) User: I'd like to know more about her relationship with Diego Rivera"
+      },
+      {
+        "id": "5b39e95f-d252-46a4-8d79-7ff60e215242",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo and Diego Rivera relationship overview",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 19/36]\n(in reply to) User: I'd like to know more about her relationship with Diego Rivera"
+      },
+      {
+        "id": "399cba43-ec6d-49a9-9888-027c31d69967",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida and Diego Rivera relationship described as art-expressive",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 20/36]\n(in reply to) User: I'd like to know more about her relationship with Diego Rivera"
+      },
+      {
+        "id": "a2f094b1-b0aa-4ed2-ae1b-16ee57ec87f2",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks about Frida's feminism views",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 21/36]\nUser: I'd like to know more about Frida's views on feminism and her role as a fema"
+      },
+      {
+        "id": "02849808-bade-444d-8228-ae96639a33ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo feminism and role as female artist",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 22/36]\n(in reply to) User: I'd like to know more about Frida's views on feminism and her "
+      },
+      {
+        "id": "1e741170-62c8-4d43-a2a3-6f51b78e3acc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo: feminism, gender symbolism, and Diego Rivera support",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 23/36]\n(in reply to) User: I'd like to know more about Frida's views on feminism and her "
+      },
+      {
+        "id": "28bc1161-09f6-44f9-9a63-d97710002385",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo\u2019s influence on contemporary feminism",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 24/36]\n(in reply to) User: I'd like to know more about Frida's views on feminism and her "
+      },
+      {
+        "id": "64eccaaa-1fb2-442a-a371-c20f994d972e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Frida Kahlo\u2019s feminism and role as a female artist",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 25/36]\n(in reply to) User: I'd like to know more about Frida's views on feminism and her "
+      },
+      {
+        "id": "47638a8c-13b9-4b65-9b78-99f3969a19a1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in Frida Kahlo\u2019s Mexican folk art influence",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 26/36]\nUser: I'd like to explore Frida's cultural heritage and how it influenced her art."
+      },
+      {
+        "id": "407a1a19-ab26-41c9-ab02-07984d51d677",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo and Mexican folk art influence",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 27/36]\n(in reply to) User: I'd like to explore Frida's cultural heritage and how it influ"
+      },
+      {
+        "id": "ab4eb742-4b0d-47cd-b691-724018807407",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo\u2019s Mexican folk art influences",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 28/36]\n(in reply to) User: I'd like to explore Frida's cultural heritage and how it influ"
+      },
+      {
+        "id": "bf9f9e0a-5dfe-46b1-b4fb-d3e2969d572b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo\u2019s Mexican folk art influences (colors, symbols, retablos/ex-votos)",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 29/36]\n(in reply to) User: I'd like to explore Frida's cultural heritage and how it influ"
+      },
+      {
+        "id": "db01d604-db85-4018-99a7-46c78bba5cf5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Frida Kahlo\u2019s use of ex-votos and Mexican folk art",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 30/36]\n(in reply to) User: I'd like to explore Frida's cultural heritage and how it influ"
+      },
+      {
+        "id": "34362fc2-8c13-4188-ad8d-2a66dd41780a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants to shift from Frida Kahlo to modern art (Fauvism)",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 31/36]\nUser: I think I'll take a break from Frida Kahlo for now. I'd like to explore more"
+      },
+      {
+        "id": "7bc9f4fa-0204-48de-94ad-5454038ab64a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Fauvism and its key characteristics",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 32/36]\n(in reply to) User: I think I'll take a break from Frida Kahlo for now. I'd like t"
+      },
+      {
+        "id": "8e1a9b2b-609d-4a02-b1e6-340206b69695",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Fauvism and key artists",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 33/36]\n(in reply to) User: I think I'll take a break from Frida Kahlo for now. I'd like t"
+      },
+      {
+        "id": "8bed1fcb-18d8-4285-96e9-d5bab417a23f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fauvism: Raoul Dufy as a key artist",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 34/36]\n(in reply to) User: I think I'll take a break from Frida Kahlo for now. I'd like t"
+      },
+      {
+        "id": "46e2bcdd-a57a-4574-98ba-01c6b0e16ccf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Fauvism and key artists/works",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 35/36]\n(in reply to) User: I think I'll take a break from Frida Kahlo for now. I'd like t"
+      },
+      {
+        "id": "2c09840d-a1c7-487e-aec4-f4f1e5a2a81d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Fauvism and key artists",
+        "text": "[date: 2023-01-08T12:49:00+00:00 | context: Session e7a0db07bc65 - happened on 2023-01-08 12:49:00 UTC. | turn 36/36]\n(in reply to) User: I think I'll take a break from Frida Kahlo for now. I'd like t"
+      },
+      {
+        "id": "d335d8d8-0a90-49af-af3b-379df5cdaec5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants help creating a weekly schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 1/23]\nUser: I'm trying to get organized and plan out my week ahead. Can you help me creat"
+      },
+      {
+        "id": "c26df604-a1e8-4102-a156-6db9e8476a83",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Weekly schedule template (Mon\u2013Sun) with morning/afternoon/evening slots",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 2/23]\n(in reply to) User: I'm trying to get organized and plan out my week ahead. Can you"
+      },
+      {
+        "id": "24943e93-5be8-4a81-93b9-fd0955385c6a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create weekly schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 3/23]\n(in reply to) User: I'm trying to get organized and plan out my week ahead. Can you"
+      },
+      {
+        "id": "3519d218-1644-4dc4-8a0a-bcb0364b2660",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants a weekly schedule template and organization help",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 4/23]\n(in reply to) User: I'm trying to get organized and plan out my week ahead. Can you"
+      },
+      {
+        "id": "f7dabe54-6560-438e-b0c3-5091a97d3649",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants gym planning with an exercise/activity column",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 5/23]\nUser: I like the template, but I think I need to plan my gym sessions too. Can you "
+      },
+      {
+        "id": "8f88fb72-3375-4c9e-b1f3-65d8cb269314",
+        "score": null,
+        "memory_type": "action",
+        "title": "Added exercise/physical activity column to weekly schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 6/23]\n(in reply to) User: I like the template, but I think I need to plan my gym sessions"
+      },
+      {
+        "id": "e90f001c-3c3f-4794-b88e-4d3b22828884",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add exercise/physical activity column to gym plan template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 7/23]\n(in reply to) User: I like the template, but I think I need to plan my gym sessions"
+      },
+      {
+        "id": "153d76a1-f771-451f-bce9-306942704a20",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gym schedule template includes Exercise/Physical Activity column",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 8/23]\n(in reply to) User: I like the template, but I think I need to plan my gym sessions"
+      },
+      {
+        "id": "eceb8f79-7de5-4312-96a9-8709c7278abb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gym attendance notes: Tuesdays/Thursdays, missed last Tuesday",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 9/23]\nUser: I'm glad you added the exercise column. I actually try to go to the gym on Tu"
+      },
+      {
+        "id": "75e23654-ad5a-4da0-80c5-ee43ece5635a",
+        "score": null,
+        "memory_type": "action",
+        "title": "Pre-filled Tuesday gym in weekly schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 10/23]\n(in reply to) User: I'm glad you added the exercise column. I actually try to go t"
+      },
+      {
+        "id": "8a7d02cb-3b78-498d-a81e-65a122c7703b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gym exercise logged for Thursday in weekly plan",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 11/23]\n(in reply to) User: I'm glad you added the exercise column. I actually try to go t"
+      },
+      {
+        "id": "722a1b73-6721-4cb0-bd29-c1494256cf00",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned gym visits and noted Tuesday overtime last week",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 12/23]\n(in reply to) User: I'm glad you added the exercise column. I actually try to go t"
+      },
+      {
+        "id": "4c749296-7687-4144-9ebb-418e6dc8dabf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add travel/accommodations column for upcoming trips",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 13/23]\nUser: I think I need to add a section for travel plans as well, since I have a few"
+      },
+      {
+        "id": "2edfa003-cf90-4ed6-92a6-1e51fa679b20",
+        "score": null,
+        "memory_type": "action",
+        "title": "Added travel/accommodations column to weekly schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 14/23]\n(in reply to) User: I think I need to add a section for travel plans as well, sinc"
+      },
+      {
+        "id": "4e9133ed-6ab3-48c3-b600-1c5badb21bd6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add Travel/Accommodations column to schedule template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 15/23]\n(in reply to) User: I think I need to add a section for travel plans as well, sinc"
+      },
+      {
+        "id": "086def44-d298-4666-90e5-7436a6e2f56c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Travel/Accommodations column added to planning template",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 16/23]\n(in reply to) User: I think I need to add a section for travel plans as well, sinc"
+      },
+      {
+        "id": "3089152d-ab55-428f-899a-5efc73cb552e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add travel/accommodations column to travel plans tracker",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 17/23]\n(in reply to) User: I think I need to add a section for travel plans as well, sinc"
+      },
+      {
+        "id": "5114ccd2-57c7-440f-adba-f9d2845e51e5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip to Chicago conference; flight delayed; arrived 1 AM",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 18/23]\nUser: I'm planning a trip to New York City next month, so I'll make sure to fill i"
+      },
+      {
+        "id": "75dcf88d-8523-4300-9e3e-cb2efbeaf53e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant responded to user trip planning (NYC next month)",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 19/23]\n(in reply to) User: I'm planning a trip to New York City next month, so I'll make "
+      },
+      {
+        "id": "9a8b0160-6439-476f-97c3-c2339387f316",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User trip planning conversation (NYC next month)",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 20/23]\n(in reply to) User: I'm planning a trip to New York City next month, so I'll make "
+      },
+      {
+        "id": "0f6f597f-a092-429e-a237-3c8fb4b8b4a0",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan NYC itinerary after booking flights and hotel",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 21/23]\nUser: I'm really excited to explore the city and catch up with some friends who li"
+      },
+      {
+        "id": "0cc5dcf0-c1ad-4d00-81bf-a33fe52e7b4b",
+        "score": 0.3276,
+        "memory_type": "episode",
+        "title": "NYC trip planning conversation (flights/hotel booked)",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 22/23]\n(in reply to) User: I'm really excited to explore the city and catch up with some "
+      },
+      {
+        "id": "076f8c81-a9fd-4151-bc88-7dbba307005c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "NYC trip planning conversation (neighborhoods and downtime)",
+        "text": "[date: 2023-01-09T15:24:00+00:00 | context: Session e12353fed8a5 - happened on 2023-01-09 15:24:00 UTC. | turn 23/23]\n(in reply to) User: I'm really excited to explore the city and catch up with some "
+      },
+      {
+        "id": "c863c925-2866-4246-84fd-f95fd88e37ec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat session snippet (2023-01-11 22:37 UTC)",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 1/17]\nAssistant: Sure, here's a possible revision with dialog:"
+      },
+      {
+        "id": "ae71b660-609d-4287-ba58-7dd7d4b1f37f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional story: Jack fixates on museum mirror",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 2/17]\n(in reply to) Assistant: Sure, here's a possible revision with dialog:\n\nFor the res"
+      },
+      {
+        "id": "3fbe4c19-9676-4659-9ff5-628bd43073b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional family dialogue about restricted mirror access",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 3/17]\n(in reply to) Assistant: Sure, here's a possible revision with dialog:\n\n\"Mom, I rea"
+      },
+      {
+        "id": "463c4c56-9f7d-4d4c-bbd7-b28ffc7da1de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested dialog after narration about skipping social events",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 4/17]\nUser: Okay, but I really liked this paragraph and just wanted some dialog after you"
+      },
+      {
+        "id": "8df3a3e2-e71e-45d9-8630-4c42067b8253",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional scene: Jack skips social events to study at the library",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 5/17]\n(in reply to) User: Okay, but I really liked this paragraph and just wanted some di"
+      },
+      {
+        "id": "a64e2e29-bfea-4ab7-97b9-65feae1672a6",
+        "score": 0.3268,
+        "memory_type": "episode",
+        "title": "Fictional scene: Jack studies in library; mother urges break",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 6/17]\n(in reply to) User: Okay, but I really liked this paragraph and just wanted some di"
+      },
+      {
+        "id": "86949540-ca64-4ac9-99c4-b4038bc69d59",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference to transition from Christmas break to school",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 7/17]\nUser: Okay, I like that dialog, but let's end Christmas break before he skips socia"
+      },
+      {
+        "id": "b05cfffd-3f39-4495-9b94-bf46b2e809a8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Story transition back to school and invitation to party",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 8/17]\n(in reply to) User: Okay, I like that dialog, but let's end Christmas break before "
+      },
+      {
+        "id": "96c79cb5-9094-4815-88b5-ae1527cc2ae1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fictional scene: transition back to school and party invitation",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 9/17]\n(in reply to) User: Okay, I like that dialog, but let's end Christmas break before "
+      },
+      {
+        "id": "c40801d4-5df5-42c2-8198-b2659fa4ac88",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fiction story continues: Jack declines party and heads to library",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 10/17]\nUser: okay, keep the story going from there\n\nAssistant: Matt laughed. \"You know yo"
+      },
+      {
+        "id": "58746175-39cb-48ea-92f3-6f3875e61ecc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks Matt to follow and check on Jack",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 11/17]\nUser: Ah, very good. Let's have matt follow him to the library and find out what's"
+      },
+      {
+        "id": "a85362d6-72dd-42e2-a25f-58d1e44d5f00",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Jack and Matt meet at the library",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 12/17]\n(in reply to) User: Ah, very good. Let's have matt follow him to the library and f"
+      },
+      {
+        "id": "c6f33d15-c5fd-4a1c-b3db-944aaad59713",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Jack tells Matt about seeing his dad in a mirror",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 13/17]\n(in reply to) User: Ah, very good. Let's have matt follow him to the library and f"
+      },
+      {
+        "id": "f28d4546-3d2a-440f-a534-0d0e40031529",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked to continue story from the library",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 14/17]\nUser: Great story! Keep it going from the library"
+      },
+      {
+        "id": "34013e56-6ee2-443a-aa32-bd559f513bea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fiction scene: Matt questions Jack in the library",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 15/17]\n(in reply to) User: Great story! Keep it going from the library\n\nAssistant: Matt w"
+      },
+      {
+        "id": "7344199d-9b6e-4869-9efd-f76c7ed77207",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Jack agrees to attend a party despite museum restriction",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 16/17]\n(in reply to) User: Great story! Keep it going from the library\n\nJack hesitated fo"
+      },
+      {
+        "id": "c5501424-f5a2-49f7-8f77-7d2d5a35b60f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fiction scene: Matt picks up Jack Saturday night",
+        "text": "[date: 2023-01-11T22:37:00+00:00 | context: Session fbd25ae1ca04 - happened on 2023-01-11 22:37:00 UTC. | turn 17/17]\n(in reply to) User: Great story! Keep it going from the library\n\nMatt grinned, pun"
+      },
+      {
+        "id": "1fb76fac-8e86-47ed-8902-7d67f7392e73",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Significance of mummification in ancient Egyptian culture",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 1/30]\nUser: I'm trying to learn more about ancient cultures. Can you tell me more about t"
+      },
+      {
+        "id": "28009c44-c9d3-4a2b-8c83-e4959490ff08",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Significance of mummification in ancient Egyptian culture",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 2/30]\n(in reply to) User: I'm trying to learn more about ancient cultures. Can you tell m"
+      },
+      {
+        "id": "2b0260ae-102c-4d18-9661-97190e84af57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ancient Egyptian mummification significance and process overview",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 3/30]\n(in reply to) User: I'm trying to learn more about ancient cultures. Can you tell m"
+      },
+      {
+        "id": "dee4b35a-7630-44e9-9e28-35bf83a3f8b1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ancient Egyptian mummification steps and significance",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 4/30]\n(in reply to) User: I'm trying to learn more about ancient cultures. Can you tell m"
+      },
+      {
+        "id": "da4d8bb5-4987-4734-8eab-3435886b436e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Significance of mummification in ancient Egyptian culture",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 5/30]\n(in reply to) User: I'm trying to learn more about ancient cultures. Can you tell m"
+      },
+      {
+        "id": "98354697-1459-49aa-9da0-fd5ad640e034",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ancient Egyptian mummification significance and timeline",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 6/30]\n(in reply to) User: I'm trying to learn more about ancient cultures. Can you tell m"
+      },
+      {
+        "id": "5999b502-a335-4532-8be2-3c9719491e7a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Egyptian sarcophagi significance",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 7/30]\nUser: That's really interesting! I had no idea that the Egyptians believed the hear"
+      },
+      {
+        "id": "cce4ba72-ddfb-4aa0-b8d3-88900d7fe099",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ancient Egyptian sarcophagi: definition and symbolism",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 8/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians bel"
+      },
+      {
+        "id": "67b5cba5-bafe-4415-b55f-8ddad9115226",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Egyptian sarcophagus significance: protection, womb, rebirth, status",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 9/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians bel"
+      },
+      {
+        "id": "4cc7d8e0-1aa4-4d85-a951-5d6ddb863088",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Egyptian sarcophagi: guiding deceased through afterlife",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 10/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians be"
+      },
+      {
+        "id": "0983bf42-3e89-467d-a466-bab242cf0499",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Egyptian sarcophagi types and symbolism discussed",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 11/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians be"
+      },
+      {
+        "id": "47336146-0c09-47c6-b3a1-3a3b8eefdba0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Egyptian sarcophagi symbolism and significance",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 12/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians be"
+      },
+      {
+        "id": "30487103-5910-4222-9357-a920b6fbaec0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ancient Egyptian sarcophagus significance and symbolism",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 13/30]\n(in reply to) User: That's really interesting! I had no idea that the Egyptians be"
+      },
+      {
+        "id": "d353eb2c-93f8-4fb2-8c06-25b6fa0dc715",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about other ancient civilizations' mummification beliefs",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 14/30]\nUser: That's amazing! I didn't know that the sarcophagus symbolized the womb and r"
+      },
+      {
+        "id": "6f3f5f5a-226a-4a1d-ac1b-81954125a9f0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant discussed mummification practices across ancient civilizations",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 15/30]\n(in reply to) User: That's amazing! I didn't know that the sarcophagus symbolized "
+      },
+      {
+        "id": "8209a395-e476-4789-b733-5bafa11f8c1e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Examples of ancient mummification cultures (Chinchorro, Tarim Basin)",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 16/30]\n(in reply to) User: That's amazing! I didn't know that the sarcophagus symbolized "
+      },
+      {
+        "id": "50922cce-dcbd-4c19-80cf-f0674ebbc217",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mummification beliefs of Guanches and Inca Empire",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 17/30]\n(in reply to) User: That's amazing! I didn't know that the sarcophagus symbolized "
+      },
+      {
+        "id": "760ef745-e822-4cb7-945f-b5bdcdb47568",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tollund Man and Scythian mummification details",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 18/30]\n(in reply to) User: That's amazing! I didn't know that the sarcophagus symbolized "
+      },
+      {
+        "id": "a2328fde-1ab0-4223-a048-8147daf7e010",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on body preservation across cultures",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 19/30]\n(in reply to) User: That's amazing! I didn't know that the sarcophagus symbolized "
+      },
+      {
+        "id": "5335b26e-1ba0-4bca-951a-4e2ba5638465",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for NYC museum recommendations for ancient cultures",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 20/30]\nUser: That's fascinating! I had no idea that mummification was practiced in so man"
+      },
+      {
+        "id": "5c88a030-c0d7-47e7-99df-298eafb94f11",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended NYC museums for ancient civilizations",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 21/30]\n(in reply to) User: That's fascinating! I had no idea that mummification was pract"
+      },
+      {
+        "id": "d9ccc712-a997-4ef4-b909-5445b42fe9c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Museums with ancient civilizations exhibits (AMNH, Brooklyn, ISAW)",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 22/30]\n(in reply to) User: That's fascinating! I had no idea that mummification was pract"
+      },
+      {
+        "id": "71e1b246-db2a-41e5-a28c-99d498a7d0a4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about ancient civilizations exhibits and museums",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 23/30]\n(in reply to) User: That's fascinating! I had no idea that mummification was pract"
+      },
+      {
+        "id": "49881323-3bf4-4c02-ab76-240c50dc70cc",
+        "score": 0.4326,
+        "memory_type": "preference",
+        "title": "Suggestions for ancient civilizations exhibits and events (Met, Brooklyn, ISAW)",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 24/30]\n(in reply to) User: That's fascinating! I had no idea that mummification was pract"
+      },
+      {
+        "id": "bfea06bc-1ea9-490d-8878-470cd667887e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed interest in ancient civilizations and NYC exhibits",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 25/30]\n(in reply to) User: That's fascinating! I had no idea that mummification was pract"
+      },
+      {
+        "id": "93e5cdf6-38db-4ae6-9172-8549b1c6f14c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about adult guided tours at natural history and Brooklyn museums",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 26/30]\nUser: That's great, thank you for the recommendations! I'll definitely check them "
+      },
+      {
+        "id": "3ebcb63e-1910-4542-bed7-baecb673de0e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about museum recommendations (AMNH)",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 27/30]\n(in reply to) User: That's great, thank you for the recommendations! I'll definite"
+      },
+      {
+        "id": "2632772e-0dde-4944-afd0-6cf97e5aa5e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AMNH adult guided tours and programs (dinosaur-focused options)",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 28/30]\n(in reply to) User: That's great, thank you for the recommendations! I'll definite"
+      },
+      {
+        "id": "46031763-f95f-46d8-a837-581a956ebc8c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brooklyn Museum adult guided tours and programs",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 29/30]\n(in reply to) User: That's great, thank you for the recommendations! I'll definite"
+      },
+      {
+        "id": "2ffaaa04-3dd0-4562-857a-f13d06b963ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Adult museum private tours and special events guidance",
+        "text": "[date: 2023-01-15T00:27:00+00:00 | context: Session ffb5661b0812 - happened on 2023-01-15 00:27:00 UTC. | turn 30/30]\n(in reply to) User: That's great, thank you for the recommendations! I'll definite"
+      },
+      {
+        "id": "eb810418-c3f2-4f26-a4d7-e8b382179de7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for art-themed day trip museum/gallery recommendations",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 1/33]\nUser: I'm looking for some inspiration for my next art-themed day trip. I visit an "
+      },
+      {
+        "id": "b798690b-ba13-4d6f-9d98-8a3b5111cdbf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Art-themed day trip inspiration request (modern art, recycled materials)",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 2/33]\n(in reply to) User: I'm looking for some inspiration for my next art-themed day tri"
+      },
+      {
+        "id": "30393070-7618-4940-bdde-2b88d13fdce2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Art-themed day trip museum ideas (eco/recycled/contemporary/street)",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 3/33]\n(in reply to) User: I'm looking for some inspiration for my next art-themed day tri"
+      },
+      {
+        "id": "e3111efe-9ee9-4f4c-92e5-fde1f36dea73",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Art-themed day trip inspiration: experimental and community art spaces",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 4/33]\n(in reply to) User: I'm looking for some inspiration for my next art-themed day tri"
+      },
+      {
+        "id": "f11e53b5-aeac-4260-99f7-e1258968659c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding art museums and planning day trips",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 5/33]\n(in reply to) User: I'm looking for some inspiration for my next art-themed day tri"
+      },
+      {
+        "id": "ad5778ff-e8f3-4b3f-8344-6615bc59ddbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about current exhibitions at two art museums",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 6/33]\nUser: I'm particularly interested in the Environmental Art Museum and the Recycled "
+      },
+      {
+        "id": "3e7b94b2-79a2-4b81-9eff-3c9a53d3cf66",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replied about current exhibitions at two museums",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 7/33]\n(in reply to) User: I'm particularly interested in the Environmental Art Museum and"
+      },
+      {
+        "id": "337a0c6a-215f-429a-9f2f-414158b56e6d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Environmental Art Museum & Recycled Art Gallery current/upcoming exhibitions",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 8/33]\n(in reply to) User: I'm particularly interested in the Environmental Art Museum and"
+      },
+      {
+        "id": "99c72681-f69d-4720-b949-4f22b39de1ac",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Current and upcoming exhibitions at Recycled Art Gallery",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 9/33]\n(in reply to) User: I'm particularly interested in the Environmental Art Museum and"
+      },
+      {
+        "id": "d6668d84-0d4e-47d3-ad06-c3e1cdc14177",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about current exhibitions at two art museums",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 10/33]\n(in reply to) User: I'm particularly interested in the Environmental Art Museum an"
+      },
+      {
+        "id": "0627aaa2-87f4-41d0-bbdd-0ac75d7a287b",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks about Maria Cristina Finucci for Ephemeral Landscapes exhibit",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 11/33]\nUser: I'm interested in the \"Ephemeral Landscapes\" exhibit at the Environmental Ar"
+      },
+      {
+        "id": "3bf3d8ee-2218-42dc-bd73-0c6bed2b4829",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Background and inspirations of artist Maria Cristina Finucci",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 12/33]\n(in reply to) User: I'm interested in the \"Ephemeral Landscapes\" exhibit at the En"
+      },
+      {
+        "id": "100ffd69-cc5a-4642-993f-7208cf612b8b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maria Cristina Finucci background and inspirations",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 13/33]\n(in reply to) User: I'm interested in the \"Ephemeral Landscapes\" exhibit at the En"
+      },
+      {
+        "id": "c13ca893-10ba-4b43-b311-659c71c838cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maria Cristina Finucci background and inspirations (Ephemeral Landscapes)",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 14/33]\n(in reply to) User: I'm interested in the \"Ephemeral Landscapes\" exhibit at the En"
+      },
+      {
+        "id": "11ce9b11-020e-44e7-aa93-4d35b50960f0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Maria Cristina Finucci and Ephemeral Landscapes exhibit",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 15/33]\n(in reply to) User: I'm interested in the \"Ephemeral Landscapes\" exhibit at the En"
+      },
+      {
+        "id": "9b709f01-dbcf-4fca-9410-a657799e7682",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Finucci\u2019s sensors and data visualization",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 16/33]\nUser: I'm really interested in Finucci's use of technology in her art. Can you tel"
+      },
+      {
+        "id": "1f17189f-b5dd-4b9e-9096-a6a61b6f6c47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Finucci uses sensors and data visualization in installations",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 17/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "181e6e2d-49d1-4bb9-b139-8f641a7373cf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Finucci art: sensors for environmental monitoring and visualization",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 18/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "98512c72-bf5c-4178-b18a-12d4bc4d2f9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Finucci installations use sensors and data visualization for environmental story",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 19/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "58dd8e4f-d630-4971-8138-41ab60bdffc3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Finucci tech-integrated installations using sensors & data viz",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 20/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "e1c9daf5-b8a8-4c96-8520-61444d908496",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Finucci\u2019s tech use in art (sensors, data viz)",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 21/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "4fde3352-384f-4596-b094-ed9a9039ecf8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Finucci\u2019s sensors and data visualization",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 22/33]\n(in reply to) User: I'm really interested in Finucci's use of technology in her ar"
+      },
+      {
+        "id": "a86fccc6-d2d7-4d07-a939-06258014f1d2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about technology in Finucci's Ephemeral Landscapes exhibition",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 23/33]\nUser: I'm really interested in seeing how Finucci's use of technology can be appli"
+      },
+      {
+        "id": "5b6053cf-9f4f-4610-8f59-74a86af5dee1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussed tech in 'Ephemeral Landscapes' seed bomb station",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 24/33]\n(in reply to) User: I'm really interested in seeing how Finucci's use of technolog"
+      },
+      {
+        "id": "1ba241cd-a464-4171-b821-d2c3610b8341",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Finucci \u201cEphemeral Landscapes\u201d tech: seed bomb dispenser + QR/AR",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 25/33]\n(in reply to) User: I'm really interested in seeing how Finucci's use of technolog"
+      },
+      {
+        "id": "c722c008-1b8f-4185-8fc8-1af90bac3b31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tech elements in \u201cEphemeral Landscapes\u201d exhibition",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 26/33]\n(in reply to) User: I'm really interested in seeing how Finucci's use of technolog"
+      },
+      {
+        "id": "e1420590-dde5-4bd4-ad1d-d6bad38dfbbb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tech-enabled visitor engagement for Ephemeral Landscapes",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 27/33]\n(in reply to) User: I'm really interested in seeing how Finucci's use of technolog"
+      },
+      {
+        "id": "bcc5a88c-49eb-4643-8863-c1007f5b7eb4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Goals for Finucci tech in Ephemeral Landscapes exhibition",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 28/33]\n(in reply to) User: I'm really interested in seeing how Finucci's use of technolog"
+      },
+      {
+        "id": "6e0db7d7-bf95-4e9d-9776-16005161a1d8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find upcoming events for 'Ephemeral Landscapes' exhibition",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 29/33]\nUser: I'm interested in learning more about the Environmental Art Museum's program"
+      },
+      {
+        "id": "6b9ce07d-8d84-49d7-9b83-9ba4e11266df",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided upcoming events info for Environmental Art Museum",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 30/33]\n(in reply to) User: I'm interested in learning more about the Environmental Art Mu"
+      },
+      {
+        "id": "8881e184-79dc-4987-b1a1-0b745b59bcfe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Environmental Art Museum events complementing \u201cEphemeral Landscapes\u201d",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 31/33]\n(in reply to) User: I'm interested in learning more about the Environmental Art Mu"
+      },
+      {
+        "id": "5ae42c4b-01c7-44a0-b832-a982389fbc7c",
+        "score": 0.3889,
+        "memory_type": "fact",
+        "title": "Environmental Art Museum programs for Ephemeral Landscapes",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 32/33]\n(in reply to) User: I'm interested in learning more about the Environmental Art Mu"
+      },
+      {
+        "id": "b2e62182-e186-48a2-84da-3ac724801310",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Environmental Art Museum events for 'Ephemeral Landscapes'",
+        "text": "[date: 2023-01-15T06:34:00+00:00 | context: Session 0a2a971624e0 - happened on 2023-01-15 06:34:00 UTC. | turn 33/33]\n(in reply to) User: I'm interested in learning more about the Environmental Art Mu"
+      },
+      {
+        "id": "1a4477e8-d11b-46be-a07f-8b9839fb27c2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User requests book recommendations and similar authors",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 1/27]\nUser: I'm looking for some book recommendations. I've been reading a lot lately and"
+      },
+      {
+        "id": "8940723c-370e-4c61-bf58-f612252cda03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendation request and assistant clarification (2023-01-15)",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some book recommendations. I've been reading a "
+      },
+      {
+        "id": "f7dae5fd-de7b-4179-9a03-157947f58384",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendation session (authors by genre)",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some book recommendations. I've been reading a "
+      },
+      {
+        "id": "2a1b4d2c-f589-4b36-bb98-dbb7917a86f7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for book recommendations and mentioned a novel",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some book recommendations. I've been reading a "
+      },
+      {
+        "id": "318cc779-ef81-41a5-bae8-12c9bc2cca77",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers contemporary fiction on diversity & cultural identity",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 5/27]\nUser: I see what you mean about Emma Taylor, but I'm pretty sure she's a real autho"
+      },
+      {
+        "id": "36ea05c0-e2ed-4004-9fc1-bf082afbae43",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested contemporary fiction on diversity and cultural identity",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 6/27]\n(in reply to) User: I see what you mean about Emma Taylor, but I'm pretty sure she'"
+      },
+      {
+        "id": "33082b91-a2aa-4ab1-8bff-665c273c5e0d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for contemporary fiction on diversity & cultural identity",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 7/27]\n(in reply to) User: I see what you mean about Emma Taylor, but I'm pretty sure she'"
+      },
+      {
+        "id": "78bd9120-5783-4236-8cae-0f9bd996042b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for contemporary fiction on diversity and cultural identity",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 8/27]\n(in reply to) User: I see what you mean about Emma Taylor, but I'm pretty sure she'"
+      },
+      {
+        "id": "df360758-1975-4ac4-b9a9-ecf1bc9d5526",
+        "score": 0.3176,
+        "memory_type": "preference",
+        "title": "Preference for contemporary fiction on diversity & cultural identity",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 9/27]\n(in reply to) User: I see what you mean about Emma Taylor, but I'm pretty sure she'"
+      },
+      {
+        "id": "50eaeebc-fe05-4fc7-8102-44d98a600952",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses contemporary fiction interests",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 10/27]\n(in reply to) User: I see what you mean about Emma Taylor, but I'm pretty sure she"
+      },
+      {
+        "id": "96a36136-fba7-4b9e-8d42-f59d7707ae9e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book recommendations for identity and cultural heritage themes",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 11/27]\nUser: I've already read \"The Hate U Give\" by Angie Thomas and \"The Song of Achille"
+      },
+      {
+        "id": "65149c30-4071-440b-a507-c351344cf9d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendations for identity and cultural heritage themes",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 12/27]\n(in reply to) User: I've already read \"The Hate U Give\" by Angie Thomas and \"The S"
+      },
+      {
+        "id": "8337f9aa-3b02-40a3-a6c7-b3d3933250c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations on identity and cultural heritage",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 13/27]\n(in reply to) User: I've already read \"The Hate U Give\" by Angie Thomas and \"The S"
+      },
+      {
+        "id": "a7fb1f7b-f8e3-4fdd-8abd-ec332c288e41",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations on identity and cultural heritage",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 14/27]\n(in reply to) User: I've already read \"The Hate U Give\" by Angie Thomas and \"The S"
+      },
+      {
+        "id": "2d277c99-2fa3-4233-adc9-1afb45b310ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendation: The Joy Luck Club explores identity and culture",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 15/27]\n(in reply to) User: I've already read \"The Hate U Give\" by Angie Thomas and \"The S"
+      },
+      {
+        "id": "655a54d3-3a65-4959-9ffb-ec50e351d067",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in books about identity and cultural heritage",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 16/27]\n(in reply to) User: I've already read \"The Hate U Give\" by Angie Thomas and \"The S"
+      },
+      {
+        "id": "672d6457-f7f9-4ec7-8864-2f466f8497d7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about The Poppy War and author R.F. Kuang",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 17/27]\nUser: I'm interested in \"The Poppy War\" since it's a fantasy novel that explores t"
+      },
+      {
+        "id": "ee00d39f-2624-4fec-862c-4e1cd6e74e3a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of The Poppy War plot and themes",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 18/27]\n(in reply to) User: I'm interested in \"The Poppy War\" since it's a fantasy novel t"
+      },
+      {
+        "id": "afc9a1f5-9f65-46a2-90bb-388fef45b2d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of The Poppy War themes and author background",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 19/27]\n(in reply to) User: I'm interested in \"The Poppy War\" since it's a fantasy novel t"
+      },
+      {
+        "id": "9870d75f-6bbf-4c8b-baf3-c1ce24397b2c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of The Poppy War and R.F. Kuang\u2019s works",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 20/27]\n(in reply to) User: I'm interested in \"The Poppy War\" since it's a fantasy novel t"
+      },
+      {
+        "id": "4f72412f-0278-48dd-b60f-ad192fe7bd84",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in war-and-identity fantasy novels",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 21/27]\nUser: I'm excited to read \"The Poppy War\"! I've been looking for a fantasy novel t"
+      },
+      {
+        "id": "b2ecef36-6695-435f-b5dd-1db6857ebd2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant corrected nonexistent author/book and suggested alternatives",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 22/27]\n(in reply to) User: I'm excited to read \"The Poppy War\"! I've been looking for a f"
+      },
+      {
+        "id": "a345f9fd-dcd6-422b-a0e2-c2747ece9bf5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendation chat about The Poppy War",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 23/27]\n(in reply to) User: I'm excited to read \"The Poppy War\"! I've been looking for a f"
+      },
+      {
+        "id": "d05b438c-3ac3-44ee-8623-af87593fa654",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User attended book reading and asked about The Poppy War world-building",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 24/27]\nUser: I think I might have gotten my wires crossed earlier. I actually attended a "
+      },
+      {
+        "id": "0e68bfbe-9f71-42d2-bfd3-a41b18e23e2c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Clarified book reading event; assistant disputed Emma Taylor novel",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 25/27]\n(in reply to) User: I think I might have gotten my wires crossed earlier. I actual"
+      },
+      {
+        "id": "7dd4ee02-ee88-4ed6-9c2f-fd25a9821878",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Notes on world-building in The Poppy War",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 26/27]\n(in reply to) User: I think I might have gotten my wires crossed earlier. I actual"
+      },
+      {
+        "id": "64962906-244b-40c7-adf2-778279501aa1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Notes on world-building in The Poppy War",
+        "text": "[date: 2023-01-15T15:15:00+00:00 | context: Session 35e30338149b - happened on 2023-01-15 15:15:00 UTC. | turn 27/27]\n(in reply to) User: I think I might have gotten my wires crossed earlier. I actual"
+      },
+      {
+        "id": "f0f4f469-f059-4fd3-b3bf-d148d34470ad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sci-fi novel author recommendations (Stephenson, Mi\u00e9ville, Liu, Butler, Weir)",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 3/38]\n(in reply to) User: I'm looking for some recommendations on sci-fi novels. I recent"
+      },
+      {
+        "id": "431f44c8-7cef-4ef3-991f-29de55b690f3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sci-fi novel recommendations (Diaspora, Ready Player One, etc.)",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 4/38]\n(in reply to) User: I'm looking for some recommendations on sci-fi novels. I recent"
+      },
+      {
+        "id": "a4fbfcc2-d00e-4099-ae78-29d3ffd69139",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sci-fi novel recommendations and short story encouragement",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 5/38]\n(in reply to) User: I'm looking for some recommendations on sci-fi novels. I recent"
+      },
+      {
+        "id": "ced1420b-ebe9-4e50-bbea-92b03116ec04",
+        "score": 0.3129,
+        "memory_type": "preference",
+        "title": "Interest in Three-Body Problem themes for recommendations",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 6/38]\nUser: I'm particularly interested in the \"Three-Body Problem\" trilogy, as I devoure"
+      },
+      {
+        "id": "853ee7e8-6832-438c-9088-4e6bea39a79e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 7/38]\n(in reply to) User: I'm particularly interested in the \"Three-Body Problem\" trilogy"
+      },
+      {
+        "id": "67ef8ae0-7bd6-4872-a70e-a456301d88bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sci-fi first-contact book recommendations (Sagan, Niven/Pournelle, Robinson)",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 8/38]\n(in reply to) User: I'm particularly interested in the \"Three-Body Problem\" trilogy"
+      },
+      {
+        "id": "7c2c39ba-13fb-444f-ac15-7ea84fe6a137",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for first-contact/tech themes",
+        "text": "[date: 2023-01-15T20:24:00+00:00 | context: Session 63e2fb569f26 - happened on 2023-01-15 20:24:00 UTC. | turn 9/38]\n(in reply to) User: I'm particularly interested in the \"Three-Body Problem\" trilogy"
+      }
+    ]
+  },
+  "context": {
+    "chars": 100823,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25205)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25959,
+    "prompt_tokens": 24340,
+    "completion_tokens": 389,
+    "reasoning_tokens": 1230,
+    "generate_time_ms": 16122.541505028494,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22511,
+        "completion_tokens": 153,
+        "reasoning_tokens": 477,
+        "total_tokens": 23141
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 636,
+        "completion_tokens": 56,
+        "reasoning_tokens": 226,
+        "total_tokens": 918
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 444,
+        "completion_tokens": 57,
+        "reasoning_tokens": 275,
+        "total_tokens": 776
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 749,
+        "completion_tokens": 123,
+        "reasoning_tokens": 252,
+        "total_tokens": 1124
+      }
+    ]
+  },
+  "failure_label": null
+}

@@ -1,0 +1,1268 @@
+{
+  "question_id": "06db6396",
+  "question_type": "knowledge-update",
+  "question": "How many projects have I completed since starting painting classes?",
+  "gold_answer": "5",
+  "prediction": "You have completed 5 projects since starting painting classes.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 894,
+    "by_type": {
+      "plan": 7,
+      "task": 28,
+      "episode": 378,
+      "decision": 2,
+      "preference": 137,
+      "fact": 341,
+      "action": 1
+    },
+    "by_status": {
+      "active": 894
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2631042,
+    "output_tokens": 126948,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many projects have I completed since starting painting classes?"
+    ],
+    "retrieve_time_ms": 2069.9797860579565,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "38b40475-24b5-4a5e-af53-69073e782467",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips request for organizing a small art studio space",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 1/26]\nUser: I'm considering setting up a small art studio in my spare bedroom. Can you gi"
+      },
+      {
+        "id": "c74be2be-50f6-4b81-8ff0-33cbf043f21d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for organizing a small spare-bedroom art studio",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 2/26]\n(in reply to) User: I'm considering setting up a small art studio in my spare bedro"
+      },
+      {
+        "id": "bad68696-18ea-4bc7-b081-b179698bb9a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for organizing a small art studio space",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 3/26]\n(in reply to) User: I'm considering setting up a small art studio in my spare bedro"
+      },
+      {
+        "id": "03db1d33-ef36-466d-9f2a-133a943664d6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for organizing a small art studio space",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 4/26]\n(in reply to) User: I'm considering setting up a small art studio in my spare bedro"
+      },
+      {
+        "id": "178bc5b2-0cc7-4b29-85bb-90d982d49ccd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing a small art studio in a spare bedroom",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 5/26]\n(in reply to) User: I'm considering setting up a small art studio in my spare bedro"
+      },
+      {
+        "id": "51af7a09-24e6-4da3-9f90-1491d8272f80",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift ideas for sister's birthday (paintings)",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 6/26]\nUser: I'm also thinking of working on some gift ideas for my sister's birthday next"
+      },
+      {
+        "id": "9607204b-5204-4ed5-86b2-1933f8e32efe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for sister's birthday paintings",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 7/26]\n(in reply to) User: I'm also thinking of working on some gift ideas for my sister's"
+      },
+      {
+        "id": "3acd48db-6882-40a6-873d-829c40111b94",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift painting ideas: floral, abstract, memory lane",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 8/26]\n(in reply to) User: I'm also thinking of working on some gift ideas for my sister's"
+      },
+      {
+        "id": "c6f61e55-e074-4153-8f64-2ac23bd7986d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gift ideas: inspirational quote + customized colors in a painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 9/26]\n(in reply to) User: I'm also thinking of working on some gift ideas for my sister's"
+      },
+      {
+        "id": "07a886ae-0c2a-4165-9646-d6161331a59c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips request for varnishing and protecting a sunset painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 10/26]\nUser: I'm actually working on a painting right now that I think my sister will lov"
+      },
+      {
+        "id": "0e55493d-3a3c-450e-bca6-22c0f89ac9f7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant tips for varnishing a sunset painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 11/26]\n(in reply to) User: I'm actually working on a painting right now that I think my s"
+      },
+      {
+        "id": "5b8e61a6-8285-4cb8-9aae-246b53e363d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Painting tips: drying, surface prep, varnish application",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 12/26]\n(in reply to) User: I'm actually working on a painting right now that I think my s"
+      },
+      {
+        "id": "cb1e1c0a-a2cf-40c1-932c-83e47c471500",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for applying varnish and protecting a painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 13/26]\n(in reply to) User: I'm actually working on a painting right now that I think my s"
+      },
+      {
+        "id": "ae87e4d0-7992-4482-9fcd-ec552a1d08e2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Painting tips for protecting a sunset scene",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 14/26]\n(in reply to) User: I'm actually working on a painting right now that I think my s"
+      },
+      {
+        "id": "54e4f9f2-315b-4c6e-b3ea-874477b7a249",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice request on signing and dating a painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 15/26]\nUser: I've heard that it's also important to sign and date the painting. Do you ha"
+      },
+      {
+        "id": "bd631268-d837-4826-bc0a-24b6ee369a32",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on signing and dating a painting discreetly",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 16/26]\n(in reply to) User: I've heard that it's also important to sign and date the paint"
+      },
+      {
+        "id": "4c93b29e-a3be-4376-aa67-0c5a5df7ca2d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on signing and dating a painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 17/26]\n(in reply to) User: I've heard that it's also important to sign and date the paint"
+      },
+      {
+        "id": "974a993f-5fa2-4bf7-b913-747fe679b1f1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidelines for signing and dating a painting",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 18/26]\n(in reply to) User: I've heard that it's also important to sign and date the paint"
+      },
+      {
+        "id": "24426fb0-c506-4781-afeb-ba3f41a6c954",
+        "score": 0.4174,
+        "memory_type": "episode",
+        "title": "User asks for advice on reaching out to inspiring Instagram artists",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 19/26]\nUser: I'm glad I got some helpful tips on varnishing and signing my painting. Sinc"
+      },
+      {
+        "id": "45a727d8-960d-4649-8f78-92b3714e18b0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares progress in painting classes and asks about engaging artists",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 20/26]\n(in reply to) User: I'm glad I got some helpful tips on varnishing and signing my "
+      },
+      {
+        "id": "7f932b59-7cab-4f73-b12b-28686efc0484",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Guidance for engaging with artists on painting projects",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 21/26]\n(in reply to) User: I'm glad I got some helpful tips on varnishing and signing my "
+      },
+      {
+        "id": "e7ea487d-115b-4e7b-829e-4c3040b9a8bf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on engaging with artists on social media",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 22/26]\n(in reply to) User: I'm glad I got some helpful tips on varnishing and signing my "
+      },
+      {
+        "id": "e183fb5c-f3ea-46cb-8678-01e06119d75d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants to share galaxy acrylic attempt for feedback",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 23/26]\nUser: I'm thinking of reaching out to @artbylisa, who posted a tutorial on creatin"
+      },
+      {
+        "id": "63c96a82-47c6-4b23-8689-22b6f8bf73b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests reaching out to art tutorial creator",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 24/26]\n(in reply to) User: I'm thinking of reaching out to @artbylisa, who posted a tutor"
+      },
+      {
+        "id": "b84d2d28-aa16-4aa5-8b0c-5f0e4bc3dc6e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Reach out to @artbylisa for galaxy acrylic technique feedback",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 25/26]\n(in reply to) User: I'm thinking of reaching out to @artbylisa, who posted a tutor"
+      },
+      {
+        "id": "a747e95a-5ead-412a-8962-43c0bfe132c6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to reach out to @artbylisa for galaxy acrylic effect feedback",
+        "text": "[date: 2023-08-16T09:37:00+00:00 | context: Session 9662090d4f0c - happened on 2023-08-16 09:37:00 UTC. | turn 26/26]\n(in reply to) User: I'm thinking of reaching out to @artbylisa, who posted a tutor"
+      },
+      {
+        "id": "a7a11a5d-fe6b-4bf4-80a0-2db32ccdf9ce",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for online courses for career development",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 1/28]\nUser: I'm thinking of taking an online course to upgrade my skills and stay competi"
+      },
+      {
+        "id": "78f1b9d9-cb43-45aa-ba71-92d437f431fe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests online courses for upskilling",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 2/28]\n(in reply to) User: I'm thinking of taking an online course to upgrade my skills an"
+      },
+      {
+        "id": "db02a976-55e3-4e7b-b016-8d1a269f0e23",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of online course platforms (edX, Udemy, Pluralsight, Skillshare, Google",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 3/28]\n(in reply to) User: I'm thinking of taking an online course to upgrade my skills an"
+      },
+      {
+        "id": "171b41ba-affb-4c77-aacf-aef962b32174",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online course platforms and selection criteria",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 4/28]\n(in reply to) User: I'm thinking of taking an online course to upgrade my skills an"
+      },
+      {
+        "id": "433eea51-dc3f-42ad-9d82-38e4e02658e6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on online course for career upskilling",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 5/28]\n(in reply to) User: I'm thinking of taking an online course to upgrade my skills an"
+      },
+      {
+        "id": "6011686b-ef16-4978-bbab-f0e168dc9a88",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Coursera Data Science course prerequisites",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 6/28]\nUser: I'm interested in the Data Science course on Coursera, but I'm not sure if it"
+      },
+      {
+        "id": "99877eda-d5b0-40dd-8561-b03ce7ff8ec9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Coursera Data Science course prerequisites discussion",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 7/28]\n(in reply to) User: I'm interested in the Data Science course on Coursera, but I'm "
+      },
+      {
+        "id": "a498f38a-e3f9-4d14-84d9-70d9108ff2d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Science course prerequisites and overview",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 8/28]\n(in reply to) User: I'm interested in the Data Science course on Coursera, but I'm "
+      },
+      {
+        "id": "f56d045e-a69a-4584-82d4-f08ce6b0c0c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Science course overview (10 modules)",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 9/28]\n(in reply to) User: I'm interested in the Data Science course on Coursera, but I'm "
+      },
+      {
+        "id": "474ad759-9e93-4991-85d6-0e3130601004",
+        "score": 0.4083,
+        "memory_type": "fact",
+        "title": "Coursera Data Science course: topics and capstone overview",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 10/28]\n(in reply to) User: I'm interested in the Data Science course on Coursera, but I'm"
+      },
+      {
+        "id": "f3ef64cc-4a23-4d3d-914f-0c3e181f9da1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Science course guidance for beginners",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 11/28]\n(in reply to) User: I'm interested in the Data Science course on Coursera, but I'm"
+      },
+      {
+        "id": "d303b488-6ada-4ae1-a424-f02ed513e5d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Coursera Data Visualization course prerequisites",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 12/28]\nUser: I'm interested in the Data Visualization course on Coursera, but I'm not sur"
+      },
+      {
+        "id": "5ee9316a-c22a-47e6-8535-0863562b543d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Visualization course prerequisites (no strict requirements)",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 13/28]\n(in reply to) User: I'm interested in the Data Visualization course on Coursera, b"
+      },
+      {
+        "id": "42815f54-2bf4-44dc-a806-b45d6cc447c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Visualization course overview and projects",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 14/28]\n(in reply to) User: I'm interested in the Data Visualization course on Coursera, b"
+      },
+      {
+        "id": "6d95c499-715c-4d55-95c3-0ce80f6d3c6c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Coursera Data Visualization course topics and tools",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 15/28]\n(in reply to) User: I'm interested in the Data Visualization course on Coursera, b"
+      },
+      {
+        "id": "2c72098a-1c39-4622-8eb0-d6af8e51f64f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Coursera Data Visualization course prerequisites",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 16/28]\n(in reply to) User: I'm interested in the Data Visualization course on Coursera, b"
+      },
+      {
+        "id": "95456572-b687-45f2-b367-32db4e54fa12",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about Coursera Data Visualization course prerequisites",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 17/28]\n(in reply to) User: I'm interested in the Data Visualization course on Coursera, b"
+      },
+      {
+        "id": "2bc79c12-c757-49d0-a98f-f7993928a2e4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about ggplot2 in the course",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 18/28]\nUser: I think I'm ready to give it a shot! Can you tell me more about the ggplot2 "
+      },
+      {
+        "id": "7bc0c09b-a22e-4b49-ab0b-864ab4fb1e8d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of ggplot2 for data visualization in R",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 19/28]\n(in reply to) User: I think I'm ready to give it a shot! Can you tell me more abou"
+      },
+      {
+        "id": "d89446a2-f609-47b6-ae29-2f5c2d15d784",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of ggplot2 features (syntax, aesthetics, geoms, faceting, themes)",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 20/28]\n(in reply to) User: I think I'm ready to give it a shot! Can you tell me more abou"
+      },
+      {
+        "id": "24e0c00f-8835-4f56-bd62-0b536746968d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of ggplot2: ease, flexibility, aesthetics, community",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 21/28]\n(in reply to) User: I think I'm ready to give it a shot! Can you tell me more abou"
+      },
+      {
+        "id": "2a4e8ed5-2e6a-41c8-a2fe-70c6e50ce363",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Course session discussed ggplot2 and visualization types",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 22/28]\n(in reply to) User: I think I'm ready to give it a shot! Can you tell me more abou"
+      },
+      {
+        "id": "3e1e49c8-cd8e-4eea-aeb6-4113d2becc8f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Plotly vs ggplot2 differences",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 23/28]\nUser: I'm excited to start learning ggplot2 and creating my own visualizations. Ca"
+      },
+      {
+        "id": "f79e4a03-53b7-4e25-8042-eb5377f7701b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Plotly overview and key features vs ggplot2",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 24/28]\n(in reply to) User: I'm excited to start learning ggplot2 and creating my own visu"
+      },
+      {
+        "id": "98011ff3-0b53-43de-a2f7-05d9e9e78511",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Differences between ggplot2 and Plotly",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 25/28]\n(in reply to) User: I'm excited to start learning ggplot2 and creating my own visu"
+      },
+      {
+        "id": "bd69b53e-84ef-49d2-9584-065069b14699",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for using ggplot2 vs Plotly",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 26/28]\n(in reply to) User: I'm excited to start learning ggplot2 and creating my own visu"
+      },
+      {
+        "id": "36c8de5d-d06f-4e11-acc9-62013b101851",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Course discussion: Plotly vs ggplot2 and visualization examples",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 27/28]\n(in reply to) User: I'm excited to start learning ggplot2 and creating my own visu"
+      },
+      {
+        "id": "34d88895-7d3e-4bd8-9987-214c25697235",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User ends Plotly learning session (Aug 20, 2023)",
+        "text": "[date: 2023-08-20T21:15:00+00:00 | context: Session 5f19bd263441 - happened on 2023-08-20 21:15:00 UTC. | turn 28/28]\nUser: I think I'll stop here for now. I'm excited to learn more about Plotly and h"
+      },
+      {
+        "id": "6cfce7b4-a8ad-41cc-8669-87a576ba550a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media campaign strategies for Instagram/Facebook",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 9/37]\n(in reply to) User: I'm interested in learning more about social media campaigns. M"
+      },
+      {
+        "id": "0efbacc4-d64d-4204-a64c-50069964016e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Measuring social media campaign success for sales/conversions",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 10/37]\nUser: What's the best way to measure the success of a social media campaign, espec"
+      },
+      {
+        "id": "ea85649a-f1b8-48d8-8682-368a247f0a95",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Metrics for measuring social media campaign success (sales/conversions)",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 11/37]\n(in reply to) User: What's the best way to measure the success of a social media c"
+      },
+      {
+        "id": "e40a366a-6a24-47d0-ab0b-5aff23d8894d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Metrics to measure social media campaign success (sales/conversions)",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 12/37]\n(in reply to) User: What's the best way to measure the success of a social media c"
+      },
+      {
+        "id": "93953355-0268-43f5-80d4-65a05049b666",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Measuring social media campaign success (sales/conversions)",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 13/37]\n(in reply to) User: What's the best way to measure the success of a social media c"
+      },
+      {
+        "id": "aee5442b-7c15-4491-8bbf-5cc3d8070b56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Metrics to measure social media campaign success",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 14/37]\n(in reply to) User: What's the best way to measure the success of a social media c"
+      },
+      {
+        "id": "da22d0b5-f164-4a38-93f8-7f301b011169",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set up Instagram and Facebook conversion tracking",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 15/37]\nUser: I'm interested in learning more about how to track conversions on Instagram "
+      },
+      {
+        "id": "21b0cf8a-3de3-477c-9d53-37e53bad544a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about Instagram/Facebook conversion tracking",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 16/37]\n(in reply to) User: I'm interested in learning more about how to track conversions"
+      },
+      {
+        "id": "f5a79deb-ba60-4ca1-b6cd-b806a4024f59",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram/Facebook conversion tracking via Pixel and events",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 17/37]\n(in reply to) User: I'm interested in learning more about how to track conversions"
+      },
+      {
+        "id": "97041360-b2a2-4167-a409-35fe14799e9d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Facebook Pixel and conversion event setup for tracking",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 18/37]\n(in reply to) User: I'm interested in learning more about how to track conversions"
+      },
+      {
+        "id": "987b6c7e-3f46-4f11-82a4-50afe6d3eae4",
+        "score": 0.3263,
+        "memory_type": "fact",
+        "title": "Guidance for tracking Instagram/Facebook conversions",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 19/37]\n(in reply to) User: I'm interested in learning more about how to track conversions"
+      },
+      {
+        "id": "6c100ea7-4987-4dce-bcfe-2a1b83debc24",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Conversion tracking guidance for Instagram/Facebook clothing brand",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 20/37]\n(in reply to) User: I'm interested in learning more about how to track conversions"
+      },
+      {
+        "id": "be0292fc-936e-459e-a6cf-9045babf3fb1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about setting up Facebook/Instagram dynamic ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 21/37]\nUser: Thanks for the detailed explanation. I'm interested in learning more about d"
+      },
+      {
+        "id": "a478a838-4dc1-452f-ac0b-111ba82f7fb2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Facebook/Instagram Dynamic Ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 22/37]\n(in reply to) User: Thanks for the detailed explanation. I'm interested in learnin"
+      },
+      {
+        "id": "a495685b-17c8-4459-8850-27d6cc2d76d0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits and setup overview for Facebook dynamic ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 23/37]\n(in reply to) User: Thanks for the detailed explanation. I'm interested in learnin"
+      },
+      {
+        "id": "71f2bf15-e62b-4336-88c3-7146dc6eecb3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Steps to set up Facebook/Instagram Dynamic Ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 24/37]\n(in reply to) User: Thanks for the detailed explanation. I'm interested in learnin"
+      },
+      {
+        "id": "7b40523e-d57d-4082-aa3a-40b776c7c2d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for setting up dynamic ads (Instagram Shopping, catalog, targeting)",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 25/37]\n(in reply to) User: Thanks for the detailed explanation. I'm interested in learnin"
+      },
+      {
+        "id": "ba1100fb-980b-4f44-a2c9-70fca0e91bef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for setting up Facebook/Instagram dynamic ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 26/37]\n(in reply to) User: Thanks for the detailed explanation. I'm interested in learnin"
+      },
+      {
+        "id": "e312aeca-6301-4ffd-a334-8b05d1eb5727",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about creating high-performing dynamic ad creative",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 27/37]\nUser: I'm interested in learning more about how to create effective ad creative fo"
+      },
+      {
+        "id": "f75c4bd8-66cf-497b-83fa-9a77613fe5e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for effective ad creative in dynamic ads (clothing/accessories)",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 28/37]\n(in reply to) User: I'm interested in learning more about how to create effective "
+      },
+      {
+        "id": "2cc8d1b7-ddb7-44a8-bfd1-4ae173d55b1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ad creative best practices for dynamic clothing/accessory ads",
+        "text": "[date: 2023-08-26T23:45:00+00:00 | context: Session 15083ec03983 - happened on 2023-08-26 23:45:00 UTC. | turn 29/37]\n(in reply to) User: I'm interested in learning more about how to create effective "
+      },
+      {
+        "id": "6a26afc7-294b-4486-9d13-094927b2ce8e",
+        "score": 0.3576,
+        "memory_type": "task",
+        "title": "Resources for home music recording and production",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 1/25]\nUser: Hey, I'm looking to learn more about music production and recording. I've bee"
+      },
+      {
+        "id": "2041f4a6-a02e-409a-bbd0-242e85200270",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends resources for music production learning",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 2/25]\n(in reply to) User: Hey, I'm looking to learn more about music production and recor"
+      },
+      {
+        "id": "f51cbc65-cfe6-4b2e-a08b-0ddf5ac9148f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Music production learning resources (DAWs, tutorials, blogs)",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 3/25]\n(in reply to) User: Hey, I'm looking to learn more about music production and recor"
+      },
+      {
+        "id": "fe2657a2-a6ce-4c9f-8265-31744ecae37c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for learning music production and recording",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 4/25]\n(in reply to) User: Hey, I'm looking to learn more about music production and recor"
+      },
+      {
+        "id": "2e59e82c-7bc1-42a4-884a-8b3a7bf0f40a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Music production book recommendations and practice advice",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 5/25]\n(in reply to) User: Hey, I'm looking to learn more about music production and recor"
+      },
+      {
+        "id": "2d9379d7-9c5b-4e70-bf96-c6e48de3d809",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering DAW focus vs experimenting",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 6/25]\nUser: That's a lot of great resources! I think I'll start with some online courses "
+      },
+      {
+        "id": "9335678d-3b64-4cd8-ba14-4d8642c7f5da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Music production learning advice: start with courses and experiment DAWs",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 7/25]\n(in reply to) User: That's a lot of great resources! I think I'll start with some o"
+      },
+      {
+        "id": "3a423992-15d0-4e7c-a839-05b2516bdc5e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: start with one DAW, then experiment",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 8/25]\n(in reply to) User: That's a lot of great resources! I think I'll start with some o"
+      },
+      {
+        "id": "023f7da2-1dd8-439f-bcd6-bc462f2f124f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on starting music production with DAWs",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 9/25]\n(in reply to) User: That's a lot of great resources! I think I'll start with some o"
+      },
+      {
+        "id": "533ccb50-ff97-4372-a281-b0e40dcae5e1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: choose a DAW you enjoy using",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 10/25]\n(in reply to) User: That's a lot of great resources! I think I'll start with some "
+      },
+      {
+        "id": "b8008be0-bf2b-4ddf-8341-f3002e87c32c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants a mix of acoustic and electronic music",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 11/25]\nUser: I'm actually interested in exploring a mix of acoustic and electronic elemen"
+      },
+      {
+        "id": "a8c4da5a-6691-41a7-b734-53e700dfe83b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about mixing acoustic and electronic music",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 12/25]\n(in reply to) User: I'm actually interested in exploring a mix of acoustic and ele"
+      },
+      {
+        "id": "e7669615-8468-43f5-b9be-13ceb3c68384",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on blending acoustic and electronic music",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 13/25]\n(in reply to) User: I'm actually interested in exploring a mix of acoustic and ele"
+      },
+      {
+        "id": "ddc5cea6-57c9-4bfc-a713-3b8297c73cdf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "References and DAWs for blending acoustic and electronic music",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 14/25]\n(in reply to) User: I'm actually interested in exploring a mix of acoustic and ele"
+      },
+      {
+        "id": "4d1fd36e-eaa9-4100-a06a-3852306140a8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User explores acoustic + electronic music project idea",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 15/25]\n(in reply to) User: I'm actually interested in exploring a mix of acoustic and ele"
+      },
+      {
+        "id": "5eccf349-bd59-4a65-a2ac-24e9be84ed00",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User suggests starting ambient soundscape blending guitar and electronics",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 16/25]\nUser: That sounds like a great idea! I think creating a soundscape or atmospheric "
+      },
+      {
+        "id": "2d9a4754-af24-46b7-86b0-f660c127729d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to start ambient soundscape blending acoustic and electronic",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 17/25]\n(in reply to) User: That sounds like a great idea! I think creating a soundscape o"
+      },
+      {
+        "id": "d8b6aa85-a47d-4b2a-affd-393d39cdf977",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for blending acoustic guitar with electronic ambient elements",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 18/25]\n(in reply to) User: That sounds like a great idea! I think creating a soundscape o"
+      },
+      {
+        "id": "52034991-5714-4b90-9151-6dc549f82b83",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to guide music experimentation by mood",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 19/25]\n(in reply to) User: That sounds like a great idea! I think creating a soundscape o"
+      },
+      {
+        "id": "5157f56c-9623-48f9-8aef-1bd6d50592ef",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for creating ambient soundscapes with acoustic/electronic",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 20/25]\n(in reply to) User: That sounds like a great idea! I think creating a soundscape o"
+      },
+      {
+        "id": "f5266f4b-6c28-4a89-8be6-0dfc740cf431",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User encouraged to start experimenting with ambient soundscape",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 21/25]\n(in reply to) User: That sounds like a great idea! I think creating a soundscape o"
+      },
+      {
+        "id": "5fcc682d-ed82-4db3-b7ed-10d0f3c59f7a",
+        "score": null,
+        "memory_type": "plan",
+        "title": "User plans to record guitar and add electronic elements",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 22/25]\nUser: I think I'm ready to give it a shot! I'll start by recording a simple guitar"
+      },
+      {
+        "id": "8a9f9abe-9194-49dc-a08e-9ae0df6a1dbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks to share track progress for feedback",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 23/25]\n(in reply to) User: I think I'm ready to give it a shot! I'll start by recording a"
+      },
+      {
+        "id": "1e9ae499-0fb0-4780-996a-de59b3c70656",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User begins recording guitar track and plans to add electronic elements",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 24/25]\n(in reply to) User: I think I'm ready to give it a shot! I'll start by recording a"
+      },
+      {
+        "id": "8f02bf1d-dad7-4bf1-8f49-2f221ce549be",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User/assistant exchange about music production updates",
+        "text": "[date: 2023-08-27T14:01:00+00:00 | context: Session 1f932f5d1ed8 - happened on 2023-08-27 14:01:00 UTC. | turn 25/25]\nUser: I'll be waiting for your updates and ready to provide feedback and guidance "
+      },
+      {
+        "id": "fc58c4c0-537a-46b8-9e24-1338df164693",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Personal reflection on pursuing 3D motion design despite fears",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 1/17]\nAssistant: \"Like many of us, I have fears. I'm afraid of failing, of not being good"
+      },
+      {
+        "id": "eb69a8f7-9ca0-4235-b668-6d001a8bae21",
+        "score": null,
+        "memory_type": "fact",
+        "title": "3D motion design video fear and learned pipeline skills",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 2/17]\nUser: add to the second part the sentence that this fear didn't allow me finish the"
+      },
+      {
+        "id": "34c1094e-f463-40e3-b841-6fa767c116e4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reflection on fears delaying 3D motion video completion",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 3/17]\n(in reply to) User: add to the second part the sentence that this fear didn't allow"
+      },
+      {
+        "id": "e79fa234-ba8d-48a7-9143-ac29071ba130",
+        "score": 0.3517,
+        "memory_type": "preference",
+        "title": "Encouragement to pursue 3D motion design despite fear",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 4/17]\n(in reply to) User: add to the second part the sentence that this fear didn't allow"
+      },
+      {
+        "id": "9a154af0-19ee-4c86-8e40-bdad2e87c279",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expresses fears of failing and not being good enough",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 5/17]\nUser: Start with that: I have fears. I'm afraid of failing, of not being good enoug"
+      },
+      {
+        "id": "711fea64-33a4-4460-86a2-a08e953975b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares fears and unfinished 3D motion design course project",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 6/17]\nUser: I have fears. I'm afraid of failing, of not being good enough, of not living "
+      },
+      {
+        "id": "d64b5013-8b68-429d-8005-0d9ad07ae5d4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expresses fears about failing; assistant drafts revised message",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 7/17]\n(in reply to) User: I have fears. I'm afraid of failing, of not being good enough, "
+      },
+      {
+        "id": "3b92c9bc-2f0b-4a42-8515-32eb6e80554d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares fears and progress on 3D motion design",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 8/17]\n(in reply to) User: I have fears. I'm afraid of failing, of not being good enough, "
+      },
+      {
+        "id": "4e91e45b-c1a8-492c-98f3-00aa64741604",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expresses fears about failing; motivational reply",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 9/17]\n(in reply to) User: I have fears. I'm afraid of failing, of not being good enough, "
+      },
+      {
+        "id": "11f4ec44-e560-4164-a2d7-e23afdbbd777",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shares fears and persistence in 3D motion design",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 10/17]\nUser: \"I have fears. I'm afraid of failing, of not being good enough, of not livin"
+      },
+      {
+        "id": "9519a23c-354c-46e0-a0ff-503ef2183817",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Unspecified quote: \u201cYou never know where it will take you.\u201d",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 11/17]\nYou never know where it will take you."
+      },
+      {
+        "id": "2da77fef-8118-47b6-ab6f-62fdc8579979",
+        "score": null,
+        "memory_type": "task",
+        "title": "Rewrite text in 3D ad creative director Instagram blog style",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 12/17]\nrewrite this in style of 3d adverts creative director instagram blog post"
+      },
+      {
+        "id": "461503ce-be01-46bd-a2c3-81b0b4635760",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Creative reflection on fear and completing a 3D motion design video",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 13/17]\n(in reply to) User: \"I have fears. I'm afraid of failing, of not being good enough"
+      },
+      {
+        "id": "90b71ecb-4538-48d6-ae5e-859989676515",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reflection on fears and completing a 3D motion design course",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 14/17]\n(in reply to) User: \"I have fears. I'm afraid of failing, of not being good enough"
+      },
+      {
+        "id": "a3ba08b1-d684-41b2-8f71-30eb06ee7b09",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Avoid calling user 'creative director'",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 15/17]\nUser: Do not say I'm creative director, just make it in such a style"
+      },
+      {
+        "id": "ab91bfcb-ff79-4457-8fd8-bebc72c74b48",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant reply about 3D motion design fears and course work",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 16/17]\n(in reply to) User: Do not say I'm creative director, just make it in such a style"
+      },
+      {
+        "id": "8834b918-31c5-4eca-b9c7-5b8128fffa0e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Request to avoid title 'creative director'",
+        "text": "[date: 2023-09-12T13:02:00+00:00 | context: Session 70f94e99d5e5 - happened on 2023-09-12 13:02:00 UTC. | turn 17/17]\n(in reply to) User: Do not say I'm creative director, just make it in such a style"
+      },
+      {
+        "id": "25895afa-0cd7-4333-99f9-3cc8b8457908",
+        "score": 0.4109,
+        "memory_type": "episode",
+        "title": "User seeks painting project inspiration",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 1/30]\nUser: I'm looking for some inspiration for my next painting project. I've been stuc"
+      },
+      {
+        "id": "1aeb5fed-c86b-4911-9b96-db83438bd47e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for painting project inspiration",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 2/30]\n(in reply to) User: I'm looking for some inspiration for my next painting project. "
+      },
+      {
+        "id": "ee50dc9b-8ab5-4fc6-8fa8-6a586deb2eaf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Painting project inspiration themes (nature, cityscapes, abstract, fantasy, figu",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 3/30]\n(in reply to) User: I'm looking for some inspiration for my next painting project. "
+      },
+      {
+        "id": "8233f4d0-12c1-4560-a66a-0f7c84f53b0b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Painting project inspiration themes (figurative abstracts, still life, etc.)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking for some inspiration for my next painting project. "
+      },
+      {
+        "id": "25368b64-f155-457e-ac46-550c3f0aa5ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Painting inspiration conversation (2023-10-09)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking for some inspiration for my next painting project. "
+      },
+      {
+        "id": "79e8e2db-4e1f-48c5-ade1-f563089aa4cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes exploring abstract expressions",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 6/30]\nUser: I like the idea of exploring abstract expressions. Can you give me some tips "
+      },
+      {
+        "id": "ef632edb-4375-4510-8658-d3124bd0cac5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes exploring abstract expressions",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 7/30]\n(in reply to) User: I like the idea of exploring abstract expressions. Can you give"
+      },
+      {
+        "id": "0ffec77d-06b7-4f26-95a7-ca39532711cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for creating abstract art",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 8/30]\n(in reply to) User: I like the idea of exploring abstract expressions. Can you give"
+      },
+      {
+        "id": "2e2751ed-af38-4b04-9fe2-8049e76078a9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for creating abstract art (layers, texture, movement)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 9/30]\n(in reply to) User: I like the idea of exploring abstract expressions. Can you give"
+      },
+      {
+        "id": "b15bb41d-8c2a-47a2-8aef-26e7c4cae765",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for creating abstract art (don\u2019t overthink, practice)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 10/30]\n(in reply to) User: I like the idea of exploring abstract expressions. Can you giv"
+      },
+      {
+        "id": "12f178c9-1a64-4e87-b90c-cc19626b4f55",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes exploring abstract expressions",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 11/30]\n(in reply to) User: I like the idea of exploring abstract expressions. Can you giv"
+      },
+      {
+        "id": "45be2589-fb69-4c0e-936b-45a8655db585",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for limited color palette in abstract art",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 12/30]\nUser: I like the idea of using a limited palette. Can you suggest some color combi"
+      },
+      {
+        "id": "a049a2d8-9750-485a-9bfc-ae243dce45c4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for limited color palette in abstract art",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 13/30]\n(in reply to) User: I like the idea of using a limited palette. Can you suggest so"
+      },
+      {
+        "id": "907f992f-11c3-4484-8ede-9a5d28134c6f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Limited color palette suggestions for abstract art",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 14/30]\n(in reply to) User: I like the idea of using a limited palette. Can you suggest so"
+      },
+      {
+        "id": "9f6f88d4-aab6-4834-9c2d-9ac23a6361ba",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Limited palette color suggestions (neon and nature-inspired)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 15/30]\n(in reply to) User: I like the idea of using a limited palette. Can you suggest so"
+      },
+      {
+        "id": "d3c1c983-04d3-4a77-b522-4de89571a5a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Limited color palette suggestions for abstract art",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 16/30]\n(in reply to) User: I like the idea of using a limited palette. Can you suggest so"
+      },
+      {
+        "id": "a53bdde2-c152-4e19-80d1-3b125e9a7651",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for bold, bright, vibrant color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 17/30]\nUser: I like the idea of a bold and bright palette. I've always been drawn to vibr"
+      },
+      {
+        "id": "944839c9-eaf4-4c92-b91e-aeb822494018",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes bold, bright, vibrant color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 18/30]\n(in reply to) User: I like the idea of a bold and bright palette. I've always been"
+      },
+      {
+        "id": "8e3949df-0b8f-44af-9146-48abd45543b0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for bold, bright, vibrant color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 19/30]\n(in reply to) User: I like the idea of a bold and bright palette. I've always been"
+      },
+      {
+        "id": "1b474c70-c8a9-4462-8a01-dfd406572171",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for balancing bold, bright color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 20/30]\n(in reply to) User: I like the idea of a bold and bright palette. I've always been"
+      },
+      {
+        "id": "3ed53cd4-a050-4c17-8aaa-5d01d51f7461",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for bold, bright, vibrant color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 21/30]\n(in reply to) User: I like the idea of a bold and bright palette. I've always been"
+      },
+      {
+        "id": "2403f4ab-5eb4-40cf-9592-e3912769eddb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes bold, bright, vibrant color palettes",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 22/30]\n(in reply to) User: I like the idea of a bold and bright palette. I've always been"
+      },
+      {
+        "id": "807665dd-bf92-4212-b93e-7dc77f7ee211",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Art piece: bold bright palette and small studio organization",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 23/30]\nUser: I'm excited to start working on my abstract piece with a bold and bright pal"
+      },
+      {
+        "id": "2ca0d1fb-229e-4445-831c-8824436ad60a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans bold bright palette for abstract piece",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 24/30]\n(in reply to) User: I'm excited to start working on my abstract piece with a bold "
+      },
+      {
+        "id": "d28d42d4-e946-4190-abe3-b599b17a4a22",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Studio setup tips: declutter, layout, multi-functional storage",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 25/30]\n(in reply to) User: I'm excited to start working on my abstract piece with a bold "
+      },
+      {
+        "id": "52f699eb-2477-4cb7-a0b7-b878e87f15ee",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Art studio setup tips (wet zone, lighting, seating, inspiration)",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 26/30]\n(in reply to) User: I'm excited to start working on my abstract piece with a bold "
+      },
+      {
+        "id": "491beb05-4b9a-41b5-b1f9-e045f312a5c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Small art studio storage solutions and organization tips",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 27/30]\n(in reply to) User: I'm excited to start working on my abstract piece with a bold "
+      },
+      {
+        "id": "00bf4cb4-5696-43c1-b5e1-b756ea48535b",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to set up small art studio",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 28/30]\nUser: I'm excited to start setting up my small art studio! I think I'll start by p"
+      },
+      {
+        "id": "fa0f7f3b-d2dc-489e-8d40-4435c3167d84",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Art studio setup tips: declutter, optimize layout, use vertical space",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 29/30]\n(in reply to) User: I'm excited to start setting up my small art studio! I think I"
+      },
+      {
+        "id": "f3643073-4987-4e08-b927-1ee32aae16e6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Art studio setup guidance: include a wet zone",
+        "text": "[date: 2023-10-09T07:00:00+00:00 | context: Session ccee7b723fdd - happened on 2023-10-09 07:00:00 UTC. | turn 30/30]\n(in reply to) User: I'm excited to start setting up my small art studio! I think I"
+      },
+      {
+        "id": "bb0fac59-087f-4eea-9a21-25c4d9028d45",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 1/20]\nUser: I'm trying to organize my documents and I was wondering if you could help me "
+      },
+      {
+        "id": "c675d652-7ada-4648-8b85-a31ae2246045",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 2/20]\n(in reply to) User: I'm trying to organize my documents and I was wondering if you "
+      },
+      {
+        "id": "cafaad4f-29c7-4ff0-84ec-d0670f1e39bf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 3/20]\n(in reply to) User: I'm trying to organize my documents and I was wondering if you "
+      },
+      {
+        "id": "c242add5-f3e9-4cf9-bc83-7ba122432553",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 4/20]\n(in reply to) User: I'm trying to organize my documents and I was wondering if you "
+      },
+      {
+        "id": "5caac8a7-22bf-4d25-b14f-1ae653fb6bb4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 5/20]\nUser: I like the structure, but I think I need to add another category, maybe \"Asyl"
+      },
+      {
+        "id": "f9916a0e-8516-46b9-8243-80995108f4ec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 6/20]\n(in reply to) User: I like the structure, but I think I need to add another categor"
+      },
+      {
+        "id": "84f9ff6e-9f24-4e37-8f6d-646c875dc3d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 7/20]\n(in reply to) User: I like the structure, but I think I need to add another categor"
+      },
+      {
+        "id": "4a12ecad-d431-4f19-8cf4-8bb6274d94ea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 8/20]\n(in reply to) User: I like the structure, but I think I need to add another categor"
+      },
+      {
+        "id": "d9c8da24-3e8e-44a7-beaf-2c47338a7888",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 9/20]\nUser: By the way, I finally received my asylum approval letter on February 20th, 20"
+      },
+      {
+        "id": "073dfc4f-d113-4f7c-8a1c-dcc48b67fb00",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 10/20]\nUser: I'm thinking of enrolling in a language course to improve my English skills,"
+      },
+      {
+        "id": "b56e39c6-c97a-4217-b366-ceed6383ea7b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 11/20]\n(in reply to) User: I'm thinking of enrolling in a language course to improve my E"
+      },
+      {
+        "id": "2dd206ce-3068-49af-b027-6a42d44e6841",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 12/20]\n(in reply to) User: I'm thinking of enrolling in a language course to improve my E"
+      },
+      {
+        "id": "9822b640-55f1-4e7f-b2bc-a8d7f3fa9e9d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 13/20]\n(in reply to) User: I'm thinking of enrolling in a language course to improve my E"
+      },
+      {
+        "id": "5910846e-cc17-4829-9675-993208303dec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 14/20]\nUser: That's helpful, thanks! I'll definitely explore those options. By the way, I"
+      },
+      {
+        "id": "28b4b29d-90e8-4fc3-b854-7dac1e11e809",
+        "score": 0.3842,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 15/20]\n(in reply to) User: That's helpful, thanks! I'll definitely explore those options."
+      },
+      {
+        "id": "33e44de3-d55b-4669-95a6-e0788fdb6cf6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 16/20]\n(in reply to) User: That's helpful, thanks! I'll definitely explore those options."
+      },
+      {
+        "id": "b4000d77-f01b-4702-a76d-b2a79f197d09",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 17/20]\nUser: I'd like that! I need to practice my speaking and listening skills, so feel "
+      },
+      {
+        "id": "28a532fb-e395-4928-b2d3-c13545c7066b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 18/20]\n(in reply to) User: I'd like that! I need to practice my speaking and listening sk"
+      },
+      {
+        "id": "5b4dc4b1-541e-4c06-bdef-c932371aaac0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 19/20]\n(in reply to) User: I'd like that! I need to practice my speaking and listening sk"
+      },
+      {
+        "id": "b6073653-f680-4c19-99c9-916a6a94d272",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05...",
+        "text": "[date: 2023-11-05T21:06:00+00:00 | context: Session c1954db29ee8 - happened on 2023-11-05 21:06:00 UTC. | turn 20/20]\n(in reply to) User: I'd like that! I need to practice my speaking and listening sk"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101139,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25284)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25533,
+    "prompt_tokens": 24446,
+    "completion_tokens": 153,
+    "reasoning_tokens": 934,
+    "generate_time_ms": 12409.244565060362,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23001,
+        "completion_tokens": 79,
+        "reasoning_tokens": 348,
+        "total_tokens": 23428
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 539,
+        "completion_tokens": 11,
+        "reasoning_tokens": 205,
+        "total_tokens": 755
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 347,
+        "completion_tokens": 11,
+        "reasoning_tokens": 267,
+        "total_tokens": 625
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 559,
+        "completion_tokens": 52,
+        "reasoning_tokens": 114,
+        "total_tokens": 725
+      }
+    ]
+  },
+  "failure_label": null
+}

@@ -1,0 +1,1352 @@
+{
+  "question_id": "09d032c9",
+  "question_type": "single-session-preference",
+  "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+  "gold_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+  "prediction": "Here are some practical tips to help extend your phone\u2019s daily battery life and protect its overall battery health:\n\n---\n\n### **Quick Settings Adjustments**\n1. **Lower Screen Brightness & Use Auto-Brightness:** The display is usually the biggest battery drain. Lowering brightness manually or enabling adaptive brightness helps significantly.\n2. **Shorten Screen Timeout:** Set your screen to turn off after 30 seconds or 1 minute of inactivity.\n3. **Turn on Low Power / Battery Saver Mode:** This automatically throttles background processes, reduces refresh rate, and pauses non-essential tasks.\n4. **Use Dark Mode (for OLED/AMOLED screens):** If your phone has an OLED display, dark mode saves considerable energy because black pixels are turned completely off.\n\n---\n\n### **Manage Apps and Background Activity**\n5. **Check Battery Usage Stats:** \n   * Go to **Settings > Battery** to see which specific apps are consuming the most power.\n6. **Restrict Background App Refresh:** Turn off background activity for apps that don\u2019t need to update constantly (social media, games, shopping apps).\n7. **Audit Location Services:** Many apps run GPS continuously in the background. Set location permissions to **\"While Using the App\"** or **\"Never\"** instead of **\"Always\"**.\n8. **Disable Push Notifications for Non-Essential Apps:** Every notification lights up your screen and wakes up the processor.\n\n---\n\n### **Connectivity & Radios**\n9. **Turn Off Unused Connections:** Turn off Wi-Fi, Bluetooth, or Hotspot when you're not using them so your phone stops constantly scanning for devices.\n10. **Use Airplane Mode in Low-Signal Areas:** If you are in an area with poor cellular reception, your phone expends a massive amount of power trying to maintain a signal. Switching to Airplane Mode (or connecting to Wi-Fi Calling) prevents rapid drain.\n\n---\n\n### **Long-Term Battery Health**\n11. **Avoid Extreme Temperatures:** High heat (leaving your phone in a hot car or direct sunlight) degrades lithium-ion batteries rapidly.\n12. **Optimize Charging:**\n   * Enable **Optimized Battery Charging** (iOS) or **Protect Battery** (Android), which limits prolonged periods at 100% charge overnight.\n   * Try to keep the battery level roughly between **20% and 80%** when practical.\n13. **Keep Your OS Updated:** System updates often include bug fixes and power-management optimizations.\n\n---\n\n*Tip on the go:* If your phone's battery health has degraded physically over time, carrying a compact **portable power bank** with you can take the stress out of low-battery situations while you're away from an outlet.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": false,
+      "reason": "No"
+    }
+  },
+  "memories": {
+    "count": 860,
+    "by_type": {
+      "action": 1,
+      "fact": 434,
+      "preference": 128,
+      "decision": 6,
+      "plan": 14,
+      "task": 41,
+      "episode": 236
+    },
+    "by_status": {
+      "active": 860
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2530980,
+    "output_tokens": 122120,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "I've been having trouble with the battery life on my phone lately. Any tips?"
+    ],
+    "retrieve_time_ms": 4823.433407000266,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "d6d34f46-c031-43e6-8fd0-994296b9953d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 1/28]\nUser: I'm looking for some workout playlist recommendations. I've been doing a lot "
+      },
+      {
+        "id": "536c46b6-bf61-4d1f-8ca4-357885088671",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 2/28]\n(in reply to) User: I'm looking for some workout playlist recommendations. I've bee"
+      },
+      {
+        "id": "18d7d5b4-dac3-45ac-a45f-a59610b48449",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 3/28]\n(in reply to) User: I'm looking for some workout playlist recommendations. I've bee"
+      },
+      {
+        "id": "dffa10c3-b4f1-410e-be50-9fc85277cf02",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 4/28]\nUser: Can you recommend some healthy protein-rich foods that I can easily prepare f"
+      },
+      {
+        "id": "0c09bb4e-a6ce-4c3b-8dc8-a93aee349226",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 5/28]\n(in reply to) User: Can you recommend some healthy protein-rich foods that I can ea"
+      },
+      {
+        "id": "f687ec93-332a-4b4b-a70b-ee4d6990c37b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy protein-rich lunch ideas with approximate protein amounts",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 6/28]\n(in reply to) User: Can you recommend some healthy protein-rich foods that I can ea"
+      },
+      {
+        "id": "5c4b3efa-00b8-4298-8d1e-69b7b2805943",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy protein-rich lunch ideas (protein shakes, quinoa bowls, edamame)",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 7/28]\n(in reply to) User: Can you recommend some healthy protein-rich foods that I can ea"
+      },
+      {
+        "id": "482c8373-0ea3-4d9a-96f0-a0af5fe6c6c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Quick protein-rich lunch prep tips",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 8/28]\n(in reply to) User: Can you recommend some healthy protein-rich foods that I can ea"
+      },
+      {
+        "id": "c455b0f8-1ba6-42d0-aab2-3c0b52165e8f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal-prep preference: protein-rich lunches on Sundays",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 9/28]\nUser: I'm trying to prep my lunches on Sundays to save time and money. Do you have "
+      },
+      {
+        "id": "50a5e396-0c9c-4138-b985-86dce1b855bc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Meal prep protein recommendations discussion",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 10/28]\n(in reply to) User: I'm trying to prep my lunches on Sundays to save time and mone"
+      },
+      {
+        "id": "cdd1dd96-b4b8-4398-b401-982fa2d224f3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Protein-rich make-ahead lunch ideas",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 11/28]\n(in reply to) User: I'm trying to prep my lunches on Sundays to save time and mone"
+      },
+      {
+        "id": "322a367b-094a-41da-a6f0-056fa5be6d51",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Protein-rich make-ahead lunch ideas (eggs, yogurt, soup, wraps)",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 12/28]\n(in reply to) User: I'm trying to prep my lunches on Sundays to save time and mone"
+      },
+      {
+        "id": "289e6f6a-e239-44da-9c79-763dce9d3557",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Protein-rich lunch prep: falafel batch for up to 5 days",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 13/28]\n(in reply to) User: I'm trying to prep my lunches on Sundays to save time and mone"
+      },
+      {
+        "id": "7ebc4100-182a-4b94-ab05-9679a75a94e1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Meal prep tips for protein-rich lunches",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 14/28]\n(in reply to) User: I'm trying to prep my lunches on Sundays to save time and mone"
+      },
+      {
+        "id": "ae8212e1-1b15-4532-8d66-481db9c7e756",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants yoga class/studio recommendations after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 15/28]\nUser: I'm also thinking of getting back on track with my exercise routine after my"
+      },
+      {
+        "id": "84aaa297-a385-4547-9416-a1026c4f585e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for yoga classes after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 16/28]\n(in reply to) User: I'm also thinking of getting back on track with my exercise ro"
+      },
+      {
+        "id": "f2242aa5-ca53-4146-bc50-8474bc89bae0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for restarting yoga routine after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 17/28]\n(in reply to) User: I'm also thinking of getting back on track with my exercise ro"
+      },
+      {
+        "id": "e9af06c8-9e40-4363-93f9-f89b939d1999",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for restarting yoga routine after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 18/28]\n(in reply to) User: I'm also thinking of getting back on track with my exercise ro"
+      },
+      {
+        "id": "98cc98e1-242d-4bec-82ba-7eacbed1601b",
+        "score": 0.4125,
+        "memory_type": "task",
+        "title": "Find yoga classes/studios near user after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 19/28]\nUser: I've been slacking off on my exercise routine during my week-long beach vaca"
+      },
+      {
+        "id": "5917583d-e9e9-4945-ae28-05aa33b19e29",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for yoga classes/studios during return from vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 20/28]\n(in reply to) User: I've been slacking off on my exercise routine during my week-l"
+      },
+      {
+        "id": "81588329-bc8f-4f2c-a0f7-a235a4ee513b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants yoga classes/studios after vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 21/28]\n(in reply to) User: I've been slacking off on my exercise routine during my week-l"
+      },
+      {
+        "id": "15f9c4ad-26dd-455a-9621-4f2f7b3ee05d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga style guidance for returning to exercise",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 22/28]\n(in reply to) User: I've been slacking off on my exercise routine during my week-l"
+      },
+      {
+        "id": "d9dead09-dfb9-424b-931e-2b73c9edec0d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants yoga classes/studios during return from vacation",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 23/28]\n(in reply to) User: I've been slacking off on my exercise routine during my week-l"
+      },
+      {
+        "id": "e94df227-f146-4665-99b1-0e9e3853adb3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga style recommendation request for flexibility and recovery",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 24/28]\nUser: I'm looking for a yoga style that can help with flexibility and recovery. I'"
+      },
+      {
+        "id": "1e74758c-4566-43f4-b2bd-cefc2288f06a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yoga style recommendations for flexibility and recovery",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 25/28]\n(in reply to) User: I'm looking for a yoga style that can help with flexibility an"
+      },
+      {
+        "id": "8f9bb1c8-ae2e-4a36-b4f4-2e68d436e620",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga style recommendations for flexibility and recovery",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 26/28]\n(in reply to) User: I'm looking for a yoga style that can help with flexibility an"
+      },
+      {
+        "id": "2fe1873b-9251-4376-91ac-7bf29c83d673",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga style recommendations for flexibility and recovery",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 27/28]\n(in reply to) User: I'm looking for a yoga style that can help with flexibility an"
+      },
+      {
+        "id": "d5002a94-769d-4f08-aad0-39c7ff4ec92f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga guidance for flexibility and recovery",
+        "text": "[date: 2023-05-21T01:29:00+00:00 | context: Session d1310c805513 - happened on 2023-05-21 01:29:00 UTC. | turn 28/28]\n(in reply to) User: I'm looking for a yoga style that can help with flexibility an"
+      },
+      {
+        "id": "7fa39fc2-56b1-4a84-88f2-2db4379aab70",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan weekly meals with carrots, broccoli, and bell peppers",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 1/22]\nUser: I'm trying to plan my meals for the week, can you give me some recipe ideas u"
+      },
+      {
+        "id": "d335e384-b04d-4d98-a5df-29440f4f7ea0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Meal recipe ideas with carrots, broccoli, and bell peppers",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 2/22]\n(in reply to) User: I'm trying to plan my meals for the week, can you give me some "
+      },
+      {
+        "id": "9d4aab2e-859d-4d13-a3d1-7503afd41da0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Meal planning recipe ideas with carrots, broccoli, bell peppers",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 3/22]\n(in reply to) User: I'm trying to plan my meals for the week, can you give me some "
+      },
+      {
+        "id": "fc5d9842-3cba-4a9d-bbfd-6d1ac35ca92d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Meal ideas using Costco marinara sauce (next two weeks)",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 4/22]\nUser: I'm actually planning my meals for the next two weeks, so I'd love some ideas"
+      },
+      {
+        "id": "624b8e5d-411e-4160-a15b-74038db45aaa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recipe ideas for using Costco marinara sauce",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 5/22]\n(in reply to) User: I'm actually planning my meals for the next two weeks, so I'd l"
+      },
+      {
+        "id": "93da5b53-9fb6-4cc8-b27a-5045d3067bdf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recipe ideas using marinara sauce (session 343da33857cd)",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 6/22]\n(in reply to) User: I'm actually planning my meals for the next two weeks, so I'd l"
+      },
+      {
+        "id": "282b6880-bb70-4d19-9470-a1fd634ce814",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recipe ideas using marinara sauce",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 7/22]\n(in reply to) User: I'm actually planning my meals for the next two weeks, so I'd l"
+      },
+      {
+        "id": "a4a412e9-007e-4795-8e69-103593e22f20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recipe ideas to use up Costco marinara sauce",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 8/22]\n(in reply to) User: I'm actually planning my meals for the next two weeks, so I'd l"
+      },
+      {
+        "id": "438a281a-ed8a-4597-a079-81f53309bad7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about using marinara sauce with saut\u00e9ed veggies",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 9/22]\nUser: I was thinking of making a stir-fry with the veggies I got from Walmart three"
+      },
+      {
+        "id": "f9ea85cc-703a-49b0-817c-51b2f298d15c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests marinara pasta with saut\u00e9ed veggies",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 10/22]\n(in reply to) User: I was thinking of making a stir-fry with the veggies I got fro"
+      },
+      {
+        "id": "9d3af01f-7a3d-445a-b949-e6b67d5898d2",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Marinara veggie pasta stir-fry recipe steps",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 11/22]\n(in reply to) User: I was thinking of making a stir-fry with the veggies I got fro"
+      },
+      {
+        "id": "4ac1680b-0ce9-40fc-b00b-124388f7aeee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for meal planning and grocery budgeting apps",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 12/22]\nUser: That sounds like a great recipe! I think I'll add some cooked chicken to the"
+      },
+      {
+        "id": "58fb8607-e2a4-4667-ae8f-cb414f48647f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "App recommendations for meal planning and budgeting",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 13/22]\n(in reply to) User: That sounds like a great recipe! I think I'll add some cooked "
+      },
+      {
+        "id": "45691b36-5c32-46b2-ba30-8dacf39c20a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for budgeting apps to track grocery expenses",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 14/22]\n(in reply to) User: That sounds like a great recipe! I think I'll add some cooked "
+      },
+      {
+        "id": "179dbb97-e60c-4dc8-a7e3-50917642f421",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Meal planning/budgeting app suggestions: Out of Milk, Grocery IQ",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 15/22]\n(in reply to) User: That sounds like a great recipe! I think I'll add some cooked "
+      },
+      {
+        "id": "82908b8c-f079-4a35-8cae-d4efc32e2a0e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Goal to reduce grocery spending from $100/week to $80/week",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 16/22]\nUser: I've been using a budgeting app to track my expenses, and it's been really h"
+      },
+      {
+        "id": "a1fcb47e-991e-47e3-8915-7999e7651020",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if reducing grocery budget from $100 to $80/week is realistic",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 17/22]\n(in reply to) User: I've been using a budgeting app to track my expenses, and it's"
+      },
+      {
+        "id": "342a4348-a2fa-428f-b979-e32fa6d16596",
+        "score": 0.3954,
+        "memory_type": "plan",
+        "title": "Meal planning tips to reduce grocery spending",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 18/22]\n(in reply to) User: I've been using a budgeting app to track my expenses, and it's"
+      },
+      {
+        "id": "b6e865ad-f555-442a-946c-d01eb199aafb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Budgeting goal: reduce groceries from $100 to $80/week",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 19/22]\n(in reply to) User: I've been using a budgeting app to track my expenses, and it's"
+      },
+      {
+        "id": "fd6e4a05-ebf5-46cc-93b8-73c4faf2bb76",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User aims to reduce grocery spending from $100 to $80/week",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 20/22]\n(in reply to) User: I've been using a budgeting app to track my expenses, and it's"
+      },
+      {
+        "id": "f4b6099d-e79c-4fa0-8a1e-ac9b63cc9b4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if $80/week grocery budget is realistic",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 21/22]\n(in reply to) User: I've been using a budgeting app to track my expenses, and it's"
+      },
+      {
+        "id": "f7437e6e-d4e6-460a-8175-f5a52714918c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User commits to reducing plastic and grocery spending",
+        "text": "[date: 2023-05-21T08:46:00+00:00 | context: Session 343da33857cd - happened on 2023-05-21 08:46:00 UTC. | turn 22/22]\nUser: I think I can do it! I've already been trying to reduce my plastic usage and"
+      },
+      {
+        "id": "ebee5ef9-4fff-4b09-87fa-659beb68cf3a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend London attractions for Aug 15 layover",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 1/25]\nUser: I'm moving to Edinburgh soon and need help finding good places to explore in "
+      },
+      {
+        "id": "d428ebef-5318-46a8-aa9c-aa05d5e6cca7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided London layover attraction recommendations (Aug 15)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 2/25]\n(in reply to) User: I'm moving to Edinburgh soon and need help finding good places "
+      },
+      {
+        "id": "15ee00d3-8308-439e-b7a3-7cb4aa6cb8cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "London layover recommendations (British Museum, National Gallery, areas)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 3/25]\n(in reply to) User: I'm moving to Edinburgh soon and need help finding good places "
+      },
+      {
+        "id": "cdcbe248-3b80-4d61-afcc-3288a1f2ef27",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for London layover attractions (Aug 15)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 4/25]\n(in reply to) User: I'm moving to Edinburgh soon and need help finding good places "
+      },
+      {
+        "id": "c5af9202-8edd-4e5c-803e-eea4693d0dfb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User moving to Edinburgh for university; asks packing tips",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 5/25]\nUser: That helps a lot, thanks for the suggestions! I'll make sure to prioritize my"
+      },
+      {
+        "id": "a55670aa-38a4-4883-b6f1-b981efa81d40",
+        "score": null,
+        "memory_type": "episode",
+        "title": "University move to Edinburgh and packing tips discussed",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 6/25]\n(in reply to) User: That helps a lot, thanks for the suggestions! I'll make sure to"
+      },
+      {
+        "id": "9d700d8a-3b88-43d7-91ea-40edae9ea46f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Travel packing tips: toiletries, bulky items, cubes, restrictions",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 7/25]\n(in reply to) User: That helps a lot, thanks for the suggestions! I'll make sure to"
+      },
+      {
+        "id": "27978fea-a515-4438-a8c6-af8de7365a97",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User moving to Edinburgh for university; packing tips shared",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 8/25]\n(in reply to) User: That helps a lot, thanks for the suggestions! I'll make sure to"
+      },
+      {
+        "id": "73c95e17-ecbe-4f07-9940-6c1b63c59770",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks what to prioritize packing for Scottish weather",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 9/25]\nUser: I've already started packing some non-essential items like winter clothes and"
+      },
+      {
+        "id": "1203278d-9a1a-44f9-bc48-e7aec4c4df79",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scottish weather packing tips (waterproof, layers, footwear)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 10/25]\n(in reply to) User: I've already started packing some non-essential items like win"
+      },
+      {
+        "id": "a1eace92-533c-43ec-824d-cc8d43de4078",
+        "score": 0.4135,
+        "memory_type": "fact",
+        "title": "Packing tips and travel accessories checklist",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 11/25]\n(in reply to) User: I've already started packing some non-essential items like win"
+      },
+      {
+        "id": "96c1d0ad-4a77-4cbe-bb57-d631fe62c409",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Packing advice conversation for move to Edinburgh",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 12/25]\n(in reply to) User: I've already started packing some non-essential items like win"
+      },
+      {
+        "id": "e3855e1a-8dba-4417-95b5-ee1a43416a42",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request for viewing a shared flat in Marchmont",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 13/25]\nUser: I've been doing okay with packing, but I'm still trying to sort out my accom"
+      },
+      {
+        "id": "d7c254b7-adb3-4699-be75-5fecb51460aa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on what to look for during a flat viewing",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 14/25]\n(in reply to) User: I've been doing okay with packing, but I'm still trying to sor"
+      },
+      {
+        "id": "786750d2-f078-4e06-a0bc-ccb946d8a98f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Viewing checklist for shared flat (photos, appliances, safety)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 15/25]\n(in reply to) User: I've been doing okay with packing, but I'm still trying to sor"
+      },
+      {
+        "id": "b1c4ebcd-5ca3-4f18-a13d-c1c3220e10a5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for viewing a shared flat (Marchmont area)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 16/25]\n(in reply to) User: I've been doing okay with packing, but I'm still trying to sor"
+      },
+      {
+        "id": "4a6fa4c7-7341-4715-b42d-f69447494c56",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on viewing a shared flat in Marchmont",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 17/25]\n(in reply to) User: I've been doing okay with packing, but I'm still trying to sor"
+      },
+      {
+        "id": "b180f6a5-aff5-43da-be31-58ee71abe7af",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Planning flat viewing questions and flat-warming party (Aug 20 weekend)",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 18/25]\nUser: I've already booked a viewing for the flat in Marchmont, and I'm planning to"
+      },
+      {
+        "id": "94289acd-6fc8-4693-aba4-8db9aa64bcd1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User booked flat viewing in Marchmont and plans questions",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 19/25]\n(in reply to) User: I've already booked a viewing for the flat in Marchmont, and I"
+      },
+      {
+        "id": "c5a66350-12ac-4e57-a2d5-e155316e7380",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Checklist for hosting a flat party",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 20/25]\n(in reply to) User: I've already booked a viewing for the flat in Marchmont, and I"
+      },
+      {
+        "id": "f000cac0-89a9-4a18-880b-051b063f36b8",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Flat-warming party ideas and planning steps",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 21/25]\n(in reply to) User: I've already booked a viewing for the flat in Marchmont, and I"
+      },
+      {
+        "id": "a581a54b-724c-444c-ad88-93d90a6e5e95",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Ask Rachel about party ideas; consider shared planning doc",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 22/25]\nUser: I think I'll also ask Rachel about her idea for the party and see if she has"
+      },
+      {
+        "id": "b7d8e116-0ccb-41cd-96ed-63275bf688fb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Shared doc for collaborative party planning",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 23/25]\n(in reply to) User: I think I'll also ask Rachel about her idea for the party and "
+      },
+      {
+        "id": "615fe28c-355a-4d7b-8f88-bc6f2863e04b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shared party planning spreadsheet: centralized, collaborative, transparent",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 24/25]\n(in reply to) User: I think I'll also ask Rachel about her idea for the party and "
+      },
+      {
+        "id": "9c63ffbd-b63d-467e-834f-a9f3bbb8e58e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Flat-warming party planning breakdown and assignments",
+        "text": "[date: 2023-05-22T07:08:00+00:00 | context: Session 92489a5c1b1f - happened on 2023-05-22 07:08:00 UTC. | turn 25/25]\n(in reply to) User: I think I'll also ask Rachel about her idea for the party and "
+      },
+      {
+        "id": "b8607e32-9404-4295-af59-36e1c7fcb2fc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked how drinking water affects the human body",
+        "text": "[date: 2023-05-26T22:16:00+00:00 | context: Session 53dd86746d3b - happened on 2023-05-26 22:16:00 UTC. | turn 1/5]\nUser: How does drinking water affect the human body?"
+      },
+      {
+        "id": "dad92c21-901f-4430-956b-b730696adc51",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Effects of drinking water on the human body",
+        "text": "[date: 2023-05-26T22:16:00+00:00 | context: Session 53dd86746d3b - happened on 2023-05-26 22:16:00 UTC. | turn 2/5]\n(in reply to) User: How does drinking water affect the human body?\n\nAssistant: Drink"
+      },
+      {
+        "id": "83393b40-106e-4c82-b922-19adeb3d37e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Drinking water supports brain function and overall health",
+        "text": "[date: 2023-05-26T22:16:00+00:00 | context: Session 53dd86746d3b - happened on 2023-05-26 22:16:00 UTC. | turn 3/5]\n(in reply to) User: How does drinking water affect the human body?\n\n8. Improving bra"
+      },
+      {
+        "id": "28edd6c5-79a5-4424-8024-ccc6f7454d3b",
+        "score": 0.3893,
+        "memory_type": "fact",
+        "title": "Tips to remember to drink more water",
+        "text": "[date: 2023-05-26T22:16:00+00:00 | context: Session 53dd86746d3b - happened on 2023-05-26 22:16:00 UTC. | turn 4/5]\nUser: Wow, I didn't know drinking water had so many benefits! But sometimes, I forge"
+      },
+      {
+        "id": "940afcf2-526c-4508-8027-f1130b6160d9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Water bottle recommendations factors",
+        "text": "[date: 2023-05-26T22:16:00+00:00 | context: Session 53dd86746d3b - happened on 2023-05-26 22:16:00 UTC. | turn 5/5]\nUser: I think carrying a water bottle with me is a great idea. Do you have any recom"
+      },
+      {
+        "id": "b9576f68-86dc-4a3d-9ae2-c5222a03e944",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request: organizing travel tech accessories",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 1/49]\nUser: I'm looking for some advice on the best way to organize my tech accessories, "
+      },
+      {
+        "id": "49ba9818-ba86-4d50-97ba-ce2505dc1803",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel tech accessory organization advice",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 2/49]\n(in reply to) User: I'm looking for some advice on the best way to organize my tech"
+      },
+      {
+        "id": "427ec948-7111-4409-8745-90f914319454",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on organizing travel tech accessories",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 3/49]\n(in reply to) User: I'm looking for some advice on the best way to organize my tech"
+      },
+      {
+        "id": "364eea62-3ffb-4951-a67e-a1af95fe5a99",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice for organizing tech accessories while traveling",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 4/49]\n(in reply to) User: I'm looking for some advice on the best way to organize my tech"
+      },
+      {
+        "id": "2acb26b9-01f4-4aa7-b7f7-1f9c03fdf386",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel tech accessory organization advice (power bank, charging pad)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 5/49]\n(in reply to) User: I'm looking for some advice on the best way to organize my tech"
+      },
+      {
+        "id": "771c64ab-7255-41d6-9bd7-a808815c2f34",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find travel cases/pouches for Apple Watch + power bank + charger",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 6/49]\nUser: What are some good options for travel cases or pouches that can fit my Apple "
+      },
+      {
+        "id": "7781105d-b874-4328-a7c5-e57fd51223b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for travel pouch options for Apple Watch setup",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 7/49]\n(in reply to) User: What are some good options for travel cases or pouches that can"
+      },
+      {
+        "id": "06d9eff2-fe49-4450-ba7b-1cfa5275dcfb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Travel cases for Apple Watch + power bank + wireless charger",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 8/49]\n(in reply to) User: What are some good options for travel cases or pouches that can"
+      },
+      {
+        "id": "85fd0485-b41c-4d3b-b781-c6fb858dca87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Travel tech cases that fit Apple Watch, power bank, and wireless charger",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 9/49]\n(in reply to) User: What are some good options for travel cases or pouches that can"
+      },
+      {
+        "id": "41785d1c-e48e-4d36-be37-705ec7f6cd2d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Criteria for travel case/pouch for Apple Watch + power bank + charger",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 10/49]\n(in reply to) User: What are some good options for travel cases or pouches that ca"
+      },
+      {
+        "id": "0eb2a49a-918d-4d6a-9d64-623eef5c5814",
+        "score": null,
+        "memory_type": "task",
+        "title": "Compare Bellroy Tech Kit vs Peak Design Tech Pouch",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 11/49]\nUser: What are the pros and cons of the Bellroy Tech Kit vs the Peak Design Tech P"
+      },
+      {
+        "id": "bb797238-9f14-458a-9d87-acb2a69a4440",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Bellroy Tech Kit vs Peak Design Tech Pouch",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 12/49]\n(in reply to) User: What are the pros and cons of the Bellroy Tech Kit vs the Peak"
+      },
+      {
+        "id": "5d1e12e9-c6de-49c8-b169-fd246284f586",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bellroy Tech Kit pros (as listed)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 13/49]\n(in reply to) User: What are the pros and cons of the Bellroy Tech Kit vs the Peak"
+      },
+      {
+        "id": "a8989a48-4a67-4840-8280-ddae788c0a16",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons: Bellroy Tech Kit vs Peak Design Tech Pouch",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 14/49]\n(in reply to) User: What are the pros and cons of the Bellroy Tech Kit vs the Peak"
+      },
+      {
+        "id": "b4cefbdb-568d-48bd-b449-fa3b2f4616a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros of Peak Design Tech Pouch vs Bellroy Tech Kit",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 15/49]\n(in reply to) User: What are the pros and cons of the Bellroy Tech Kit vs the Peak"
+      },
+      {
+        "id": "cd6921fa-6800-417c-8383-b9d351016860",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons: Bellroy Tech Kit vs Peak Design Tech Pouch",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 16/49]\n(in reply to) User: What are the pros and cons of the Bellroy Tech Kit vs the Peak"
+      },
+      {
+        "id": "7502f84e-2085-4557-a366-73c98f9f4ed7",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find cable organizers for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 17/49]\nUser: What are the best cable organizers that can fit in these travel cases?"
+      },
+      {
+        "id": "f0160476-aba5-4161-bdbd-1764085b946a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cable organizers for Bellroy Tech Kit and Peak Design Tech Pouch",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 18/49]\n(in reply to) User: What are the best cable organizers that can fit in these trave"
+      },
+      {
+        "id": "916e6677-ce4d-4470-a44c-447ef0d7b52d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cable organizer recommendations for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 19/49]\n(in reply to) User: What are the best cable organizers that can fit in these trave"
+      },
+      {
+        "id": "81c1c837-2783-4018-a98c-99720a91d22b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for choosing cable organizers for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 20/49]\n(in reply to) User: What are the best cable organizers that can fit in these trave"
+      },
+      {
+        "id": "c3a0bdc7-e89d-4b45-b2a2-11615b598bdd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend portable power banks for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 21/49]\nUser: Can you recommend some good portable power banks that can fit in these trave"
+      },
+      {
+        "id": "37dc674b-96b7-458c-b268-9c6be3b37b52",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Portable power bank recommendations for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 22/49]\n(in reply to) User: Can you recommend some good portable power banks that can fit "
+      },
+      {
+        "id": "2a9c4a24-e6a6-48d9-bddb-d9902cb3cfd0",
+        "score": 0.4148,
+        "memory_type": "fact",
+        "title": "Portable power bank recommendations (Anker, Mophie, Jackery, Aukey, Eggtronic)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 23/49]\n(in reply to) User: Can you recommend some good portable power banks that can fit "
+      },
+      {
+        "id": "65494bea-c169-4412-8566-e37243100f99",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Portable power bank recommendation: Anker PowerCore Fusion",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 24/49]\n(in reply to) User: Can you recommend some good portable power banks that can fit "
+      },
+      {
+        "id": "d7e30b28-fc5d-425b-9113-a97ad07ff247",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Criteria for choosing a portable power bank for travel cases",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 25/49]\n(in reply to) User: Can you recommend some good portable power banks that can fit "
+      },
+      {
+        "id": "aa3a9332-d26d-4d64-8297-0ffe4ffae317",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering an LG 4K smart TV purchase",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 26/49]\nUser: I'm considering purchasing a new 4K smart TV from LG, and I was wondering if"
+      },
+      {
+        "id": "097a494b-9bee-480c-8c4f-d14d78560630",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General info request about LG 4K smart TV lineup",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 27/49]\n(in reply to) User: I'm considering purchasing a new 4K smart TV from LG, and I wa"
+      },
+      {
+        "id": "f9ee6c00-68a9-4e2b-bb83-e6784856a246",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG 4K smart TV lineup overview (OLED C9, NanoCell SM9X/SM8X, UHD UM7X)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 28/49]\n(in reply to) User: I'm considering purchasing a new 4K smart TV from LG, and I wa"
+      },
+      {
+        "id": "ac7f61a3-fa6d-4b33-bd7b-adf47af19397",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG 4K TV lineup and retailer discount offers (May 27, 2023)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 29/49]\n(in reply to) User: I'm considering purchasing a new 4K smart TV from LG, and I wa"
+      },
+      {
+        "id": "569e1dbd-e029-4bb0-befe-2bc630a08ae5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG 4K smart TV lineup guidance (OLED vs NanoCell, HDR, webOS)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 30/49]\n(in reply to) User: I'm considering purchasing a new 4K smart TV from LG, and I wa"
+      },
+      {
+        "id": "0e0fd66d-6ce9-4e97-99f2-a7cf2cd490e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about LG 4K smart TV deals",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 31/49]\nUser: What would you like to know about LG's 4K smart TVs or the deals available?"
+      },
+      {
+        "id": "0a1c9695-8ded-4148-b792-585f29823d46",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Asked about LG 4K smart TV features and deals",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 32/49]\n(in reply to) User: What would you like to know about LG's 4K smart TVs or the dea"
+      },
+      {
+        "id": "e5c32224-5d28-451b-8f33-9daa7911f06f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about LG 4K smart TV deals (Black Friday, bundles, discounts)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 33/49]\n(in reply to) User: What would you like to know about LG's 4K smart TVs or the dea"
+      },
+      {
+        "id": "768aa166-7eeb-4d60-96ff-69adaa1060df",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about LG 4K smart TV setup, UI, voice, and apps",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 34/49]\n(in reply to) User: What would you like to know about LG's 4K smart TVs or the dea"
+      },
+      {
+        "id": "13c05df7-ee0a-454b-85f4-dbc3d8f60efa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 series: request for features & performance details",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 35/49]\nUser: I'd like to know more about the features and performance of the LG OLED C9 s"
+      },
+      {
+        "id": "9aad88ea-ec7a-42c5-9230-d0f4bab19fb6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 series: picture quality, viewing angles, HDR support",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 36/49]\n(in reply to) User: I'd like to know more about the features and performance of th"
+      },
+      {
+        "id": "dbb43740-16ef-4b0d-8368-b271b9463a56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 series: contrast, blacks, color gamut, 4K UHD",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 37/49]\n(in reply to) User: I'd like to know more about the features and performance of th"
+      },
+      {
+        "id": "fa12a2a3-ce06-45a5-99f5-9a97fd7363f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 series: viewing angles and HDR support",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 38/49]\n(in reply to) User: I'd like to know more about the features and performance of th"
+      },
+      {
+        "id": "afddcde0-0089-47da-b8f5-e59509d3b8cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 series features: processor, AI enhancement, gaming",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 39/49]\n(in reply to) User: I'd like to know more about the features and performance of th"
+      },
+      {
+        "id": "5c0c87e4-5ac0-46a6-975b-a2e755dc83e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User asks about LG OLED C9 AI image enhancement feature",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 40/49]\nUser: I'd like to know more about the AI-powered image enhancement feature on the "
+      },
+      {
+        "id": "83ad4a7c-1a11-43a8-ab20-8e5bd5932d45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 AI image enhancement overview",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 41/49]\n(in reply to) User: I'd like to know more about the AI-powered image enhancement f"
+      },
+      {
+        "id": "27266b6c-e067-4bfe-8f71-bb1ee365c736",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 AI image enhancement: scene analysis, object detection, noise & color",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 42/49]\n(in reply to) User: I'd like to know more about the AI-powered image enhancement f"
+      },
+      {
+        "id": "996965ea-ca7c-483d-9ffb-0369086781ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 AI image enhancement feature: expected improvements",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 43/49]\n(in reply to) User: I'd like to know more about the AI-powered image enhancement f"
+      },
+      {
+        "id": "bab80154-6048-4184-acea-04d4473d0a76",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 AI image enhancement: expected improvements",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 44/49]\n(in reply to) User: I'd like to know more about the AI-powered image enhancement f"
+      },
+      {
+        "id": "e726b51e-6ab3-4665-9de9-bcb974cb2464",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 audio features request (Dolby Atmos, speakers, enhancements)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 45/49]\nUser: I'd like to know more about the audio features of the LG OLED C9 series. Can"
+      },
+      {
+        "id": "34e82326-99e9-4923-a486-f6097ff59871",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 audio features: Dolby Atmos support",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 46/49]\n(in reply to) User: I'd like to know more about the audio features of the LG OLED "
+      },
+      {
+        "id": "05de1a76-a87e-4d1a-9c2a-1c819bf72805",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 audio: 2.2ch, 40W, down-firing speakers",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 47/49]\n(in reply to) User: I'd like to know more about the audio features of the LG OLED "
+      },
+      {
+        "id": "cb150d04-912d-4f2d-9e17-e5ba214085cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 audio features overview (Dolby Atmos, enhancements)",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 48/49]\n(in reply to) User: I'd like to know more about the audio features of the LG OLED "
+      },
+      {
+        "id": "c72bb6ba-adde-40e8-96f9-40ce7ad7e383",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LG OLED C9 audio features: Dolby Atmos, DTS:X, Hi-Res, ARC",
+        "text": "[date: 2023-05-27T05:53:00+00:00 | context: Session b562e91895d8 - happened on 2023-05-27 05:53:00 UTC. | turn 49/49]\n(in reply to) User: I'd like to know more about the audio features of the LG OLED "
+      },
+      {
+        "id": "e9a6713e-5a67-4d94-999f-929b820d3d69",
+        "score": 0.4253,
+        "memory_type": "task",
+        "title": "Track grocery spending and budget tips; Walmart run ~$75",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 1/22]\nUser: I'm trying to get a better handle on my grocery spending. Can you help me tra"
+      },
+      {
+        "id": "cedbf657-949e-4d7d-be5e-42f651890d78",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked to track grocery spending and mentioned a $75 Walmart trip",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 2/22]\n(in reply to) User: I'm trying to get a better handle on my grocery spending. Can y"
+      },
+      {
+        "id": "a5a01249-bf9f-46f6-bcc4-3f0aea95fa6f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks to track grocery spending and shares a $75 Walmart run",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 3/22]\n(in reply to) User: I'm trying to get a better handle on my grocery spending. Can y"
+      },
+      {
+        "id": "0ff79ac0-e131-4343-b4a2-f4ee30386953",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Grocery budgeting tips provided (monthly budget, meal planning, list, sales)",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 4/22]\n(in reply to) User: I'm trying to get a better handle on my grocery spending. Can y"
+      },
+      {
+        "id": "3d036075-1081-4f0c-a6b6-aa42bda928f2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Use cashback apps for grocery savings",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 5/22]\n(in reply to) User: I'm trying to get a better handle on my grocery spending. Can y"
+      },
+      {
+        "id": "1953f811-2511-4284-96ef-14893cb47a95",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks to track grocery spending; $75 Walmart run mentioned",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 6/22]\n(in reply to) User: I'm trying to get a better handle on my grocery spending. Can y"
+      },
+      {
+        "id": "af718095-5179-45d1-b8c8-2bbe034df48d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Grocery items purchased (chicken, vegetables, cereal, Diet Coke)",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 7/22]\nUser: I did get a few staples like chicken breasts and frozen vegetables, but I als"
+      },
+      {
+        "id": "f27bf3b5-d024-43ee-bf20-6b333540a59f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User grocery trip items and expense tracker update",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 8/22]\n(in reply to) User: I did get a few staples like chicken breasts and frozen vegetab"
+      },
+      {
+        "id": "62595e69-d4f3-47ea-926e-5876feea460b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Grocery shopping discussion: cereal, Diet Coke, staples",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 9/22]\n(in reply to) User: I did get a few staples like chicken breasts and frozen vegetab"
+      },
+      {
+        "id": "158b57ca-94a7-4e95-9930-6c40461ab29f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User grocery shopping question about snacks and dietary goals",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 10/22]\n(in reply to) User: I did get a few staples like chicken breasts and frozen vegeta"
+      },
+      {
+        "id": "f805ff03-9197-4bb6-867e-ef11ff1ee5f8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Snack-buying habit and Diet Coke weakness",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 11/22]\nUser: I try to limit my snack purchases, but I do have a weakness for certain trea"
+      },
+      {
+        "id": "74ee56f4-119d-411f-80ff-8d43ba3d8152",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User snacks every other week; likes Diet Coke; no dietary restrictions",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 12/22]\n(in reply to) User: I try to limit my snack purchases, but I do have a weakness fo"
+      },
+      {
+        "id": "5f6788be-0dcf-4621-a103-8e95a62f5845",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses snack and Diet Coke buying habits; assistant suggests tips",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 13/22]\n(in reply to) User: I try to limit my snack purchases, but I do have a weakness fo"
+      },
+      {
+        "id": "30fa853b-44a5-4e64-99da-4975e263020b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for suggestions to reduce food waste",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 14/22]\nUser: I'm actually thinking about trying to reduce my food waste too. I've been ma"
+      },
+      {
+        "id": "b07c99f4-8454-45d4-a712-f816a5d2234a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about reducing food waste suggestions",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 15/22]\n(in reply to) User: I'm actually thinking about trying to reduce my food waste too"
+      },
+      {
+        "id": "351bd011-14f1-4060-9801-4ff947602d85",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for reducing food waste",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 16/22]\n(in reply to) User: I'm actually thinking about trying to reduce my food waste too"
+      },
+      {
+        "id": "3da6887d-a2eb-431b-85cb-48b80322c888",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for reducing food waste",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 17/22]\n(in reply to) User: I'm actually thinking about trying to reduce my food waste too"
+      },
+      {
+        "id": "a8ab8495-0bcc-4ff3-9f29-ba293001b34e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Chat about reducing food waste tips",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 18/22]\n(in reply to) User: I'm actually thinking about trying to reduce my food waste too"
+      },
+      {
+        "id": "92aecdbf-bae9-432b-8f13-91760c762913",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Mindful shopping and using up items at home",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 19/22]\nUser: I think I can definitely start by being more mindful of what I already have "
+      },
+      {
+        "id": "1e3de061-b99b-4bf9-aa44-6c728b317fa3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Food waste tips and \u201cUse Me Up\u201d challenge shared",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 20/22]\n(in reply to) User: I think I can definitely start by being more mindful of what I"
+      },
+      {
+        "id": "c71a69c5-f4b7-4f43-85ec-548bece8acff",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Weekly challenge to use up home food before shopping",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 21/22]\n(in reply to) User: I think I can definitely start by being more mindful of what I"
+      },
+      {
+        "id": "5e2a1ef0-f406-4815-a658-35a2e5cfa7d8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to buy more cat food this weekend",
+        "text": "[date: 2023-05-28T11:20:00+00:00 | context: Session 0ee085a539ec - happened on 2023-05-28 11:20:00 UTC. | turn 22/22]\nUser: I just remembered that I need to pick up some more cat food soon. I've been "
+      },
+      {
+        "id": "0dde4bfd-4a37-4ced-a9a0-20c216cdb11b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Mini-habits and identity-based habit approach (example + rationale)",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 13/31]\n(in reply to) User: I've actually already read \"The 7 Habits of Highly Effective P"
+      },
+      {
+        "id": "e739d800-c972-487a-9ba3-baf03e5cea46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summary of The One Thing and its key ideas",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 14/31]\n(in reply to) User: I've actually already read \"The 7 Habits of Highly Effective P"
+      },
+      {
+        "id": "b4d27744-3611-4d42-9ba5-7033943b188b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion of habit/productivity books: Mini-Habits and The One Thing",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 15/31]\n(in reply to) User: I've actually already read \"The 7 Habits of Highly Effective P"
+      },
+      {
+        "id": "ede0eb50-fc6f-4429-98fb-981d1fd0d355",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interested in mini-habits and small wins",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 16/31]\nUser: I'm intrigued by the idea of mini-habits and the focus on small wins. I'd li"
+      },
+      {
+        "id": "5d8029ed-b5d5-4e90-a9e4-a6d178552f5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips on getting started with mini-habits",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 17/31]\n(in reply to) User: I'm intrigued by the idea of mini-habits and the focus on smal"
+      },
+      {
+        "id": "470afd6c-906a-447d-9193-d0146ac084e0",
+        "score": 0.3784,
+        "memory_type": "fact",
+        "title": "Tips for creating and maintaining mini-habits",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 18/31]\n(in reply to) User: I'm intrigued by the idea of mini-habits and the focus on smal"
+      },
+      {
+        "id": "b5d6535c-9e3d-4ff4-a21e-79a20ba2ce07",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for starting and maintaining mini-habits",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 19/31]\n(in reply to) User: I'm intrigued by the idea of mini-habits and the focus on smal"
+      },
+      {
+        "id": "acf93dd3-abdb-4e40-8708-52a92c028dd4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for starting and maintaining mini-habits",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 20/31]\n(in reply to) User: I'm intrigued by the idea of mini-habits and the focus on smal"
+      },
+      {
+        "id": "5f0ff18c-9301-4929-821a-9e593ef546ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips on starting and maintaining mini-habits",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 21/31]\n(in reply to) User: I'm intrigued by the idea of mini-habits and the focus on smal"
+      },
+      {
+        "id": "e6c54704-501a-40e0-b8a9-63a5bcb9bb25",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants mini-habits for daily commute",
+        "text": "[date: 2023-05-29T07:49:00+00:00 | context: Session d97851762db7 - happened on 2023-05-29 07:49:00 UTC. | turn 22/31]\nUser: I'm interested in applying the concept of mini-habits to my daily commute. I"
+      },
+      {
+        "id": "f225b3fb-a5e9-4356-9968-f0e8f98fa1ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests travel agent assistance",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 1/18]\nUser: Hello. I would like you to act as a travel agent for me\n\nAssistant: Of course"
+      },
+      {
+        "id": "5b6dad16-1179-414f-9099-acd9832a46e2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on cheapest four-day trip location",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 2/18]\nUser: Thank you. Considering a four-day trip, which would be the cheapest of these "
+      },
+      {
+        "id": "ea58dd94-cbce-4d64-ad19-fac7dd611dde",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Cost comparison advice: Troms\u00f8 vs Abisko National Park",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 3/18]\nUser: Which is generally more expensive to both fly to and stay in - Troms\u00f8 or Abis"
+      },
+      {
+        "id": "8ec766e4-ea63-43a9-a414-f83ca8601f35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Activities in Troms\u00f8 and Abisko beyond Northern Lights",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 4/18]\nUser: Besides viewing the northern lights, what other activities do these two place"
+      },
+      {
+        "id": "614cec22-f268-4fe4-bf79-98c528ca3cac",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if Abisko National Park is family-friendly",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 5/18]\nUser: Would you say Abisko National Park is more family-friendly?"
+      },
+      {
+        "id": "de836899-57f2-456b-846f-27196db942c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Troms\u00f8 vs Abisko for families",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 6/18]\n(in reply to) User: Would you say Abisko National Park is more family-friendly?\n\nAs"
+      },
+      {
+        "id": "39750b16-6100-4602-b8f9-1de4835ece38",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Family-friendly travel advice depends on family needs",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 7/18]\n(in reply to) User: Would you say Abisko National Park is more family-friendly?\n\nUl"
+      },
+      {
+        "id": "d6d31d0c-d47e-4985-be65-658b0820c43a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks reasons to choose one location over another",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 8/18]\nUser: What are some reasons to go to one location over another?"
+      },
+      {
+        "id": "0b342ab7-bebe-4fb3-a7cb-b71e21b902ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Explained factors for choosing Troms\u00f8 vs Abisko for Northern Lights",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 9/18]\n(in reply to) User: What are some reasons to go to one location over another?\n\nAssi"
+      },
+      {
+        "id": "f8374343-3469-405a-930f-4080cf08b56a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison factors: Troms\u00f8 vs Abisko for Northern Lights trips",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 10/18]\n(in reply to) User: What are some reasons to go to one location over another?\n\n* L"
+      },
+      {
+        "id": "0bd5dd75-7f12-435c-9bb6-506773681b40",
+        "score": null,
+        "memory_type": "decision",
+        "title": "General guidance on choosing between locations",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 11/18]\n(in reply to) User: What are some reasons to go to one location over another?\n\nUlt"
+      },
+      {
+        "id": "f32edaf2-d4af-46c6-8f8e-9142df5e7a6a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers no alcohol and wants wildlife-focused itineraries",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 12/18]\nUser: I don\u2019t drink, and I would like to see some wildlife. Can you update the iti"
+      },
+      {
+        "id": "fd51079a-3c39-4cd6-89ae-eccf3e9c5d29",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Updated Troms\u00f8 itinerary (wildlife-focused, no alcohol)",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 13/18]\n(in reply to) User: I don\u2019t drink, and I would like to see some wildlife. Can you "
+      },
+      {
+        "id": "08cdba76-890d-444d-b5d0-bba6b0a04ea0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Updated alcohol-free Abisko itinerary with wildlife viewing",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 14/18]\n(in reply to) User: I don\u2019t drink, and I would like to see some wildlife. Can you "
+      },
+      {
+        "id": "ddf9f220-4806-4988-a143-918b4807d915",
+        "score": 0.3907,
+        "memory_type": "task",
+        "title": "Update itinerary for non-drinker with wildlife focus",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 15/18]\n(in reply to) User: I don\u2019t drink, and I would like to see some wildlife. Can you "
+      },
+      {
+        "id": "b22ff7a6-9c3a-4e55-8388-fbaff725ad19",
+        "score": null,
+        "memory_type": "task",
+        "title": "Update both itineraries to a 3-day version",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 16/18]\nUser: I think these itineraries are both too long. Give me an updated itinerary fo"
+      },
+      {
+        "id": "5ae8d6d1-a6e6-49fc-b89c-5664fdad98f8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Revised 3-day Troms\u00f8 itinerary without alcohol",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 17/18]\n(in reply to) User: I think these itineraries are both too long. Give me an update"
+      },
+      {
+        "id": "21b58749-3243-4b26-940c-b160fac071b8",
+        "score": null,
+        "memory_type": "task",
+        "title": "3-day Kiruna/Abisko itinerary update request",
+        "text": "[date: 2023-05-29T10:10:00+00:00 | context: Session bc535fda2704 - happened on 2023-05-29 10:10:00 UTC. | turn 18/18]\n(in reply to) User: I think these itineraries are both too long. Give me an update"
+      }
+    ]
+  },
+  "context": {
+    "chars": 103370,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25842)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 53381,
+    "prompt_tokens": 49699,
+    "completion_tokens": 742,
+    "reasoning_tokens": 2940,
+    "generate_time_ms": 34774.28388397675,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24402,
+        "completion_tokens": 38,
+        "reasoning_tokens": 1679,
+        "total_tokens": 26119
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 504,
+        "completion_tokens": 25,
+        "reasoning_tokens": 326,
+        "total_tokens": 855
+      },
+      {
+        "stage": "direct_fallback",
+        "prompt_tokens": 23680,
+        "completion_tokens": 586,
+        "reasoning_tokens": 176,
+        "total_tokens": 24442
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1113,
+        "completion_tokens": 93,
+        "reasoning_tokens": 759,
+        "total_tokens": 1965
+      }
+    ]
+  },
+  "failure_label": "retrieved_wrong_answer"
+}

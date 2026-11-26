@@ -1,0 +1,1311 @@
+{
+  "question_id": "15745da0_abs",
+  "question_type": "single-session-user",
+  "question": "How long have I been collecting vintage films?",
+  "gold_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+  "prediction": "Based on the provided chat history, you have not mentioned collecting vintage films. \n\nHowever, you did mention that you have been collecting **vintage cameras** for **three months** (and described yourself as a \"huge film buff\").",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "Yes"
+    }
+  },
+  "memories": {
+    "count": 876,
+    "by_type": {
+      "episode": 75,
+      "action": 18,
+      "decision": 10,
+      "preference": 125,
+      "task": 54,
+      "plan": 17,
+      "fact": 577
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 875
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2578068,
+    "output_tokens": 124392,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How long have I been collecting vintage films?"
+    ],
+    "retrieve_time_ms": 8172.752402955666,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "73f81f33-828e-44e7-a5aa-049a1ab62788",
+        "score": null,
+        "memory_type": "task",
+        "title": "Planning surprise birthday party for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 1/28]\nUser: I'm trying to plan a surprise party for my sister Emma's birthday, which is c"
+      },
+      {
+        "id": "e075c07c-54f3-4042-aeeb-0cd2e13a5045",
+        "score": null,
+        "memory_type": "task",
+        "title": "Planning surprise birthday party for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 2/28]\n(in reply to) User: I'm trying to plan a surprise party for my sister Emma's birthd"
+      },
+      {
+        "id": "d44a7878-bffc-4498-98eb-2aad595cb4d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Party theme and venue ideas for Emma's birthday",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 3/28]\n(in reply to) User: I'm trying to plan a surprise party for my sister Emma's birthd"
+      },
+      {
+        "id": "886c2a4a-f56d-4b86-925d-daaca12ad223",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Party venue ideas for sister's birthday",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 4/28]\n(in reply to) User: I'm trying to plan a surprise party for my sister Emma's birthd"
+      },
+      {
+        "id": "158b11b5-cf99-41ff-a23b-cca046eb76ca",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan surprise birthday party for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 5/28]\n(in reply to) User: I'm trying to plan a surprise party for my sister Emma's birthd"
+      },
+      {
+        "id": "fd4bf857-7983-4c2b-8e8a-87c48763e3b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User movie night memory with Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 6/28]\nUser: I think the movie night theme is a great idea, since Emma and I had such a gr"
+      },
+      {
+        "id": "9d8fa842-7da9-40a2-b6b8-ed68adab18b1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User's movie memory with Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 7/28]\n(in reply to) User: I think the movie night theme is a great idea, since Emma and I"
+      },
+      {
+        "id": "b342a243-8582-4927-a544-d7e011894f13",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Venue suggestions for movie night",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 8/28]\n(in reply to) User: I think the movie night theme is a great idea, since Emma and I"
+      },
+      {
+        "id": "d4262022-16a9-4f71-bff8-5c1b7eb0b2d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Venue suggestions for movie night theme",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 9/28]\n(in reply to) User: I think the movie night theme is a great idea, since Emma and I"
+      },
+      {
+        "id": "8c7f6e08-b790-4eaf-b6d8-a1de3443813f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preferences for movie night venue",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 10/28]\n(in reply to) User: I think the movie night theme is a great idea, since Emma and "
+      },
+      {
+        "id": "3e759ae6-41bd-4abe-856c-c2e23e7c5f5f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for home theater birthday party",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 11/28]\nUser: I think the home theater idea could work well. My dad has a great home theat"
+      },
+      {
+        "id": "a99891ef-6fcb-4fc4-9b4c-f83c2c1c8a20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion regarding home theater birthday party for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 12/28]\n(in reply to) User: I think the home theater idea could work well. My dad has a gr"
+      },
+      {
+        "id": "3c0e84c7-0412-4fab-bf25-b9d8e9c25e28",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Movie suggestions for Emma's birthday party",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 13/28]\n(in reply to) User: I think the home theater idea could work well. My dad has a gr"
+      },
+      {
+        "id": "5aa23d97-5648-4863-b28e-9a8d3f324bae",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Emma's movie genre preference",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 14/28]\n(in reply to) User: I think the home theater idea could work well. My dad has a gr"
+      },
+      {
+        "id": "8483bc0e-808f-4e48-a7e3-e5b7b0f86a93",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Party planning preferences for home theater event",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 15/28]\n(in reply to) User: I think the home theater idea could work well. My dad has a gr"
+      },
+      {
+        "id": "9ff0058a-7413-4ec6-9ebc-8c9f4c0ea0a4",
+        "score": 0.4018,
+        "memory_type": "decision",
+        "title": "Decision to choose Emma's favorite movie for celebration",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 16/28]\nUser: The movie suggestions are great, thanks! I think I'll choose Emma's favorite"
+      },
+      {
+        "id": "355853ba-0965-4261-b3b5-16e837d2b66b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorm birthday gift ideas for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 17/28]\n(in reply to) User: The movie suggestions are great, thanks! I think I'll choose E"
+      },
+      {
+        "id": "7b9afe99-1409-4ab9-bc06-742cda40dbcf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Birthday gift ideas for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 18/28]\n(in reply to) User: The movie suggestions are great, thanks! I think I'll choose E"
+      },
+      {
+        "id": "868d20a1-0e52-433f-b394-d66d9f68e772",
+        "score": null,
+        "memory_type": "task",
+        "title": "Birthday gift ideas for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 19/28]\n(in reply to) User: The movie suggestions are great, thanks! I think I'll choose E"
+      },
+      {
+        "id": "98204fe3-eaec-42a9-83fe-9aade1a07a51",
+        "score": null,
+        "memory_type": "task",
+        "title": "Birthday gift planning for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 20/28]\n(in reply to) User: The movie suggestions are great, thanks! I think I'll choose E"
+      },
+      {
+        "id": "188cdd26-7ef6-406a-87a3-65f65e547a2b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for personalized movie poster gift",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 21/28]\nUser: I think the personalized movie poster is a great idea, since it's a unique a"
+      },
+      {
+        "id": "f4a31b24-563d-45e7-b988-f3bc9444c28f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Birthday cake flavor recommendations",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 22/28]\n(in reply to) User: I think the personalized movie poster is a great idea, since i"
+      },
+      {
+        "id": "62716cfd-05f7-4cd6-bc49-65d819ede2e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Birthday cake flavor recommendations",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 23/28]\n(in reply to) User: I think the personalized movie poster is a great idea, since i"
+      },
+      {
+        "id": "565dd9da-cb27-4eae-8b33-136e3d252835",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Birthday cake flavor recommendations",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 24/28]\n(in reply to) User: I think the personalized movie poster is a great idea, since i"
+      },
+      {
+        "id": "5bdd088c-8d7b-4ae4-ba30-18295ea2f5fb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift and cake planning for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 25/28]\n(in reply to) User: I think the personalized movie poster is a great idea, since i"
+      },
+      {
+        "id": "f8981d0b-6333-4bb8-8bc0-c77a13e388cb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Feedback on birthday cake flavor suggestions",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 26/28]\nUser: I'm glad you liked the birthday cake flavor suggestions!"
+      },
+      {
+        "id": "aa996696-dad7-4925-9d55-73c9734323b6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Lunch with Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 27/28]\n(in reply to) User: I'm glad you liked the birthday cake flavor suggestions!\n\nBy t"
+      },
+      {
+        "id": "49d21ddf-ee41-4c1b-893f-6a3abdd4c87e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on birthday cake ideas for Emma",
+        "text": "[date: 2023-05-22T03:45:00+00:00 | context: Session aa4922a55e78 - happened on 2023-05-22 03:45:00 UTC. | turn 28/28]\n(in reply to) User: I'm glad you liked the birthday cake flavor suggestions!\n\nFor "
+      },
+      {
+        "id": "1262f9a2-b19f-412a-80ae-24aebff85c57",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User experience at TIFF 'Dune' screening",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 1/26]\nUser: I'm planning a trip to Toronto and I was wondering if you could recommend som"
+      },
+      {
+        "id": "754c2d4f-f170-4c2b-a213-ff23ee442690",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User's interest in film and Toronto trip",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning a trip to Toronto and I was wondering if you could"
+      },
+      {
+        "id": "4c498c59-4dc5-4dd4-bb5b-cf95d5703037",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended coffee shops in Toronto for working",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning a trip to Toronto and I was wondering if you could"
+      },
+      {
+        "id": "c7af95c1-9405-45a0-8455-cdae183bf437",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended coffee shops in Toronto for writing",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning a trip to Toronto and I was wondering if you could"
+      },
+      {
+        "id": "e712f39a-79db-4b4d-b393-a6d3bb3df9dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toronto film-related attractions",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 5/26]\n(in reply to) User: I'm planning a trip to Toronto and I was wondering if you could"
+      },
+      {
+        "id": "bd206862-84ee-41d8-86f6-7f5895d2e0c2",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research upcoming film festivals in Toronto",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 6/26]\nUser: Those recommendations sound great, thanks! I'll definitely check some of them"
+      },
+      {
+        "id": "f0e093ff-7c5f-42ef-93c0-982410830cf3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Upcoming film festivals in Toronto",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 7/26]\n(in reply to) User: Those recommendations sound great, thanks! I'll definitely chec"
+      },
+      {
+        "id": "9cb4b438-6fe6-41a5-be87-3a9e0d7e8dab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toronto Film Festival Schedule Information",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 8/26]\n(in reply to) User: Those recommendations sound great, thanks! I'll definitely chec"
+      },
+      {
+        "id": "1a2286f0-d2b2-48c5-8b45-4758be767eb4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reel Asian International Film Festival schedule",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 9/26]\n(in reply to) User: Those recommendations sound great, thanks! I'll definitely chec"
+      },
+      {
+        "id": "8f858f56-8ee8-4949-bc06-d685516aa224",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Toronto film festival resources",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 10/26]\n(in reply to) User: Those recommendations sound great, thanks! I'll definitely che"
+      },
+      {
+        "id": "f2009d6f-8420-432d-956e-33ace3a4510d",
+        "score": 0.3603,
+        "memory_type": "preference",
+        "title": "User interest in documentaries and screenwriting",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 11/26]\nUser: That's really helpful, thank you! I'll definitely check out the Hot Docs fes"
+      },
+      {
+        "id": "736d1ad3-e417-4aac-b074-72791f4ec458",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hot Docs industry resources for screenwriters",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 12/26]\n(in reply to) User: That's really helpful, thank you! I'll definitely check out th"
+      },
+      {
+        "id": "0116d0a1-8cc4-4a8b-89a2-6923f4041130",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hot Docs Industry Conference and Docs Xchange overview",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 13/26]\n(in reply to) User: That's really helpful, thank you! I'll definitely check out th"
+      },
+      {
+        "id": "478f8f44-1c7f-459c-b80b-4c128cde5014",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hot Docs Festival professional opportunities",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 14/26]\n(in reply to) User: That's really helpful, thank you! I'll definitely check out th"
+      },
+      {
+        "id": "061b101b-bab9-4f00-b61b-6230150c5692",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of attending documentary film festivals for screenwriters",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 15/26]\n(in reply to) User: That's really helpful, thank you! I'll definitely check out th"
+      },
+      {
+        "id": "532dd164-89b4-4ea4-9d26-209847895b1f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User experience at SXSW film festival",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 16/26]\nUser: That sounds amazing! I'll definitely look into the industry events and panel"
+      },
+      {
+        "id": "3f385684-623a-4a3d-9c83-8568ce49c9fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Value of film festivals for screenwriters",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 17/26]\n(in reply to) User: That sounds amazing! I'll definitely look into the industry ev"
+      },
+      {
+        "id": "4d12f3b7-43bc-427e-b5e3-a58c0cc45e00",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User's professional interest in screenwriting and industry events",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 18/26]\n(in reply to) User: That sounds amazing! I'll definitely look into the industry ev"
+      },
+      {
+        "id": "a6a71db3-d5bd-44ca-b290-fae0f778f514",
+        "score": null,
+        "memory_type": "task",
+        "title": "Inquiry regarding film festival schedule",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 19/26]\nUser: I'm planning to attend some of the documentary screenings as well, and I'm c"
+      },
+      {
+        "id": "cb7572fa-72df-40dc-a7be-7be93d8a9fee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hot Docs festival lineup announcement process",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 20/26]\n(in reply to) User: I'm planning to attend some of the documentary screenings as w"
+      },
+      {
+        "id": "15f5d62f-47ca-4f63-8c0e-708592ed76f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hot Docs Film Festival Overview",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 21/26]\n(in reply to) User: I'm planning to attend some of the documentary screenings as w"
+      },
+      {
+        "id": "ce3f1827-567f-4f66-be9a-46030ba22663",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Documentary festival inquiry",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 22/26]\n(in reply to) User: I'm planning to attend some of the documentary screenings as w"
+      },
+      {
+        "id": "e81efb2a-c904-4587-ab5c-97cdabc36f77",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interest in film festivals",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 23/26]\nUser: I'm looking forward to exploring the Hot Docs lineup and discovering some am"
+      },
+      {
+        "id": "db8828d5-4ab0-4e17-92d7-faf227c9a86d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interest in Hot Docs and past film festival experience",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 24/26]\n(in reply to) User: I'm looking forward to exploring the Hot Docs lineup and disco"
+      },
+      {
+        "id": "d0d38214-40c7-4fc7-8fe1-67bceda559b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for attending film festivals as a screenwriter",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 25/26]\n(in reply to) User: I'm looking forward to exploring the Hot Docs lineup and disco"
+      },
+      {
+        "id": "cbba0009-7336-47a9-9c04-b264263c462c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interest in Hot Docs film festival",
+        "text": "[date: 2023-05-25T09:32:00+00:00 | context: Session 3df5f0c0972e - happened on 2023-05-25 09:32:00 UTC. | turn 26/26]\n(in reply to) User: I'm looking forward to exploring the Hot Docs lineup and disco"
+      },
+      {
+        "id": "3c023eac-84f1-4f22-a9b9-0726064ce221",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity tips for writing",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking for some tips on how to stay focused and productive"
+      },
+      {
+        "id": "2f086b9d-85e5-4fc3-a1b4-a1ee9bb0a4e9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity tips for writing",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking for some tips on how to stay focused and productive"
+      },
+      {
+        "id": "a758fdb5-33c2-4bbc-9648-f8fcee615584",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity tips for writers",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 6/30]\n(in reply to) User: I'm looking for some tips on how to stay focused and productive"
+      },
+      {
+        "id": "06baf754-0592-4a7f-939b-f845342ff438",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity advice for writing",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 7/30]\n(in reply to) User: I'm looking for some tips on how to stay focused and productive"
+      },
+      {
+        "id": "db1c7742-ca97-4a80-aeb4-1c6ebd630548",
+        "score": 0.35,
+        "memory_type": "preference",
+        "title": "User productivity preferences",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 8/30]\nUser: I like those tips, especially the Pomodoro Technique. I've found that being a"
+      },
+      {
+        "id": "e600ee98-1bdf-414e-b3e4-e26ab8987eeb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for working in public spaces",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 9/30]\n(in reply to) User: I like those tips, especially the Pomodoro Technique. I've foun"
+      },
+      {
+        "id": "c0c71359-139b-40d7-8119-9529af516cda",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for working in public spaces",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 10/30]\n(in reply to) User: I like those tips, especially the Pomodoro Technique. I've fou"
+      },
+      {
+        "id": "67556686-080d-45bb-94b2-db665fc89fb1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for working in public spaces",
+        "text": "[date: 2023-05-27T02:32:00+00:00 | context: Session 22ae35415bdf - happened on 2023-05-27 02:32:00 UTC. | turn 11/30]\n(in reply to) User: I like those tips, especially the Pomodoro Technique. I've fou"
+      },
+      {
+        "id": "6ddfc256-62ae-4af4-a4df-ae7feb0de3eb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User file backup and organization request",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 1/28]\nUser: I'm looking for some help with organizing my files on my laptop. I recently u"
+      },
+      {
+        "id": "f48cd27c-1779-4ed7-8401-26f3d9c1b354",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User file organization and backup",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 2/28]\n(in reply to) User: I'm looking for some help with organizing my files on my laptop"
+      },
+      {
+        "id": "6f506d19-6f26-4333-a514-9f142a28cb11",
+        "score": null,
+        "memory_type": "fact",
+        "title": "File organization best practices",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 3/28]\n(in reply to) User: I'm looking for some help with organizing my files on my laptop"
+      },
+      {
+        "id": "71e1c1a0-4fe4-4b9f-836a-067d7a8ed92a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Windows 11 file organization best practices",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 4/28]\n(in reply to) User: I'm looking for some help with organizing my files on my laptop"
+      },
+      {
+        "id": "682a8aff-870f-4551-8ab3-ded2880f60a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practice for file organization maintenance",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 5/28]\n(in reply to) User: I'm looking for some help with organizing my files on my laptop"
+      },
+      {
+        "id": "05f35923-a8e9-44a6-9c86-97fe7e0f8062",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User file organization assistance",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 6/28]\n(in reply to) User: I'm looking for some help with organizing my files on my laptop"
+      },
+      {
+        "id": "b9eff5a5-611d-4cd0-bba5-c12bc00faa6c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organizing personal files and video content",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 7/28]\nUser: That's really helpful! I think I'll create a \"Personal\" folder with subfolder"
+      },
+      {
+        "id": "94aabc02-cffb-4e34-ba25-af08a854ebd6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for personal file organization",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 8/28]\n(in reply to) User: That's really helpful! I think I'll create a \"Personal\" folder "
+      },
+      {
+        "id": "f2b73abc-2f2b-4f8f-b242-9054e40c0a15",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Video file organization strategy",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 9/28]\n(in reply to) User: That's really helpful! I think I'll create a \"Personal\" folder "
+      },
+      {
+        "id": "80c43e2e-e227-4970-8752-412aac87e0ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for organizing video files",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 10/28]\n(in reply to) User: That's really helpful! I think I'll create a \"Personal\" folder"
+      },
+      {
+        "id": "f4c4a43f-990e-4887-839c-758348553eac",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendation for organizing Netflix watch history",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 11/28]\n(in reply to) User: That's really helpful! I think I'll create a \"Personal\" folder"
+      },
+      {
+        "id": "08071aad-1889-4af4-804f-634ecd1f413f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User organizational preference for personal files",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 12/28]\n(in reply to) User: That's really helpful! I think I'll create a \"Personal\" folder"
+      },
+      {
+        "id": "a1e16249-ce73-49d1-9676-adb761868413",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research automatic backup solutions for external hard drive",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 13/28]\nUser: I think that's a great idea to organize my videos by type and use a consiste"
+      },
+      {
+        "id": "9c476707-82c8-4037-b39d-7dd31d9371eb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Methods for backing up external hard drives",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 14/28]\n(in reply to) User: I think that's a great idea to organize my videos by type and "
+      },
+      {
+        "id": "0f520c79-c720-49ce-9199-5fa9b67a29ad",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Backup Strategy Options",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 15/28]\n(in reply to) User: I think that's a great idea to organize my videos by type and "
+      },
+      {
+        "id": "8b385351-6843-442b-95db-46ea9a795c09",
+        "score": 0.3926,
+        "memory_type": "fact",
+        "title": "Data Backup Best Practices",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 16/28]\n(in reply to) User: I think that's a great idea to organize my videos by type and "
+      },
+      {
+        "id": "5c4750ba-daaf-408e-9f97-ea92203c4910",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize downloads folder",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 17/28]\nUser: I think I'll set up an automatic backup system using the built-in Windows Ba"
+      },
+      {
+        "id": "e16d1b80-f654-4868-a31a-bd0f9ee9f4c6",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Downloads Folder Organization Plan",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 18/28]\n(in reply to) User: I think I'll set up an automatic backup system using the built"
+      },
+      {
+        "id": "cffbac91-dd65-4961-b213-0a3d8abbb348",
+        "score": null,
+        "memory_type": "plan",
+        "title": "File organization strategy for Downloads folder",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 19/28]\n(in reply to) User: I think I'll set up an automatic backup system using the built"
+      },
+      {
+        "id": "ac326b56-c538-4997-9a05-a1239cc5fb6d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "File organization and maintenance best practices",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 20/28]\n(in reply to) User: I think I'll set up an automatic backup system using the built"
+      },
+      {
+        "id": "61125686-9423-48ba-91ee-971ee604b83a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for file organization and downloads folder management",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 21/28]\n(in reply to) User: I think I'll set up an automatic backup system using the built"
+      },
+      {
+        "id": "0fcb62eb-c293-40c3-b956-4a5c24f79a99",
+        "score": null,
+        "memory_type": "plan",
+        "title": "User backup strategy using 3-2-1 rule",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 22/28]\n(in reply to) User: I think I'll set up an automatic backup system using the built"
+      },
+      {
+        "id": "d9f6d390-1758-4116-abe8-e2241a23dffc",
+        "score": null,
+        "memory_type": "plan",
+        "title": "File organization structure plan",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 23/28]\nUser: That sounds like a solid plan. I think I'll create a \"Software\" folder with "
+      },
+      {
+        "id": "e5965ed6-2252-42a0-8052-3f7f25ca8695",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User file organization strategy",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 24/28]\n(in reply to) User: That sounds like a solid plan. I think I'll create a \"Software"
+      },
+      {
+        "id": "6e72cc59-9d28-4444-8c4c-5b8226d578a8",
+        "score": null,
+        "memory_type": "plan",
+        "title": "File organization and backup strategy",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 25/28]\n(in reply to) User: That sounds like a solid plan. I think I'll create a \"Software"
+      },
+      {
+        "id": "243cc25e-db6d-4dce-8482-bd327249012e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User feedback on file organization",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 26/28]\nUser: I'm glad to hear that you're making progress on organizing your downloads fo"
+      },
+      {
+        "id": "d2b1e90f-2d88-46d2-aef1-30ba2046b25d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on file organization strategy",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 27/28]\n(in reply to) User: I'm glad to hear that you're making progress on organizing you"
+      },
+      {
+        "id": "d72ac2a7-9462-4719-8e7d-aed197c9e957",
+        "score": null,
+        "memory_type": "preference",
+        "title": "File organization strategy and preferences",
+        "text": "[date: 2023-05-27T19:53:00+00:00 | context: Session 425a5220a767 - happened on 2023-05-27 19:53:00 UTC. | turn 28/28]\n(in reply to) User: I'm glad to hear that you're making progress on organizing you"
+      },
+      {
+        "id": "26726b1d-ea86-4b25-9765-82f2c409b83a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for vintage camera maintenance advice",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 1/32]\nUser: I'm looking for some advice on how to properly store and maintain my growing "
+      },
+      {
+        "id": "85b175e8-045a-4af7-bfd8-f6d04d3fe79c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for vintage camera storage and maintenance",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 2/32]\n(in reply to) User: I'm looking for some advice on how to properly store and mainta"
+      },
+      {
+        "id": "532ea5b9-e37a-4ad1-87c8-de31e5aa9448",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for vintage camera storage and maintenance",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 3/32]\n(in reply to) User: I'm looking for some advice on how to properly store and mainta"
+      },
+      {
+        "id": "3ff3b51f-7781-43d5-b8ad-7e6fb9dec8c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vintage camera storage and maintenance guidelines",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 4/32]\n(in reply to) User: I'm looking for some advice on how to properly store and mainta"
+      },
+      {
+        "id": "e922b798-ea06-4a27-bd94-83f2babe235e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance guidelines for vintage cameras",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 5/32]\n(in reply to) User: I'm looking for some advice on how to properly store and mainta"
+      },
+      {
+        "id": "4b889f14-35ea-4cf1-86b1-e6aeaf4d249a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for vintage camera maintenance",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 6/32]\n(in reply to) User: I'm looking for some advice on how to properly store and mainta"
+      },
+      {
+        "id": "c0cbef65-ec89-4e07-8744-289ec952c69e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User camera collection details",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 7/32]\nUser: I'm also curious about the best way to display my cameras. I recently organiz"
+      },
+      {
+        "id": "d983f289-8c92-498c-a857-4f76087deeb3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Display ideas for vintage camera collections",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 8/32]\n(in reply to) User: I'm also curious about the best way to display my cameras. I re"
+      },
+      {
+        "id": "238fb3ac-3f15-4b02-bf67-60eff044de62",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Display methods for camera collections",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 9/32]\n(in reply to) User: I'm also curious about the best way to display my cameras. I re"
+      },
+      {
+        "id": "5ea649e8-1c3c-437f-a607-f60e54a7c4af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Display suggestions for camera collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 10/32]\n(in reply to) User: I'm also curious about the best way to display my cameras. I r"
+      },
+      {
+        "id": "2208e906-aca0-414d-a064-ff2596ca9299",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Display recommendations for camera collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 11/32]\n(in reply to) User: I'm also curious about the best way to display my cameras. I r"
+      },
+      {
+        "id": "68baf739-13e9-449d-874b-bd29bcf334b6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User camera collection display preference",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 12/32]\n(in reply to) User: I'm also curious about the best way to display my cameras. I r"
+      },
+      {
+        "id": "afa280b7-1ddf-4249-bbcc-f3a2f4a69f07",
+        "score": 0.4808,
+        "memory_type": "preference",
+        "title": "Interest in vintage camera collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 13/32]\nUser: I've been collecting vintage cameras for three months now, and I've already "
+      },
+      {
+        "id": "40aed626-3f03-44ca-9dbf-99c8b2540698",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for organizing a vintage camera collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 14/32]\n(in reply to) User: I've been collecting vintage cameras for three months now, and"
+      },
+      {
+        "id": "bb842a08-6531-46cc-8229-76acb8be5869",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for organizing and maintaining vintage camera collections",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 15/32]\n(in reply to) User: I've been collecting vintage cameras for three months now, and"
+      },
+      {
+        "id": "62731ec8-f20c-47c5-8dec-82a32c7391d9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vintage camera maintenance and organization advice",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 16/32]\n(in reply to) User: I've been collecting vintage cameras for three months now, and"
+      },
+      {
+        "id": "19f17442-616d-4870-9dd3-81ce265a75ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Organization strategies for vintage camera collections",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 17/32]\n(in reply to) User: I've been collecting vintage cameras for three months now, and"
+      },
+      {
+        "id": "06e508e0-d39d-4711-8535-abe2cb6d4535",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Funko POP! collection display preference",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 18/32]\nUser: I'm also curious about the best way to store and display my Funko POP! figur"
+      },
+      {
+        "id": "648b73f8-2c07-4f6f-a042-46b7b73d5ca4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for displaying Funko POP! figures",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 19/32]\n(in reply to) User: I'm also curious about the best way to store and display my Fu"
+      },
+      {
+        "id": "8f28b665-5848-4692-8e40-65e7389eea40",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Storage and display tips for Funko POP! figures",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 20/32]\n(in reply to) User: I'm also curious about the best way to store and display my Fu"
+      },
+      {
+        "id": "41705fe8-cc6c-472b-b3fc-4208bc571cbe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Display preferences for Funko POP! collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 21/32]\n(in reply to) User: I'm also curious about the best way to store and display my Fu"
+      },
+      {
+        "id": "9d1ad9c2-49ef-45fd-8bbe-c1f8090f8edb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for displaying Funko POP! figures",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 22/32]\n(in reply to) User: I'm also curious about the best way to store and display my Fu"
+      },
+      {
+        "id": "fab9aa50-c900-47e3-aa06-a93268916f08",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Vinyl record display and storage preference",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 23/32]\nUser: I've also been thinking about displaying my vinyl record collection. I recen"
+      },
+      {
+        "id": "1bc0eb43-ca0c-476e-9789-6cc540605b32",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vinyl record storage and display advice",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 24/32]\n(in reply to) User: I've also been thinking about displaying my vinyl record colle"
+      },
+      {
+        "id": "88ef2d33-d1b7-48ec-8d63-09564330946c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on displaying vinyl record collection",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 25/32]\n(in reply to) User: I've also been thinking about displaying my vinyl record colle"
+      },
+      {
+        "id": "15127f1b-0bc8-4976-8bb8-16ac8a025cfd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in vinyl record display",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 26/32]\n(in reply to) User: I've also been thinking about displaying my vinyl record colle"
+      },
+      {
+        "id": "a4fefb9a-5b68-4b12-a9e8-243bfd0e7f6c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for vinyl record storage and maintenance",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 27/32]\n(in reply to) User: I've also been thinking about displaying my vinyl record colle"
+      },
+      {
+        "id": "36a7dce4-faa5-4081-ac98-05f5c04154ad",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in poster and art print display",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 28/32]\nUser: I've also been thinking about displaying my posters and art prints. I recent"
+      },
+      {
+        "id": "6583c0d2-ff79-46bc-b3d0-25d381dd75e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Storage and display tips for posters and art prints",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 29/32]\n(in reply to) User: I've also been thinking about displaying my posters and art pr"
+      },
+      {
+        "id": "77a9affd-d26f-4c7c-97ba-ff537c5192be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Poster and art print display methods",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 30/32]\n(in reply to) User: I've also been thinking about displaying my posters and art pr"
+      },
+      {
+        "id": "b1c7067e-f402-4fc2-a79c-eb2673349540",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for displaying art prints and posters",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 31/32]\n(in reply to) User: I've also been thinking about displaying my posters and art pr"
+      },
+      {
+        "id": "d96dcb92-91ad-48fe-a987-87f6b0281f2a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for displaying and storing art prints",
+        "text": "[date: 2023-05-28T02:55:00+00:00 | context: Session 3c80bf1736e8 - happened on 2023-05-28 02:55:00 UTC. | turn 32/32]\n(in reply to) User: I've also been thinking about displaying my posters and art pr"
+      },
+      {
+        "id": "a0b60486-26ec-440c-9a90-c2ccd86f7474",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book preference: psychological thrillers",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 1/24]\nUser: I'm looking for some new book recommendations. I've been enjoying psychologic"
+      },
+      {
+        "id": "3bebbfc8-de2a-4979-a41b-9fe7a0fafda4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for psychological thrillers",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some new book recommendations. I've been enjoyi"
+      },
+      {
+        "id": "647733f6-c6c5-48b4-88a0-0276ab82f6d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological thriller book recommendations",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some new book recommendations. I've been enjoyi"
+      },
+      {
+        "id": "09ec760f-e3c1-4834-be41-4eb19b3678bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological thriller book recommendations",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some new book recommendations. I've been enjoyi"
+      },
+      {
+        "id": "2c72f639-3029-45d1-a062-20c34ab8713a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations: psychological thrillers",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 5/24]\n(in reply to) User: I'm looking for some new book recommendations. I've been enjoyi"
+      },
+      {
+        "id": "c1beb380-ab9e-4082-81c5-6ffd9624acbe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User book preferences and reading habits",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 6/24]\nUser: I've already read \"Gone Girl\" and \"Sharp Objects\", both of which I loved. I'l"
+      },
+      {
+        "id": "2048ea1a-f690-426c-b90f-55df5dcca0db",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User reading preferences: psychological thrillers",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 7/24]\n(in reply to) User: I've already read \"Gone Girl\" and \"Sharp Objects\", both of whic"
+      },
+      {
+        "id": "775cede0-d108-4b43-87d4-c08279712730",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of e-books vs. physical books for reading",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 8/24]\n(in reply to) User: I've already read \"Gone Girl\" and \"Sharp Objects\", both of whic"
+      },
+      {
+        "id": "9f49a0f1-68ce-4cd3-ba26-8333ae883f16",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of e-book vs physical book reading experiences",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 9/24]\n(in reply to) User: I've already read \"Gone Girl\" and \"Sharp Objects\", both of whic"
+      },
+      {
+        "id": "de55eacf-e80e-42c5-90a8-f07ba915d5a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about book formats and reading experience",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 10/24]\n(in reply to) User: I've already read \"Gone Girl\" and \"Sharp Objects\", both of whi"
+      },
+      {
+        "id": "39b783c3-2dc6-4619-8cb0-7d3864cc32a7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading preferences: e-books vs physical books",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 11/24]\nUser: I think I preferred reading \"The Silent Patient\" as an e-book because I coul"
+      },
+      {
+        "id": "57ab2de0-3c01-4641-be80-510e68b18898",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for e-book reading features",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 12/24]\n(in reply to) User: I think I preferred reading \"The Silent Patient\" as an e-book "
+      },
+      {
+        "id": "664133a4-f801-4b8b-92db-dc1397ab667b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations list",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 13/24]\n(in reply to) User: I think I preferred reading \"The Silent Patient\" as an e-book "
+      },
+      {
+        "id": "f8e7f29e-0d57-4bcc-af89-aaa65df37383",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading preference: e-books for accessibility",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 14/24]\n(in reply to) User: I think I preferred reading \"The Silent Patient\" as an e-book "
+      },
+      {
+        "id": "27a04c18-af8f-470c-bedd-f811b4f2c386",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended romance audiobook narrators",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 15/24]\n(in reply to) User: I think I preferred reading \"The Silent Patient\" as an e-book "
+      },
+      {
+        "id": "d2f198bf-c63b-4ea7-9a86-3e2ffa6b741e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for rom-coms and romance novels",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 16/24]\nUser: I actually prefer rom-coms, and I've been listening to more romance novels l"
+      },
+      {
+        "id": "09c37632-168b-41d8-a480-73bd3de09f96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book club discussion on The Silent Patient",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 17/24]\nUser: Our book club had a great discussion about \"The Silent Patient\", and it was "
+      },
+      {
+        "id": "b6bae82b-5efd-402e-8ae1-b2dfc1ea4c4a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book club reading format preference",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 18/24]\n(in reply to) User: Our book club had a great discussion about \"The Silent Patient"
+      },
+      {
+        "id": "2e0885e5-01fd-4e03-a5ef-d79a62ca73b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book club discussion and format preferences",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 19/24]\n(in reply to) User: Our book club had a great discussion about \"The Silent Patient"
+      },
+      {
+        "id": "e1c78aef-694a-457e-9be1-1e51d9a37314",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book club meeting and selection preferences",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 20/24]\nUser: We typically meet once a month, and we usually choose our next book a few we"
+      },
+      {
+        "id": "e9120d88-ed2b-4dc7-bbda-22e682a2f3cd",
+        "score": 0.3556,
+        "memory_type": "preference",
+        "title": "Book club preferences and activity history",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 21/24]\n(in reply to) User: We typically meet once a month, and we usually choose our next"
+      },
+      {
+        "id": "5612c305-2654-41ce-a972-5837268980f9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book club activity ideas",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 22/24]\n(in reply to) User: We typically meet once a month, and we usually choose our next"
+      },
+      {
+        "id": "c69615c1-629b-47fe-9967-9ef4e1f50634",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book club engagement and discussion preferences",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 23/24]\n(in reply to) User: We typically meet once a month, and we usually choose our next"
+      },
+      {
+        "id": "16208f29-0d74-4f68-b325-671ce4d20508",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Book club reading preferences",
+        "text": "[date: 2023-05-29T18:16:00+00:00 | context: Session 67e42d79e043 - happened on 2023-05-29 18:16:00 UTC. | turn 24/24]\n(in reply to) User: We typically meet once a month, and we usually choose our next"
+      },
+      {
+        "id": "db974965-14ca-4480-9844-6a88037c95bf",
+        "score": 0.365,
+        "memory_type": "task",
+        "title": "Research display cases for antique jewelry",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 1/27]\nUser: I'm looking to create a display case for my grandmother's antique jewelry col"
+      },
+      {
+        "id": "985ea311-b099-4fd5-b2c9-8f2c77bc81a1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "7c2a387d-0562-4341-9b7c-1b96dbb52666",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "9d49a822-87ab-47bc-8d67-bd88f1c128a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "07ebe8c7-87ec-4a6c-ad66-5838d48885a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 5/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "393d9114-f9d3-4d2f-b888-1712783e0b7c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for displaying antique jewelry",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 6/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "529427e3-2a81-414c-ba3f-fc795dee5266",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistance with antique jewelry display case search",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 7/27]\n(in reply to) User: I'm looking to create a display case for my grandmother's antiq"
+      },
+      {
+        "id": "2e0a9330-bd68-4fe8-be09-b454c28e3292",
+        "score": null,
+        "memory_type": "task",
+        "title": "Researching antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 8/27]\nUser: That's a lot of great information, thank you! I think I'll start by browsing "
+      },
+      {
+        "id": "2448408c-598f-4ed1-ae79-0f7f6eebac2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Marketplaces for antique jewelry display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 9/27]\n(in reply to) User: That's a lot of great information, thank you! I think I'll star"
+      },
+      {
+        "id": "7de3fe6a-fabe-49a9-9065-b2e4f05d56aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online marketplaces for antique and vintage display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 10/27]\n(in reply to) User: That's a lot of great information, thank you! I think I'll sta"
+      },
+      {
+        "id": "a927f8da-56c3-49d2-bba4-0160a2d9418c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online marketplaces for display cases and shadow boxes",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 11/27]\n(in reply to) User: That's a lot of great information, thank you! I think I'll sta"
+      },
+      {
+        "id": "7412211d-02c1-46e8-9a47-5cd7dfd03887",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for buying antique display cases online",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 12/27]\n(in reply to) User: That's a lot of great information, thank you! I think I'll sta"
+      },
+      {
+        "id": "0f30b99b-34b6-4a98-8d57-df06858c83f2",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Deliberation on display case security for heirloom necklace",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 13/27]\nUser: I'll check out those websites, thanks. I'm particularly interested in findin"
+      },
+      {
+        "id": "a1117828-61d3-404f-baec-1606a2dbb901",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for locked display cases",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 14/27]\n(in reply to) User: I'll check out those websites, thanks. I'm particularly intere"
+      },
+      {
+        "id": "3d55dad0-a354-4691-90d9-17f99bc1f881",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Evaluation of display case options for heirloom necklace",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 15/27]\n(in reply to) User: I'll check out those websites, thanks. I'm particularly intere"
+      },
+      {
+        "id": "3163b854-5e04-4313-8fd1-e63e43d4bdfc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Display case preferences for heirloom jewelry",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 16/27]\n(in reply to) User: I'll check out those websites, thanks. I'm particularly intere"
+      },
+      {
+        "id": "8452e5ee-f8c1-4653-bfdc-856e96f3b5a2",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to use secure mounting over lock for display case",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 17/27]\nUser: I think I'll look for a display case with a secure mounting system instead o"
+      },
+      {
+        "id": "0b21656d-5541-4a07-9d61-cf1e8679a88a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pearl necklace cleaning and maintenance guidelines",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 18/27]\n(in reply to) User: I think I'll look for a display case with a secure mounting sy"
+      },
+      {
+        "id": "ed5ae799-f2eb-461d-b9a7-2bd5621ce510",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care and storage guidelines for pearl necklaces",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 19/27]\n(in reply to) User: I think I'll look for a display case with a secure mounting sy"
+      },
+      {
+        "id": "6c358aca-a5cd-4a2e-96d9-567de6905c5f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care and maintenance guidelines for pearl necklaces",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 20/27]\n(in reply to) User: I think I'll look for a display case with a secure mounting sy"
+      },
+      {
+        "id": "62a540de-78c3-4b54-9ba6-17873dcda46a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research pearl necklace appraisal",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 21/27]\nUser: That's really helpful, thank you! I'll make sure to clean and maintain the p"
+      },
+      {
+        "id": "fccf1dfb-7291-46a6-b774-ea42418faaad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for finding a jewelry appraiser",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 22/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to clean and "
+      },
+      {
+        "id": "a013c18d-3180-434c-a92c-bd979c4277f2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Jewelry Appraisal Resources",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 23/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to clean and "
+      },
+      {
+        "id": "1a5e7923-6307-4f04-b22e-da261a9b3126",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Steps for pearl necklace appraisal",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 24/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to clean and "
+      },
+      {
+        "id": "d146c9f1-40d3-4075-8d38-2c0361d4ddcb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for verifying jewelry appraiser credentials",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 25/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to clean and "
+      },
+      {
+        "id": "aac25003-997a-4f2e-9f72-528dc1d213b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for pearl necklace appraisal",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 26/27]\n(in reply to) User: That's really helpful, thank you! I'll make sure to clean and "
+      },
+      {
+        "id": "c797b287-73dd-41dc-acc8-d46a5b2bc495",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Consultation regarding grandmother's pearl necklace appraisal",
+        "text": "[date: 2023-05-30T03:03:00+00:00 | context: Session 3945eeb1ddf2 - happened on 2023-05-30 03:03:00 UTC. | turn 27/27]\nUser: I'm glad I could help! Remember to take your time and do your research when "
+      }
+    ]
+  },
+  "context": {
+    "chars": 96861,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24215)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 0,
+    "gold_turns_present": 0,
+    "fully_covered": null
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 45487,
+    "prompt_tokens": 43517,
+    "completion_tokens": 163,
+    "reasoning_tokens": 1807,
+    "generate_time_ms": 23226.63810197264,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 21604,
+        "completion_tokens": 27,
+        "reasoning_tokens": 584,
+        "total_tokens": 22215
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 484,
+        "completion_tokens": 18,
+        "reasoning_tokens": 113,
+        "total_tokens": 615
+      },
+      {
+        "stage": "direct_fallback",
+        "prompt_tokens": 20882,
+        "completion_tokens": 47,
+        "reasoning_tokens": 983,
+        "total_tokens": 21912
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 547,
+        "completion_tokens": 71,
+        "reasoning_tokens": 127,
+        "total_tokens": 745
+      }
+    ]
+  },
+  "failure_label": null
+}

@@ -1,0 +1,1367 @@
+{
+  "question_id": "0f05491a",
+  "question_type": "knowledge-update",
+  "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+  "gold_answer": "120",
+  "prediction": "Based on your latest statement on July 30, 2023, you need 120 stars to reach the Gold level on your Starbucks Rewards app, updating your previous mention on July 11, 2023, where you stated you needed 125 stars.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 856,
+    "by_type": {
+      "episode": 232,
+      "preference": 167,
+      "plan": 3,
+      "action": 1,
+      "task": 39,
+      "fact": 405,
+      "decision": 9
+    },
+    "by_status": {
+      "conflicted": 3,
+      "active": 853
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2519208,
+    "output_tokens": 121552,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many stars do I need to reach the gold level on my Starbucks Rewards app?"
+    ],
+    "retrieve_time_ms": 8644.618615042418,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "c1f7199b-0ca3-41b5-82a4-1fe4d40fb5e1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided table format for Instagram content units",
+        "text": "[date: 2023-06-30T04:07:00+00:00 | context: Session c014780cf2b6 - happened on 2023-06-30 04:07:00 UTC. | turn 1/15]\nAssistant: Sure, here's a table format for the Instagram content units for each top"
+      },
+      {
+        "id": "5e2fdf96-7e4a-4dc9-b4d0-bc298f68e291",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram post table for influencer marketing topic",
+        "text": "[date: 2023-06-30T04:07:00+00:00 | context: Session c014780cf2b6 - happened on 2023-06-30 04:07:00 UTC. | turn 2/15]\n(in reply to) Assistant: Sure, here's a table format for the Instagram content unit"
+      },
+      {
+        "id": "46b91bbb-3052-4d1c-80ab-f8420178a411",
+        "score": 0.328,
+        "memory_type": "fact",
+        "title": "Instagram influencer marketing content unit template",
+        "text": "[date: 2023-06-30T04:07:00+00:00 | context: Session c014780cf2b6 - happened on 2023-06-30 04:07:00 UTC. | turn 3/15]\n(in reply to) Assistant: Sure, here's a table format for the Instagram content unit"
+      },
+      {
+        "id": "98514f0e-886d-4128-8b87-ea8e7f6e4614",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram influencer marketing content unit template",
+        "text": "[date: 2023-06-30T04:07:00+00:00 | context: Session c014780cf2b6 - happened on 2023-06-30 04:07:00 UTC. | turn 4/15]\n(in reply to) Assistant: Sure, here's a table format for the Instagram content unit"
+      },
+      {
+        "id": "8d18691c-1d03-4710-81c6-243577603761",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram influencer marketing post content (carousel)",
+        "text": "[date: 2023-06-30T04:07:00+00:00 | context: Session c014780cf2b6 - happened on 2023-06-30 04:07:00 UTC. | turn 5/15]\n(in reply to) Assistant: Sure, here's a table format for the Instagram content unit"
+      },
+      {
+        "id": "6f9ea9ac-8ded-4e43-b77a-dcbc00594af0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request: grocery items on sale this week",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 1/18]\nUser: I'm trying to plan my shopping trip for the week and I was wondering if you c"
+      },
+      {
+        "id": "5f6d352c-d926-48a2-bc47-ecc67d7f6c75",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant declined real-time grocery sales list",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 2/18]\n(in reply to) User: I'm trying to plan my shopping trip for the week and I was wond"
+      },
+      {
+        "id": "470ecb13-7403-48d8-a20b-d29ebe58a659",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to find weekly grocery store sales",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 3/18]\n(in reply to) User: I'm trying to plan my shopping trip for the week and I was wond"
+      },
+      {
+        "id": "76f65303-9e29-46fe-b876-bb8b13abdfbe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for weekly grocery sale items",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 4/18]\n(in reply to) User: I'm trying to plan my shopping trip for the week and I was wond"
+      },
+      {
+        "id": "6a0cbb1a-d546-4382-87de-029efbee4c0e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check store website for weekly coffee deals",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 5/18]\nUser: I'll try to check the store's website and see what's on sale this week. By th"
+      },
+      {
+        "id": "302b6f83-944d-4e9d-9a01-f1b15201592c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replied about weekly coffee deals",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 6/18]\n(in reply to) User: I'll try to check the store's website and see what's on sale th"
+      },
+      {
+        "id": "5227606c-4964-4985-9264-871cf018e405",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding weekly deals on coffee beans/makers",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 7/18]\n(in reply to) User: I'll try to check the store's website and see what's on sale th"
+      },
+      {
+        "id": "66653308-8752-4f5c-989f-05ab224f81cc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for finding coffee bean and coffee maker deals",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 8/18]\n(in reply to) User: I'll try to check the store's website and see what's on sale th"
+      },
+      {
+        "id": "63814cef-3e8a-4504-bf58-d5372105ca2b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about weekly deals on coffee beans/makers",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 9/18]\n(in reply to) User: I'll try to check the store's website and see what's on sale th"
+      },
+      {
+        "id": "22920785-da8e-49de-a43b-05b74adbca33",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to earn Starbucks Rewards stars faster",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 10/18]\nUser: I've been using my Starbucks Rewards app and I was wondering if you know any"
+      },
+      {
+        "id": "291f0bfe-6780-4a88-aa01-9ab8e2282d54",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for earning Starbucks Rewards stars faster",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 11/18]\n(in reply to) User: I've been using my Starbucks Rewards app and I was wondering i"
+      },
+      {
+        "id": "d1c766af-accc-46ee-aae6-707d4d60b95f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 12/18]\n(in reply to) User: I've been using my Starbucks Rewards app and I was wondering i"
+      },
+      {
+        "id": "ff6d25f6-dd5b-41b5-96a0-d7e02afb1afe",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 13/18]\n(in reply to) User: I've been using my Starbucks Rewards app and I was wondering i"
+      },
+      {
+        "id": "5af6c2da-ce60-4776-a2e9-eade114087f0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 14/18]\n(in reply to) User: I've been using my Starbucks Rewards app and I was wondering i"
+      },
+      {
+        "id": "d9895a28-0ce8-4f18-a518-f4f31e21943f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 15/18]\n(in reply to) User: I've been using my Starbucks Rewards app and I was wondering i"
+      },
+      {
+        "id": "b88f29ac-33d5-4ac8-8fd7-57f8b709df27",
+        "score": 0.6464,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards Gold requires 300 stars in 12 months",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 16/18]\nUser: I'm actually trying to reach the gold level on my Starbucks Rewards app, do "
+      },
+      {
+        "id": "6de73ea0-3547-462a-953a-5695ffbc98e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards Gold requires 400 stars in 12 months",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 17/18]\nUser: I actually forgot to ask, how many stars do I need to reach the gold level o"
+      },
+      {
+        "id": "0dddfd4a-5565-4388-9524-8e7cb136a002",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards Gold requires 125 stars in 12 months",
+        "text": "[date: 2023-07-11T00:07:00+00:00 | context: Session 9ba93fb54759 - happened on 2023-07-11 00:07:00 UTC. | turn 18/18]\nUser: Wait, I apologize for the mistake earlier! To correct myself, I actually nee"
+      },
+      {
+        "id": "439e5c06-6da3-4b82-9244-ffbd986417a6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for book recommendations (Celeste Ng)",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 1/25]\nUser: I'm looking for some book recommendations. I was talking to a woman on the bu"
+      },
+      {
+        "id": "4d6b1ef8-d22b-4797-a5a6-c6ef30515ba1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendations for Celeste Ng (Our Missing Hearts)",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 2/25]\n(in reply to) User: I'm looking for some book recommendations. I was talking to a w"
+      },
+      {
+        "id": "8482a670-6e93-483d-a6f8-e705fdaca0e9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Book recommendations for Celeste Ng-style novels",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 3/25]\n(in reply to) User: I'm looking for some book recommendations. I was talking to a w"
+      },
+      {
+        "id": "db0e7799-1990-4229-8319-b99833d6e8b1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for restaurant recommendations and review tips",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 4/25]\nUser: I think I'll start with \"Our Missing Hearts\" since it's her latest novel. By "
+      },
+      {
+        "id": "3ef22731-2a24-4d3d-994a-408262c2d283",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided restaurant discovery tips after novel discussion",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 5/25]\n(in reply to) User: I think I'll start with \"Our Missing Hearts\" since it's her lat"
+      },
+      {
+        "id": "e4764137-1f8d-47b0-b262-376ca5223f47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding restaurants via reviews and social sources",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 6/25]\n(in reply to) User: I think I'll start with \"Our Missing Hearts\" since it's her lat"
+      },
+      {
+        "id": "bce497f6-5dbc-4b7f-86d6-7be45fb1657e",
+        "score": 0.3536,
+        "memory_type": "fact",
+        "title": "Tips for choosing restaurants via reviews",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 7/25]\n(in reply to) User: I think I'll start with \"Our Missing Hearts\" since it's her lat"
+      },
+      {
+        "id": "ac29ddf8-7959-4e86-85ed-07ef2cfecbe6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for choosing and visiting new restaurants",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 8/25]\n(in reply to) User: I think I'll start with \"Our Missing Hearts\" since it's her lat"
+      },
+      {
+        "id": "1d305075-0b56-4fc9-9a62-5fdcec766c9d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about finding reliable social media reviews",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 9/25]\nUser: What about reading reviews on social media? Are there any specific ways to fi"
+      },
+      {
+        "id": "8c44351a-a3b4-4941-88ce-26eb4cab37dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for finding reliable social media reviews",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 10/25]\n(in reply to) User: What about reading reviews on social media? Are there any spec"
+      },
+      {
+        "id": "c563247b-7d74-4f0e-96da-0bb16dfa63b0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding reliable social media reviews and influencers",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 11/25]\n(in reply to) User: What about reading reviews on social media? Are there any spec"
+      },
+      {
+        "id": "d05babb0-4a17-4b6e-a039-bbdb6fc118a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding reliable restaurant reviews on Facebook",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 12/25]\n(in reply to) User: What about reading reviews on social media? Are there any spec"
+      },
+      {
+        "id": "71bf3bf5-6674-47c1-9019-7c7f49a8531d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding reliable social media reviews/influencers",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 13/25]\n(in reply to) User: What about reading reviews on social media? Are there any spec"
+      },
+      {
+        "id": "07f2f306-1799-4191-b951-03711cec9b56",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for first impression at new restaurant",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 14/25]\nUser: I'm actually planning to check out that restaurant this weekend. Do you have"
+      },
+      {
+        "id": "385282d6-6beb-4c88-905f-3ef8a4a017f8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making a good first impression at a new restaurant",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 15/25]\n(in reply to) User: I'm actually planning to check out that restaurant this weeken"
+      },
+      {
+        "id": "e098cb53-625e-4b75-aabc-6d33129869a0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making a good first impression at a new restaurant",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 16/25]\n(in reply to) User: I'm actually planning to check out that restaurant this weeken"
+      },
+      {
+        "id": "321ed102-e1cb-4bd4-babd-c15d43e54d9d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for making a good first impression at a new restaurant",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 17/25]\n(in reply to) User: I'm actually planning to check out that restaurant this weeken"
+      },
+      {
+        "id": "9ad8b4ac-b16b-431d-89d4-3c458b8742fe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for making a good first impression at a new restaurant",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 18/25]\n(in reply to) User: I'm actually planning to check out that restaurant this weeken"
+      },
+      {
+        "id": "6e0b1dbd-37f0-4f8d-addb-fb8faccc0fbf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Asking grocery store clerk for meal recommendations",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 19/25]\nUser: I'll definitely keep those tips in mind. I'm actually thinking of asking the"
+      },
+      {
+        "id": "40aac071-f6b4-4890-b548-71c2f824cd58",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests asking grocery store worker for restaurant recommendations",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 20/25]\n(in reply to) User: I'll definitely keep those tips in mind. I'm actually thinking"
+      },
+      {
+        "id": "4a4ffc7f-627d-44c9-b17a-556adb56d2cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on asking grocery store for food recommendations",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 21/25]\n(in reply to) User: I'll definitely keep those tips in mind. I'm actually thinking"
+      },
+      {
+        "id": "87f2c647-5151-4847-8174-5edc400e3cd5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion to ask grocery store clerk for meal recommendations",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 22/25]\n(in reply to) User: I'll definitely keep those tips in mind. I'm actually thinking"
+      },
+      {
+        "id": "07667099-c776-419c-8570-19a7f511f2e4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Plan to ask about signature dishes and specials",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 23/25]\nUser: I think I'll ask him about some of the restaurant's signature dishes or spec"
+      },
+      {
+        "id": "a5320fd1-4793-44dc-935b-c67e4ca59d4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests asking restaurant staff about signature dishes",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 24/25]\n(in reply to) User: I think I'll ask him about some of the restaurant's signature "
+      },
+      {
+        "id": "083bb636-ca4e-4ce9-90b7-971838342d8c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Questions to ask about restaurant signature dishes",
+        "text": "[date: 2023-07-11T13:35:00+00:00 | context: Session 4df2b748de3d - happened on 2023-07-11 13:35:00 UTC. | turn 25/25]\n(in reply to) User: I think I'll ask him about some of the restaurant's signature "
+      },
+      {
+        "id": "d7e00d16-4c78-453c-b0b1-167de2373eec",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Audiobook recommendations like The Nightingale",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 1/22]\nUser: I'm looking for some recommendations on audiobooks similar to \"The Nightingal"
+      },
+      {
+        "id": "a05d8fed-72c8-48bb-b4ad-3f45c63a6b5d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Audiobook recommendations request for The Nightingale",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 2/22]\n(in reply to) User: I'm looking for some recommendations on audiobooks similar to \""
+      },
+      {
+        "id": "d12ff471-a8d4-4e79-9ba0-63f5e938cfcf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook recommendations similar to The Nightingale",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 3/22]\n(in reply to) User: I'm looking for some recommendations on audiobooks similar to \""
+      },
+      {
+        "id": "5110a82e-ca01-471b-9c0e-c0dc8649b806",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook recommendations similar to The Nightingale",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 4/22]\n(in reply to) User: I'm looking for some recommendations on audiobooks similar to \""
+      },
+      {
+        "id": "fea40088-3622-4ff6-9a90-6e82dbec1c7d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook recommendations similar to The Nightingale",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 5/22]\n(in reply to) User: I'm looking for some recommendations on audiobooks similar to \""
+      },
+      {
+        "id": "cd263e3e-5e64-4832-bb57-8bb2b9721ec2",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks about The Alice Network audiobook details",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 6/22]\nUser: I'm interested in \"The Alice Network\". Can you tell me more about the book, l"
+      },
+      {
+        "id": "362af9cc-0fa8-4f71-bea4-9cf5d039c9a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook details for The Alice Network (Kate Quinn)",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 7/22]\n(in reply to) User: I'm interested in \"The Alice Network\". Can you tell me more abo"
+      },
+      {
+        "id": "77b5e176-20e6-4e5e-aacb-d5b5480a9996",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Audiobook narration and ratings for The Alice Network",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 8/22]\n(in reply to) User: I'm interested in \"The Alice Network\". Can you tell me more abo"
+      },
+      {
+        "id": "57641280-6ac1-4ce9-a5fe-2bc2f02dd322",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about nearby coffee shop loyalty programs",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 9/22]\nUser: I'm glad to hear that the narrator is good. Can you tell me more about the co"
+      },
+      {
+        "id": "dedb4c98-fd7d-499b-ba57-b2b5db874880",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant clarifies no real-time info about local coffee shop loyalty programs",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 10/22]\n(in reply to) User: I'm glad to hear that the narrator is good. Can you tell me mo"
+      },
+      {
+        "id": "ad1c95a9-68b4-412f-a1d4-8fab844fb84b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find coffee shop loyalty programs and promotions",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 11/22]\n(in reply to) User: I'm glad to hear that the narrator is good. Can you tell me mo"
+      },
+      {
+        "id": "140658e9-1a21-417d-b526-7ca6f1f79d72",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Asks about coffee shop rewards/discounts",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 12/22]\nUser: I've been getting a free coffee every fifth purchase at the coffee shop near"
+      },
+      {
+        "id": "4cce95cf-f7a9-4368-bb84-24ea26a754ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Coffee shop rewards inquiry suggestion",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 13/22]\n(in reply to) User: I've been getting a free coffee every fifth purchase at the co"
+      },
+      {
+        "id": "bbedce16-a865-46f5-ab93-2664aeacccda",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Ask coffee shop about additional rewards/discounts",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 14/22]\n(in reply to) User: I've been getting a free coffee every fifth purchase at the co"
+      },
+      {
+        "id": "04340d05-80ee-4b06-8b24-1b7dde78e68e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering bike commuting instead of bus",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 15/22]\nUser: I'll try asking them about other rewards or discounts next time I'm at the c"
+      },
+      {
+        "id": "733b9cd7-a8f2-414b-84ab-c59c7c3c12a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion: cycling to work instead of taking the bus",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 16/22]\n(in reply to) User: I'll try asking them about other rewards or discounts next tim"
+      },
+      {
+        "id": "7c8e48dc-cd13-4178-83eb-6d0691799053",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on cycling to work (distance, safety, maintenance, weather)",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 17/22]\n(in reply to) User: I'll try asking them about other rewards or discounts next tim"
+      },
+      {
+        "id": "54552a4c-b279-445f-8934-6a59ae55a441",
+        "score": 0.3393,
+        "memory_type": "preference",
+        "title": "Suggestion to cycle to work instead of taking the bus",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 18/22]\n(in reply to) User: I'll try asking them about other rewards or discounts next tim"
+      },
+      {
+        "id": "18b874d2-5aa7-48fe-a161-ba459a50245a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cycling to work as a good idea",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 19/22]\n(in reply to) User: I'll try asking them about other rewards or discounts next tim"
+      },
+      {
+        "id": "b282e10f-60ac-40ec-9729-93b34132173d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers test riding bikes this weekend",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 20/22]\nUser: I think I'll be okay with those factors. My friend Emma has been cycling to "
+      },
+      {
+        "id": "b601193e-c22c-48b8-a53b-a6b13f884192",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on cycling to work and test riding bikes",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 21/22]\n(in reply to) User: I think I'll be okay with those factors. My friend Emma has be"
+      },
+      {
+        "id": "54d3b3a3-9976-4a17-8c08-6f322fdebfbe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bike commuting advice and accessory checklist",
+        "text": "[date: 2023-07-23T07:37:00+00:00 | context: Session e38ee9120324 - happened on 2023-07-23 07:37:00 UTC. | turn 22/22]\n(in reply to) User: I think I'll be okay with those factors. My friend Emma has be"
+      },
+      {
+        "id": "a9fb177c-ce59-47e3-a716-b6b23caaf2ab",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize loyalty programs in a spreadsheet",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 1/19]\nUser: I need help organizing my loyalty programs. I have so many and it's hard to k"
+      },
+      {
+        "id": "ad3eb27b-3bd6-45ae-ba67-5856f7fa5398",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant asked for details to organize loyalty programs",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 2/19]\n(in reply to) User: I need help organizing my loyalty programs. I have so many and "
+      },
+      {
+        "id": "7cc2aa86-44ef-428a-8132-bd528f8d28d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Helped user plan loyalty program tracking spreadsheet",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 3/19]\n(in reply to) User: I need help organizing my loyalty programs. I have so many and "
+      },
+      {
+        "id": "da0b6663-6625-438f-a8ce-9dbf167c2d1b",
+        "score": 0.4028,
+        "memory_type": "preference",
+        "title": "Wants to track loyalty points, redemptions, and expirations",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 4/19]\nUser: I'm part of The Daily Grind coffee shop's loyalty program, FreshMart's grocer"
+      },
+      {
+        "id": "6dd90fbd-7b1b-4038-8a60-7457bd61622c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses multiple retail loyalty programs and points tracking",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 5/19]\n(in reply to) User: I'm part of The Daily Grind coffee shop's loyalty program, Fres"
+      },
+      {
+        "id": "874f43eb-c5d5-4d2a-abc9-5d206add824b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Maintain loyalty points balances and track redemptions/expirations",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 6/19]\n(in reply to) User: I'm part of The Daily Grind coffee shop's loyalty program, Fres"
+      },
+      {
+        "id": "768ea4d2-72b6-4c0d-9f2a-9a0b42972549",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks whether Page & Co. Booklover's Rewards is real",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 7/19]\n(in reply to) User: I'm part of The Daily Grind coffee shop's loyalty program, Fres"
+      },
+      {
+        "id": "77a09f14-b892-470a-9bf7-f05f08573158",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Page & Co. Booklover's Rewards points and redemption",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 8/19]\nUser: Page & Co. is a real bookstore, and I've been a member of their Booklover's R"
+      },
+      {
+        "id": "6612720c-04cc-4a76-8e39-4fecf83b94ce",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User loyalty points and redemption at Page & Co.",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 9/19]\n(in reply to) User: Page & Co. is a real bookstore, and I've been a member of their"
+      },
+      {
+        "id": "bf7759d1-2c82-40ef-a216-32f066153cdf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Page & Co. Booklover's Rewards points tracking",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 10/19]\n(in reply to) User: Page & Co. is a real bookstore, and I've been a member of thei"
+      },
+      {
+        "id": "0bcc9f75-0ad2-4c76-8fd2-43fcdb8a1299",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check Daily Grind points and next reward threshold",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 11/19]\nUser: I'm still waiting for my confirmation email for my last purchase at The Dail"
+      },
+      {
+        "id": "104717b0-61d9-46b9-992c-3a318f082f8c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Daily Grind points needed for free drink (example)",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 12/19]\n(in reply to) User: I'm still waiting for my confirmation email for my last purcha"
+      },
+      {
+        "id": "573ae9e4-02ec-4001-84f5-fa543d47cfca",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User waiting for points confirmation email at The Daily Grind",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 13/19]\n(in reply to) User: I'm still waiting for my confirmation email for my last purcha"
+      },
+      {
+        "id": "5bbbc51c-dce2-4707-8235-98ad5deec35d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Remind purchase frequency for Daily Grind points",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 14/19]\nUser: I still haven't received the confirmation email for my last purchase at The "
+      },
+      {
+        "id": "2c6fe65b-4889-40ed-ab91-c8c7fe20dd6d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Daily Grind loyalty purchase schedule",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 15/19]\n(in reply to) User: I still haven't received the confirmation email for my last pu"
+      },
+      {
+        "id": "d2e44408-0e3a-4722-ac74-2bdc987717ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Daily Grind points purchase schedule (Mon/Wed/Fri)",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 16/19]\n(in reply to) User: I still haven't received the confirmation email for my last pu"
+      },
+      {
+        "id": "212df1fc-4244-4c52-aba8-c26eab56f3c3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Weekly purchases at The Daily Grind to earn points",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 17/19]\nUser: I think I forgot to mention that I make a purchase every Monday, Wednesday, "
+      },
+      {
+        "id": "944afcb6-cf1e-4f48-9fc0-541193bb5f59",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User described Daily Grind loyalty purchases on Mon/Wed/Fri",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 18/19]\n(in reply to) User: I think I forgot to mention that I make a purchase every Monda"
+      },
+      {
+        "id": "5873bbd1-e2be-431f-aaae-473de31f3c71",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User buys at The Daily Grind Mon/Wed/Fri for points",
+        "text": "[date: 2023-07-23T10:28:00+00:00 | context: Session 37b6591b562b - happened on 2023-07-23 10:28:00 UTC. | turn 19/19]\n(in reply to) User: I think I forgot to mention that I make a purchase every Monda"
+      },
+      {
+        "id": "d0971d74-eb49-4ec9-b79a-9d9392e2d6d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 1/24]\nUser: I'm looking for some advice on organizing my closet. Do you have any tips on "
+      },
+      {
+        "id": "9fdc65ab-0f3c-45b2-97bc-35cf80427146",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some advice on organizing my closet. Do you hav"
+      },
+      {
+        "id": "bf8468fe-7461-4871-8e27-9002c91d2a49",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some advice on organizing my closet. Do you hav"
+      },
+      {
+        "id": "75b452be-d80c-4ff8-816f-c0e7c9ff1853",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some advice on organizing my closet. Do you hav"
+      },
+      {
+        "id": "572ea357-3203-4943-90b5-c2d8150a8d16",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 5/24]\nUser: I like those tips, but I'm not sure if I have the space for a double rod. Can"
+      },
+      {
+        "id": "9d5a2af2-9381-4933-9eb8-f41b54d4f232",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 6/24]\n(in reply to) User: I like those tips, but I'm not sure if I have the space for a d"
+      },
+      {
+        "id": "32c3f3a3-5aa1-47c8-8bc6-6e2cf7adab6d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 7/24]\n(in reply to) User: I like those tips, but I'm not sure if I have the space for a d"
+      },
+      {
+        "id": "094734fc-bfc5-45e0-ab06-3b54ff684292",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 8/24]\n(in reply to) User: I like those tips, but I'm not sure if I have the space for a d"
+      },
+      {
+        "id": "37d06f3c-6b9e-4544-952a-457b2bbc0b17",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 9/24]\nUser: I'm really excited about the watch I got from Fossil. It's been a great addit"
+      },
+      {
+        "id": "ab59b94a-abb0-40e9-a21e-081dbf5f0c41",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 10/24]\n(in reply to) User: I'm really excited about the watch I got from Fossil. It's bee"
+      },
+      {
+        "id": "d7d6b463-0b09-431f-912b-0d77bf0c705d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 11/24]\n(in reply to) User: I'm really excited about the watch I got from Fossil. It's bee"
+      },
+      {
+        "id": "1ff5f672-c6dc-4054-bbfc-82ffcc28f57f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 12/24]\n(in reply to) User: I'm really excited about the watch I got from Fossil. It's bee"
+      },
+      {
+        "id": "ae5cd340-e960-4074-9cb1-fe6dd82de6dc",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 13/24]\nUser: I've been wearing it with just about everything! It's so versatile and easy "
+      },
+      {
+        "id": "acbff496-1ce3-4ef7-a9db-4410bc84bf01",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 14/24]\n(in reply to) User: I've been wearing it with just about everything! It's so versa"
+      },
+      {
+        "id": "75eae7fe-5160-4217-9ac4-968ad0b52f4c",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 15/24]\n(in reply to) User: I've been wearing it with just about everything! It's so versa"
+      },
+      {
+        "id": "8658b024-73d0-4a66-b470-0f4f8e2a06cd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 16/24]\n(in reply to) User: I've been wearing it with just about everything! It's so versa"
+      },
+      {
+        "id": "23bdde81-e974-4341-b66a-e32363348105",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 17/24]\n(in reply to) User: I've been wearing it with just about everything! It's so versa"
+      },
+      {
+        "id": "b6c5c28b-a8a5-4af4-877a-1678794eb351",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 18/24]\nUser: I'm actually looking for some new sneakers to go with my Adidas Superstar pa"
+      },
+      {
+        "id": "fbc95300-38a4-439a-971e-bef7c64fc7c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 19/24]\n(in reply to) User: I'm actually looking for some new sneakers to go with my Adida"
+      },
+      {
+        "id": "0f6198df-3b61-42d5-9ade-939b58d2b959",
+        "score": 0.3304,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 20/24]\n(in reply to) User: I'm actually looking for some new sneakers to go with my Adida"
+      },
+      {
+        "id": "f83849e5-7a34-41df-ad4b-1c97de5690cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 21/24]\n(in reply to) User: I'm actually looking for some new sneakers to go with my Adida"
+      },
+      {
+        "id": "f4f548c2-f384-4fc2-bc40-a16105a5d166",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 22/24]\nUser: I'm thinking about getting a pair of Vans or Converse to add some variety to"
+      },
+      {
+        "id": "1ccc3c65-4968-45fa-b661-257c2bbf7eed",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 23/24]\n(in reply to) User: I'm thinking about getting a pair of Vans or Converse to add s"
+      },
+      {
+        "id": "61bc13f1-c489-4917-b7f5-ee1f40cb2f1a",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-07-24T08:49:00+00:00 | context: Session e4d0003f7fed - happened on 2023-07-24 08:49:00 UTC. | turn 24/24]\n(in reply to) User: I'm thinking about getting a pair of Vans or Converse to add s"
+      },
+      {
+        "id": "04174f62-0e00-4868-9b76-3aef14a58ab3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set up bike maintenance and ride log",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 1/26]\nUser: I'm trying to keep track of my bike maintenance and rides. Can you help me se"
+      },
+      {
+        "id": "404fd435-c830-4311-95c7-62740fb5437f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Template for bike maintenance and ride log",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 2/26]\n(in reply to) User: I'm trying to keep track of my bike maintenance and rides. Can "
+      },
+      {
+        "id": "54853f6f-88db-4d11-a2a1-ec293c38e511",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants help organizing bike rides and maintenance log",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 3/26]\n(in reply to) User: I'm trying to keep track of my bike maintenance and rides. Can "
+      },
+      {
+        "id": "e8b7a96d-5b2a-43ff-830b-bb5ca7b497cb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers a digital option; asks about Strava vs Ride with GPS",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 4/26]\nUser: I like the template, but I think I'd prefer a digital option. Can you tell me"
+      },
+      {
+        "id": "33bde529-dc52-4e8c-8577-1576d4cb0c29",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Strava and Ride with GPS features and pricing",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 5/26]\n(in reply to) User: I like the template, but I think I'd prefer a digital option. C"
+      },
+      {
+        "id": "d5d5a118-816e-4660-a527-75efb53044e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava and Ride with GPS features and pricing (as described)",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 6/26]\n(in reply to) User: I like the template, but I think I'd prefer a digital option. C"
+      },
+      {
+        "id": "6b0e7d88-1149-4dcf-86bd-d9fe370cd7e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava vs Ride with GPS: key features and pricing",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 7/26]\n(in reply to) User: I like the template, but I think I'd prefer a digital option. C"
+      },
+      {
+        "id": "e7338882-13e6-4f92-8f3b-cbffb36aa732",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Suggested trying Strava and Ride with GPS free versions",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 8/26]\n(in reply to) User: I like the template, but I think I'd prefer a digital option. C"
+      },
+      {
+        "id": "494e526a-b7cd-4c3a-bbbd-28d6b96c531d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about how Strava segments work",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 9/26]\nUser: I think I'll try out Strava first since I'm already familiar with the concept"
+      },
+      {
+        "id": "74407da8-f173-48d0-aeec-9510a96084a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava segments overview (definition and how they work)",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 10/26]\n(in reply to) User: I think I'll try out Strava first since I'm already familiar w"
+      },
+      {
+        "id": "2abde5bb-9906-4666-96db-1612fe7f393b",
+        "score": 0.3505,
+        "memory_type": "fact",
+        "title": "Strava segments: creation, leaderboards, rankings, badges",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 11/26]\n(in reply to) User: I think I'll try out Strava first since I'm already familiar w"
+      },
+      {
+        "id": "4902214a-b3b5-458a-a251-bccc42855f87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava segment challenges and Segment Explorer features",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 12/26]\n(in reply to) User: I think I'll try out Strava first since I'm already familiar w"
+      },
+      {
+        "id": "c64dd4be-414d-49fd-b41d-5cec5c2307d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for using Strava segments",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 13/26]\n(in reply to) User: I think I'll try out Strava first since I'm already familiar w"
+      },
+      {
+        "id": "2eff0ea6-eee0-4ef0-8ae1-e2059ce8f72a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava benefits: motivation, new routes, community, progress tracking",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 14/26]\n(in reply to) User: I think I'll try out Strava first since I'm already familiar w"
+      },
+      {
+        "id": "108ce14b-da5f-4089-937a-e70c3a7c5676",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set up Strava to track three bikes with separate profiles/tags",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 15/26]\nUser: What's the best way to set up my Strava account to track my three bikes, the"
+      },
+      {
+        "id": "acf7d526-3e64-4d51-86a0-3f913c053549",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava: track multiple bikes via bike profiles",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 16/26]\n(in reply to) User: What's the best way to set up my Strava account to track my th"
+      },
+      {
+        "id": "444ed13c-4ed6-432a-915b-a67c3b757f05",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava: use separate bike profiles or tags to track multiple bikes",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 17/26]\n(in reply to) User: What's the best way to set up my Strava account to track my th"
+      },
+      {
+        "id": "5d9b9f4e-55dc-45f1-9e5d-045c855889be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava: track multiple bikes via bike profiles and devices",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 18/26]\n(in reply to) User: What's the best way to set up my Strava account to track my th"
+      },
+      {
+        "id": "0d1ac6ba-ca33-4abb-a060-3054935db300",
+        "score": null,
+        "memory_type": "decision",
+        "title": "User chooses bike profiles method; asks about Strava maintenance tracking",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 19/26]\nUser: I think I'll go with the bike profiles method. It seems like it'll be easier"
+      },
+      {
+        "id": "4a254c69-a4b4-4d24-a62a-9318562ec961",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Using Strava to track bike maintenance via notes/activities",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 20/26]\n(in reply to) User: I think I'll go with the bike profiles method. It seems like i"
+      },
+      {
+        "id": "fa47c7dc-1bbc-4d68-b31e-824cfb3441b3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Using Strava gear items and custom fields for bike maintenance",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 21/26]\n(in reply to) User: I think I'll go with the bike profiles method. It seems like i"
+      },
+      {
+        "id": "05f69393-5a9c-476d-a523-c9e8a720b82e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Bike maintenance tracking apps integrate with Strava",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 22/26]\n(in reply to) User: I think I'll go with the bike profiles method. It seems like i"
+      },
+      {
+        "id": "4bba53c0-ec87-4811-84e2-5b7874c0ad54",
+        "score": null,
+        "memory_type": "task",
+        "title": "Track bike maintenance in Strava Notes",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 23/26]\nUser: What's the best way to track my bike maintenance and servicing using Strava'"
+      },
+      {
+        "id": "d8a7fcb6-3d8c-4e58-ad66-eb133f4e5e8e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Strava notes approach for bike maintenance tracking",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 24/26]\n(in reply to) User: What's the best way to track my bike maintenance and servicing"
+      },
+      {
+        "id": "3acb2dd3-1065-4ca3-be9d-64f3cda23fd4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strava notes: track bike maintenance via bike filters and activities",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 25/26]\n(in reply to) User: What's the best way to track my bike maintenance and servicing"
+      },
+      {
+        "id": "cf37b572-7a9b-4a96-ae8a-fe7591cc82c0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Strava notes approach for bike maintenance tracking",
+        "text": "[date: 2023-07-27T00:32:00+00:00 | context: Session 7e483b885528 - happened on 2023-07-27 00:32:00 UTC. | turn 26/26]\n(in reply to) User: What's the best way to track my bike maintenance and servicing"
+      },
+      {
+        "id": "a32f3bc7-2ee5-4a05-83f1-f5391264e382",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks tips to improve Instagram engagement via hashtags",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 1/23]\nUser: I'm trying to figure out how to increase my engagement on Instagram. I've bee"
+      },
+      {
+        "id": "809d7cfb-9f99-481c-9a6b-dc783660094d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Instagram engagement advice via hashtag tips (2023-07-28)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 2/23]\n(in reply to) User: I'm trying to figure out how to increase my engagement on Insta"
+      },
+      {
+        "id": "d3d49f72-a1ee-4880-b58a-cdebf39ecf82",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Instagram hashtag strategy guidance (niche + broad mix)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 3/23]\n(in reply to) User: I'm trying to figure out how to increase my engagement on Insta"
+      },
+      {
+        "id": "253adb43-c48b-46af-8f70-f71a16c7d540",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram hashtag strategy tips (long-tail, branded, analyze performance)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 4/23]\n(in reply to) User: I'm trying to figure out how to increase my engagement on Insta"
+      },
+      {
+        "id": "806807ad-3acd-4363-8c5d-5c4bd8bb618a",
+        "score": 0.3454,
+        "memory_type": "preference",
+        "title": "Instagram hashtag strategy guidance (niche + consistent + monitor)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 5/23]\n(in reply to) User: I'm trying to figure out how to increase my engagement on Insta"
+      },
+      {
+        "id": "d0a343c8-254e-44f7-bc78-cd4ce4a531f2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for increasing Instagram engagement with hashtags",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 6/23]\n(in reply to) User: I'm trying to figure out how to increase my engagement on Insta"
+      },
+      {
+        "id": "84bc2f3c-87e6-40a5-a4d6-5888c6ab7f13",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag mix struggle for workout posts; asks for smoothie hashtag examples",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 7/23]\nUser: I'm still struggling to find the right mix of hashtags for my workout-related"
+      },
+      {
+        "id": "44b3d50b-1874-44f5-9bb2-f7e61eb55062",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hashtag suggestions for post-workout smoothie posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 8/23]\n(in reply to) User: I'm still struggling to find the right mix of hashtags for my w"
+      },
+      {
+        "id": "093cf9d7-5307-48b6-85bf-784959836c37",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag strategy guidance for workout posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 9/23]\n(in reply to) User: I'm still struggling to find the right mix of hashtags for my w"
+      },
+      {
+        "id": "6b73935b-0196-416d-992b-544e1bb1b133",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag #wellnesswednesday boosted engagement; consider reuse",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 10/23]\nUser: By the way, speaking of #wellnesswednesday, I actually used that hashtag on "
+      },
+      {
+        "id": "4b22b620-c1c3-4b24-a7ab-1e3c940685bd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag suggestion for wellness posts (#wellnesswednesday)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 11/23]\n(in reply to) User: By the way, speaking of #wellnesswednesday, I actually used th"
+      },
+      {
+        "id": "1246953c-0763-4e1f-972f-796de5ad169c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Wellness Wednesday post engagement and smoothie recipe",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 12/23]\n(in reply to) User: By the way, speaking of #wellnesswednesday, I actually used th"
+      },
+      {
+        "id": "12e69459-9238-43d4-9f53-8b2627885099",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag choice for fitness journey posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 13/23]\nUser: I'm thinking of creating a series of posts about my fitness journey, and I w"
+      },
+      {
+        "id": "180f0169-4513-4eaf-8ee5-39d08427244c",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Advice on choosing a consistent fitness journey hashtag",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 14/23]\n(in reply to) User: I'm thinking of creating a series of posts about my fitness jo"
+      },
+      {
+        "id": "6983ec64-173e-4705-8de4-b39124a42b4d",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Advice on choosing fitness journey hashtag",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 15/23]\n(in reply to) User: I'm thinking of creating a series of posts about my fitness jo"
+      },
+      {
+        "id": "ab2ded8d-96d4-4afb-803e-9e0e4e7e4d2d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hashtag strategy for fitness journey posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 16/23]\n(in reply to) User: I'm thinking of creating a series of posts about my fitness jo"
+      },
+      {
+        "id": "43642595-2b49-4368-9a55-86980a40bd66",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Choose branded fitness hashtag #FitWithSarah",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 17/23]\nUser: I think I'll go with creating a branded hashtag, #FitWithSarah, for my fitne"
+      },
+      {
+        "id": "50cb7b75-a5e8-4816-837e-7db82da6ba06",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Chose branded hashtag #FitWithSarah for fitness series",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 18/23]\n(in reply to) User: I think I'll go with creating a branded hashtag, #FitWithSarah"
+      },
+      {
+        "id": "3fec7ea6-5a05-4052-9748-1ef8ce1b441d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to promote branded fitness hashtag #FitWithSarah",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 19/23]\n(in reply to) User: I think I'll go with creating a branded hashtag, #FitWithSarah"
+      },
+      {
+        "id": "bee65fe7-362d-400c-ac56-6fdea0da35f5",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Choose hashtag for hiking trail posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 20/23]\nUser: I'm thinking of creating a series of posts about my favorite hiking trails, "
+      },
+      {
+        "id": "d38605ca-3f7a-4cc2-9713-692527df4f64",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on using branded vs popular hashtags for hiking posts",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 21/23]\n(in reply to) User: I'm thinking of creating a series of posts about my favorite h"
+      },
+      {
+        "id": "bc8d5fe1-9341-4f3d-b0f9-66a29019037e",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Advice on branded vs existing hiking hashtag",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 22/23]\n(in reply to) User: I'm thinking of creating a series of posts about my favorite h"
+      },
+      {
+        "id": "41992a59-f025-4149-9841-6f97b99a063e",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Hashtag strategy for hiking trail series (branded vs popular)",
+        "text": "[date: 2023-07-28T19:17:00+00:00 | context: Session f09b272095e8 - happened on 2023-07-28 19:17:00 UTC. | turn 23/23]\n(in reply to) User: I'm thinking of creating a series of posts about my favorite h"
+      },
+      {
+        "id": "33782e54-7acb-4f89-8476-9241046a4269",
+        "score": null,
+        "memory_type": "task",
+        "title": "Weekend shopping ideas at Sephora",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 1/19]\nUser: I'm trying to plan my weekend shopping trip. Can you give me some ideas on wh"
+      },
+      {
+        "id": "ece92be2-82dc-40c2-83ab-87691d4b2981",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Weekend Sephora shopping ideas (skincare & makeup)",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 2/19]\n(in reply to) User: I'm trying to plan my weekend shopping trip. Can you give me so"
+      },
+      {
+        "id": "037242df-7d2b-4640-831f-475c07597169",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sephora shopping ideas (makeup, fragrances, tools)",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 3/19]\n(in reply to) User: I'm trying to plan my weekend shopping trip. Can you give me so"
+      },
+      {
+        "id": "dc7ed99d-e9ce-47c6-a211-5824ab73b280",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sephora shopping ideas for weekend trip",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 4/19]\n(in reply to) User: I'm trying to plan my weekend shopping trip. Can you give me so"
+      },
+      {
+        "id": "de50a695-86d6-4e1f-b326-389870186d60",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask how to earn Starbucks Rewards stars",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 5/19]\nUser: I'm also thinking of stopping by Starbucks after Sephora. Do you know what's "
+      },
+      {
+        "id": "06383e38-40e8-4639-afcd-d8c3d6461743",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on earning Starbucks Rewards stars",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 6/19]\n(in reply to) User: I'm also thinking of stopping by Starbucks after Sephora. Do yo"
+      },
+      {
+        "id": "736f6c60-8ce6-49b1-87bc-8be4a3086c28",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards ways to earn stars",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 7/19]\n(in reply to) User: I'm also thinking of stopping by Starbucks after Sephora. Do yo"
+      },
+      {
+        "id": "aeaba330-f352-459c-b4da-0d64086c03ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards: birthday reward, referrals, and app offers",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 8/19]\n(in reply to) User: I'm also thinking of stopping by Starbucks after Sephora. Do yo"
+      },
+      {
+        "id": "2d361ca5-bc50-4b38-b84f-198c01c17542",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to maximize Starbucks Rewards star earnings",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 9/19]\n(in reply to) User: I'm also thinking of stopping by Starbucks after Sephora. Do yo"
+      },
+      {
+        "id": "8a8816bd-595b-4492-b4ee-98f6b90be85d",
+        "score": 0.6487,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards Gold requires 300 stars in 12 months",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 10/19]\nUser: I'm trying to reach the gold level on my Starbucks Rewards app, which I know"
+      },
+      {
+        "id": "7426cf7a-2510-4965-a58a-a2ae28f7f3f5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User updates Starbucks stars needed and asks about organizing loyalty cards",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 11/19]\nUser: Actually, I need 120 stars to reach the gold level, not 300. Anyway, thanks "
+      },
+      {
+        "id": "1d9bb21e-8f96-4a3d-ade8-7d2faf457e21",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Starbucks Rewards Gold requires 120 stars",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 12/19]\n(in reply to) User: Actually, I need 120 stars to reach the gold level, not 300. A"
+      },
+      {
+        "id": "a4f22cc4-ccb4-44bb-ba21-dd71e59bdd62",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on organizing Starbucks loyalty cards digitally",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 13/19]\n(in reply to) User: Actually, I need 120 stars to reach the gold level, not 300. A"
+      },
+      {
+        "id": "ddeb66e3-49bd-4dd6-87b1-0369182b4dec",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Websites to track loyalty rewards (AwardWallet, TravelBank)",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 14/19]\n(in reply to) User: Actually, I need 120 stars to reach the gold level, not 300. A"
+      },
+      {
+        "id": "2c11bc22-990a-4e75-b21a-d91ada699a60",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for organizing Starbucks loyalty rewards",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 15/19]\n(in reply to) User: Actually, I need 120 stars to reach the gold level, not 300. A"
+      },
+      {
+        "id": "41f31393-685e-4c8a-a79e-6b2cc86dcbee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about My Best Buy points for a $10 gift card",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 16/19]\nUser: I'm thinking of buying a new laptop, and I've been considering Best Buy's lo"
+      },
+      {
+        "id": "c9a99122-000c-48aa-ba57-37c71c155dd1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "My Best Buy points needed for $10 gift card",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 17/19]\n(in reply to) User: I'm thinking of buying a new laptop, and I've been considering"
+      },
+      {
+        "id": "b017edb3-680d-4874-beaa-b1680bdaf35b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about My Best Buy points for $10 gift card",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 18/19]\n(in reply to) User: I'm thinking of buying a new laptop, and I've been considering"
+      },
+      {
+        "id": "fcfbd278-79a7-4194-ab92-5a43436c4fd6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fetch Rewards: points needed for $10 gift card",
+        "text": "[date: 2023-07-30T02:08:00+00:00 | context: Session e2c57ccbba90 - happened on 2023-07-30 02:08:00 UTC. | turn 19/19]\nUser: Can you also tell me how many points I need to redeem a $10 gift card on Fet"
+      }
+    ]
+  },
+  "context": {
+    "chars": 100363,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25090)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 27297,
+    "prompt_tokens": 25285,
+    "completion_tokens": 415,
+    "reasoning_tokens": 1597,
+    "generate_time_ms": 21383.38774407748,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23456,
+        "completion_tokens": 166,
+        "reasoning_tokens": 657,
+        "total_tokens": 24279
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 633,
+        "completion_tokens": 62,
+        "reasoning_tokens": 378,
+        "total_tokens": 1073
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 441,
+        "completion_tokens": 62,
+        "reasoning_tokens": 257,
+        "total_tokens": 760
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 755,
+        "completion_tokens": 125,
+        "reasoning_tokens": 305,
+        "total_tokens": 1185
+      }
+    ]
+  },
+  "failure_label": null
+}

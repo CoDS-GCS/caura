@@ -1,0 +1,1408 @@
+{
+  "question_id": "0a995998",
+  "question_type": "multi-session",
+  "question": "How many items of clothing do I need to pick up or return from a store?",
+  "gold_answer": "3",
+  "prediction": "Based on the details provided, here are the items you mentioned needing to pick up or return:\n\n* **Boots from Zara:** You need to pick up the new pair in a larger size and return the old pair.\n* **Navy blue blazer from the dry cleaner:** You need to pick up this blazer from dry cleaning.\n\nDepending on how the categories are defined:\n* If counting wearable items across both stores and cleaners, there are **2 items total** (1 pair of boots/footwear from Zara and 1 clothing item\u2014the navy blue blazer\u2014from the dry cleaner).\n* If strictly distinguishing clothing from footwear, or a retail store from a dry cleaner, there is **1 pair of boots/footwear** to pick up/return from a store, and **1 clothing item** to pick up from the dry cleaner.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": false,
+      "reason": "no"
+    }
+  },
+  "memories": {
+    "count": 885,
+    "by_type": {
+      "plan": 33,
+      "preference": 145,
+      "action": 2,
+      "task": 59,
+      "episode": 155,
+      "fact": 491
+    },
+    "by_status": {
+      "active": 884,
+      "outdated": 1
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2604555,
+    "output_tokens": 125670,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many items of clothing do I need to pick up or return from a store?"
+    ],
+    "retrieve_time_ms": 1359.4766149763018,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "7021e211-1ef6-4a32-ba7b-ba9d2f2679d3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for eco-friendly grocery storage and maintenance tips",
+        "text": "[date: 2023-02-15T03:14:00+00:00 | context: Session e6d33cb7cede - happened on 2023-02-15 03:14:00 UTC. | turn 1/5]\nUser: Can you provide any tips on how to properly store and maintain the eco-friendl"
+      },
+      {
+        "id": "e86326a8-afee-425a-af34-66c47d795d53",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance tips for eco-friendly grocery items",
+        "text": "[date: 2023-02-15T03:14:00+00:00 | context: Session e6d33cb7cede - happened on 2023-02-15 03:14:00 UTC. | turn 2/5]\n(in reply to) User: Can you provide any tips on how to properly store and maintain t"
+      },
+      {
+        "id": "d866c9e6-395c-4863-83bb-a3733830f7ef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Maintenance tip for metal straws",
+        "text": "[date: 2023-02-15T03:14:00+00:00 | context: Session e6d33cb7cede - happened on 2023-02-15 03:14:00 UTC. | turn 3/5]\n(in reply to) User: Can you provide any tips on how to properly store and maintain t"
+      },
+      {
+        "id": "0ab41b0c-6188-45d5-be26-c84bba6c8f7d",
+        "score": 0.4133,
+        "memory_type": "fact",
+        "title": "Disposal guidelines for eco-friendly items",
+        "text": "[date: 2023-02-15T03:14:00+00:00 | context: Session e6d33cb7cede - happened on 2023-02-15 03:14:00 UTC. | turn 4/5]\nUser: Do you have any advice for properly disposing of these eco-friendly options wh"
+      },
+      {
+        "id": "68df1e82-4e63-4306-8141-774d96bab9bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General waste reduction tips",
+        "text": "[date: 2023-02-15T03:14:00+00:00 | context: Session e6d33cb7cede - happened on 2023-02-15 03:14:00 UTC. | turn 5/5]\nUser: I'm going to start being more mindful of how I store and dispose of my eco-fri"
+      },
+      {
+        "id": "021f12ce-f6c9-434e-b102-582d9e89cecb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Closet organization and dry cleaning errand",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 1/27]\nUser: I need help organizing my closet. Can you give me some tips on how to declutt"
+      },
+      {
+        "id": "06363ae1-388c-4f63-a8a7-1aeebf81af68",
+        "score": null,
+        "memory_type": "task",
+        "title": "Pick up dry cleaning",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 2/27]\n(in reply to) User: I need help organizing my closet. Can you give me some tips on "
+      },
+      {
+        "id": "884dfa08-fe8c-4b1a-ae8d-93d6e2100078",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Closet decluttering and organization tips",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 3/27]\n(in reply to) User: I need help organizing my closet. Can you give me some tips on "
+      },
+      {
+        "id": "eac97d65-9d6f-4d04-9b19-ad66b7ae56ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Closet organization and decluttering tips",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 4/27]\n(in reply to) User: I need help organizing my closet. Can you give me some tips on "
+      },
+      {
+        "id": "73bcd281-9f18-4338-a995-e72f807c70a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Closet organization tips",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 5/27]\n(in reply to) User: I need help organizing my closet. Can you give me some tips on "
+      },
+      {
+        "id": "51e162f6-2d95-49f6-bc03-0fabb64e445c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Decluttering clothes task",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 6/27]\nUser: That's a lot of tips! Thanks for the help. I'm going to start with declutteri"
+      },
+      {
+        "id": "5e6792aa-9468-4c19-b2d1-61fecbb5450d",
+        "score": 0.4641,
+        "memory_type": "fact",
+        "title": "Criteria for decluttering clothes",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 7/27]\n(in reply to) User: That's a lot of tips! Thanks for the help. I'm going to start w"
+      },
+      {
+        "id": "bf02a743-b5e2-49cd-bf18-a3d5ad051dd6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for decluttering clothes",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 8/27]\n(in reply to) User: That's a lot of tips! Thanks for the help. I'm going to start w"
+      },
+      {
+        "id": "070cf052-f35d-41a4-b913-714fe41f4985",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for decluttering clothes",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 9/27]\n(in reply to) User: That's a lot of tips! Thanks for the help. I'm going to start w"
+      },
+      {
+        "id": "748f31e8-0d1f-4fda-8375-22a3785c6672",
+        "score": null,
+        "memory_type": "task",
+        "title": "Decluttering clothes project",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 10/27]\n(in reply to) User: That's a lot of tips! Thanks for the help. I'm going to start "
+      },
+      {
+        "id": "ffffe4d0-159b-425a-b0da-966223f37ea9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize dresser drawers",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 11/27]\nUser: I'll start with my tops. I've got a bunch of them, and I know there are some"
+      },
+      {
+        "id": "bca936aa-d21a-4444-b4ea-9dab58fe328c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing dresser drawers",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 12/27]\n(in reply to) User: I'll start with my tops. I've got a bunch of them, and I know "
+      },
+      {
+        "id": "f87b2888-0072-410c-8ac6-19e9ede8bce0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing dresser drawers",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 13/27]\n(in reply to) User: I'll start with my tops. I've got a bunch of them, and I know "
+      },
+      {
+        "id": "eac6e582-b8f9-4327-934b-8d84c94498b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing dresser drawers",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 14/27]\n(in reply to) User: I'll start with my tops. I've got a bunch of them, and I know "
+      },
+      {
+        "id": "6839081a-9118-4593-a263-98804feea13b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Clothing organization and decluttering advice",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 15/27]\n(in reply to) User: I'll start with my tops. I've got a bunch of them, and I know "
+      },
+      {
+        "id": "2cd85ed7-68f3-4a3d-be58-b6765cb39aa2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Uncertainty regarding short-sleeve shirt usage",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 16/27]\nUser: I'll start with my short-sleeve shirts. I've got a lot of them, and some of "
+      },
+      {
+        "id": "cdc430af-9313-4728-9680-086c5f30d083",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for evaluating short-sleeve shirts",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 17/27]\n(in reply to) User: I'll start with my short-sleeve shirts. I've got a lot of them"
+      },
+      {
+        "id": "b8fa136b-335d-4278-b999-02bbd6f326aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for decluttering short-sleeve shirts",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 18/27]\n(in reply to) User: I'll start with my short-sleeve shirts. I've got a lot of them"
+      },
+      {
+        "id": "83c46ca3-233d-4789-862a-57e7c5bcd176",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wardrobe preferences and clothing care",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 19/27]\nUser: I'm making progress, but I still have a lot to sort through. I'm thinking ab"
+      },
+      {
+        "id": "664273f1-9c4f-4987-a393-ad83b0fa2970",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for black jeans",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 20/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "68726592-3326-4c5e-b8cb-7dd0fb8c011d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wardrobe management and styling advice",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 21/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "cf61c1f9-d6fd-41bc-a798-b670967548c0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on personal wardrobe and decluttering",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 22/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "c7a2ccc8-f725-4c45-ba26-f751dab32c38",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for navy blue blazer",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 23/27]\nUser: I'm making progress, but I still have a lot to sort through. I think I'll ta"
+      },
+      {
+        "id": "deab7777-d5b6-4ad5-af0a-778619919a4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for a navy blue blazer",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 24/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "274ecfaa-e04a-40c4-8002-ae480fb6a40a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Blazer care instructions",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 25/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "87522ae0-ac93-4858-9b28-bab50356cf3d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for a navy blue blazer",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 26/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "c318a01e-3cf3-4395-a5b4-5b4ce30c86b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Blazer maintenance tips",
+        "text": "[date: 2023-02-15T06:30:00+00:00 | context: Session 8163727bf9dc - happened on 2023-02-15 06:30:00 UTC. | turn 27/27]\n(in reply to) User: I'm making progress, but I still have a lot to sort through. I"
+      },
+      {
+        "id": "a6476fb1-0563-407b-b031-6fbe81b99671",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly cleaning routine and bookshelf organization",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 1/29]\nUser: I'm looking for some tips on organizing my bookshelf. I just did a deep clean"
+      },
+      {
+        "id": "1116c88f-9171-45bc-92e0-65564ad3aed4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User commitment to weekly deep cleaning",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some tips on organizing my bookshelf. I just di"
+      },
+      {
+        "id": "2d52aa09-c483-4996-a387-cf72ffa58a2b",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Bookshelf organization strategy",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some tips on organizing my bookshelf. I just di"
+      },
+      {
+        "id": "5568a887-e664-4560-9e43-d01d9a38c5d0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bookshelf organization tips",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some tips on organizing my bookshelf. I just di"
+      },
+      {
+        "id": "1b83ef6a-caae-42db-ab2a-2b849ddea22f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Weekly bookshelf maintenance task",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some tips on organizing my bookshelf. I just di"
+      },
+      {
+        "id": "e2f08c3b-3b95-43e1-9de8-588ee22951d4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for bookshelf organization and cleaning",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 6/29]\n(in reply to) User: I'm looking for some tips on organizing my bookshelf. I just di"
+      },
+      {
+        "id": "76a1fd25-35d0-41e9-8f5c-e46b42e1d006",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for organizational categorization",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 7/29]\nUser: I like the idea of categorizing and assigning a home for each category. But h"
+      },
+      {
+        "id": "070628c0-0ed5-4a8a-80d6-b32a75cd9d05",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for decluttering sentimental items",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 8/29]\n(in reply to) User: I like the idea of categorizing and assigning a home for each c"
+      },
+      {
+        "id": "7e6f574d-468a-45b6-aa56-43cc2e6e135a",
+        "score": 0.4058,
+        "memory_type": "fact",
+        "title": "Guidelines for decluttering books",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 9/29]\n(in reply to) User: I like the idea of categorizing and assigning a home for each c"
+      },
+      {
+        "id": "3ee20e5e-7f96-4e17-86d5-e76b5c4deb30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guideline for decluttering books",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 10/29]\n(in reply to) User: I like the idea of categorizing and assigning a home for each "
+      },
+      {
+        "id": "8becd139-3ee9-4cab-9183-4e431633893e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for digitizing book-related memories",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 11/29]\nUser: I like the idea of taking a photo of the book cover and writing down the mem"
+      },
+      {
+        "id": "0881014e-944c-4ace-89e6-50b692e736c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative organization methods for book memories",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 12/29]\n(in reply to) User: I like the idea of taking a photo of the book cover and writin"
+      },
+      {
+        "id": "9d65d18f-2dd9-483b-9cc5-d9fc131f87b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative ways to organize and display book memories",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 13/29]\n(in reply to) User: I like the idea of taking a photo of the book cover and writin"
+      },
+      {
+        "id": "711380b2-2195-4b67-aec7-ca4ffb8ebf40",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative ways to preserve book-related memories",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 14/29]\n(in reply to) User: I like the idea of taking a photo of the book cover and writin"
+      },
+      {
+        "id": "7c6128b5-a17b-437b-92d3-074369181b2b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative memory organization: Story Jar",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 15/29]\n(in reply to) User: I like the idea of taking a photo of the book cover and writin"
+      },
+      {
+        "id": "4c8b690f-b1e7-4e57-83fe-7012142dfd5e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for digital book memory preservation",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 16/29]\n(in reply to) User: I like the idea of taking a photo of the book cover and writin"
+      },
+      {
+        "id": "8db7e770-fe3f-4392-b00c-a0672596a267",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in Book Memory Wall design",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 17/29]\nUser: I like the idea of the Book Memory Wall. I have a lot of wall space in my li"
+      },
+      {
+        "id": "5adb0a59-4f2f-4dfd-875d-9850a38f9e24",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Design tips for a Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 18/29]\n(in reply to) User: I like the idea of the Book Memory Wall. I have a lot of wall "
+      },
+      {
+        "id": "fa4e4c61-0122-421a-b646-7a1086d9dd72",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for designing a Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 19/29]\n(in reply to) User: I like the idea of the Book Memory Wall. I have a lot of wall "
+      },
+      {
+        "id": "d3370280-080b-4577-ba92-a4d7b0c8a4e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Design tips for a Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 20/29]\n(in reply to) User: I like the idea of the Book Memory Wall. I have a lot of wall "
+      },
+      {
+        "id": "e972907d-ea68-4b8b-b3c6-85cb0a7f5bbb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for Book Memory Wall design",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 21/29]\n(in reply to) User: I like the idea of the Book Memory Wall. I have a lot of wall "
+      },
+      {
+        "id": "e572f39d-4ab5-40f3-bb22-53923b037cb1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Design tips for a Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 22/29]\n(in reply to) User: I like the idea of the Book Memory Wall. I have a lot of wall "
+      },
+      {
+        "id": "68da7463-07d0-403e-9932-7b25fd951041",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for staggered layout in Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 23/29]\nUser: I'm thinking of creating a staggered layout for my Book Memory Wall. I like "
+      },
+      {
+        "id": "0ddf221f-e292-4ec4-aab1-53ae2608e268",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for creating a staggered layout for a Book Memory Wall",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 24/29]\n(in reply to) User: I'm thinking of creating a staggered layout for my Book Memory"
+      },
+      {
+        "id": "ca0ea833-d89f-4afe-ab69-439641e53ecb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for creating a staggered book memory wall layout",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 25/29]\n(in reply to) User: I'm thinking of creating a staggered layout for my Book Memory"
+      },
+      {
+        "id": "26c9f35b-48d5-4407-824f-c85fe4c9e3be",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Aesthetic guidance for staggered Book Memory Wall layout",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 26/29]\n(in reply to) User: I'm thinking of creating a staggered layout for my Book Memory"
+      },
+      {
+        "id": "e74f06b1-3fae-4437-8b15-e91e05da1007",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for creating a staggered gallery wall layout",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 27/29]\n(in reply to) User: I'm thinking of creating a staggered layout for my Book Memory"
+      },
+      {
+        "id": "dae72e32-19ae-4dd0-90f5-27c51cf5babc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Design tips for staggered wall layouts",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 28/29]\n(in reply to) User: I'm thinking of creating a staggered layout for my Book Memory"
+      },
+      {
+        "id": "eb131339-a1a6-4cf1-97d2-ca27c495d1c8",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Bookshelf organization plan",
+        "text": "[date: 2023-02-15T09:28:00+00:00 | context: Session 542d5c5ddbb0 - happened on 2023-02-15 09:28:00 UTC. | turn 29/29]\nUser: Let's focus on organizing your bookshelf. What's the next step you'd like to"
+      },
+      {
+        "id": "07995677-2d91-4813-abb4-3fe58344e716",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize closet",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 1/24]\nUser: I'm looking for some organization tips for my closet. It's been a mess since "
+      },
+      {
+        "id": "4c03aaaf-478f-41b1-886f-c55e39100189",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User closet organization inquiry",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some organization tips for my closet. It's been"
+      },
+      {
+        "id": "e3883db0-66df-40d7-9f4a-618c53a9d2ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Closet organization tips",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some organization tips for my closet. It's been"
+      },
+      {
+        "id": "45bd6cfb-3ded-40b3-9237-0d5627e59fd1",
+        "score": 0.4159,
+        "memory_type": "fact",
+        "title": "Closet organization tips",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some organization tips for my closet. It's been"
+      },
+      {
+        "id": "57c3df11-1e59-460e-aa52-faf77568eff6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Closet maintenance task",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 5/24]\n(in reply to) User: I'm looking for some organization tips for my closet. It's been"
+      },
+      {
+        "id": "6ae20b28-7454-4a1a-95ef-928b68c6d036",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for storing winter clothing",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 6/24]\n(in reply to) User: I'm looking for some organization tips for my closet. It's been"
+      },
+      {
+        "id": "a116b246-9e3c-47fe-9038-d37188b5ae0c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outfit suggestion for outdoor concert",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 7/24]\nUser: I'm also trying to decide what to wear to an outdoor concert this weekend. I "
+      },
+      {
+        "id": "d6471508-e080-41c0-af9f-c50a8b84858f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation about concert outfit planning",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 8/24]\n(in reply to) User: I'm also trying to decide what to wear to an outdoor concert th"
+      },
+      {
+        "id": "907691f8-d32a-4fd8-b79f-2f270878a530",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Style advice for outdoor concert",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 9/24]\n(in reply to) User: I'm also trying to decide what to wear to an outdoor concert th"
+      },
+      {
+        "id": "405a5ce0-7f4e-48b9-b56f-d4074758a43b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User clothing style preferences for outdoor concert",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 10/24]\n(in reply to) User: I'm also trying to decide what to wear to an outdoor concert t"
+      },
+      {
+        "id": "c750a97c-de83-425a-9f44-4b1e378b2b4a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User clothing preference: yellow sundress",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 11/24]\nUser: I was thinking of wearing my yellow sundress to the concert, but I'm not sur"
+      },
+      {
+        "id": "65d6479c-348f-41d4-b322-5964683f9abc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User clothing preference: yellow sundress",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 12/24]\n(in reply to) User: I was thinking of wearing my yellow sundress to the concert, b"
+      },
+      {
+        "id": "9e66cb63-c02c-4744-a2ff-75d2550e2370",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Style advice for concert outfit",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 13/24]\n(in reply to) User: I was thinking of wearing my yellow sundress to the concert, b"
+      },
+      {
+        "id": "f486a325-2492-42c1-8c5f-eadffe20f53d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Zara boot exchange status",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 14/24]\nUser: I need to return some boots to Zara, actually. I got them on February 5th, b"
+      },
+      {
+        "id": "23bcc635-9fc4-4b82-b207-3894c3f3e51c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Laundry task: preventing lost socks",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 15/24]\nUser: I'm also planning to do a load of laundry this weekend, do you have any tips"
+      },
+      {
+        "id": "2b2dbdb5-0ab8-4814-8b68-2d846a6087cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for preventing lost socks in laundry",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 16/24]\n(in reply to) User: I'm also planning to do a load of laundry this weekend, do you"
+      },
+      {
+        "id": "33e099d7-4f22-4f26-9611-b28c0dd05c7c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for preventing lost socks in laundry",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 17/24]\n(in reply to) User: I'm also planning to do a load of laundry this weekend, do you"
+      },
+      {
+        "id": "5bd984af-743c-4233-b912-472ecff20424",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laundry tips for preventing lost socks",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 18/24]\n(in reply to) User: I'm also planning to do a load of laundry this weekend, do you"
+      },
+      {
+        "id": "2cf7143e-54d5-40ba-b396-6a1a57b9bc6d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Laundry tips for preventing lost socks",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 19/24]\n(in reply to) User: I'm also planning to do a load of laundry this weekend, do you"
+      },
+      {
+        "id": "701b945d-2e0c-4b02-abe7-1f6c5402f281",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Care preference for yoga pants",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 20/24]\nUser: I also need to wash my favourite yoga pants, which I wore to the gym last Th"
+      },
+      {
+        "id": "db18192c-9ad3-4826-b4e0-c9ba1c2c76fd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for yoga pants",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 21/24]\n(in reply to) User: I also need to wash my favourite yoga pants, which I wore to t"
+      },
+      {
+        "id": "2a74ff50-fdf9-45b5-b2d3-2e80b20ce2ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for yoga pants",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 22/24]\n(in reply to) User: I also need to wash my favourite yoga pants, which I wore to t"
+      },
+      {
+        "id": "2f44a9f1-67ff-48ea-af41-aad705918262",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care instructions for yoga pants",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 23/24]\n(in reply to) User: I also need to wash my favourite yoga pants, which I wore to t"
+      },
+      {
+        "id": "d0533f74-42d2-491e-9a7a-9365c886e8af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Care tips for yoga pants",
+        "text": "[date: 2023-02-15T11:13:00+00:00 | context: Session 507676110d47 - happened on 2023-02-15 11:13:00 UTC. | turn 24/24]\n(in reply to) User: I also need to wash my favourite yoga pants, which I wore to t"
+      },
+      {
+        "id": "c8c00953-d8bc-4a8c-995e-1798a277f7d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sewing space organization and DMC floss delivery",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 1/29]\nUser: I'm looking for some tips on organizing my sewing space. I've been working on"
+      },
+      {
+        "id": "f109e6fe-f45e-498f-87d3-56716b75fd92",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User received DMC floss order",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some tips on organizing my sewing space. I've b"
+      },
+      {
+        "id": "f304b9be-255a-4fa3-a62b-1a0fd3428b19",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing space organization tips",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some tips on organizing my sewing space. I've b"
+      },
+      {
+        "id": "c7f6ef11-ce86-45c5-9a1b-e2fd20ce5675",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing space organization tips",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some tips on organizing my sewing space. I've b"
+      },
+      {
+        "id": "593c0d61-7b83-4c08-86c3-eb966470dd7f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User sewing space organization and supplies",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some tips on organizing my sewing space. I've b"
+      },
+      {
+        "id": "d590054e-129b-4938-972b-0ae1f13b85e3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for organized craft supplies",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 6/29]\nUser: I think the thread organization system is a great idea. I've already sorted m"
+      },
+      {
+        "id": "02952d11-cd43-4448-acff-c623ddbeb019",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing fabric stash",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 7/29]\n(in reply to) User: I think the thread organization system is a great idea. I've al"
+      },
+      {
+        "id": "0753d176-c949-433d-a247-939b5b8b1ee2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fabric organization and categorization methods",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 8/29]\n(in reply to) User: I think the thread organization system is a great idea. I've al"
+      },
+      {
+        "id": "75378af1-3024-4277-8a55-879ca7019b46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fabric storage and organization guidelines",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 9/29]\n(in reply to) User: I think the thread organization system is a great idea. I've al"
+      },
+      {
+        "id": "29b569c8-cd76-4d06-be70-8f2fff211a0d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fabric and scrap storage solutions",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 10/29]\n(in reply to) User: I think the thread organization system is a great idea. I've a"
+      },
+      {
+        "id": "63bcfb35-86d6-428e-b8c8-08d14c528339",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fabric and sewing collection organization preferences",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 11/29]\nUser: I like the idea of sorting my fabrics by color, type, and value. I also thin"
+      },
+      {
+        "id": "7207aabd-0a34-4458-aa47-62f1c80cbe4e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for fabric organization",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 12/29]\n(in reply to) User: I like the idea of sorting my fabrics by color, type, and valu"
+      },
+      {
+        "id": "b6f789ea-18d4-43ec-9258-daff6d4af1e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing book organization guidelines",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 13/29]\n(in reply to) User: I like the idea of sorting my fabrics by color, type, and valu"
+      },
+      {
+        "id": "a1f9cbf8-4b76-44b6-bfdb-0231e72ca8d3",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Fabric and pattern organization strategy",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 14/29]\n(in reply to) User: I like the idea of sorting my fabrics by color, type, and valu"
+      },
+      {
+        "id": "7d1cf7e8-1129-497e-96b0-d98880905a59",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for digitizing fabric patterns",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 15/29]\n(in reply to) User: I like the idea of sorting my fabrics by color, type, and valu"
+      },
+      {
+        "id": "d3945859-b986-4173-befa-9f3af7170d22",
+        "score": 0.4201,
+        "memory_type": "preference",
+        "title": "Fabric and sewing resource organization preferences",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 16/29]\n(in reply to) User: I like the idea of sorting my fabrics by color, type, and valu"
+      },
+      {
+        "id": "066d3f68-5751-4bb8-a269-f9e16e0d0edd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sewing pattern and notions organization preferences",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 17/29]\nUser: I'm thinking of organizing my sewing patterns by type, and then storing them"
+      },
+      {
+        "id": "c74e62c3-8a03-431d-b16a-87dc78daedc0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing notions organization guide",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 18/29]\n(in reply to) User: I'm thinking of organizing my sewing patterns by type, and the"
+      },
+      {
+        "id": "69720f91-be84-41c9-baed-f6f016949d41",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for organizing sewing zippers",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 19/29]\n(in reply to) User: I'm thinking of organizing my sewing patterns by type, and the"
+      },
+      {
+        "id": "e0081d5c-8821-4a50-97cb-54fe98a60902",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Organization strategies for sewing threads and notions",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 20/29]\n(in reply to) User: I'm thinking of organizing my sewing patterns by type, and the"
+      },
+      {
+        "id": "4ac3e23d-6a2c-47f9-81d9-c5439eea11ef",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sewing notions organization advice",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 21/29]\n(in reply to) User: I'm thinking of organizing my sewing patterns by type, and the"
+      },
+      {
+        "id": "5d745ad9-4a1e-4437-9d32-e5b3459e21f5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Sewing space organization plan",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 22/29]\nUser: I think I'll organize my buttons by type and size, and store them in a dedic"
+      },
+      {
+        "id": "31bc927a-8425-4f73-8dcf-6b4e9c46a056",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User sewing space organization preferences",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 23/29]\n(in reply to) User: I think I'll organize my buttons by type and size, and store t"
+      },
+      {
+        "id": "351b7c64-d34f-4653-9091-ecfb543569c3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User sewing organization preferences",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 24/29]\n(in reply to) User: I think I'll organize my buttons by type and size, and store t"
+      },
+      {
+        "id": "dad6f262-c4de-47c8-9350-da3dda7e8885",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organizing sewing machine accessories",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 25/29]\nUser: I'm thinking of organizing my sewing machine accessories, like presser feet "
+      },
+      {
+        "id": "a6573738-3995-4e9f-becf-feb215b2c7cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing machine accessory storage suggestions",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 26/29]\n(in reply to) User: I'm thinking of organizing my sewing machine accessories, like"
+      },
+      {
+        "id": "5c30f5e1-1aa7-4370-a674-641387bd9638",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Storage suggestions for sewing machine accessories",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 27/29]\n(in reply to) User: I'm thinking of organizing my sewing machine accessories, like"
+      },
+      {
+        "id": "bd86e4d8-7b8a-4bc1-a8c3-c2a87dcec3e0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing machine needle storage suggestions",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 28/29]\n(in reply to) User: I'm thinking of organizing my sewing machine accessories, like"
+      },
+      {
+        "id": "599bf99d-2101-4ed3-bf11-44ed8493eb56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sewing machine accessory storage tips",
+        "text": "[date: 2023-02-15T11:31:00+00:00 | context: Session 5ff0b50325ba - happened on 2023-02-15 11:31:00 UTC. | turn 29/29]\n(in reply to) User: I'm thinking of organizing my sewing machine accessories, like"
+      },
+      {
+        "id": "7fbc340c-7a8e-468a-acb5-b89692b95c87",
+        "score": null,
+        "memory_type": "task",
+        "title": "Decide shipping options for sustainable e-commerce store",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 1/32]\nUser: I'm looking into starting an online business, specifically an e-commerce stor"
+      },
+      {
+        "id": "18229639-5e6d-4827-ad9d-084e3127a2a7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about starting sustainable e-commerce; assistant offered shipping hel",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 2/32]\n(in reply to) User: I'm looking into starting an online business, specifically an e"
+      },
+      {
+        "id": "1a3b96d3-d2e3-4b24-a7e3-8b0f4d9bd8d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Asked user questions about sustainable e-commerce store setup",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 3/32]\n(in reply to) User: I'm looking into starting an online business, specifically an e"
+      },
+      {
+        "id": "08ab8394-032d-40d5-9330-2695045f094a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Eco-friendly home goods: target audience and shipping approach",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 4/32]\nUser: I'll be selling eco-friendly home goods, and my target audience is mainly nat"
+      },
+      {
+        "id": "b828af60-f758-4d11-aa19-8bb67ba032b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests free-shipping strategy and carrier options",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 5/32]\n(in reply to) User: I'll be selling eco-friendly home goods, and my target audience"
+      },
+      {
+        "id": "b12bb093-8d42-4369-9d7f-d1c1100ea794",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shipping carrier comparison for eco-friendly home goods",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 6/32]\n(in reply to) User: I'll be selling eco-friendly home goods, and my target audience"
+      },
+      {
+        "id": "bb04ebf6-8873-4805-9253-d66659c95b3f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shipping strategy suggestions for eco-friendly home goods",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 7/32]\n(in reply to) User: I'll be selling eco-friendly home goods, and my target audience"
+      },
+      {
+        "id": "915723a6-bbc9-4762-8028-ca0c14f1e5c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance for eco-friendly home goods shipping strategy",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 8/32]\n(in reply to) User: I'll be selling eco-friendly home goods, and my target audience"
+      },
+      {
+        "id": "cd6d750d-2e82-49e1-a53f-b492bf56b902",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about USPS Priority Mail for eco-friendly home goods shipping",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 9/32]\n(in reply to) User: I'll be selling eco-friendly home goods, and my target audience"
+      },
+      {
+        "id": "912498df-c872-49fb-a77c-096a6cc1e0c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about USPS Priority Mail and returns/refunds setup",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 10/32]\nUser: I think USPS Priority Mail could be a good option. I'll definitely look into"
+      },
+      {
+        "id": "77496549-4b13-4a00-8d7f-01197afa4339",
+        "score": null,
+        "memory_type": "fact",
+        "title": "E-commerce guidance: USPS Priority Mail and returns/refunds tips",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 11/32]\n(in reply to) User: I think USPS Priority Mail could be a good option. I'll defini"
+      },
+      {
+        "id": "3a9e33d9-dcde-4a06-a977-973f78752b9a",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Returns policy and process outline",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 12/32]\n(in reply to) User: I think USPS Priority Mail could be a good option. I'll defini"
+      },
+      {
+        "id": "b4a07a24-ab24-4889-8e26-906cf7bf6498",
+        "score": 0.3857,
+        "memory_type": "fact",
+        "title": "Guidance for returns shipping labels, refunds, and returns tech",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 13/32]\n(in reply to) User: I think USPS Priority Mail could be a good option. I'll defini"
+      },
+      {
+        "id": "14198fcf-93b9-4e34-b7b0-e45aa4de6761",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: returns and refunds options",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 14/32]\n(in reply to) User: I think USPS Priority Mail could be a good option. I'll defini"
+      },
+      {
+        "id": "100deb7e-120f-4286-81fa-c9a415b36f47",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for advice on customer service inquiry handling",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 15/32]\nUser: I think that's a good starting point. I'll definitely look into returns mana"
+      },
+      {
+        "id": "1130877c-85f0-47c7-bb2f-63aea84daec7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on returns management and customer service setup",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 16/32]\n(in reply to) User: I think that's a good starting point. I'll definitely look int"
+      },
+      {
+        "id": "d4b3bba6-7073-4aad-a4dc-46142b399ea8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer service software and process setup guidance",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 17/32]\n(in reply to) User: I think that's a good starting point. I'll definitely look int"
+      },
+      {
+        "id": "b40212f5-316e-4c15-8068-47fb306a21e0",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Customer service inquiry handling plan (resource section, SLAs, templates)",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 18/32]\n(in reply to) User: I think that's a good starting point. I'll definitely look int"
+      },
+      {
+        "id": "f941e0fd-f82b-4b1c-ada3-9cf70549c036",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Collect and analyze customer feedback for improvements",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 19/32]\n(in reply to) User: I think that's a good starting point. I'll definitely look int"
+      },
+      {
+        "id": "d7db2151-5cf5-4727-9273-e1367b69c5e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer service system strategies (dashboard, tagging, workflows, tracking)",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 20/32]\n(in reply to) User: I think that's a good starting point. I'll definitely look int"
+      },
+      {
+        "id": "42aa0e81-ad97-49be-b314-a9801370feec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for advice on customer service software and store metrics",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 21/32]\nUser: I'll definitely look into customer service software and designate a team to "
+      },
+      {
+        "id": "5ddf6bac-f16c-4c03-8f73-31f97de78561",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided guidance on online store success metrics",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 22/32]\n(in reply to) User: I'll definitely look into customer service software and design"
+      },
+      {
+        "id": "5eaf3de8-db1d-4a5f-9b78-07a29b7f50b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer service software + analytics/metrics guidance",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 23/32]\n(in reply to) User: I'll definitely look into customer service software and design"
+      },
+      {
+        "id": "1827c802-ec6b-4710-9e1a-e09ef4b42b51",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customer satisfaction, marketing, and operational metrics list",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 24/32]\n(in reply to) User: I'll definitely look into customer service software and design"
+      },
+      {
+        "id": "fff4eb94-728b-4909-a49b-02c190df6245",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Steps to set up tracking (GA, CRM, marketing, dashboards)",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 25/32]\n(in reply to) User: I'll definitely look into customer service software and design"
+      },
+      {
+        "id": "82c91e2f-800f-4e14-a9de-f1d833c3db7c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about customer service software and analytics",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 26/32]\n(in reply to) User: I'll definitely look into customer service software and design"
+      },
+      {
+        "id": "bb4044ba-25d9-4e91-9c1d-412d08375652",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for advice on content marketing strategy",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 27/32]\nUser: I think I'm starting to get a better grasp on how to measure the success of "
+      },
+      {
+        "id": "564a707d-3b5f-4638-b96c-44f0ac61bd5b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided tips on content marketing strategy",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 28/32]\n(in reply to) User: I think I'm starting to get a better grasp on how to measure t"
+      },
+      {
+        "id": "f9610973-3d9e-438e-a0b7-573cee5ba791",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Content marketing strategy components (mission, types, distribution)",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 29/32]\n(in reply to) User: I think I'm starting to get a better grasp on how to measure t"
+      },
+      {
+        "id": "af8c4f8f-4431-4de4-b519-6ea8bc5b9115",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Content marketing strategy components (calendar, promotion, measurement)",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 30/32]\n(in reply to) User: I think I'm starting to get a better grasp on how to measure t"
+      },
+      {
+        "id": "6557a286-4457-49b5-aa97-6fa191964a79",
+        "score": null,
+        "memory_type": "task",
+        "title": "Adjust content strategy using data-driven insights",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 31/32]\n(in reply to) User: I think I'm starting to get a better grasp on how to measure t"
+      },
+      {
+        "id": "4c635354-0407-4122-960d-3945d530118d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on creating a content marketing strategy",
+        "text": "[date: 2023-02-15T13:21:00+00:00 | context: Session 30136fab9816 - happened on 2023-02-15 13:21:00 UTC. | turn 32/32]\n(in reply to) User: I think I'm starting to get a better grasp on how to measure t"
+      },
+      {
+        "id": "2e65fbb2-6b82-49cb-8a8f-be3f367d123d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Differences between comic book formats (single issues, TPBs, HCs, omnibuses)",
+        "text": "[date: 2023-02-15T15:24:00+00:00 | context: Session 18dc3c4ab1f3 - happened on 2023-02-15 15:24:00 UTC. | turn 15/29]\n(in reply to) User: I'm interested in learning more about the different formats of"
+      },
+      {
+        "id": "bc3e7945-65d4-4cc3-8c57-e2807711c2e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on comic book formats (single issues, TPBs, HCs/omnibuses, digital)",
+        "text": "[date: 2023-02-15T15:24:00+00:00 | context: Session 18dc3c4ab1f3 - happened on 2023-02-15 15:24:00 UTC. | turn 16/29]\n(in reply to) User: I'm interested in learning more about the different formats of"
+      },
+      {
+        "id": "d6746d80-fe73-46f3-9d87-7db7a89ff286",
+        "score": 0.3745,
+        "memory_type": "preference",
+        "title": "Preference for single issues/trade paperbacks; display sports memorabilia",
+        "text": "[date: 2023-02-15T15:24:00+00:00 | context: Session 18dc3c4ab1f3 - happened on 2023-02-15 15:24:00 UTC. | turn 17/29]\nUser: I'm more interested in collecting and displaying physical comics, so I think"
+      },
+      {
+        "id": "9826c58f-d3f3-46fb-a507-d726ffa3e11a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant tips for displaying comic and sports memorabilia",
+        "text": "[date: 2023-02-15T15:24:00+00:00 | context: Session 18dc3c4ab1f3 - happened on 2023-02-15 15:24:00 UTC. | turn 18/29]\n(in reply to) User: I'm more interested in collecting and displaying physical comi"
+      },
+      {
+        "id": "002e5dfc-2e1c-43bc-a63d-5afdba49ac25",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants closet space-maximizing tips",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 1/23]\nUser: I'm thinking of organizing my closet this weekend. Can you give me some tips "
+      },
+      {
+        "id": "b4f1fdb3-33e0-4ede-ad30-fdac043fc19e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided closet space tips after user mentioned new Levi's jeans",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 2/23]\n(in reply to) User: I'm thinking of organizing my closet this weekend. Can you give"
+      },
+      {
+        "id": "213dca1e-fd26-4b5d-bec1-eca95237888c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Closet organization tips: declutter, categorize, assign homes, use vertical spac",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 3/23]\n(in reply to) User: I'm thinking of organizing my closet this weekend. Can you give"
+      },
+      {
+        "id": "30345ac6-2db2-4a9a-9da0-b150be10cec8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Closet organization tips (storage, door space, one-in-one-out)",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 4/23]\n(in reply to) User: I'm thinking of organizing my closet this weekend. Can you give"
+      },
+      {
+        "id": "778651d6-f9d2-4f9e-973d-4114dd49d0f8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for maximizing closet space",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 5/23]\n(in reply to) User: I'm thinking of organizing my closet this weekend. Can you give"
+      },
+      {
+        "id": "1d8499f4-7685-4172-82c5-168e28cb4a91",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Closet organization tips and Levi's jeans mention",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 6/23]\n(in reply to) User: I'm thinking of organizing my closet this weekend. Can you give"
+      },
+      {
+        "id": "4c3fd74b-7a0b-4577-a937-703d694b2415",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considers organizing closet by season",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 7/23]\nUser: I'm thinking of organizing my closet by season, like storing my winter clothe"
+      },
+      {
+        "id": "d5c08ba0-6f70-4346-ad30-5c184554a32d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: seasonal closet rotation",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 8/23]\n(in reply to) User: I'm thinking of organizing my closet by season, like storing my"
+      },
+      {
+        "id": "6e5d5d99-d7a6-49ae-b568-e7cd1c0f4ef4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on organizing closet by season",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 9/23]\n(in reply to) User: I'm thinking of organizing my closet by season, like storing my"
+      },
+      {
+        "id": "ad701e08-5b03-4816-af1c-02a0ce565f7a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Seasonal closet organization advice",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 10/23]\n(in reply to) User: I'm thinking of organizing my closet by season, like storing m"
+      },
+      {
+        "id": "283dcae9-d609-46a8-a024-0ebb1bac46e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on organizing closet by season",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 11/23]\n(in reply to) User: I'm thinking of organizing my closet by season, like storing m"
+      },
+      {
+        "id": "b3d053c2-f31c-410e-912c-8e9976dcf96b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to store winter clothes; asks about tracking returns/pickups",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 12/23]\nUser: I think I'll use some boxes I have at home to store my winter clothes. By th"
+      },
+      {
+        "id": "84862a37-f9dd-4468-97aa-9414374cb116",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for tracking winter clothes pickups/returns",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 13/23]\n(in reply to) User: I think I'll use some boxes I have at home to store my winter "
+      },
+      {
+        "id": "265671bb-71ad-4d62-bc12-afa529b3200a",
+        "score": 0.4113,
+        "memory_type": "preference",
+        "title": "Tips for tracking returns and pickups",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 14/23]\n(in reply to) User: I think I'll use some boxes I have at home to store my winter "
+      },
+      {
+        "id": "c537349a-f524-4441-a8d4-bada65e57882",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for tracking returns/pickups (task app, photos)",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 15/23]\n(in reply to) User: I think I'll use some boxes I have at home to store my winter "
+      },
+      {
+        "id": "118cd695-f4c1-4445-a953-79f7f16f1d96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed tracking winter clothes storage and Zara boot exchange",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 16/23]\n(in reply to) User: I think I'll use some boxes I have at home to store my winter "
+      },
+      {
+        "id": "085fb37d-f058-4029-9065-6eed6c24f4ed",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to track pickups/returns in phone notes",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 17/23]\nUser: I usually just remember it in my head, but sometimes I forget. I think I'll "
+      },
+      {
+        "id": "b1a64f7b-0755-4882-a87d-41d5c662621f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly laundry day for gym gear",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 18/23]\nUser: I've been meaning to clean my gym bag, it's been smelling funky lately. I al"
+      },
+      {
+        "id": "485be839-f1f5-405a-9664-d35b5668d505",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly laundry day for gym gear",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 19/23]\n(in reply to) User: I've been meaning to clean my gym bag, it's been smelling funk"
+      },
+      {
+        "id": "96fb371c-e59d-4d08-bc6c-71e7c5f12cf7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly laundry routine for gym clothes",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 20/23]\n(in reply to) User: I've been meaning to clean my gym bag, it's been smelling funk"
+      },
+      {
+        "id": "0d3a97ca-a422-4909-b292-12ac4e32a98e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to keep workout clothes and gym bag fresh",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 21/23]\n(in reply to) User: I've been meaning to clean my gym bag, it's been smelling funk"
+      },
+      {
+        "id": "b9da22c4-161d-4b5c-a8a4-c3814b026ee9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gym bag and shoes odor prevention tips",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 22/23]\n(in reply to) User: I've been meaning to clean my gym bag, it's been smelling funk"
+      },
+      {
+        "id": "861f6391-b151-424c-8c06-1804cb3d6413",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekly routine for laundry and gym bag cleaning",
+        "text": "[date: 2023-02-15T16:19:00+00:00 | context: Session fd2b7de20a29 - happened on 2023-02-15 16:19:00 UTC. | turn 23/23]\n(in reply to) User: I've been meaning to clean my gym bag, it's been smelling funk"
+      },
+      {
+        "id": "49f0b7d0-5a8e-4e0c-8d78-c1da5884c28f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: microplastics and nutrient cycling in marine environments",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 1/9]\nUser: Is microplastic pollution affecting nutrient cycling in marine environments?"
+      },
+      {
+        "id": "0f0acdcf-fcfa-430d-8fb8-c6b3c7648f70",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Microplastics can disrupt marine nutrient cycling via microbes and toxins",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 2/9]\n(in reply to) User: Is microplastic pollution affecting nutrient cycling in marine e"
+      },
+      {
+        "id": "7b8ce9e3-a74b-468d-9050-348f956930a1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Impact of microplastics on marine nutrient cycling",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 3/9]\n(in reply to) User: Is microplastic pollution affecting nutrient cycling in marine e"
+      },
+      {
+        "id": "3cc5ad06-5e1c-4515-ab05-c80923891451",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if anything is being done about an issue",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 4/9]\nUser: That's really concerning. Is there anything being done to address this issue?"
+      },
+      {
+        "id": "ff89c38a-616e-4d85-828c-fb80dc58af0d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Efforts to address microplastic pollution in marine environments",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 5/9]\n(in reply to) User: That's really concerning. Is there anything being done to addres"
+      },
+      {
+        "id": "b86420f3-e6d0-497a-af0e-ff251442e7d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Ongoing efforts to address microplastic pollution",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 6/9]\n(in reply to) User: That's really concerning. Is there anything being done to addres"
+      },
+      {
+        "id": "fa3710c9-f3f4-4012-ba05-1408b5b371b6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to reduce plastic waste as an individual",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 7/9]\nUser: It's good to know that there are efforts being made to address this issue. How"
+      },
+      {
+        "id": "d8eba4bd-7613-4361-9b78-283cbe43667f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User agrees to reduce plastic waste after learning microplastics",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 8/9]\nUser: I didn't know about the harmful effects of microplastic pollution before. I'll"
+      },
+      {
+        "id": "cefea491-7fde-482c-9038-c392770ea3de",
+        "score": 0.3796,
+        "memory_type": "preference",
+        "title": "User plans to use reusable bags and bottles",
+        "text": "[date: 2023-02-15T17:40:00+00:00 | context: Session 67e2998cfdba - happened on 2023-02-15 17:40:00 UTC. | turn 9/9]\nUser: I'm going to start using reusable shopping bags and water bottles from now on."
+      },
+      {
+        "id": "c7224911-7fc3-4322-b6bf-36ddba09a03c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry about bike shops near station B",
+        "text": "[date: 2023-02-15T19:43:00+00:00 | context: Session 77f693a74459 - happened on 2023-02-15 19:43:00 UTC. | turn 14/20]\n(in reply to) User: I've been taking the 7:15 am train from station A to station B"
+      },
+      {
+        "id": "e087cedf-b5c6-4e7e-b8d8-ce11d526bb54",
+        "score": 0.3619,
+        "memory_type": "preference",
+        "title": "Preference for early morning bike shop access",
+        "text": "[date: 2023-02-15T19:43:00+00:00 | context: Session 77f693a74459 - happened on 2023-02-15 19:43:00 UTC. | turn 15/20]\nUser: Can you also suggest some bike shops that are open early in the morning, so "
+      }
+    ]
+  },
+  "context": {
+    "chars": 97823,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24455)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 3,
+    "gold_turns_present": 3,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 102621,
+    "prompt_tokens": 93538,
+    "completion_tokens": 1099,
+    "reasoning_tokens": 7984,
+    "generate_time_ms": 65338.666789000854,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22876,
+        "completion_tokens": 119,
+        "reasoning_tokens": 1925,
+        "total_tokens": 24920
+      },
+      {
+        "stage": "extract",
+        "prompt_tokens": 22899,
+        "completion_tokens": 197,
+        "reasoning_tokens": 1847,
+        "total_tokens": 24943
+      },
+      {
+        "stage": "extract",
+        "prompt_tokens": 22876,
+        "completion_tokens": 77,
+        "reasoning_tokens": 1967,
+        "total_tokens": 24920
+      },
+      {
+        "stage": "extract",
+        "prompt_tokens": 22899,
+        "completion_tokens": 160,
+        "reasoning_tokens": 876,
+        "total_tokens": 23935
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 627,
+        "completion_tokens": 127,
+        "reasoning_tokens": 347,
+        "total_tokens": 1101
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 435,
+        "completion_tokens": 174,
+        "reasoning_tokens": 313,
+        "total_tokens": 922
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 926,
+        "completion_tokens": 245,
+        "reasoning_tokens": 709,
+        "total_tokens": 1880
+      }
+    ]
+  },
+  "failure_label": "retrieved_wrong_answer"
+}

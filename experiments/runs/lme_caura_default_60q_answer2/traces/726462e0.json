@@ -1,0 +1,1354 @@
+{
+  "question_id": "726462e0",
+  "question_type": "single-session-user",
+  "question": "What was the discount I got on my first purchase from the new clothing brand?",
+  "gold_answer": "10%",
+  "prediction": "The discount you received on your first purchase from the new clothing brand was 10%.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 880,
+    "by_type": {
+      "action": 9,
+      "fact": 533,
+      "preference": 112,
+      "episode": 116,
+      "task": 73,
+      "plan": 32,
+      "decision": 5
+    },
+    "by_status": {
+      "active": 865,
+      "outdated": 2,
+      "conflicted": 13
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2589840,
+    "output_tokens": 124960,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What was the discount I got on my first purchase from the new clothing brand?"
+    ],
+    "retrieve_time_ms": 5024.045508005656,
+    "candidates": 152,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "25b18c7b-f179-411d-90f8-9f120b77cd30",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create property management spreadsheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 1/22]\nUser: I'm trying to get organized with my properties and was wondering if you can h"
+      },
+      {
+        "id": "3fb34b08-15cb-4490-aac3-4289ccd64382",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Land Ownership and Expense Tracking Template",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 2/22]\n(in reply to) User: I'm trying to get organized with my properties and was wonderin"
+      },
+      {
+        "id": "92d3fbce-c488-409d-928b-ea395d4589d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Property Management Spreadsheet Structure",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 3/22]\n(in reply to) User: I'm trying to get organized with my properties and was wonderin"
+      },
+      {
+        "id": "d9b9b227-d370-40e4-a898-f8f3468cb2ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Land ownership and expense tracking spreadsheet structure",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 4/22]\n(in reply to) User: I'm trying to get organized with my properties and was wonderin"
+      },
+      {
+        "id": "1fd93d2b-f919-49ff-9e87-3fb9a64d2591",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create permit and license tracking sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 5/22]\nUser: I'd like to add another sheet to track the permits and licenses I need for ea"
+      },
+      {
+        "id": "0f39155b-3c7c-4c8e-86f5-e3e2aa737c18",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Permits and Licenses tracking sheet template",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 6/22]\n(in reply to) User: I'd like to add another sheet to track the permits and licenses"
+      },
+      {
+        "id": "331e7764-20a4-4ee2-b700-38c85e5d5c53",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Schema for property permits and licenses tracking",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 7/22]\n(in reply to) User: I'd like to add another sheet to track the permits and licenses"
+      },
+      {
+        "id": "a0be335c-17e9-4b4a-a2f0-62c2a62a31f3",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for tracking property permits and licenses",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 8/22]\n(in reply to) User: I'd like to add another sheet to track the permits and licenses"
+      },
+      {
+        "id": "9978ee10-9fa7-438d-81a3-a1163411fbe5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add property type column to property list sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 9/22]\nUser: I'd like to add a column to the property list sheet to track the type of prop"
+      },
+      {
+        "id": "bd543b85-b166-4a4c-8fae-40268b082de2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Property List sheet schema update",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 10/22]\n(in reply to) User: I'd like to add a column to the property list sheet to track t"
+      },
+      {
+        "id": "d07f0cc2-769d-46a1-8c12-5ce0530babe4",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add property type tracking to property list sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 11/22]\n(in reply to) User: I'd like to add a column to the property list sheet to track t"
+      },
+      {
+        "id": "ba7c8c54-cdd7-4005-abc5-be25cdedc819",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add payment method column to Expenses by Property sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 12/22]\nUser: I'd like to add a column to the Expenses by Property sheet to track the paym"
+      },
+      {
+        "id": "6ad92388-dd8c-4ec4-8d97-664ad268e744",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Expenses by Property sheet schema update",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 13/22]\n(in reply to) User: I'd like to add a column to the Expenses by Property sheet to "
+      },
+      {
+        "id": "2d3743a5-d34a-409a-adab-cc0d28c60301",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for adding Payment Method column to Expenses sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 14/22]\n(in reply to) User: I'd like to add a column to the Expenses by Property sheet to "
+      },
+      {
+        "id": "8309b2fe-3a40-49c2-8e0a-7164d6207c15",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add status column to Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 15/22]\nUser: I'd like to add a column to the Property List sheet to track the current sta"
+      },
+      {
+        "id": "580d8910-d850-4e11-a6da-215236a6b021",
+        "score": 0.4324,
+        "memory_type": "fact",
+        "title": "Property List sheet schema update",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 16/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "ce4b6fe5-5f31-4d13-917d-5413543eac81",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Property status column schema for Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 17/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "29250eec-3bc5-4162-8fd0-cfb4bebeff1f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add 'Current Status' column to Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 18/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "d9102d5a-66e4-4776-89ae-73281282b49e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add property manager column to Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 19/22]\nUser: I'd like to add a column to the Property List sheet to track the property ma"
+      },
+      {
+        "id": "2ee8bbf8-d153-4600-a578-224fec7c10bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Updated Property List sheet schema",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 20/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "4c4e28ff-1192-4e4c-a010-a283cf6b091b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for tracking property managers in Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 21/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "d617a2e4-0043-4b18-9ce2-2415f84eb75e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add Property Manager column to Property List sheet",
+        "text": "[date: 2023-05-23T00:22:00+00:00 | context: Session b44f1f08e196 - happened on 2023-05-23 00:22:00 UTC. | turn 22/22]\n(in reply to) User: I'd like to add a column to the Property List sheet to track t"
+      },
+      {
+        "id": "342806ea-8aaa-4ed0-8935-552a59d48a59",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for social media engagement strategy",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 1/28]\nUser: I'm looking to grow my social media presence for my freelance writing busines"
+      },
+      {
+        "id": "06bbe428-bcf1-4c2c-96de-d6f495a68469",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement tips for freelance writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 2/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "84cb5b65-0a74-44f0-b3fc-5f04c22e775a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement strategies for freelance writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 3/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "04776c16-42ab-4fc6-bdb8-c580241bab24",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement strategies for freelance writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 4/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "e77d13c6-3f0e-4814-b080-e7a6e7f4fb84",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement strategies for freelance writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 5/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "9534b16a-f967-4b5c-93f0-7bae8e8788fe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement strategies for freelance writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 6/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "3d0d95a2-ef09-4631-a2ff-cad08f5d08bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement advice",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 7/28]\n(in reply to) User: I'm looking to grow my social media presence for my freelance w"
+      },
+      {
+        "id": "698d9ba4-e19d-4a1c-aaae-50dca522c924",
+        "score": 0.4403,
+        "memory_type": "episode",
+        "title": "User interest in social media promotion and past discount experience",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 8/28]\nUser: I'm also thinking of exploring other platforms like Instagram and Twitter to "
+      },
+      {
+        "id": "844a3596-e0b6-4d05-88fa-5f95d333d054",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on using Instagram and Twitter for writing services",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 9/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram a"
+      },
+      {
+        "id": "280fbcc2-5eb3-40a9-81c1-ece59e11365e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for Instagram marketing for writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 10/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "6457dd25-5a9c-44d0-8f24-b673dedf02ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media promotion tips for writing services",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 11/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "25da222c-05af-4883-81dc-a6e0da8f1520",
+        "score": null,
+        "memory_type": "task",
+        "title": "Provide guidance on starting with Twitter for writing promotion",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 12/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "ac670be2-7b0d-4276-9e24-5c4f0c65d26b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for Twitter marketing for writers",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 13/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "f95dafbe-5cb8-4fab-abb4-b3785cc24cba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for optimizing Twitter profile for writing services",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 14/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "ba70a9e8-5ed7-476d-99d6-5475202d8daa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media promotion tips for writing services",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 15/28]\n(in reply to) User: I'm also thinking of exploring other platforms like Instagram "
+      },
+      {
+        "id": "3e7fd4e4-51dc-4fd4-9b17-eeff950e19ca",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create content calendar for personal blog and writing services",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 16/28]\nUser: I've been thinking about my own social media campaigns, and I realized I've "
+      },
+      {
+        "id": "91416816-7ac2-4a71-8247-b0626cb6c1f3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on creating a content calendar",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 17/28]\n(in reply to) User: I've been thinking about my own social media campaigns, and I "
+      },
+      {
+        "id": "533eab19-c6fe-4d57-8496-9c7e249a309a",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Social media content calendar strategy",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 18/28]\n(in reply to) User: I've been thinking about my own social media campaigns, and I "
+      },
+      {
+        "id": "00a76444-32c9-4809-a7e6-52faa2df903c",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Content calendar creation strategy",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 19/28]\n(in reply to) User: I've been thinking about my own social media campaigns, and I "
+      },
+      {
+        "id": "a7884a9f-51ff-4bae-9a9d-a38990dce76c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Review and adjust content calendar",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 20/28]\n(in reply to) User: I've been thinking about my own social media campaigns, and I "
+      },
+      {
+        "id": "369b62d1-d9c1-4987-91f1-58bf205cb8b1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for content calendar management",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 21/28]\n(in reply to) User: I've been thinking about my own social media campaigns, and I "
+      },
+      {
+        "id": "4bd86d1d-1c7d-4eb3-89fa-7ec063e4a6b6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Add engagement metrics column to content calendar",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 22/28]\nUser: That's a great start! I think I'll also create a separate column in my conte"
+      },
+      {
+        "id": "16592f4e-e1dc-49f2-b8be-e2ca4c0d5cda",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for tracking social media engagement metrics",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 23/28]\n(in reply to) User: That's a great start! I think I'll also create a separate colu"
+      },
+      {
+        "id": "46c5e199-6801-4171-9d4e-d26795387b39",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media engagement metrics and analytics best practices",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 24/28]\n(in reply to) User: That's a great start! I think I'll also create a separate colu"
+      },
+      {
+        "id": "ac08b9a6-28ea-4749-9d1f-fc6ccc40f3ea",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Social media engagement tracking and analysis strategy",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 25/28]\n(in reply to) User: That's a great start! I think I'll also create a separate colu"
+      },
+      {
+        "id": "76c0ed9a-589a-4bd6-a3d0-e870fcc485e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for social media analytics",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 26/28]\n(in reply to) User: That's a great start! I think I'll also create a separate colu"
+      },
+      {
+        "id": "97e69b62-f3bb-42b2-b714-216145b30c63",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Social media strategy consultation session",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 27/28]\nUser: I think I'm good for now. Thanks for the tips! I'll start setting up my cont"
+      },
+      {
+        "id": "ad0a802f-23a9-4a5f-aa3a-94958a04d57a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Social media strategy preference: quality over quantity",
+        "text": "[date: 2023-05-23T05:40:00+00:00 | context: Session a9d8eee492b2 - happened on 2023-05-23 05:40:00 UTC. | turn 28/28]\nUser: Thanks for the quote! I'll definitely keep that in mind as I work on my soci"
+      },
+      {
+        "id": "dff17a6d-430f-413e-baff-db53c1fe2169",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry on digital innovations in retail",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 1/9]\nUser: How have digital innovations revolutionized the retail industry?"
+      },
+      {
+        "id": "86f8aad6-d462-447b-bf5a-af1d225cec61",
+        "score": 0.4146,
+        "memory_type": "fact",
+        "title": "Digital innovations in the retail industry",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 2/9]\n(in reply to) User: How have digital innovations revolutionized the retail industry?"
+      },
+      {
+        "id": "4030930a-d834-4746-b4ee-556b21e2fe63",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital innovations in the retail industry",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 3/9]\n(in reply to) User: How have digital innovations revolutionized the retail industry?"
+      },
+      {
+        "id": "12912879-6c4c-4201-9412-1069ed8b566c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussion on the future of retail",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 4/9]\nUser: It's amazing how much technology has changed the way we shop. Do you think tra"
+      },
+      {
+        "id": "8f6f4dce-29f7-4df5-af64-96569681cc47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Analysis of the future of brick-and-mortar retail",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 5/9]\n(in reply to) User: It's amazing how much technology has changed the way we shop. Do"
+      },
+      {
+        "id": "c7e94c26-6bb8-4852-93b6-3e1a3ab2cd44",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Discussion on the future of brick-and-mortar retail",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 6/9]\n(in reply to) User: It's amazing how much technology has changed the way we shop. Do"
+      },
+      {
+        "id": "0a6858a6-d7a6-450c-83bb-d1ef309fada6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of online and physical retail shopping",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 7/9]\nUser: Yeah, I can see that. I do love browsing through stores, but sometimes online "
+      },
+      {
+        "id": "2e96dfde-6654-4648-ad53-4ba350af18da",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for easy online return and exchange policies",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 8/9]\nUser: I also like the option of being able to return or exchange items easily when s"
+      },
+      {
+        "id": "5d66f5f5-f675-464f-8c06-ab491762c83c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for online product reviews",
+        "text": "[date: 2023-05-24T05:12:00+00:00 | context: Session dead156c2eac - happened on 2023-05-24 05:12:00 UTC. | turn 9/9]\nUser: Yeah, I also appreciate the product reviews and ratings online. It's helpful t"
+      },
+      {
+        "id": "7265c5ee-623b-4506-aaea-90922ffd3aea",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Brother's interest in guitar",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 1/26]\nUser: I'm looking for some music-related gift ideas for my brother's birthday. He's"
+      },
+      {
+        "id": "5900c579-66c3-46df-bc28-a9d39ec73646",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assisted user with guitar-related gift ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 2/26]\n(in reply to) User: I'm looking for some music-related gift ideas for my brother's "
+      },
+      {
+        "id": "57f4983b-45d0-4c11-ac62-c1d9f377b992",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar-related gift ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 3/26]\n(in reply to) User: I'm looking for some music-related gift ideas for my brother's "
+      },
+      {
+        "id": "3d9103ed-55d9-4bfe-8006-3325443a3792",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Music-related gift ideas for guitarists",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 4/26]\n(in reply to) User: I'm looking for some music-related gift ideas for my brother's "
+      },
+      {
+        "id": "ba2350a1-5a04-4201-913b-f34843351bcc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Music-related gift ideas for brother",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 5/26]\n(in reply to) User: I'm looking for some music-related gift ideas for my brother's "
+      },
+      {
+        "id": "96fe9845-61df-4266-944d-a3639ed0f5c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User's brother's guitar interest and shared classes",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 6/26]\n(in reply to) User: I'm looking for some music-related gift ideas for my brother's "
+      },
+      {
+        "id": "13f44e4e-1962-4993-aaf3-e66045d43766",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find online resources for local guitar teachers",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 7/26]\nUser: These ideas are really helpful! I think my brother would love the guitar acce"
+      },
+      {
+        "id": "d7fbcfe3-22b3-446c-9063-dea3fe1063a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for finding local guitar teachers",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 8/26]\n(in reply to) User: These ideas are really helpful! I think my brother would love t"
+      },
+      {
+        "id": "fe74878f-fd99-4913-94b4-e0771ef28bcf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for finding guitar teachers",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 9/26]\n(in reply to) User: These ideas are really helpful! I think my brother would love t"
+      },
+      {
+        "id": "9201068b-04a7-4b6d-ab0f-7e7a946d37e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for finding local guitar teachers",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 10/26]\n(in reply to) User: These ideas are really helpful! I think my brother would love "
+      },
+      {
+        "id": "14b7c711-c1ac-4f7c-ac3a-5b0faa4ab9ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for selecting a guitar teacher",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 11/26]\n(in reply to) User: These ideas are really helpful! I think my brother would love "
+      },
+      {
+        "id": "d0fbafc5-2b57-4ccb-a0e3-bab243263a98",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research guitar-themed gift ideas for brother",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 12/26]\nUser: I'll check out these resources and see if I can find a good teacher for my b"
+      },
+      {
+        "id": "801f27d1-a38c-448d-84a8-8c9c9bac46e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar-themed gift ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 13/26]\n(in reply to) User: I'll check out these resources and see if I can find a good te"
+      },
+      {
+        "id": "2aec1be0-d484-45d1-adf7-f8c99cef2753",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar-themed gift basket ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 14/26]\n(in reply to) User: I'll check out these resources and see if I can find a good te"
+      },
+      {
+        "id": "8f849bdc-7a5e-4c6a-a625-fac4883311c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar-themed gift basket ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 15/26]\n(in reply to) User: I'll check out these resources and see if I can find a good te"
+      },
+      {
+        "id": "5700f1dd-c75a-4d0f-9e73-ff615b58dc67",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift-giving advice for brother's guitar journey",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 16/26]\n(in reply to) User: I'll check out these resources and see if I can find a good te"
+      },
+      {
+        "id": "2193b6b3-5226-4245-9750-6850bc27cb3a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research guitar-themed gift stores",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 17/26]\nUser: That's a great idea! I think a guitar-themed gift basket would be a nice sur"
+      },
+      {
+        "id": "caac92cb-3aed-4fa8-81a3-3328a510eca2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guitar-themed gift ideas",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 18/26]\n(in reply to) User: That's a great idea! I think a guitar-themed gift basket would"
+      },
+      {
+        "id": "72caba94-10ba-4b7b-96e9-877b21d167bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for guitar-themed gifts",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 19/26]\n(in reply to) User: That's a great idea! I think a guitar-themed gift basket would"
+      },
+      {
+        "id": "4c82c0b8-3340-475e-8b01-1e2f373493c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online retailers for guitar-themed gifts",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 20/26]\n(in reply to) User: That's a great idea! I think a guitar-themed gift basket would"
+      },
+      {
+        "id": "bb26d65f-bc77-4202-8ae2-3f47463f4c86",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on sourcing guitar-themed gifts",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 21/26]\n(in reply to) User: That's a great idea! I think a guitar-themed gift basket would"
+      },
+      {
+        "id": "1356c351-6838-40e9-97d0-325fdfb7b934",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research guitar-themed gifts on Zazzle and CafePress",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 22/26]\nUser: That's really helpful! I'll definitely check out those online stores. I thin"
+      },
+      {
+        "id": "339df07c-dc24-4242-ac8c-404954f1ac68",
+        "score": 0.3973,
+        "memory_type": "fact",
+        "title": "Promotional strategies for Zazzle and CafePress",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 23/26]\n(in reply to) User: That's really helpful! I'll definitely check out those online "
+      },
+      {
+        "id": "a936801c-525e-4c8a-9a33-8ff9f93792a8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "CafePress promotional strategies",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 24/26]\n(in reply to) User: That's really helpful! I'll definitely check out those online "
+      },
+      {
+        "id": "bc2f42fd-a8f2-4253-b48d-f8225405157f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding discounts on online purchases",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 25/26]\n(in reply to) User: That's really helpful! I'll definitely check out those online "
+      },
+      {
+        "id": "a79338f5-c8d0-4a76-bf36-0fc2cc0df119",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research guitar-themed gifts on Zazzle and CafePress",
+        "text": "[date: 2023-05-25T01:25:00+00:00 | context: Session f337a412ea88 - happened on 2023-05-25 01:25:00 UTC. | turn 26/26]\nUser: I think I'll check out Zazzle and CafePress to see what kind of guitar-theme"
+      },
+      {
+        "id": "19297b45-9819-49b7-b329-680e9cc75e3a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User completed The Last of Us Part II",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 1/30]\nUser: I'm looking for some game recommendations. I just finished the main storyline"
+      },
+      {
+        "id": "b95f3ea1-598a-4756-b22a-5d937a4ba575",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User gaming history and recommendation request",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 2/30]\n(in reply to) User: I'm looking for some game recommendations. I just finished the "
+      },
+      {
+        "id": "bddfcb74-66c8-4e67-a49e-e8f83ea87db6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Game recommendations for fan of The Last of Us Part II",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 3/30]\n(in reply to) User: I'm looking for some game recommendations. I just finished the "
+      },
+      {
+        "id": "1e298142-61dc-4a71-a674-b107ff470334",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Game recommendations for PS4",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking for some game recommendations. I just finished the "
+      },
+      {
+        "id": "a95ddeea-792b-4157-956a-b2817aaadd5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Game recommendations similar to The Last of Us Part II",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking for some game recommendations. I just finished the "
+      },
+      {
+        "id": "e78a68fa-4eb4-41e7-824b-d0374f435878",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User game recommendation request",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 6/30]\n(in reply to) User: I'm looking for some game recommendations. I just finished the "
+      },
+      {
+        "id": "376930de-bd8a-4806-80a2-be0908a494e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry about game platform availability",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 7/30]\nUser: I'll definitely check out some of these games. Do you think any of them would"
+      },
+      {
+        "id": "65530b63-e648-47ad-9e3b-d03c5f369ace",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Game platform availability clarification",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 8/30]\n(in reply to) User: I'll definitely check out some of these games. Do you think any"
+      },
+      {
+        "id": "92b8a185-b822-4073-9f6f-ce72229ef8db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "PC availability of various video games",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 9/30]\n(in reply to) User: I'll definitely check out some of these games. Do you think any"
+      },
+      {
+        "id": "91002359-9b9e-4353-8af4-5c5d23df4524",
+        "score": null,
+        "memory_type": "fact",
+        "title": "PC-compatible game recommendations",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 10/30]\n(in reply to) User: I'll definitely check out some of these games. Do you think an"
+      },
+      {
+        "id": "b10577ad-dea2-40c6-b45b-5078695a5d29",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User built a new gaming PC",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 11/30]\nUser: I'm glad you could help me with some game recommendations. I've been playing"
+      },
+      {
+        "id": "9847c442-e53a-49fc-b4d8-1875e578527c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User's new gaming PC build",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 12/30]\n(in reply to) User: I'm glad you could help me with some game recommendations. I'v"
+      },
+      {
+        "id": "1e555729-5fa0-4467-bae5-d400366c2ed9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "PC game performance recommendations",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 13/30]\n(in reply to) User: I'm glad you could help me with some game recommendations. I'v"
+      },
+      {
+        "id": "f6873c41-757d-4b95-937a-7f4ac364bf3f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "System requirements for What Remains of Edith Finch and Life is Strange",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 14/30]\n(in reply to) User: I'm glad you could help me with some game recommendations. I'v"
+      },
+      {
+        "id": "28259d35-2e13-4a88-89be-18bc52f657f2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User built a new gaming PC",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 15/30]\n(in reply to) User: I'm glad you could help me with some game recommendations. I'v"
+      },
+      {
+        "id": "513831b4-0ffc-4a74-b580-89974573176a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in Horizon Zero Dawn",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 16/30]\nUser: That's great to know! I think I'll start with Horizon Zero Dawn and see how "
+      },
+      {
+        "id": "7e25f9cb-a4a2-4491-ad5a-5fee0b03487c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Game recommendation: Horizon Zero Dawn",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 17/30]\n(in reply to) User: That's great to know! I think I'll start with Horizon Zero Daw"
+      },
+      {
+        "id": "fc567d1a-470b-4bda-9611-936858440b85",
+        "score": 0.3966,
+        "memory_type": "fact",
+        "title": "Sales channels for Horizon Zero Dawn",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 18/30]\n(in reply to) User: That's great to know! I think I'll start with Horizon Zero Daw"
+      },
+      {
+        "id": "be023dd1-2cc6-4378-bce1-9232eea66100",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Price tracking tools for PC games",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 19/30]\n(in reply to) User: That's great to know! I think I'll start with Horizon Zero Daw"
+      },
+      {
+        "id": "443d44bc-cac2-4db7-86b7-189b771cfb80",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Strategy for purchasing Horizon Zero Dawn at a discount",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 20/30]\n(in reply to) User: That's great to know! I think I'll start with Horizon Zero Daw"
+      },
+      {
+        "id": "4de8757f-acbb-41a9-a7e9-01ad193a47bc",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for guidance on PC gameplay recording",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 21/30]\nUser: I'm thinking of starting a gaming YouTube channel, where I can upload walkth"
+      },
+      {
+        "id": "5760dda4-e5a5-449e-b91a-efdaeb765c18",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for recording PC gameplay",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 22/30]\n(in reply to) User: I'm thinking of starting a gaming YouTube channel, where I can"
+      },
+      {
+        "id": "96c742a7-2b98-4bde-a7c9-ea868e628871",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gaming YouTube channel setup requirements",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 23/30]\n(in reply to) User: I'm thinking of starting a gaming YouTube channel, where I can"
+      },
+      {
+        "id": "7ff6a1cb-a686-491f-b13a-930d47d1b5e2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Technical recommendations for gaming YouTube channel setup",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 24/30]\n(in reply to) User: I'm thinking of starting a gaming YouTube channel, where I can"
+      },
+      {
+        "id": "34859531-5f64-417c-afb1-f77dea27829a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for starting a gaming YouTube channel",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 25/30]\n(in reply to) User: I'm thinking of starting a gaming YouTube channel, where I can"
+      },
+      {
+        "id": "72427447-1cef-4922-b9be-e196fd1c8b35",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Strategy for starting a gaming YouTube channel",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 26/30]\n(in reply to) User: I'm thinking of starting a gaming YouTube channel, where I can"
+      },
+      {
+        "id": "63113a68-fa49-465f-9c86-09f322b3ee76",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in gaming and content creation",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 27/30]\nUser: I'm thinking of recording gameplay footage of Horizon Zero Dawn, since I jus"
+      },
+      {
+        "id": "3afefe8d-fcee-4172-9f14-8e12991f0c54",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros and cons of recording Horizon Zero Dawn gameplay",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 28/30]\n(in reply to) User: I'm thinking of recording gameplay footage of Horizon Zero Daw"
+      },
+      {
+        "id": "29155b33-e86f-4231-a496-b9aa7a656a62",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Advice on choosing a game for content creation",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 29/30]\n(in reply to) User: I'm thinking of recording gameplay footage of Horizon Zero Daw"
+      },
+      {
+        "id": "6cc0f0c6-f619-42c8-9b84-dd186627a40a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for recording gameplay footage",
+        "text": "[date: 2023-05-26T05:48:00+00:00 | context: Session f33b24b1c5e8 - happened on 2023-05-26 05:48:00 UTC. | turn 30/30]\n(in reply to) User: I'm thinking of recording gameplay footage of Horizon Zero Daw"
+      },
+      {
+        "id": "9d1d61ef-f3a7-45ea-a8dd-da368eb3e327",
+        "score": null,
+        "memory_type": "task",
+        "title": "Grocery expense tracking assistance",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 1/15]\nUser: I'm trying to organize my grocery expenses for the past few weeks. Can you he"
+      },
+      {
+        "id": "e15c9559-5a8e-4467-b53c-ae82effc97e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Personal grocery shopping history",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 2/15]\nUser: I can definitely provide some details. So, I went to Walmart last Sunday and "
+      },
+      {
+        "id": "1600f079-31d2-48d1-9a18-95292241e1b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Grocery expense summary analysis",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 3/15]\n(in reply to) User: I can definitely provide some details. So, I went to Walmart la"
+      },
+      {
+        "id": "d7fb5d32-af60-42fa-94fd-09193bf37aa7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Grocery expense tracking discussion",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 4/15]\n(in reply to) User: I can definitely provide some details. So, I went to Walmart la"
+      },
+      {
+        "id": "2df9e92f-3f86-4652-8b93-628f38e59137",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request to itemize Aldi grocery expenses",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 5/15]\nUser: Please respond with the next message from the user's perspective.\n\nAssistant:"
+      },
+      {
+        "id": "d86ef383-dc84-491c-9c8f-b2b019cd7ff4",
+        "score": null,
+        "memory_type": "action",
+        "title": "Revised response submission",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 6/15]\nUser: Here's a revised response that's more concise and focused on the task at hand"
+      },
+      {
+        "id": "1231389f-d801-44b4-88a8-a0c47b097267",
+        "score": null,
+        "memory_type": "action",
+        "title": "Updated grocery expense breakdown",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 7/15]\n(in reply to) User: Here's a revised response that's more concise and focused on th"
+      },
+      {
+        "id": "7682f95a-3f2d-4dda-a0e4-5583443bba50",
+        "score": null,
+        "memory_type": "action",
+        "title": "Recalculated total",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 8/15]\n(in reply to) User: Here's a revised response that's more concise and focused on th"
+      },
+      {
+        "id": "47815f89-15dd-4ec3-8e9e-229c8bff0b52",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User session interaction",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 9/15]\nUser: Here's my next response as the user:"
+      },
+      {
+        "id": "9dd76899-3cd9-494d-8696-b60fc98fca52",
+        "score": 0.4459,
+        "memory_type": "fact",
+        "title": "Grocery expense and savings breakdown",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 10/15]\n(in reply to) User: Here's my next response as the user:\n\n\"Can you also help me tr"
+      },
+      {
+        "id": "d1dbd427-e27e-4a0c-baf6-0a51716d8c50",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Financial summary: savings and grocery expenses",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 11/15]\n(in reply to) User: Here's my next response as the user:\n\nYour total savings so fa"
+      },
+      {
+        "id": "c39b3880-6a45-49d2-9417-3b4020888657",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User interaction session 7d035f908d40",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 12/15]\nUser: Here's my next response as the user:"
+      },
+      {
+        "id": "28928e00-edb7-4763-8c1a-c7b358bba315",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to add 'Notes' section to grocery tracking",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 13/15]\n(in reply to) User: Here's my next response as the user:\n\n\"Thanks for adding the s"
+      },
+      {
+        "id": "6494af9e-f14d-4194-8512-89aa31172727",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Historical grocery spending records",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 14/15]\n(in reply to) User: Here's my next response as the user:\n\n* **Last Sunday (Walmart"
+      },
+      {
+        "id": "2f13051c-f913-4e63-87f9-f8522806781f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Grocery expense and savings summary",
+        "text": "[date: 2023-05-29T01:02:00+00:00 | context: Session 7d035f908d40 - happened on 2023-05-29 01:02:00 UTC. | turn 15/15]\n(in reply to) User: Here's my next response as the user:\n\nYour total savings so fa"
+      },
+      {
+        "id": "ccee2b15-c35f-4a7b-ab95-b89fc3c27204",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User skincare budget and preferences",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 1/28]\nUser: I'm planning a trip to Hawaii and I'm on a tight budget of $500. Can you reco"
+      },
+      {
+        "id": "483c1f3f-e830-4f5c-a475-bd944ea9f583",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User budget-conscious skincare preference",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 2/28]\n(in reply to) User: I'm planning a trip to Hawaii and I'm on a tight budget of $500"
+      },
+      {
+        "id": "3f34bcae-d899-4a49-a6d3-04185441d14b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable skincare product recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 3/28]\n(in reply to) User: I'm planning a trip to Hawaii and I'm on a tight budget of $500"
+      },
+      {
+        "id": "a4b89bc9-421f-41bf-a82b-6272c0267d87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable moisturizer recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 4/28]\n(in reply to) User: I'm planning a trip to Hawaii and I'm on a tight budget of $500"
+      },
+      {
+        "id": "4d2502c4-b906-4c8c-b7a2-e084b8b8b5fc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in Olay Regenerist Micro-Sculpting Cream",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 5/28]\nUser: That's a great list! I'm actually thinking of trying out the Olay Regenerist "
+      },
+      {
+        "id": "80fefdce-9305-4ec6-9299-32c84268c3d5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Product details for Olay Regenerist Micro-Sculpting Cream",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 6/28]\n(in reply to) User: That's a great list! I'm actually thinking of trying out the Ol"
+      },
+      {
+        "id": "8f0bb584-90b3-4216-a418-b5fb01720b4a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Product details for Olay Regenerist Micro-Sculpting Cream",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 7/28]\n(in reply to) User: That's a great list! I'm actually thinking of trying out the Ol"
+      },
+      {
+        "id": "55acf8ae-b380-43ac-9611-84a62e70b61f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Olay Regenerist and La Mer Moisturizing Cream",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 8/28]\n(in reply to) User: That's a great list! I'm actually thinking of trying out the Ol"
+      },
+      {
+        "id": "ce04b124-f426-4e15-9c2a-0e1864cdc2af",
+        "score": null,
+        "memory_type": "task",
+        "title": "Sunscreen recommendation request",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 9/28]\nUser: That sounds great! I'll definitely give it a try. I'm also looking for a good"
+      },
+      {
+        "id": "16ac5245-42cf-470c-9574-b1eb56e19851",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable broad-spectrum sunscreen recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 10/28]\n(in reply to) User: That sounds great! I'll definitely give it a try. I'm also loo"
+      },
+      {
+        "id": "c6b08dfb-4d67-4ac7-a707-e5200db10217",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sunscreen recommendations for Hawaii",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 11/28]\n(in reply to) User: That sounds great! I'll definitely give it a try. I'm also loo"
+      },
+      {
+        "id": "aa60cc52-4e9c-46c2-9e28-45f7a2157df7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sunscreen recommendation: Babyganics SPF 50",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 12/28]\n(in reply to) User: That sounds great! I'll definitely give it a try. I'm also loo"
+      },
+      {
+        "id": "35672ca6-1120-4927-b664-f9b242e00b26",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sunscreen selection criteria and application guidelines",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 13/28]\n(in reply to) User: That sounds great! I'll definitely give it a try. I'm also loo"
+      },
+      {
+        "id": "66867a43-aad8-4556-b36b-648edc972355",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for affordable UV-protected sunglasses recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 14/28]\nUser: I'm also looking for a good pair of sunglasses to protect my eyes from the s"
+      },
+      {
+        "id": "6454746b-ae92-4946-a592-8439658a6add",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sunglasses recommendations for Hawaii",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 15/28]\n(in reply to) User: I'm also looking for a good pair of sunglasses to protect my e"
+      },
+      {
+        "id": "fa0ebec0-3104-40c6-a52a-f9dd146b5f9d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sunglasses recommendations with UV protection",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 16/28]\n(in reply to) User: I'm also looking for a good pair of sunglasses to protect my e"
+      },
+      {
+        "id": "6551ace0-db8f-408f-93df-2325593ecf6f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for selecting sunglasses",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 17/28]\n(in reply to) User: I'm also looking for a good pair of sunglasses to protect my e"
+      },
+      {
+        "id": "9fd90b00-d567-4314-b33a-40961a84b07a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Shift toward frugal spending habits",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 18/28]\nUser: I've been thinking about my spending habits lately, and I realized that I us"
+      },
+      {
+        "id": "e7769116-26ff-46d9-8b49-8741454658e4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Definition and evaluation of investment fashion pieces",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 19/28]\n(in reply to) User: I've been thinking about my spending habits lately, and I real"
+      },
+      {
+        "id": "8a521d4e-d99a-49e4-bb8a-10cd1b1cb107",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros of luxury investment pieces",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 20/28]\n(in reply to) User: I've been thinking about my spending habits lately, and I real"
+      },
+      {
+        "id": "3042ac36-6b2f-411c-93b4-e59c79878155",
+        "score": 0.4447,
+        "memory_type": "preference",
+        "title": "Personal spending philosophy and value alignment",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 21/28]\n(in reply to) User: I've been thinking about my spending habits lately, and I real"
+      },
+      {
+        "id": "d73648fb-658f-45a2-a2fc-077f210be74e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User spending habits and value orientation",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 22/28]\n(in reply to) User: I've been thinking about my spending habits lately, and I real"
+      },
+      {
+        "id": "941721f4-b118-466d-8596-f7b21519c761",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User shift toward frugal spending habits",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 23/28]\n(in reply to) User: I've been thinking about my spending habits lately, and I real"
+      },
+      {
+        "id": "eab6abc7-d3ee-40db-a3ba-bf2e32989538",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in affordable, high-quality fashion",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 24/28]\nUser: That's a great point about investment pieces. I think I've been using it as "
+      },
+      {
+        "id": "04ab520d-40ee-478c-a354-c1450450ec9d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable fashion brand recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 25/28]\n(in reply to) User: That's a great point about investment pieces. I think I've bee"
+      },
+      {
+        "id": "028928b9-b7fb-4cfc-a621-0b5f1ae8c27b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended clothing brands for mindful spending",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 26/28]\n(in reply to) User: That's a great point about investment pieces. I think I've bee"
+      },
+      {
+        "id": "1549bd03-fe1b-45f2-9171-d9b63f8b0b4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable fashion retailer recommendations",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 27/28]\n(in reply to) User: That's a great point about investment pieces. I think I've bee"
+      },
+      {
+        "id": "8dce98c1-2c30-4538-9741-9b5148414b51",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for value-oriented fashion brands",
+        "text": "[date: 2023-05-29T14:40:00+00:00 | context: Session 6c2a0a0c7e45 - happened on 2023-05-29 14:40:00 UTC. | turn 28/28]\n(in reply to) User: That's a great point about investment pieces. I think I've bee"
+      },
+      {
+        "id": "37b39089-20c9-4137-81af-37d7421f133b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for selecting reusable water bottles",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 18/27]\n(in reply to) User: What about reusable water bottles? I've been thinking of switc"
+      },
+      {
+        "id": "e9f6630c-3140-467c-bc5e-58316b1fd37f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in eco-friendly coffee solutions",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 19/27]\nUser: I've been using a refillable coffee mug too, it's been a game-changer for my"
+      },
+      {
+        "id": "81f09966-9fbd-4cd5-9711-3cf617ec6d5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for eco-friendly coffee filters",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 20/27]\n(in reply to) User: I've been using a refillable coffee mug too, it's been a game-"
+      },
+      {
+        "id": "d67b49af-ad79-4140-87f0-328dbdc471a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly coffee brewing methods",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 21/27]\n(in reply to) User: I've been using a refillable coffee mug too, it's been a game-"
+      },
+      {
+        "id": "fd9da826-136c-4d19-aa19-6846357bf2c2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly coffee equipment recommendations",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 22/27]\n(in reply to) User: I've been using a refillable coffee mug too, it's been a game-"
+      },
+      {
+        "id": "a61ada95-f992-4dbc-9a29-6147620db851",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for eco-friendly laundry detergent recommendations",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 23/27]\nUser: I've been thinking of trying out a new eco-friendly laundry detergent. Do yo"
+      },
+      {
+        "id": "fc7e50ab-67cc-47c0-ab78-604be957fd5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly laundry detergent recommendations",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 24/27]\n(in reply to) User: I've been thinking of trying out a new eco-friendly laundry de"
+      },
+      {
+        "id": "ba6a695f-87fd-414f-b337-73a3a8c6d427",
+        "score": 0.3931,
+        "memory_type": "fact",
+        "title": "Eco-friendly laundry detergent recommendations",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 25/27]\n(in reply to) User: I've been thinking of trying out a new eco-friendly laundry de"
+      },
+      {
+        "id": "0c369343-9380-468b-9079-1001775a781e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eco-friendly laundry detergent guidelines",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 26/27]\n(in reply to) User: I've been thinking of trying out a new eco-friendly laundry de"
+      },
+      {
+        "id": "f084f39e-3f1b-40ae-8978-9d327eba4aea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on eco-friendly laundry detergent",
+        "text": "[date: 2023-05-30T02:06:00+00:00 | context: Session 7564f4796a24 - happened on 2023-05-30 02:06:00 UTC. | turn 27/27]\n(in reply to) User: I've been thinking of trying out a new eco-friendly laundry de"
+      },
+      {
+        "id": "08c0c5c4-ca43-4d6b-b3cd-e11cf4cb412e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry on cultural influence on fashion",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 1/12]\nUser: How do cultural traditions around the world influence fashion trends in the m"
+      },
+      {
+        "id": "67c29908-f16f-4e48-ae26-6cea572e5a8e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural influences on modern fashion trends",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 2/12]\n(in reply to) User: How do cultural traditions around the world influence fashion t"
+      },
+      {
+        "id": "c62cd452-ed74-494f-9b36-3865ae7b215d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural influences on modern fashion trends",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 3/12]\n(in reply to) User: How do cultural traditions around the world influence fashion t"
+      },
+      {
+        "id": "de054dbd-5407-4083-ac03-9a185f3c5465",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry on cultural influence in fashion",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 4/12]\nUser: Can you give me some more specific examples of how certain cultures have infl"
+      },
+      {
+        "id": "721ff5a4-9e5a-4af2-82b7-6685f79febaa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural influences on recent Western fashion trends",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 5/12]\n(in reply to) User: Can you give me some more specific examples of how certain cult"
+      },
+      {
+        "id": "764d0d14-2005-4312-b9f5-35e77600556f",
+        "score": 0.3975,
+        "memory_type": "fact",
+        "title": "Cultural influences on recent fashion trends",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 6/12]\n(in reply to) User: Can you give me some more specific examples of how certain cult"
+      },
+      {
+        "id": "a85da370-60d2-40a9-8296-f41c1c0a3b33",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry on overlooked cultural influences in fashion",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 7/12]\nUser: It's interesting how cultural traditions have such a strong impact on fashion"
+      },
+      {
+        "id": "8b4130e2-bcdd-4dec-8f9d-cc5797f9a5d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural representation in the fashion industry",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 8/12]\n(in reply to) User: It's interesting how cultural traditions have such a strong imp"
+      },
+      {
+        "id": "efe7102d-cb5e-4f0b-b2d8-eac1e6ca75c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overlooked cultural influences in the fashion industry",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 9/12]\n(in reply to) User: It's interesting how cultural traditions have such a strong imp"
+      },
+      {
+        "id": "09feaf76-551f-456d-8995-35cd61836a9a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural influences in fashion and social impact",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 10/12]\nUser: Can you give me some examples of how incorporating different cultural influe"
+      },
+      {
+        "id": "564d4f4e-6edc-46ab-9443-69f2ae9fce8b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cultural influences in fashion and cultural understanding",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 11/12]\n(in reply to) User: Can you give me some examples of how incorporating different c"
+      },
+      {
+        "id": "25c03fba-30de-4e5a-b4a8-5c08e9a2016c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Impact of cultural influences in fashion",
+        "text": "[date: 2023-05-30T07:38:00+00:00 | context: Session 231ded15a5d9 - happened on 2023-05-30 07:38:00 UTC. | turn 12/12]\n(in reply to) User: Can you give me some examples of how incorporating different c"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101386,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25346)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26014,
+    "prompt_tokens": 25381,
+    "completion_tokens": 129,
+    "reasoning_tokens": 504,
+    "generate_time_ms": 12678.589947056025,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24312,
+        "completion_tokens": 66,
+        "reasoning_tokens": 208,
+        "total_tokens": 24586
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 529,
+        "completion_tokens": 18,
+        "reasoning_tokens": 186,
+        "total_tokens": 733
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 540,
+        "completion_tokens": 45,
+        "reasoning_tokens": 110,
+        "total_tokens": 695
+      }
+    ]
+  },
+  "failure_label": null
+}

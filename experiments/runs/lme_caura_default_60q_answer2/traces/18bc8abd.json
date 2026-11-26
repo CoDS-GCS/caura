@@ -1,0 +1,1394 @@
+{
+  "question_id": "18bc8abd",
+  "question_type": "knowledge-update",
+  "question": "What brand of BBQ sauce am I currently obsessed with?",
+  "gold_answer": "Kansas City Masterpiece",
+  "prediction": "You are currently obsessed with Kansas City Masterpiece (KC Masterpiece) BBQ sauce.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 848,
+    "by_type": {
+      "task": 31,
+      "plan": 17,
+      "preference": 171,
+      "fact": 382,
+      "action": 3,
+      "episode": 244
+    },
+    "by_status": {
+      "active": 845,
+      "conflicted": 3
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2495664,
+    "output_tokens": 120416,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What brand of BBQ sauce am I currently obsessed with?"
+    ],
+    "retrieve_time_ms": 4917.104154941626,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "488daa30-3a74-49aa-91b1-627985dcefdf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Common spices in Indian cuisine and how they're used",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 1/17]\nUser: What are some common spices used in Indian cuisine and how are they incorpora"
+      },
+      {
+        "id": "b4b673d8-38fd-4d30-aa87-5b137ef75fe2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Common Indian cuisine spices and typical uses",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 2/17]\n(in reply to) User: What are some common spices used in Indian cuisine and how are "
+      },
+      {
+        "id": "918797e4-fd38-40b1-81ec-604cc54ca180",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Common ways Indian spices are incorporated into dishes",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 3/17]\n(in reply to) User: What are some common spices used in Indian cuisine and how are "
+      },
+      {
+        "id": "baf36835-4af7-42b9-8e24-72bd26386d70",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for spice recipe recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 4/17]\nUser: That's interesting, do you have any recipe recommendations using these spices"
+      },
+      {
+        "id": "53a9f194-9707-4e98-bf6d-9496c2a88033",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Indian spice recipe recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 5/17]\n(in reply to) User: That's interesting, do you have any recipe recommendations usin"
+      },
+      {
+        "id": "52002833-8cf0-4c7a-9b6f-29e2429484a2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for spice-based Indian recipe recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 6/17]\n(in reply to) User: That's interesting, do you have any recipe recommendations usin"
+      },
+      {
+        "id": "e2df8337-37c7-44a1-80be-13cc3ea88998",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for more spice-based dish recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 7/17]\nUser: Wow, these recipes sound delicious! I love trying new foods and flavors. Do y"
+      },
+      {
+        "id": "54054bec-f337-42f3-a8ae-78c17c1646ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommended Indian dishes using traditional spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 8/17]\n(in reply to) User: Wow, these recipes sound delicious! I love trying new foods and"
+      },
+      {
+        "id": "22fb47b5-233c-4f4c-8ff0-96bc74c8ce4f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for more spice-based dish recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 9/17]\n(in reply to) User: Wow, these recipes sound delicious! I love trying new foods and"
+      },
+      {
+        "id": "f1d10046-be04-4d4e-87df-efbfabaddcda",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for tips cooking with spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 10/17]\nUser: Yum, these dishes all sound amazing! I definitely have to try making some of"
+      },
+      {
+        "id": "1ff9f93a-5b86-4ec6-a726-b5e4026a5c34",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for cooking with common Indian spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 11/17]\n(in reply to) User: Yum, these dishes all sound amazing! I definitely have to try "
+      },
+      {
+        "id": "5204aa49-226f-4bfb-89ce-ac535cf0dd96",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips on using garam masala and mustard seeds",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 12/17]\n(in reply to) User: Yum, these dishes all sound amazing! I definitely have to try "
+      },
+      {
+        "id": "79beff74-5f53-4e7e-a1d7-0c2de354608f",
+        "score": 0.3346,
+        "memory_type": "preference",
+        "title": "User wants recommendations for high-quality Indian spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 13/17]\nUser: I'm excited to try cooking with these spices and exploring more Indian cuisi"
+      },
+      {
+        "id": "d3c90cde-050b-4660-9a0e-86cb37954fb5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends places to buy high-quality Indian spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 14/17]\n(in reply to) User: I'm excited to try cooking with these spices and exploring mor"
+      },
+      {
+        "id": "eddfac64-84cb-4f01-b0cc-0f5466bfe2e9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for buying high-quality Indian spices",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 15/17]\n(in reply to) User: I'm excited to try cooking with these spices and exploring mor"
+      },
+      {
+        "id": "0bc4303a-82de-4fe3-a44e-e2c5338f96b2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for high-quality Indian spice recommendations",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 16/17]\n(in reply to) User: I'm excited to try cooking with these spices and exploring mor"
+      },
+      {
+        "id": "ac209cfe-72f7-4854-9f82-436bcbb0e6e1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for pronouncing common Indian dish names",
+        "text": "[date: 2023-03-18T01:27:00+00:00 | context: Session 3819fb11e21e - happened on 2023-03-18 01:27:00 UTC. | turn 17/17]\nUser: I can't wait to impress my friends with my newfound knowledge of Indian cuis"
+      },
+      {
+        "id": "0b8f133f-9d07-429c-b267-a66c273dc432",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for simple, healthy side with chicken parmesan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 1/28]\nUser: I'm planning to make chicken parmesan again this week and I want to try a dif"
+      },
+      {
+        "id": "06c2d6bd-36d0-4df5-abe9-056709c2a972",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested healthy side dishes for chicken parmesan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 2/28]\n(in reply to) User: I'm planning to make chicken parmesan again this week and I wan"
+      },
+      {
+        "id": "d4bcc033-07c7-463a-a752-707b3004f919",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Side dish suggestions for chicken parmesan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 3/28]\n(in reply to) User: I'm planning to make chicken parmesan again this week and I wan"
+      },
+      {
+        "id": "b55f4ca8-807c-4b88-8297-82d255bd8a41",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for healthy sides with chicken parmesan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 4/28]\n(in reply to) User: I'm planning to make chicken parmesan again this week and I wan"
+      },
+      {
+        "id": "74e713fd-4acb-4e86-b724-46b52e863d9b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Garlic powder tip for roasted vegetables with chicken parmesan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 5/28]\n(in reply to) User: I'm planning to make chicken parmesan again this week and I wan"
+      },
+      {
+        "id": "5bcf65c2-b80f-45d0-a4d8-cfaee9d34a4f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes saut\u00e9ed spinach; asks for simple recipe",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 6/28]\nUser: I like the idea of saut\u00e9ed spinach. Can you give me a simple recipe for that?"
+      },
+      {
+        "id": "1b5a8fd9-2855-4444-bf37-504e57bbe8bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple saut\u00e9ed spinach recipe with garlic and optional add-ins",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 7/28]\n(in reply to) User: I like the idea of saut\u00e9ed spinach. Can you give me a simple re"
+      },
+      {
+        "id": "ab3f551e-677d-4249-95be-cc132834a7b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple saut\u00e9ed spinach recipe with garlic",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 8/28]\n(in reply to) User: I like the idea of saut\u00e9ed spinach. Can you give me a simple re"
+      },
+      {
+        "id": "0dbc7b48-d25f-4f05-b7b4-db71b138a7e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple saut\u00e9ed spinach add-ins and garlic guidance",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 9/28]\n(in reply to) User: I like the idea of saut\u00e9ed spinach. Can you give me a simple re"
+      },
+      {
+        "id": "12030d1e-d5d3-4ef2-8505-bdc1273b820d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Simple saut\u00e9ed spinach garlic guidance",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 10/28]\n(in reply to) User: I like the idea of saut\u00e9ed spinach. Can you give me a simple r"
+      },
+      {
+        "id": "d9e4afc4-aab9-48c8-9c93-facd9dbec70f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about adding chopped onions to skillet",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 11/28]\nUser: Can I also add some chopped onions to the skillet with the garlic for added "
+      },
+      {
+        "id": "e63cd16f-f6f6-4cd6-8bce-3711655b01eb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Cooking advice: saut\u00e9ed spinach with garlic and onions",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 12/28]\n(in reply to) User: Can I also add some chopped onions to the skillet with the gar"
+      },
+      {
+        "id": "841ba8d6-ccfc-4200-bbae-bdf55343b82d",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Skillet spinach with garlic, onions, and lemon (cooking steps)",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 13/28]\n(in reply to) User: Can I also add some chopped onions to the skillet with the gar"
+      },
+      {
+        "id": "3d192009-4fe5-4296-9ca4-4bfcc9e20aa2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cooking onions with garlic in skillet (tips)",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 14/28]\n(in reply to) User: Can I also add some chopped onions to the skillet with the gar"
+      },
+      {
+        "id": "ab99982f-c9a3-48f4-bf2d-25202d582612",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to make homemade tomato sauce",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 15/28]\nUser: I've been experimenting with different pasta sauces lately, and I was wonder"
+      },
+      {
+        "id": "60c97f5a-97db-4a61-9905-1e80ba4e5bfe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for homemade tomato sauce from canned tomatoes",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 16/28]\n(in reply to) User: I've been experimenting with different pasta sauces lately, an"
+      },
+      {
+        "id": "98782a56-d8ec-4403-9d8a-af51268c15e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making homemade tomato sauce from canned tomatoes",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 17/28]\n(in reply to) User: I've been experimenting with different pasta sauces lately, an"
+      },
+      {
+        "id": "2ea7d05e-ea0c-4fb5-a49b-cfe5a52902f5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making homemade tomato sauce from canned tomatoes",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 18/28]\n(in reply to) User: I've been experimenting with different pasta sauces lately, an"
+      },
+      {
+        "id": "bee08611-bd0d-4753-aa80-de197315cf04",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Basic homemade tomato sauce recipe from canned tomatoes",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 19/28]\n(in reply to) User: I've been experimenting with different pasta sauces lately, an"
+      },
+      {
+        "id": "86593405-3b04-4af3-9489-6f23d1a573a4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Planning homemade tomato sauce batch",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 20/28]\nUser: I'm actually planning to make a big batch of tomato sauce from scratch using"
+      },
+      {
+        "id": "d68ce65e-0585-456a-bdbe-3cf46f9b4cad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tomato sauce tips: roast veg and caramelize onions",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 21/28]\n(in reply to) User: I'm actually planning to make a big batch of tomato sauce from"
+      },
+      {
+        "id": "3a132822-a30e-4a1c-8aad-a47f3c286f17",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tomato sauce tips: canned tomato mix, acidity balance, simmering",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 22/28]\n(in reply to) User: I'm actually planning to make a big batch of tomato sauce from"
+      },
+      {
+        "id": "c4c5fd9e-d761-4106-a19c-c44d88e3f357",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Freezing and storing homemade tomato sauce up to 6 months",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 23/28]\n(in reply to) User: I'm actually planning to make a big batch of tomato sauce from"
+      },
+      {
+        "id": "9ef2fc81-3526-4daa-89f7-113dd63a0f73",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Tomato sauce batch cooking steps",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 24/28]\n(in reply to) User: I'm actually planning to make a big batch of tomato sauce from"
+      },
+      {
+        "id": "5e14ad9c-550a-4a51-9e02-b23eec879c65",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Garlic powder and veggies for sauce seasoning",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 25/28]\nUser: I'm planning to use garlic powder as a seasoning for the sauce, and I also w"
+      },
+      {
+        "id": "b0b6d141-f784-44ee-8df6-d14e52863149",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for seasoning sauce with garlic powder, onions, and bell peppers",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 26/28]\n(in reply to) User: I'm planning to use garlic powder as a seasoning for the sauce"
+      },
+      {
+        "id": "a5f26811-85ed-4435-8408-da15a4b09ace",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Garlic powder tomato sauce flavoring guidance",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 27/28]\n(in reply to) User: I'm planning to use garlic powder as a seasoning for the sauce"
+      },
+      {
+        "id": "26d1955d-6aee-406a-bd21-bd402023752c",
+        "score": 0.3617,
+        "memory_type": "plan",
+        "title": "Garlic powder and vegetable marinara sauce plan",
+        "text": "[date: 2023-03-20T16:15:00+00:00 | context: Session cb4cbeaf9d89 - happened on 2023-03-20 16:15:00 UTC. | turn 28/28]\n(in reply to) User: I'm planning to use garlic powder as a seasoning for the sauce"
+      },
+      {
+        "id": "12a710d2-0625-4c4f-83da-cf53ed5b49e6",
+        "score": 0.3477,
+        "memory_type": "preference",
+        "title": "Preference for protein-rich healthy dinners post-gym",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 1/24]\nUser: I'm looking for some healthy dinner ideas. I'm trying to eat more protein-ric"
+      },
+      {
+        "id": "0390a33e-20e4-4c66-817b-397bf57a20ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Healthy, protein-rich dinner ideas after gym",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some healthy dinner ideas. I'm trying to eat mo"
+      },
+      {
+        "id": "cabc7e9a-b247-46db-9f6d-db38775882ac",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy, protein-rich dinner ideas (chicken/turkey, shrimp, curry, tofu)",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some healthy dinner ideas. I'm trying to eat mo"
+      },
+      {
+        "id": "4d78cd36-d460-4263-819c-beb39670445d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Protein-rich healthy dinner/snack ideas",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some healthy dinner ideas. I'm trying to eat mo"
+      },
+      {
+        "id": "36872d9e-01b9-4eab-a84e-b7825cb6eda0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy, protein-rich dinner ideas and post-workout tips",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 5/24]\n(in reply to) User: I'm looking for some healthy dinner ideas. I'm trying to eat mo"
+      },
+      {
+        "id": "6919fec4-9b5a-4d1a-adc4-b37fae1efdba",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants healthy, protein-rich post-gym dinner ideas",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 6/24]\n(in reply to) User: I'm looking for some healthy dinner ideas. I'm trying to eat mo"
+      },
+      {
+        "id": "1cd7aa61-7bd4-4f07-8eb2-7195967c0a49",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes trying different marinades",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 7/24]\nUser: I like the idea of trying out different marinades. What are some good options"
+      },
+      {
+        "id": "cb254004-52b6-40ce-add2-33dc192ee0d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Marinade ideas for grilled chicken and fish",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 8/24]\n(in reply to) User: I like the idea of trying out different marinades. What are som"
+      },
+      {
+        "id": "6fc8aa2b-d1a8-41a3-921c-a73b6442655f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Marinade ideas for grilled chicken or fish",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 9/24]\n(in reply to) User: I like the idea of trying out different marinades. What are som"
+      },
+      {
+        "id": "cff90a60-e953-43ec-8170-494c9d3f7a75",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Marinade guidance for grilled chicken or fish",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 10/24]\n(in reply to) User: I like the idea of trying out different marinades. What are so"
+      },
+      {
+        "id": "369e4916-e147-4756-a506-da0eab523ae4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants protein-rich post-workout snack ideas",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 11/24]\nUser: I'm also thinking of trying out some new protein-rich snacks to have after m"
+      },
+      {
+        "id": "27e687d0-43e4-4791-af3c-a15e019e1d05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggested protein-rich post-workout snack ideas",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 12/24]\n(in reply to) User: I'm also thinking of trying out some new protein-rich snacks t"
+      },
+      {
+        "id": "e3053bc9-3d59-4515-9c38-9b8fefd9dead",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy protein-rich snack ideas (energy balls, parfaits, eggs, etc.)",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 13/24]\n(in reply to) User: I'm also thinking of trying out some new protein-rich snacks t"
+      },
+      {
+        "id": "54852995-e130-459f-a38d-0fb2eab4634e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy protein-rich snack ideas (granola, quiches, trail mix, mug muffins)",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 14/24]\n(in reply to) User: I'm also thinking of trying out some new protein-rich snacks t"
+      },
+      {
+        "id": "86ace506-733d-44cf-b311-3df5c7db4d30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for preparing protein-rich snacks in advance",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 15/24]\n(in reply to) User: I'm also thinking of trying out some new protein-rich snacks t"
+      },
+      {
+        "id": "616010f8-2f35-4429-97fc-7d872d8489e5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Provide energy balls recipe",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 16/24]\nUser: That's a great list of snack ideas! I'm particularly interested in the energ"
+      },
+      {
+        "id": "83f5d943-5747-4e3b-9acf-b8384ec0e0ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Basic energy balls recipe ingredients and instructions",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 17/24]\n(in reply to) User: That's a great list of snack ideas! I'm particularly intereste"
+      },
+      {
+        "id": "2cfe178c-4900-47f3-aa2d-97b6b8979667",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Energy balls recipe (oats, peanut butter, honey, chia)",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 18/24]\n(in reply to) User: That's a great list of snack ideas! I'm particularly intereste"
+      },
+      {
+        "id": "2209a556-25fc-4a54-aae8-a26dccffee64",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Customizable energy balls recipe tips",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 19/24]\n(in reply to) User: That's a great list of snack ideas! I'm particularly intereste"
+      },
+      {
+        "id": "eda307a4-6249-4285-8f39-1be3e53b7e4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for protein powder flavors for smoothie packs",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 20/24]\nUser: I'm glad you like the recipe! I was thinking of also making some protein smo"
+      },
+      {
+        "id": "3e5c6d7f-0d11-4a6c-8f7b-43ab61654fc7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Protein powder flavors for smoothies with frozen fruit",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 21/24]\n(in reply to) User: I'm glad you like the recipe! I was thinking of also making so"
+      },
+      {
+        "id": "6d15d022-1a2f-4f34-a1f7-8ef9228db4a4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Protein powder flavors that pair with frozen fruit",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 22/24]\n(in reply to) User: I'm glad you like the recipe! I was thinking of also making so"
+      },
+      {
+        "id": "27db3361-ba4b-43ef-a558-a0cbf4cd7a15",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Protein smoothie pack flavor suggestions with frozen fruit",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 23/24]\n(in reply to) User: I'm glad you like the recipe! I was thinking of also making so"
+      },
+      {
+        "id": "bbb7872a-792d-44cf-906c-5aaf515c80f6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Strawberries & cream protein with frozen mixed berries",
+        "text": "[date: 2023-03-22T23:42:00+00:00 | context: Session fda660499368 - happened on 2023-03-22 23:42:00 UTC. | turn 24/24]\nUser: I'm thinking of trying out the strawberries & cream protein powder flavor wi"
+      },
+      {
+        "id": "a83ba8ef-f609-4c34-8778-83c4390bd620",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question on long-term implications of sports brand partnerships",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 1/19]\nUser: What are the long-term implications of brand partnerships for fan engagement "
+      },
+      {
+        "id": "ca562e3e-c299-4230-8d4c-d983b2fb1374",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Long-term implications of brand partnerships in major sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 2/19]\n(in reply to) User: What are the long-term implications of brand partnerships for f"
+      },
+      {
+        "id": "24ae775f-0c62-41e3-b795-835ee1714b22",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Long-term brand partnerships boost sports fan engagement and revenue",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 3/19]\n(in reply to) User: What are the long-term implications of brand partnerships for f"
+      },
+      {
+        "id": "95c4dad5-ab2f-43d7-85bb-0e85d40cca87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Risks of controversial brand partnerships for sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 4/19]\nUser: Do you think there are any risks involved with brand partnerships for sports "
+      },
+      {
+        "id": "ec82311b-17b8-4411-9444-8eb629da990a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about sports league brand partnerships gone wrong",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 5/19]\nUser: Has there ever been an example of a brand partnership gone wrong for a sports"
+      },
+      {
+        "id": "aa59a407-e6e3-4876-b628-5f04fbd6b345",
+        "score": 0.3305,
+        "memory_type": "fact",
+        "title": "Examples of sports league brand partnerships going wrong",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 6/19]\n(in reply to) User: Has there ever been an example of a brand partnership gone wron"
+      },
+      {
+        "id": "707d3559-6c44-46f4-8b73-e2294473130f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brand partnerships can be risky for sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 7/19]\n(in reply to) User: Has there ever been an example of a brand partnership gone wron"
+      },
+      {
+        "id": "c7110ae6-dfe2-40c5-a1bb-bcdbea492b6a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User asks about prioritizing revenue vs values in sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 8/19]\nUser: Do you think sports leagues should prioritize revenue generation over choosin"
+      },
+      {
+        "id": "8d030dfb-4a7b-4eb4-8c80-0f609f8ff92d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Balance revenue with brand values for sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 9/19]\n(in reply to) User: Do you think sports leagues should prioritize revenue generatio"
+      },
+      {
+        "id": "c5b814b6-89bb-4774-b747-4e4f90751d62",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sports leagues should balance values and revenue",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 10/19]\n(in reply to) User: Do you think sports leagues should prioritize revenue generati"
+      },
+      {
+        "id": "beb1d244-786b-49d2-9541-3c89dc77f851",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about brand partnerships causing sports league conflicts",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 11/19]\nUser: Do brand partnerships ever lead to conflicts between different sports league"
+      },
+      {
+        "id": "0a2b2c1d-7eaa-4345-bd1e-85d4609862ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brand partnerships can create conflicts between sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 12/19]\n(in reply to) User: Do brand partnerships ever lead to conflicts between different"
+      },
+      {
+        "id": "ad0c44b9-d209-4893-b940-d25189f43743",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on managing brand partnership conflicts in sports leagues",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 13/19]\n(in reply to) User: Do brand partnerships ever lead to conflicts between different"
+      },
+      {
+        "id": "9392f715-51bf-4e5d-b8ff-925600fcb16b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about brand partnerships benefiting leagues and brands",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 14/19]\nUser: It makes sense that sports leagues need to be strategic in their brand partn"
+      },
+      {
+        "id": "5c59e1b1-ec28-4b08-a060-cd9b4bf44747",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NBA\u2013Nike partnership example (2015)",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 15/19]\n(in reply to) User: It makes sense that sports leagues need to be strategic in the"
+      },
+      {
+        "id": "f7953472-5dc9-423b-b1c6-6ff1b455f7e9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "WNBA and AT&T partnership (2019) described as mutual benefit",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 16/19]\n(in reply to) User: It makes sense that sports leagues need to be strategic in the"
+      },
+      {
+        "id": "e9b1577b-1e34-4fe2-aef2-076d4bfe36b4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about negative impacts of brand partnerships on athletes",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 17/19]\nUser: Can you think of any potential negative impacts that brand partnerships coul"
+      },
+      {
+        "id": "46a2b959-b4c1-4846-85e5-0aef6133a48e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Potential negative impacts of brand partnerships on athletes",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 18/19]\n(in reply to) User: Can you think of any potential negative impacts that brand par"
+      },
+      {
+        "id": "a4d05cc7-dc10-4c2f-8c6b-22afcfb9cdd2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on mitigating negative impacts of brand partnerships on athletes",
+        "text": "[date: 2023-03-25T13:37:00+00:00 | context: Session 4ac76e82a52e - happened on 2023-03-25 13:37:00 UTC. | turn 19/19]\n(in reply to) User: Can you think of any potential negative impacts that brand par"
+      },
+      {
+        "id": "0ffdb650-2fcd-44ce-9bfa-806a5c736221",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about pros/cons of travel luggage options",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 9/29]\n(in reply to) User: What are the pros and cons of each of the options you listed? I"
+      },
+      {
+        "id": "c8bc6abd-944b-48c2-8d11-1fdfdccaa9d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons of durable polycarbonate spinner luggage (Tumi)",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 10/29]\n(in reply to) User: What are the pros and cons of each of the options you listed? "
+      },
+      {
+        "id": "eb741c16-560f-47e5-8df0-3402bd0f1561",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons of polycarbonate spinner suitcase with lifetime warranty",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 11/29]\n(in reply to) User: What are the pros and cons of each of the options you listed? "
+      },
+      {
+        "id": "c40002d2-22fe-4332-bcd7-6dee249ca00d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hard-shell luggage: common damage causes & protective features",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 12/29]\nUser: That's really helpful, thanks! I think I'm going to need to consider the dur"
+      },
+      {
+        "id": "f1f3bfa3-239c-4030-b2bb-c0f3b2cc56d9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Common causes of hard-shell luggage damage and mitigation tips",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 13/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to need to co"
+      },
+      {
+        "id": "f2cf0db9-6738-48dc-bc54-e1ed877d6199",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Causes of hard-shell luggage damage & durability tips",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 14/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to need to co"
+      },
+      {
+        "id": "762e929f-622b-486c-9f6c-8fd5754ac095",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hard-shell luggage: warranty and customer support guidance",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 15/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to need to co"
+      },
+      {
+        "id": "a46868a8-321a-4bb2-b383-aa1a40570b2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hard-shell luggage durability factors",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 16/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to need to co"
+      },
+      {
+        "id": "f1c961c0-5fc0-416f-b8af-d03c500a3fde",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prioritizes durable, lightweight luggage; asks about packing cubes",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 17/29]\nUser: That's really helpful, thanks! I think I'm going to prioritize durability an"
+      },
+      {
+        "id": "e3f6f359-1c94-4203-b0c6-9b49b58abf5e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers durable, lightweight luggage; asks about packing cubes",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 18/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to prioritize"
+      },
+      {
+        "id": "dedf88b8-90f3-465f-b8c6-975984dafd9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Packing cubes benefits and recommendations",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 19/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to prioritize"
+      },
+      {
+        "id": "4f71a170-54a0-4143-b22b-9a45f6b8aee9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prioritizes durable, lightweight luggage; asks about packing cubes",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 20/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to prioritize"
+      },
+      {
+        "id": "2095c69a-cf01-4b82-b320-0eca6841a93e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Packing cubes tips (size, categorize, roll, compress, label)",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 21/29]\n(in reply to) User: That's really helpful, thanks! I think I'm going to prioritize"
+      },
+      {
+        "id": "7f6ffbca-490d-44c7-a48d-0c856703b909",
+        "score": 0.3268,
+        "memory_type": "preference",
+        "title": "Packing cubes and ordered packing routine",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 22/29]\nUser: I've been using packing cubes for a while now, and they've really helped me "
+      },
+      {
+        "id": "dd94829a-811c-4097-8c02-ca15d1cea3c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses packing cubes and ordered clothing packing",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 23/29]\n(in reply to) User: I've been using packing cubes for a while now, and they've rea"
+      },
+      {
+        "id": "56cfd6ce-99ff-4c4e-ae6c-7815ed7b16c4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel packing advice session (packing cubes, essentials)",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 24/29]\n(in reply to) User: I've been using packing cubes for a while now, and they've rea"
+      },
+      {
+        "id": "32b4706c-a92b-43e4-8eec-eed8dbe16e7f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considers switching from mental checklist to packing app",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 25/29]\nUser: I actually use a mental checklist to remember what to pack, but I've been th"
+      },
+      {
+        "id": "9d4b67b0-5771-4d73-9d97-df7477b5819a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests packing apps for customizable packing lists",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 26/29]\n(in reply to) User: I actually use a mental checklist to remember what to pack, bu"
+      },
+      {
+        "id": "f8e08df5-dcf5-4d82-af05-b2907d3e7aef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for customizable packing list apps",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 27/29]\n(in reply to) User: I actually use a mental checklist to remember what to pack, bu"
+      },
+      {
+        "id": "a31f4a43-c2bd-4e94-b0ff-979b6eb7e734",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TripIt offers customizable packing lists based on itinerary",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 28/29]\n(in reply to) User: I actually use a mental checklist to remember what to pack, bu"
+      },
+      {
+        "id": "cea62732-fd91-4bc9-b9d2-ac11b828be18",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for packing apps (iOS/Android)",
+        "text": "[date: 2023-03-27T07:24:00+00:00 | context: Session 6f87cd5464ec - happened on 2023-03-27 07:24:00 UTC. | turn 29/29]\n(in reply to) User: I actually use a mental checklist to remember what to pack, bu"
+      },
+      {
+        "id": "66c7a352-31a0-4120-815d-61e211bc2c7d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Quer\u00e9taro festival souvenirs and crafts suggestions",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 1/18]\nUser: Could you suggest any local souvenirs or crafts to purchase during festival s"
+      },
+      {
+        "id": "90435346-6478-4b84-95fa-a992d08cac31",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked which festival to attend for Quer\u00e9taro crafts",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 2/18]\nUser: Wow, I had no idea Quer\u00e9taro had so many unique souvenirs to offer during fes"
+      },
+      {
+        "id": "ee950332-0d34-415f-a65f-21d0d4098cc2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Festivals near Quer\u00e9taro for local crafts",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 3/18]\n(in reply to) User: Wow, I had no idea Quer\u00e9taro had so many unique souvenirs to of"
+      },
+      {
+        "id": "78d72f5b-345d-41c7-ba14-9c4282a1de37",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Quer\u00e9taro festival recommendation: Festival de las Comunidades Extranjeras",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 4/18]\n(in reply to) User: Wow, I had no idea Quer\u00e9taro had so many unique souvenirs to of"
+      },
+      {
+        "id": "d42c1145-c931-4cc9-a1d5-efb2f65a1589",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for bargaining at Festival de la Sierra Gorda market",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 5/18]\nUser: I think I'll attend Festival de la Sierra Gorda to get my hands on some Otomi"
+      },
+      {
+        "id": "6dcae76e-d829-46cd-b03c-e85807c982fd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for local food spots at a festival",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 6/18]\nUser: I can't wait to try my bargaining skills at the festival. Do you know any goo"
+      },
+      {
+        "id": "21c21ae5-872f-47f8-99e3-556f5deba3f6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Festival de la Sierra Gorda local food suggestions",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 7/18]\n(in reply to) User: I can't wait to try my bargaining skills at the festival. Do yo"
+      },
+      {
+        "id": "9a7d4fc5-d81b-4fa2-9c04-15b2ecd69e35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Local food spots in Jalpan de Serra, Pinal de Amoles, Xilitla, Bucareli",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 8/18]\n(in reply to) User: I can't wait to try my bargaining skills at the festival. Do yo"
+      },
+      {
+        "id": "3d2f5038-06d2-458e-81a2-24b21bce766d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Festival local food suggestion",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 9/18]\n(in reply to) User: I can't wait to try my bargaining skills at the festival. Do yo"
+      },
+      {
+        "id": "624c546d-c04a-4474-8732-e7c284c6818d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants first-time ant larvae recommendations",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 10/18]\nUser: I've never tried ant larvae before, but I'm feeling adventurous! Do you have"
+      },
+      {
+        "id": "a98658b3-76b7-4580-b10b-69ef08843132",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for first-time escamoles (ant larvae)",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 11/18]\n(in reply to) User: I've never tried ant larvae before, but I'm feeling adventurou"
+      },
+      {
+        "id": "77de1da0-2fa1-4ebb-b0a7-fdf966a9c785",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for first-time escamoles (ant larvae) recommendations",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 12/18]\n(in reply to) User: I've never tried ant larvae before, but I'm feeling adventurou"
+      },
+      {
+        "id": "b93034b4-31e1-4c9d-9b71-391b724ae4a4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for best tacos in Quer\u00e9taro",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 13/18]\nUser: Honestly, I'm not sure if I'm brave enough to try ant larvae. Maybe I'll sti"
+      },
+      {
+        "id": "035bad75-2836-4fab-a3fe-b49663ef8b26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for best tacos in Quer\u00e9taro",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 14/18]\n(in reply to) User: Honestly, I'm not sure if I'm brave enough to try ant larvae. "
+      },
+      {
+        "id": "c79dd4f2-a640-4b44-af03-39e32c145849",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for tacos in Quer\u00e9taro (Taquer\u00eda El Infiernito)",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 15/18]\n(in reply to) User: Honestly, I'm not sure if I'm brave enough to try ant larvae. "
+      },
+      {
+        "id": "0611acf2-ace4-4bd6-a5bc-03e28bfde0c8",
+        "score": 0.3538,
+        "memory_type": "episode",
+        "title": "User asks for spicy salsa recommendation",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 16/18]\nUser: Wow, those tacos sound amazing! I think I'll have to try them all. Is there "
+      },
+      {
+        "id": "3df3093c-57fe-4353-bdb8-a09c70ddf56d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended spicy taco salsas (salsa roja, verde, habanero)",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 17/18]\n(in reply to) User: Wow, those tacos sound amazing! I think I'll have to try them "
+      },
+      {
+        "id": "247ab734-e59c-41e8-bef8-c0b5bb7f0d07",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendation: Chile de \u00e1rbol salsa for spicy heat",
+        "text": "[date: 2023-04-05T12:48:00+00:00 | context: Session 265e96940543 - happened on 2023-04-05 12:48:00 UTC. | turn 18/18]\n(in reply to) User: Wow, those tacos sound amazing! I think I'll have to try them "
+      },
+      {
+        "id": "45f789ba-d5cd-4710-b948-abeee176ead2",
+        "score": 0.318,
+        "memory_type": "preference",
+        "title": "Book recommendations: contemporary poetry and new voices",
+        "text": "[date: 2023-04-08T00:40:00+00:00 | context: Session d223aa90eb1f - happened on 2023-04-08 00:40:00 UTC. | turn 1/34]\nUser: I'm looking for some book recommendations. I've been reading a lot of poetry "
+      },
+      {
+        "id": "25e34e7a-8e81-4ae1-94cf-d9670e3827d3",
+        "score": 0.3238,
+        "memory_type": "preference",
+        "title": "Wants exercise routine variety and workout accountability buddy",
+        "text": "[date: 2023-04-16T02:13:00+00:00 | context: Session 3d1842991ea8 - happened on 2023-04-16 02:13:00 UTC. | turn 7/27]\nUser: I like the idea of finding an exercise I enjoy, as I've been feeling a bit bo"
+      },
+      {
+        "id": "16706a91-3c16-4e66-99ca-ed943d2b8e90",
+        "score": null,
+        "memory_type": "task",
+        "title": "Backyard BBQ menu: side dishes for ribs and brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 1/27]\nUser: I'm planning to host another backyard BBQ soon and I need some help with menu"
+      },
+      {
+        "id": "406c4515-23b6-4a45-b15f-4e07a02864e1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Backyard BBQ side dish suggestions for ribs and brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 2/27]\n(in reply to) User: I'm planning to host another backyard BBQ soon and I need some "
+      },
+      {
+        "id": "33a106c9-4463-4b62-8ff6-8142cd480ccb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "BBQ side dish suggestions for ribs and brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 3/27]\n(in reply to) User: I'm planning to host another backyard BBQ soon and I need some "
+      },
+      {
+        "id": "e08c92ad-70f4-477a-83b7-688655bf0b54",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ side dish suggestions for ribs and brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 4/27]\n(in reply to) User: I'm planning to host another backyard BBQ soon and I need some "
+      },
+      {
+        "id": "58c6616d-2ed7-472a-86c9-2cfa890dcd18",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for smoked brisket recipes and BBQ sauce stocking",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 5/27]\nUser: I love those suggestions! I'm definitely going to make the mac and cheese, it"
+      },
+      {
+        "id": "57420edf-1a3c-4001-a65a-c1b254ac03ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned to stock Sweet Baby Ray's for ribs",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 6/27]\n(in reply to) User: I love those suggestions! I'm definitely going to make the mac "
+      },
+      {
+        "id": "9066bdfe-14ee-4f95-89bd-f2900de92b07",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket recipe instructions (Texas-style)",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 7/27]\n(in reply to) User: I love those suggestions! I'm definitely going to make the mac "
+      },
+      {
+        "id": "d61e72e0-11b4-4452-8a98-51db29ad1adc",
+        "score": 0.4024,
+        "memory_type": "fact",
+        "title": "Smoked brisket recipe instructions (competition-style)",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 8/27]\n(in reply to) User: I love those suggestions! I'm definitely going to make the mac "
+      },
+      {
+        "id": "4e933c80-44ef-4499-99d6-4203403bb1f0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket recipe with BBQ sauce and temperatures",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 9/27]\n(in reply to) User: I love those suggestions! I'm definitely going to make the mac "
+      },
+      {
+        "id": "04512e12-c0f7-4613-8729-f384a0385c97",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about wood chips for smoked brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 10/27]\nUser: Thanks for the recipes! I think I'll try the Low and Slow Smoked Brisket rec"
+      },
+      {
+        "id": "9efe7c55-6ef4-4a49-80f8-df630e2d5fa1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guide to wood chips for smoking brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 11/27]\n(in reply to) User: Thanks for the recipes! I think I'll try the Low and Slow Smok"
+      },
+      {
+        "id": "0c1d20d0-2975-44c9-8b6f-f9f14bd02f8d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wood chips for smoking brisket: post oak, mesquite, hickory, apple, pecan",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 12/27]\n(in reply to) User: Thanks for the recipes! I think I'll try the Low and Slow Smok"
+      },
+      {
+        "id": "c67ffc2b-59f4-4a6d-b956-3b847168c722",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wood chip guidance for low-and-slow smoked brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 13/27]\n(in reply to) User: Thanks for the recipes! I think I'll try the Low and Slow Smok"
+      },
+      {
+        "id": "b345530f-fe7e-4ee6-befa-fe286feff6a6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about wood chips for smoking brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 14/27]\n(in reply to) User: Thanks for the recipes! I think I'll try the Low and Slow Smok"
+      },
+      {
+        "id": "9fa66fe9-2394-49f0-a4bd-d48da06a88c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for BBQ rub recommendations for brisket and ribs",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 15/27]\nUser: That's really helpful, thanks! I think I'll try using post oak wood chips fo"
+      },
+      {
+        "id": "1caf7b48-258d-4bf7-97bf-395f56ea3847",
+        "score": null,
+        "memory_type": "episode",
+        "title": "BBQ rub recommendations for brisket and ribs",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 16/27]\n(in reply to) User: That's really helpful, thanks! I think I'll try using post oak"
+      },
+      {
+        "id": "87378dd6-9e58-45f0-95c7-081d5e167930",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ rub recommendations for brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 17/27]\n(in reply to) User: That's really helpful, thanks! I think I'll try using post oak"
+      },
+      {
+        "id": "8dedcc3a-3b1b-487f-9577-343bc814c240",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ rub guidance: amount, rest time, and experimenting",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 18/27]\n(in reply to) User: That's really helpful, thanks! I think I'll try using post oak"
+      },
+      {
+        "id": "7142cbf6-973f-4ba8-b071-54e756ba9339",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for brisket prep tips for Killer Hogs BBQ Rub",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 19/27]\nUser: I think I'll try the Killer Hogs BBQ Rub, I've heard great things about it. "
+      },
+      {
+        "id": "b8cc5e23-65ce-4334-808c-e6f7c46e6133",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for prepping brisket before applying Killer Hogs BBQ Rub",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 20/27]\n(in reply to) User: I think I'll try the Killer Hogs BBQ Rub, I've heard great thi"
+      },
+      {
+        "id": "7220e862-9245-4cb3-9d7a-f781c9acb621",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for prepping brisket with Killer Hogs BBQ Rub",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 21/27]\n(in reply to) User: I think I'll try the Killer Hogs BBQ Rub, I've heard great thi"
+      },
+      {
+        "id": "4759e0c4-956f-485a-a5db-0ce2a32837ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Food safety reminder for handling and storing meat",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 22/27]\n(in reply to) User: I think I'll try the Killer Hogs BBQ Rub, I've heard great thi"
+      },
+      {
+        "id": "cb91edfa-41a1-406b-89a5-5edea67f3068",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for smoker setup tips for low-and-slow brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 23/27]\nUser: I think I'll try trimming the excess fat and removing the silver skin from t"
+      },
+      {
+        "id": "9c18e6f8-8bf2-4bcf-a2f5-6a7d9c74af58",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for setting up smoker for low-and-slow brisket",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 24/27]\n(in reply to) User: I think I'll try trimming the excess fat and removing the silv"
+      },
+      {
+        "id": "a6c43403-9f21-4b2e-ad86-332fc26b6895",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for smoking brisket at 225\u00b0F with post oak and water pan",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 25/27]\n(in reply to) User: I think I'll try trimming the excess fat and removing the silv"
+      },
+      {
+        "id": "3f98777c-3887-4be5-a48e-27d7354a6a0d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for smoking brisket (temps, wood, wrapping, thermometer)",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 26/27]\n(in reply to) User: I think I'll try trimming the excess fat and removing the silv"
+      },
+      {
+        "id": "ab1e8d8d-a71a-4d0d-8e7e-fe35ba80618c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for low-and-slow smoked brisket setup",
+        "text": "[date: 2023-04-16T02:28:00+00:00 | context: Session adb5c62a12fb - happened on 2023-04-16 02:28:00 UTC. | turn 27/27]\n(in reply to) User: I think I'll try trimming the excess fat and removing the silv"
+      },
+      {
+        "id": "b4a311ce-fbd5-4fb9-90da-543979c89de9",
+        "score": 0.5048,
+        "memory_type": "preference",
+        "title": "Backyard BBQ interests: smoked brisket tips and KC Masterpiece sauce",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 1/30]\nUser: I'm thinking of hosting another backyard BBQ soon and I want to try out some "
+      },
+      {
+        "id": "2f3f20e6-6db2-452d-9693-e888436c884d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket basics: cut, temp, cook time, wood options",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 2/30]\n(in reply to) User: I'm thinking of hosting another backyard BBQ soon and I want to"
+      },
+      {
+        "id": "06d90603-2ae9-45b2-80d0-f03b17ee48b6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket recipe and dry rub tips",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 3/30]\n(in reply to) User: I'm thinking of hosting another backyard BBQ soon and I want to"
+      },
+      {
+        "id": "4cf7296d-385c-423a-abc3-eb9b15a88989",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket tips (225\u00b0F, 4\u20135h, wrap/rest)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 4/30]\n(in reply to) User: I'm thinking of hosting another backyard BBQ soon and I want to"
+      },
+      {
+        "id": "69f3e6f8-0a3c-4daf-8c06-bf5ca133c18b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket finishing steps: sauce, set, slice",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 5/30]\n(in reply to) User: I'm thinking of hosting another backyard BBQ soon and I want to"
+      },
+      {
+        "id": "a91f9e4c-7db9-466c-ac84-82e57b43ff56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket tips: temp, moisture, patience",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 6/30]\n(in reply to) User: I'm thinking of hosting another backyard BBQ soon and I want to"
+      },
+      {
+        "id": "bc8e839d-ebe7-4164-bae5-b9680970c51d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for sides and coleslaw recipes for smoked brisket",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 7/30]\nUser: What are some good sides that would go well with the smoked brisket, and do y"
+      },
+      {
+        "id": "80c49dc4-1ef8-43a3-b9e0-3f9ffee393e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket side suggestions and coleslaw recipe",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 8/30]\n(in reply to) User: What are some good sides that would go well with the smoked bri"
+      },
+      {
+        "id": "357e5699-8484-4b96-a51d-0e4b6b39497a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket sides: coleslaw recipe",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 9/30]\n(in reply to) User: What are some good sides that would go well with the smoked bri"
+      },
+      {
+        "id": "6f61428f-716f-4c21-a89f-5c35c438c40b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Smoked brisket sides & coleslaw recipe tips",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 10/30]\n(in reply to) User: What are some good sides that would go well with the smoked br"
+      },
+      {
+        "id": "503fb49a-0a5f-498a-bddd-547037893c01",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips to grill pineapple",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 11/30]\nUser: I'm thinking of also making some grilled pineapple for my BBQ, like my frien"
+      },
+      {
+        "id": "0fb79400-3903-463e-a5b9-06e45b980205",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for grilling pineapple and best pineapple varieties",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 12/30]\n(in reply to) User: I'm thinking of also making some grilled pineapple for my BBQ,"
+      },
+      {
+        "id": "f742acd4-81d1-4e4c-9b23-10db487d285d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for grilling pineapple (preheat, cut, oil, season, grill)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 13/30]\n(in reply to) User: I'm thinking of also making some grilled pineapple for my BBQ,"
+      },
+      {
+        "id": "0a5310a2-2147-4ca8-8569-a3cd17e20a7f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for grilling pineapple (avoid overgrilling, use grill mat, add wood chips)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 14/30]\n(in reply to) User: I'm thinking of also making some grilled pineapple for my BBQ,"
+      },
+      {
+        "id": "8ac805a8-e4af-4927-81ab-29f41bd48bd6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for burger/hot dog topping ideas",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 15/30]\nUser: That's a great tip about the pineapple! I was thinking of making some burger"
+      },
+      {
+        "id": "300343ab-983e-4a26-b79c-35370516a577",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestions for unique burger and hot dog toppings",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 16/30]\n(in reply to) User: That's a great tip about the pineapple! I was thinking of maki"
+      },
+      {
+        "id": "8a208aec-a6da-4b24-a4b3-84efcf933cdb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Burger and hot dog topping suggestions (pineapple, gourmet ideas)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 17/30]\n(in reply to) User: That's a great tip about the pineapple! I was thinking of maki"
+      },
+      {
+        "id": "ecc6128b-7cdb-44ac-a595-c758516cf68e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggestions for making burgers/hot dogs more interesting",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 18/30]\n(in reply to) User: That's a great tip about the pineapple! I was thinking of maki"
+      },
+      {
+        "id": "7076af1b-e0af-4cdc-bf81-88d16b8cd500",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making burgers and hot dogs more interesting",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 19/30]\n(in reply to) User: That's a great tip about the pineapple! I was thinking of maki"
+      },
+      {
+        "id": "f45e3b1c-5b45-484a-b3d3-fca5a57fed50",
+        "score": null,
+        "memory_type": "preference",
+        "title": "BBQ pulled pork tips and wood for smoking",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 20/30]\nUser: I'm thinking of making some BBQ pulled pork as well. Do you have any tips on"
+      },
+      {
+        "id": "de50dfab-bad9-462f-b17b-ed6dddf9f083",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Shared BBQ pulled pork tips and smoking wood recommendations",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 21/30]\n(in reply to) User: I'm thinking of making some BBQ pulled pork as well. Do you ha"
+      },
+      {
+        "id": "a654c89b-7ec9-457e-bf9c-6a12fdb01372",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ pulled pork tips (cut, temp, wood)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 22/30]\n(in reply to) User: I'm thinking of making some BBQ pulled pork as well. Do you ha"
+      },
+      {
+        "id": "c096ab1e-b47f-466f-a3b6-7a219e79f20b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for shredding BBQ pulled pork",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 23/30]\n(in reply to) User: I'm thinking of making some BBQ pulled pork as well. Do you ha"
+      },
+      {
+        "id": "31b28ccf-499d-497f-9ad2-27331ebb1b42",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ pulled pork: recommended smoking woods and temps",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 24/30]\n(in reply to) User: I'm thinking of making some BBQ pulled pork as well. Do you ha"
+      },
+      {
+        "id": "88d5b9a0-58f8-4849-a8e3-7e0b365784ad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ pulled pork tips and recommended smoking wood",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 25/30]\n(in reply to) User: I'm thinking of making some BBQ pulled pork as well. Do you ha"
+      },
+      {
+        "id": "425c343e-8372-4210-8248-823505d0c23c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "BBQ pulled pork sauce recommendations (KC Masterpiece favorite)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 26/30]\nUser: I'm thinking of serving my BBQ pulled pork on a bun with some coleslaw and p"
+      },
+      {
+        "id": "b4608af3-19ba-412c-a083-b7ae9fb724d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "BBQ pulled pork sauce recommendations discussion",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 27/30]\n(in reply to) User: I'm thinking of serving my BBQ pulled pork on a bun with some "
+      },
+      {
+        "id": "fda182f1-569b-49f6-a3ef-ed2289f97cac",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ sauce recommendations for pulled pork",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 28/30]\n(in reply to) User: I'm thinking of serving my BBQ pulled pork on a bun with some "
+      },
+      {
+        "id": "fd320850-1cdb-4513-904d-d97326551a98",
+        "score": null,
+        "memory_type": "fact",
+        "title": "BBQ sauce recommendations for pulled pork sandwiches",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 29/30]\n(in reply to) User: I'm thinking of serving my BBQ pulled pork on a bun with some "
+      },
+      {
+        "id": "d0b167d3-3145-4424-ae25-2926f6bb5dc9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "BBQ pulled pork sauce recommendations (KC Masterpiece mentioned)",
+        "text": "[date: 2023-06-30T05:15:00+00:00 | context: Session 4f21add3d2d4 - happened on 2023-06-30 05:15:00 UTC. | turn 30/30]\n(in reply to) User: I'm thinking of serving my BBQ pulled pork on a bun with some "
+      }
+    ]
+  },
+  "context": {
+    "chars": 101228,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25307)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26222,
+    "prompt_tokens": 25467,
+    "completion_tokens": 190,
+    "reasoning_tokens": 565,
+    "generate_time_ms": 10252.39637400955,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24279,
+        "completion_tokens": 128,
+        "reasoning_tokens": 279,
+        "total_tokens": 24686
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 589,
+        "completion_tokens": 17,
+        "reasoning_tokens": 155,
+        "total_tokens": 761
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 599,
+        "completion_tokens": 45,
+        "reasoning_tokens": 131,
+        "total_tokens": 775
+      }
+    ]
+  },
+  "failure_label": null
+}

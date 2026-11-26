@@ -1,0 +1,1406 @@
+{
+  "question_id": "e48988bc",
+  "question_type": "single-session-assistant",
+  "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+  "gold_answer": "Patagonia",
+  "prediction": "The company mentioned was Patagonia.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 918,
+    "by_type": {
+      "episode": 854,
+      "fact": 10,
+      "preference": 41,
+      "decision": 13
+    },
+    "by_status": {
+      "active": 895,
+      "conflicted": 23
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2701674,
+    "output_tokens": 130356,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?"
+    ],
+    "retrieve_time_ms": 3563.4179059416056,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "78fd5af6-73eb-4a55-8d83-6d01cff1997c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 1/18]\nUser: I'm looking to plan out my training for the upcoming marathon relay in Novemb"
+      },
+      {
+        "id": "52f75880-e5f4-4e22-963d-7351a6c4cbed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 2/18]\n(in reply to) User: I'm looking to plan out my training for the upcoming marathon r"
+      },
+      {
+        "id": "5f33e47b-88a9-40c2-aff0-0724537b5de1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 3/18]\n(in reply to) User: I'm looking to plan out my training for the upcoming marathon r"
+      },
+      {
+        "id": "2f91531a-4b18-4ee7-a2ac-b1f8f058cbc7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 4/18]\nUser: I've been trying to stay active, so I've been doing a mix of running, cycling"
+      },
+      {
+        "id": "3f0e83e6-3d2c-4801-91de-c9dd2b864615",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 5/18]\n(in reply to) User: I've been trying to stay active, so I've been doing a mix of ru"
+      },
+      {
+        "id": "b978b126-9ab8-4dc7-be27-58bd674b78d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 6/18]\n(in reply to) User: I've been trying to stay active, so I've been doing a mix of ru"
+      },
+      {
+        "id": "63fece39-f8f3-4032-90b2-2801028777ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 7/18]\nUser: I'm actually doing the 10K leg of the relay. My goal is to finish in under 50"
+      },
+      {
+        "id": "d61343b1-2ede-43ea-a3c2-ae8e394412ad",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 8/18]\n(in reply to) User: I'm actually doing the 10K leg of the relay. My goal is to fini"
+      },
+      {
+        "id": "b8d4798a-3dc2-4980-8ee4-0e52f5ca20d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 9/18]\n(in reply to) User: I'm actually doing the 10K leg of the relay. My goal is to fini"
+      },
+      {
+        "id": "996b7dfc-5d64-4380-a27f-2a88bccf0fd0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 10/18]\n(in reply to) User: I'm actually doing the 10K leg of the relay. My goal is to fin"
+      },
+      {
+        "id": "06318190-a79b-4bce-b8d2-d41bddaac588",
+        "score": 0.4035,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 11/18]\nUser: That sounds like a solid plan. I'm looking forward to getting started. By th"
+      },
+      {
+        "id": "be71f67c-216b-41c6-bcc8-5b87b9a008c7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 12/18]\nUser: I finished the charity 5K in 27 minutes and 12 seconds, which was 2 minutes "
+      },
+      {
+        "id": "0f8aa0d7-7daf-4780-a1d5-c579c1ee7643",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 13/18]\n(in reply to) User: I finished the charity 5K in 27 minutes and 12 seconds, which "
+      },
+      {
+        "id": "d4b76022-9928-4bd2-bd29-febfc0774264",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 14/18]\n(in reply to) User: I finished the charity 5K in 27 minutes and 12 seconds, which "
+      },
+      {
+        "id": "aaa57e43-5c08-4960-8162-ae843e2b887f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 15/18]\n(in reply to) User: I finished the charity 5K in 27 minutes and 12 seconds, which "
+      },
+      {
+        "id": "365052d3-6584-4c5a-9d33-87eed5cb7d63",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 16/18]\nUser: That sounds like a great plan! I'm excited to get started. By the way, did I"
+      },
+      {
+        "id": "9029f3e5-2c2d-45ba-903b-c777658a9a78",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 17/18]\n(in reply to) User: That sounds like a great plan! I'm excited to get started. By "
+      },
+      {
+        "id": "8ac7c7a5-4ed7-49e1-8a15-bfaba1b4b482",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T06:50:00+00:00 | context: Session b35b6b0d5169 - happened on 2023-05-20 06:50:00 UTC. | turn 18/18]\n(in reply to) User: That sounds like a great plan! I'm excited to get started. By "
+      },
+      {
+        "id": "232567c0-9f21-40d2-8473-a9160257813d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 1/22]\nUser: How does the United Front measure its impact and effectiveness in achieving i"
+      },
+      {
+        "id": "20b24035-55ba-4eb5-9a38-e433402eace6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 2/22]\nUser: Can you give me some examples of the key performance indicators (KPIs) that t"
+      },
+      {
+        "id": "1c9df379-fe16-4cab-b573-3af05a74c0a6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 3/22]\n(in reply to) User: Can you give me some examples of the key performance indicators"
+      },
+      {
+        "id": "f6a7f987-401f-4279-8b49-85aacbc11435",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 4/22]\n(in reply to) User: Can you give me some examples of the key performance indicators"
+      },
+      {
+        "id": "20070069-421f-4174-98b1-53800a1ba522",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 5/22]\nUser: How do they ensure that their initiatives are inclusive and representative of"
+      },
+      {
+        "id": "3a7baea0-7599-447d-97e8-1609fd9e5078",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 6/22]\n(in reply to) User: How do they ensure that their initiatives are inclusive and rep"
+      },
+      {
+        "id": "a427903d-6a83-4b5f-99f7-6a1d97612c31",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 7/22]\n(in reply to) User: How do they ensure that their initiatives are inclusive and rep"
+      },
+      {
+        "id": "72c1c49b-7c36-4eb0-a811-f153d350ab51",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 8/22]\nUser: How does the United Front handle conflicts that arise within the organization"
+      },
+      {
+        "id": "226b0875-95c1-4779-8c94-adf1d8866664",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 9/22]\n(in reply to) User: How does the United Front handle conflicts that arise within th"
+      },
+      {
+        "id": "2deaec88-3067-40bc-a6ae-ec70ec59445a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 10/22]\n(in reply to) User: How does the United Front handle conflicts that arise within t"
+      },
+      {
+        "id": "7bdf319b-76c7-410d-a07a-878e373af113",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 11/22]\n(in reply to) User: How does the United Front handle conflicts that arise within t"
+      },
+      {
+        "id": "61432d29-f5ab-46e6-a58d-517dd7f8ef91",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 12/22]\nUser: Have there been any instances where the United Front had to reconcile with c"
+      },
+      {
+        "id": "f516ba4f-edf1-4eb0-b1d1-b8368fbedbf4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 13/22]\n(in reply to) User: Have there been any instances where the United Front had to re"
+      },
+      {
+        "id": "489a977d-a47d-45a2-85ac-99f10ddef67c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 14/22]\n(in reply to) User: Have there been any instances where the United Front had to re"
+      },
+      {
+        "id": "18ffef6c-52b8-4cfe-ae87-dcc7bf6097c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 15/22]\nUser: How does the United Front ensure that its members follow ethical practices a"
+      },
+      {
+        "id": "75960a82-8076-43ca-8d9a-25a06d935b99",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 16/22]\n(in reply to) User: How does the United Front ensure that its members follow ethic"
+      },
+      {
+        "id": "22f735ab-3591-4432-88c3-c6c7aacb76cd",
+        "score": 0.4061,
+        "memory_type": "fact",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 17/22]\n(in reply to) User: How does the United Front ensure that its members follow ethic"
+      },
+      {
+        "id": "5ae23b90-7c82-477f-954e-a42624166348",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 18/22]\n(in reply to) User: How does the United Front ensure that its members follow ethic"
+      },
+      {
+        "id": "c3f0296e-cf8e-416e-89c3-c935a22e90cd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 19/22]\nUser: What steps does the United Front take to ensure diversity and inclusion with"
+      },
+      {
+        "id": "e1f7c534-ead3-4211-8c6f-c6d8fa44db52",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 20/22]\n(in reply to) User: What steps does the United Front take to ensure diversity and "
+      },
+      {
+        "id": "b8630aa8-ea6b-4389-ad3a-ab8ae8bbb315",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 21/22]\n(in reply to) User: What steps does the United Front take to ensure diversity and "
+      },
+      {
+        "id": "2c443dfd-42fd-4ea6-9252-1bd76aa823a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T14:06:00+00:00 | context: Session f7d57063c23c - happened on 2023-05-20 14:06:00 UTC. | turn 22/22]\n(in reply to) User: What steps does the United Front take to ensure diversity and "
+      },
+      {
+        "id": "330f85fb-422c-45ae-9340-2e75143f3e5c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 1/27]\nUser: I'm looking for some recommendations on eco-friendly laundry detergent. I've "
+      },
+      {
+        "id": "b6075191-9088-4111-9ff8-bbfaa6c4f65d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some recommendations on eco-friendly laundry de"
+      },
+      {
+        "id": "49d2176f-00f5-41ec-8707-94a23ac99d03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some recommendations on eco-friendly laundry de"
+      },
+      {
+        "id": "16ecbe36-004b-4528-9ae8-a3bf4095e12d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some recommendations on eco-friendly laundry de"
+      },
+      {
+        "id": "6d2e7a0c-e4cd-4769-831a-3e9a5064972b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 5/27]\n(in reply to) User: I'm looking for some recommendations on eco-friendly laundry de"
+      },
+      {
+        "id": "8a032b81-f068-4cea-a7fb-c9a9b9d6c84c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 6/27]\nUser: I've heard great things about Seventh Generation. Do they offer any refill op"
+      },
+      {
+        "id": "e34e1589-092e-47b4-9a38-99040d0dc2d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 7/27]\n(in reply to) User: I've heard great things about Seventh Generation. Do they offer"
+      },
+      {
+        "id": "570d33b0-7655-42ce-bce8-26650d23eeec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 8/27]\n(in reply to) User: I've heard great things about Seventh Generation. Do they offer"
+      },
+      {
+        "id": "d90fd9a6-3310-4999-bdf4-0c4b0e9bab9d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 9/27]\nUser: I've been looking into other areas where I can reduce waste, like in my kitch"
+      },
+      {
+        "id": "1ae35a5b-2961-4a32-896e-1fe0b28c6851",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 10/27]\n(in reply to) User: I've been looking into other areas where I can reduce waste, l"
+      },
+      {
+        "id": "4a0d0b72-7c32-412e-afb5-12b3018b81f6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 11/27]\n(in reply to) User: I've been looking into other areas where I can reduce waste, l"
+      },
+      {
+        "id": "81582e62-8efa-47ca-b69a-8a927e5cec34",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 12/27]\n(in reply to) User: I've been looking into other areas where I can reduce waste, l"
+      },
+      {
+        "id": "15b0034d-e22d-4d4f-9f9c-f27fc7ad94c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 13/27]\n(in reply to) User: I've been looking into other areas where I can reduce waste, l"
+      },
+      {
+        "id": "e0f19b49-4321-4364-8684-6a2b27ec485e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 14/27]\n(in reply to) User: I've been looking into other areas where I can reduce waste, l"
+      },
+      {
+        "id": "1103e6ac-1d62-447c-a23f-ac5689ee3f0f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 15/27]\nUser: I've been looking into beeswax wraps as an alternative to plastic wrap for c"
+      },
+      {
+        "id": "fa7033cf-1695-420f-9c2f-f8c08827d944",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 16/27]\n(in reply to) User: I've been looking into beeswax wraps as an alternative to plas"
+      },
+      {
+        "id": "84cd8ef4-45b7-4bd2-8ffc-5a3a50d097c8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 17/27]\n(in reply to) User: I've been looking into beeswax wraps as an alternative to plas"
+      },
+      {
+        "id": "8ae65f93-396a-47c6-9263-670737a0aaae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 18/27]\n(in reply to) User: I've been looking into beeswax wraps as an alternative to plas"
+      },
+      {
+        "id": "5b784958-8c08-441f-ab23-f331e1aa7b16",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 19/27]\nUser: I've been thinking about replacing my old, worn-out kitchen utensils with so"
+      },
+      {
+        "id": "d3f8ac1a-c3c7-43aa-ab0c-fc9ee4ef3ee7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 20/27]\n(in reply to) User: I've been thinking about replacing my old, worn-out kitchen ut"
+      },
+      {
+        "id": "191676a6-0b5c-4310-8d8f-fe324b09cdcd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 21/27]\n(in reply to) User: I've been thinking about replacing my old, worn-out kitchen ut"
+      },
+      {
+        "id": "c8fe8d54-0070-497c-a913-3a515bd815f9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 22/27]\n(in reply to) User: I've been thinking about replacing my old, worn-out kitchen ut"
+      },
+      {
+        "id": "46e0aaea-a2be-4400-a554-ae021f4a0eef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 23/27]\n(in reply to) User: I've been thinking about replacing my old, worn-out kitchen ut"
+      },
+      {
+        "id": "56a0bced-9df9-4574-bb92-0c5ae166f13f",
+        "score": 0.4417,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 24/27]\n(in reply to) User: I've been thinking about replacing my old, worn-out kitchen ut"
+      },
+      {
+        "id": "494f1d63-6695-4eb8-88af-1871ccbcbefa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 25/27]\nUser: What's the next step in your eco-friendly kitchen makeover?"
+      },
+      {
+        "id": "9d98c1ba-9e2e-4d2d-a9e5-d18bd1762821",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 26/27]\n(in reply to) User: What's the next step in your eco-friendly kitchen makeover?\n\nA"
+      },
+      {
+        "id": "99cbdd67-0468-4758-a645-be35b4283063",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T16:32:00+00:00 | context: Session 739f4be596a9 - happened on 2023-05-23 16:32:00 UTC. | turn 27/27]\n(in reply to) User: What's the next step in your eco-friendly kitchen makeover?\n\n1"
+      },
+      {
+        "id": "3140aa7e-66af-4f6c-9633-ac9d70657d3d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 1/7]\nUser: In what ways has Reebok contributed to the overall fashion trends and cultural"
+      },
+      {
+        "id": "30082560-b167-48f0-a316-aeb1340b3aa4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 2/7]\n(in reply to) User: In what ways has Reebok contributed to the overall fashion trend"
+      },
+      {
+        "id": "6c00f30b-aa5f-4f3c-8bd9-de77bc2e43a3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 3/7]\n(in reply to) User: In what ways has Reebok contributed to the overall fashion trend"
+      },
+      {
+        "id": "f012a4af-d887-4363-be87-5c85352840f3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 4/7]\nUser: Cool, I didn't know Reebok had such a history of influential fashion and cultu"
+      },
+      {
+        "id": "340b5aba-109d-4a30-ba51-4a38c507351f",
+        "score": 0.4588,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 5/7]\nUser: That's awesome, I love when companies prioritize sustainability and ethical pr"
+      },
+      {
+        "id": "59e101d6-b7ff-496e-81d2-69854e96c271",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 6/7]\nUser: Yeah, I love the fact that sustainability is becoming more of a focus for comp"
+      },
+      {
+        "id": "1050b417-4851-49de-9786-213fc81ef0e8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T17:00:00+00:00 | context: Session 490c4706443a - happened on 2023-05-26 17:00:00 UTC. | turn 7/7]\nUser: That's really impressive! I love the idea of a shoe made from plant-based mate"
+      },
+      {
+        "id": "49321638-17b2-4f3e-96ef-89c150370741",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 1/11]\nUser: What are the common short-term and long-term goals that a Director of Operati"
+      },
+      {
+        "id": "c5b3576c-33d2-41e4-935a-38e8a7266e89",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 2/11]\n(in reply to) User: What are the common short-term and long-term goals that a Direc"
+      },
+      {
+        "id": "b72b1d49-3443-4151-92a1-46cb5bcf2875",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 3/11]\n(in reply to) User: What are the common short-term and long-term goals that a Direc"
+      },
+      {
+        "id": "872ca579-0830-455e-9d08-25c2b63532fa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 4/11]\nUser: Out of all those goals, which one do you think is the most important for a Di"
+      },
+      {
+        "id": "8ae56fda-6178-4723-9c96-0fb0dc2a1850",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 5/11]\nUser: Can you provide an example of how balancing these goals might look like in re"
+      },
+      {
+        "id": "68e0a28d-eb54-4936-9d0e-759f10c20aa4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 6/11]\n(in reply to) User: Can you provide an example of how balancing these goals might l"
+      },
+      {
+        "id": "226410cc-6d38-4978-8e14-770f7babed59",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 7/11]\n(in reply to) User: Can you provide an example of how balancing these goals might l"
+      },
+      {
+        "id": "6c0ee7ef-8e7c-4673-b4b7-77960d625888",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 8/11]\nUser: Can you give another example of how a Director of Operations might balance th"
+      },
+      {
+        "id": "d76cfa23-c8b9-4325-ac9c-6077bbb5c397",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 9/11]\n(in reply to) User: Can you give another example of how a Director of Operations mi"
+      },
+      {
+        "id": "7daa5fa8-3827-4983-a98d-77ba58232fc6",
+        "score": 0.4183,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 10/11]\n(in reply to) User: Can you give another example of how a Director of Operations m"
+      },
+      {
+        "id": "c6c6f524-c20c-4bfd-9899-824db1eff9d7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T10:56:00+00:00 | context: Session d31fc954529d - happened on 2023-05-27 10:56:00 UTC. | turn 11/11]\n(in reply to) User: Can you give another example of how a Director of Operations m"
+      },
+      {
+        "id": "154b0d67-f006-472e-b28c-616941adf400",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T11:14:00+00:00 | context: Session 8fbad24fef5a - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T11:14:00+00:00 | context: Session 8fbad24fef5a - happened on 2023-05-27 11:14:00 UTC. | turn 3/12]\n(in reply to) User: Would you be able to classify them into more of a range from sm"
+      },
+      {
+        "id": "54015f45-739a-4a30-bedb-b96f83624c88",
+        "score": 0.4001,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T11:14:00+00:00 | context: Session 8fbad24fef5a - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T11:14:00+00:00 | context: Session 8fbad24fef5a - happened on 2023-05-27 11:14:00 UTC. | turn 4/12]\nUser: can you identify the transitions between these companies"
+      },
+      {
+        "id": "6ef05df0-a30a-4394-a66c-da78535dfe32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 1/22]\nUser: I'm looking for some gift ideas for my colleagues. I've got a few coworkers w"
+      },
+      {
+        "id": "1b9bc8ab-c826-4582-9164-10f7481a5e8e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 2/22]\n(in reply to) User: I'm looking for some gift ideas for my colleagues. I've got a f"
+      },
+      {
+        "id": "a56a5cea-21f7-4643-a3f0-4c218ec7c4a3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 3/22]\n(in reply to) User: I'm looking for some gift ideas for my colleagues. I've got a f"
+      },
+      {
+        "id": "f444956d-5f7a-40c7-ae8b-4f7a1d6725e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 4/22]\n(in reply to) User: I'm looking for some gift ideas for my colleagues. I've got a f"
+      },
+      {
+        "id": "9adefbcf-3798-4205-ac2b-23f4f25637f4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 5/22]\n(in reply to) User: I'm looking for some gift ideas for my colleagues. I've got a f"
+      },
+      {
+        "id": "5c62acf0-bc6f-4005-84a4-44df60b4acdc",
+        "score": 0.4099,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 6/22]\nUser: I like the gourmet food basket idea. Do you have any recommendations for a go"
+      },
+      {
+        "id": "196b32a6-06ee-458d-a088-15f33a351b63",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 7/22]\n(in reply to) User: I like the gourmet food basket idea. Do you have any recommenda"
+      },
+      {
+        "id": "5ba41def-5d6c-4e77-bf20-0edbed4d3414",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 8/22]\n(in reply to) User: I like the gourmet food basket idea. Do you have any recommenda"
+      },
+      {
+        "id": "04732a7e-61a1-47c2-932e-8310ce3f231b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 9/22]\n(in reply to) User: I like the gourmet food basket idea. Do you have any recommenda"
+      },
+      {
+        "id": "b0b90c75-c81b-4269-ba55-7a827b46bd80",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 10/22]\n(in reply to) User: I like the gourmet food basket idea. Do you have any recommend"
+      },
+      {
+        "id": "8913c812-5f4b-4047-ba0e-8f04d96c944b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 11/22]\nUser: I'll check out those options. I'm also considering adding a small personaliz"
+      },
+      {
+        "id": "b64b2e21-aba6-49d7-a301-3bc8ab7cd052",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 12/22]\n(in reply to) User: I'll check out those options. I'm also considering adding a sm"
+      },
+      {
+        "id": "1459562b-d053-4ff5-a9dc-0fded5d92683",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 13/22]\n(in reply to) User: I'll check out those options. I'm also considering adding a sm"
+      },
+      {
+        "id": "21f62d72-f3b4-462d-a743-bd2ce9464dd3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 14/22]\nUser: I was thinking of getting a funny mug for my colleague, but then I remembere"
+      },
+      {
+        "id": "44b1b6d0-3346-430b-82c9-3ad611ce1e1c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 15/22]\n(in reply to) User: I was thinking of getting a funny mug for my colleague, but th"
+      },
+      {
+        "id": "bddf7156-1539-472f-b54a-57efd2402c92",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 16/22]\n(in reply to) User: I was thinking of getting a funny mug for my colleague, but th"
+      },
+      {
+        "id": "0245d0a7-395c-4ee0-8622-8cc81b777634",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 17/22]\nUser: I think I'll go with a notebook. It's a great way to add a personal touch to"
+      },
+      {
+        "id": "9fdba9ab-fc1b-4f49-a728-dfa2c6ed1688",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 18/22]\n(in reply to) User: I think I'll go with a notebook. It's a great way to add a per"
+      },
+      {
+        "id": "ca8ea67f-28c1-4b69-9122-5c7779dfd17f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 19/22]\n(in reply to) User: I think I'll go with a notebook. It's a great way to add a per"
+      },
+      {
+        "id": "9606b827-8966-4b99-b8ae-41b8d1b3bae0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 20/22]\nUser: I think I'll go with a handwritten note inside the notebook. I'll keep it sh"
+      },
+      {
+        "id": "4908cc63-5cfc-449c-a865-a3fb992bd244",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 21/22]\n(in reply to) User: I think I'll go with a handwritten note inside the notebook. I"
+      },
+      {
+        "id": "0d9560b8-3294-4841-b0f1-2640c5b425cf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T18:28:00+00:00 | context: Session 882006255fdc - happened on 2023-05-27 18:28:00 UTC. | turn 22/22]\n(in reply to) User: I think I'll go with a handwritten note inside the notebook. I"
+      },
+      {
+        "id": "064e29f7-5290-427a-be4c-3561f393d7ee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 1/7]\nUser: How does the company ensure its supply chain is environmentally responsible?"
+      },
+      {
+        "id": "6cfdf1f8-daf6-4156-be3d-ffbe71071ae9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 2/7]\n(in reply to) User: How does the company ensure its supply chain is environmentally "
+      },
+      {
+        "id": "61c8a94b-5bfc-48d6-bc49-6a41923362d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 3/7]\n(in reply to) User: How does the company ensure its supply chain is environmentally "
+      },
+      {
+        "id": "4c9bba2e-1bd6-461d-94eb-e08e56193d80",
+        "score": 0.5326,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 4/7]\nUser: Can you give me an example of a company that has successfully implemented thes"
+      },
+      {
+        "id": "91ded4f1-f5d5-440f-8e8c-1519a274bc81",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 5/7]\n(in reply to) User: Can you give me an example of a company that has successfully im"
+      },
+      {
+        "id": "9fd45b6f-464a-4c4a-b20a-5042436b0e80",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 6/7]\n(in reply to) User: Can you give me an example of a company that has successfully im"
+      },
+      {
+        "id": "860e2286-5894-4e05-9d7e-80b4fd44e077",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28...",
+        "text": "[date: 2023-05-28T16:39:00+00:00 | context: Session db98f6b65e60 - happened on 2023-05-28 16:39:00 UTC. | turn 7/7]\nUser: It's great to see companies like Patagonia taking the initiative to be environ"
+      },
+      {
+        "id": "f17f4984-7584-4a45-b367-8cccbd00d612",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 1/22]\nUser: What measures are in place to prevent or punish corruption within political s"
+      },
+      {
+        "id": "c54ddb91-6a58-4d0d-8e5e-f86d1da40229",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 2/22]\n(in reply to) User: What measures are in place to prevent or punish corruption with"
+      },
+      {
+        "id": "bf76c5f4-cf3e-4d5f-9019-2bad33d434af",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 3/22]\n(in reply to) User: What measures are in place to prevent or punish corruption with"
+      },
+      {
+        "id": "9579fc6d-0620-4d03-919d-2c74df1c8cee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 4/22]\nUser: It's reassuring to know that there are measures in place to prevent corruptio"
+      },
+      {
+        "id": "6152bb65-b603-4fd3-aa23-86d82f16dd16",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 5/22]\n(in reply to) User: It's reassuring to know that there are measures in place to pre"
+      },
+      {
+        "id": "133b7614-09c0-45b6-95b6-b4b9f5017484",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 6/22]\n(in reply to) User: It's reassuring to know that there are measures in place to pre"
+      },
+      {
+        "id": "835e2848-7f95-4622-9964-9f489abb1222",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 7/22]\nUser: It's frustrating when corruption is not punished. I wish there was a way to e"
+      },
+      {
+        "id": "d1d87e79-dc08-4244-82dc-d378504474d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 8/22]\n(in reply to) User: It's frustrating when corruption is not punished. I wish there "
+      },
+      {
+        "id": "40e0e766-7fc0-49c8-a6bb-6d83d51b42f1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 9/22]\n(in reply to) User: It's frustrating when corruption is not punished. I wish there "
+      },
+      {
+        "id": "99380945-6b96-44d7-8186-0c37fd33a458",
+        "score": null,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 10/22]\nUser: It's good to know that there are ways to promote accountability and transpar"
+      },
+      {
+        "id": "3a11fe7b-f0f0-4552-bf8f-5b8b5d7b7097",
+        "score": null,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 11/22]\n(in reply to) User: It's good to know that there are ways to promote accountabilit"
+      },
+      {
+        "id": "c28a6b68-817b-4e0d-8415-317666efc25c",
+        "score": 0.423,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 12/22]\n(in reply to) User: It's good to know that there are ways to promote accountabilit"
+      },
+      {
+        "id": "7e15ec6d-42d4-4e9a-a193-2e6db9e2b1de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 13/22]\nUser: It's good to know that progress can be made in reducing corruption, but it c"
+      },
+      {
+        "id": "ce6e006c-90fb-43ca-88f1-d15a2e207bc6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 14/22]\n(in reply to) User: It's good to know that progress can be made in reducing corrup"
+      },
+      {
+        "id": "f4fd64e3-2ed4-40a4-98e5-56191aa2ad63",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 15/22]\n(in reply to) User: It's good to know that progress can be made in reducing corrup"
+      },
+      {
+        "id": "f28afda0-73a0-4323-9430-c61a1fa32212",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 16/22]\n(in reply to) User: It's good to know that progress can be made in reducing corrup"
+      },
+      {
+        "id": "7fb167b4-8caf-431d-8f54-743555ca9497",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 17/22]\nUser: It's frustrating when leaders get away with corruption, but I'm glad there a"
+      },
+      {
+        "id": "aa9cb4ec-6b5b-470c-983e-11772cba9120",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 18/22]\n(in reply to) User: It's frustrating when leaders get away with corruption, but I'"
+      },
+      {
+        "id": "38c4995d-c538-4cbc-b3c1-ebade04976c2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 19/22]\n(in reply to) User: It's frustrating when leaders get away with corruption, but I'"
+      },
+      {
+        "id": "22f7c277-345b-4230-850a-14efd42567d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 20/22]\nUser: It's exciting to see how technology can be used in the fight against corrupt"
+      },
+      {
+        "id": "795a4721-b5f5-4c30-83d8-a9babe784207",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 21/22]\n(in reply to) User: It's exciting to see how technology can be used in the fight a"
+      },
+      {
+        "id": "2a8b0821-8fd7-42f0-bb1a-705d9b1d982a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T04:37:00+00:00 | context: Session 4fd3b32e9106 - happened on 2023-05-29 04:37:00 UTC. | turn 22/22]\n(in reply to) User: It's exciting to see how technology can be used in the fight a"
+      },
+      {
+        "id": "a7f0297e-d480-4666-890e-21f47b05b26d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 1/29]\nUser: I'm trying to boost my social media engagement. I've been experimenting with "
+      },
+      {
+        "id": "ae9d83e3-9d8a-4f61-b31d-b62ef5feaba6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 2/29]\nUser: I'd like to analyze my performance for the past week. My Twitter handle is @u"
+      },
+      {
+        "id": "66b2ad93-5ec5-4c77-abd4-d219c80d2c46",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 3/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Twitte"
+      },
+      {
+        "id": "97a15262-5d72-4061-b677-15e4fe42daa1",
+        "score": 0.4235,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 4/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Twitte"
+      },
+      {
+        "id": "85246f7d-f5a0-44a3-82c4-620f14aafef2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 5/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Twitte"
+      },
+      {
+        "id": "01f2d834-3d03-4e63-aa3d-e7ece567330c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 6/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Twitte"
+      },
+      {
+        "id": "6e5b80d6-9a01-4a9c-b125-1f65ccda7a35",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 7/29]\nUser: I see that my tweets during the Twitter chat about sustainable living perform"
+      },
+      {
+        "id": "e4f25a1f-a083-4dbe-b723-2876337c1c1c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 8/29]\n(in reply to) User: I see that my tweets during the Twitter chat about sustainable "
+      },
+      {
+        "id": "ee17f708-4e1b-4c90-be51-877a460be422",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 9/29]\n(in reply to) User: I see that my tweets during the Twitter chat about sustainable "
+      },
+      {
+        "id": "bcc08222-201b-41ef-b10b-58af581c51e7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 10/29]\n(in reply to) User: I see that my tweets during the Twitter chat about sustainable"
+      },
+      {
+        "id": "bb9b39f2-d7a3-4f36-b893-e0a48f16ddca",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 11/29]\n(in reply to) User: I see that my tweets during the Twitter chat about sustainable"
+      },
+      {
+        "id": "f90a170b-dd74-469c-8ae8-04bf83b707fd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 12/29]\n(in reply to) User: I see that my tweets during the Twitter chat about sustainable"
+      },
+      {
+        "id": "38b09d8e-efe4-4d16-b71d-9ee1c0b51a14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 13/29]\nUser: I'm glad to hear that my engagement rate is above average. I'll definitely t"
+      },
+      {
+        "id": "5b136915-0a03-4247-9de8-ef31e972aab7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 14/29]\n(in reply to) User: I'm glad to hear that my engagement rate is above average. I'l"
+      },
+      {
+        "id": "0245711d-4d2a-4f97-9484-83c2be48ddf4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 15/29]\n(in reply to) User: I'm glad to hear that my engagement rate is above average. I'l"
+      },
+      {
+        "id": "b437bdb7-c627-424a-ab8f-e321ec496ecb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 16/29]\nUser: I'd like to analyze my performance for the past week. My Instagram handle is"
+      },
+      {
+        "id": "72736157-1069-4f0f-aea7-e980f257fd5f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 17/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Insta"
+      },
+      {
+        "id": "1ba0b2d5-b043-4042-a175-c67836b32b99",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 18/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Insta"
+      },
+      {
+        "id": "f7a4568b-786d-4d94-9d8a-261b49c67a59",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 19/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Insta"
+      },
+      {
+        "id": "db6b7363-a5be-4ad6-9625-b9633ec580df",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 20/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Insta"
+      },
+      {
+        "id": "9d746960-94b9-434f-8d87-f72a8c468251",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 21/29]\n(in reply to) User: I'd like to analyze my performance for the past week. My Insta"
+      },
+      {
+        "id": "065c7c57-da4a-4bea-b2da-e52515830598",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 22/29]\nUser: I'd like to focus on my Instagram Stories and IGTV. Can you provide more inf"
+      },
+      {
+        "id": "71ae07a9-122b-43a0-8f5f-ce0bc25b307a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 23/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "11bbc4b2-9157-4501-a253-f700b383707f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 24/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "478707cc-029e-483a-b6c2-4501a168d07c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 25/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "47c146b0-efe2-4754-908c-cce0f22cbf54",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 26/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "4ff0ba56-9b99-448c-aa9e-a8d0237fd994",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 27/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "5edaffc5-4e48-45af-9125-64f634fbf848",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 28/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "be71f0ef-80c6-4172-979b-cdfc21293b9d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T09:27:00+00:00 | context: Session 09b1696c6e43 - happened on 2023-05-29 09:27:00 UTC. | turn 29/29]\n(in reply to) User: I'd like to focus on my Instagram Stories and IGTV. Can you pr"
+      },
+      {
+        "id": "80351a47-0996-4d6b-8a27-d8753585d2c1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 1/21]\nUser: What role does the government play in regulating corporations?"
+      },
+      {
+        "id": "c23e3af6-d04b-4164-813e-f02f70c03c7c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 2/21]\n(in reply to) User: What role does the government play in regulating corporations?\n"
+      },
+      {
+        "id": "6633cd4a-75fa-4a9f-a8b6-5fac67a0d41a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 3/21]\n(in reply to) User: What role does the government play in regulating corporations?\n"
+      },
+      {
+        "id": "6c769195-71d5-457b-b4e3-955652218f02",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 4/21]\nUser: It seems like the government has a lot of power when it comes to regulating c"
+      },
+      {
+        "id": "3bd43105-fdd7-463e-9acc-08b5c9d13de0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 5/21]\n(in reply to) User: It seems like the government has a lot of power when it comes t"
+      },
+      {
+        "id": "89176ff5-2b68-4e34-9cb2-d21a528cbe66",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 6/21]\n(in reply to) User: It seems like the government has a lot of power when it comes t"
+      },
+      {
+        "id": "0e9d5417-916b-47d5-bc8c-5cef1219b2a8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 7/21]\nUser: Yeah, it seems like a complex issue. It's hard to tell if the government actu"
+      },
+      {
+        "id": "3688e766-ffe5-4868-9137-fe55efad63ab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 8/21]\n(in reply to) User: Yeah, it seems like a complex issue. It's hard to tell if the g"
+      },
+      {
+        "id": "de90ccf2-c3da-4279-b902-15d5651a92e0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 9/21]\n(in reply to) User: Yeah, it seems like a complex issue. It's hard to tell if the g"
+      },
+      {
+        "id": "604ef09c-8d0c-4cf2-850d-eb2baaa86a0b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 10/21]\nUser: Yeah, I agree that finding the right balance is key. But it feels like corpo"
+      },
+      {
+        "id": "e4e73056-1086-4307-964b-a7bacec91088",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 11/21]\n(in reply to) User: Yeah, I agree that finding the right balance is key. But it fe"
+      },
+      {
+        "id": "134e3b1f-7d22-4578-974c-fb81270addf8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 12/21]\n(in reply to) User: Yeah, I agree that finding the right balance is key. But it fe"
+      },
+      {
+        "id": "67b93e6f-a966-47b5-944a-6c4adb6842af",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 13/21]\nUser: Yeah, it's frustrating that corporations always seem to find a way around th"
+      },
+      {
+        "id": "23e6fde0-ad73-4b56-b615-3b68a712b888",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 14/21]\n(in reply to) User: Yeah, it's frustrating that corporations always seem to find a"
+      },
+      {
+        "id": "2bb388d0-865e-4790-a059-c81d09bc3698",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 15/21]\n(in reply to) User: Yeah, it's frustrating that corporations always seem to find a"
+      },
+      {
+        "id": "fbd26b2b-693f-410b-9a84-b38f15794022",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 16/21]\nUser: It's frustrating to see corporations get away with unethical practices. I wi"
+      },
+      {
+        "id": "4774b545-8b1b-44a4-b7f0-5f7252ceacd9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 17/21]\n(in reply to) User: It's frustrating to see corporations get away with unethical p"
+      },
+      {
+        "id": "b7b7e22b-46fc-454b-8826-0a1fbd1eb8ae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 18/21]\n(in reply to) User: It's frustrating to see corporations get away with unethical p"
+      },
+      {
+        "id": "6a44f732-e4f9-4696-bf43-d54a99b593b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 19/21]\nUser: I feel like there's so much information out there, it's hard to know which c"
+      },
+      {
+        "id": "6d028360-ccac-4750-9ad7-8ba2058d298c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 20/21]\n(in reply to) User: I feel like there's so much information out there, it's hard t"
+      },
+      {
+        "id": "4fb3c3d4-ae5d-4788-a5ad-d7db105b0379",
+        "score": 0.4552,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29...",
+        "text": "[date: 2023-05-29T16:44:00+00:00 | context: Session efe2e29a852c - happened on 2023-05-29 16:44:00 UTC. | turn 21/21]\n(in reply to) User: I feel like there's so much information out there, it's hard t"
+      }
+    ]
+  },
+  "context": {
+    "chars": 102773,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25693)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 23942,
+    "prompt_tokens": 22942,
+    "completion_tokens": 165,
+    "reasoning_tokens": 835,
+    "generate_time_ms": 10017.535507096909,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 21751,
+        "completion_tokens": 109,
+        "reasoning_tokens": 383,
+        "total_tokens": 22243
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 596,
+        "completion_tokens": 6,
+        "reasoning_tokens": 245,
+        "total_tokens": 847
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 595,
+        "completion_tokens": 50,
+        "reasoning_tokens": 207,
+        "total_tokens": 852
+      }
+    ]
+  },
+  "failure_label": null
+}

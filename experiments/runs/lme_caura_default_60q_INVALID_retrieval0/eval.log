@@ -1,0 +1,55 @@
+Judges: primary gpt-4o, secondary gemini-3.5-flash-lite
+Saved evaluation results to outputs/lme_caura_default_60q/eval_results.json
+gpt-4o: 18/60 (30.0%)
+Saved evaluation results to outputs/lme_caura_default_60q/eval_results_gemini35flashlite.json
+gemini-3.5-flash-lite: 18/60 (30.0%)  |  agreement with primary 58/60
+  50/60
+
+Run: outputs/lme_caura_default_60q   reader tokenizer: gemini-3.8-flash   questions: 60
+Reader token accounting: exact (provider usage)
+
+| metric | median | p95 | max |
+|---|---|---|---|
+| context characters | 0 | 103,700 | 105,028 |
+| context tokens (gemini-3.8-flash tokenizer) | 0 | 23,514 | 23,821 |
+| chars/4 estimate for comparison | 0 | 25,925 | 26,257 |
+| reader calls per question | 2 | 4 | 7 |
+| reader prompt tokens, all calls | 1,003 | 43,542 | 91,891 |
+| reader completion tokens, all calls | 88 | 1,044 | 1,824 |
+| reader total tokens, all calls | 1,412 | 46,346 | 102,304 |
+| retrieval latency (s) | 15.1 | 68.0 | 76.6 |
+| generation latency (s) | 6.2 | 29.4 | 92.2 |
+Traceback (most recent call last):
+  File "/shared_mnt/loubna/caura/experiments/harness/longmemeval/scripts/context_tokens.py", line 237, in <module>
+    main()
+  File "/shared_mnt/loubna/caura/experiments/harness/longmemeval/scripts/context_tokens.py", line 208, in main
+    ratio = statistics.median(ctx_tok) / statistics.median(ctx_chars) if ctx_chars else 0
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+Run: outputs/lme_caura_default_60q
+Questions: 60 total, 56 non-abstention with gold turns, 4 abstention
+Gold-turn coverage (mean over non-abstention): 0.289
+Fully covered questions: 15/56
+Gold turns present: 28/92
+
+Coverage by category:
+  knowledge-update             0.000  (n=9)
+  multi-session                0.574  (n=9)
+  single-session-assistant     0.000  (n=10)
+  single-session-preference    0.300  (n=10)
+  single-session-user          1.000  (n=8)
+  temporal-reasoning           0.000  (n=10)
+
+Judge gpt-4o: 18/60 correct
+  non-abstention failures: 42
+    retrieval-bound (gold turn missing): 40  (partial 1 / none 39)
+    reader-bound (all gold turns present): 2
+  abstention failures: 0
+
+Judge gemini-3.5-flash-lite: 18/60 correct
+  non-abstention failures: 42
+    retrieval-bound (gold turn missing): 40  (partial 1 / none 39)
+    reader-bound (all gold turns present): 2
+  abstention failures: 0
+
+Wrote /shared_mnt/loubna/caura/experiments/runs/lme_caura_default_60q/coverage.json

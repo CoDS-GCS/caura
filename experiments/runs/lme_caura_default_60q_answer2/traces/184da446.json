@@ -1,0 +1,1290 @@
+{
+  "question_id": "184da446",
+  "question_type": "knowledge-update",
+  "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+  "gold_answer": "220",
+  "prediction": "As of your latest update on May 29, 2023, you have read up to page 220 of *A Short History of Nearly Everything*.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 872,
+    "by_type": {
+      "episode": 291,
+      "decision": 2,
+      "action": 2,
+      "preference": 174,
+      "fact": 338,
+      "task": 58,
+      "plan": 7
+    },
+    "by_status": {
+      "active": 860,
+      "conflicted": 12
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2566296,
+    "output_tokens": 123824,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many pages of 'A Short History of Nearly Everything' have I read so far?"
+    ],
+    "retrieve_time_ms": 2823.8523439504206,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "6fad4d55-4c39-49a2-b64c-e608c52cb9c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSW builder interview questions topic",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 1/16]\nAssistant: | Main Topic | Silo Topics | Targeted SEO Keyword/Phrase |\n| --- | --- |"
+      },
+      {
+        "id": "1e87688e-ec07-4273-b0ca-f2a6fc2b9e1d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSW home builder SEO topics and contract checklist headings",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 2/16]\n(in reply to) Assistant: | Main Topic | Silo Topics | Targeted SEO Keyword/Phrase |"
+      },
+      {
+        "id": "25ad9c79-abb6-4106-b830-3a2c8f809f85",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSW construction SEO topics and pre-construction checklist timeline guidance",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 3/16]\n(in reply to) Assistant: | Main Topic | Silo Topics | Targeted SEO Keyword/Phrase |"
+      },
+      {
+        "id": "b7a63da5-f435-4e1c-ae53-2b96fb681a72",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSW construction SEO topics and keywords (builder, communication, contingency)",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 4/16]\n(in reply to) Assistant: | Main Topic | Silo Topics | Targeted SEO Keyword/Phrase |"
+      },
+      {
+        "id": "078e3180-19e9-4914-8147-730556788910",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example SEO silo topics for NSW builder interviews",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 5/16]\n(in reply to) Assistant: | Main Topic | Silo Topics | Targeted SEO Keyword/Phrase |"
+      },
+      {
+        "id": "d1b050e3-f1e1-422e-9a7b-95fdfe3c7bee",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outline request: 5 Budgeting Tips for NSW pre-construction checklist",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 6/16]\nUser: Write me the content outline for the first article topic, \"5 Budgeting Tips f"
+      },
+      {
+        "id": "f1bc68a1-f8db-464d-a324-1ae12e8de225",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 7/16]\n(in reply to) User: Write me the content outline for the first article topic, \"5 Bu"
+      },
+      {
+        "id": "614af4f0-0a6b-4d4d-b9a8-cd82df4d4cf2",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 8/16]\n(in reply to) User: Write me the content outline for the first article topic, \"5 Bu"
+      },
+      {
+        "id": "69950a0c-d41b-4225-a30f-50d26e6b8f94",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 9/16]\n(in reply to) User: Write me the content outline for the first article topic, \"5 Bu"
+      },
+      {
+        "id": "e1375014-98cf-4ac7-b6f2-ad8ae322e299",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 10/16]\n(in reply to) User: Write me the content outline for the first article topic, \"5 B"
+      },
+      {
+        "id": "b8e12493-34b3-4d74-8804-d443c228d73e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 11/16]\n(in reply to) User: Write me the content outline for the first article topic, \"5 B"
+      },
+      {
+        "id": "3d6802c8-b252-4f11-9b1f-8ecef2f97633",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 12/16]\nUser: That is a great outline. Next is to Write me the content outline for the fir"
+      },
+      {
+        "id": "b4bc3045-65d3-49f4-ae9f-17b0322dd860",
+        "score": 0.3439,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 13/16]\n(in reply to) User: That is a great outline. Next is to Write me the content outli"
+      },
+      {
+        "id": "94be4d1f-b18c-4467-a3fc-9757fdee4f52",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 14/16]\n(in reply to) User: That is a great outline. Next is to Write me the content outli"
+      },
+      {
+        "id": "51b9fefd-f1e7-4cc1-9b2c-f97c1bc2fda5",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 15/16]\n(in reply to) User: That is a great outline. Next is to Write me the content outli"
+      },
+      {
+        "id": "4dac76ad-5fa3-4b60-9e6f-504fff97e952",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft homeowner article outline for reducing construction costs",
+        "text": "[date: 2023-05-20T14:09:00+00:00 | context: Session 21a3dc4a0960 - happened on 2023-05-20 14:09:00 UTC. | turn 16/16]\n(in reply to) User: That is a great outline. Next is to Write me the content outli"
+      },
+      {
+        "id": "cae6d80e-e7ef-46c0-a793-c2a32a0ea473",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for AI medical diagnosis resources",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 1/37]\nUser: I'm trying to learn more about AI-powered medical diagnosis. Can you recommen"
+      },
+      {
+        "id": "8a4bcac9-3126-482e-85bc-293ab76ce70c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources suggested for AI-powered medical diagnosis",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 2/37]\n(in reply to) User: I'm trying to learn more about AI-powered medical diagnosis. Ca"
+      },
+      {
+        "id": "efa2bc9e-1fd8-4884-8588-9fd376b3a65b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for AI-powered medical diagnosis",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 3/37]\n(in reply to) User: I'm trying to learn more about AI-powered medical diagnosis. Ca"
+      },
+      {
+        "id": "ca5bc09f-029e-4e1f-95c9-93439f2884b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for AI-powered medical diagnosis",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 4/37]\n(in reply to) User: I'm trying to learn more about AI-powered medical diagnosis. Ca"
+      },
+      {
+        "id": "c5ae8525-6af2-408a-aadd-ef325c06487f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended AI-in-healthcare podcasts for medical diagnosis learning",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 5/37]\n(in reply to) User: I'm trying to learn more about AI-powered medical diagnosis. Ca"
+      },
+      {
+        "id": "7b86ddc7-eccd-413a-bece-58dd0270be52",
+        "score": null,
+        "memory_type": "task",
+        "title": "Learn AI applications in medical imaging (resources/papers)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 6/37]\nUser: I'd like to learn more about the applications of AI in medical imaging. Can y"
+      },
+      {
+        "id": "d62d64f8-ddd6-4136-8cb0-a577389a718f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided resources on AI in medical imaging",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 7/37]\n(in reply to) User: I'd like to learn more about the applications of AI in medical "
+      },
+      {
+        "id": "8651b456-8e9e-42b6-8cc4-3e3cba476149",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI medical imaging papers/resources (pulmonary embolism, DR, pneumonia, MRI segm",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 8/37]\n(in reply to) User: I'd like to learn more about the applications of AI in medical "
+      },
+      {
+        "id": "34de4686-372f-4ff2-9fe5-7ead8acc0601",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI medical imaging resource: OCT denoising & segmentation paper (2019)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 9/37]\n(in reply to) User: I'd like to learn more about the applications of AI in medical "
+      },
+      {
+        "id": "7a819a23-61ca-41a0-80f9-48dd5a54249e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources on AI in medical imaging (journals, conferences, courses)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 10/37]\n(in reply to) User: I'd like to learn more about the applications of AI in medical"
+      },
+      {
+        "id": "818d67f8-703e-4256-9e00-c43db4fae576",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for AI in medical imaging (Aidoc, Radiology Business)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 11/37]\n(in reply to) User: I'd like to learn more about the applications of AI in medical"
+      },
+      {
+        "id": "4896c418-a6a0-443f-9e41-52b81733dce1",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request AI medical diagnosis resources (NLP/clinical decision support)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 12/37]\nUser: I'm also interested in learning more about the role of AI in medical diagnos"
+      },
+      {
+        "id": "51cd3093-7d9f-4ae3-91ac-1c6eab1cc073",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources on AI-powered medical diagnosis (NLP/clinical decision support)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 13/37]\n(in reply to) User: I'm also interested in learning more about the role of AI in m"
+      },
+      {
+        "id": "adc24855-3310-4c38-8322-5dd54793475f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI-powered clinical diagnosis resources (EHR/NLP)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 14/37]\n(in reply to) User: I'm also interested in learning more about the role of AI in m"
+      },
+      {
+        "id": "01c341c7-73ee-489d-aff3-f31f2e56aced",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI clinical decision support systems systematic review (Liu et al., 2020)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 15/37]\n(in reply to) User: I'm also interested in learning more about the role of AI in m"
+      },
+      {
+        "id": "b7c8d3c1-082a-4212-b991-abb5b93e715b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources: AI in medical diagnosis (journals & conferences)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 16/37]\n(in reply to) User: I'm also interested in learning more about the role of AI in m"
+      },
+      {
+        "id": "eeae98b5-d16e-4440-b55e-c1d475829c7d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online courses and blogs on AI for medical diagnosis/clinical decision support",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 17/37]\n(in reply to) User: I'm also interested in learning more about the role of AI in m"
+      },
+      {
+        "id": "16d93fab-2bbb-4bfa-a839-2d5cdbbb80c3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request AI-in-healthcare resources (engagement, personalized medicine)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 18/37]\nUser: I'd like to learn more about the applications of AI in healthcare beyond dia"
+      },
+      {
+        "id": "f7fec69e-a4b7-4cc8-970b-2c53a99c2be5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare resources: patient engagement & personalized medicine",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 19/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "1d3767ce-f1da-48d8-9919-51e6ea95a348",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare resources: personalized medicine & management",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 20/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "84e4340a-96b9-41be-845e-9f9891927307",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare management resources (systematic review, survey, case study)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 21/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "9c15eda0-1f85-4657-90dd-1efecd69cb0f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for AI in healthcare (engagement, personalized medicine)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 22/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "43164e1c-3f21-41bd-90c0-85eb19cba97b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare resources (patient engagement, personalized medicine, managemen",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 23/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "a24fac8b-d842-442a-b812-d4de6017cadc",
+        "score": null,
+        "memory_type": "task",
+        "title": "User requests AI-in-healthcare resources (diagnosis, ML, NLP)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 24/37]\nUser: By the way, I've been reading \"A Short History of Nearly Everything\" and I'm"
+      },
+      {
+        "id": "ed40a7ec-58ae-4540-b463-477acc2e5aef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses reading a book; asks about AI diagnosis systems",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 25/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "875b3f11-2b57-4091-82ad-2b777e51ed11",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources on AI in medicine (AMA, NIM, Health Fidelity)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 26/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "e6908de6-8179-43a0-9bf6-4adba8faf47d",
+        "score": 0.4237,
+        "memory_type": "fact",
+        "title": "Clinical decision support NLP/deep learning papers (2017-2019)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 27/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "d5a92453-dc30-459e-96bf-b83740d5cf72",
+        "score": null,
+        "memory_type": "fact",
+        "title": "References on NLP for clinical decision support (Chen 2019; Liu 2020)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 28/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "0e9e7c0a-a082-47f2-a2c9-5088fa64160b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Biomedical informatics journals and conferences list",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 29/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "3921431d-1ef1-4060-82a6-e65ed61416d5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online courses and blogs on healthcare AI/NLP",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 30/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "883eb7bd-e23c-4aa9-a331-3c716551374b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reading AI diagnosis/medicine history (page 200)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 31/37]\n(in reply to) User: By the way, I've been reading \"A Short History of Nearly Every"
+      },
+      {
+        "id": "ea755442-6065-4ddb-aeda-760056b053de",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request AI-in-healthcare resources (engagement, personalized medicine)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 32/37]\nUser: I'd like to learn more about the applications of AI in healthcare beyond dia"
+      },
+      {
+        "id": "af07a3f9-9d9c-4399-88d1-45ef5c73db4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare resources: patient engagement & personalized medicine",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 33/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "d64b212c-af82-4a0b-bbf6-2ded1167a41b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare resources: personalized medicine & management",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 34/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "9700595e-6558-4ef1-b74e-0b22257e42d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in healthcare management resources (systematic review, survey, case study)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 35/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "dfa03c1d-df84-4ec3-8def-439aeea86152",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources for AI in healthcare (engagement, personalized medicine)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 36/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "226ef869-e710-4e59-add4-8a7a276c1ec0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources on AI in healthcare (patient engagement, personalized medicine)",
+        "text": "[date: 2023-05-20T21:24:00+00:00 | context: Session 14f661554973 - happened on 2023-05-20 21:24:00 UTC. | turn 37/37]\n(in reply to) User: I'd like to learn more about the applications of AI in healthc"
+      },
+      {
+        "id": "fea298b1-f820-4185-8e99-510a735025b7",
+        "score": null,
+        "memory_type": "task",
+        "title": "Calculate daily pages to reach 50 books by year-end",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 1/14]\nUser: I've been tracking my reading habits and I want to update my spreadsheet. Can"
+      },
+      {
+        "id": "bd6dc9d3-bdf3-4db3-bbc7-6b3cea40ac06",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Calculated daily pages to reach 50 books by year-end",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 2/14]\n(in reply to) User: I've been tracking my reading habits and I want to update my sp"
+      },
+      {
+        "id": "264c4ab9-5b72-4218-8c7e-7e418c638baf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimate: ~99 pages/day to reach 50 books by year-end",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 3/14]\n(in reply to) User: I've been tracking my reading habits and I want to update my sp"
+      },
+      {
+        "id": "1cde50e2-fe4a-44de-8661-0b6db977f7cd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Adjust reading-time calculation for slower reading speed",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 4/14]\nUser: That's a great calculation, thanks. I think my reading speed is a bit slower "
+      },
+      {
+        "id": "8445a8f9-56d4-481c-829d-1271530a25f0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Adjusted reading-time calculation based on pages per week",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 5/14]\n(in reply to) User: That's a great calculation, thanks. I think my reading speed is"
+      },
+      {
+        "id": "98017907-a17e-4749-9c14-02c260551cea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Adjusted reading goal based on reading speed estimate",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 6/14]\n(in reply to) User: That's a great calculation, thanks. I think my reading speed is"
+      },
+      {
+        "id": "3bf7511d-011c-45d8-9323-0b4748fc97f9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants less ambitious reading goals",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 7/14]\nUser: I think that's a bit too ambitious for me. Can you help me explore other opti"
+      },
+      {
+        "id": "59a8141d-d3f3-48f5-b0d1-dd6ad38619c4",
+        "score": 0.354,
+        "memory_type": "episode",
+        "title": "Reading goal discussion: explore increasing reading days",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 8/14]\n(in reply to) User: I think that's a bit too ambitious for me. Can you help me expl"
+      },
+      {
+        "id": "0b939213-f227-4914-9087-88891be790bb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Reading plan suggestions: add days or speed up",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 9/14]\n(in reply to) User: I think that's a bit too ambitious for me. Can you help me expl"
+      },
+      {
+        "id": "af382e44-f35a-4390-8666-9a7d147fc9da",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading goals: explore less ambitious options",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 10/14]\n(in reply to) User: I think that's a bit too ambitious for me. Can you help me exp"
+      },
+      {
+        "id": "c995a6cc-de98-40f1-b98d-d7bfc2d4de9a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on reading speed and daily reading options",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 11/14]\n(in reply to) User: I think that's a bit too ambitious for me. Can you help me exp"
+      },
+      {
+        "id": "0bf92f82-1221-4bb9-a727-e1b2f408bb1f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considers alternating manga/graphic novels with non-fiction",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 12/14]\nUser: I think I can try to increase the number of days I dedicate to reading. I've"
+      },
+      {
+        "id": "d5ebe906-3c64-4690-ab92-24f5336ed535",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading routine: alternate manga/graphic novels with non-fiction",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 13/14]\n(in reply to) User: I think I can try to increase the number of days I dedicate to"
+      },
+      {
+        "id": "183831e4-1f1e-484d-bda0-0ef497395225",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading schedule suggestion: alternate manga/graphic novels with non-fiction",
+        "text": "[date: 2023-05-22T05:39:00+00:00 | context: Session 414557577584 - happened on 2023-05-22 05:39:00 UTC. | turn 14/14]\n(in reply to) User: I think I can try to increase the number of days I dedicate to"
+      },
+      {
+        "id": "27e74d9e-73bd-475b-b9c9-4a29d65fbe13",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User enjoys NYT on Sunday mornings; wants news podcasts",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 1/25]\nUser: I'm trying to stay on top of current events, can you recommend some news podc"
+      },
+      {
+        "id": "dbe4de33-39a5-41e0-a864-e673d7e264f1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommended news podcasts for wide-ranging current events",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 2/25]\n(in reply to) User: I'm trying to stay on top of current events, can you recommend "
+      },
+      {
+        "id": "8007fba0-405d-4918-aabd-ff09d00a106c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended news podcasts (NYT, NPR, Economist, Politico)",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 3/25]\n(in reply to) User: I'm trying to stay on top of current events, can you recommend "
+      },
+      {
+        "id": "1bb262a6-9c98-4074-a7bb-8bf82e682493",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended news podcasts across topics",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 4/25]\n(in reply to) User: I'm trying to stay on top of current events, can you recommend "
+      },
+      {
+        "id": "345f48e3-aadc-4c83-ab00-1418c4839761",
+        "score": null,
+        "memory_type": "preference",
+        "title": "News podcasts recommendation for wide-ranging coverage",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 5/25]\n(in reply to) User: I'm trying to stay on top of current events, can you recommend "
+      },
+      {
+        "id": "453afaae-df39-418c-a6b1-a927a538a3c7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants business/finance news sources and newsletters",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 6/25]\nUser: I'll definitely check those out. I'm also interested in exploring more online"
+      },
+      {
+        "id": "d35d7755-ca4b-429b-a7b5-a3d0066597ae",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Business/finance news sources and newsletters (suggested)",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 7/25]\n(in reply to) User: I'll definitely check those out. I'm also interested in explori"
+      },
+      {
+        "id": "309c6683-8c29-4b52-acce-0d4747e179fc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Newsletters for business and finance updates",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 8/25]\n(in reply to) User: I'll definitely check those out. I'm also interested in explori"
+      },
+      {
+        "id": "cd323710-d7aa-4274-8d1e-91aaae981c1c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested business/finance news sources",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 9/25]\n(in reply to) User: I'll definitely check those out. I'm also interested in explori"
+      },
+      {
+        "id": "73c17db0-e97c-45ee-9036-a8bce96db72a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about WSJ daily newsletter",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 10/25]\nUser: I'll check those out, thanks. I've been enjoying The Wall Street Journal's o"
+      },
+      {
+        "id": "4016aa4d-4ce5-40a9-b015-f64d995e2a1a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "WSJ daily newsletters that summarize top stories",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 11/25]\n(in reply to) User: I'll check those out, thanks. I've been enjoying The Wall Stre"
+      },
+      {
+        "id": "1fbc55fa-aaf5-4868-835d-3f3472d79314",
+        "score": null,
+        "memory_type": "episode",
+        "title": "WSJ daily newsletter and app guidance",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 12/25]\n(in reply to) User: I'll check those out, thanks. I've been enjoying The Wall Stre"
+      },
+      {
+        "id": "38159712-e439-44a4-8867-8d90db9e4657",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request on digital news aggregator choice",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 13/25]\nUser: I've been experimenting with digital news aggregators like Apple News and Go"
+      },
+      {
+        "id": "8e47389b-8da1-438a-800e-b4977ed5e2cf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on digital news aggregators (Apple News/Google News/others)",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 14/25]\n(in reply to) User: I've been experimenting with digital news aggregators like App"
+      },
+      {
+        "id": "26bcf6ec-e935-40eb-9cec-d384bf1baf77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of digital news aggregators (Apple News, Google News, Flipboard, News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 15/25]\n(in reply to) User: I've been experimenting with digital news aggregators like App"
+      },
+      {
+        "id": "5a5237a3-1226-4f44-8325-1d1c8225c5bc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestions for choosing digital news aggregators",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 16/25]\n(in reply to) User: I've been experimenting with digital news aggregators like App"
+      },
+      {
+        "id": "1917dd51-e602-4de3-9d6f-d97d4fae6b03",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion to use multiple digital news aggregators",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 17/25]\n(in reply to) User: I've been experimenting with digital news aggregators like App"
+      },
+      {
+        "id": "df831981-a925-4a46-a1a4-650ed07ee3bc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 18/25]\nUser: I think I'll try out Flipboard and see how it compares to Apple News. I like"
+      },
+      {
+        "id": "0203a7b4-6ee4-4de6-96cf-a4e26a7fba6d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in curating feed via Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 19/25]\n(in reply to) User: I think I'll try out Flipboard and see how it compares to Appl"
+      },
+      {
+        "id": "549f0576-57d9-4aab-9c3e-111b3ca1b878",
+        "score": 0.3173,
+        "memory_type": "preference",
+        "title": "User likes curating feed and discovering new sources on Flipboard",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 20/25]\n(in reply to) User: I think I'll try out Flipboard and see how it compares to Appl"
+      },
+      {
+        "id": "dbcee26e-180e-41d8-a7bd-47fb3f9f729a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 21/25]\n(in reply to) User: I think I'll try out Flipboard and see how it compares to Appl"
+      },
+      {
+        "id": "51919219-38ef-4c67-8e83-50cd2a0e2363",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 22/25]\n(in reply to) User: I think I'll try out Flipboard and see how it compares to Appl"
+      },
+      {
+        "id": "3becc6ea-2b99-4828-a810-25bfa1b50ab7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 23/25]\nUser: I'll definitely give Flipboard a try and see how it compares to Apple News. "
+      },
+      {
+        "id": "b89f082f-180b-4445-a9cb-c87d6074f5bc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 24/25]\n(in reply to) User: I'll definitely give Flipboard a try and see how it compares t"
+      },
+      {
+        "id": "f1f87a44-45fb-4374-b3f2-01da5fcefe9c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to try Flipboard vs Apple News",
+        "text": "[date: 2023-05-23T04:11:00+00:00 | context: Session f03641ce44de - happened on 2023-05-23 04:11:00 UTC. | turn 25/25]\n(in reply to) User: I'll definitely give Flipboard a try and see how it compares t"
+      },
+      {
+        "id": "2108c0e1-36b5-4be2-a4c6-c2afac3b1379",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants apps/tools to organize daily routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 1/32]\nUser: I'm trying to get more organized with my daily routine. Can you suggest some "
+      },
+      {
+        "id": "e7b8779d-ed5e-4fdf-9bef-a10c9bfd4c4c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests apps for daily planning and task management",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 2/32]\n(in reply to) User: I'm trying to get more organized with my daily routine. Can you"
+      },
+      {
+        "id": "3303f3da-7d4c-4a42-a87b-d8a3140fff6d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested apps for daily planning and task management",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 3/32]\n(in reply to) User: I'm trying to get more organized with my daily routine. Can you"
+      },
+      {
+        "id": "6181cf66-a2a2-42bf-85e0-4b0f92c0c115",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Productivity apps for planning, habits, and time tracking",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 4/32]\n(in reply to) User: I'm trying to get more organized with my daily routine. Can you"
+      },
+      {
+        "id": "e2ef7e8b-fb16-4096-8c49-5749a171cf5e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Daily organization habits and app/tool suggestions",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 5/32]\n(in reply to) User: I'm trying to get more organized with my daily routine. Can you"
+      },
+      {
+        "id": "f793f414-d0ed-454e-9b69-de4dd4b50453",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes Todoist and Evernote",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 6/32]\nUser: I like the sound of Todoist and Evernote. Can you tell me more about how I ca"
+      },
+      {
+        "id": "4a68dacd-7f76-45b2-bbf9-33640bd62a29",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes Todoist and Evernote for daily routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 7/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more "
+      },
+      {
+        "id": "e97c072d-5cec-45f3-997a-25bb02451356",
+        "score": null,
+        "memory_type": "plan",
+        "title": "30-minute morning routine using Todoist and Evernote",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 8/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more "
+      },
+      {
+        "id": "7ceae845-e0b6-471e-b84f-c6bf8600ea22",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on integrating Todoist/Evernote into morning routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 9/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more "
+      },
+      {
+        "id": "24e14a77-d95e-4b9c-91bc-44b15fc408da",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes Todoist and Evernote for daily planning",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 10/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more"
+      },
+      {
+        "id": "750da46f-0738-455c-8ba2-0e096598ed31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Todoist\u2013Evernote integration and morning routine setup",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 11/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more"
+      },
+      {
+        "id": "b38c2d6d-ba3a-4855-90d4-00642a0ed911",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Integrate Todoist and Evernote into morning routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 12/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more"
+      },
+      {
+        "id": "79e6e847-a5e4-48ae-a745-6eac3f3f61c0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Integrate Todoist and Evernote into daily routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 13/32]\n(in reply to) User: I like the sound of Todoist and Evernote. Can you tell me more"
+      },
+      {
+        "id": "b39f26ae-80c7-4d2d-bd79-f195c83b0dfb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in consistent bedtime routine and relaxing pre-bed activities",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 14/32]\nUser: I'm also interested in exploring the idea of a consistent bedtime routine. C"
+      },
+      {
+        "id": "7cab9f24-7ba1-4487-bbea-413848da34b3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested relaxing activities for a consistent bedtime routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 15/32]\n(in reply to) User: I'm also interested in exploring the idea of a consistent bedt"
+      },
+      {
+        "id": "c865e03b-ffd9-4e67-9703-15dc23b53936",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Relaxing pre-bed routine ideas",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 16/32]\n(in reply to) User: I'm also interested in exploring the idea of a consistent bedt"
+      },
+      {
+        "id": "b950b9cd-f515-4ef3-9bfd-0af575317fd4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Relaxing pre-bed routine suggestions",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 17/32]\n(in reply to) User: I'm also interested in exploring the idea of a consistent bedt"
+      },
+      {
+        "id": "1876b72a-d981-477a-9562-3f285855a577",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bedtime wind-down activities: gratitude and muscle relaxation",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 18/32]\n(in reply to) User: I'm also interested in exploring the idea of a consistent bedt"
+      },
+      {
+        "id": "93718f87-ffc5-4575-af34-949aa3011fea",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested consistent bedtime routine activities",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 19/32]\n(in reply to) User: I'm also interested in exploring the idea of a consistent bedt"
+      },
+      {
+        "id": "b3d1e2ac-380d-48d9-9647-60c3eb4192ef",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bedtime routine preferences and sleep schedule goal",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 20/32]\nUser: I'm thinking of incorporating some of these relaxing activities into my bedt"
+      },
+      {
+        "id": "ee27c405-9ffe-463a-96c8-639664690b05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sleep routine advice for consistent 10:30 PM bedtime",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 21/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "cdba2b4b-cc16-425f-b064-097b6bc3da14",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bedtime routine guidance: gradual adjustment and sleep environment",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 22/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "7e7f7e15-0df7-41c0-945a-ff3efa0034fd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sleep routine tips: morning sunlight, avoid stimulation, prep time",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 23/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "1f2f785e-3b8a-436f-9583-ff36be73c11c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sleep routine guidance: monitor progress and be patient",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 24/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "d34065fe-224b-4638-9ca6-006aa2e67766",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sleep routine advice session (bedtime consistency)",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 25/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "eb6febb6-e0a0-4a1d-807c-d0dba86dfebb",
+        "score": 0.3183,
+        "memory_type": "preference",
+        "title": "Bedtime routine: reading/journaling and 10:30 PM sleep",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 26/32]\nUser: I'm thinking of incorporating some of these relaxing activities into my bedt"
+      },
+      {
+        "id": "a42a5993-cb21-48f4-831f-e6b9aabfaf8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bedtime routine preference: reading and journaling",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 27/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "bcae30e4-3dc4-44d2-bd24-23b899630e3f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Bedtime routine guidance with journaling and sleep timing",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 28/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "8ba94bf1-58cb-4821-819b-62ae89332a3e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Bedtime routine consistency guidance (reading/journaling)",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 29/32]\n(in reply to) User: I'm thinking of incorporating some of these relaxing activitie"
+      },
+      {
+        "id": "995e7ee8-d9f5-4cfc-98e6-880605ef683d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Plan to adjust bedtime by 15-minute increments",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 30/32]\nUser: I think I'll try to slowly adjust my bedtime by 15-minute increments every f"
+      },
+      {
+        "id": "90fcc307-bdd5-4a39-9561-b54e7ad9cffd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sleep schedule adjustment plan (15-minute increments)",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 31/32]\n(in reply to) User: I think I'll try to slowly adjust my bedtime by 15-minute incr"
+      },
+      {
+        "id": "3882c92d-c103-453c-9f20-8cf63e1cdba8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans gradual bedtime adjustment and relaxing routine",
+        "text": "[date: 2023-05-23T08:55:00+00:00 | context: Session 4f6f54e6bcac - happened on 2023-05-23 08:55:00 UTC. | turn 32/32]\n(in reply to) User: I think I'll try to slowly adjust my bedtime by 15-minute incr"
+      },
+      {
+        "id": "32a02ac3-9f1e-4465-9dee-fbcc508558cb",
+        "score": 0.3101,
+        "memory_type": "task",
+        "title": "Create pet care routine/checklist for Max",
+        "text": "[date: 2023-05-23T19:58:00+00:00 | context: Session 2742e77c4608 - happened on 2023-05-23 19:58:00 UTC. | turn 1/28]\nUser: I'm trying to keep track of my pets' health and habits. Can you help me creat"
+      },
+      {
+        "id": "cafff084-92f6-4e62-b3eb-4a3237577440",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning machine learning with Python",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 2/30]\n(in reply to) User: I'm looking to learn more about machine learning with Python. I"
+      },
+      {
+        "id": "f60efec5-b750-45bb-84b2-1d284668674b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources to learn ML with Python",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 3/30]\n(in reply to) User: I'm looking to learn more about machine learning with Python. I"
+      },
+      {
+        "id": "12571c31-c8f2-460b-987b-8cde0c2f3494",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning machine learning with Python",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 4/30]\n(in reply to) User: I'm looking to learn more about machine learning with Python. I"
+      },
+      {
+        "id": "316207f0-eb5d-4b2e-8f8e-7bc4b84b1784",
+        "score": null,
+        "memory_type": "preference",
+        "title": "General guidance for learning ML with Python",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 5/30]\n(in reply to) User: I'm looking to learn more about machine learning with Python. I"
+      },
+      {
+        "id": "f7f0290e-2a17-4e5a-8910-8e9c4071ddfd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Raschka\u2019s Python Machine Learning book suitability",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 6/30]\nUser: I've already checked out Andrew Ng's course on Coursera, but I'll definitely "
+      },
+      {
+        "id": "ed12fcf0-eab3-441e-9335-1cc89b3929bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Sebastian Raschka's Python Machine Learning book",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 7/30]\n(in reply to) User: I've already checked out Andrew Ng's course on Coursera, but I'"
+      },
+      {
+        "id": "82675607-6570-47d3-8249-033b5110181b",
+        "score": 0.3122,
+        "memory_type": "fact",
+        "title": "Python Machine Learning book prerequisites (Raschka)",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 8/30]\n(in reply to) User: I've already checked out Andrew Ng's course on Coursera, but I'"
+      },
+      {
+        "id": "a12c2622-9e58-4bf5-948e-b07d2a1dcf95",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Sebastian Raschka's Python Machine Learning book",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 9/30]\n(in reply to) User: I've already checked out Andrew Ng's course on Coursera, but I'"
+      },
+      {
+        "id": "3ed1d166-2167-422c-bb2f-40d58766c856",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Python Machine Learning book editions and recommended start",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 10/30]\n(in reply to) User: I've already checked out Andrew Ng's course on Coursera, but I"
+      },
+      {
+        "id": "21afe3a3-66db-42be-96f4-8dafeb443efd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about supervised vs unsupervised learning",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 11/30]\nUser: What's the difference between supervised and unsupervised learning? I rememb"
+      },
+      {
+        "id": "caa6a132-9823-4f9f-b9b2-4502f1a960ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Supervised vs unsupervised learning refresher",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 12/30]\n(in reply to) User: What's the difference between supervised and unsupervised lear"
+      },
+      {
+        "id": "2c09cbc2-c766-4883-8474-e8c5cab3b8cd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Supervised vs unsupervised learning refresher",
+        "text": "[date: 2023-05-27T10:07:00+00:00 | context: Session 9f5f51c98f68 - happened on 2023-05-27 10:07:00 UTC. | turn 13/30]\n(in reply to) User: What's the difference between supervised and unsupervised lear"
+      },
+      {
+        "id": "7c479c02-b4cd-451f-b3a6-732793e08b7a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interests: renewable energy resources and DNA history",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 1/33]\nUser: I'm interested in learning more about renewable energy, can you recommend som"
+      },
+      {
+        "id": "0b416de6-3d57-491f-a7e7-3a6d11c3df55",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Renewable energy resources recommended after DNA book mention",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 2/33]\n(in reply to) User: I'm interested in learning more about renewable energy, can you"
+      },
+      {
+        "id": "75c1ef93-0ae9-4112-af9d-edd881d156b9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online resources and documentaries for renewable energy",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 3/33]\n(in reply to) User: I'm interested in learning more about renewable energy, can you"
+      },
+      {
+        "id": "d4b66137-0a6b-45df-ab61-aa14d0e52f46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online documentary recommendations on renewable energy",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 4/33]\n(in reply to) User: I'm interested in learning more about renewable energy, can you"
+      },
+      {
+        "id": "2fa01c21-6de0-4df6-aa7c-1f5a4015c356",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Renewable energy learning resources (podcasts, courses, books)",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 5/33]\n(in reply to) User: I'm interested in learning more about renewable energy, can you"
+      },
+      {
+        "id": "70dc49c8-fde0-4a1c-98e5-1359dfcb6b24",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about AI breakthroughs in medical diagnosis",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 6/33]\nUser: I'd like to know more about the current state of artificial intelligence, spe"
+      },
+      {
+        "id": "a29d5fd8-af64-44a3-8acf-52300bac32a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI breakthroughs in medical diagnosis (healthcare overview)",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 7/33]\n(in reply to) User: I'd like to know more about the current state of artificial int"
+      },
+      {
+        "id": "7eded2fc-dd2d-4d47-9635-952febadd078",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI breakthroughs in medical diagnosis (breast cancer, diabetic retinopathy)",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 8/33]\n(in reply to) User: I'd like to know more about the current state of artificial int"
+      },
+      {
+        "id": "2125c379-b7a3-4ab6-804f-68f7d58e9293",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI algorithm detects cardiac arrhythmias from ECGs",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 9/33]\n(in reply to) User: I'd like to know more about the current state of artificial int"
+      },
+      {
+        "id": "581d5b85-2ffa-4d5e-8cbc-b728667ce3ea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Notable AI applications in medical diagnosis (2023)",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 10/33]\n(in reply to) User: I'd like to know more about the current state of artificial in"
+      },
+      {
+        "id": "550d21d7-106f-498a-a7b2-802a68f53b58",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI breakthroughs in medical diagnosis: assistants, surveillance, personalized me",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 11/33]\n(in reply to) User: I'd like to know more about the current state of artificial in"
+      },
+      {
+        "id": "297e5712-a4a7-4b66-a533-f2998bc0103e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI in medical diagnosis: key challenges and potential benefits",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 12/33]\n(in reply to) User: I'd like to know more about the current state of artificial in"
+      },
+      {
+        "id": "7aa1dee6-a6d5-4cd9-9450-f6e8af8465a3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interested in AI for medical diagnosis",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 13/33]\nUser: I'm really interested in the potential of AI in medical diagnosis. I've been"
+      },
+      {
+        "id": "a7f86f6a-d48d-4f7f-85a8-2691c1fab2a2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: AI in medical diagnosis and ML learning resources",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 14/33]\n(in reply to) User: I'm really interested in the potential of AI in medical diagno"
+      },
+      {
+        "id": "2ec6cef1-c5db-439f-ae50-b22a11317191",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI applications in medical diagnosis (imaging, disease, personalized, predictive",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 15/33]\n(in reply to) User: I'm really interested in the potential of AI in medical diagno"
+      },
+      {
+        "id": "de925fdc-01fc-461e-8b92-2cf81f622966",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about AI in medical diagnosis",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 16/33]\n(in reply to) User: I'm really interested in the potential of AI in medical diagno"
+      },
+      {
+        "id": "531f90fa-8bd7-4194-b593-fb967545264b",
+        "score": 0.3883,
+        "memory_type": "preference",
+        "title": "Interest in AI-powered diagnosis for rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 17/33]\nUser: I'm really interested in learning more about AI-powered diagnosis of rare di"
+      },
+      {
+        "id": "99648fd9-08a8-41c5-9f48-f78ab5152eeb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on AI-powered diagnosis of rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 18/33]\n(in reply to) User: I'm really interested in learning more about AI-powered diagno"
+      },
+      {
+        "id": "b21c6322-06c0-423d-89fb-bd5843b91bf2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI applications for diagnosing rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 19/33]\n(in reply to) User: I'm really interested in learning more about AI-powered diagno"
+      },
+      {
+        "id": "20c339a3-16a1-4c7f-a0f7-b77bed97fe22",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI tools for rare disease diagnosis (UDN, Rare Genomics Institute, DeepVariant)",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 20/33]\n(in reply to) User: I'm really interested in learning more about AI-powered diagno"
+      },
+      {
+        "id": "0d843072-e761-49f0-bf8f-0313c456329b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI-powered diagnosis of rare diseases: challenges and mitigation",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 21/33]\n(in reply to) User: I'm really interested in learning more about AI-powered diagno"
+      },
+      {
+        "id": "ec4b7925-7f99-49a6-a358-df9dc3e8399b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Challenge: limited data for AI in rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 22/33]\nUser: I think one of the biggest challenges is the lack of data on rare diseases. "
+      },
+      {
+        "id": "bfd81e0d-9e8f-4a4a-aa49-48eae02a5807",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Challenges in rare-disease AI: data scarcity, standardization, explainability",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 23/33]\n(in reply to) User: I think one of the biggest challenges is the lack of data on r"
+      },
+      {
+        "id": "0ea64b96-1267-45e9-8bf8-db4d2fc5e573",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: AI challenges in rare diseases and data sharing",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 24/33]\n(in reply to) User: I think one of the biggest challenges is the lack of data on r"
+      },
+      {
+        "id": "084a9a2b-1940-456f-a7b7-4c2c0c870524",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strategies for rare-disease AI data scarcity: augmentation & transfer learning",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 25/33]\n(in reply to) User: I think one of the biggest challenges is the lack of data on r"
+      },
+      {
+        "id": "be974354-c3cc-4dc5-ab99-3f4b826c862c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Key considerations for AI in rare disease diagnosis",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 26/33]\n(in reply to) User: I think one of the biggest challenges is the lack of data on r"
+      },
+      {
+        "id": "9a316d25-6f4f-4c94-85ee-2bdfcf794720",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on AI challenges/opportunities for rare disease diagnosis",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 27/33]\n(in reply to) User: I think one of the biggest challenges is the lack of data on r"
+      },
+      {
+        "id": "b0570265-b851-4cbe-baf7-617eb7f8df97",
+        "score": null,
+        "memory_type": "preference",
+        "title": "AI could democratize healthcare for rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 28/33]\nUser: I think AI has the potential to democratize access to healthcare, especially"
+      },
+      {
+        "id": "d9ce0196-b8f7-407c-8e1c-a1cedfc1534c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI potential to democratize healthcare for rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 29/33]\n(in reply to) User: I think AI has the potential to democratize access to healthca"
+      },
+      {
+        "id": "3baeae65-1ad7-4666-ab02-62015bf219f0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: AI democratizing healthcare for rare diseases",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 30/33]\n(in reply to) User: I think AI has the potential to democratize access to healthca"
+      },
+      {
+        "id": "ae7ec5b7-36b5-4b04-9cb1-f1e1e45b06ef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Equity and fairness considerations for healthcare AI",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 31/33]\n(in reply to) User: I think AI has the potential to democratize access to healthca"
+      },
+      {
+        "id": "5b3c33f5-06b7-4926-b16a-ad9cbf441ca6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Concerns: algorithmic fairness and representation in healthcare AI",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 32/33]\n(in reply to) User: I think AI has the potential to democratize access to healthca"
+      },
+      {
+        "id": "bb7c21f9-2ad2-40b0-9d95-a5246ab0ad84",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on AI in healthcare: equity, regulation, impact",
+        "text": "[date: 2023-05-29T09:12:00+00:00 | context: Session 197e278cb975 - happened on 2023-05-29 09:12:00 UTC. | turn 33/33]\n(in reply to) User: I think AI has the potential to democratize access to healthca"
+      }
+    ]
+  },
+  "context": {
+    "chars": 100118,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25029)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25411,
+    "prompt_tokens": 23831,
+    "completion_tokens": 275,
+    "reasoning_tokens": 1305,
+    "generate_time_ms": 13120.48581102863,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22177,
+        "completion_tokens": 125,
+        "reasoning_tokens": 683,
+        "total_tokens": 22985
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 592,
+        "completion_tokens": 36,
+        "reasoning_tokens": 332,
+        "total_tokens": 960
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 400,
+        "completion_tokens": 36,
+        "reasoning_tokens": 167,
+        "total_tokens": 603
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 662,
+        "completion_tokens": 78,
+        "reasoning_tokens": 123,
+        "total_tokens": 863
+      }
+    ]
+  },
+  "failure_label": null
+}

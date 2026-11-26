@@ -1,0 +1,1424 @@
+{
+  "question_id": "36580ce8",
+  "question_type": "single-session-user",
+  "question": "What health issue did I initially think was just a cold?",
+  "gold_answer": "bronchitis",
+  "prediction": "The health issue you initially thought was just a cold was a bad case of bronchitis.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 862,
+    "by_type": {
+      "plan": 32,
+      "fact": 560,
+      "action": 12,
+      "task": 77,
+      "episode": 61,
+      "preference": 111,
+      "decision": 9
+    },
+    "by_status": {
+      "outdated": 2,
+      "active": 859,
+      "conflicted": 1
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2536866,
+    "output_tokens": 122404,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What health issue did I initially think was just a cold?"
+    ],
+    "retrieve_time_ms": 8793.008608976379,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "e0da3877-8c0a-4166-a14e-23d301ac93e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Factors influencing ACL injury risk in athletes",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 1/16]\nUser: How does age impact the risk of an athlete experiencing an ACL injury?\n\nAssis"
+      },
+      {
+        "id": "6a1cde82-c10f-488c-be82-442870077a31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding ACL injury prevention programs",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 2/16]\nUser: Can you suggest some specific injury prevention programs that athletes can en"
+      },
+      {
+        "id": "22bf9df7-7246-4eb2-a128-bf3c6e78d733",
+        "score": null,
+        "memory_type": "fact",
+        "title": "ACL injury prevention programs",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 3/16]\n(in reply to) User: Can you suggest some specific injury prevention programs that a"
+      },
+      {
+        "id": "00f0aabb-5549-49f2-a35b-c4d17308ae35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Injury prevention strategies for athletes",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 4/16]\n(in reply to) User: Can you suggest some specific injury prevention programs that a"
+      },
+      {
+        "id": "99b0f175-9cce-4834-be6b-6b69db784886",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding athletic footwear for ACL injury prevention",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 5/16]\nUser: Can you recommend any specific brands or models of shoes that would be best f"
+      },
+      {
+        "id": "65415344-6677-4625-bf67-a4eadef194e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for athletic shoe selection to reduce ACL injury risk",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 6/16]\n(in reply to) User: Can you recommend any specific brands or models of shoes that w"
+      },
+      {
+        "id": "7fe76166-27d2-4259-992a-ae9993ff208a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on athletic footwear for injury prevention",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 7/16]\n(in reply to) User: Can you recommend any specific brands or models of shoes that w"
+      },
+      {
+        "id": "6004b843-acf4-4daf-b9f9-442b752ae34f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User skepticism regarding injury prevention",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 8/16]\nUser: I don't really understand the point of all this injury prevention stuff. Isn'"
+      },
+      {
+        "id": "314ed0d4-c3d5-4a1c-a796-9fb67b131f74",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Importance of injury prevention for athletes",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 9/16]\n(in reply to) User: I don't really understand the point of all this injury preventi"
+      },
+      {
+        "id": "ac97e1ff-96ac-43f9-adab-49ea2aa898d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of injury prevention for athletes",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 10/16]\n(in reply to) User: I don't really understand the point of all this injury prevent"
+      },
+      {
+        "id": "0d35cb49-fa92-4dc5-bd88-489f9e52d519",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User perspective on injury prevention",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 11/16]\nUser: I'm not convinced that injury prevention is worth all the effort. Isn't it b"
+      },
+      {
+        "id": "caef232c-193b-444b-8813-b26839c136a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Risks of playing through pain",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 12/16]\n(in reply to) User: I'm not convinced that injury prevention is worth all the effo"
+      },
+      {
+        "id": "4af112d6-c2e7-4db0-b5b1-bee31c16419b",
+        "score": 0.3882,
+        "memory_type": "fact",
+        "title": "Impact of injury on athlete mental health",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 13/16]\n(in reply to) User: I'm not convinced that injury prevention is worth all the effo"
+      },
+      {
+        "id": "b44d63d5-7e44-402f-9bd1-e80c99a0fd69",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User perspective on athletic injuries",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 14/16]\nUser: I still don't see the point. Injuries are just a part of being an athlete, a"
+      },
+      {
+        "id": "992f123a-3a36-4c67-a86a-99326f2c2021",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Importance of injury prevention in athletics",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 15/16]\n(in reply to) User: I still don't see the point. Injuries are just a part of being"
+      },
+      {
+        "id": "aed279f2-6d60-444d-9527-6f8bd742d108",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of athlete injury prevention",
+        "text": "[date: 2023-05-20T20:21:00+00:00 | context: Session 6f41e5fad832 - happened on 2023-05-20 20:21:00 UTC. | turn 16/16]\n(in reply to) User: I still don't see the point. Injuries are just a part of being"
+      },
+      {
+        "id": "c2e18566-c0bb-47dd-9cb0-0511bcb5a008",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Allergen safety procedures for food orders",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 1/18]\nUser: What steps can a person take to ensure the food they receive is free from the"
+      },
+      {
+        "id": "e64dac02-3729-4301-b068-ec55e7fdee6d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General food allergy safety guidelines",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 2/18]\n(in reply to) User: What steps can a person take to ensure the food they receive is"
+      },
+      {
+        "id": "55168d13-2d2b-4dc6-bb73-09bb3b8f53dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Allergy safety precautions",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 3/18]\n(in reply to) User: What steps can a person take to ensure the food they receive is"
+      },
+      {
+        "id": "d311edb0-0c64-49b4-a497-92e0bb188953",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research allergen identification apps",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 4/18]\nUser: Can you suggest any apps or resources that can help me identify allergens in "
+      },
+      {
+        "id": "4fd6534e-c39a-421c-98c2-63678689e8a4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for identifying food allergens",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 5/18]\n(in reply to) User: Can you suggest any apps or resources that can help me identify"
+      },
+      {
+        "id": "e506cba1-0978-44ea-aac4-a95134ef903a",
+        "score": 0.3823,
+        "memory_type": "fact",
+        "title": "Safety advisory for food allergen identification apps",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 6/18]\n(in reply to) User: Can you suggest any apps or resources that can help me identify"
+      },
+      {
+        "id": "aa9a2965-afb9-43d7-8ef8-8358a86f6ef8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Food allergy management tips",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 7/18]\nUser: It can be really nerve-wracking trying to navigate food allergies while eatin"
+      },
+      {
+        "id": "d8b10180-c10a-4f2d-bfc4-d30aa0f606ee",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for managing food allergies at restaurants",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 8/18]\n(in reply to) User: It can be really nerve-wracking trying to navigate food allergi"
+      },
+      {
+        "id": "f13399bf-4244-4685-9361-82afc1966a20",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for managing food allergies at restaurants",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 9/18]\n(in reply to) User: It can be really nerve-wracking trying to navigate food allergi"
+      },
+      {
+        "id": "7b2db624-8346-409f-bb96-645989a67f67",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for managing food allergies at restaurants",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 10/18]\n(in reply to) User: It can be really nerve-wracking trying to navigate food allerg"
+      },
+      {
+        "id": "f1b1f994-889e-4f42-9356-552b60ec708a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Trends in food allergy awareness in retail and dining",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 11/18]\nUser: Wow, it sounds like there are a lot of helpful resources out there! Do you t"
+      },
+      {
+        "id": "a0e59a30-b62f-4332-9747-6066eb0a9a85",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for food allergy safety",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 12/18]\nUser: It's great to know that more establishments are accommodating people with fo"
+      },
+      {
+        "id": "b92d4214-8c64-4118-967b-83fb5b1b5cf2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Challenges and advancements in food allergy management",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 13/18]\n(in reply to) User: It's great to know that more establishments are accommodating "
+      },
+      {
+        "id": "7d280c96-60f0-444f-8dce-5b4138245182",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Food allergy safety precautions",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 14/18]\n(in reply to) User: It's great to know that more establishments are accommodating "
+      },
+      {
+        "id": "9b831320-8631-4fe4-bb81-af6ec3a5fa13",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Complexity of eliminating food allergens",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 15/18]\nUser: It's frustrating that we still have to deal with the risks of food allergies"
+      },
+      {
+        "id": "d0b94fd5-0776-4008-a291-3168def262c7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for stricter food allergy regulations",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 16/18]\nUser: It's frustrating to hear that allergens won't be eliminated from our food su"
+      },
+      {
+        "id": "faaf4537-8c77-44b4-9dbe-fe2eac17e13e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Food allergy labeling regulations (FALCPA)",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 17/18]\n(in reply to) User: It's frustrating to hear that allergens won't be eliminated fr"
+      },
+      {
+        "id": "992a8b02-d396-4ae3-889f-b6b28cb524e8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stakeholder collaboration for food allergy safety",
+        "text": "[date: 2023-05-21T23:34:00+00:00 | context: Session a9c59fc93358 - happened on 2023-05-21 23:34:00 UTC. | turn 18/18]\n(in reply to) User: It's frustrating to hear that allergens won't be eliminated fr"
+      },
+      {
+        "id": "cc55e585-cfee-4dc5-95fe-05096f098cb6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User social media growth progress",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 1/24]\nUser: I'm trying to grow my social media presence, especially on Instagram. I've be"
+      },
+      {
+        "id": "d5092d2e-bef7-4681-8472-744ed1a25d5f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User social media growth progress",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 2/24]\n(in reply to) User: I'm trying to grow my social media presence, especially on Inst"
+      },
+      {
+        "id": "69e5efcb-9830-4492-8710-fc76b158002e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media growth strategy for Instagram",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 3/24]\n(in reply to) User: I'm trying to grow my social media presence, especially on Inst"
+      },
+      {
+        "id": "822d46a8-bd94-405d-aea9-08ffcda174db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Instagram growth strategies",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 4/24]\n(in reply to) User: I'm trying to grow my social media presence, especially on Inst"
+      },
+      {
+        "id": "07f8237b-5503-43af-a31d-9554eeee8857",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media growth best practices",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 5/24]\n(in reply to) User: I'm trying to grow my social media presence, especially on Inst"
+      },
+      {
+        "id": "99a4b06b-22cd-415e-b0f7-11154475a04b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media growth strategies for fitness niche",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 6/24]\n(in reply to) User: I'm trying to grow my social media presence, especially on Inst"
+      },
+      {
+        "id": "696dba9e-206d-45b6-b096-0c13f1f83f1f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create content calendar for fitness, wellness, and lifestyle",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 7/24]\nUser: I've been thinking about creating a content calendar to plan out my posts in "
+      },
+      {
+        "id": "79b30207-3250-4aa0-910e-82352bfc3d6b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for creating a content calendar",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 8/24]\n(in reply to) User: I've been thinking about creating a content calendar to plan ou"
+      },
+      {
+        "id": "a23eab75-ae86-4ab4-a36d-dde7cbdd0de9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for creating a content calendar",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 9/24]\n(in reply to) User: I've been thinking about creating a content calendar to plan ou"
+      },
+      {
+        "id": "1dab1922-d70b-4e64-973c-dd8919f1cea8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for creating a content calendar",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 10/24]\n(in reply to) User: I've been thinking about creating a content calendar to plan o"
+      },
+      {
+        "id": "d0e93974-d512-4dbf-afc9-bad89914cc26",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content calendar posting frequency guidelines",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 11/24]\n(in reply to) User: I've been thinking about creating a content calendar to plan o"
+      },
+      {
+        "id": "0dfe3386-bf43-4aef-994b-f4759a3b05a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for creating a content calendar",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 12/24]\n(in reply to) User: I've been thinking about creating a content calendar to plan o"
+      },
+      {
+        "id": "bb037816-f08a-45e0-9ce8-b4188ebe1c79",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User session interaction",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 13/24]\nUser: Here's my response as the user:"
+      },
+      {
+        "id": "b4913383-0524-48ba-bee4-8a37be1066f8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User content strategy preferences",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 14/24]\n(in reply to) User: Here's my response as the user:\n\nI like the idea of batching s"
+      },
+      {
+        "id": "e6f4c901-0fa7-4a79-8421-fd76afe12d38",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content strategy: Theme days",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 15/24]\n(in reply to) User: Here's my response as the user:\n\n* Designate specific days for"
+      },
+      {
+        "id": "3329ea81-8011-41ee-9f84-94d27ace62b9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content strategy preferences for theme days",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 16/24]\n(in reply to) User: Here's my response as the user:\n\n* To avoid predictability, tr"
+      },
+      {
+        "id": "dbf3bc58-17e1-4d1a-9d27-355e6762082c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User session interaction",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 17/24]\nUser: Here's my next response as the user:"
+      },
+      {
+        "id": "fb13a78b-c1da-46b9-a0a5-c68a9f36546b",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to implement Mindfulness Thursdays and Fitness Fridays",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 18/24]\n(in reply to) User: Here's my next response as the user:\n\nThat's a great idea abou"
+      },
+      {
+        "id": "1f3d2039-e05a-43b6-8896-499af81e572c",
+        "score": 0.3628,
+        "memory_type": "decision",
+        "title": "Recommendation to integrate book content into main account",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 19/24]\n(in reply to) User: Here's my next response as the user:\n\n* **Added maintenance**:"
+      },
+      {
+        "id": "3b40dbf5-2e57-41f3-b1f9-345b916358f6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Strategy for integrating book-related content on Instagram",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 20/24]\n(in reply to) User: Here's my next response as the user:\n\n1. **Use a specific hash"
+      },
+      {
+        "id": "9c276a30-2a92-4c89-885b-2b22da1f6907",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Decision to integrate book content into main account",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 21/24]\nUser: I think that's a good idea to incorporate my book-related content into my ma"
+      },
+      {
+        "id": "c599dff5-5ed5-4bee-a9f7-5fd72f1eb2b5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content strategy for book-related posts",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 22/24]\n(in reply to) User: I think that's a good idea to incorporate my book-related cont"
+      },
+      {
+        "id": "8a4f7051-f7f8-4f8e-b029-0a30a7b43f36",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best practices for Instagram highlight reels",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 23/24]\n(in reply to) User: I think that's a good idea to incorporate my book-related cont"
+      },
+      {
+        "id": "fdb61b1d-ee0b-49de-9aed-cb3181db1ada",
+        "score": null,
+        "memory_type": "action",
+        "title": "Created 'Page Turners' Instagram highlight reel",
+        "text": "[date: 2023-05-22T04:28:00+00:00 | context: Session 0e4036cc114d - happened on 2023-05-22 04:28:00 UTC. | turn 24/24]\nUser: That sounds like a great plan! I think I'll create a highlight reel called \""
+      },
+      {
+        "id": "4c94833c-8d4c-4a6b-aa23-cc6500f892bf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for budget creation tips",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 1/17]\nUser: Could you provide tips for creating a budget to save money while living in an"
+      },
+      {
+        "id": "ba3c64f2-9077-45e7-bffc-9ddc7fbccf7c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Budgeting tips for expensive cities",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 2/17]\n(in reply to) User: Could you provide tips for creating a budget to save money whil"
+      },
+      {
+        "id": "cdebadde-2494-4098-8aad-04680770d487",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Budgeting advice for expensive cities",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 3/17]\n(in reply to) User: Could you provide tips for creating a budget to save money whil"
+      },
+      {
+        "id": "da0fc559-b455-45d2-927a-f028dcfd2a18",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding budget disruption management",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 4/17]\nUser: How do I deal with unexpected expenses that may disrupt my budget plan?"
+      },
+      {
+        "id": "b28afc1c-eb56-4283-abf4-478a96c8e2b2",
+        "score": 0.3561,
+        "memory_type": "fact",
+        "title": "Strategies for managing unexpected financial expenses",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 5/17]\n(in reply to) User: How do I deal with unexpected expenses that may disrupt my budg"
+      },
+      {
+        "id": "ca19e36c-5834-4c58-bddc-1ccb1efe1216",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on managing unexpected expenses",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 6/17]\n(in reply to) User: How do I deal with unexpected expenses that may disrupt my budg"
+      },
+      {
+        "id": "aa0791df-550f-446b-b2ce-09f90cbefe10",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research non-profit financial assistance for unexpected expenses",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 7/17]\nUser: Can you recommend any non-profit organizations that offer financial help for "
+      },
+      {
+        "id": "37c415e3-76cd-44db-a638-7e60e1fa3bcd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Non-profit organizations for financial assistance",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 8/17]\n(in reply to) User: Can you recommend any non-profit organizations that offer finan"
+      },
+      {
+        "id": "2aec1838-92d9-4024-be20-d07fdb8cbcc3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for financial assistance in expensive cities",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 9/17]\n(in reply to) User: Can you recommend any non-profit organizations that offer finan"
+      },
+      {
+        "id": "f1d12887-3340-42fe-b48e-b67902935f90",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Budgeting and social trade-offs",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 10/17]\nUser: I will definitely look into those non-profit organizations. Do you have any "
+      },
+      {
+        "id": "ba894eec-40e5-442a-ba3a-0b69be4da691",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on budgeting while maintaining social life",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 11/17]\n(in reply to) User: I will definitely look into those non-profit organizations. Do"
+      },
+      {
+        "id": "5b16607a-9aa0-42cd-b0f5-a18c3d63aa28",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on social budgeting",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 12/17]\n(in reply to) User: I will definitely look into those non-profit organizations. Do"
+      },
+      {
+        "id": "12dc9e03-1641-44d6-b2fd-c958379ea789",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on maintaining a budget while socializing",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 13/17]\n(in reply to) User: I will definitely look into those non-profit organizations. Do"
+      },
+      {
+        "id": "11948ead-104b-4876-99fe-ebc23889c69a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for potluck over dining out",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 14/17]\nUser: I especially like the idea of organizing a potluck party instead of dining o"
+      },
+      {
+        "id": "689b5a86-9258-4130-8784-b232dfa9cc91",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for potluck over dining out",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 15/17]\n(in reply to) User: I especially like the idea of organizing a potluck party inste"
+      },
+      {
+        "id": "afb68fba-a040-48d2-989e-50f0dd42e5fd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for organizing a cost-effective potluck",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 16/17]\n(in reply to) User: I especially like the idea of organizing a potluck party inste"
+      },
+      {
+        "id": "c747e192-8218-4069-a48c-d7c773fcb931",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for potluck events",
+        "text": "[date: 2023-05-23T04:21:00+00:00 | context: Session bbbc4e523486 - happened on 2023-05-23 04:21:00 UTC. | turn 17/17]\n(in reply to) User: I especially like the idea of organizing a potluck party inste"
+      },
+      {
+        "id": "c986c4c9-235f-45ad-af6f-c4739e670a54",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekend wake-up time preference",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 1/18]\nUser: I'm trying to get my daily routine more organized. Can you help me create a s"
+      },
+      {
+        "id": "e23eaee2-a345-49fa-a708-442caf8ca403",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User weekend wake-up preference",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 2/18]\n(in reply to) User: I'm trying to get my daily routine more organized. Can you help"
+      },
+      {
+        "id": "e0c31b57-1e10-468f-be12-2cc420697106",
+        "score": null,
+        "memory_type": "task",
+        "title": "Gathering requirements for user daily routine schedule",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 3/18]\n(in reply to) User: I'm trying to get my daily routine more organized. Can you help"
+      },
+      {
+        "id": "5389cada-2e5a-487b-8b9a-b4552b258d72",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Weekend wake-up time preference",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 4/18]\n(in reply to) User: I'm trying to get my daily routine more organized. Can you help"
+      },
+      {
+        "id": "75de1a0f-ed46-4a48-b920-edce9e22ab8f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preferred weekday work start time",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 5/18]\nUser: I'm open to adjusting my wake-up time on weekdays, but I'd prefer to start wo"
+      },
+      {
+        "id": "7eb0d3eb-aadf-4756-bdec-e7f33855d43e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User work start time preference",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 6/18]\n(in reply to) User: I'm open to adjusting my wake-up time on weekdays, but I'd pref"
+      },
+      {
+        "id": "3e3c1c2d-03d1-4c09-81e0-91f275867cef",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for user input to design daily routine",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 7/18]\n(in reply to) User: I'm open to adjusting my wake-up time on weekdays, but I'd pref"
+      },
+      {
+        "id": "537ac361-c8bf-4b75-ad31-62fb45d37f28",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User sleep requirement",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 8/18]\nUser: I need around 7-8 hours of sleep each night."
+      },
+      {
+        "id": "9ea432fc-602c-4cf1-8297-7d9e0477929e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User sleep requirement",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 9/18]\n(in reply to) User: I need around 7-8 hours of sleep each night.\n\nAssistant: Got it"
+      },
+      {
+        "id": "6bf1f1ae-e6ee-465c-b232-49462584d1f3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User sleep requirement",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 10/18]\n(in reply to) User: I need around 7-8 hours of sleep each night.\n\n* Regular meetin"
+      },
+      {
+        "id": "4bdcd4e4-bf6d-4e41-a677-e50b19187937",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create personalized daily routine",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 11/18]\n(in reply to) User: I need around 7-8 hours of sleep each night.\n\n* Like having a "
+      },
+      {
+        "id": "9ff28188-fcab-4a36-9888-6a9991338cdb",
+        "score": 0.3935,
+        "memory_type": "preference",
+        "title": "Daily routine preferences",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 12/18]\nUser: I'd like to prioritize meditation, taking a short walk, and checking emails/"
+      },
+      {
+        "id": "ac0ab187-179f-460f-884a-6926f89cc368",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User daily routine preferences",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 13/18]\n(in reply to) User: I'd like to prioritize meditation, taking a short walk, and ch"
+      },
+      {
+        "id": "a051651f-a160-45ff-9a0a-732229b1edcc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User daily routine preferences",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 14/18]\n(in reply to) User: I'd like to prioritize meditation, taking a short walk, and ch"
+      },
+      {
+        "id": "45b110a4-12ca-4d0a-b438-8515f56074f7",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Adjustment of morning work start time",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 15/18]\nUser: I'm glad you've created a sample routine for me! However, I think I need som"
+      },
+      {
+        "id": "897546e5-e3d1-413a-a265-20b5876ff23e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User daily routine preference",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 16/18]\n(in reply to) User: I'm glad you've created a sample routine for me! However, I th"
+      },
+      {
+        "id": "ed15e276-1cd1-4c9f-8c85-8c6c632c3524",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User work schedule preference: 9:00 AM start",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 17/18]\n(in reply to) User: I'm glad you've created a sample routine for me! However, I th"
+      },
+      {
+        "id": "5a0b5f3c-7241-4002-9ea7-460eee7e921b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ideal bedtime range for 7-8 hours of sleep",
+        "text": "[date: 2023-05-23T16:25:00+00:00 | context: Session c54dd16c9816 - happened on 2023-05-23 16:25:00 UTC. | turn 18/18]\nUser: I think this revised routine looks good. I'm glad I have more time in the mo"
+      },
+      {
+        "id": "01e42773-96a6-4072-9b98-0e69fa3deb1d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Initial discussion on pipeline integration",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 1/15]\nUser: I want to leverage your capabilities but augment them in a pipeline that conn"
+      },
+      {
+        "id": "552e57f7-d515-463e-bc4c-f212c7199e12",
+        "score": 0.3629,
+        "memory_type": "plan",
+        "title": "MVP Pipeline for Automated Data Analysis",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 2/15]\nUser: Lets work on an MVP. I want to create a seamless interface in which a user ca"
+      },
+      {
+        "id": "c6cab4a9-b067-45d2-a5b3-0cbea84ee4d7",
+        "score": null,
+        "memory_type": "plan",
+        "title": "MVP for Data Analysis Interface",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 3/15]\n(in reply to) User: Lets work on an MVP. I want to create a seamless interface in w"
+      },
+      {
+        "id": "d1c7162d-1df8-4c01-8d75-3da9778aba85",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contextual setup for database analysis",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 4/15]\nUser: Ok Ill provide the table structure first so you know what our table looks lik"
+      },
+      {
+        "id": "66ac3e4d-d7eb-4e3a-a6b8-4a1ddd9aa4dd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Database schema documentation for SPENTS and SAVES tables",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 5/15]\nUser: Table 1 called SPENTS has three columns RPP\\_ID is an ID column, Spent is a c"
+      },
+      {
+        "id": "ee7f725c-f7b6-4f2d-a5d2-f282054ba626",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Database schema documentation for SPENTS and savings tables",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 6/15]\n(in reply to) User: Table 1 called SPENTS has three columns RPP\\_ID is an ID column"
+      },
+      {
+        "id": "466827a0-0c3b-4664-84d8-0342903593d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Schema definition for SPENTS table",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 7/15]\n(in reply to) User: Table 1 called SPENTS has three columns RPP\\_ID is an ID column"
+      },
+      {
+        "id": "1d3ce6d1-b523-47d8-9894-5f74384dc79e",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Agreement to act as data engineer for SQL query generation",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 8/15]\nUser: Ok for this following prompt you will act as my data engineer specialized in "
+      },
+      {
+        "id": "8da66024-f20f-4a3a-9f1b-6f255b67bd7e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL query for customer savings calculation",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 9/15]\nUser: I would like to learn how much each customer has saved in total (savings minu"
+      },
+      {
+        "id": "ee27db54-b7c6-4f8f-86ff-4bef2140d59f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL query for customer savings calculation",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 10/15]\nUser: Remember that you only needed to output the query? Would you like to try aga"
+      },
+      {
+        "id": "a4010d04-1f0b-49ba-a17f-25e3a31005da",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Capability to provide SQL and R code",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 11/15]\nUser: Now the next is more challenging. I will ask you something about my data tha"
+      },
+      {
+        "id": "508cfc79-f54e-42f4-9e9e-58fe29df8469",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for statistical analysis of client savings",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 12/15]\nUser: I would like to know if there are any statistically significant differences "
+      },
+      {
+        "id": "01bdf46b-b53e-4ff6-acdc-db8d20fb7cdd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SQL query for comparing client savings between March 2022 and 2023",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 13/15]\n(in reply to) User: I would like to know if there are any statistically significan"
+      },
+      {
+        "id": "23bc5dc8-b581-4cdc-99b0-44c9e0a195ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "R snippet for two-sample t-test on savings data",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 14/15]\n(in reply to) User: I would like to know if there are any statistically significan"
+      },
+      {
+        "id": "b59be6b9-0af9-4cdb-aed9-ce49c7fe4e95",
+        "score": null,
+        "memory_type": "fact",
+        "title": "R code for calculating confidence interval of savings difference",
+        "text": "[date: 2023-05-24T01:44:00+00:00 | context: Session 5ff61c29342f - happened on 2023-05-24 01:44:00 UTC. | turn 15/15]\n(in reply to) User: I would like to know if there are any statistically significan"
+      },
+      {
+        "id": "a9959c42-a1e9-4c92-8d25-dbf2319aafc9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological effects of long-term isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 1/16]\nUser: Discuss the psychological effects of long-term isolation on human beings and "
+      },
+      {
+        "id": "0e13ad4f-13bf-402d-a084-12c8cf01f16e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological effects of long-term isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 2/16]\n(in reply to) User: Discuss the psychological effects of long-term isolation on hum"
+      },
+      {
+        "id": "0c6e4766-0408-4663-b6d6-e171498de1b7",
+        "score": 0.3779,
+        "memory_type": "fact",
+        "title": "Psychological effects of long-term isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 3/16]\n(in reply to) User: Discuss the psychological effects of long-term isolation on hum"
+      },
+      {
+        "id": "18449716-86c4-4af8-b543-21a308ccb3d1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological effects of long-term isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 4/16]\n(in reply to) User: Discuss the psychological effects of long-term isolation on hum"
+      },
+      {
+        "id": "85f62097-c545-4389-a16d-8df79338133a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry on virtual vs. in-person interaction efficacy",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 5/16]\nUser: Can virtual interactions with others have the same positive effects as in-per"
+      },
+      {
+        "id": "a7d24d37-b959-4f71-9fe5-80e63db9a28c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological benefits of virtual interactions",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 6/16]\n(in reply to) User: Can virtual interactions with others have the same positive eff"
+      },
+      {
+        "id": "ebdf5816-e1f6-4677-8c49-4668901ad0fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Effectiveness of virtual vs. in-person interactions for isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 7/16]\n(in reply to) User: Can virtual interactions with others have the same positive eff"
+      },
+      {
+        "id": "f2f2df3c-37cc-4e81-b54a-c08f14f235b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry on virtual platforms for social connection",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 8/16]\nUser: Can you suggest some virtual platforms or apps that can help in maintaining s"
+      },
+      {
+        "id": "b2d90082-08d0-4391-a248-bcff69e2b5ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Virtual platforms for maintaining social connections",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 9/16]\n(in reply to) User: Can you suggest some virtual platforms or apps that can help in"
+      },
+      {
+        "id": "ddfc2a60-3183-452b-b285-1b58b74e5d89",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Virtual platforms for social connection and mental health",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 10/16]\n(in reply to) User: Can you suggest some virtual platforms or apps that can help i"
+      },
+      {
+        "id": "4ef60c64-635b-459d-b8e4-0b0c45c3ec0c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Psychological impact of virtual pet interactions",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 11/16]\nUser: Can virtual interactions with pets also help mitigate the psychological effe"
+      },
+      {
+        "id": "7ae2ac84-7ef9-4553-9920-2620ae8a02f1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Effectiveness of virtual pet interactions for isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 12/16]\n(in reply to) User: Can virtual interactions with pets also help mitigate the psyc"
+      },
+      {
+        "id": "8914d1b7-9a65-49e3-a898-af4c4d3e06be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of virtual vs. physical pet interaction",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 13/16]\n(in reply to) User: Can virtual interactions with pets also help mitigate the psyc"
+      },
+      {
+        "id": "96bb791d-0e50-43f4-b244-c6f90fc9dd6e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for pet interaction strategies during isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 14/16]\nUser: Can you recommend any specific ways to incorporate physical interaction with"
+      },
+      {
+        "id": "302e22eb-2985-47ec-9135-b36e723fe050",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggestions for pet interaction during isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 15/16]\n(in reply to) User: Can you recommend any specific ways to incorporate physical in"
+      },
+      {
+        "id": "5bd2b294-1e91-4550-9ead-0d0b34a55152",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pet interaction tips for isolation",
+        "text": "[date: 2023-05-24T06:43:00+00:00 | context: Session e15ce81529d2 - happened on 2023-05-24 06:43:00 UTC. | turn 16/16]\n(in reply to) User: Can you recommend any specific ways to incorporate physical in"
+      },
+      {
+        "id": "8852a4a6-92c2-4d8b-9569-51035e3fec8a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User Profile: Lisa",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 1/12]\nUser: Background: Lisa is a busy professional who lives in Shanghai with her husban"
+      },
+      {
+        "id": "9e29cc7c-59a5-4d15-a054-fa999598abab",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User profile and preferences for Lisa",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 2/12]\n(in reply to) User: Background: Lisa is a busy professional who lives in Shanghai w"
+      },
+      {
+        "id": "8c7aac60-4322-4595-980b-624ab3923347",
+        "score": 0.3638,
+        "memory_type": "preference",
+        "title": "Lisa's travel preferences for Shanghai Disney Resort",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 3/12]\n(in reply to) User: Background: Lisa is a busy professional who lives in Shanghai w"
+      },
+      {
+        "id": "08508cb8-9579-41c8-a149-915acea8b4ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tooltip descriptions for itinerary planning feature",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 4/12]\nUser: please provide tooltips description for \"itinerary planning\" feature\n\nAssista"
+      },
+      {
+        "id": "8aa95c98-bc2c-49b4-865f-7af0234a6406",
+        "score": null,
+        "memory_type": "fact",
+        "title": "\u884c\u7a0b\u89c4\u5212\u529f\u80fd\u63cf\u8ff0",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 5/12]\nUser: \u8bf7\u7528\u4e2d\u6587\u63d0\u4f9b\u51e0\u4e2a \u5173\u4e8e\u201c\u884c\u7a0b\u89c4\u5212\u201d\u529f\u80fd\u7684\u63cf\u8ff0\uff0c\u4e0d\u8d85\u8fc715\u4e2a\u5b57\n\nAssistant: 1. \u4e2a\u6027\u5316\u5b9a\u5236\u884c\u7a0b\n2. \u5b9e\u65f6\u4f18\u5316\u884c\u7a0b\u5b89\u6392\n3. \u9910\u996e\u9884\u8ba2\u3001\u6392\u961f\u63d0"
+      },
+      {
+        "id": "5bba08d1-0b72-4475-b98a-f29b2cc73eb7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Functional requirements for theme park itinerary planning app",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 6/12]\nUser: Can you list down all the functions that could have in \"itinerary planning\" d"
+      },
+      {
+        "id": "7606f97d-1bec-4595-af56-ec3588f98257",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for Shanghai Disney app user journey",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 7/12]\nUser: Can you provide me the user journey of \"Itinerary planning\" function for Shan"
+      },
+      {
+        "id": "dcbf566b-ea62-4c3f-8428-af0b0cf5c4a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shanghai Disney Resort app itinerary planning user journey",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 8/12]\n(in reply to) User: Can you provide me the user journey of \"Itinerary planning\" fun"
+      },
+      {
+        "id": "c0c86e6a-a386-44c3-b691-035051507f52",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shanghai Disney Resort App: Itinerary Planning User Journey",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 9/12]\n(in reply to) User: Can you provide me the user journey of \"Itinerary planning\" fun"
+      },
+      {
+        "id": "2202014d-a152-4e2c-9a05-110337e7fb14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Lisa's visit to Shanghai Disney Resort",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 10/12]\n(in reply to) User: Can you provide me the user journey of \"Itinerary planning\" fu"
+      },
+      {
+        "id": "1e75b2d7-02ec-477e-8197-623a055ae234",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Functional requirements for itinerary planning system",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 11/12]\nUser: \u4f60\u80fd\u63d0\u4f9b\u5173\u4e8e\u201c\u884c\u7a0b\u89c4\u5212\u201d\u7684\u6240\u6709\u529f\u80fd\u70b9\u5417\n\nAssistant: \u5f53\u7136\uff0c\u4ee5\u4e0b\u662f\u5728\u201c\u884c\u7a0b\u89c4\u5212\u201d\u8bbe\u8ba1\u4e2d\u53ef\u80fd\u5305\u542b\u7684\u4e00\u4e9b\u529f\u80fd\u70b9\uff1a\n\n1. \u6d4f\u89c8\u666f\u70b9\u4fe1\u606f\u548c\u5730\u56fe\n2."
+      },
+      {
+        "id": "c7e4d707-b4f3-4072-bb30-e2f492dcfa2d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Shanghai Disneyland App Performance Reservation Process",
+        "text": "[date: 2023-05-26T07:46:00+00:00 | context: Session 2c7646b87c3a - happened on 2023-05-26 07:46:00 UTC. | turn 12/12]\nUser: \u4e0a\u6d77\u8fea\u58eb\u5c3capp \u8868\u6f14\u9884\u7ea6\u6d41\u7a0b\u662f\u600e\u4e48\u6837\u7684\n\nAssistant: \u5728\u4e0a\u6d77\u8fea\u58eb\u5c3capp\u4e2d\uff0c\u8868\u6f14\u9884\u7ea6\u5206\u4e3a\u4ee5\u4e0b\u51e0\u4e2a\u6b65\u9aa4\uff1a\n\n1. \u6253\u5f00\u4e0a\u6d77\u8fea\u58eb\u5c3capp\uff0c\u8fdb\u5165\u9996"
+      },
+      {
+        "id": "6f39031f-a792-49fa-a2fa-bc184611f5b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games accommodation and support services",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 3/21]\n(in reply to) User: How did Athens accommodate the diverse needs and preferences of"
+      },
+      {
+        "id": "1a583ccf-4fcb-40a4-ae58-16ca3efb9f77",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games accommodation strategies",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 4/21]\n(in reply to) User: How did Athens accommodate the diverse needs and preferences of"
+      },
+      {
+        "id": "29b4661f-274b-4eaf-b581-0a8a7bf784ec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Inquiry regarding Athens Paralympic disability awareness programs",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 5/21]\nUser: Did Athens also provide any training or programs to help raise awareness and "
+      },
+      {
+        "id": "f292c987-60cc-4fd9-9d02-47537cd3d3d9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games awareness initiatives",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 6/21]\n(in reply to) User: Did Athens also provide any training or programs to help raise "
+      },
+      {
+        "id": "14c1af27-401a-4a30-8ad2-96084b0ca38e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games awareness and accessibility initiatives",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 7/21]\n(in reply to) User: Did Athens also provide any training or programs to help raise "
+      },
+      {
+        "id": "61217ebd-0787-4e4d-bcfb-4cbe6c62a4b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Paralympic Games safety and security initiatives",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 8/21]\nUser: What kind of initiatives does the Paralympic Games usually take to ensure the"
+      },
+      {
+        "id": "f5f54b68-a56b-4f09-9a58-7f544d8a8861",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Paralympic Games safety and security initiatives",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 9/21]\n(in reply to) User: What kind of initiatives does the Paralympic Games usually take"
+      },
+      {
+        "id": "4f65c917-22d4-49ae-93df-31c89600ca3f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Paralympic Games safety and security protocols",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 10/21]\n(in reply to) User: What kind of initiatives does the Paralympic Games usually tak"
+      },
+      {
+        "id": "5a2599c2-ca8d-4244-9b4a-142095002cbe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Paralympic Games safety and security protocols",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 11/21]\n(in reply to) User: What kind of initiatives does the Paralympic Games usually tak"
+      },
+      {
+        "id": "a9ccc4da-f7fc-4510-b3c9-1fb573977a9d",
+        "score": 0.3552,
+        "memory_type": "fact",
+        "title": "Security at the 2004 Athens Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 12/21]\nUser: Did the Paralympic Games in Athens face any security threats or incidents? H"
+      },
+      {
+        "id": "9c304536-43e2-428b-a1a5-a8508b5d2293",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Security protocols for Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 13/21]\n(in reply to) User: Did the Paralympic Games in Athens face any security threats o"
+      },
+      {
+        "id": "341ea179-a21e-474d-aa04-9c97554324a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Security preparedness for Athens Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 14/21]\n(in reply to) User: Did the Paralympic Games in Athens face any security threats o"
+      },
+      {
+        "id": "7c70fd87-c262-41d1-b430-2953f1c98f5a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Doping violations at the Athens Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 15/21]\nUser: Have any athletes or participants been suspended or disqualified for doping "
+      },
+      {
+        "id": "47bc279c-c443-4d60-9d59-bd5f0960f3bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "IPC Anti-Doping Procedures for Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 16/21]\n(in reply to) User: Have any athletes or participants been suspended or disqualifi"
+      },
+      {
+        "id": "3deb7d5a-2303-4189-8ce6-fb4e0ee7226e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anti-doping procedures at the Athens Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 17/21]\n(in reply to) User: Have any athletes or participants been suspended or disqualifi"
+      },
+      {
+        "id": "24023771-2d7c-4e25-8d5e-2235d99fae20",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding Athens Paralympic Games controversies",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 18/21]\nUser: Did the Athens Paralympic Games have any scandals or controversies? How did "
+      },
+      {
+        "id": "ca17f30e-5e68-4adf-acea-8794dee5e5f9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games classification controversy",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 19/21]\n(in reply to) User: Did the Athens Paralympic Games have any scandals or controver"
+      },
+      {
+        "id": "87c341dd-63cc-4732-a132-f5db9776a520",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Controversies and management at the 2004 Athens Paralympic Games",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 20/21]\n(in reply to) User: Did the Athens Paralympic Games have any scandals or controver"
+      },
+      {
+        "id": "4ef74153-145c-4a0f-a74d-f3f3d5651ddb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Athens Paralympic Games controversies and management",
+        "text": "[date: 2023-05-28T19:43:00+00:00 | context: Session 897f1fe14293 - happened on 2023-05-28 19:43:00 UTC. | turn 21/21]\n(in reply to) User: Did the Athens Paralympic Games have any scandals or controver"
+      },
+      {
+        "id": "649deae8-c08c-4367-82da-d032dd76b0d8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for home fitness and flexibility exercises",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 1/26]\nUser: I'm trying to get back on track with my fitness routine after a few months of"
+      },
+      {
+        "id": "68700ae5-4729-4a10-8026-6a8cb3e2413a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gentle home flexibility exercises",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 2/26]\n(in reply to) User: I'm trying to get back on track with my fitness routine after a"
+      },
+      {
+        "id": "9fb611fd-8f13-42ae-b207-4efc8582f6d9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gentle home flexibility exercises",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 3/26]\n(in reply to) User: I'm trying to get back on track with my fitness routine after a"
+      },
+      {
+        "id": "7e129187-d68f-4192-84ca-68af81eef97a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gentle home exercises for flexibility",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 4/26]\n(in reply to) User: I'm trying to get back on track with my fitness routine after a"
+      },
+      {
+        "id": "000801a3-e44a-46b2-8d0d-fe03b3ec770d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Gentle home exercise and flexibility routine",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 5/26]\n(in reply to) User: I'm trying to get back on track with my fitness routine after a"
+      },
+      {
+        "id": "752a37e9-5da3-4c42-8df5-efd3b79e17c4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User health and wellness preference",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 6/26]\nUser: I've been dealing with some health issues lately, so I want to make sure I do"
+      },
+      {
+        "id": "3451e545-705b-4f7e-8e0b-3502f43bacda",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General immune system support tips",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 7/26]\n(in reply to) User: I've been dealing with some health issues lately, so I want to "
+      },
+      {
+        "id": "92eba7d4-7d34-48b0-9cd2-41f02b5fae36",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General immune system support suggestions",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 8/26]\n(in reply to) User: I've been dealing with some health issues lately, so I want to "
+      },
+      {
+        "id": "013156b0-1f65-40b9-966b-20ee12c9c797",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General immune system health suggestions",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 9/26]\n(in reply to) User: I've been dealing with some health issues lately, so I want to "
+      },
+      {
+        "id": "3f005a65-904e-4174-a9bf-f6ae5e6e1cf9",
+        "score": 0.4268,
+        "memory_type": "preference",
+        "title": "User health and wellness preference",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 10/26]\n(in reply to) User: I've been dealing with some health issues lately, so I want to"
+      },
+      {
+        "id": "9e4620b6-884e-4a5a-bb42-865ecdeb0d37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User health update: bronchitis",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 11/26]\nUser: I actually recently had a bad case of bronchitis that I initially thought wa"
+      },
+      {
+        "id": "1a192bcf-315e-4c0b-b347-c4f49f8f921e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Immune-boosting foods and spices",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 12/26]\n(in reply to) User: I actually recently had a bad case of bronchitis that I initia"
+      },
+      {
+        "id": "30559faf-63d4-43e1-a93a-18a90c2f9a0a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Immune-boosting foods and nutrients",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 13/26]\n(in reply to) User: I actually recently had a bad case of bronchitis that I initia"
+      },
+      {
+        "id": "7e2bc2a4-a99a-49f6-8208-e7814d021c31",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Immune-boosting foods: Garlic and Mushrooms",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 14/26]\n(in reply to) User: I actually recently had a bad case of bronchitis that I initia"
+      },
+      {
+        "id": "33b46524-e9a9-4b9f-9801-2628ca16a93c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Immune-boosting spices and foods",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 15/26]\n(in reply to) User: I actually recently had a bad case of bronchitis that I initia"
+      },
+      {
+        "id": "8df9d4da-090f-48d5-bc3b-6383d0a38b87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Foods for immune system support",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 16/26]\n(in reply to) User: I actually recently had a bad case of bronchitis that I initia"
+      },
+      {
+        "id": "09d94a10-abfd-4b40-8d27-5ec7371af6bb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for healthy snack ideas",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 17/26]\nUser: Can you give me some ideas for healthy snack options that are easy to prepar"
+      },
+      {
+        "id": "c590b8d0-02b6-4d9d-b91c-2204e28c6e89",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy snack recommendations",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 18/26]\n(in reply to) User: Can you give me some ideas for healthy snack options that are "
+      },
+      {
+        "id": "ed96b21a-12c3-4795-9a01-7d2d3bd615d0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy snack recommendations",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 19/26]\n(in reply to) User: Can you give me some ideas for healthy snack options that are "
+      },
+      {
+        "id": "0aaffbe6-13f2-493b-82f6-62646a9149cf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User lifestyle changes for stress reduction",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 20/26]\nUser: I've been trying to prioritize self-care and make some lifestyle changes to "
+      },
+      {
+        "id": "8d60e5a1-df96-4e18-8625-9d479d9bd9a0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User lifestyle and self-care habits",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 21/26]\n(in reply to) User: I've been trying to prioritize self-care and make some lifesty"
+      },
+      {
+        "id": "ffbe206c-5f61-40e2-97af-8aa55aa15a5a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in stress reduction and self-care",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 22/26]\n(in reply to) User: I've been trying to prioritize self-care and make some lifesty"
+      },
+      {
+        "id": "23b017e5-fc95-457c-b716-a7bafa2701d3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User self-care progress update",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 23/26]\n(in reply to) User: I've been trying to prioritize self-care and make some lifesty"
+      },
+      {
+        "id": "6efb57a9-c330-4a34-b69c-5e67424ff663",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in journaling",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 24/26]\nUser: I'm thinking of starting a journal to track my progress and reflect on my th"
+      },
+      {
+        "id": "e9944460-721a-4297-86a6-83229bef7fe5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of journaling",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 25/26]\n(in reply to) User: I'm thinking of starting a journal to track my progress and re"
+      },
+      {
+        "id": "732ae82a-63bd-4aac-9bef-5329d5658269",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for starting a personal journal",
+        "text": "[date: 2023-05-30T00:08:00+00:00 | context: Session b7ad8c4b419e - happened on 2023-05-30 00:08:00 UTC. | turn 26/26]\n(in reply to) User: I'm thinking of starting a journal to track my progress and re"
+      },
+      {
+        "id": "2265d585-6fe2-4bad-a4e0-1bd1d2fb36d9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Job application evaluation protocol",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 1/9]\nUser: You are my partner in evaluating job applications. I will post to you a block "
+      },
+      {
+        "id": "43c9055e-b849-4144-9d39-09df194fe9ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User hobbies and interests",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 2/9]\nUser: Here is the text: What are your Hobbies?\nIn the last 2 years I have really dev"
+      },
+      {
+        "id": "598939a7-1b27-436b-8678-3d30acf11d08",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User personal interests and hobbies",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 3/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "bbd9cb39-4457-4aec-9212-2803ea9a40c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User personal interests and historical knowledge",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 4/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "879788fd-8235-41fc-810f-95ce1456f2a5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User hobbies and interests",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 5/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "237f59f9-d10b-48fd-891f-fcc2a532c3b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Personal background and interests",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 6/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "1dcfcb16-7ef9-4543-b3c0-123f16e23cec",
+        "score": 0.3723,
+        "memory_type": "preference",
+        "title": "Personal profile and professional preferences",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 7/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "85c01de8-8443-483e-a13c-294c8c82bc23",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User hobbies and interests",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 8/9]\n(in reply to) User: Here is the text: What are your Hobbies?\nIn the last 2 years I h"
+      },
+      {
+        "id": "45380906-fc9c-44af-a697-85b7752ffc44",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Candidate assessment: need for external support",
+        "text": "[date: 2023-05-30T03:01:00+00:00 | context: Session aaffae7089a4 - happened on 2023-05-30 03:01:00 UTC. | turn 9/9]\nUser: Need for external support\n\nAssistant: I would rate the candidate's need for ex"
+      }
+    ]
+  },
+  "context": {
+    "chars": 105028,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 26257)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25441,
+    "prompt_tokens": 24636,
+    "completion_tokens": 137,
+    "reasoning_tokens": 668,
+    "generate_time_ms": 8833.157288958319,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23575,
+        "completion_tokens": 67,
+        "reasoning_tokens": 271,
+        "total_tokens": 23913
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 527,
+        "completion_tokens": 14,
+        "reasoning_tokens": 178,
+        "total_tokens": 719
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 534,
+        "completion_tokens": 56,
+        "reasoning_tokens": 219,
+        "total_tokens": 809
+      }
+    ]
+  },
+  "failure_label": null
+}

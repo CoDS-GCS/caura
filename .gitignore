@@ -68,3 +68,10 @@ reports/
 
 .env
 experiments/**/.env
+
+# LongMemEval run artifacts over 50 MB — kept on the VM only (see experiments/README.md).
+# The store dump and per-memory export are always large; INVALID run's full container
+# log is 564 MB. answer2's caura_logs.txt (~1.7 MB) stays committed.
+experiments/runs/**/memory_dump.sql.gz
+experiments/runs/**/memories.jsonl
+experiments/runs/lme_caura_default_60q_INVALID_retrieval0/caura_logs.txt

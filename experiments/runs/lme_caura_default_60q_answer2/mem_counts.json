@@ -1,0 +1,995 @@
+{
+  "lmeo-778164c6": {
+    "total": 869,
+    "by_type": {
+      "episode": 778,
+      "decision": 11,
+      "fact": 28,
+      "preference": 52
+    },
+    "by_status": {
+      "conflicted": 9,
+      "active": 860
+    },
+    "derived": 0
+  },
+  "lmeo-a40e080f": {
+    "total": 883,
+    "by_type": {
+      "preference": 59,
+      "episode": 814,
+      "decision": 6,
+      "fact": 4
+    },
+    "by_status": {
+      "active": 881,
+      "conflicted": 2
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_2c50253f": {
+    "total": 886,
+    "by_type": {
+      "episode": 283,
+      "task": 36,
+      "preference": 119,
+      "fact": 426,
+      "action": 8,
+      "plan": 7,
+      "decision": 7
+    },
+    "by_status": {
+      "conflicted": 7,
+      "active": 879
+    },
+    "derived": 0
+  },
+  "lmeo-edced276_abs": {
+    "total": 861,
+    "by_type": {
+      "plan": 26,
+      "episode": 260,
+      "decision": 9,
+      "fact": 363,
+      "action": 5,
+      "task": 38,
+      "preference": 160
+    },
+    "by_status": {
+      "active": 853,
+      "conflicted": 8
+    },
+    "derived": 0
+  },
+  "lmeo-07b6f563": {
+    "total": 873,
+    "by_type": {
+      "fact": 410,
+      "episode": 259,
+      "preference": 160,
+      "task": 27,
+      "action": 3,
+      "plan": 14
+    },
+    "by_status": {
+      "active": 858,
+      "conflicted": 15
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_7ddcf75f": {
+    "total": 869,
+    "by_type": {
+      "decision": 4,
+      "episode": 252,
+      "fact": 386,
+      "task": 48,
+      "action": 4,
+      "preference": 163,
+      "plan": 12
+    },
+    "by_status": {
+      "active": 856,
+      "conflicted": 13
+    },
+    "derived": 0
+  },
+  "lmeo-0f05491a": {
+    "total": 856,
+    "by_type": {
+      "episode": 232,
+      "preference": 167,
+      "plan": 3,
+      "action": 1,
+      "task": 39,
+      "fact": 405,
+      "decision": 9
+    },
+    "by_status": {
+      "conflicted": 3,
+      "active": 853
+    },
+    "derived": 0
+  },
+  "lmeo-18bc8abd": {
+    "total": 848,
+    "by_type": {
+      "task": 31,
+      "plan": 17,
+      "preference": 171,
+      "fact": 382,
+      "action": 3,
+      "episode": 244
+    },
+    "by_status": {
+      "active": 845,
+      "conflicted": 3
+    },
+    "derived": 0
+  },
+  "lmeo-ad7109d1": {
+    "total": 878,
+    "by_type": {
+      "action": 8,
+      "task": 80,
+      "plan": 18,
+      "preference": 80,
+      "episode": 77,
+      "decision": 12,
+      "fact": 603
+    },
+    "by_status": {
+      "active": 875,
+      "outdated": 3
+    },
+    "derived": 0
+  },
+  "lmeo-726462e0": {
+    "total": 880,
+    "by_type": {
+      "action": 9,
+      "fact": 533,
+      "preference": 112,
+      "episode": 116,
+      "task": 73,
+      "plan": 32,
+      "decision": 5
+    },
+    "by_status": {
+      "active": 865,
+      "outdated": 2,
+      "conflicted": 13
+    },
+    "derived": 0
+  },
+  "lmeo-3d86fd0a": {
+    "total": 860,
+    "by_type": {
+      "preference": 119,
+      "decision": 12,
+      "fact": 529,
+      "task": 68,
+      "plan": 20,
+      "action": 15,
+      "episode": 97
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 858,
+      "outdated": 1
+    },
+    "derived": 0
+  },
+  "lmeo-e48988bc": {
+    "total": 918,
+    "by_type": {
+      "episode": 854,
+      "fact": 10,
+      "preference": 41,
+      "decision": 13
+    },
+    "by_status": {
+      "active": 895,
+      "conflicted": 23
+    },
+    "derived": 0
+  },
+  "lmeo-75499fd8": {
+    "total": 879,
+    "by_type": {
+      "decision": 4,
+      "task": 70,
+      "preference": 86,
+      "action": 25,
+      "fact": 591,
+      "plan": 15,
+      "episode": 88
+    },
+    "by_status": {
+      "active": 867,
+      "outdated": 2,
+      "conflicted": 10
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_85da3956": {
+    "total": 862,
+    "by_type": {
+      "preference": 184,
+      "task": 42,
+      "fact": 351,
+      "episode": 266,
+      "action": 6,
+      "plan": 13
+    },
+    "by_status": {
+      "active": 854,
+      "conflicted": 8
+    },
+    "derived": 0
+  },
+  "lmeo-982b5123": {
+    "total": 911,
+    "by_type": {
+      "plan": 3,
+      "action": 3,
+      "decision": 3,
+      "episode": 291,
+      "preference": 156,
+      "fact": 397,
+      "task": 58
+    },
+    "by_status": {
+      "active": 910,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-4dfccbf8": {
+    "total": 866,
+    "by_type": {
+      "task": 28,
+      "action": 2,
+      "decision": 4,
+      "episode": 262,
+      "plan": 3,
+      "preference": 140,
+      "fact": 427
+    },
+    "by_status": {
+      "active": 865,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-1c0ddc50": {
+    "total": 896,
+    "by_type": {
+      "plan": 25,
+      "episode": 283,
+      "fact": 355,
+      "task": 46,
+      "action": 2,
+      "preference": 183,
+      "decision": 2
+    },
+    "by_status": {
+      "conflicted": 5,
+      "active": 891
+    },
+    "derived": 0
+  },
+  "lmeo-5a4f22c0": {
+    "total": 912,
+    "by_type": {
+      "decision": 7,
+      "task": 63,
+      "plan": 13,
+      "preference": 211,
+      "action": 5,
+      "episode": 253,
+      "fact": 360
+    },
+    "by_status": {
+      "active": 889,
+      "conflicted": 23
+    },
+    "derived": 0
+  },
+  "lmeo-4c36ccef": {
+    "total": 884,
+    "by_type": {
+      "task": 21,
+      "preference": 129,
+      "action": 4,
+      "episode": 544,
+      "fact": 168,
+      "plan": 14,
+      "decision": 4
+    },
+    "by_status": {
+      "active": 871,
+      "conflicted": 13
+    },
+    "derived": 0
+  },
+  "lmeo-bc8a6e93_abs": {
+    "total": 893,
+    "by_type": {
+      "task": 73,
+      "plan": 42,
+      "episode": 106,
+      "preference": 81,
+      "decision": 7,
+      "fact": 579,
+      "action": 5
+    },
+    "by_status": {
+      "active": 891,
+      "outdated": 2
+    },
+    "derived": 0
+  },
+  "lmeo-a3045048": {
+    "total": 898,
+    "by_type": {
+      "episode": 274,
+      "action": 4,
+      "fact": 429,
+      "task": 45,
+      "decision": 2,
+      "plan": 8,
+      "preference": 136
+    },
+    "by_status": {
+      "active": 894,
+      "conflicted": 4
+    },
+    "derived": 0
+  },
+  "lmeo-36580ce8": {
+    "total": 862,
+    "by_type": {
+      "plan": 32,
+      "fact": 560,
+      "action": 12,
+      "task": 77,
+      "episode": 61,
+      "preference": 111,
+      "decision": 9
+    },
+    "by_status": {
+      "outdated": 2,
+      "active": 859,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-81507db6": {
+    "total": 920,
+    "by_type": {
+      "decision": 12,
+      "preference": 113,
+      "episode": 219,
+      "plan": 18,
+      "task": 40,
+      "fact": 516,
+      "action": 2
+    },
+    "by_status": {
+      "active": 911,
+      "conflicted": 9
+    },
+    "derived": 0
+  },
+  "lmeo-0ea62687": {
+    "total": 881,
+    "by_type": {
+      "task": 54,
+      "fact": 380,
+      "episode": 275,
+      "preference": 154,
+      "decision": 10,
+      "plan": 7,
+      "action": 1
+    },
+    "by_status": {
+      "conflicted": 16,
+      "active": 865
+    },
+    "derived": 0
+  },
+  "lmeo-15745da0_abs": {
+    "total": 876,
+    "by_type": {
+      "episode": 75,
+      "action": 18,
+      "decision": 10,
+      "preference": 125,
+      "task": 54,
+      "plan": 17,
+      "fact": 577
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 875
+    },
+    "derived": 0
+  },
+  "lmeo-0a34ad58": {
+    "total": 890,
+    "by_type": {
+      "preference": 167,
+      "episode": 250,
+      "action": 1,
+      "fact": 423,
+      "plan": 8,
+      "decision": 2,
+      "task": 39
+    },
+    "by_status": {
+      "conflicted": 7,
+      "active": 883
+    },
+    "derived": 0
+  },
+  "lmeo-195a1a1b": {
+    "total": 846,
+    "by_type": {
+      "preference": 106,
+      "action": 2,
+      "task": 35,
+      "plan": 17,
+      "decision": 3,
+      "fact": 436,
+      "episode": 247
+    },
+    "by_status": {
+      "active": 839,
+      "conflicted": 6,
+      "outdated": 1
+    },
+    "derived": 0
+  },
+  "lmeo-6cb6f249": {
+    "total": 846,
+    "by_type": {
+      "preference": 121,
+      "fact": 509,
+      "task": 44,
+      "action": 4,
+      "decision": 5,
+      "episode": 154,
+      "plan": 9
+    },
+    "by_status": {
+      "active": 838,
+      "outdated": 3,
+      "conflicted": 5
+    },
+    "derived": 0
+  },
+  "lmeo-77eafa52": {
+    "total": 889,
+    "by_type": {
+      "preference": 131,
+      "fact": 386,
+      "task": 63,
+      "episode": 277,
+      "action": 6,
+      "decision": 5,
+      "plan": 21
+    },
+    "by_status": {
+      "active": 888,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-b0479f84": {
+    "total": 905,
+    "by_type": {
+      "episode": 286,
+      "fact": 427,
+      "plan": 9,
+      "task": 41,
+      "decision": 1,
+      "preference": 138,
+      "action": 3
+    },
+    "by_status": {
+      "active": 888,
+      "conflicted": 17
+    },
+    "derived": 0
+  },
+  "lmeo-2133c1b5_abs": {
+    "total": 856,
+    "by_type": {
+      "preference": 95,
+      "fact": 282,
+      "action": 6,
+      "episode": 419,
+      "task": 41,
+      "decision": 3,
+      "plan": 10
+    },
+    "by_status": {
+      "conflicted": 2,
+      "active": 854
+    },
+    "derived": 0
+  },
+  "lmeo-06db6396": {
+    "total": 894,
+    "by_type": {
+      "plan": 7,
+      "task": 28,
+      "episode": 378,
+      "decision": 2,
+      "preference": 137,
+      "fact": 341,
+      "action": 1
+    },
+    "by_status": {
+      "active": 894
+    },
+    "derived": 0
+  },
+  "lmeo-58470ed2": {
+    "total": 909,
+    "by_type": {
+      "preference": 32,
+      "episode": 834,
+      "decision": 16,
+      "fact": 27
+    },
+    "by_status": {
+      "active": 905,
+      "conflicted": 4
+    },
+    "derived": 0
+  },
+  "lmeo-50635ada": {
+    "total": 915,
+    "by_type": {
+      "episode": 338,
+      "decision": 3,
+      "action": 2,
+      "task": 31,
+      "fact": 344,
+      "plan": 6,
+      "preference": 191
+    },
+    "by_status": {
+      "active": 900,
+      "conflicted": 15
+    },
+    "derived": 0
+  },
+  "lmeo-184da446": {
+    "total": 872,
+    "by_type": {
+      "episode": 291,
+      "decision": 2,
+      "action": 2,
+      "preference": 174,
+      "fact": 338,
+      "task": 58,
+      "plan": 7
+    },
+    "by_status": {
+      "active": 860,
+      "conflicted": 12
+    },
+    "derived": 0
+  },
+  "lmeo-dfde3500": {
+    "total": 935,
+    "by_type": {
+      "preference": 152,
+      "task": 43,
+      "decision": 8,
+      "fact": 404,
+      "action": 4,
+      "plan": 23,
+      "episode": 301
+    },
+    "by_status": {
+      "conflicted": 16,
+      "active": 919
+    },
+    "derived": 0
+  },
+  "lmeo-94f70d80": {
+    "total": 875,
+    "by_type": {
+      "plan": 49,
+      "episode": 114,
+      "task": 60,
+      "fact": 541,
+      "decision": 6,
+      "preference": 85,
+      "action": 20
+    },
+    "by_status": {
+      "outdated": 5,
+      "active": 869,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-71017277": {
+    "total": 893,
+    "by_type": {
+      "task": 45,
+      "action": 5,
+      "episode": 276,
+      "preference": 174,
+      "fact": 382,
+      "plan": 8,
+      "decision": 3
+    },
+    "by_status": {
+      "active": 893
+    },
+    "derived": 0
+  },
+  "lmeo-ceb54acb": {
+    "total": 875,
+    "by_type": {
+      "fact": 218,
+      "episode": 540,
+      "plan": 10,
+      "decision": 6,
+      "preference": 70,
+      "task": 31
+    },
+    "by_status": {
+      "active": 860,
+      "conflicted": 15
+    },
+    "derived": 0
+  },
+  "lmeo-2ce6a0f2": {
+    "total": 901,
+    "by_type": {
+      "preference": 113,
+      "plan": 23,
+      "action": 4,
+      "fact": 499,
+      "episode": 193,
+      "decision": 5,
+      "task": 64
+    },
+    "by_status": {
+      "active": 897,
+      "conflicted": 4
+    },
+    "derived": 0
+  },
+  "lmeo-618f13b2": {
+    "total": 897,
+    "by_type": {
+      "episode": 233,
+      "task": 48,
+      "fact": 419,
+      "plan": 7,
+      "action": 3,
+      "preference": 187
+    },
+    "by_status": {
+      "conflicted": 8,
+      "active": 889
+    },
+    "derived": 0
+  },
+  "lmeo-a1eacc2a": {
+    "total": 904,
+    "by_type": {
+      "fact": 390,
+      "preference": 171,
+      "plan": 10,
+      "episode": 288,
+      "decision": 8,
+      "task": 37
+    },
+    "by_status": {
+      "active": 902,
+      "conflicted": 2
+    },
+    "derived": 0
+  },
+  "lmeo-09d032c9": {
+    "total": 860,
+    "by_type": {
+      "action": 1,
+      "fact": 434,
+      "preference": 128,
+      "decision": 6,
+      "plan": 14,
+      "task": 41,
+      "episode": 236
+    },
+    "by_status": {
+      "active": 860
+    },
+    "derived": 0
+  },
+  "lmeo-caf03d32": {
+    "total": 860,
+    "by_type": {
+      "plan": 9,
+      "episode": 221,
+      "preference": 151,
+      "fact": 438,
+      "task": 40,
+      "decision": 1
+    },
+    "by_status": {
+      "active": 860
+    },
+    "derived": 0
+  },
+  "lmeo-7405e8b1": {
+    "total": 871,
+    "by_type": {
+      "preference": 173,
+      "episode": 292,
+      "action": 1,
+      "fact": 350,
+      "plan": 13,
+      "task": 42
+    },
+    "by_status": {
+      "conflicted": 31,
+      "active": 840
+    },
+    "derived": 0
+  },
+  "lmeo-0e5e2d1a": {
+    "total": 870,
+    "by_type": {
+      "task": 19,
+      "fact": 188,
+      "decision": 3,
+      "episode": 592,
+      "action": 2,
+      "preference": 57,
+      "plan": 9
+    },
+    "by_status": {
+      "active": 865,
+      "conflicted": 5
+    },
+    "derived": 0
+  },
+  "lmeo-c960da58": {
+    "total": 898,
+    "by_type": {
+      "preference": 102,
+      "task": 78,
+      "decision": 9,
+      "episode": 88,
+      "fact": 596,
+      "action": 9,
+      "plan": 16
+    },
+    "by_status": {
+      "outdated": 3,
+      "active": 894,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_d12ceb0e": {
+    "total": 851,
+    "by_type": {
+      "fact": 493,
+      "decision": 10,
+      "task": 46,
+      "action": 6,
+      "episode": 150,
+      "preference": 111,
+      "plan": 35
+    },
+    "by_status": {
+      "active": 846,
+      "conflicted": 5
+    },
+    "derived": 0
+  },
+  "lmeo-e982271f": {
+    "total": 923,
+    "by_type": {
+      "preference": 36,
+      "decision": 12,
+      "fact": 12,
+      "episode": 863
+    },
+    "by_status": {
+      "active": 915,
+      "conflicted": 8
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_2d58bcd6": {
+    "total": 887,
+    "by_type": {
+      "decision": 4,
+      "episode": 304,
+      "action": 7,
+      "fact": 333,
+      "preference": 195,
+      "plan": 8,
+      "task": 36
+    },
+    "by_status": {
+      "active": 866,
+      "conflicted": 21
+    },
+    "derived": 0
+  },
+  "lmeo-0a995998": {
+    "total": 885,
+    "by_type": {
+      "plan": 33,
+      "preference": 145,
+      "action": 2,
+      "task": 59,
+      "episode": 155,
+      "fact": 491
+    },
+    "by_status": {
+      "active": 884,
+      "outdated": 1
+    },
+    "derived": 0
+  },
+  "lmeo-32260d93": {
+    "total": 866,
+    "by_type": {
+      "plan": 3,
+      "episode": 253,
+      "preference": 135,
+      "task": 46,
+      "fact": 420,
+      "decision": 3,
+      "action": 6
+    },
+    "by_status": {
+      "active": 865,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-10d9b85a": {
+    "total": 885,
+    "by_type": {
+      "decision": 1,
+      "task": 47,
+      "preference": 149,
+      "episode": 231,
+      "fact": 452,
+      "plan": 5
+    },
+    "by_status": {
+      "active": 876,
+      "conflicted": 9
+    },
+    "derived": 0
+  },
+  "lmeo-35a27287": {
+    "total": 883,
+    "by_type": {
+      "decision": 5,
+      "episode": 275,
+      "plan": 8,
+      "fact": 397,
+      "action": 3,
+      "preference": 145,
+      "task": 50
+    },
+    "by_status": {
+      "active": 880,
+      "conflicted": 3
+    },
+    "derived": 0
+  },
+  "lmeo-21436231": {
+    "total": 861,
+    "by_type": {
+      "plan": 46,
+      "task": 82,
+      "action": 12,
+      "fact": 537,
+      "preference": 112,
+      "decision": 12,
+      "episode": 60
+    },
+    "by_status": {
+      "active": 858,
+      "outdated": 2,
+      "conflicted": 1
+    },
+    "derived": 0
+  },
+  "lmeo-1da05512": {
+    "total": 903,
+    "by_type": {
+      "decision": 2,
+      "task": 41,
+      "episode": 255,
+      "fact": 441,
+      "plan": 12,
+      "preference": 148,
+      "action": 4
+    },
+    "by_status": {
+      "active": 898,
+      "conflicted": 5
+    },
+    "derived": 0
+  },
+  "lmeo-71a3fd6b": {
+    "total": 851,
+    "by_type": {
+      "decision": 15,
+      "episode": 789,
+      "fact": 9,
+      "preference": 38
+    },
+    "by_status": {
+      "active": 840,
+      "conflicted": 11
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_59149c77": {
+    "total": 897,
+    "by_type": {
+      "episode": 309,
+      "preference": 129,
+      "task": 41,
+      "plan": 7,
+      "action": 8,
+      "fact": 401,
+      "decision": 2
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 896
+    },
+    "derived": 0
+  },
+  "lmeo-3249768e": {
+    "total": 894,
+    "by_type": {
+      "episode": 829,
+      "decision": 9,
+      "fact": 4,
+      "preference": 52
+    },
+    "by_status": {
+      "conflicted": 6,
+      "active": 888
+    },
+    "derived": 0
+  },
+  "lmeo-gpt4_1d4ab0c9": {
+    "total": 853,
+    "by_type": {
+      "plan": 6,
+      "task": 42,
+      "action": 3,
+      "decision": 5,
+      "preference": 116,
+      "episode": 239,
+      "fact": 442
+    },
+    "by_status": {
+      "active": 853
+    },
+    "derived": 0
+  }
+}

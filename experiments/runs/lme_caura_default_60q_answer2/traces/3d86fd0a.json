@@ -1,0 +1,1326 @@
+{
+  "question_id": "3d86fd0a",
+  "question_type": "single-session-user",
+  "question": "Where did I meet Sophia?",
+  "gold_answer": "a coffee shop in the city",
+  "prediction": "You met Sophia at a coffee shop in the city.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 860,
+    "by_type": {
+      "preference": 119,
+      "decision": 12,
+      "fact": 529,
+      "task": 68,
+      "plan": 20,
+      "action": 15,
+      "episode": 97
+    },
+    "by_status": {
+      "conflicted": 1,
+      "active": 858,
+      "outdated": 1
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2530980,
+    "output_tokens": 122120,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Where did I meet Sophia?"
+    ],
+    "retrieve_time_ms": 8079.950190964155,
+    "candidates": 151,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "c4b1a30b-7bea-40db-981f-ffa9d31c30d7",
+        "score": 0.3296,
+        "memory_type": "preference",
+        "title": "User travel preferences for Chicago",
+        "text": "[date: 2023-05-21T09:44:00+00:00 | context: Session 1da21918bdd2 - happened on 2023-05-21 09:44:00 UTC. | turn 14/22]\nUser: That sounds great, thanks for the recommendations. I'm actually thinking of "
+      },
+      {
+        "id": "db520ce1-186e-49d2-8ded-f03d9e112220",
+        "score": null,
+        "memory_type": "task",
+        "title": "Organize contacts and interests",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 1/12]\nUser: I need help organizing my contacts. Can you create a list of people I've met "
+      },
+      {
+        "id": "3573cdee-5098-4fca-b346-0938f2c228bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contact organization template",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 2/12]\n(in reply to) User: I need help organizing my contacts. Can you create a list of pe"
+      },
+      {
+        "id": "d08730b5-db48-4eff-8ebd-54ced23206f2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contact organization template",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 3/12]\n(in reply to) User: I need help organizing my contacts. Can you create a list of pe"
+      },
+      {
+        "id": "3d44842a-5061-42c6-b1c1-c21ec08ebed0",
+        "score": 0.5321,
+        "memory_type": "fact",
+        "title": "Meeting context for Sophia",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 4/12]\nUser: I'll start filling out the template. Under \"How We Met\", I'll include the loc"
+      },
+      {
+        "id": "6de94095-9a48-484f-94f6-b7bbac7fa128",
+        "score": null,
+        "memory_type": "task",
+        "title": "Follow-up with Sophia regarding indie music",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 5/12]\nUser: She's into indie music, and we talked about some new bands to check out. I re"
+      },
+      {
+        "id": "65764bf5-b0cf-4c13-b1c9-61b54151ee1b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Follow-up tasks for new contacts: Rachel and David",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 6/12]\nUser: What about the other people I met recently? Like the yoga instructor Rachel a"
+      },
+      {
+        "id": "678a4191-80d1-49a7-9c64-55b4ce33ca1f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recent social encounters",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 7/12]\nUser: What about the mechanic Juan, Lucy from the animal shelter, Maria the chef, a"
+      },
+      {
+        "id": "a63a99b7-04f5-4541-899f-c1b7aff3a0a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Contact list and interests for new acquaintances",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 8/12]\n(in reply to) User: What about the mechanic Juan, Lucy from the animal shelter, Mar"
+      },
+      {
+        "id": "0ce97866-ae3a-403a-9fc4-e3d308d9b2bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested follow-up strategies for recent acquaintances",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 9/12]\n(in reply to) User: What about the mechanic Juan, Lucy from the animal shelter, Mar"
+      },
+      {
+        "id": "6a4b9f92-e099-40e1-9da2-1c84a0680a57",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Conversation with Alex about work and podcasts",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 10/12]\nUser: Alex and I talked about our jobs and commutes, and he recommended some podca"
+      },
+      {
+        "id": "ee83e641-8813-4818-82c1-e18e2e347e2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Networking contact list and follow-up actions",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 11/12]\n(in reply to) User: Alex and I talked about our jobs and commutes, and he recommen"
+      },
+      {
+        "id": "cbc05508-c3f2-4f08-b2ea-65c661393d9a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Follow up with Alex regarding podcast recommendations",
+        "text": "[date: 2023-05-21T16:24:00+00:00 | context: Session 7f70ab21f8c9 - happened on 2023-05-21 16:24:00 UTC. | turn 12/12]\n(in reply to) User: Alex and I talked about our jobs and commutes, and he recommen"
+      },
+      {
+        "id": "d9e877ee-6169-4a8d-8314-e2ede161ae87",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry regarding graduate research funding at University of Michigan",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 1/19]\nUser: What types of funding are available for graduate students at the University o"
+      },
+      {
+        "id": "6f14a779-0922-4b81-b9cb-9dd9814bfd46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Graduate research funding sources at University of Michigan",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 2/19]\n(in reply to) User: What types of funding are available for graduate students at th"
+      },
+      {
+        "id": "e5c51753-4064-49b7-8400-82f313316de2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Funding sources for University of Michigan graduate research",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 3/19]\n(in reply to) User: What types of funding are available for graduate students at th"
+      },
+      {
+        "id": "3ab19b9e-a47e-4f80-8d5e-f5f7126d2bc9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry about NSF Graduate Research Fellowship",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 4/19]\nUser: That's great to hear! I'm particularly interested in the grants available. Ca"
+      },
+      {
+        "id": "1d9a6295-4a66-47b4-b921-23c45eec95fc",
+        "score": 0.3348,
+        "memory_type": "fact",
+        "title": "NSF Graduate Research Fellowship Program (GRFP) Overview",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 5/19]\n(in reply to) User: That's great to hear! I'm particularly interested in the grants"
+      },
+      {
+        "id": "5272c75b-b910-4cef-8eb9-3fd60d1aa894",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSF Graduate Research Fellowship Program Overview",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 6/19]\n(in reply to) User: That's great to hear! I'm particularly interested in the grants"
+      },
+      {
+        "id": "4254170b-519f-4e8a-85a2-11e346b07bf9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSF GRFP application timeline",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 7/19]\nUser: Wow, the National Science Foundation Graduate Research Fellowship sounds amaz"
+      },
+      {
+        "id": "10f1f390-60d0-434d-9709-26fcd6617103",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research NSF GRFP application resources",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 8/19]\nUser: I think I'll definitely look into the National Science Foundation Graduate Re"
+      },
+      {
+        "id": "0f096091-7c3d-4d45-a0ef-1757ee4984a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSF GRFP application resources at University of Michigan",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 9/19]\n(in reply to) User: I think I'll definitely look into the National Science Foundati"
+      },
+      {
+        "id": "2e740c69-51d7-4ca8-853c-aa62fba4ec03",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for NSF GRFP application",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 10/19]\n(in reply to) User: I think I'll definitely look into the National Science Foundat"
+      },
+      {
+        "id": "9c14a592-fd86-4444-ac13-bf7d14edd71a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research proposal application preparation",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 11/19]\nUser: I'll definitely check out those resources and start early on my application."
+      },
+      {
+        "id": "1242bf4c-3e7e-4cc6-a289-04ff376955e7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Research proposal tips",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 12/19]\n(in reply to) User: I'll definitely check out those resources and start early on m"
+      },
+      {
+        "id": "22b8cdf9-13f1-4eaf-8778-3b51e8ce46ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NSF Research Proposal Guidelines",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 13/19]\n(in reply to) User: I'll definitely check out those resources and start early on m"
+      },
+      {
+        "id": "c93f1ec4-05fe-465f-9b7a-5bb1a4905cfc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for a competitive research proposal",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 14/19]\n(in reply to) User: I'll definitely check out those resources and start early on m"
+      },
+      {
+        "id": "21117060-9c1e-419e-a3cf-f5a469ec0e47",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry on graduate school work-life balance",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 15/19]\nUser: I feel much more confident about applying for the National Science Foundatio"
+      },
+      {
+        "id": "fcde603b-3abb-441a-af60-45a34ea0bcfe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on balancing graduate school commitments",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 16/19]\n(in reply to) User: I feel much more confident about applying for the National Sci"
+      },
+      {
+        "id": "806a76a4-024a-45f8-abba-218da9d49012",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for balancing graduate school commitments",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 17/19]\n(in reply to) User: I feel much more confident about applying for the National Sci"
+      },
+      {
+        "id": "ec4048a7-0205-4a82-b912-a401366152bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on balancing graduate school commitments",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 18/19]\n(in reply to) User: I feel much more confident about applying for the National Sci"
+      },
+      {
+        "id": "45ec6ab2-f373-415f-bdbb-1a05e4493268",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User research proposal and NSF fellowship application",
+        "text": "[date: 2023-05-22T17:35:00+00:00 | context: Session 6318c1bbd8f7 - happened on 2023-05-22 17:35:00 UTC. | turn 19/19]\nUser: I'm going to start working on my research proposal and hopefully apply for t"
+      },
+      {
+        "id": "8d5f6563-391d-4c93-a897-fcae90558cb8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendation: The Glass Castle",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 11/27]\n(in reply to) User: I've been on a roll with reading lately, finishing \"The Seven "
+      },
+      {
+        "id": "b5cb0749-b5aa-4120-8637-1f5743500f58",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Book recommendations for complex family dynamics",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 12/27]\n(in reply to) User: I've been on a roll with reading lately, finishing \"The Seven "
+      },
+      {
+        "id": "5b994fb9-68a1-4486-a99e-97256dd107d4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry about 'The Immortalists'",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 13/27]\nUser: I'm really interested in \"The Immortalists\". Can you tell me more about it?"
+      },
+      {
+        "id": "eb23cfc0-edd5-4eae-8f29-e0b4af6e6290",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summary of 'The Immortalists' by Chloe Benjamin",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 14/27]\n(in reply to) User: I'm really interested in \"The Immortalists\". Can you tell me m"
+      },
+      {
+        "id": "945e7e4d-fa05-40ea-b36e-8fe1c2095a6d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summary of The Immortalists by Chloe Benjamin",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 15/27]\n(in reply to) User: I'm really interested in \"The Immortalists\". Can you tell me m"
+      },
+      {
+        "id": "97770e93-6ad9-49c8-bb3b-3fd172635fb4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendation for 'The Immortalists'",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 16/27]\n(in reply to) User: I'm really interested in \"The Immortalists\". Can you tell me m"
+      },
+      {
+        "id": "39605f35-1154-4628-b7b8-a763bc5cfc55",
+        "score": null,
+        "memory_type": "task",
+        "title": "User interest in starting a reading journal",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 17/27]\nUser: I'm actually thinking of starting a reading journal to track my progress and"
+      },
+      {
+        "id": "62353be1-316a-4c1e-9096-9857cdabae65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reading journal recommendations",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 18/27]\n(in reply to) User: I'm actually thinking of starting a reading journal to track m"
+      },
+      {
+        "id": "e1f771d2-6980-48c5-9f3d-7afaa10c01e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for maintaining a reading journal",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 19/27]\n(in reply to) User: I'm actually thinking of starting a reading journal to track m"
+      },
+      {
+        "id": "84ef60a5-6721-465b-bbf6-b325e7aaea57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for maintaining a reading journal",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 20/27]\n(in reply to) User: I'm actually thinking of starting a reading journal to track m"
+      },
+      {
+        "id": "faae9d1c-9cb0-4098-b511-0fafb550ed50",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for maintaining a reading journal",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 21/27]\n(in reply to) User: I'm actually thinking of starting a reading journal to track m"
+      },
+      {
+        "id": "f1159679-d7c8-41ac-9add-5f04f1a40d63",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in starting a reading journal",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 22/27]\n(in reply to) User: I'm actually thinking of starting a reading journal to track m"
+      },
+      {
+        "id": "b72c97a9-598c-4b23-acab-6fef1470d466",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Finished reading The Seven Husbands of Evelyn Hugo",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 23/27]\nUser: I think I'll start with a generic notebook and customize it to fit my needs."
+      },
+      {
+        "id": "6f111da0-30b3-4d62-b2d0-bde534863896",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about reading habits and notebook usage",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 24/27]\n(in reply to) User: I think I'll start with a generic notebook and customize it to"
+      },
+      {
+        "id": "7f4343f8-469f-41a3-894b-e0a0b3cd98a5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User literary preferences",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 25/27]\nUser: I loved Evelyn's story! I think my favorite part of the book was the way the"
+      },
+      {
+        "id": "a87aab30-1c37-426b-b4c3-6c6d2a87cd7f",
+        "score": 0.3309,
+        "memory_type": "preference",
+        "title": "Preference for physical journaling over digital notes",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 26/27]\n(in reply to) User: I loved Evelyn's story! I think my favorite part of the book w"
+      },
+      {
+        "id": "7196884b-6411-4734-b77a-8d472429bb4c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in physical journaling",
+        "text": "[date: 2023-05-22T18:35:00+00:00 | context: Session 0aa7734d52fd - happened on 2023-05-22 18:35:00 UTC. | turn 27/27]\n(in reply to) User: I loved Evelyn's story! I think my favorite part of the book w"
+      },
+      {
+        "id": "55354817-4130-4156-a1bc-e56c09f39f4d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research running shoe recommendations",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 1/24]\nUser: I'm looking to buy a new pair of running shoes. I've been using my old ones f"
+      },
+      {
+        "id": "faf99f01-3b27-42d5-9889-3f5365b85b0d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Running shoe recommendation conversation",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking to buy a new pair of running shoes. I've been using"
+      },
+      {
+        "id": "270352cb-d34c-4a9d-a194-7cdd5c6d2106",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Running shoe recommendations",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking to buy a new pair of running shoes. I've been using"
+      },
+      {
+        "id": "d2be3ad7-55a3-48b9-8932-ce7296aa04ce",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User running preferences and shoe requirements",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 4/24]\nUser: I typically run on roads, about 3 times a week, with an average distance of 5"
+      },
+      {
+        "id": "a7cbc58a-037e-4a07-a54d-d8782990b1d3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User running shoe preferences",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 5/24]\n(in reply to) User: I typically run on roads, about 3 times a week, with an average"
+      },
+      {
+        "id": "1cb216bb-779e-4b0a-a29f-e338bfe34070",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Running shoe recommendations for arch support",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 6/24]\n(in reply to) User: I typically run on roads, about 3 times a week, with an average"
+      },
+      {
+        "id": "88c408d6-c1ca-4f02-b637-12654585dcab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Saucony Guide 14 shoe specifications",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 7/24]\n(in reply to) User: I typically run on roads, about 3 times a week, with an average"
+      },
+      {
+        "id": "eb8ca0aa-39e9-416a-b42f-a5bb5b691727",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User running shoe preferences",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 8/24]\n(in reply to) User: I typically run on roads, about 3 times a week, with an average"
+      },
+      {
+        "id": "9d7f6554-5990-4f1d-a960-e6e58f5da2c4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Kayano 28 and Ghost 14",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 9/24]\nUser: What's the main difference between the Kayano 28 and the Ghost 14 in terms of"
+      },
+      {
+        "id": "45a62bed-a1d7-4f5f-a4ed-141933ed15ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of ASICS Kayano 28 and Brooks Ghost 14",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 10/24]\n(in reply to) User: What's the main difference between the Kayano 28 and the Ghost"
+      },
+      {
+        "id": "695751d3-cc35-40f8-ae64-5295faeb6756",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Asics Kayano 28 and Brooks Ghost 14",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 11/24]\n(in reply to) User: What's the main difference between the Kayano 28 and the Ghost"
+      },
+      {
+        "id": "47888810-e9c5-4060-b098-bbc8ee90da88",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of Asics Kayano 28 and Brooks Ghost 14",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 12/24]\n(in reply to) User: What's the main difference between the Kayano 28 and the Ghost"
+      },
+      {
+        "id": "b04d394a-2a4c-4391-8cdb-3d58fa5cf12e",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Evaluating running shoe options",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 13/24]\nUser: I think I'll try on both the Kayano 28 and the Ghost 14 to see how they feel"
+      },
+      {
+        "id": "5a930938-de1e-4378-b90c-90110fa8e400",
+        "score": null,
+        "memory_type": "fact",
+        "title": "New Balance Fresh Foam 1080v12 characteristics",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 14/24]\n(in reply to) User: I think I'll try on both the Kayano 28 and the Ghost 14 to see"
+      },
+      {
+        "id": "e61ce6f5-af4f-4007-aa42-1cf6ed7c37a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of running shoe models: Kayano 28, Ghost 14, and 1080v12",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 15/24]\n(in reply to) User: I think I'll try on both the Kayano 28 and the Ghost 14 to see"
+      },
+      {
+        "id": "443ddf1e-ebab-40b6-b870-8f6bdbaf45d8",
+        "score": null,
+        "memory_type": "task",
+        "title": "Compare shoe upper materials and breathability",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 16/24]\nUser: I'll try on all three shoes and see how they feel. Can you tell me a bit mor"
+      },
+      {
+        "id": "ba3d6c29-fb36-42ca-b5a9-1e1bfcdd21c5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of running shoe upper materials and breathability",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 17/24]\n(in reply to) User: I'll try on all three shoes and see how they feel. Can you tel"
+      },
+      {
+        "id": "eba4b3dc-2384-4e7c-8711-33973c70feb0",
+        "score": 0.3335,
+        "memory_type": "fact",
+        "title": "Comparison of Brooks Ghost 14 and New Balance Fresh Foam 1080v12 upper materials",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 18/24]\n(in reply to) User: I'll try on all three shoes and see how they feel. Can you tel"
+      },
+      {
+        "id": "39ae0710-18f8-480b-97c1-68d786307eb5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of running shoe upper materials",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 19/24]\n(in reply to) User: I'll try on all three shoes and see how they feel. Can you tel"
+      },
+      {
+        "id": "3149a338-6670-4f69-bdc6-0091bc1600c3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research insulated water bottles",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 20/24]\nUser: I'm also considering getting a new water bottle for my workouts. Do you have"
+      },
+      {
+        "id": "086a9526-e7d1-4442-aad2-c264d03b86a6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in insulated water bottles",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 21/24]\n(in reply to) User: I'm also considering getting a new water bottle for my workout"
+      },
+      {
+        "id": "52958479-5d33-4236-af5a-06fddaf4f679",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Insulated water bottle recommendations",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 22/24]\n(in reply to) User: I'm also considering getting a new water bottle for my workout"
+      },
+      {
+        "id": "79820f81-4e23-4ff8-91a1-5e02b74060bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Insulated water bottle recommendations",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 23/24]\n(in reply to) User: I'm also considering getting a new water bottle for my workout"
+      },
+      {
+        "id": "9eb1e902-2f5c-4097-9268-691667f4ed3b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for selecting an insulated water bottle",
+        "text": "[date: 2023-05-23T19:55:00+00:00 | context: Session 49255b575297 - happened on 2023-05-23 19:55:00 UTC. | turn 24/24]\n(in reply to) User: I'm also considering getting a new water bottle for my workout"
+      },
+      {
+        "id": "4cbd631f-cce0-4304-8c1f-4906a6e30a9a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Hiking trail recommendations for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 1/29]\nUser: I'm planning a trip to Lake Tahoe and I'm looking for some hiking trail recom"
+      },
+      {
+        "id": "39a227d9-fa53-466f-8098-ca5fa4e59f26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hiking trail recommendation request for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 2/29]\n(in reply to) User: I'm planning a trip to Lake Tahoe and I'm looking for some hiki"
+      },
+      {
+        "id": "a2a3786b-eb33-474f-b73a-db511ed6771b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lake Tahoe hiking trail recommendations",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 3/29]\n(in reply to) User: I'm planning a trip to Lake Tahoe and I'm looking for some hiki"
+      },
+      {
+        "id": "bac06e0e-38f2-4598-a274-07945814900d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking trail recommendations for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 4/29]\n(in reply to) User: I'm planning a trip to Lake Tahoe and I'm looking for some hiki"
+      },
+      {
+        "id": "e70f7492-70fa-42ad-93e1-e2ae9bee2b2d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking safety and preparation tips for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 5/29]\n(in reply to) User: I'm planning a trip to Lake Tahoe and I'm looking for some hiki"
+      },
+      {
+        "id": "ee7247a0-26d7-4e1c-912e-f86f3f67a642",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Inquiry about Eagle Falls Trail",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 6/29]\nUser: That's a great list! I'm excited to explore these trails. Can you tell me mor"
+      },
+      {
+        "id": "c4547be0-7d2f-4531-b8b9-b9f94a2b32db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eagle Falls Trail details",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 7/29]\n(in reply to) User: That's a great list! I'm excited to explore these trails. Can y"
+      },
+      {
+        "id": "6e56ce16-95d9-4476-9e09-2bd376097696",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eagle Falls Trail terrain and difficulty details",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 8/29]\n(in reply to) User: That's a great list! I'm excited to explore these trails. Can y"
+      },
+      {
+        "id": "9b6fe1a8-81fc-455d-9d1f-7345c31aa591",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Eagle Falls Trail hiking tips and recommendations",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 9/29]\n(in reply to) User: That's a great list! I'm excited to explore these trails. Can y"
+      },
+      {
+        "id": "fa1477cb-6abb-46e5-804f-045e1f321bac",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User interest in hiking and photography",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 10/29]\nUser: That helps a lot, thanks! I think I'll definitely give the Eagle Falls Trail"
+      },
+      {
+        "id": "e58cc7a1-5af8-4cbf-94fc-064be3483350",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommended sunrise hiking trails in Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 11/29]\n(in reply to) User: That helps a lot, thanks! I think I'll definitely give the Eag"
+      },
+      {
+        "id": "0948ac12-559a-4b98-be1f-e49c211f9adc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking trail recommendations for sunset",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 12/29]\n(in reply to) User: That helps a lot, thanks! I think I'll definitely give the Eag"
+      },
+      {
+        "id": "e7ad7931-d434-40f3-87da-f9d6ab462a65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Safety and preparation tips for sunrise/sunset hiking",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 13/29]\n(in reply to) User: That helps a lot, thanks! I think I'll definitely give the Eag"
+      },
+      {
+        "id": "594ee1b0-ecd9-40fd-b539-45f022a75ac3",
+        "score": 0.3334,
+        "memory_type": "preference",
+        "title": "User hiking and dining preferences",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 14/29]\nUser: That's really helpful, thanks! I think I'll try to fit in a sunrise hike on "
+      },
+      {
+        "id": "5bc0bc0c-3f98-42d5-9f42-0b8632c4bc48",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hiking and dining recommendations for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 15/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to fit in a su"
+      },
+      {
+        "id": "9b4cfc74-c49a-4082-9cb9-0200858d50bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining recommendations in South Lake Tahoe and Truckee",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 16/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to fit in a su"
+      },
+      {
+        "id": "f36f5524-56ee-4e9d-9716-c58bdf197d67",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining recommendations near Mount Tallac and Rubicon Trails",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 17/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to fit in a su"
+      },
+      {
+        "id": "b48e0a50-d763-48ed-b463-24ccdc3ede47",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dining recommendations near Lake Tahoe hiking trails",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 18/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to fit in a su"
+      },
+      {
+        "id": "90ea0a5d-283b-4272-b4be-f7821c0df98b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User dining and accommodation preferences in Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 19/29]\nUser: That's really helpful, thanks! I think I'll try to check out The Getaway Caf"
+      },
+      {
+        "id": "52c0adab-41bc-4524-81a2-1a30014ece60",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Lake Tahoe trip planning session",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 20/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to check out T"
+      },
+      {
+        "id": "a4fcb6c4-ddd3-4cd4-a065-79b5e3429964",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lake Tahoe lodging options",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 21/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to check out T"
+      },
+      {
+        "id": "077acb36-7d56-49b2-b3a9-78333bb83ce8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lake Tahoe lodging options",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 22/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to check out T"
+      },
+      {
+        "id": "b0e2a1a3-7927-41e3-b837-e45bb77b76de",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lake Tahoe accommodation booking tips",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 23/29]\n(in reply to) User: That's really helpful, thanks! I think I'll try to check out T"
+      },
+      {
+        "id": "049d368e-f23a-4b2f-b93c-2378d5b4ac4e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for budget-friendly lodging in Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 24/29]\nUser: I think I'll take a closer look at the Tahoe Valley RV Resort and Hostel Tah"
+      },
+      {
+        "id": "e2700471-7583-4517-93c0-876db8cb5063",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for budget-friendly Tahoe lodging",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 25/29]\n(in reply to) User: I think I'll take a closer look at the Tahoe Valley RV Resort "
+      },
+      {
+        "id": "d666596a-7274-46ae-adf7-01258f2950e6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking navigation tips for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 26/29]\n(in reply to) User: I think I'll take a closer look at the Tahoe Valley RV Resort "
+      },
+      {
+        "id": "1a950315-5df5-4250-99b6-77515feb5bcf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking safety guidelines for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 27/29]\n(in reply to) User: I think I'll take a closer look at the Tahoe Valley RV Resort "
+      },
+      {
+        "id": "0811facd-1158-47a7-b98b-6a55f6bad9b2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wildlife safety precautions in Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 28/29]\n(in reply to) User: I think I'll take a closer look at the Tahoe Valley RV Resort "
+      },
+      {
+        "id": "1c91f6fc-197b-4d54-8863-d3de133bcdf4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hiking safety and environmental tips for Lake Tahoe",
+        "text": "[date: 2023-05-24T17:27:00+00:00 | context: Session 9ce2bc4cc907 - happened on 2023-05-24 17:27:00 UTC. | turn 29/29]\n(in reply to) User: I think I'll take a closer look at the Tahoe Valley RV Resort "
+      },
+      {
+        "id": "b5decf4c-b89f-42c9-acc3-86e0ce8b098b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research local writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 1/19]\nUser: I'm looking to explore some local writing groups in my area. I was actually i"
+      },
+      {
+        "id": "3929c3c5-4466-421c-b794-0a19e3e402d3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry about local writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 2/19]\n(in reply to) User: I'm looking to explore some local writing groups in my area. I "
+      },
+      {
+        "id": "3bbc9c78-b622-47ef-aaf0-1c290c366270",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for finding local writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 3/19]\n(in reply to) User: I'm looking to explore some local writing groups in my area. I "
+      },
+      {
+        "id": "429ae330-68d6-4e2b-872f-139906ff3e2c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research local writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 4/19]\n(in reply to) User: I'm looking to explore some local writing groups in my area. I "
+      },
+      {
+        "id": "a5e0ab19-7ee2-459f-a286-0ebae959e1ea",
+        "score": 0.3379,
+        "memory_type": "preference",
+        "title": "User interest in fiction writing and group participation",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 5/19]\nUser: I live in a city, and I'm interested in fiction writing, particularly novels."
+      },
+      {
+        "id": "b3b265a4-8f68-42ce-b168-11b179c76766",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on evaluating fiction writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 6/19]\n(in reply to) User: I live in a city, and I'm interested in fiction writing, partic"
+      },
+      {
+        "id": "0f93243c-5569-48a8-9a19-22fce78c14a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on evaluating writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 7/19]\n(in reply to) User: I live in a city, and I'm interested in fiction writing, partic"
+      },
+      {
+        "id": "b0dc1cac-c29e-40f1-af18-4cfa50a362ae",
+        "score": null,
+        "memory_type": "task",
+        "title": "User planning to contact writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 8/19]\nUser: I'll definitely take your advice into consideration. I was thinking of reachi"
+      },
+      {
+        "id": "9a930851-7e30-4bef-821a-657babb68735",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros and cons of disclosing past writing group experience",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 9/19]\n(in reply to) User: I'll definitely take your advice into consideration. I was thin"
+      },
+      {
+        "id": "c4d3cd22-d30a-4b99-9111-8d721337e4c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on disclosing past writing group experiences",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 10/19]\n(in reply to) User: I'll definitely take your advice into consideration. I was thi"
+      },
+      {
+        "id": "e206f826-7424-4626-a00e-f1741b24321b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on reaching out to writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 11/19]\n(in reply to) User: I'll definitely take your advice into consideration. I was thi"
+      },
+      {
+        "id": "55e84e53-e126-446e-985e-9cb142768782",
+        "score": null,
+        "memory_type": "task",
+        "title": "Drafting initial messages for group outreach",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 12/19]\nUser: I think I'll mention it briefly, but focus on my current goals and what I'm "
+      },
+      {
+        "id": "ee0df4af-7497-4ae8-a189-b55715581ec7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Writing group outreach template",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 13/19]\n(in reply to) User: I think I'll mention it briefly, but focus on my current goals"
+      },
+      {
+        "id": "eb6535d8-6248-434b-a879-66f103d87b1a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Template for initial outreach to writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 14/19]\n(in reply to) User: I think I'll mention it briefly, but focus on my current goals"
+      },
+      {
+        "id": "4215f3f2-a68d-45d9-b61b-fd63791c495c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice for outreach to writing groups",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 15/19]\n(in reply to) User: I think I'll mention it briefly, but focus on my current goals"
+      },
+      {
+        "id": "ad21c92b-a376-4834-a458-599796923214",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for concise communication",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 16/19]\nUser: I think I'll try to make my message even more concise and focus on the essen"
+      },
+      {
+        "id": "ea542af0-db1c-431f-bde9-980b3ca7e3a3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for concise communication style",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 17/19]\n(in reply to) User: I think I'll try to make my message even more concise and focu"
+      },
+      {
+        "id": "5fa1b4f7-bd49-4ab1-a7d0-73513da55d23",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Feedback on writing group inquiry message",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 18/19]\n(in reply to) User: I think I'll try to make my message even more concise and focu"
+      },
+      {
+        "id": "1cb2a112-d80a-4a2a-9516-b54d0a63a768",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Interaction regarding writing group outreach",
+        "text": "[date: 2023-05-25T17:54:00+00:00 | context: Session 9282549e3643 - happened on 2023-05-25 17:54:00 UTC. | turn 19/19]\nUser: Go ahead and send it out to the writing groups that interest you. Remember t"
+      },
+      {
+        "id": "ddf1c00e-c80d-4560-adfe-c90edd2c93a8",
+        "score": 0.3318,
+        "memory_type": "fact",
+        "title": "Target demographics of the travel show",
+        "text": "[date: 2023-05-26T00:08:00+00:00 | context: Session 2d6c18075ced - happened on 2023-05-26 00:08:00 UTC. | turn 1/5]\nUser: Can you name specific demographics that the show reaches that other travel sho"
+      },
+      {
+        "id": "ab2cedb8-0262-4889-96d6-3e89ac922693",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular travel show episodes and destinations",
+        "text": "[date: 2023-05-26T00:08:00+00:00 | context: Session 2d6c18075ced - happened on 2023-05-26 00:08:00 UTC. | turn 2/5]\nUser: That's really interesting! Do you have any favorite episodes or destinations f"
+      },
+      {
+        "id": "cd944b77-685a-40ea-8141-417bf40d6918",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General travel advice and tips",
+        "text": "[date: 2023-05-26T00:08:00+00:00 | context: Session 2d6c18075ced - happened on 2023-05-26 00:08:00 UTC. | turn 3/5]\nUser: Wow, those all sound like amazing episodes! Is there a particular travel tip o"
+      },
+      {
+        "id": "f164cac0-30ab-4abe-95bf-1a7f44c56142",
+        "score": null,
+        "memory_type": "fact",
+        "title": "AI nature and travel tip source",
+        "text": "[date: 2023-05-26T00:08:00+00:00 | context: Session 2d6c18075ced - happened on 2023-05-26 00:08:00 UTC. | turn 4/5]\nUser: I really appreciate those travel tips! Have you ever used any of them in your "
+      },
+      {
+        "id": "84cc29d5-8a66-4e0a-8e43-95476b15bce6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry regarding show release schedule",
+        "text": "[date: 2023-05-26T00:08:00+00:00 | context: Session 2d6c18075ced - happened on 2023-05-26 00:08:00 UTC. | turn 5/5]\nUser: I'm definitely going to keep those travel tips in mind for my next trip! Have "
+      },
+      {
+        "id": "8f0a375c-f20e-421b-89e1-6af535976650",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User participated in a 5K charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 1/33]\nUser: I'm planning to participate in another charity walk soon and I was wondering "
+      },
+      {
+        "id": "7711e32c-e287-4df8-9e0e-9e9cb0bb54a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User completed a 5K charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 2/33]\n(in reply to) User: I'm planning to participate in another charity walk soon and I "
+      },
+      {
+        "id": "d7c1b462-4849-4494-bff0-6b3a73cd850e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Social media campaign strategy for charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 3/33]\n(in reply to) User: I'm planning to participate in another charity walk soon and I "
+      },
+      {
+        "id": "3fa96b7e-d443-4f40-8c94-062971811d45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Social media campaign strategies for charity fundraising",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 4/33]\n(in reply to) User: I'm planning to participate in another charity walk soon and I "
+      },
+      {
+        "id": "2461cd99-af92-4d3e-ac74-b6708d91ca57",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Social media campaign ideas for charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 5/33]\n(in reply to) User: I'm planning to participate in another charity walk soon and I "
+      },
+      {
+        "id": "2b5537df-cff2-4c0a-9ea4-186f7974cafb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Charity walk social media campaign planning",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 6/33]\n(in reply to) User: I'm planning to participate in another charity walk soon and I "
+      },
+      {
+        "id": "f6699fe5-fe27-4788-ae6c-31e2c6924ac7",
+        "score": 0.3559,
+        "memory_type": "preference",
+        "title": "Interest in personal storytelling for fundraising",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 7/33]\nUser: I like the idea of sharing my personal story and issuing fundraising challeng"
+      },
+      {
+        "id": "b1eef593-3f49-46b9-acaf-496c7412ead7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for crafting compelling personal stories for fundraising",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 8/33]\n(in reply to) User: I like the idea of sharing my personal story and issuing fundra"
+      },
+      {
+        "id": "dde114c0-e53a-4cf4-abc3-d2a234b1805f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for crafting compelling personal fundraising stories",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 9/33]\n(in reply to) User: I like the idea of sharing my personal story and issuing fundra"
+      },
+      {
+        "id": "c41f568b-198a-4315-b83a-400e138e1543",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for crafting compelling fundraising stories",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 10/33]\n(in reply to) User: I like the idea of sharing my personal story and issuing fundr"
+      },
+      {
+        "id": "de72a300-9a53-4182-a6c7-327ee6f6c1cc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example template for charity fundraising social media post",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 11/33]\n(in reply to) User: I like the idea of sharing my personal story and issuing fundr"
+      },
+      {
+        "id": "c457c7b6-cc87-46f3-b4bf-9d4d90f31421",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for fundraising storytelling",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 12/33]\n(in reply to) User: I like the idea of sharing my personal story and issuing fundr"
+      },
+      {
+        "id": "753dc64f-367d-439c-a97b-54d1e7aeb41e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Proposed social media series for charity walk training",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 13/33]\nUser: I like the idea of sharing a personal story, and the example you provided is"
+      },
+      {
+        "id": "80104d4a-03d1-4b2f-ae24-14f73b2b887c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for sharing personal training stories",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 14/33]\n(in reply to) User: I like the idea of sharing a personal story, and the example y"
+      },
+      {
+        "id": "8242228c-26df-45ee-8608-e8b2b281b136",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of sharing training progress on social media",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 15/33]\n(in reply to) User: I like the idea of sharing a personal story, and the example y"
+      },
+      {
+        "id": "bfb7524a-89d7-41fe-a611-88255a3bb494",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Social media content strategy for charity walk training",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 16/33]\n(in reply to) User: I like the idea of sharing a personal story, and the example y"
+      },
+      {
+        "id": "03047a63-2fcd-401a-b4a7-21e49b6c85c3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Social media content strategy for charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 17/33]\n(in reply to) User: I like the idea of sharing a personal story, and the example y"
+      },
+      {
+        "id": "a6665f94-7390-4716-846a-97562e8f7d09",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for sharing training updates",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 18/33]\nUser: I like the idea of sharing training updates, and I think it will help create"
+      },
+      {
+        "id": "c649bf6a-184c-4d5e-bcdc-31f6dbaa94e5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for sharing training updates",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 19/33]\n(in reply to) User: I like the idea of sharing training updates, and I think it wi"
+      },
+      {
+        "id": "f43760fa-6c83-431d-8b5b-2ee062188747",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Fundraising strategy for charity walk",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 20/33]\n(in reply to) User: I like the idea of sharing training updates, and I think it wi"
+      },
+      {
+        "id": "e78b52eb-36ed-4e02-9280-99f12220a393",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Fundraising engagement strategies",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 21/33]\n(in reply to) User: I like the idea of sharing training updates, and I think it wi"
+      },
+      {
+        "id": "33132136-f446-46a4-9a00-670d650fbe78",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for social media fundraising strategy",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 22/33]\n(in reply to) User: I like the idea of sharing training updates, and I think it wi"
+      },
+      {
+        "id": "725f4c43-cbbc-40ce-b84a-6e58e6247ca6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Fundraising strategy and training walk planning",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 23/33]\nUser: I think I can involve Mike and some other friends in my fundraising efforts,"
+      },
+      {
+        "id": "bc25d168-bd11-477d-ac5f-8814269c3ed0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising strategy: creating urgency",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 24/33]\n(in reply to) User: I think I can involve Mike and some other friends in my fundra"
+      },
+      {
+        "id": "93b2a5f1-3184-434d-baf7-7f5e459401c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising engagement strategies",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 25/33]\n(in reply to) User: I think I can involve Mike and some other friends in my fundra"
+      },
+      {
+        "id": "7d350f4d-cdcb-4104-af73-23ec72b94f02",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising communication strategies",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 26/33]\n(in reply to) User: I think I can involve Mike and some other friends in my fundra"
+      },
+      {
+        "id": "821ddefb-60d4-48c3-bb34-2cda6909dd6a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising social media strategy",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 27/33]\n(in reply to) User: I think I can involve Mike and some other friends in my fundra"
+      },
+      {
+        "id": "916662e0-56d9-47dd-be6a-805465210664",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for charity fundraising strategy",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 28/33]\nUser: I like the idea of creating a countdown series and using urgent language to "
+      },
+      {
+        "id": "b61a2455-941c-4643-b02f-d52b25e6f0e1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for charity fundraising strategy",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 29/33]\n(in reply to) User: I like the idea of creating a countdown series and using urgen"
+      },
+      {
+        "id": "9c157b6a-4f58-49b5-a94a-40b1646e0b78",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Content strategy guidelines for American Cancer Society fundraising",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 30/33]\n(in reply to) User: I like the idea of creating a countdown series and using urgen"
+      },
+      {
+        "id": "f2b602bc-3348-4077-a4e2-822034b02c38",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Content creation guidelines: citation and conciseness",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 31/33]\n(in reply to) User: I like the idea of creating a countdown series and using urgen"
+      },
+      {
+        "id": "cf277a26-b5e6-46a7-af77-f77de235351b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Credible sources for American Cancer Society and cancer research",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 32/33]\n(in reply to) User: I like the idea of creating a countdown series and using urgen"
+      },
+      {
+        "id": "1456376b-a27e-4ddb-ad59-cc6b9bc0ceab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on charity walk fundraising strategy",
+        "text": "[date: 2023-05-26T14:13:00+00:00 | context: Session f5ba5fdf720c - happened on 2023-05-26 14:13:00 UTC. | turn 33/33]\n(in reply to) User: I like the idea of creating a countdown series and using urgen"
+      },
+      {
+        "id": "87762bc1-7cf6-49cc-848e-be6124d4adfc",
+        "score": null,
+        "memory_type": "task",
+        "title": "Sales outreach email sequence creation",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 1/17]\nUser: Now, using all the information I previously shared, I need you to start writi"
+      },
+      {
+        "id": "aabe360e-f82a-4733-ba26-d69d66b64950",
+        "score": 0.3382,
+        "memory_type": "fact",
+        "title": "Comparative outreach email template",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 2/17]\n13. HERE IS A SAMPLE EMAIL FOR YOU TO FOLLOW: Hi [First Name], I'm the co-founder o"
+      },
+      {
+        "id": "4582e07e-3997-4074-b451-1f1ea68a4029",
+        "score": null,
+        "memory_type": "task",
+        "title": "Drafting cold outbound sales email sequences",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 3/17]\n(in reply to) User: Now, using all the information I previously shared, I need you "
+      },
+      {
+        "id": "f8efcbef-98e5-456d-9314-b8762b17fae6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Drafting cold outbound sales email sequences for Comparative",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 4/17]\n(in reply to) User: Now, using all the information I previously shared, I need you "
+      },
+      {
+        "id": "668aad0f-78c6-489b-aae1-43eced3fc472",
+        "score": null,
+        "memory_type": "task",
+        "title": "Drafting cold outbound sales email sequences",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 5/17]\n(in reply to) User: Now, using all the information I previously shared, I need you "
+      },
+      {
+        "id": "490914dc-83e9-4583-9946-991a99b0df8e",
+        "score": null,
+        "memory_type": "action",
+        "title": "Drafted cold outbound email sequence for Comparative",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 6/17]\n(in reply to) User: Now, using all the information I previously shared, I need you "
+      },
+      {
+        "id": "7787b5ef-a81f-4402-a919-ecbaec39366b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Continue sequence 5 and 6",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 7/17]\nUser: please continue sequence 5 and 6"
+      },
+      {
+        "id": "ea06ec2d-2d4c-45d8-b105-ba3dae67222c",
+        "score": null,
+        "memory_type": "action",
+        "title": "Drafted email sequence for Comparative analytics solution",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 8/17]\n(in reply to) User: please continue sequence 5 and 6\n\nAssistant: Sequence 5:\nSubjec"
+      },
+      {
+        "id": "5aacbc0b-1510-4529-870d-026844519cae",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outreach sequence for Comparative analytics solution",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 9/17]\n(in reply to) User: please continue sequence 5 and 6\n\nIf you're looking for a way t"
+      },
+      {
+        "id": "7a7a26d1-9557-4121-b343-ce7d70f95668",
+        "score": null,
+        "memory_type": "action",
+        "title": "Response to user request for sequence continuation",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 10/17]\n(in reply to) User: please continue sequence 5 and 6\n\nBest regards,\n[Your Name]"
+      },
+      {
+        "id": "1b4359c4-0ca0-403e-9301-0b329cbf4a61",
+        "score": null,
+        "memory_type": "action",
+        "title": "Drafted cold outbound email sequence",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 11/17]\nUser: Please review again all the information I shared one by one and the rules wh"
+      },
+      {
+        "id": "a1e0cde6-2652-431e-986c-94c0470c9ff5",
+        "score": null,
+        "memory_type": "action",
+        "title": "Drafted sales outreach email for Comparative",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 12/17]\nUser: Please start with sequence 1\n\nAssistant: Subject Line: Revolutionize Analyti"
+      },
+      {
+        "id": "ff4eab99-aefe-4d6f-ba62-d159c2e62a10",
+        "score": null,
+        "memory_type": "task",
+        "title": "Continue sequence 2 to 6",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 13/17]\nUser: continue sequence 2 to 6"
+      },
+      {
+        "id": "aae7ea3b-1f9c-4819-9377-2491d3954d84",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cold Outbound Email Template: Comparative",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 14/17]\n(in reply to) User: continue sequence 2 to 6\n\nAssistant: Cold Outbound Email Seque"
+      },
+      {
+        "id": "b8c6c19a-8e68-4ca3-bfc9-f5ca124de382",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cold Outbound Email Templates for Comparative",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 15/17]\n(in reply to) User: continue sequence 2 to 6\n\nSubject: A Better Way to Analyze Dat"
+      },
+      {
+        "id": "5ef181da-c619-4d0c-9aa0-3e9bd32c83ff",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparative Sales Outreach Templates",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 16/17]\n(in reply to) User: continue sequence 2 to 6\n\nI wanted to check in with you and se"
+      },
+      {
+        "id": "d7b8a34f-5bc9-432a-a9c9-71318b99f4d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparative product value proposition",
+        "text": "[date: 2023-05-27T23:18:00+00:00 | context: Session 33e352f2e13b - happened on 2023-05-27 23:18:00 UTC. | turn 17/17]\n(in reply to) User: continue sequence 2 to 6\n\nWith Comparative, you will be able t"
+      }
+    ]
+  },
+  "context": {
+    "chars": 103700,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25925)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 25198,
+    "prompt_tokens": 24582,
+    "completion_tokens": 107,
+    "reasoning_tokens": 509,
+    "generate_time_ms": 12721.707514021546,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23566,
+        "completion_tokens": 52,
+        "reasoning_tokens": 211,
+        "total_tokens": 23829
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 506,
+        "completion_tokens": 11,
+        "reasoning_tokens": 208,
+        "total_tokens": 725
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 510,
+        "completion_tokens": 44,
+        "reasoning_tokens": 90,
+        "total_tokens": 644
+      }
+    ]
+  },
+  "failure_label": null
+}

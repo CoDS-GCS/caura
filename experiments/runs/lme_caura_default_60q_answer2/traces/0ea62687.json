@@ -1,0 +1,1318 @@
+{
+  "question_id": "0ea62687",
+  "question_type": "multi-session",
+  "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+  "gold_answer": "2",
+  "prediction": "A few months ago, your car was getting 30 miles per gallon in the city, compared to its recent and current fuel efficiency of 28 miles per gallon in the city. Therefore, your car was getting 2 miles per gallon more a few months ago compared to now.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 881,
+    "by_type": {
+      "task": 54,
+      "fact": 380,
+      "episode": 275,
+      "preference": 154,
+      "decision": 10,
+      "plan": 7,
+      "action": 1
+    },
+    "by_status": {
+      "conflicted": 16,
+      "active": 865
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2592783,
+    "output_tokens": 125102,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How much more miles per gallon was my car getting a few months ago compared to now?"
+    ],
+    "retrieve_time_ms": 802.2470090072602,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "2f858bb8-5670-48c5-b6ff-e2df6cc287c6",
+        "score": 0.461,
+        "memory_type": "preference",
+        "title": "User wants car tune-up tips to improve fuel efficiency",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 1/23]\nUser: I'm thinking of getting a tune-up for my car soon. Can you give me some tips "
+      },
+      {
+        "id": "4b4f936a-cad4-462e-8c2c-e95b9c897a22",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to improve car fuel efficiency (air filter, spark plugs, fuel filter)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 2/23]\n(in reply to) User: I'm thinking of getting a tune-up for my car soon. Can you give"
+      },
+      {
+        "id": "70476b4b-6b0a-4fc5-8bca-85f8bb21d3d6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for improving car fuel efficiency (tire pressure, oil, belts/hoses)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 3/23]\n(in reply to) User: I'm thinking of getting a tune-up for my car soon. Can you give"
+      },
+      {
+        "id": "c0af8dfe-12e9-4afd-a627-c98e44af980f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to improve car fuel efficiency (oxygen sensor, cleaning, idling)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 4/23]\n(in reply to) User: I'm thinking of getting a tune-up for my car soon. Can you give"
+      },
+      {
+        "id": "ed4a020c-0af5-4716-8225-96ee4a842cae",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for improving car fuel efficiency",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 5/23]\n(in reply to) User: I'm thinking of getting a tune-up for my car soon. Can you give"
+      },
+      {
+        "id": "e3b8f478-5dd8-4735-a0aa-2fe970c25814",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks if overdue maintenance could reduce fuel efficiency",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 6/23]\nUser: I'll definitely check the air filter, spark plugs, and tire pressure. I've be"
+      },
+      {
+        "id": "0b818a82-1664-42c8-9fcb-e628483d461f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dirty overdue oil can reduce fuel efficiency",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 7/23]\n(in reply to) User: I'll definitely check the air filter, spark plugs, and tire pre"
+      },
+      {
+        "id": "cc367621-2c19-4f8e-a9a1-f1f2721296ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dirty oil can reduce fuel economy (mechanisms)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 8/23]\n(in reply to) User: I'll definitely check the air filter, spark plugs, and tire pre"
+      },
+      {
+        "id": "f985f0bd-6441-476d-96e7-2d3b5ecbdbe3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Oil change may improve fuel efficiency (up to 2\u20133%)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 9/23]\n(in reply to) User: I'll definitely check the air filter, spark plugs, and tire pre"
+      },
+      {
+        "id": "02576a4c-9fac-40b5-a085-22b541aeeac5",
+        "score": null,
+        "memory_type": "task",
+        "title": "User plans oil change and other checks; asks dash cam recommendations",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 10/23]\nUser: I'll get my oil changed and check the other things you mentioned. I'm also t"
+      },
+      {
+        "id": "ecf6b8e1-b3da-4c91-869a-8f1dd1c7713a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussed dash cam recommendations after oil change plan",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 11/23]\n(in reply to) User: I'll get my oil changed and check the other things you mention"
+      },
+      {
+        "id": "b0c7672c-4e72-4677-8300-d2e6a1b3f78e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dash cam recommendation criteria (1080p, wide angle, night vision)",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 12/23]\n(in reply to) User: I'll get my oil changed and check the other things you mention"
+      },
+      {
+        "id": "95f8be2c-f67a-4166-909c-007ae0abba35",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Dash cam mounting options: sturdy adjustable windshield mount",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 13/23]\n(in reply to) User: I'll get my oil changed and check the other things you mention"
+      },
+      {
+        "id": "3ecc2e82-12a9-4be6-8ec0-84111eefd108",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Oil change planned; dash cam recommendations shared",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 14/23]\n(in reply to) User: I'll get my oil changed and check the other things you mention"
+      },
+      {
+        "id": "90a5a0e6-7873-40ab-abf2-d4cfd6d725cd",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering $150 dash cam with collision detection/parking mode",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 15/23]\nUser: I'm considering the dash cam that costs around $150, it has good reviews and"
+      },
+      {
+        "id": "336874ed-746c-48d6-9a6f-7aaa7f597fdb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on $150 dash cam with collision detection and parking mode",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 16/23]\n(in reply to) User: I'm considering the dash cam that costs around $150, it has go"
+      },
+      {
+        "id": "f65bd8e4-a389-4c58-b67b-1aea6d781c39",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Checklist for evaluating a ~$150 dash cam",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 17/23]\n(in reply to) User: I'm considering the dash cam that costs around $150, it has go"
+      },
+      {
+        "id": "50de8d29-9e80-491c-9e90-1bc510d0f2ba",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on $150 dash cam with collision detection/parking mode",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 18/23]\n(in reply to) User: I'm considering the dash cam that costs around $150, it has go"
+      },
+      {
+        "id": "409de2c8-3b54-4e1f-9aec-7a904ac92bc5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering $150 dash cam and car phone mount",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 19/23]\nUser: I think I'll go with the dash cam that costs around $150. It seems like a go"
+      },
+      {
+        "id": "f2e5322f-b4a4-4bb1-bd27-528d1fb03dbe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on dash cam and car phone mount",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 20/23]\n(in reply to) User: I think I'll go with the dash cam that costs around $150. It s"
+      },
+      {
+        "id": "7aa9be37-25c0-45d2-9a44-06a726a51239",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for pairing a ~$150 dash cam with a phone mount",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 21/23]\n(in reply to) User: I think I'll go with the dash cam that costs around $150. It s"
+      },
+      {
+        "id": "f719d7ab-6b78-48ff-a0f4-169316ba8a56",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for dash cam and car phone mount options",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 22/23]\n(in reply to) User: I think I'll go with the dash cam that costs around $150. It s"
+      },
+      {
+        "id": "2a5fd7fc-fef8-41c1-bb6f-1b8128eb5918",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to buy a car phone mount",
+        "text": "[date: 2023-05-20T01:33:00+00:00 | context: Session 59e48e226561 - happened on 2023-05-20 01:33:00 UTC. | turn 23/23]\nUser: I think I'll get a car phone mount too, it'll be convenient to have my phone"
+      },
+      {
+        "id": "723c7572-98b8-47cb-b469-a3f52eaa075d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about why customers may not like loyalty program",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 1/16]\nAssistant: There could be a few reasons why your customers may not be interested in"
+      },
+      {
+        "id": "2097059a-9d66-41d4-a130-fa178b6681c4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests reasons customers may ignore loyalty/free offer",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 2/16]\n(in reply to) Assistant: There could be a few reasons why your customers may not be"
+      },
+      {
+        "id": "2bd76e84-7f72-4084-acfd-ea9485d21e05",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reasons customers may not engage with loyalty/free offer",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 3/16]\n(in reply to) Assistant: There could be a few reasons why your customers may not be"
+      },
+      {
+        "id": "4196ec1e-ce2b-4e68-a7ff-00cc5e1b30d4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about improving supplement offers for subscription users",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 4/16]\nUser: So we're trying to change offer products. For example, providing Multivitamin"
+      },
+      {
+        "id": "f650549b-ac54-40ad-b57e-60fadfe4bd7f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advised on loyalty program offer changes for subscription churn",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 5/16]\n(in reply to) User: So we're trying to change offer products. For example, providin"
+      },
+      {
+        "id": "4acee60f-2e2a-4d54-b84c-97363e052fed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for improving supplement subscription retention",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 6/16]\n(in reply to) User: So we're trying to change offer products. For example, providin"
+      },
+      {
+        "id": "86a3a250-e6c9-47cf-8a0c-e1d844bfad91",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for subscription churn: saturation and UX",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 7/16]\n(in reply to) User: So we're trying to change offer products. For example, providin"
+      },
+      {
+        "id": "934cca48-8596-41a5-bb7b-5696b8b1d262",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion on improving supplement offer for subscription users",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 8/16]\n(in reply to) User: So we're trying to change offer products. For example, providin"
+      },
+      {
+        "id": "0086c131-1d13-4d50-9ca4-eb1d972fbc8c",
+        "score": 0.339,
+        "memory_type": "task",
+        "title": "Improve website UX for supplement shopping/subscription",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 9/16]\nUser: We're not sure that our website is operating great in a view of user experien"
+      },
+      {
+        "id": "d059dbc0-d938-45f0-822b-ac4b058d99f2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "UX focus areas discussed for supplement shopping/subscription site",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 10/16]\n(in reply to) User: We're not sure that our website is operating great in a view o"
+      },
+      {
+        "id": "f6e35cc6-8e5b-4894-8f1c-3f74f354eb68",
+        "score": null,
+        "memory_type": "fact",
+        "title": "UX focus areas for supplement shopping/subscription website",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 11/16]\n(in reply to) User: We're not sure that our website is operating great in a view o"
+      },
+      {
+        "id": "5076f066-d434-4369-8ec8-a430e9bffaa7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Website UX focus areas: mobile, customer service, security/privacy",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 12/16]\n(in reply to) User: We're not sure that our website is operating great in a view o"
+      },
+      {
+        "id": "031c0806-059c-4b62-8781-75b35a594cd3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General UX focus areas for supplement shopping/subscription site",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 13/16]\n(in reply to) User: We're not sure that our website is operating great in a view o"
+      },
+      {
+        "id": "74bb9c6e-4b11-479d-89e5-b7d759d5ee51",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks about bimonthly dosage subscription model",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 14/16]\nUser: We're trying bimonthly delivery service, which customers pays and receives t"
+      },
+      {
+        "id": "f1d638ca-d032-4716-833b-87c114cedefd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Feedback on bimonthly supplement subscription delivery model",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 15/16]\n(in reply to) User: We're trying bimonthly delivery service, which customers pays "
+      },
+      {
+        "id": "f74c74b5-f6cd-40db-ac75-90a84fd9744d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Feedback on bimonthly delivery subscription model",
+        "text": "[date: 2023-05-20T17:53:00+00:00 | context: Session 3a5787798637 - happened on 2023-05-20 17:53:00 UTC. | turn 16/16]\n(in reply to) User: We're trying bimonthly delivery service, which customers pays "
+      },
+      {
+        "id": "f06495a9-8c42-49c0-8795-60452452d659",
+        "score": null,
+        "memory_type": "task",
+        "title": "Guide to order replacement Garmin GPS batteries",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 1/26]\nUser: I need help ordering replacement batteries for my Garmin GPS device. Can you "
+      },
+      {
+        "id": "60103a3a-29d1-4b07-a3a9-23a39a372f75",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guide for ordering Garmin GPS replacement batteries",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 2/26]\n(in reply to) User: I need help ordering replacement batteries for my Garmin GPS de"
+      },
+      {
+        "id": "6fd97907-36cb-4a04-9677-44d29fc8b464",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online options for Garmin GPS replacement batteries",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 3/26]\n(in reply to) User: I need help ordering replacement batteries for my Garmin GPS de"
+      },
+      {
+        "id": "1ed51801-8a60-455f-9560-21ad037b010c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance for ordering compatible Garmin GPS replacement batteries",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 4/26]\n(in reply to) User: I need help ordering replacement batteries for my Garmin GPS de"
+      },
+      {
+        "id": "cfee4d5b-5ff2-411b-9d56-4dade0e95467",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Garmin compatibility and Fitbit vs Apple Watch",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 5/26]\nUser: I think I'll order from Garmin's official website to ensure compatibility. By"
+      },
+      {
+        "id": "d1f142c6-b571-4148-bc36-b089cb470255",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommended ordering Garmin official site; discussed fitness trackers",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 6/26]\n(in reply to) User: I think I'll order from Garmin's official website to ensure com"
+      },
+      {
+        "id": "d6036d57-98bf-4c2c-b846-05e990ac116f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Fitbit vs Apple Watch features",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 7/26]\n(in reply to) User: I think I'll order from Garmin's official website to ensure com"
+      },
+      {
+        "id": "61152674-4c41-45e1-a0bb-49ae5dbbe64d",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Chose Fitbit vs Apple Watch based on battery, price, and ecosystem",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 8/26]\n(in reply to) User: I think I'll order from Garmin's official website to ensure com"
+      },
+      {
+        "id": "5e4602de-c7e0-49f0-b696-d5a33a10d1b4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed ordering Garmin and asked about fitness trackers",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 9/26]\n(in reply to) User: I think I'll order from Garmin's official website to ensure com"
+      },
+      {
+        "id": "e2506924-8786-42c2-9352-3f0d480123ed",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research Fitbit vs Apple Watch models",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 10/26]\nUser: I think I'll need to do some more research on both options. Can you recommen"
+      },
+      {
+        "id": "b975c8e0-16d5-4451-853a-e7a9b427b900",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular Fitbit and Apple Watch models suggested",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 11/26]\n(in reply to) User: I think I'll need to do some more research on both options. Ca"
+      },
+      {
+        "id": "03a429c6-4215-4271-b597-df0c2a790f1b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested Fitbit/Apple Watch models (Apple Watch Series 3/5/7)",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 12/26]\n(in reply to) User: I think I'll need to do some more research on both options. Ca"
+      },
+      {
+        "id": "7360ea26-88d4-4c8a-be8e-6d85dc44cd3f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested Fitbit and Apple Watch models by price/features",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 13/26]\n(in reply to) User: I think I'll need to do some more research on both options. Ca"
+      },
+      {
+        "id": "3e8892a1-2192-4a6b-a5b3-2cd62d7e1468",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Question: Fitbit vs Apple Watch GPS and bike ride tracking",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 14/26]\nUser: I'm also wondering if I can track my bike rides with the fitness tracker I c"
+      },
+      {
+        "id": "b48baa2f-6625-4381-982f-bb1026257225",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit and Apple Watch have GPS for tracking bike rides",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 15/26]\n(in reply to) User: I'm also wondering if I can track my bike rides with the fitne"
+      },
+      {
+        "id": "091e5486-4e8f-4bf0-b9a8-8fbb1ea65621",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Apple Watch models have built-in GPS for bike ride tracking",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 16/26]\n(in reply to) User: I'm also wondering if I can track my bike rides with the fitne"
+      },
+      {
+        "id": "62d45bd6-b4c0-40a8-b958-aa40a7e0c322",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fitbit and Apple Watch can track bike rides (GPS varies by model)",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 17/26]\n(in reply to) User: I'm also wondering if I can track my bike rides with the fitne"
+      },
+      {
+        "id": "59819e06-5549-4863-8a5b-861c39e2db3c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Remind how to upload Garmin ride data to Garmin website",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 18/26]\nUser: I've got another question about the Garmin GPS device I use for my bike ride"
+      },
+      {
+        "id": "d1936ecd-bbc8-487d-b562-efd017ede8a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Garmin ride data upload instructions (USB method)",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 19/26]\n(in reply to) User: I've got another question about the Garmin GPS device I use fo"
+      },
+      {
+        "id": "e6334150-1990-424b-88fe-cfd7254c9439",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Garmin GPS ride data upload steps (USB/Garmin Express)",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 20/26]\n(in reply to) User: I've got another question about the Garmin GPS device I use fo"
+      },
+      {
+        "id": "f955c0ed-ebe5-4a2b-8507-595cbbf07c4e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Garmin Connect upload steps for bike ride data",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 21/26]\n(in reply to) User: I've got another question about the Garmin GPS device I use fo"
+      },
+      {
+        "id": "f66cf0cd-45fe-4923-bfa2-ae45fb2c7f46",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Garmin ride data upload troubleshooting checklist",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 22/26]\n(in reply to) User: I've got another question about the Garmin GPS device I use fo"
+      },
+      {
+        "id": "56dbccb0-4472-4906-b20c-ea316c8f498b",
+        "score": 0.346,
+        "memory_type": "task",
+        "title": "Schedule bike tune-up; ask about road bike servicing",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 23/26]\nUser: I think I'm good to go with uploading my ride data to the Garmin website. Th"
+      },
+      {
+        "id": "0f6d0f99-7f4e-4e94-b3a0-e40f79a769dc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to schedule road bike tune-up soon",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 24/26]\n(in reply to) User: I think I'm good to go with uploading my ride data to the Garm"
+      },
+      {
+        "id": "642986f4-a438-4bf9-ab55-07b74779fb15",
+        "score": null,
+        "memory_type": "task",
+        "title": "Schedule bike tune-up at local shop",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 25/26]\n(in reply to) User: I think I'm good to go with uploading my ride data to the Garm"
+      },
+      {
+        "id": "2361d3b2-ef4e-4662-b59b-7273c1c4d0f9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User planned to schedule a road bike tune-up",
+        "text": "[date: 2023-05-21T09:05:00+00:00 | context: Session c9473b45c275 - happened on 2023-05-21 09:05:00 UTC. | turn 26/26]\n(in reply to) User: I think I'm good to go with uploading my ride data to the Garm"
+      },
+      {
+        "id": "40c1f1e8-1905-4e5d-a95c-e1fd98970484",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses expanding farm and replacing chicken coop roof",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 1/28]\nUser: I'm thinking of expanding my farm operations and was wondering if you could g"
+      },
+      {
+        "id": "b343791b-e8a3-4f89-ba26-f506c6207468",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for pigpen-building tips after fixing chicken coop",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 2/28]\n(in reply to) User: I'm thinking of expanding my farm operations and was wondering "
+      },
+      {
+        "id": "022bbcba-7c3b-497a-acb1-b2b44ea2501b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pigpen construction tips: size, fencing, gates",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 3/28]\n(in reply to) User: I'm thinking of expanding my farm operations and was wondering "
+      },
+      {
+        "id": "63fecf58-7f9a-4684-8e5e-bc5b7a0e8216",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pigpen construction tips: shelter, bedding, water, drainage, predator protection",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 4/28]\n(in reply to) User: I'm thinking of expanding my farm operations and was wondering "
+      },
+      {
+        "id": "a90170be-c35b-4e4d-9f39-a1bb67ea81ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pigpen building tips: ventilation, lighting, regulations, expert advice",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 5/28]\n(in reply to) User: I'm thinking of expanding my farm operations and was wondering "
+      },
+      {
+        "id": "48b03860-f8cb-4897-b9f9-e449a65603a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Animal welfare, safety, and sustainability prioritized for pigpen building",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 6/28]\n(in reply to) User: I'm thinking of expanding my farm operations and was wondering "
+      },
+      {
+        "id": "6e57ae45-b165-4de3-b013-cc9337397a00",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a cow breed for a small farm",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 7/28]\nUser: I'm also considering getting a cow, but I'm not sure what breed would be suit"
+      },
+      {
+        "id": "41b48be5-a1e7-4698-9b19-31fedeec6523",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on hardy, low-maintenance cow breeds for small farms",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 8/28]\n(in reply to) User: I'm also considering getting a cow, but I'm not sure what breed"
+      },
+      {
+        "id": "aabbf166-e532-4c56-ae83-e084ecbb58c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Small-farm cow breed recommendations (Dexter, Jersey, Highland)",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 9/28]\n(in reply to) User: I'm also considering getting a cow, but I'm not sure what breed"
+      },
+      {
+        "id": "c5fbdc85-fefa-4d25-b2e4-8877f3cfdfad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations: Brown Swiss and Milking Shorthorn for small farms",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 10/28]\n(in reply to) User: I'm also considering getting a cow, but I'm not sure what bree"
+      },
+      {
+        "id": "adce6074-b400-41ed-b5a6-7e818558d3d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for choosing a hardy, low-maintenance cow breed",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 11/28]\n(in reply to) User: I'm also considering getting a cow, but I'm not sure what bree"
+      },
+      {
+        "id": "fe1f0e79-eab9-421d-b5c1-cea6f9da7821",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for hardy low-maintenance cow breed advice",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 12/28]\n(in reply to) User: I'm also considering getting a cow, but I'm not sure what bree"
+      },
+      {
+        "id": "d8ccdb2b-6cfd-4ed3-9216-553027825af3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Planning dairy cow breeds (Jersey or Brown Swiss)",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 13/28]\nUser: I'm actually planning to use my cow for dairy production, so I think I'll fo"
+      },
+      {
+        "id": "4d5afe10-61c5-494b-b618-166e7e00827c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Jersey/Brown Swiss for dairy and homemade feed tips",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 14/28]\n(in reply to) User: I'm actually planning to use my cow for dairy production, so I"
+      },
+      {
+        "id": "2a408d3c-30c6-45d2-9e70-56cbcfc140d0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan dairy cow nutrition guidance (Jersey/Brown Swiss)",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 15/28]\n(in reply to) User: I'm actually planning to use my cow for dairy production, so I"
+      },
+      {
+        "id": "8b6acf74-ffd7-4fab-b1b6-1d3a992f73dc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance for dairy cow feed (calcium, vitamins, monitoring)",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 16/28]\n(in reply to) User: I'm actually planning to use my cow for dairy production, so I"
+      },
+      {
+        "id": "e415f3e8-c3b1-4e3f-8a63-077b6991198e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidelines for cow feed mix: protein, calcium, fiber",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 17/28]\n(in reply to) User: I'm actually planning to use my cow for dairy production, so I"
+      },
+      {
+        "id": "c1bfdcc9-8b5e-48d7-bef5-c2a622e36629",
+        "score": 0.3599,
+        "memory_type": "episode",
+        "title": "Chicken feed recipe savings and composting for fertilizer",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 18/28]\nUser: I've been experimenting with different recipes and ingredients, and I think "
+      },
+      {
+        "id": "cff22252-bf86-48e5-9427-9a16a5a04c34",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports homemade animal feed savings",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 19/28]\n(in reply to) User: I've been experimenting with different recipes and ingredients"
+      },
+      {
+        "id": "9cd89078-5b2a-4186-83ef-c9f6a655c11b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about feed savings and preparing for a new cow",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 20/28]\n(in reply to) User: I've been experimenting with different recipes and ingredients"
+      },
+      {
+        "id": "09c97303-837c-41e0-8ba8-6db20ea0eccf",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to set up cow living quarters and milking area",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 21/28]\nUser: I'm actually getting ready to set up the cow's living quarters and milking a"
+      },
+      {
+        "id": "4c34e3a5-ea3b-4930-b931-dc75892f36ef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses setting up cow living quarters and milking area",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 22/28]\n(in reply to) User: I'm actually getting ready to set up the cow's living quarters"
+      },
+      {
+        "id": "b9ed5edd-bb87-4675-8db1-d1459290c942",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for setting up a cow milking area",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 23/28]\n(in reply to) User: I'm actually getting ready to set up the cow's living quarters"
+      },
+      {
+        "id": "a492b046-6e22-4926-ab17-2e23b0ef556d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about cow living quarters renovation progress",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 24/28]\n(in reply to) User: I'm actually getting ready to set up the cow's living quarters"
+      },
+      {
+        "id": "a0a33e9c-b66e-4511-a967-f2739dde4997",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Renovation and contractor work; fencing/pasture setup for cow",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 25/28]\nUser: I've been doing some of the renovation work myself, but I've also hired some"
+      },
+      {
+        "id": "e56bc3f6-2980-4b04-8495-a481bd886b9e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Renovation contractors and manure management discussion",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 26/28]\n(in reply to) User: I've been doing some of the renovation work myself, but I've a"
+      },
+      {
+        "id": "670db37d-f3d8-492b-8d9a-26725dbecd12",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Manure-to-value options: biogas, fertilizer pellets, biochar",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 27/28]\n(in reply to) User: I've been doing some of the renovation work myself, but I've a"
+      },
+      {
+        "id": "6e4a5a33-1327-4056-a974-e9b9575cadc0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about farm renovation and manure use",
+        "text": "[date: 2023-05-24T09:29:00+00:00 | context: Session 843fda92395d - happened on 2023-05-24 09:29:00 UTC. | turn 28/28]\n(in reply to) User: I've been doing some of the renovation work myself, but I've a"
+      },
+      {
+        "id": "458b5e0a-b0ef-4731-beb9-a8a69fae39d9",
+        "score": 0.4171,
+        "memory_type": "preference",
+        "title": "User wants car air filter recommendation for fuel efficiency",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 1/24]\nUser: I'm thinking of getting a new air filter for my car. Can you recommend any go"
+      },
+      {
+        "id": "bc15efb8-9b5d-40f8-90fa-2931a624aabe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Car air filter recommendation discussion (fuel efficiency)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 2/24]\n(in reply to) User: I'm thinking of getting a new air filter for my car. Can you re"
+      },
+      {
+        "id": "b3738071-5c4e-478b-86be-7c1425ff152c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Car air filter recommendations (Wix, K&N, FRAM, Bosch)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 3/24]\n(in reply to) User: I'm thinking of getting a new air filter for my car. Can you re"
+      },
+      {
+        "id": "b50acbf4-8741-4bbb-a8bb-d5bd34c25452",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Air filter may improve fuel efficiency by ~1\u20132 MPG",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 4/24]\n(in reply to) User: I'm thinking of getting a new air filter for my car. Can you re"
+      },
+      {
+        "id": "8a51cbfa-bc3d-497b-a7df-fc12fb1b03f7",
+        "score": null,
+        "memory_type": "task",
+        "title": "Learn Wix 51348 filter installation and Civic compatibility",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 5/24]\nUser: I'm interested in the Wix 51348 filter. Can you tell me more about its instal"
+      },
+      {
+        "id": "38a34d47-cdec-4242-9c70-7c2105852ead",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wix 51348 air filter: installation overview and Civic compatibility",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 6/24]\n(in reply to) User: I'm interested in the Wix 51348 filter. Can you tell me more ab"
+      },
+      {
+        "id": "05962ccb-0413-4da8-814e-7146127caf48",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wix 51348 air filter installation steps and Civic compatibility claim",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 7/24]\n(in reply to) User: I'm interested in the Wix 51348 filter. Can you tell me more ab"
+      },
+      {
+        "id": "1d3e4dc0-317c-477e-a219-3e03702ffcab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wix 51348 air filter compatibility and installation tips",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 8/24]\n(in reply to) User: I'm interested in the Wix 51348 filter. Can you tell me more ab"
+      },
+      {
+        "id": "c2175508-35f4-4b04-a2fa-853ee02a17b2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for car exterior/center console maintenance tips",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 9/24]\nUser: I'm going to check my owner's manual to confirm the installation process, but"
+      },
+      {
+        "id": "48f432a0-a81b-47c3-a04c-20b94629c2aa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Car exterior and center console maintenance tips (session reply)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 10/24]\n(in reply to) User: I'm going to check my owner's manual to confirm the installati"
+      },
+      {
+        "id": "ab9e9731-a15f-4932-8984-a2a8c8e38ec0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Car exterior maintenance recommendations",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 11/24]\n(in reply to) User: I'm going to check my owner's manual to confirm the installati"
+      },
+      {
+        "id": "cabc39be-60b9-44c2-9b35-88ab3f1e214a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Car center console and interior maintenance tips",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 12/24]\n(in reply to) User: I'm going to check my owner's manual to confirm the installati"
+      },
+      {
+        "id": "fa413fa2-7681-4c46-a8e2-633c91864630",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Car exterior/interior maintenance tips",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 13/24]\n(in reply to) User: I'm going to check my owner's manual to confirm the installati"
+      },
+      {
+        "id": "52fff250-cbfe-4f3d-bad1-43c8d8624d5c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a ~$150 dash cam with collision detection/parking mode",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 14/24]\nUser: I've been meaning to get a dash cam for my car, especially after seeing all "
+      },
+      {
+        "id": "6e7eb478-f38e-46f9-82ae-042715629794",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about buying a ~$150 dash cam",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 15/24]\n(in reply to) User: I've been meaning to get a dash cam for my car, especially aft"
+      },
+      {
+        "id": "8591c5a8-cf4f-4cdb-864a-863e485d6127",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a ~$150 dash cam",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 16/24]\n(in reply to) User: I've been meaning to get a dash cam for my car, especially aft"
+      },
+      {
+        "id": "c3d7f7e8-5ca0-4084-9a78-8a74c3a3aef8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dash cam selection criteria (1080p+, wide FOV, G-sensor, parking mode)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 17/24]\n(in reply to) User: I've been meaning to get a dash cam for my car, especially aft"
+      },
+      {
+        "id": "73f8664f-e95a-4263-82dd-ac32caa62d77",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Dash cam buying considerations (mounting, storage, power)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 18/24]\n(in reply to) User: I've been meaning to get a dash cam for my car, especially aft"
+      },
+      {
+        "id": "51f30245-f4a4-433d-a073-65ff0319e5ed",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering a ~$150 dash cam",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 19/24]\n(in reply to) User: I've been meaning to get a dash cam for my car, especially aft"
+      },
+      {
+        "id": "8c4e23ac-b55e-41d0-b878-f4580b5907d3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User suggests getting a dash cam and checking tire pressure",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 20/24]\nUser: I'm glad you're considering a dash cam. I think it's a good idea to get one,"
+      },
+      {
+        "id": "1d144896-328b-4c54-b147-b4e2b9f43df6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant clarifies it has no car; advises monthly tire pressure checks",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 21/24]\n(in reply to) User: I'm glad you're considering a dash cam. I think it's a good id"
+      },
+      {
+        "id": "5054381c-3775-491b-b004-b138e741f3e2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about dash cam mounting preference",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 22/24]\nUser: I'm glad we got that cleared up! Anyway, back to your dash cam research. Sin"
+      },
+      {
+        "id": "d9f5783b-0268-430c-89aa-9374bec2f63e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General info on dash cam mounting options",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 23/24]\n(in reply to) User: I'm glad we got that cleared up! Anyway, back to your dash cam"
+      },
+      {
+        "id": "ffb6ca9b-8ef6-4a0d-84aa-c0ce136a9384",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Dash cam mounting options discussed (hardwire vs other)",
+        "text": "[date: 2023-05-24T23:28:00+00:00 | context: Session 7b822daf1dc0 - happened on 2023-05-24 23:28:00 UTC. | turn 24/24]\n(in reply to) User: I'm glad we got that cleared up! Anyway, back to your dash cam"
+      },
+      {
+        "id": "e69d0153-278a-4505-864c-1c588fb639aa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about staying current with digital marketing trends",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 5/11]\nUser: How can businesses make sure that they are keeping up with the latest digital"
+      },
+      {
+        "id": "0543c276-6925-4fbf-a53d-3afc8270b831",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Ways businesses can keep up with digital marketing trends",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 6/11]\n(in reply to) User: How can businesses make sure that they are keeping up with the "
+      },
+      {
+        "id": "feea2e01-c612-4301-8097-7a2b72eef2f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strategies to keep up with digital marketing trends",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 7/11]\n(in reply to) User: How can businesses make sure that they are keeping up with the "
+      },
+      {
+        "id": "55cf0863-6a27-452c-ab73-54bf753bd42d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital vs traditional marketing: complementary approaches",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 8/11]\nUser: Can businesses rely solely on digital marketing or should they also invest in"
+      },
+      {
+        "id": "6f892484-e29e-4fb6-a6b4-ed9328de8af8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about measuring digital marketing success",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 9/11]\nUser: Do you have any advice on how businesses can measure the success of their dig"
+      },
+      {
+        "id": "41ef7f13-8d4c-4c6e-b7c4-daa96c263604",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on measuring digital marketing success",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 10/11]\n(in reply to) User: Do you have any advice on how businesses can measure the succe"
+      },
+      {
+        "id": "943f1944-3193-4538-b0d2-d3e267b6cdfc",
+        "score": 0.3239,
+        "memory_type": "fact",
+        "title": "Metrics for measuring digital marketing success",
+        "text": "[date: 2023-05-29T02:37:00+00:00 | context: Session 5055f14e77e4 - happened on 2023-05-29 02:37:00 UTC. | turn 11/11]\n(in reply to) User: Do you have any advice on how businesses can measure the succe"
+      },
+      {
+        "id": "fc09b125-7047-4395-99a2-790145c343ec",
+        "score": null,
+        "memory_type": "task",
+        "title": "Calculate monthly mortgage payments for $450k loan",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 1/22]\nUser: I'm in the process of buying a house and I need to calculate my monthly mortg"
+      },
+      {
+        "id": "714d545e-ab5a-4e08-8553-dbc93175a1d6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimated monthly mortgage payment for $450k loan at 3.75% (30-year fixed)",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 2/22]\n(in reply to) User: I'm in the process of buying a house and I need to calculate my"
+      },
+      {
+        "id": "91f07638-6db8-40e2-9fb1-287134fd7166",
+        "score": 0.359,
+        "memory_type": "fact",
+        "title": "Mortgage estimate inputs: $450k loan, 30-year fixed at 3.75%",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 3/22]\n(in reply to) User: I'm in the process of buying a house and I need to calculate my"
+      },
+      {
+        "id": "65f6a467-3590-48ff-b0e6-d3d0db32613a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate down payment amount",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 4/22]\nUser: Can you help me figure out how much I'll need for a down payment?"
+      },
+      {
+        "id": "e37fbeca-7b81-4a89-b2ff-e1d976ec8e29",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Down payment guidelines by mortgage type (conventional/FHA/VA/USDA)",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 5/22]\n(in reply to) User: Can you help me figure out how much I'll need for a down paymen"
+      },
+      {
+        "id": "97a409da-8ca3-4c62-b800-9ab8598e3608",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Down payment and closing costs estimate for $540k purchase",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 6/22]\n(in reply to) User: Can you help me figure out how much I'll need for a down paymen"
+      },
+      {
+        "id": "9c1d9710-f178-49ac-8d11-8f06a4577f37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User approved $450k loan; asks about homeowner's insurance types",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 7/22]\nUser: I actually got approved for a $450,000 loan, but the house I'm buying is actu"
+      },
+      {
+        "id": "fe7c4476-623e-4bad-97a4-d0f1b078ea92",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed approval for $450k loan and asked about homeowner's insurance typ",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 8/22]\n(in reply to) User: I actually got approved for a $450,000 loan, but the house I'm "
+      },
+      {
+        "id": "6ccaaacb-e714-4035-9e91-847dbceb1e23",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of homeowner's insurance coverages",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 9/22]\n(in reply to) User: I actually got approved for a $450,000 loan, but the house I'm "
+      },
+      {
+        "id": "c73bef5a-a67e-48d9-b580-c2f2661b5ec4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Homeowners insurance: limits, deductibles, endorsements",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 10/22]\n(in reply to) User: I actually got approved for a $450,000 loan, but the house I'm"
+      },
+      {
+        "id": "f5761578-e92b-4477-b40f-2a7a564a62f9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Homeowner's insurance providers and shopping tips",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 11/22]\n(in reply to) User: I actually got approved for a $450,000 loan, but the house I'm"
+      },
+      {
+        "id": "0d7fc55b-f348-4d23-9c66-4f008c5872e7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked average homeowner's insurance cost in Oakwood",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 12/22]\nUser: What's the average cost of homeowner's insurance in the Oakwood neighborhood"
+      },
+      {
+        "id": "f5a4c90c-447d-4637-a4e5-998675a63101",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimated homeowner's insurance costs for Oakwood neighborhood",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 13/22]\n(in reply to) User: What's the average cost of homeowner's insurance in the Oakwoo"
+      },
+      {
+        "id": "ca8cdf17-9962-4dd8-9bdd-7b7d0aae78c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on estimating homeowner's insurance costs",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 14/22]\n(in reply to) User: What's the average cost of homeowner's insurance in the Oakwoo"
+      },
+      {
+        "id": "a4a539d8-e108-4bbb-a6ff-0feeed5e3279",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about flood insurance options for Oakwood",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 15/22]\nUser: Can you tell me more about the flood insurance options available in the Oakw"
+      },
+      {
+        "id": "b4f08fc6-6eaf-4b8c-acc9-436a533ebcc4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Flood insurance overview (NFIP, coverage, zones)",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 16/22]\n(in reply to) User: Can you tell me more about the flood insurance options availab"
+      },
+      {
+        "id": "8638f38b-3c26-4a8a-adbf-c40c7f1a4e65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Flood insurance options: private, state programs, surplus lines",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 17/22]\n(in reply to) User: Can you tell me more about the flood insurance options availab"
+      },
+      {
+        "id": "40996380-aa3a-429e-a04b-96c239045e42",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Flood insurance options: elevation certificates, mitigation, excess coverage",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 18/22]\n(in reply to) User: Can you tell me more about the flood insurance options availab"
+      },
+      {
+        "id": "716205ed-9b5a-4f2c-b356-1f5602f29ca3",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks about setting up utility accounts in their name",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 19/22]\nUser: Can you tell me more about the process of setting up utility accounts in my "
+      },
+      {
+        "id": "f17fe0d5-04b2-489d-a9e3-6f3fbd4aa88e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General process & documents for setting up utility accounts",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 20/22]\n(in reply to) User: Can you tell me more about the process of setting up utility a"
+      },
+      {
+        "id": "a8bb5afc-d94c-4c03-b288-d96e4f9ea477",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Process for setting up utility accounts and required documents",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 21/22]\n(in reply to) User: Can you tell me more about the process of setting up utility a"
+      },
+      {
+        "id": "3072e23f-c794-44f8-8d01-c68163450287",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about setting up utility accounts and required documents",
+        "text": "[date: 2023-05-29T03:28:00+00:00 | context: Session 38946a57c8d1 - happened on 2023-05-29 03:28:00 UTC. | turn 22/22]\n(in reply to) User: Can you tell me more about the process of setting up utility a"
+      },
+      {
+        "id": "40a3a53a-6283-4a65-9bd2-e2f1e0c3ea3b",
+        "score": 0.3413,
+        "memory_type": "episode",
+        "title": "User reports inconsistent wake-up time and asks for morning energy tips",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 1/28]\nUser: I've been having trouble establishing a consistent wake-up time, and I think "
+      },
+      {
+        "id": "0ba76413-e347-4a89-b566-683987ab5df3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on consistent wake-up time and morning routine",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 2/28]\n(in reply to) User: I've been having trouble establishing a consistent wake-up time"
+      },
+      {
+        "id": "130d043b-8426-4afc-b94c-14eaf4e8adc8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning routine tips for waking energized",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 3/28]\n(in reply to) User: I've been having trouble establishing a consistent wake-up time"
+      },
+      {
+        "id": "1c363034-1b83-4a25-b751-e5b2269d8fea",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning routine guidance: avoid screens, breakfast, sleep, wake-up light",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 4/28]\n(in reply to) User: I've been having trouble establishing a consistent wake-up time"
+      },
+      {
+        "id": "749b8194-4174-4212-a175-3c84ed41936c",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Morning routine improvement plan (night-before prep, enjoyable mornings)",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 5/28]\n(in reply to) User: I've been having trouble establishing a consistent wake-up time"
+      },
+      {
+        "id": "088d5b90-5ff8-401b-8d2f-dda6d220a209",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed inconsistent wake-up time and morning routine",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 6/28]\n(in reply to) User: I've been having trouble establishing a consistent wake-up time"
+      },
+      {
+        "id": "147836d0-7f74-4021-a0db-f24f567d365a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes morning exercise and stretching",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 7/28]\nUser: I like the idea of incorporating exercise into my morning routine. Can you su"
+      },
+      {
+        "id": "5e6ff28c-fe1b-4bfa-9a92-64f22306bb53",
+        "score": null,
+        "memory_type": "episode",
+        "title": "10-minute morning stretching routine suggestion",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 8/28]\n(in reply to) User: I like the idea of incorporating exercise into my morning routi"
+      },
+      {
+        "id": "f45513d0-01a8-400b-882d-8ef9e584d201",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes morning exercise; stretching routine suggestion",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 9/28]\n(in reply to) User: I like the idea of incorporating exercise into my morning routi"
+      },
+      {
+        "id": "74d75906-802f-4108-b6e2-44235e578144",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested a 10-minute morning stretching routine",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 10/28]\n(in reply to) User: I like the idea of incorporating exercise into my morning rout"
+      },
+      {
+        "id": "8ef5ea72-e4ab-40a8-8dd6-3b89befee1fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about morning stretching and wake-up light",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 11/28]\nUser: I'll definitely try to fit in this stretching routine into my morning. I'm a"
+      },
+      {
+        "id": "5a8f8023-77b8-4b79-93f3-8df488e21002",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant explains how wake-up lights work",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 12/28]\n(in reply to) User: I'll definitely try to fit in this stretching routine into my "
+      },
+      {
+        "id": "2a6cd281-70b5-4721-b5c4-6d7f397402ba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Wake-up light recommendations (Philips, Lumos, Hatch Rest)",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 13/28]\n(in reply to) User: I'll definitely try to fit in this stretching routine into my "
+      },
+      {
+        "id": "c1a80e27-ef73-4c93-803c-cfa3cbdec83e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wake-up light recommendations and usage tips",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 14/28]\n(in reply to) User: I'll definitely try to fit in this stretching routine into my "
+      },
+      {
+        "id": "a86cf73e-a061-4dc3-9853-8eeefcb8d4e8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about wake-up light and morning stretching routine",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 15/28]\n(in reply to) User: I'll definitely try to fit in this stretching routine into my "
+      },
+      {
+        "id": "5d5a9fef-4aeb-4401-a4ee-a0212496419f",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks for sleep tracker recommendations",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 16/28]\nUser: Do you have any recommendations for a sleep tracker or a log to monitor my s"
+      },
+      {
+        "id": "46ff23e1-7f02-4e99-8938-d36bfbe85da1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Sleep tracker recommendations (Fitbit, Garmin, Apple Watch)",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 17/28]\n(in reply to) User: Do you have any recommendations for a sleep tracker or a log t"
+      },
+      {
+        "id": "5f2d6e7a-1595-4821-a949-c09056f6a81a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations for sleep trackers and sleep logs",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 18/28]\n(in reply to) User: Do you have any recommendations for a sleep tracker or a log t"
+      },
+      {
+        "id": "503cd3cf-cc8d-4855-8357-a73541db5a3f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for using a sleep tracker/log",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 19/28]\n(in reply to) User: Do you have any recommendations for a sleep tracker or a log t"
+      },
+      {
+        "id": "ade89bf8-54fd-4fc3-ba7f-ebf05e1a30f6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering switching from paper sleep log to tracker/app",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 20/28]\nUser: I've been using a paper sleep log to track my sleep patterns and wake-up tim"
+      },
+      {
+        "id": "e7601f67-d7dd-4892-bb19-321e353fc50f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendations for choosing sleep wearable or app",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 21/28]\n(in reply to) User: I've been using a paper sleep log to track my sleep patterns a"
+      },
+      {
+        "id": "ea88eed6-b399-404d-b2e6-4d11ab5be0d2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Criteria for choosing sleep tracking apps/wearables",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 22/28]\n(in reply to) User: I've been using a paper sleep log to track my sleep patterns a"
+      },
+      {
+        "id": "e75054b0-4a80-4c61-a2b5-0d936bfc9279",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria and recommendations for choosing sleep tracking apps/devices",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 23/28]\n(in reply to) User: I've been using a paper sleep log to track my sleep patterns a"
+      },
+      {
+        "id": "75cb0cfa-866e-4589-b86a-28541e2054d8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Sleep tracking device/app recommendations (Fitbit Inspire HR, Pillow, Garmin Viv",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 24/28]\n(in reply to) User: I've been using a paper sleep log to track my sleep patterns a"
+      },
+      {
+        "id": "4211371e-fa22-4637-a318-1158f1cfa54e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for choosing a sleep tracker or app",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 25/28]\n(in reply to) User: I've been using a paper sleep log to track my sleep patterns a"
+      },
+      {
+        "id": "c9504993-eab2-4b11-bf97-0424a1319ea6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering morning exercise and wake-up light; switching sleep tracking",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 26/28]\nUser: I'll try to incorporate exercise into my morning routine, and I'm also consi"
+      },
+      {
+        "id": "84786115-376c-4f30-afa9-0b9ccb3aea2e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about morning exercise and wake-up light",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 27/28]\n(in reply to) User: I'll try to incorporate exercise into my morning routine, and "
+      },
+      {
+        "id": "5c02095b-b2ae-4964-97b0-362855a354c1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on morning exercise and sleep tracking habits",
+        "text": "[date: 2023-05-30T00:59:00+00:00 | context: Session 3e645c39a68d - happened on 2023-05-30 00:59:00 UTC. | turn 28/28]\n(in reply to) User: I'll try to incorporate exercise into my morning routine, and "
+      }
+    ]
+  },
+  "context": {
+    "chars": 101935,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25483)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26578,
+    "prompt_tokens": 25135,
+    "completion_tokens": 356,
+    "reasoning_tokens": 1087,
+    "generate_time_ms": 17134.49711492285,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23376,
+        "completion_tokens": 143,
+        "reasoning_tokens": 369,
+        "total_tokens": 23888
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 612,
+        "completion_tokens": 58,
+        "reasoning_tokens": 230,
+        "total_tokens": 900
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 420,
+        "completion_tokens": 59,
+        "reasoning_tokens": 247,
+        "total_tokens": 726
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 727,
+        "completion_tokens": 96,
+        "reasoning_tokens": 241,
+        "total_tokens": 1064
+      }
+    ]
+  },
+  "failure_label": null
+}

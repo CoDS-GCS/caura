@@ -1,0 +1,642 @@
+{
+  "overall_accuracy": 0.8666666666666667,
+  "total_questions": 60,
+  "correct_questions": 52,
+  "by_question_type": {
+    "single-session-user": {
+      "accuracy": 1.0,
+      "total": 10,
+      "correct": 10
+    },
+    "multi-session": {
+      "accuracy": 0.7,
+      "total": 10,
+      "correct": 7
+    },
+    "single-session-preference": {
+      "accuracy": 0.7,
+      "total": 10,
+      "correct": 7
+    },
+    "temporal-reasoning": {
+      "accuracy": 0.9,
+      "total": 10,
+      "correct": 9
+    },
+    "knowledge-update": {
+      "accuracy": 1.0,
+      "total": 10,
+      "correct": 10
+    },
+    "single-session-assistant": {
+      "accuracy": 0.9,
+      "total": 10,
+      "correct": 9
+    }
+  },
+  "judge_model": "gemini-3.5-flash-lite",
+  "judge_model_resolved": "gemini-3.5-flash-lite",
+  "judge_prompts": "official LongMemEval evaluate_qa.py task-specific templates, unmodified",
+  "results": [
+    {
+      "question_id": "94f70d80",
+      "question": "How long did it take me to assemble the IKEA bookshelf?",
+      "gold_answer": "4 hours",
+      "hypothesis": "It took you 4 hours to assemble the IKEA bookshelf.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "c960da58",
+      "question": "How many playlists do I have on Spotify?",
+      "gold_answer": "20",
+      "hypothesis": "You have 20 playlists on Spotify.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "ad7109d1",
+      "question": "What speed is my new internet plan?",
+      "gold_answer": "500 Mbps",
+      "hypothesis": "Your new internet plan speed is 500 Mbps.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "726462e0",
+      "question": "What was the discount I got on my first purchase from the new clothing brand?",
+      "gold_answer": "10%",
+      "hypothesis": "The discount you received on your first purchase from the new clothing brand was 10%.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "75499fd8",
+      "question": "What breed is my dog?",
+      "gold_answer": "Golden Retriever",
+      "hypothesis": "Your dog, Max, is a Golden Retriever.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "21436231",
+      "question": "How many largemouth bass did I catch on my fishing trip to Lake Michigan?",
+      "gold_answer": "12",
+      "hypothesis": "You caught 12 largemouth bass on your fishing trip to Lake Michigan.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "36580ce8",
+      "question": "What health issue did I initially think was just a cold?",
+      "gold_answer": "bronchitis",
+      "hypothesis": "The health issue you initially thought was just a cold was a bad case of bronchitis.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "3d86fd0a",
+      "question": "Where did I meet Sophia?",
+      "gold_answer": "a coffee shop in the city",
+      "hypothesis": "You met Sophia at a coffee shop in the city.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "bc8a6e93_abs",
+      "question": "What did I bake for my uncle's birthday party?",
+      "gold_answer": "You did not mention this information. You mentioned baking for your niece's birthday party but not your uncle's",
+      "hypothesis": "Based on the chat history, you haven't mentioned baking anything for an uncle's birthday party. However, you did mention that you recently baked a **lemon blueberry cake** for your **niece's** birthday party.",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "15745da0_abs",
+      "question": "How long have I been collecting vintage films?",
+      "gold_answer": "You did not mention this information. You mentioned collecting vintage cameras but not vintage films.",
+      "hypothesis": "Based on the provided chat history, you have not mentioned collecting vintage films. \n\nHowever, you did mention that you have been collecting **vintage cameras** for **three months** (and described yourself as a \"huge film buff\").",
+      "question_type": "single-session-user",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "6cb6f249",
+      "question": "How many days did I take social media breaks in total?",
+      "gold_answer": "17 days",
+      "hypothesis": "You took a total of 17 days of social media breaks: a 7-day (week-long) break in mid-January and a 10-day break in mid-February.",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_d12ceb0e",
+      "question": "What is the average age of me, my parents, and my grandparents?",
+      "gold_answer": "59.6",
+      "hypothesis": "Based on your chat history, the ages are:\n\n- **You:** 32\n- **Mother:** 55\n- **Father:** 58\n- **Grandmother:** 75\n- **Grandfather:** 78\n\nThe average age is **59.6** years old ((32 + 55 + 58 + 75 + 78) / 5 = 298 / 5 = 59.6).",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "2ce6a0f2",
+      "question": "How many different art-related events did I attend in the past month?",
+      "gold_answer": "4",
+      "hypothesis": "In the past month (between February 8, 2023, and March 8, 2023), you attended **4** art-related events (or **3**, depending on whether the History Museum tour is included):\n\n1. **\"Women in Art\" Exhibition** (featuring works by Rachel Lee) – February 10, 2023 *(venue not specified)*\n2. **\"Art Afternoon\"** at the **Children's Museum** – February 17, 2023\n3. **Guided Tour on ancient history, pottery, and art** at the **History Museum** – February 24, 2023\n4. **'The Evolution of Street Art' Lecture** at the **Art Gallery** – March 3, 2023",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "10d9b85a",
+      "question": "How many days did I spend attending workshops, lectures, and conferences in April?",
+      "gold_answer": "3 days",
+      "hypothesis": "You mentioned attending a lecture on sustainable development at the public library on April 10th. Based on the chat history, you spent 1 day attending workshops, lectures, or conferences in April.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "no",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "edced276_abs",
+      "question": "How many days did I spend in total traveling in Hawaii and in Seattle?",
+      "gold_answer": "The information provided is not enough. You mentioned traveling for 10 days in Hawaii but did not mention abything about the trip to Seattle.",
+      "hypothesis": "You spent 10 days traveling in Hawaii with your family. However, there is no record or mention in the chat history of you traveling to or spending time in Seattle. Because the time spent in Seattle is not documented, the total days spent traveling across both destinations cannot be determined.",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "81507db6",
+      "question": "How many graduation ceremonies have I attended in the past three months?",
+      "gold_answer": "3",
+      "hypothesis": "You have attended 3 graduation ceremonies in the past three months:\n\n1. Your little cousin Emma's preschool graduation ceremony (about two months ago)\n2. Your colleague Alex's graduation from a leadership development program at work (a few weeks ago)\n3. Your best friend Rachel's master's degree graduation ceremony (a couple of weeks ago)\n\n*(Note: You mentioned missing your nephew Jack's eighth-grade graduation ceremony last month.)*",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "0a995998",
+      "question": "How many items of clothing do I need to pick up or return from a store?",
+      "gold_answer": "3",
+      "hypothesis": "Based on the details provided, here are the items you mentioned needing to pick up or return:\n\n* **Boots from Zara:** You need to pick up the new pair in a larger size and return the old pair.\n* **Navy blue blazer from the dry cleaner:** You need to pick up this blazer from dry cleaning.\n\nDepending on how the categories are defined:\n* If counting wearable items across both stores and cleaners, there are **2 items total** (1 pair of boots/footwear from Zara and 1 clothing item—the navy blue blazer—from the dry cleaner).\n* If strictly distinguishing clothing from footwear, or a retail store from a dry cleaner, there is **1 pair of boots/footwear** to pick up/return from a store, and **1 clothing item** to pick up from the dry cleaner.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "no",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "32260d93",
+      "question": "Can you recommend a show or movie for me to watch tonight?",
+      "gold_answer": "The user would prefer recommendations for stand-up comedy specials on Netflix, especially those that are known for their storytelling. They may not prefer recommendations for other genres or platforms.",
+      "hypothesis": "Based on your interests, here are a few personalized recommendations for tonight:\n\n1. **Stand-Up Comedy (Storytelling):**\n   * **John Mulaney: *Baby J*** or ***The Comeback Kid*** (Netflix) – Since you love narrative-driven comedy and John Mulaney’s *Kid Gorgeous*, his other specials deliver the same sharp, long-form storytelling craft that can also inspire your own stand-up work.\n   * **Mike Birbiglia: *The New One*** (Netflix) – An excellent choice for an aspiring comedian who appreciates seamless, structured storytelling comedy.\n\n2. **True Crime:**\n   * **The Staircase** or ***Making a Murderer*** (Netflix) – Since you are a fan of true crime and binged all of *Crime Junkie*, these gripping, detail-heavy docuseries offer deep dives into complex investigations and legal battles.\n\n3. **Ancient Civilizations & History:**\n   * **Secrets of the Saqqara Tomb** (Netflix) – Given your keen interest in ancient Egyptian history, pyramids, and archaeology, this documentary follows a team of archaeologists unearthing an untouched tomb, providing a fascinating look into ancient Egypt.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "35a27287",
+      "question": "Can you recommend some interesting cultural events happening around me this weekend?",
+      "gold_answer": "The user would prefer responses that suggest cultural events where they can practice their language skills, particularly Spanish and French. They would also appreciate if the event has a focus on language learning resources. They would not prefer events that do not provide opportunities for language practice or cultural exchange.",
+      "hypothesis": "Because your specific city or geographic location hasn’t been mentioned in our chat history, I cannot provide exact event listings happening right around you this weekend. If you share your current city or area, I would be happy to help you find specific local options!\n\nIn the meantime, based on your established cultural interests, here are tailored categories and ideas you can look for on local community calendars, event platforms, or venue listings for the upcoming weekend:\n\n* **Theater Productions:** Check the schedules of local playhouses, performing arts centers, or renowned regional theater companies for weekend stage plays or classical dramas, aligning with your passion for theater.\n* **Multicultural Festivals & Language Exchanges:** Look for community cultural festivals or weekend language exchange meetups celebrating linguistic diversity—particularly French or Spanish conversation tables, Spanish-speaking social clubs, or events celebrating multicultural traditions and music.\n* **Visual Arts & Gallery Exhibitions:** Explore local art galleries, museum exhibitions featuring painting collections (such as watercolors), or open studio tours and weekend community art workshops/classes.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "195a1a1b",
+      "question": "Can you suggest some activities that I can do in the evening?",
+      "gold_answer": "The user would prefer suggestions that involve relaxing activities that can be done in the evening, preferably before 9:30 pm. They would not prefer suggestions that involve using their phone or watching TV, as these activities have been affecting their sleep quality.",
+      "hypothesis": "Based on your schedule and preferences, here is a suggested routine and activities you can do between finishing work around 6:30 pm and winding down for sleep by 9:30 pm:\n\n### **Earlier Evening (6:30 pm – 8:30 pm)**\n* **Watch an Indie Film:** Since you enjoy watching indie films and curating programs for the community film festival, the earlier part of the evening is a great time to screen a movie while still leaving plenty of time to disconnect from screens later.\n* **Gentle Yoga and Stretching:** Building on your 8 weeks of yoga classes, you can do a low-stress stretching or gentle yoga sequence to maintain flexibility, improve balance, and release physical tension from the workday.\n\n### **Screen-Free Wind-Down Period (8:30 pm – 9:30 pm)**\nTo honor your goal of avoiding screens and social media before bed, use the final hour to transition into a calm, restful state:\n* **Reflective Journaling:** Spend 15–20 minutes engaging in reflective writing or journaling to unwind your mind.\n* **Quiet Reading:** Read a physical book or magazine to relax without screen glare.\n* **Meditation & Relaxation Techniques:** \n  * Practice a guided body scan (such as the **Insight Timer \"Body Scan\"**) or progressive muscle relaxation.\n  * Use guided imagery and visualization (such as **Headspace's \"Sleep\" meditation**) or deep breathing exercises to calm the mind and prepare for a good night's sleep by 9:30 pm.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "b0479f84",
+      "question": "I've got some free time tonight, any documentary recommendations?",
+      "gold_answer": "The user would prefer documentary recommendations that are similar in style and theme to 'Our Planet', 'Free Solo', and 'Tiger King', which they have previously enjoyed. They might not prefer recommendations of documentaries that are vastly different in tone or subject matter from these titles. The preferred response utilizes the user's previously mentioned viewing history to suggest documentaries that cater to their tastes.",
+      "hypothesis": "Since you've already finished watching ***Our Planet***, ***Free Solo***, and ***Tiger King***, here are a few documentary recommendations tailored to your interests in wildlife, nature photography, and marine ecosystems:\n\n1. ***Chasing Coral*** (Netflix) – An ideal choice given your keen interest in marine ecosystems and coral reefs. It follows a team of divers, photographers, and scientists documenting the vanishing of the world's coral reefs through stunning underwater photography.\n2. ***Dynasties*** – Perfect for your enthusiasm for wildlife and nature photography, this series offers an intimate look at the lives and struggles of specific animal families (such as chimpanzees, lions, and painted wolves) fighting for survival.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "caf03d32",
+      "question": "I've been struggling with my slow cooker recipes. Any advice on getting better results?",
+      "gold_answer": "The user would prefer responses that provide tips and advice specifically tailored to their slow cooker experiences, utilizing their recent success with beef stew and interest in making yogurt in the slow cooker. They might not prefer general slow cooker recipes or advice unrelated to their specific experiences and interests.",
+      "hypothesis": "Here are several practical tips and best practices to get better results from your slow cooker, tailored to what you have been cooking and exploring:\n\n### 1. General Slow Cooking Best Practices\n* **Watch the Liquid Levels:** Slow cookers trap steam, meaning very little liquid evaporates. Reduce liquids (broth, water, sauces) compared to standard stovetop or oven recipes, usually by about one-third to one-half, to avoid watery dishes.\n* **Keep the Lid Closed:** Every time the lid is removed, the slow cooker loses significant heat and can add 15 to 20 minutes to the total cooking time.\n* **Layer Wisely:** Dense root vegetables (potatoes, carrots, onions) take longer to cook than meat and should be placed at the bottom and sides where heat is strongest.\n\n### 2. Tips for Beef Stew & Meat Dishes\n* **Sear Before Slow Cooking:** As with your beef stew, browning meat in a skillet beforehand develops deep flavors through caramelization and helps render excess fat.\n* **Thickening at the End:** If your stew turns out thinner than desired, remove the lid during the last 30 minutes, or stir in a cornstarch slurry or flour paste toward the end of cooking.\n\n### 3. Tips for Plant-Based, Vegan, and Vegetarian Cooking\n* **Stagger Cooking Times for Vegetables:** Unlike hearty cuts of beef, tender vegetables (zucchini, bell peppers, spinach, peas) can turn mushy if cooked for 6–8 hours. Add sturdy ingredients (lentils, beans, sweet potatoes) early, and stir in delicate vegetables and fresh herbs during the final 30 to 45 minutes.\n* **Pre-cook or Soak Dried Beans:** Certain dried beans (especially kidney beans) must be boiled vigorously on the stovetop first to eliminate toxins before slow cooking.\n* **Add Acid and Freshness Last:** Plant-based dishes can taste flat after hours of simmering. Brighten them right before serving with a splash of citrus juice (lemon/lime), vinegar, or fresh herbs.\n\n### 4. Tips for Slow Cooker Cashew Yogurt\n* **Precise Temperature Control:** Live cultures are sensitive to heat. When culturing cashew milk yogurt, ensure the slow cooker doesn't get too warm (keep it between 105°F–110°F / 40°C–43°C), using the \"warm\" setting wrapped in towels or turning the unit off once the base is heated.\n* **Cool Before Adding Cultures:** Always let the cashew base cool below 110°F before whisking in your starter culture so you do not kill the beneficial bacteria.\n* **Straining for Thickness:** Cashew yogurt doesn't separate whey in the exact same manner as dairy milk, but using a fine nut milk bag or multiple layers of cheesecloth in a colander will help remove excess liquid and achieve a thick, creamy consistency.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "09d032c9",
+      "question": "I've been having trouble with the battery life on my phone lately. Any tips?",
+      "gold_answer": "The user would prefer responses that build upon their previous mention of purchasing a portable power bank, such as suggestions on how to optimize its use, like ensuring it's fully charged before use. They might also appreciate tips on utilizing battery-saving features on their phone. The user may not prefer responses that suggest alternative solutions or unrelated advice.",
+      "hypothesis": "Here are some practical tips to help extend your phone’s daily battery life and protect its overall battery health:\n\n---\n\n### **Quick Settings Adjustments**\n1. **Lower Screen Brightness & Use Auto-Brightness:** The display is usually the biggest battery drain. Lowering brightness manually or enabling adaptive brightness helps significantly.\n2. **Shorten Screen Timeout:** Set your screen to turn off after 30 seconds or 1 minute of inactivity.\n3. **Turn on Low Power / Battery Saver Mode:** This automatically throttles background processes, reduces refresh rate, and pauses non-essential tasks.\n4. **Use Dark Mode (for OLED/AMOLED screens):** If your phone has an OLED display, dark mode saves considerable energy because black pixels are turned completely off.\n\n---\n\n### **Manage Apps and Background Activity**\n5. **Check Battery Usage Stats:** \n   * Go to **Settings > Battery** to see which specific apps are consuming the most power.\n6. **Restrict Background App Refresh:** Turn off background activity for apps that don’t need to update constantly (social media, games, shopping apps).\n7. **Audit Location Services:** Many apps run GPS continuously in the background. Set location permissions to **\"While Using the App\"** or **\"Never\"** instead of **\"Always\"**.\n8. **Disable Push Notifications for Non-Essential Apps:** Every notification lights up your screen and wakes up the processor.\n\n---\n\n### **Connectivity & Radios**\n9. **Turn Off Unused Connections:** Turn off Wi-Fi, Bluetooth, or Hotspot when you're not using them so your phone stops constantly scanning for devices.\n10. **Use Airplane Mode in Low-Signal Areas:** If you are in an area with poor cellular reception, your phone expends a massive amount of power trying to maintain a signal. Switching to Airplane Mode (or connecting to Wi-Fi Calling) prevents rapid drain.\n\n---\n\n### **Long-Term Battery Health**\n11. **Avoid Extreme Temperatures:** High heat (leaving your phone in a hot car or direct sunlight) degrades lithium-ion batteries rapidly.\n12. **Optimize Charging:**\n   * Enable **Optimized Battery Charging** (iOS) or **Protect Battery** (Android), which limits prolonged periods at 100% charge overnight.\n   * Try to keep the battery level roughly between **20% and 80%** when practical.\n13. **Keep Your OS Updated:** System updates often include bug fixes and power-management optimizations.\n\n---\n\n*Tip on the go:* If your phone's battery health has degraded physically over time, carrying a compact **portable power bank** with you can take the stress out of low-battery situations while you're away from an outlet.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "1da05512",
+      "question": "I'm trying to decide whether to buy a NAS device now or wait. What do you think?",
+      "gold_answer": "The user would prefer responses that take into account their current home network storage capacity issues and recent reliance on external hard drives, highlighting the potential benefits of a NAS device in addressing these specific needs. They might not prefer responses that ignore their current storage challenges or fail to consider their recent tech upgrades and priorities. Preferred responses would utilize the user's previous mentions of storage capacity issues and tech investments to inform their decision.",
+      "hypothesis": "Whether you should buy a NAS device now or wait depends on how urgently you need to resolve your storage constraints versus finalizing your hardware choices:\n\n### Reasons to Buy Now\n* **Resolve Storage Bottlenecks:** You are already experiencing home network storage capacity limitations, and buying now immediately addresses these issues.\n* **Convenience and Centralization:** Upgrading from your current method of manually backing up to an external hard drive allows you to establish a convenient, automated central backup hub for all your devices, including your laptop and phone.\n\n### Reasons to Wait\n* **Evaluating 2-Bay vs. 4-Bay Needs:** You are still considering whether a 2-bay or 4-bay NAS is the right fit. Taking a brief period to assess your long-term storage growth, drive redundancy plans, and budget can prevent buying a system you might outgrow quickly.\n* **Security Requirements:** Because data security is a primary concern, waiting allows you to thoroughly compare models to ensure they support the robust access controls and encryption features you require.\n* **Budget and Sales:** Waiting gives you time to calculate the full cost of the enclosure plus compatible hard drives, or to take advantage of upcoming sales.\n\n### Recommendation\nIf your current storage limitations and reliance on external drive backups are causing immediate disruptions, it makes sense to **buy now** once you select a model that supports encryption and access controls. However, if your current setup is manageable for a short while, it is advisable to **wait briefly** to finalize your decision on 2-bay vs. 4-bay capacity and evaluate drive pricing, ensuring you choose the ideal system for your needs as a beginner.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "07b6f563",
+      "question": "Can you suggest some useful accessories for my phone?",
+      "gold_answer": "The user would prefer suggestions of accessories that are compatible with an iPhone 13 Pro, such as high-quality screen protectors, durable cases, portable power banks, or phone wallet cases. They may not prefer suggestions of accessories that are not compatible with Apple products or do not enhance the functionality or protection of their phone.",
+      "hypothesis": "Based on your iPhone 13 Pro and your previous preferences, here are some useful accessory suggestions tailored to your phone:\n\n1. **High-Quality Replacement Screen Protector:** A durable, high-grade screen protector to replace your cracked one and keep your iPhone 13 Pro display protected.\n2. **Wallet Case:** A protective phone wallet case, particularly from brands like OtterBox which you have shown interest in, to combine everyday phone protection with convenient card storage.\n3. **Qi-Certified Wireless Charging Power Bank:** A Qi-certified wireless power bank to give you the convenience of cable-free on-the-go charging for your iPhone 13 Pro. While you already own a portable power bank from Best Buy that works well, adding a wireless charging model would eliminate the need to carry charging cables.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "77eafa52",
+      "question": "How much more did I have to pay for the trip after the initial quote?",
+      "gold_answer": "$300",
+      "hypothesis": "You had to pay $300 more for the trip after the initial quote, as the price changed from the initial quote of $2,500 to the corrected price of $2,800 ($2,800 - $2,500 = $300).",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "0ea62687",
+      "question": "How much more miles per gallon was my car getting a few months ago compared to now?",
+      "gold_answer": "2",
+      "hypothesis": "A few months ago, your car was getting 30 miles per gallon in the city, compared to its recent and current fuel efficiency of 28 miles per gallon in the city. Therefore, your car was getting 2 miles per gallon more a few months ago compared to now.",
+      "question_type": "multi-session",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "0a34ad58",
+      "question": "I’m a bit anxious about getting around Tokyo. Do you have any helpful tips?",
+      "gold_answer": "The user would prefer responses that utilize their existing resources, such as their Suica card and TripIt app, to provide personalized tips for navigating Tokyo's public transportation. They might not prefer general tips or recommendations that do not take into account their prior preparations.",
+      "hypothesis": "It is completely normal to feel anxious about navigating Tokyo, but with a few simple strategies and the preparations you have already made, you will find getting around very manageable:\n\n* **Rely on your Suica Card:** You are already a step ahead by having your Suica IC card ready. It takes the stress out of buying individual paper tickets or calculating fares—simply tap the card at the ticket gates for your train and subway journeys (including your planned routes between Shinjuku, Narita Airport, Tsukiji Fish Market, and beyond).\n* **Use Navigation Apps (Google Maps & Transit Apps):** Pair your trip organization in TripIt with real-time transit apps like Google Maps. These apps show exact train schedules, step-by-step transfer instructions, platform numbers, and even which train car is best for your transfer or exit. \n* **Navigating Shinjuku and the Park Hyatt:** Staying at the Park Hyatt Tokyo in Shinjuku places you near a major transit hub, but Shinjuku Station can be overwhelming due to its sheer size. Give yourself extra time, follow the clear, color-coded overhead signs in English, and aim for specific exits or line names rather than rushing. \n* **Take It Step by Step:** Tokyo’s transit system is exceptionally punctual, safe, and clearly signposted in English. If you ever feel lost or uncertain on your way to places like Nikko or Tsukiji, station attendants at ticket gates and information booths are very polite and accustomed to helping travelers find the right platform.",
+      "question_type": "single-session-preference",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "1c0ddc50",
+      "question": "Can you suggest some activities I can do during my commute to work?",
+      "gold_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+      "hypothesis": "Based on your ~40-minute commute—whether taking the bus or riding your hybrid bike—here are practical, productive activities tailored to your interests that serve as great alternatives to checking emails or scrolling social media:\n\n### When Taking the Bus\n* **Listen to Podcasts:** Your 40-minute ride is the ideal length for an episode in your favorite genres, such as business and entrepreneurship (like *How I Built This*), true crime, self-improvement, science, or history.\n* **Dive into Audiobooks:** A dedicated audiobook session allows you to make steady progress through books without the visual strain or frustration of crowded bus rides (especially on busy mornings like Mondays).\n* **Practice Language Learning:** Use a language learning app to complete daily interactive lessons or audio drills. \n* **Mental Day-Planning or Relaxation:** Use the quiet time for intentional mental day-planning, or unwind with music and nature/relaxation sounds instead of mindlessly browsing feeds.\n\n### When Cycling\n* **Audio-Only Engagement with Safety in Mind:** If you listen to audiobooks, language lessons, or podcasts (such as science, history, or self-improvement) while biking, ensure you prioritize safety by keeping the volume low or using only one earbud so you remain fully aware of traffic and your surroundings.\n* **Mindful Riding & Mental Planning:** Cycling naturally eliminates screen time like checking email or social media. You can use the ride for mental clarity, planning your day's priorities, or enjoying the physical exercise and ambient environment while staying alert on your route.",
+      "question_type": "single-session-preference",
+      "correct": false,
+      "judge_reason": "No",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "7405e8b1",
+      "question": "Did I receive a higher percentage discount on my first order from HelloFresh, compared to my first UberEats order?",
+      "gold_answer": "Yes.",
+      "hypothesis": "While you mentioned receiving a 40% discount on your first HelloFresh order, the chat history does not specify what discount (or percentage discount) you received on your first UberEats order (only noting a 20% discount on an order the previous week). Consequently, it cannot be determined whether the discount on your first HelloFresh order was higher than the discount on your first UberEats order.",
+      "question_type": "multi-session",
+      "correct": false,
+      "judge_reason": "no",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_59149c77",
+      "question": "How many days passed between my visit to the Museum of Modern Art (MoMA) and the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art?",
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "7 days passed between your visits. You visited the Museum of Modern Art (MoMA) on January 8, 2023, and attended the 'Ancient Civilizations' exhibit at the Metropolitan Museum of Art on January 15, 2023.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_7ddcf75f",
+      "question": "How many days ago did I go on a whitewater rafting trip in the Oregon mountains?",
+      "gold_answer": "3 days ago. 4 days (including the last day) is also acceptable.",
+      "hypothesis": "You went on your whitewater rafting trip 3 days ago (on June 17, 2023).",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_1d4ab0c9",
+      "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+      "gold_answer": "24 days. 25 days (including the last day) is also acceptable.",
+      "hypothesis": "You started watering your herb garden on March 22, 2023, and harvested your first batch of fresh herbs on April 15, 2023. Exactly 24 days passed between those two dates.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_85da3956",
+      "question": "How many weeks ago did I attend the 'Summer Nights' festival at Universal Studios Hollywood?",
+      "gold_answer": "3 weeks ago",
+      "hypothesis": "You attended the 'Summer Nights' festival at Universal Studios Hollywood around July 15, 2023. Based on the current date of August 5, 2023, that was 3 weeks ago (21 days).",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_2d58bcd6",
+      "question": "Which book did I finish reading first, 'The Hate U Give' or 'The Nightingale'?",
+      "gold_answer": "'The Hate U Give'",
+      "hypothesis": "You finished reading **'The Hate U Give'** first. You completed it over two weeks ago (a few days before a book club meeting that took place two weeks ago), whereas you finished 'The Nightingale' more recently, last weekend.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "4dfccbf8",
+      "question": "What did I do with Rachel on the Wednesday two months ago?",
+      "gold_answer": "I started taking ukulele lessons with Rachel.",
+      "hypothesis": "On Wednesday two months ago (February 1, 2023), you started taking ukulele lessons with Rachel.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "982b5123",
+      "question": "How many months ago did I book the Airbnb in San Francisco?",
+      "gold_answer": "Five months ago",
+      "hypothesis": "Your trip to San Francisco took place 2 months ago, and the Airbnb was booked 3 months prior to the trip. Therefore, you booked the Airbnb in San Francisco 5 months ago.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "71017277",
+      "question": "I received a piece of jewelry last Saturday from whom?",
+      "gold_answer": "my aunt",
+      "hypothesis": "The chat history does not mention you receiving a piece of jewelry last Saturday or who gave it to you. (You did mention receiving a crystal chandelier from your aunt on Saturday, March 4, 2023.)",
+      "question_type": "temporal-reasoning",
+      "correct": false,
+      "judge_reason": "no",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "gpt4_2c50253f",
+      "question": "What time do I wake up on Tuesdays and Thursdays?",
+      "gold_answer": "6:45 AM",
+      "hypothesis": "You wake up at 6:45 AM on Tuesdays and Thursdays (15 minutes earlier than your current regular 7:00 AM wake-up time, or 8:15 AM relative to your former 8:30 AM routine).",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "a3045048",
+      "question": "How many days before my best friend's birthday party did I order her gift?",
+      "gold_answer": "7 days. 8 days (including the last day) is also acceptable.",
+      "hypothesis": "You ordered the gift on April 15th, and your best friend's birthday party was held on April 22nd, meaning you ordered it 7 days before the party.",
+      "question_type": "temporal-reasoning",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "184da446",
+      "question": "How many pages of 'A Short History of Nearly Everything' have I read so far?",
+      "gold_answer": "220",
+      "hypothesis": "As of your latest update on May 29, 2023, you have read up to page 220 of *A Short History of Nearly Everything*.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "a1eacc2a",
+      "question": "How many short stories have I written since I started writing regularly?",
+      "gold_answer": "seven",
+      "hypothesis": "You have written (completed) 7 short stories since you started writing regularly. (As of June 16, 2023, you also mentioned you were currently working on another one.)",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "5a4f22c0",
+      "question": "What company is Rachel, an old colleague from my previous company, currently working at?",
+      "gold_answer": "TechCorp",
+      "hypothesis": "Rachel is currently working at TechCorp.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "0f05491a",
+      "question": "How many stars do I need to reach the gold level on my Starbucks Rewards app?",
+      "gold_answer": "120",
+      "hypothesis": "Based on your latest statement on July 30, 2023, you need 120 stars to reach the Gold level on your Starbucks Rewards app, updating your previous mention on July 11, 2023, where you stated you needed 125 stars.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "18bc8abd",
+      "question": "What brand of BBQ sauce am I currently obsessed with?",
+      "gold_answer": "Kansas City Masterpiece",
+      "hypothesis": "You are currently obsessed with Kansas City Masterpiece (KC Masterpiece) BBQ sauce.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "50635ada",
+      "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+      "gold_answer": "Premier Silver",
+      "hypothesis": "Your previous frequent flyer status on United Airlines was Premier Silver before achieving your current status of Premier Gold.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "618f13b2",
+      "question": "How many times have I worn my new black Converse Chuck Taylor All Star sneakers?",
+      "gold_answer": "six",
+      "hypothesis": "You most recently stated on May 30, 2023 (at 22:16 UTC) that you had worn your new black Converse Chuck Taylor All Star sneakers four times (including to your friend's birthday party the previous Saturday). However, earlier that same day (at 17:45 UTC), you mentioned having worn them six times after running errands.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "dfde3500",
+      "question": "What day of the week did I meet with my previous language exchange tutor Juan?",
+      "gold_answer": "Wednesday",
+      "hypothesis": "You met with your language exchange tutor Juan on Wednesday evenings.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "06db6396",
+      "question": "How many projects have I completed since starting painting classes?",
+      "gold_answer": "5",
+      "hypothesis": "You have completed 5 projects since starting painting classes.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "4c36ccef",
+      "question": "Can you remind me of the name of the romantic Italian restaurant in Rome you recommended for dinner?",
+      "gold_answer": "Roscioli",
+      "hypothesis": "The romantic Italian restaurant recommended in Rome is Roscioli.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "ceb54acb",
+      "question": "In our previous chat, you suggested 'sexual compulsions' and a few other options for alternative terms for certain behaviors. Can you remind me what the other four options were?",
+      "gold_answer": "I suggested 'sexual fixations', 'problematic sexual behaviors', 'sexual impulsivity', and 'compulsive sexuality'.",
+      "hypothesis": "The other four options were Sexual fixations, Problematic sexual behaviors, Sexual impulsivity, and Compulsive sexuality.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "2133c1b5_abs",
+      "question": "How long have I been living in my current apartment in Shinjuku?",
+      "gold_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+      "hypothesis": "There is no mention in the chat history of you living in an apartment in Shinjuku, as you previously mentioned living in Harajuku.",
+      "question_type": "knowledge-update",
+      "correct": true,
+      "judge_reason": "Yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "0e5e2d1a",
+      "question": "I wanted to follow up on our previous conversation about binaural beats for anxiety and depression. Can you remind me how many subjects were in the study published in the journal Music and Medicine that found significant reductions in symptoms of depression, anxiety, and stress?",
+      "gold_answer": "38 subjects",
+      "hypothesis": "The study published in the journal *Music and Medicine* included 38 subjects.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "58470ed2",
+      "question": "I was going through our previous conversation about The Library of Babel, and I wanted to confirm - what did Borges say about the center and circumference of the Library?",
+      "gold_answer": "According to Borges, 'The Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.'",
+      "hypothesis": "According to Borges in 'The Library of Babel', the Library is a sphere whose exact center is any one of its hexagons and whose circumference is inaccessible.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "3249768e",
+      "question": "I'm looking back at our previous conversation about building a cocktail bar. You recommended five bottles to make the widest variety of gin-based cocktails. Can you remind me what the fifth bottle was?",
+      "gold_answer": "Absinthe",
+      "hypothesis": "The fifth recommended bottle was Absinthe.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "71a3fd6b",
+      "question": "I'm planning my trip to Speyer again and I wanted to confirm, what's the phone number of the Speyer tourism board that you provided me earlier?",
+      "gold_answer": "+49 (0) 62 32 / 14 23 - 0",
+      "hypothesis": "The phone number previously provided for the Speyer tourism board is +49 (0) 62 32 / 14 23 - 0.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "a40e080f",
+      "question": "I was going through our previous conversation and I was wondering if you could remind me of the two companies you mentioned that prioritize employee safety and well-being like Triumvirate?",
+      "gold_answer": "Patagonia and Southwest Airlines.",
+      "hypothesis": "The two companies previously mentioned that prioritize employee safety and well-being like Triumvirate are Patagonia and Southwest Airlines.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "e48988bc",
+      "question": "I was looking back at our previous conversation about environmentally responsible supply chain practices, and I was wondering if you could remind me of the company you mentioned that's doing a great job with sustainability?",
+      "gold_answer": "Patagonia",
+      "hypothesis": "The company mentioned was Patagonia.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "e982271f",
+      "question": "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?",
+      "gold_answer": "Revolution Hall",
+      "hypothesis": "The last venue recommended on the list of popular indie music venues in Portland was Revolution Hall.",
+      "question_type": "single-session-assistant",
+      "correct": true,
+      "judge_reason": "yes",
+      "judge_model": "gemini-3.5-flash-lite"
+    },
+    {
+      "question_id": "778164c6",
+      "question": "I was looking back at our previous conversation about Caribbean dishes and I was wondering, what was the name of that Jamaican dish you recommended I try with snapper that has fruit in it?",
+      "gold_answer": "Grilled Snapper with Mango Salsa",
+      "hypothesis": "No Jamaican dish featuring snapper and fruit was recommended in our conversation. What was actually discussed was Escovitch Fish (a Jamaican fried snapper dish recommended for you to try first), Grilled Snapper with Mango Salsa (a Caribbean snapper dish featuring fruit), and Ackee and Saltfish (Jamaica's national dish made with fruit and salted codfish).",
+      "question_type": "single-session-assistant",
+      "correct": false,
+      "judge_reason": "no",
+      "judge_model": "gemini-3.5-flash-lite"
+    }
+  ]
+}

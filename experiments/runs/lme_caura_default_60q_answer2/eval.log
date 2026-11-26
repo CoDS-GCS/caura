@@ -1,0 +1,52 @@
+Judges: primary gpt-4o, secondary gemini-3.5-flash-lite
+Saved evaluation results to outputs/lme_caura_default_60q_answer2/eval_results.json
+gpt-4o: 53/60 (88.3%)
+Saved evaluation results to 
+outputs/lme_caura_default_60q_answer2/eval_results_gemini35flashlite.json
+gemini-3.5-flash-lite: 52/60 (86.7%)  |  agreement with primary 57/60
+  50/60
+
+Run: outputs/lme_caura_default_60q_answer2   reader tokenizer: gemini-3.8-flash   questions: 60
+Reader token accounting: exact (provider usage)
+
+| metric | median | p95 | max |
+|---|---|---|---|
+| context characters | 100,808 | 104,288 | 105,042 |
+| context tokens (gemini-3.8-flash tokenizer) | 22,599 | 23,821 | 24,325 |
+| chars/4 estimate for comparison | 25,202 | 26,072 | 26,260 |
+| reader calls per question | 4 | 4 | 7 |
+| reader prompt tokens, all calls | 25,166 | 49,048 | 93,538 |
+| reader completion tokens, all calls | 276 | 1,362 | 2,553 |
+| reader total tokens, all calls | 26,566 | 52,325 | 102,621 |
+| retrieval latency (s) | 3.0 | 12.0 | 14.9 |
+| generation latency (s) | 15.8 | 35.5 | 65.3 |
+
+tokens per character (median contexts): 0.224   ->  chars/4 overestimates tokens by 12%
+Cached per-question counts and summary: outputs/lme_caura_default_60q_answer2/context_tokens.json
+Run: outputs/lme_caura_default_60q_answer2
+Questions: 60 total, 56 non-abstention with gold turns, 4 abstention
+Gold-turn coverage (mean over non-abstention): 0.991
+Fully covered questions: 55/56
+Gold turns present: 91/92
+
+Coverage by category:
+  knowledge-update             1.000  (n=9)
+  multi-session                0.944  (n=9)
+  single-session-assistant     1.000  (n=10)
+  single-session-preference    1.000  (n=10)
+  single-session-user          1.000  (n=8)
+  temporal-reasoning           1.000  (n=10)
+
+Judge gpt-4o: 53/60 correct
+  non-abstention failures: 7
+    retrieval-bound (gold turn missing): 1  (partial 1 / none 0)
+    reader-bound (all gold turns present): 6
+  abstention failures: 0
+
+Judge gemini-3.5-flash-lite: 52/60 correct
+  non-abstention failures: 8
+    retrieval-bound (gold turn missing): 1  (partial 1 / none 0)
+    reader-bound (all gold turns present): 7
+  abstention failures: 0
+
+Wrote /shared_mnt/loubna/caura/experiments/runs/lme_caura_default_60q_answer2/coverage.json

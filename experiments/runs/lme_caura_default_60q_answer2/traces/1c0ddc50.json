@@ -1,0 +1,1353 @@
+{
+  "question_id": "1c0ddc50",
+  "question_type": "single-session-preference",
+  "question": "Can you suggest some activities I can do during my commute to work?",
+  "gold_answer": "The user would prefer suggestions related to listening to new podcasts or audiobooks, especially the genre beyond true crime or self-improvement, such as history. They may not be interested in activities that require visual attention, such as reading or watching videos, as they are commuting. The user would not prefer general podcast topics such as true crime or self-improvement, as the user wants to explore other topics.",
+  "prediction": "Based on your ~40-minute commute\u2014whether taking the bus or riding your hybrid bike\u2014here are practical, productive activities tailored to your interests that serve as great alternatives to checking emails or scrolling social media:\n\n### When Taking the Bus\n* **Listen to Podcasts:** Your 40-minute ride is the ideal length for an episode in your favorite genres, such as business and entrepreneurship (like *How I Built This*), true crime, self-improvement, science, or history.\n* **Dive into Audiobooks:** A dedicated audiobook session allows you to make steady progress through books without the visual strain or frustration of crowded bus rides (especially on busy mornings like Mondays).\n* **Practice Language Learning:** Use a language learning app to complete daily interactive lessons or audio drills. \n* **Mental Day-Planning or Relaxation:** Use the quiet time for intentional mental day-planning, or unwind with music and nature/relaxation sounds instead of mindlessly browsing feeds.\n\n### When Cycling\n* **Audio-Only Engagement with Safety in Mind:** If you listen to audiobooks, language lessons, or podcasts (such as science, history, or self-improvement) while biking, ensure you prioritize safety by keeping the volume low or using only one earbud so you remain fully aware of traffic and your surroundings.\n* **Mindful Riding & Mental Planning:** Cycling naturally eliminates screen time like checking email or social media. You can use the ride for mental clarity, planning your day's priorities, or enjoying the physical exercise and ambient environment while staying alert on your route.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": false,
+      "reason": "No.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": false,
+      "reason": "No"
+    }
+  },
+  "memories": {
+    "count": 896,
+    "by_type": {
+      "plan": 25,
+      "episode": 283,
+      "fact": 355,
+      "task": 46,
+      "action": 2,
+      "preference": 183,
+      "decision": 2
+    },
+    "by_status": {
+      "conflicted": 5,
+      "active": 891
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2636928,
+    "output_tokens": 127232,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "Can you suggest some activities I can do during my commute to work?"
+    ],
+    "retrieve_time_ms": 1680.8029459789395,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "b1faa2c0-26c6-4c63-8e9b-bbf63619a856",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set weekly game night reminders Thursdays 8:00 pm",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 1/25]\nUser: I've been trying to get more organized, can you help me set reminders for my "
+      },
+      {
+        "id": "cb30b582-033b-4c65-8801-90fce680faaa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Guidance on setting weekly Thursday 8pm game night reminders",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 2/25]\n(in reply to) User: I've been trying to get more organized, can you help me set rem"
+      },
+      {
+        "id": "f47ff78f-9311-491d-89a0-09ac0c4b9a9c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set weekly game night reminders for Thursdays at 8:00 pm",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 3/25]\n(in reply to) User: I've been trying to get more organized, can you help me set rem"
+      },
+      {
+        "id": "cfd52677-bdce-4933-89f0-230d4454784a",
+        "score": 0.3952,
+        "memory_type": "preference",
+        "title": "User asks how to prioritize morning routine for a 30-min jog",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 4/25]\nUser: What's the best way to prioritize my morning routine to fit in a 30-minute jo"
+      },
+      {
+        "id": "8beb54fe-1e86-489d-bfba-09bb526b93a5",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan for fitting a 30-minute morning jog into a routine",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 5/25]\n(in reply to) User: What's the best way to prioritize my morning routine to fit in "
+      },
+      {
+        "id": "efeff07b-62f7-427f-9c40-7e6718832172",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning routine prioritization for a 30-minute jog",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 6/25]\n(in reply to) User: What's the best way to prioritize my morning routine to fit in "
+      },
+      {
+        "id": "70f65706-5047-4803-bb37-6b7fe84cb05a",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Example 30-minute morning jog routine schedule",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 7/25]\n(in reply to) User: What's the best way to prioritize my morning routine to fit in "
+      },
+      {
+        "id": "ffb77c79-159d-4ef5-85b8-4aa91692eee0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for fitting a 30-minute morning jog into routine",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 8/25]\n(in reply to) User: What's the best way to prioritize my morning routine to fit in "
+      },
+      {
+        "id": "7635af75-7a38-444e-b9ed-e6f75d3107e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wakes at 7:30am weekdays; wants quick healthy breakfasts",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 9/25]\nUser: I've been trying to get a head start on my day, which is why I've been waking"
+      },
+      {
+        "id": "23a86f18-ee40-4268-b0f5-3d78f382c303",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants quick healthy breakfasts (15\u201320 min)",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 10/25]\n(in reply to) User: I've been trying to get a head start on my day, which is why I"
+      },
+      {
+        "id": "6c35d2f8-0004-4c7d-8431-ce1078f7389a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants quick healthy breakfasts (15\u201320 min)",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 11/25]\n(in reply to) User: I've been trying to get a head start on my day, which is why I"
+      },
+      {
+        "id": "5114cdcd-b6a2-4f42-94ff-523830167b0e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants quick healthy breakfasts (15\u201320 min)",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 12/25]\n(in reply to) User: I've been trying to get a head start on my day, which is why I"
+      },
+      {
+        "id": "ffa0fbab-0570-4cf1-9b95-4c639400a109",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about staying focused and energized daily",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 13/25]\nUser: What's the best way to stay focused and energized throughout the day, especi"
+      },
+      {
+        "id": "53b004c3-ed91-47bf-973e-40a04d8048b6",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for handling the 2:00 pm post-lunch energy dip",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 14/25]\n(in reply to) User: What's the best way to stay focused and energized throughout t"
+      },
+      {
+        "id": "65b4c2fe-9ec9-4071-863d-6758672328a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to stay focused and energized (2:00 pm slump)",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 15/25]\n(in reply to) User: What's the best way to stay focused and energized throughout t"
+      },
+      {
+        "id": "76098b61-6bc4-4916-b808-2739d755284b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to stay focused and energized during 2pm dip",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 16/25]\n(in reply to) User: What's the best way to stay focused and energized throughout t"
+      },
+      {
+        "id": "236f854c-51f8-4fcd-aaa7-e49e6f8078d2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning productivity window (9am\u201312pm)",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 17/25]\nUser: I've been getting more productive in the morning, especially between 9:00 am"
+      },
+      {
+        "id": "c0acf983-8d89-4d01-b634-a05aedfb124b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning productivity window (9am\u201312pm) tips",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 18/25]\n(in reply to) User: I've been getting more productive in the morning, especially b"
+      },
+      {
+        "id": "2039350c-606c-4a52-8fc2-57e119d3aa4e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to maintain morning productivity",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 19/25]\n(in reply to) User: I've been getting more productive in the morning, especially b"
+      },
+      {
+        "id": "7e45fa08-a9ca-4737-899a-e0da8c1d93e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to maintain morning productivity",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 20/25]\n(in reply to) User: I've been getting more productive in the morning, especially b"
+      },
+      {
+        "id": "9b3816da-e23f-4ade-b0a7-247d045153ec",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for ways to maintain morning productivity",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 21/25]\n(in reply to) User: I've been getting more productive in the morning, especially b"
+      },
+      {
+        "id": "27e11137-3719-40c8-a6be-4ae1a9f73e8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User energy dip around 2:00 pm; asks for healthy snack ideas",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 22/25]\nUser: I've been noticing that I tend to dip in energy around 2:00 pm, which usuall"
+      },
+      {
+        "id": "568e9d9f-2593-4158-b5bd-47946a5d5d26",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Healthy snack ideas for 2:00 pm energy slump",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 23/25]\n(in reply to) User: I've been noticing that I tend to dip in energy around 2:00 pm"
+      },
+      {
+        "id": "80c91d85-2a4d-45fa-815a-f16e09761e3f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Healthy snack ideas for afternoon energy dip",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 24/25]\n(in reply to) User: I've been noticing that I tend to dip in energy around 2:00 pm"
+      },
+      {
+        "id": "c1b4c6ad-e3ee-4e57-8d14-55d8a26b7319",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Healthy snack and energy-boost guidance for 2pm slump",
+        "text": "[date: 2023-05-22T02:31:00+00:00 | context: Session c9b8760e8d88 - happened on 2023-05-22 02:31:00 UTC. | turn 25/25]\n(in reply to) User: I've been noticing that I tend to dip in energy around 2:00 pm"
+      },
+      {
+        "id": "20bc1fac-31e1-45b0-ba9e-e70ee6b71398",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User sought help prioritizing tasks due to anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 1/31]\nUser: I'm feeling a bit overwhelmed with work projects and deadlines, and I'm worri"
+      },
+      {
+        "id": "f0d682c6-82fd-49d1-945a-a1e8c6920c6b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant responded to user anxiety and workload concerns",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 2/31]\n(in reply to) User: I'm feeling a bit overwhelmed with work projects and deadlines,"
+      },
+      {
+        "id": "a242acf6-be14-4d24-959b-01cb6164db96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expressed anxiety about work deadlines (panic attack)",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 3/31]\n(in reply to) User: I'm feeling a bit overwhelmed with work projects and deadlines,"
+      },
+      {
+        "id": "43121bc9-9ced-44f3-b804-99c152b5d5dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports upcoming deadlines and anxiety/panic trigger",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 4/31]\nUser: I have 3 projects with deadlines in the next 2 weeks, including a report that"
+      },
+      {
+        "id": "c0e249d6-06dd-400c-a462-74e6038abb11",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided deadline-stress workload management guidance",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 5/31]\n(in reply to) User: I have 3 projects with deadlines in the next 2 weeks, including"
+      },
+      {
+        "id": "e5b776ae-d272-4dcd-b740-c48a833f4e0d",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Plan to manage report due in 5 days and adjust schedule",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 6/31]\n(in reply to) User: I have 3 projects with deadlines in the next 2 weeks, including"
+      },
+      {
+        "id": "79930c12-15c3-4297-967b-4037eb288422",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on breaking down projects and self-care for anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 7/31]\n(in reply to) User: I have 3 projects with deadlines in the next 2 weeks, including"
+      },
+      {
+        "id": "51c41812-4f8b-42c0-8091-473b2969a04e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Customized workload plan for near-term deadlines and well-being",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 8/31]\n(in reply to) User: I have 3 projects with deadlines in the next 2 weeks, including"
+      },
+      {
+        "id": "c16d2a2e-ea84-4623-888f-56cf9c3390a9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Write report from scratch; manage Project 2/3 deadlines",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 9/31]\nUser: The report is still in the research stage, and I need to write it from scratc"
+      },
+      {
+        "id": "17bf6d63-f90d-47ac-a491-d68544022a92",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Schedule proposal for report research and writing",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 10/31]\n(in reply to) User: The report is still in the research stage, and I need to write"
+      },
+      {
+        "id": "2a22ce8b-cd38-49e6-a6ec-e8163886ff9e",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Schedule for report drafting/editing across days",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 11/31]\n(in reply to) User: The report is still in the research stage, and I need to write"
+      },
+      {
+        "id": "87b6108b-1b0f-4948-9889-e6d7a2e391dc",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Schedule timeslots for Project 2 and 3 with self-care",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 12/31]\n(in reply to) User: The report is still in the research stage, and I need to write"
+      },
+      {
+        "id": "8100885e-de49-46e5-8ed2-131504f8f1fc",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Schedule proposal guidance for writing reports and meeting deadlines",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 13/31]\n(in reply to) User: The report is still in the research stage, and I need to write"
+      },
+      {
+        "id": "267bfab1-852f-47d3-ba48-1ea00a2c3215",
+        "score": 0.3848,
+        "memory_type": "preference",
+        "title": "Wants lunch-break self-care for anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 14/31]\nUser: This schedule looks pretty good, but I'm still worried about fitting in self"
+      },
+      {
+        "id": "d219bd2b-6518-4d73-a931-b0dca5a22ed5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested lunch-break self-care activities for anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 15/31]\n(in reply to) User: This schedule looks pretty good, but I'm still worried about f"
+      },
+      {
+        "id": "b0383a89-77c7-46e3-b665-6a737dc92b96",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Self-care activities for anxiety during lunch breaks",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 16/31]\n(in reply to) User: This schedule looks pretty good, but I'm still worried about f"
+      },
+      {
+        "id": "2d5c9f7d-4cc8-4f70-99f0-93c7296308b0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Self-care activity suggestions for anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 17/31]\n(in reply to) User: This schedule looks pretty good, but I'm still worried about f"
+      },
+      {
+        "id": "621b1edf-c6a4-4c00-95bb-46a73dd745d4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Self-care guidance for managing anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 18/31]\n(in reply to) User: This schedule looks pretty good, but I'm still worried about f"
+      },
+      {
+        "id": "af7dfd72-0313-4018-99c8-3f491481d013",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for self-care activities for anxiety during lunch",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 19/31]\n(in reply to) User: This schedule looks pretty good, but I'm still worried about f"
+      },
+      {
+        "id": "5c6fddfe-0707-4759-b85b-c94ca6694f5d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips/resources for progressive muscle relaxation",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 20/31]\nUser: I think these self-care activities sound great, especially the mindful breat"
+      },
+      {
+        "id": "edac87b7-7e21-4671-8746-568c36e1f9ca",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests progressive muscle relaxation for anxiety",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 21/31]\n(in reply to) User: I think these self-care activities sound great, especially the"
+      },
+      {
+        "id": "c160bbf0-5a10-45aa-9b22-9f5410e236bc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Self-care guidance: mindful breathing and progressive muscle relaxation",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 22/31]\n(in reply to) User: I think these self-care activities sound great, especially the"
+      },
+      {
+        "id": "b2b4744d-99f3-4d4b-b3d3-2ccb438a93ed",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Practice progressive muscle relaxation regularly",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 23/31]\n(in reply to) User: I think these self-care activities sound great, especially the"
+      },
+      {
+        "id": "4e3d6aeb-f43f-47c1-9dd7-ff0401af3d96",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources and sample script for progressive muscle relaxation",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 24/31]\n(in reply to) User: I think these self-care activities sound great, especially the"
+      },
+      {
+        "id": "ba98f03a-7b2c-4155-823c-2fa363f9f843",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared self-care progressive muscle relaxation guidance",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 25/31]\n(in reply to) User: I think these self-care activities sound great, especially the"
+      },
+      {
+        "id": "5c8cca6c-16b3-43f3-8162-261d9c051205",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to use Headspace guided recordings for self-care",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 26/31]\nUser: I think I'll start with the guided recordings on Headspace and see how it go"
+      },
+      {
+        "id": "69fc4993-66bf-4070-9ae1-75343314e146",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tips for making self-care a habit (Headspace)",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 27/31]\n(in reply to) User: I think I'll start with the guided recordings on Headspace and"
+      },
+      {
+        "id": "ad18cae1-c089-45fc-8f09-c0b8750272bc",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for building a self-care habit",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 28/31]\n(in reply to) User: I think I'll start with the guided recordings on Headspace and"
+      },
+      {
+        "id": "e3b1811d-ac76-4c46-8ac8-d1f24a5e1be2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for making self-care a habit",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 29/31]\n(in reply to) User: I think I'll start with the guided recordings on Headspace and"
+      },
+      {
+        "id": "c7cea9ba-830a-4639-8c18-b991345fc191",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for managing overwhelm and building self-care habits",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 30/31]\n(in reply to) User: I think I'll start with the guided recordings on Headspace and"
+      },
+      {
+        "id": "9f3e8527-e94d-4e75-9d7e-04899f49035c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Self-care habit tips discussion (Headspace guided recordings)",
+        "text": "[date: 2023-05-23T01:06:00+00:00 | context: Session 243d9fcd3cdf - happened on 2023-05-23 01:06:00 UTC. | turn 31/31]\n(in reply to) User: I think I'll start with the guided recordings on Headspace and"
+      },
+      {
+        "id": "f3f672bc-b747-45e5-9149-3b8508a91389",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help plan commute bike route and avoid crowded Mondays",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 1/18]\nUser: I'm thinking of buying a new bike to commute to work, but I'm not sure about "
+      },
+      {
+        "id": "fb36fc1f-5851-49f3-9457-7eab1ca22c6a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for commute bike route details",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 2/18]\n(in reply to) User: I'm thinking of buying a new bike to commute to work, but I'm n"
+      },
+      {
+        "id": "5d8d44ba-d0a4-4126-9f92-5a32f51adf81",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help plan safe bike commute route and logistics",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 3/18]\n(in reply to) User: I'm thinking of buying a new bike to commute to work, but I'm n"
+      },
+      {
+        "id": "eef45e82-cc91-4e84-b5ae-5f6a6de12734",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute preferences: avoid busy roads & steep hills (hybrid bike)",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 4/18]\nUser: My starting point is 123 Oak St, and my destination is 456 Main St. I'd prefe"
+      },
+      {
+        "id": "98e7467c-8b20-44fa-b426-f6d1786a5e7e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested bike route from 123 Oak St to 456 Main St",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 5/18]\n(in reply to) User: My starting point is 123 Oak St, and my destination is 456 Main"
+      },
+      {
+        "id": "3fa76568-f9dc-41c5-af9d-dee53b59c95d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hybrid bike commute route estimate (2.6 miles, 20\u201330 min)",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 6/18]\n(in reply to) User: My starting point is 123 Oak St, and my destination is 456 Main"
+      },
+      {
+        "id": "1c22b44e-7cdf-4a66-8ffc-27651806429c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for route feedback (avoid busy roads, steep hills)",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 7/18]\n(in reply to) User: My starting point is 123 Oak St, and my destination is 456 Main"
+      },
+      {
+        "id": "e92467c0-f904-42a9-a86f-291473883faa",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Commute route/time preference for arriving by 8:30",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 8/18]\nUser: I think that route looks good, but I'm not sure about the time estimate. Sinc"
+      },
+      {
+        "id": "57e8978f-6750-4d78-b36f-08d973044987",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Commute route time estimate adjusted for rush hour",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 9/18]\n(in reply to) User: I think that route looks good, but I'm not sure about the time "
+      },
+      {
+        "id": "6180f999-23f4-4e4f-ab8a-287ad1d8fc4e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Commute route guidance with traffic and timing advice",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 10/18]\n(in reply to) User: I think that route looks good, but I'm not sure about the time"
+      },
+      {
+        "id": "851502f1-c257-4ed7-bee2-c2f1ed51a16f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for productivity ideas during bike commute",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 11/18]\nUser: I think that revised time estimate sounds more realistic. By the way, I've a"
+      },
+      {
+        "id": "05abf493-9d76-4916-9d27-8aa0e6ae49a9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests productive commute options",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 12/18]\n(in reply to) User: I think that revised time estimate sounds more realistic. By t"
+      },
+      {
+        "id": "5786d12b-e232-435d-80e5-94dea52fb3ec",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for commuting via music/podcasts and safety",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 13/18]\n(in reply to) User: I think that revised time estimate sounds more realistic. By t"
+      },
+      {
+        "id": "3a6cca05-1ef1-4475-830b-cb6ee0ba4958",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed morning routine and reducing commute distractions",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 14/18]\n(in reply to) User: I think that revised time estimate sounds more realistic. By t"
+      },
+      {
+        "id": "35a89f0f-b63d-4709-b6aa-f04f5906efe4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User listens to podcasts on bus ride; asks about bike lock vs rack",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 15/18]\nUser: I like those suggestions. I've actually already started listening to podcast"
+      },
+      {
+        "id": "cdfa096e-0c0f-4f6d-acca-cf85418737af",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User started listening to podcasts during bus ride",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 16/18]\n(in reply to) User: I like those suggestions. I've actually already started listen"
+      },
+      {
+        "id": "0cacbb71-e958-43aa-a07d-081fceadbb72",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User shared podcast listening and office bike rack tips",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 17/18]\n(in reply to) User: I like those suggestions. I've actually already started listen"
+      },
+      {
+        "id": "9e8401c1-2d10-4b2a-91ae-489ba4182a9e",
+        "score": 0.4419,
+        "memory_type": "preference",
+        "title": "Wants to bike to avoid crowded Monday bus",
+        "text": "[date: 2023-05-23T11:21:00+00:00 | context: Session 44c1a959ae02 - happened on 2023-05-23 11:21:00 UTC. | turn 18/18]\nUser: That's a great point about the bike lock and rack. I'll definitely look into"
+      },
+      {
+        "id": "524eb244-a720-447b-b97f-38b4048824cd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan week-long beach road trip routes and accommodations",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 1/26]\nUser: I'm trying to plan a road trip with my friends to the beach for a week. Can y"
+      },
+      {
+        "id": "4f3e4963-199a-47ae-916a-c9fe4b3ac7c1",
+        "score": null,
+        "memory_type": "task",
+        "title": "Collect details to plan friends' beach road trip",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 2/26]\n(in reply to) User: I'm trying to plan a road trip with my friends to the beach for"
+      },
+      {
+        "id": "16780a71-ecc5-4a55-be57-0cb0b242ffff",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help plan beach road trip routes and accommodations",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 3/26]\n(in reply to) User: I'm trying to plan a road trip with my friends to the beach for"
+      },
+      {
+        "id": "6c8bac99-88e4-4889-a363-f47e815c76cf",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Outer Banks trip: 7 days, $100/night lodging budget",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 4/26]\nUser: I'm starting from my hometown, and there are 5 of us going. We're thinking of"
+      },
+      {
+        "id": "7ef5c450-426f-4095-a013-a739c5f97caa",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Outer Banks 7-day trip outline and lodging budget guidance",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 5/26]\n(in reply to) User: I'm starting from my hometown, and there are 5 of us going. We'"
+      },
+      {
+        "id": "4a029be4-562a-46db-985a-1c319ae2a453",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outer Banks trip ideas (7 days, ~$100/night)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 6/26]\n(in reply to) User: I'm starting from my hometown, and there are 5 of us going. We'"
+      },
+      {
+        "id": "fe416298-43e6-4d22-98a2-1efdaed3a48f",
+        "score": null,
+        "memory_type": "plan",
+        "title": "7-day Outer Banks trip plan incl. Ocracoke ferry and budget",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 7/26]\n(in reply to) User: I'm starting from my hometown, and there are 5 of us going. We'"
+      },
+      {
+        "id": "006dc635-6d5b-44df-bdb5-1e395336c987",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Outer Banks road trip rough plan (7 days, ~$100/night)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 8/26]\n(in reply to) User: I'm starting from my hometown, and there are 5 of us going. We'"
+      },
+      {
+        "id": "e2f64649-70c6-4c6f-a570-206a82e6b3ce",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend Outer Banks restaurants and bars",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 9/26]\nUser: Can you recommend some good restaurants and bars in the Outer Banks that we c"
+      },
+      {
+        "id": "92703399-fe5c-4268-abff-a4cc5467f0c7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outer Banks restaurant and bar recommendations request",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 10/26]\n(in reply to) User: Can you recommend some good restaurants and bars in the Outer "
+      },
+      {
+        "id": "630c7238-5f98-406b-ac94-cc3da29f7279",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outer Banks restaurant recommendations (2023)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 11/26]\n(in reply to) User: Can you recommend some good restaurants and bars in the Outer "
+      },
+      {
+        "id": "8fafcce9-02ba-4060-9613-e223f2186d0f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outer Banks restaurant and bar recommendations (2023)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 12/26]\n(in reply to) User: Can you recommend some good restaurants and bars in the Outer "
+      },
+      {
+        "id": "15b54ba6-92c7-440a-b032-20ac0c953de5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Outer Banks restaurant/bar recommendations (general advice)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 13/26]\n(in reply to) User: Can you recommend some good restaurants and bars in the Outer "
+      },
+      {
+        "id": "96ac8109-c3a4-400f-8d37-df127b361f27",
+        "score": 0.392,
+        "memory_type": "task",
+        "title": "Suggest games/activities for friends trip",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 14/26]\nUser: Can you also suggest some games or activities we can do during the trip to m"
+      },
+      {
+        "id": "bbf396c9-3bd5-4865-98e2-f32404f0cf7a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Trip games and activities ideas for Outer Banks road trip",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 15/26]\n(in reply to) User: Can you also suggest some games or activities we can do during"
+      },
+      {
+        "id": "78d58044-2c3d-4891-a1a7-a4cf479dc0e9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Trip fun activities suggestions for friends",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 16/26]\n(in reply to) User: Can you also suggest some games or activities we can do during"
+      },
+      {
+        "id": "1d82b9f6-de0f-447c-a629-195d3028de57",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Trip activities suggestions for friends",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 17/26]\n(in reply to) User: Can you also suggest some games or activities we can do during"
+      },
+      {
+        "id": "6c97ad34-aca2-45b1-8ca7-dc7755988615",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Trip fun ideas: theme days, journaling, challenges",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 18/26]\n(in reply to) User: Can you also suggest some games or activities we can do during"
+      },
+      {
+        "id": "5aa43bf8-ea33-44c3-845d-ac2bfb9fd760",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend upbeat road trip songs",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 19/26]\nUser: Can you recommend some songs for our road trip playlist? We want something u"
+      },
+      {
+        "id": "5485f176-60fc-46bb-ad50-4f8d8d5849b4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Road trip playlist song recommendations (upbeat/fun)",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 20/26]\n(in reply to) User: Can you recommend some songs for our road trip playlist? We wa"
+      },
+      {
+        "id": "cbfb7e4b-6d58-4424-8bb7-49707b1a4411",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Upbeat road trip playlist song recommendations",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 21/26]\n(in reply to) User: Can you recommend some songs for our road trip playlist? We wa"
+      },
+      {
+        "id": "762ca816-0571-4a29-9dea-de50cf92ba90",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Road trip playlist: upbeat, fun, balanced energy",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 22/26]\n(in reply to) User: Can you recommend some songs for our road trip playlist? We wa"
+      },
+      {
+        "id": "ae0acc38-375c-429d-9309-f69e7bed49ee",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Playlist should include meaningful college songs",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 23/26]\nUser: That's a great playlist! I think we should also add some songs that are mean"
+      },
+      {
+        "id": "30029a95-ce4e-4529-874d-b5aad2343826",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Playlist should include nostalgic, meaningful songs for friends",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 24/26]\n(in reply to) User: That's a great playlist! I think we should also add some songs"
+      },
+      {
+        "id": "b016a1bd-3feb-4b19-8504-c37d111cc868",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Playlist should include meaningful, sentimental songs",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 25/26]\n(in reply to) User: That's a great playlist! I think we should also add some songs"
+      },
+      {
+        "id": "5a4aceff-bd7d-45f2-9a8b-a1d64c200fcc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User suggests adding meaningful college songs to playlist",
+        "text": "[date: 2023-05-23T23:05:00+00:00 | context: Session 60dc1a662401 - happened on 2023-05-23 23:05:00 UTC. | turn 26/26]\n(in reply to) User: That's a great playlist! I think we should also add some songs"
+      },
+      {
+        "id": "718f3f0d-4a11-4421-a7a4-56908637eccb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User wants a 5K training plan to improve time",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 1/23]\nUser: I'm planning to participate in another charity run soon and I was wondering i"
+      },
+      {
+        "id": "70fbf376-b42d-41ab-8ff6-4f1ebe41677b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant asked for details to build a 5K training plan",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 2/23]\n(in reply to) User: I'm planning to participate in another charity run soon and I w"
+      },
+      {
+        "id": "b68bcf46-f2ea-4972-bc85-c40aa13df0ca",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find a personalized 5K training plan to improve time",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 3/23]\n(in reply to) User: I'm planning to participate in another charity run soon and I w"
+      },
+      {
+        "id": "f2027a8b-bddf-410d-98a1-a0a6cabc61c7",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-week 5K training goal and schedule",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 4/23]\nUser: I'm an intermediate runner, my current 5K PB is 27 minutes and 15 seconds, an"
+      },
+      {
+        "id": "0e171d91-18d4-4497-805c-791d774261d9",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-week 5K training plan to improve PB",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 5/23]\n(in reply to) User: I'm an intermediate runner, my current 5K PB is 27 minutes and "
+      },
+      {
+        "id": "24f8cdc9-4db0-492e-9620-b200d4b75940",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-week charity run training plan (5K PB 27:15)",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 6/23]\n(in reply to) User: I'm an intermediate runner, my current 5K PB is 27 minutes and "
+      },
+      {
+        "id": "8d020cd4-d09d-410d-a393-addc633ff4fb",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-week 5K training guidance (warmup, strength, nutrition, recovery)",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 7/23]\n(in reply to) User: I'm an intermediate runner, my current 5K PB is 27 minutes and "
+      },
+      {
+        "id": "8a3bed69-e10b-4183-bfcb-6a5c376f2fd1",
+        "score": null,
+        "memory_type": "plan",
+        "title": "8-week 5K training plan to improve PB",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 8/23]\n(in reply to) User: I'm an intermediate runner, my current 5K PB is 27 minutes and "
+      },
+      {
+        "id": "41714d42-3016-42b1-88c7-e8f577c6426e",
+        "score": 0.4241,
+        "memory_type": "decision",
+        "title": "Substitute Tuesday hill repeats with alternative workout",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 9/23]\nUser: The plan sounds good, but I'm a bit concerned about the hill repeats on Tuesd"
+      },
+      {
+        "id": "dc0062c6-f057-42d9-8d73-d5f97cfdb5fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Substitute hill repeats with track intervals or tempo run",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 10/23]\n(in reply to) User: The plan sounds good, but I'm a bit concerned about the hill r"
+      },
+      {
+        "id": "9f2c4a48-d880-472a-b923-c3583ddcedc4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Substitute hill repeats with track/tempo alternatives",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 11/23]\n(in reply to) User: The plan sounds good, but I'm a bit concerned about the hill r"
+      },
+      {
+        "id": "4b53437a-16f1-46d4-aa73-f3c9ee685646",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about track workout substitute and squash schedule impact",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 12/23]\nUser: I think the track workout would be a good substitute. I'll make sure to find"
+      },
+      {
+        "id": "5dacdb45-e8d4-4d34-923c-c0e0ca8c10cc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on track workout substitute and squash schedule impact",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 13/23]\n(in reply to) User: I think the track workout would be a good substitute. I'll mak"
+      },
+      {
+        "id": "affcdb63-a190-41a0-8ff9-7be5203f09e8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice to reduce squash intensity during running training",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 14/23]\n(in reply to) User: I think the track workout would be a good substitute. I'll mak"
+      },
+      {
+        "id": "e553876a-f818-4e37-92a2-3e543d5877b8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about substituting track workout and squash schedule",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 15/23]\n(in reply to) User: I think the track workout would be a good substitute. I'll mak"
+      },
+      {
+        "id": "b76585b1-a795-4f54-82b1-ef51ea1bc40c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reduce squash intensity to conserve energy for running",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 16/23]\nUser: I think reducing the intensity of my squash games would be the best option. "
+      },
+      {
+        "id": "73e86259-185b-4b01-b5b2-ef639e6f08a5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on reducing squash intensity and 5K target pace",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 17/23]\n(in reply to) User: I think reducing the intensity of my squash games would be the"
+      },
+      {
+        "id": "99f8ef18-b87f-4071-9755-8c86c20b2410",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to reduce squash intensity to conserve energy",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 18/23]\n(in reply to) User: I think reducing the intensity of my squash games would be the"
+      },
+      {
+        "id": "ca924606-be22-4ea4-88d3-f85ed8559ed2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Runner plans to practice pacing and stay relaxed",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 19/23]\nUser: I'm feeling good about my training and preparation. The target pace guidelin"
+      },
+      {
+        "id": "be92e9ce-c5f9-4b16-9afc-916cda527b23",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User training prep and pacing plan discussion (2023-05-26)",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 20/23]\n(in reply to) User: I'm feeling good about my training and preparation. The target"
+      },
+      {
+        "id": "6b3584b6-55a4-416b-ae55-6607038f18bf",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Running training add-ons: strides, high-knees, calf raises, glute bridges, core",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 21/23]\n(in reply to) User: I'm feeling good about my training and preparation. The target"
+      },
+      {
+        "id": "38eaeb41-cd23-41b9-bf60-cd04c20c2445",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Training plan guidance: pacing, relaxed focus, plyometrics & strength",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 22/23]\n(in reply to) User: I'm feeling good about my training and preparation. The target"
+      },
+      {
+        "id": "24d28dbe-43b9-4175-94d7-24b15dcfaadb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User training prep discussion (pace, relaxation, drills)",
+        "text": "[date: 2023-05-26T18:02:00+00:00 | context: Session cb15524f9e0b - happened on 2023-05-26 18:02:00 UTC. | turn 23/23]\n(in reply to) User: I'm feeling good about my training and preparation. The target"
+      },
+      {
+        "id": "167a16d7-2e45-4f10-a6c5-3cacc550da06",
+        "score": 0.3884,
+        "memory_type": "preference",
+        "title": "Podcast preferences: true crime & self-improvement; wants other genres",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 1/27]\nUser: I'm looking for some new podcast recommendations. I've been listening to a lo"
+      },
+      {
+        "id": "a9b9995b-e448-4be0-a51d-73ff33619de8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast recommendations shared (true crime/self-improvement)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some new podcast recommendations. I've been lis"
+      },
+      {
+        "id": "75c9de85-d2d1-4c7a-a5dd-cce2ecd079fe",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Podcast recommendations across true crime, self-improvement, and other genres",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some new podcast recommendations. I've been lis"
+      },
+      {
+        "id": "2c360ef2-119d-468d-be13-5714b4c8b11b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Podcast recommendations across true crime, self-improvement, and more",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some new podcast recommendations. I've been lis"
+      },
+      {
+        "id": "5c436484-0c45-4124-9beb-25d022368894",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend history/science episodes to start with",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 5/27]\nUser: I'm interested in the history and science ones. Can you recommend some episod"
+      },
+      {
+        "id": "3cd60018-2381-4075-90c9-d92e561d2c51",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast episode recommendations for history and science",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 6/27]\n(in reply to) User: I'm interested in the history and science ones. Can you recomme"
+      },
+      {
+        "id": "8e303a6b-2830-4b92-9ddb-a4d782cab63e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast episode recommendations (history & science)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 7/27]\n(in reply to) User: I'm interested in the history and science ones. Can you recomme"
+      },
+      {
+        "id": "1d776216-217b-4cdc-b617-419ed7936ffa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Podcast episode recommendations (history & science)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 8/27]\n(in reply to) User: I'm interested in the history and science ones. Can you recomme"
+      },
+      {
+        "id": "9c43cb82-c85c-452c-b716-b4b7d7dbc2b5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend history podcasts and listening schedule",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 9/27]\nUser: I'm particularly interested in the history podcasts. Can you give me some rec"
+      },
+      {
+        "id": "d02bbe61-5a91-4a55-8f47-ca86ffa2a5db",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Organize history podcast listening around 40-min commute",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 10/27]\n(in reply to) User: I'm particularly interested in the history podcasts. Can you g"
+      },
+      {
+        "id": "0cf72ac1-795b-4f63-9268-2d150a0b4603",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for organizing history podcast listening during commute",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 11/27]\n(in reply to) User: I'm particularly interested in the history podcasts. Can you g"
+      },
+      {
+        "id": "9af3156c-37a9-4d96-b8b0-21c600eee4b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided listening schedule tips for history podcasts commute",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 12/27]\n(in reply to) User: I'm particularly interested in the history podcasts. Can you g"
+      },
+      {
+        "id": "1aaf9f35-88f3-47a1-acc5-0ad0eb3ff549",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for history book/documentary recommendations",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 13/27]\nUser: Can I also get some recommendations on history books or documentaries relate"
+      },
+      {
+        "id": "7cb8e8c6-5a8c-4b70-832a-cb497dd03fa8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "History book/documentary recommendations provided",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 14/27]\n(in reply to) User: Can I also get some recommendations on history books or docume"
+      },
+      {
+        "id": "b5ed8793-32b0-42f7-af20-f882c22948c9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "History book and documentary recommendations (Salem, true crime, cholera)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 15/27]\n(in reply to) User: Can I also get some recommendations on history books or docume"
+      },
+      {
+        "id": "88e04a48-9bc6-4411-82be-bc3e7d96d75c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "History book and documentary recommendations",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 16/27]\n(in reply to) User: Can I also get some recommendations on history books or docume"
+      },
+      {
+        "id": "1c1bb171-fa8e-4f3e-8710-3108b09c0ccb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for history book/documentary recommendations",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 17/27]\n(in reply to) User: Can I also get some recommendations on history books or docume"
+      },
+      {
+        "id": "206713b8-8e23-48c5-8b0a-ce2b30a10020",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Guns, Germs, and Steel",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 18/27]\nUser: I'm interested in the book \"Guns, Germs, and Steel\" by Jared Diamond. Can yo"
+      },
+      {
+        "id": "a92b499e-a535-484a-b0a0-3cd0f3d7b884",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Guns, Germs, and Steel by Jared Diamond",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 19/27]\n(in reply to) User: I'm interested in the book \"Guns, Germs, and Steel\" by Jared D"
+      },
+      {
+        "id": "07e4bea4-32ab-43e4-a199-e7ce9fc2ae43",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Summary of Guns, Germs, and Steel key arguments",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 20/27]\n(in reply to) User: I'm interested in the book \"Guns, Germs, and Steel\" by Jared D"
+      },
+      {
+        "id": "aacd5533-65aa-4bde-bb4c-b3a213439366",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview of Guns, Germs, and Steel themes and reception",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 21/27]\n(in reply to) User: I'm interested in the book \"Guns, Germs, and Steel\" by Jared D"
+      },
+      {
+        "id": "c68c72c0-0850-4b33-a755-473c9fea76e8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reading experience notes for Guns, Germs, and Steel",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 22/27]\n(in reply to) User: I'm interested in the book \"Guns, Germs, and Steel\" by Jared D"
+      },
+      {
+        "id": "49699217-00f6-45da-8812-85f2b8789f69",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about 'lucky latitudes' concept",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 23/27]\nUser: I'm interested in learning more about the \"lucky latitudes\" concept in \"Guns"
+      },
+      {
+        "id": "c82725cb-dc81-422d-bc2b-e43c0094e5aa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Explanation of Diamond's 'lucky latitudes' concept",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 24/27]\n(in reply to) User: I'm interested in learning more about the \"lucky latitudes\" co"
+      },
+      {
+        "id": "ba6a103d-1c44-4d54-bd4c-0af698c1067b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lucky latitudes: climate, soil, water, resources, biodiversity",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 25/27]\n(in reply to) User: I'm interested in learning more about the \"lucky latitudes\" co"
+      },
+      {
+        "id": "5b0305ab-3157-4867-a56c-1841d8b81f4a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lucky latitudes regions and implications (Guns, Germs, and Steel)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 26/27]\n(in reply to) User: I'm interested in learning more about the \"lucky latitudes\" co"
+      },
+      {
+        "id": "6b54f971-7489-426a-b1a4-b25ededb2ee1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lucky latitudes shaped complex societies (Diamond)",
+        "text": "[date: 2023-05-26T22:02:00+00:00 | context: Session ffe7839ee52d - happened on 2023-05-26 22:02:00 UTC. | turn 27/27]\n(in reply to) User: I'm interested in learning more about the \"lucky latitudes\" co"
+      },
+      {
+        "id": "4ccc9176-0a56-44f7-b8d4-23cfc9553a65",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Tokyo trip recommendations (Nov)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 1/26]\nUser: I'm planning a trip to Tokyo in November and was wondering if you could recom"
+      },
+      {
+        "id": "599315e5-3060-46c5-bd71-e133fce037f7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip planning advice for Tokyo in November",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning a trip to Tokyo in November and was wondering if y"
+      },
+      {
+        "id": "4f8275d6-ce42-412c-9911-936f02d13405",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tokyo trip recommendations (Shibuya, Skytree, Tsukiji, Meiji Shrine, Asakusa, Ak",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning a trip to Tokyo in November and was wondering if y"
+      },
+      {
+        "id": "f9d79195-8aab-4afc-ac0f-4d503d50eec5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Imperial Palace described as must-see attraction",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning a trip to Tokyo in November and was wondering if y"
+      },
+      {
+        "id": "50866f90-1fdd-4257-b2e6-bbe48eb684d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tokyo trip: restaurant recommendations (Sushi Saito, etc.)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 5/26]\n(in reply to) User: I'm planning a trip to Tokyo in November and was wondering if y"
+      },
+      {
+        "id": "0c67af4e-41b1-44a5-be5b-c4b14bc27c62",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tokyo trip tips: Suica/Pasmo, phrases, crowds, neighborhoods",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 6/26]\n(in reply to) User: I'm planning a trip to Tokyo in November and was wondering if y"
+      },
+      {
+        "id": "7b3a7d44-e405-4f78-b2c7-8d211dfe4926",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend Tokyo onsen (hot springs)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 7/26]\nUser: I'm also thinking of visiting the onsen (hot springs) while I'm in Tokyo. Can"
+      },
+      {
+        "id": "d9e4b681-5a56-4df0-a257-c6599bd22a75",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tokyo onsen recommendations (Otemba, Toshimaen, Take no Yu)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 8/26]\n(in reply to) User: I'm also thinking of visiting the onsen (hot springs) while I'm"
+      },
+      {
+        "id": "e17b45f4-e25a-4a08-b9b6-1b3bc5597504",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tokyo onsen recommendations (Odaiba, Spa LaQua, Yunessun)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 9/26]\n(in reply to) User: I'm also thinking of visiting the onsen (hot springs) while I'm"
+      },
+      {
+        "id": "70319937-1f8e-4db8-afc6-3f9c5d11923a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tokyo onsen etiquette and practical tips",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 10/26]\n(in reply to) User: I'm also thinking of visiting the onsen (hot springs) while I'"
+      },
+      {
+        "id": "497bd089-f453-40d0-8409-11956bf6cf2b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find onsen near Park Hyatt Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 11/26]\nUser: Are there any onsen near my hotel, the Park Hyatt Tokyo?"
+      },
+      {
+        "id": "3c38cf02-0f68-4d15-958e-66286755e32a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided onsen recommendations near Park Hyatt Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 12/26]\n(in reply to) User: Are there any onsen near my hotel, the Park Hyatt Tokyo?\n\nAssi"
+      },
+      {
+        "id": "0cf05f20-e163-4e87-b56d-471b95f75080",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Onsen near Park Hyatt Tokyo recommendations",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 13/26]\n(in reply to) User: Are there any onsen near my hotel, the Park Hyatt Tokyo?\n\n1. *"
+      },
+      {
+        "id": "99b0af43-cd41-497e-aa0a-88f0e6dcc514",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested onsen near Park Hyatt Tokyo with Japanese tips",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 14/26]\n(in reply to) User: Are there any onsen near my hotel, the Park Hyatt Tokyo?\n\nPlea"
+      },
+      {
+        "id": "f32ab66e-0038-4eb6-a19c-753894ebf05f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan a day trip to Nikko from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 15/26]\nUser: I'm also thinking of taking a day trip to Nikko from Tokyo. Can you help me "
+      },
+      {
+        "id": "06e6e52f-a8e4-45ed-8692-3e30d6c3f868",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Suggested day trip itinerary to Nikko from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 16/26]\n(in reply to) User: I'm also thinking of taking a day trip to Nikko from Tokyo. Ca"
+      },
+      {
+        "id": "101cf16d-ef87-4cdd-9626-455d065877d0",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Day trip plan: Tokyo to Nikko (temples, lunch, park, return)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 17/26]\n(in reply to) User: I'm also thinking of taking a day trip to Nikko from Tokyo. Ca"
+      },
+      {
+        "id": "6733baf3-f9b0-4b2f-9470-5749c885bd00",
+        "score": 0.3926,
+        "memory_type": "plan",
+        "title": "Day trip planning tips for Nikko from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 18/26]\n(in reply to) User: I'm also thinking of taking a day trip to Nikko from Tokyo. Ca"
+      },
+      {
+        "id": "6a7ac4f7-56e7-4a70-8466-5afe80399a54",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about day trip to Japanese Alps from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 19/26]\nUser: I'm also considering visiting the Japanese Alps while I'm in Japan. Do you t"
+      },
+      {
+        "id": "1e162235-e951-48cb-b96d-1830fe6c4c64",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Japanese Alps day trip feasibility from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 20/26]\n(in reply to) User: I'm also considering visiting the Japanese Alps while I'm in J"
+      },
+      {
+        "id": "fcf2fdc1-9a90-41c1-b7fb-9489db4388ef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on day trip to Japanese Alps from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 21/26]\n(in reply to) User: I'm also considering visiting the Japanese Alps while I'm in J"
+      },
+      {
+        "id": "3eafa0f0-a401-4579-9176-0df9188e157f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on day trip feasibility to Japanese Alps from Tokyo",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 22/26]\n(in reply to) User: I'm also considering visiting the Japanese Alps while I'm in J"
+      },
+      {
+        "id": "8d6d7e54-68cd-4b63-866b-39d9b79efe37",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about onsen options in the Japanese Alps",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 23/26]\nUser: I'm thinking of visiting the Japanese Alps, but I'd like to know more about "
+      },
+      {
+        "id": "82587e3e-9367-4d59-b8f3-2c495118ea01",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Japanese Alps onsen recommendations (Kusatsu, Hakone, etc.)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 24/26]\n(in reply to) User: I'm thinking of visiting the Japanese Alps, but I'd like to kn"
+      },
+      {
+        "id": "d2c3f468-c5ca-4b24-9d70-7a41b62db846",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Onsen towns and resorts recommendations (Japanese Alps area)",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 25/26]\n(in reply to) User: I'm thinking of visiting the Japanese Alps, but I'd like to kn"
+      },
+      {
+        "id": "d67cc2c6-8043-44cb-a236-d85f1c04b8f4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance for Japanese Alps onsen etiquette and access",
+        "text": "[date: 2023-05-27T15:17:00+00:00 | context: Session 96ff17958596 - happened on 2023-05-27 15:17:00 UTC. | turn 26/26]\n(in reply to) User: I'm thinking of visiting the Japanese Alps, but I'd like to kn"
+      },
+      {
+        "id": "133472dd-a845-4a0b-9f0e-60f88b4c2bab",
+        "score": 0.3646,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T23:44:00+00:00 | context: Session 8e3faefad29d - happened on 2023-05-28 23:44:00 UTC. | turn 1/31]\nUser: I'm looking for some advice on how to stay organized with my volunteer work. "
+      },
+      {
+        "id": "e423fba6-ca18-46ad-bedc-82d09a1b0b17",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T23:44:00+00:00 | context: Session 8e3faefad29d - happened on 2023-05-28 23:44:00 UTC. | turn 2/31]\n(in reply to) User: I'm looking for some advice on how to stay organized with my vo"
+      },
+      {
+        "id": "334f2f1c-117a-4b41-81e4-8559df27adf7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-05-28T23:44:00+00:00 | context: Session 8e3faefad29d - happened on 2023-05-28 23:44:00 UTC. | turn 3/31]\n(in reply to) User: I'm looking for some advice on how to stay organized with my vo"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101800,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25450)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 31798,
+    "prompt_tokens": 27786,
+    "completion_tokens": 1409,
+    "reasoning_tokens": 2603,
+    "generate_time_ms": 33202.73360400461,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 25060,
+        "completion_tokens": 253,
+        "reasoning_tokens": 1151,
+        "total_tokens": 26464
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 721,
+        "completion_tokens": 321,
+        "reasoning_tokens": 533,
+        "total_tokens": 1575
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 529,
+        "completion_tokens": 436,
+        "reasoning_tokens": 489,
+        "total_tokens": 1454
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 1476,
+        "completion_tokens": 399,
+        "reasoning_tokens": 430,
+        "total_tokens": 2305
+      }
+    ]
+  },
+  "failure_label": "retrieved_wrong_answer"
+}

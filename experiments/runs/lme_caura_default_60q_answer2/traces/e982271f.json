@@ -1,0 +1,1392 @@
+{
+  "question_id": "e982271f",
+  "question_type": "single-session-assistant",
+  "question": "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?",
+  "gold_answer": "Revolution Hall",
+  "prediction": "The last venue recommended on the list of popular indie music venues in Portland was Revolution Hall.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "yes",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 923,
+    "by_type": {
+      "preference": 36,
+      "decision": 12,
+      "fact": 12,
+      "episode": 863
+    },
+    "by_status": {
+      "active": 915,
+      "conflicted": 8
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2716389,
+    "output_tokens": 131066,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "I was going through our previous chat. Can you remind me of the name of the last venue you recommended in the list of popular venues in Portland for indie music shows?"
+    ],
+    "retrieve_time_ms": 5937.569970963523,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "6db52230-e554-4dfb-8180-c62b59d59eb0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 1/17]\nUser: Which Quebec tourist destination is the most affordable?\n\nAssistant: Montreal"
+      },
+      {
+        "id": "3ad1b097-8b51-4ca5-ad14-071d4dcbb7fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 2/17]\nUser: That's great to know! Do you have any recommendations for budget-friendly act"
+      },
+      {
+        "id": "93befb5d-b864-4275-871e-0a2093c4e090",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 3/17]\n(in reply to) User: That's great to know! Do you have any recommendations for budge"
+      },
+      {
+        "id": "2a35b83e-3b9e-4538-9d84-82eebecc51b2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 4/17]\n(in reply to) User: That's great to know! Do you have any recommendations for budge"
+      },
+      {
+        "id": "d289516c-ccd2-47d9-85c2-d8a92b334247",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 5/17]\nUser: Do you have any recommendations for affordable restaurants in Montreal?\n\nAssi"
+      },
+      {
+        "id": "cfceb8c2-23e0-4b4f-a60c-b34cebf9f7ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 6/17]\nUser: I've always wanted to try poutine, so I'll definitely check out La Banquise. "
+      },
+      {
+        "id": "4e71b0c4-0861-45af-acc8-d42513dd0b19",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 7/17]\n(in reply to) User: I've always wanted to try poutine, so I'll definitely check out"
+      },
+      {
+        "id": "98bf8b8c-37bc-44ef-bacb-7800150a5439",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 8/17]\n(in reply to) User: I've always wanted to try poutine, so I'll definitely check out"
+      },
+      {
+        "id": "9a773bb3-6a11-4cb2-b9aa-384ed7c16c3c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 9/17]\n(in reply to) User: I've always wanted to try poutine, so I'll definitely check out"
+      },
+      {
+        "id": "ca8cac6c-c943-4194-9bb0-5722f5bbd85a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 10/17]\nUser: Wow, I had no idea Montreal had such a variety of delicious foods to try! Do"
+      },
+      {
+        "id": "3e22fba1-28ab-418f-bf18-89f4e23933b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 11/17]\n(in reply to) User: Wow, I had no idea Montreal had such a variety of delicious fo"
+      },
+      {
+        "id": "e33f9707-dfdd-46e6-990e-26f65d610256",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 12/17]\n(in reply to) User: Wow, I had no idea Montreal had such a variety of delicious fo"
+      },
+      {
+        "id": "88a3b902-a014-4bf0-8fe5-7dd08bdeeb39",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 13/17]\n(in reply to) User: Wow, I had no idea Montreal had such a variety of delicious fo"
+      },
+      {
+        "id": "14645d77-73de-4abd-86e4-38e9a55c2460",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 14/17]\nUser: Can you recommend any neighborhoods to explore in Montreal?"
+      },
+      {
+        "id": "e5934ff4-fcaf-4f53-b68d-838588342a9a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 15/17]\n(in reply to) User: Can you recommend any neighborhoods to explore in Montreal?\n\nA"
+      },
+      {
+        "id": "e6d3f9d7-316f-4383-bb4f-e5165d59947f",
+        "score": 0.3718,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 16/17]\n(in reply to) User: Can you recommend any neighborhoods to explore in Montreal?\n\n1"
+      },
+      {
+        "id": "b1f74868-f9cd-442b-b70c-1ff13ce1c0ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20...",
+        "text": "[date: 2023-05-20T22:55:00+00:00 | context: Session f5e35dc5553c - happened on 2023-05-20 22:55:00 UTC. | turn 17/17]\n(in reply to) User: Can you recommend any neighborhoods to explore in Montreal?\n\n "
+      },
+      {
+        "id": "f419db12-cc5f-4fb2-89ce-2581b554f886",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 1/20]\nUser: I'm interested in finding a new board game to play with my family. Can you re"
+      },
+      {
+        "id": "c192b57f-616b-4318-892e-6db81189acf3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 2/20]\n(in reply to) User: I'm interested in finding a new board game to play with my fami"
+      },
+      {
+        "id": "8d0996f9-49a5-4c31-8ab7-dc3c462fe22b",
+        "score": null,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 3/20]\n(in reply to) User: I'm interested in finding a new board game to play with my fami"
+      },
+      {
+        "id": "a290e858-1f40-452a-9ed5-3961b8de4e90",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 4/20]\n(in reply to) User: I'm interested in finding a new board game to play with my fami"
+      },
+      {
+        "id": "e389b601-a8d1-4faa-be37-fba11364a313",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 5/20]\n(in reply to) User: I'm interested in finding a new board game to play with my fami"
+      },
+      {
+        "id": "3f14692b-8f5a-4ab0-bd91-0a9e79d409f5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 6/20]\nUser: I actually introduced my coworker to Codenames last Friday and she loved it. "
+      },
+      {
+        "id": "aa19d668-6b4d-4b80-91e5-28a81b24920c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 7/20]\n(in reply to) User: I actually introduced my coworker to Codenames last Friday and "
+      },
+      {
+        "id": "e5e6cacb-59c5-4eb2-b5e8-903085aea87f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 8/20]\n(in reply to) User: I actually introduced my coworker to Codenames last Friday and "
+      },
+      {
+        "id": "5557db8f-a0e1-4279-b37a-053b4fbea0d3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 9/20]\nUser: I'm considering getting the base game and the Europe expansion. By the way, I"
+      },
+      {
+        "id": "bf0b89c7-9b48-42d6-96ee-191da37f1e91",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 10/20]\n(in reply to) User: I'm considering getting the base game and the Europe expansion"
+      },
+      {
+        "id": "a118affc-0d6c-434e-be54-8f8a87141562",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 11/20]\n(in reply to) User: I'm considering getting the base game and the Europe expansion"
+      },
+      {
+        "id": "0838f443-35e5-43b1-a89e-8c25a9446a01",
+        "score": 0.364,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 12/20]\nUser: I've been thinking about getting into more board games, actually. I went to "
+      },
+      {
+        "id": "0bede793-e90d-49ac-8df3-15e5a9cff372",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 13/20]\n(in reply to) User: I've been thinking about getting into more board games, actual"
+      },
+      {
+        "id": "53229737-599d-4e95-9ef8-5a80db63a5eb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 14/20]\n(in reply to) User: I've been thinking about getting into more board games, actual"
+      },
+      {
+        "id": "ebd2e537-dbe4-4fc1-87a2-db7da2d6eb79",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 15/20]\n(in reply to) User: I've been thinking about getting into more board games, actual"
+      },
+      {
+        "id": "67512407-739f-40e1-a08f-0262465d881c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 16/20]\nUser: I'm actually thinking of starting a board game collection and have been rese"
+      },
+      {
+        "id": "19e482b9-6968-40e8-afd6-f1e9d5a3e623",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 17/20]\n(in reply to) User: I'm actually thinking of starting a board game collection and "
+      },
+      {
+        "id": "0a4ff46e-a415-4397-aedb-cac6b7565378",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 18/20]\n(in reply to) User: I'm actually thinking of starting a board game collection and "
+      },
+      {
+        "id": "e1a1a1ee-5ea2-49d3-ba74-cf7b46a7ee9f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 19/20]\n(in reply to) User: I'm actually thinking of starting a board game collection and "
+      },
+      {
+        "id": "4a31372a-3251-4a4d-b5e8-6e973830ced3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T05:08:00+00:00 | context: Session 312ddaf38273 - happened on 2023-05-21 05:08:00 UTC. | turn 20/20]\nUser: By the way, speaking of board games, I was thinking about my last Scattergor"
+      },
+      {
+        "id": "27190cb2-fb53-47cb-9853-ecc3f219d993",
+        "score": 0.3932,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 1/18]\nUser: I'm trying to find a new yoga studio to try out. Do you have any recommendati"
+      },
+      {
+        "id": "e925d83c-3c31-4a2b-8ba6-7effdaed8b14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 2/18]\n(in reply to) User: I'm trying to find a new yoga studio to try out. Do you have an"
+      },
+      {
+        "id": "09db3b69-626b-47c3-ae5e-16e015c5719a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 3/18]\n(in reply to) User: I'm trying to find a new yoga studio to try out. Do you have an"
+      },
+      {
+        "id": "d5d52b00-ae7d-4336-a836-4c2f7a23b04a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 4/18]\nUser: I'll definitely ask Emily for some recommendations. Do you have any tips on h"
+      },
+      {
+        "id": "50869998-7706-40fa-94b6-7dbae9574864",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 5/18]\n(in reply to) User: I'll definitely ask Emily for some recommendations. Do you have"
+      },
+      {
+        "id": "5947e132-d155-4008-a2c3-3c2da9e9920f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 6/18]\n(in reply to) User: I'll definitely ask Emily for some recommendations. Do you have"
+      },
+      {
+        "id": "425e24c0-cf18-45dd-95ab-249260d09d84",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 7/18]\nUser: I'll definitely try to emphasize the benefits and focus on the fun aspect. I'"
+      },
+      {
+        "id": "25f6ff48-58f3-47cc-9f99-64ae0cecc108",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 8/18]\nUser: I'm also trying to convince my coworker Jack to try yoga with me, but he's be"
+      },
+      {
+        "id": "10fd9ad8-59c6-409e-b6ea-9a1c2d15a565",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 9/18]\n(in reply to) User: I'm also trying to convince my coworker Jack to try yoga with m"
+      },
+      {
+        "id": "6719c484-7578-413c-89a6-604349f05910",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 10/18]\n(in reply to) User: I'm also trying to convince my coworker Jack to try yoga with "
+      },
+      {
+        "id": "fe789c94-6c93-4cdf-90b1-a1064f977c6f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 11/18]\nUser: I might join him for a hike instead, that sounds like a great way to bond. S"
+      },
+      {
+        "id": "75e3209c-1d53-4836-aeb4-6ba9a884abfc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 12/18]\n(in reply to) User: I might join him for a hike instead, that sounds like a great "
+      },
+      {
+        "id": "3a130c34-a70b-49a5-bd7d-bc13757d25b6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 13/18]\n(in reply to) User: I might join him for a hike instead, that sounds like a great "
+      },
+      {
+        "id": "bce94bfa-a4a2-46e1-92f1-aa70e7b5eb90",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 14/18]\n(in reply to) User: I might join him for a hike instead, that sounds like a great "
+      },
+      {
+        "id": "bd4a9942-4624-4288-a53f-e5ead25b8b1c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 15/18]\nUser: I'll definitely keep those tips in mind when I go on a hike with Jack. Thank"
+      },
+      {
+        "id": "bdd32458-bef7-4e0c-849e-81f54108069e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 16/18]\n(in reply to) User: I'll definitely keep those tips in mind when I go on a hike wi"
+      },
+      {
+        "id": "7abbf322-0452-43ef-8543-d0c1a8011ee8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 17/18]\n(in reply to) User: I'll definitely keep those tips in mind when I go on a hike wi"
+      },
+      {
+        "id": "8fcf199d-a711-4298-8881-461ca6723bcb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21...",
+        "text": "[date: 2023-05-21T13:17:00+00:00 | context: Session 212c219fbc12 - happened on 2023-05-21 13:17:00 UTC. | turn 18/18]\n(in reply to) User: I'll definitely keep those tips in mind when I go on a hike wi"
+      },
+      {
+        "id": "0578d2fc-8106-418b-9959-3f47e71b0dd8",
+        "score": 0.3563,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-22T20:58:00+00:00 | context: Session 349987a8b9df - happened on 2023-05-22...",
+        "text": "[date: 2023-05-22T20:58:00+00:00 | context: Session 349987a8b9df - happened on 2023-05-22 20:58:00 UTC. | turn 8/24]\nUser: I actually had a pretty funny experience at that coffee shop last week - the "
+      },
+      {
+        "id": "c4c50b40-73b7-41db-87c0-6018633778be",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 1/12]\nUser: Can you suggest some off-the-beaten-path attractions in Savannah, Georgia?"
+      },
+      {
+        "id": "04cd5687-dffe-4537-b0cf-99e7426ecfcc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 2/12]\n(in reply to) User: Can you suggest some off-the-beaten-path attractions in Savanna"
+      },
+      {
+        "id": "bd555fcb-2084-416c-a7b5-c8ca5f880802",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 3/12]\n(in reply to) User: Can you suggest some off-the-beaten-path attractions in Savanna"
+      },
+      {
+        "id": "182478cf-b0ff-4ab4-9069-9e4d1df636b5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 4/12]\nUser: I'm actually not interested in any of those attractions. Can you suggest some"
+      },
+      {
+        "id": "80031a10-c735-4ee5-ba37-4917a04a7493",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 5/12]\n(in reply to) User: I'm actually not interested in any of those attractions. Can yo"
+      },
+      {
+        "id": "4cdedfd9-143d-42b5-a8df-f382cdac0cbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 6/12]\n(in reply to) User: I'm actually not interested in any of those attractions. Can yo"
+      },
+      {
+        "id": "fbf6a23a-2ace-428e-9cc2-c46fc82b1bde",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 7/12]\nUser: I already know about the historic district and the food scene, they're not th"
+      },
+      {
+        "id": "772e7b2c-76ae-4f70-af0f-676578dc0490",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 8/12]\n(in reply to) User: I already know about the historic district and the food scene, "
+      },
+      {
+        "id": "2cad678f-e0e5-4eb6-88bd-124c1f1db325",
+        "score": 0.3717,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 9/12]\n(in reply to) User: I already know about the historic district and the food scene, "
+      },
+      {
+        "id": "625c8907-38e4-43e5-8453-4ee92ebcbc79",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 10/12]\nUser: Honestly, none of those suggestions are really doing it for me. Can't you th"
+      },
+      {
+        "id": "f36a7249-0b34-4757-af3f-2f52d89174a0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 11/12]\n(in reply to) User: Honestly, none of those suggestions are really doing it for me"
+      },
+      {
+        "id": "f911b2af-b29b-4763-a2f5-faa2b802b694",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:31:00+00:00 | context: Session 36be30311e7e - happened on 2023-05-23 10:31:00 UTC. | turn 12/12]\n(in reply to) User: Honestly, none of those suggestions are really doing it for me"
+      },
+      {
+        "id": "ea6bf4df-a0b1-48e8-8610-510dbe9ccb5a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 1/24]\nUser: I'm looking for some skincare product recommendations. I recently got a skinc"
+      },
+      {
+        "id": "0879190c-0d92-484f-b373-c533820d12da",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "016ab59f-ba53-4601-acc2-e2bc99e10a14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "ca0be8d0-17d2-4c7f-86a5-c52194b71548",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 4/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "eab7434a-3cf1-41fc-9741-72e6ba7cdda5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 5/24]\n(in reply to) User: I'm looking for some skincare product recommendations. I recent"
+      },
+      {
+        "id": "fe2e3f96-d3dc-45f6-835d-b3b57edb0658",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 6/24]\nUser: That's a great list! I'll definitely check them out. I'm especially intereste"
+      },
+      {
+        "id": "3a37978d-3d51-48ec-902a-27b98d1a51fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 7/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "10ba4451-8f2e-4a7b-beef-10e74d29c008",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 8/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "344a3813-9b08-41d3-8225-0a2fdaa35540",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 9/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm especi"
+      },
+      {
+        "id": "963cdc8f-f25a-4cbb-b415-22e9d00c88f5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 10/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm espec"
+      },
+      {
+        "id": "5090680b-0ff8-4dfc-8672-f4b5ce8d5d5b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 11/24]\n(in reply to) User: That's a great list! I'll definitely check them out. I'm espec"
+      },
+      {
+        "id": "73310d33-7495-4156-8b0f-a9d1f00c8ffb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 12/24]\nUser: I'll definitely check out those foundations. Thanks for the tips! By the way"
+      },
+      {
+        "id": "167c14c5-9dd2-4e49-bbbd-62cb899e26b2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 13/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "9273d981-155e-486e-bf54-54e23ac16436",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 14/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "4b12fd6a-6955-4b34-9045-917df74b2df3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 15/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "7d7a31d6-de69-49bd-9e7d-7bab28f4a45a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 16/24]\n(in reply to) User: I'll definitely check out those foundations. Thanks for the ti"
+      },
+      {
+        "id": "1405ee5f-75ae-426e-9c4c-48349efc7e91",
+        "score": 0.3741,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 17/24]\nUser: That's really helpful, thanks! I'll definitely check out those brands and st"
+      },
+      {
+        "id": "01def26f-ca5c-4e81-9076-e2bea49f5f02",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 18/24]\nUser: The food! It was actually the combination of flavors and the variety of opti"
+      },
+      {
+        "id": "376ef3d7-64ba-46a7-80b5-be363b1fd155",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 19/24]\n(in reply to) User: The food! It was actually the combination of flavors and the v"
+      },
+      {
+        "id": "78f934ba-9e72-489a-aed9-bd46c712fb44",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 20/24]\nUser: No, I didn't take any photos, but I wish I did! We were all too busy chattin"
+      },
+      {
+        "id": "56ac0a02-9c43-4925-ba51-95b2ec8ad529",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 21/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "5610fec8-517d-4f94-b423-46db992fbf8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 22/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "72cebee1-042c-4824-8906-75bc2787ab7e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 23/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "a74fc45b-d913-46d9-8c53-0e3fb3adacb4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23...",
+        "text": "[date: 2023-05-23T10:51:00+00:00 | context: Session b75002e01045 - happened on 2023-05-23 10:51:00 UTC. | turn 24/24]\n(in reply to) User: No, I didn't take any photos, but I wish I did! We were all to"
+      },
+      {
+        "id": "1f2ea020-caa2-480f-a895-2c4488ac2ccd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25 17:44:00 UTC. | turn 22/37]\n(in reply to) User: I'm thinking of creating a series on my blog where I share my "
+      },
+      {
+        "id": "9044625e-9d61-4160-a6c8-e9ba38f6c84e",
+        "score": 0.3565,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25 17:44:00 UTC. | turn 23/37]\n(in reply to) User: I'm thinking of creating a series on my blog where I share my "
+      },
+      {
+        "id": "4d643e26-b2fd-42aa-a22f-e86a63a3250f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T17:44:00+00:00 | context: Session 15da5cee4d63 - happened on 2023-05-25 17:44:00 UTC. | turn 24/37]\n(in reply to) User: I'm thinking of creating a series on my blog where I share my "
+      },
+      {
+        "id": "0ac73ab4-4e8e-4ad2-a937-9948ec8cfe2a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25 18:47:00 UTC. | turn 1/5]\nUser: How do Indie music artists in Portland typically promote their work?"
+      },
+      {
+        "id": "7f8b8085-a8a7-4abe-a6eb-0f3c542718dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25 18:47:00 UTC. | turn 2/5]\n(in reply to) User: How do Indie music artists in Portland typically promote their w"
+      },
+      {
+        "id": "e47e835d-3de3-41d9-befb-03a57e73df56",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25 18:47:00 UTC. | turn 3/5]\n(in reply to) User: How do Indie music artists in Portland typically promote their w"
+      },
+      {
+        "id": "adfe156e-e6e7-4390-8c21-57243889a31b",
+        "score": 0.5498,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25 18:47:00 UTC. | turn 4/5]\nUser: Do you happen to know any specific venues in Portland that are popular among i"
+      },
+      {
+        "id": "8450d482-84d8-4acb-ab44-1285fa9bef69",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25...",
+        "text": "[date: 2023-05-25T18:47:00+00:00 | context: Session d852a6165dbc - happened on 2023-05-25 18:47:00 UTC. | turn 5/5]\nUser: I'm definitely going to check out some of those venues. Do you have any favori"
+      },
+      {
+        "id": "a4870e90-dfbf-48f4-b546-53d60b7105c1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 1/26]\nUser: I'm planning a trip to Sydney and I'm looking for some recommendations on wha"
+      },
+      {
+        "id": "60051edf-f8ba-4b40-aef8-adc7327a4144",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning a trip to Sydney and I'm looking for some recommen"
+      },
+      {
+        "id": "9d58ed45-259f-4985-8250-956381a83a27",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning a trip to Sydney and I'm looking for some recommen"
+      },
+      {
+        "id": "18165b7f-4c0f-4016-b9c5-35276d374a7d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning a trip to Sydney and I'm looking for some recommen"
+      },
+      {
+        "id": "bfcf190e-bb9e-458a-80ab-420e6a094706",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 5/26]\nUser: Can you recommend some good places to stay in the Blue Mountains? I'm looking"
+      },
+      {
+        "id": "109e26f8-a50d-45aa-9501-4d2e480f89e5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 6/26]\n(in reply to) User: Can you recommend some good places to stay in the Blue Mountain"
+      },
+      {
+        "id": "04681ac3-ed25-48c8-93bb-80ae161ab430",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 7/26]\n(in reply to) User: Can you recommend some good places to stay in the Blue Mountain"
+      },
+      {
+        "id": "8f43526a-10c5-4990-b553-b2949ca3d3bb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 8/26]\n(in reply to) User: Can you recommend some good places to stay in the Blue Mountain"
+      },
+      {
+        "id": "1c38b864-a205-4ff0-ad79-c410ea06a695",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 9/26]\n(in reply to) User: Can you recommend some good places to stay in the Blue Mountain"
+      },
+      {
+        "id": "4571c99d-157e-4741-9f96-e2c7662283e0",
+        "score": 0.3686,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 10/26]\nUser: That's really helpful, thanks! I think I'll look into staying in Katoomba si"
+      },
+      {
+        "id": "5cd11830-b11f-46d7-9419-00566886b06d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 11/26]\n(in reply to) User: That's really helpful, thanks! I think I'll look into staying "
+      },
+      {
+        "id": "8b94d0a2-486d-4e4e-b3ec-094c3433d3c4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 12/26]\n(in reply to) User: That's really helpful, thanks! I think I'll look into staying "
+      },
+      {
+        "id": "a9290b56-187f-4332-a103-3d7d1142c9f9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 13/26]\n(in reply to) User: That's really helpful, thanks! I think I'll look into staying "
+      },
+      {
+        "id": "aec02bd3-faa5-4518-a9bd-e4f1272415c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 14/26]\nUser: That sounds great, thanks for the recommendations! I'm especially excited to"
+      },
+      {
+        "id": "904f2945-4d9a-4af2-a0fe-aeb9d3304ef9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 15/26]\n(in reply to) User: That sounds great, thanks for the recommendations! I'm especia"
+      },
+      {
+        "id": "dbd77a4f-e0cd-4b88-8ea8-5bc71f91a1ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 16/26]\n(in reply to) User: That sounds great, thanks for the recommendations! I'm especia"
+      },
+      {
+        "id": "e70b0770-6f8c-48a2-ae27-f02fafaaa470",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 17/26]\n(in reply to) User: That sounds great, thanks for the recommendations! I'm especia"
+      },
+      {
+        "id": "c33eef64-cf34-4c8c-aa7f-0273e5025a18",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 18/26]\nUser: That's really helpful, thanks! I think I'll pack some of my own snacks, but "
+      },
+      {
+        "id": "b7e1b9aa-97a2-4506-85b1-cf3c5de8259f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 19/26]\n(in reply to) User: That's really helpful, thanks! I think I'll pack some of my ow"
+      },
+      {
+        "id": "568ac77c-1f1e-47f6-b1b1-eca86de3975c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 20/26]\n(in reply to) User: That's really helpful, thanks! I think I'll pack some of my ow"
+      },
+      {
+        "id": "5ec7fe10-063e-4efb-84cf-4ae2bb08d8e8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 21/26]\n(in reply to) User: That's really helpful, thanks! I think I'll pack some of my ow"
+      },
+      {
+        "id": "a306d6da-4772-4781-bd3b-c8d38a105951",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 22/26]\n(in reply to) User: That's really helpful, thanks! I think I'll pack some of my ow"
+      },
+      {
+        "id": "861787e5-79c3-47f6-b9ff-9c09aba58c2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 23/26]\n(in reply to) User: That's really helpful, thanks! I think I'll pack some of my ow"
+      },
+      {
+        "id": "849c03fa-e4fd-4fa8-b76d-5b8aa33aabbc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 24/26]\nUser: That's really helpful, thanks! I think I've got a good idea of what to pack "
+      },
+      {
+        "id": "4e03b6af-7d75-4c04-8f3f-cc4de6f23a32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 25/26]\n(in reply to) User: That's really helpful, thanks! I think I've got a good idea of"
+      },
+      {
+        "id": "e511c877-0df1-420e-8ed8-92910e430fb1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T01:50:00+00:00 | context: Session ee48a0012493 - happened on 2023-05-26 01:50:00 UTC. | turn 26/26]\n(in reply to) User: That's really helpful, thanks! I think I've got a good idea of"
+      },
+      {
+        "id": "944723c0-2aa7-4c5a-aaeb-0b8c61ac2aee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 1/22]\nUser: I'm looking for some new TV show recommendations. I had a great time watching"
+      },
+      {
+        "id": "beb12f32-52eb-4c47-bcad-0176733a6285",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 2/22]\nUser: It was a comedy, and we were all laughing together at the same jokes, which m"
+      },
+      {
+        "id": "d55a7ea4-383f-48ec-ba7c-0494b1f82a44",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 3/22]\n(in reply to) User: It was a comedy, and we were all laughing together at the same "
+      },
+      {
+        "id": "257092de-a567-4d1e-b6e8-39f4c4c258bc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 4/22]\n(in reply to) User: It was a comedy, and we were all laughing together at the same "
+      },
+      {
+        "id": "80c3b276-2788-4dcb-b0d5-f64db8b1f55d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 5/22]\n(in reply to) User: It was a comedy, and we were all laughing together at the same "
+      },
+      {
+        "id": "59183176-6074-4b7a-8d66-b861aac8620b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 6/22]\n(in reply to) User: It was a comedy, and we were all laughing together at the same "
+      },
+      {
+        "id": "330246c5-ce7f-4cb4-a2ee-cd4e16ee4096",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 7/22]\nUser: I've heard great things about Schitt's Creek, but I've also been meaning to c"
+      },
+      {
+        "id": "e5d69c2c-4f01-44f8-a4e4-e0fdb32a9a3b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 8/22]\n(in reply to) User: I've heard great things about Schitt's Creek, but I've also bee"
+      },
+      {
+        "id": "00e0d232-bc5b-4c80-ab5f-c6071626b515",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 9/22]\n(in reply to) User: I've heard great things about Schitt's Creek, but I've also bee"
+      },
+      {
+        "id": "729501ce-2933-406b-af22-9071dbda6d17",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 10/22]\n(in reply to) User: I've heard great things about Schitt's Creek, but I've also be"
+      },
+      {
+        "id": "6f0dd0ff-a3a1-4323-ad75-12cc388eaa8b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 11/22]\nUser: I think I'll give Brooklyn Nine-Nine a try. I've heard great things about it"
+      },
+      {
+        "id": "e2f0e94e-4450-4b47-8db5-88951193298d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 12/22]\n(in reply to) User: I think I'll give Brooklyn Nine-Nine a try. I've heard great t"
+      },
+      {
+        "id": "0f63f188-dac3-4135-bfb7-18822413a06f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 13/22]\n(in reply to) User: I think I'll give Brooklyn Nine-Nine a try. I've heard great t"
+      },
+      {
+        "id": "5bfa3315-33fc-4fda-aba6-a8fd64746ed9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 14/22]\n(in reply to) User: I think I'll give Brooklyn Nine-Nine a try. I've heard great t"
+      },
+      {
+        "id": "2461f322-3800-4edc-a87b-aa295df74539",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 15/22]\n(in reply to) User: I think I'll give Brooklyn Nine-Nine a try. I've heard great t"
+      },
+      {
+        "id": "41009cd8-a53e-401c-a2c1-f64327bec6a6",
+        "score": 0.3686,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 16/22]\nUser: I'm excited to start watching Brooklyn Nine-Nine. I'll definitely check out "
+      },
+      {
+        "id": "24883485-4ac6-4079-9604-54f2e34b84d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 17/22]\n(in reply to) User: I'm excited to start watching Brooklyn Nine-Nine. I'll definit"
+      },
+      {
+        "id": "a9c8af18-1b84-41ad-954d-bb2b014e9ed7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 18/22]\n(in reply to) User: I'm excited to start watching Brooklyn Nine-Nine. I'll definit"
+      },
+      {
+        "id": "667c78d0-2d90-4abf-9bce-2694beb0988c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 19/22]\n(in reply to) User: I'm excited to start watching Brooklyn Nine-Nine. I'll definit"
+      },
+      {
+        "id": "be1a66ca-4667-459c-b1e5-48e30f80a643",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 20/22]\nUser: I was thinking of trying out a new coffee shop that just opened up down the "
+      },
+      {
+        "id": "19132788-1f24-4603-81df-8018162f2c6d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 21/22]\n(in reply to) User: I was thinking of trying out a new coffee shop that just opene"
+      },
+      {
+        "id": "42a1a47b-681b-43ef-a061-d3a3433c1484",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:20:00+00:00 | context: Session 4c2810d8a678 - happened on 2023-05-26 10:20:00 UTC. | turn 22/22]\n(in reply to) User: I was thinking of trying out a new coffee shop that just opene"
+      },
+      {
+        "id": "0f7149c2-a092-4a52-ac25-cd77162067bb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 1/23]\nUser: I'm trying to learn more about Monet's \"Water Lilies\" series, which I saw at "
+      },
+      {
+        "id": "fc2f65f1-a79f-4308-aad4-671aead5631f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 2/23]\n(in reply to) User: I'm trying to learn more about Monet's \"Water Lilies\" series, w"
+      },
+      {
+        "id": "25948d69-a6a6-4a5d-ab07-448503e3c94f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 3/23]\n(in reply to) User: I'm trying to learn more about Monet's \"Water Lilies\" series, w"
+      },
+      {
+        "id": "f5bc212c-a9d7-4bb2-9f6e-854505125cb7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 4/23]\n(in reply to) User: I'm trying to learn more about Monet's \"Water Lilies\" series, w"
+      },
+      {
+        "id": "2fac8bea-6ca8-4144-b715-34ba162a9cd5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 5/23]\nUser: That's really interesting, I didn't know about Monet's struggles with catarac"
+      },
+      {
+        "id": "3147053f-24d3-47d7-88c5-18ef1712c74c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 6/23]\n(in reply to) User: That's really interesting, I didn't know about Monet's struggle"
+      },
+      {
+        "id": "6cefb17f-eccf-48b6-bed3-2415b6652f20",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 7/23]\n(in reply to) User: That's really interesting, I didn't know about Monet's struggle"
+      },
+      {
+        "id": "9b7e2a2f-cac1-40bb-a191-b10b06617a70",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 8/23]\n(in reply to) User: That's really interesting, I didn't know about Monet's struggle"
+      },
+      {
+        "id": "8dafbad3-3766-4eb0-82c5-ae49aae8c145",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 9/23]\nUser: I think I'll start with the books, maybe \"Monet: The Master of Light\" or \"Cla"
+      },
+      {
+        "id": "49c39711-b6ae-42be-b483-b4edaa1887d0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 10/23]\n(in reply to) User: I think I'll start with the books, maybe \"Monet: The Master of"
+      },
+      {
+        "id": "3662996f-21e1-4f97-99fa-5732a113d11c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 11/23]\n(in reply to) User: I think I'll start with the books, maybe \"Monet: The Master of"
+      },
+      {
+        "id": "2cb87680-8bb7-4988-8192-5ab34751399f",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 12/23]\n(in reply to) User: I think I'll start with the books, maybe \"Monet: The Master of"
+      },
+      {
+        "id": "0b1e414b-4604-4f2a-ae41-b83e06b9a8a5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 13/23]\nUser: I'll definitely check out the museum's website and social media to stay up-t"
+      },
+      {
+        "id": "72b85e49-17a2-4eef-8eb7-b261e3ed7bc8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 14/23]\n(in reply to) User: I'll definitely check out the museum's website and social medi"
+      },
+      {
+        "id": "e8b813ca-ce9b-4f93-bcf1-905fa188548b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 15/23]\nUser: By the way, I was thinking of sharing some photos I took at the \"Impressioni"
+      },
+      {
+        "id": "9a8799ff-0816-4a9d-852b-25433ba58760",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 16/23]\n(in reply to) User: By the way, I was thinking of sharing some photos I took at th"
+      },
+      {
+        "id": "e34c3c2a-0ca6-45ea-9f11-8309a2f8dad9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 17/23]\n(in reply to) User: By the way, I was thinking of sharing some photos I took at th"
+      },
+      {
+        "id": "e85d55fa-fadc-4dd3-b834-e5c581cc2234",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 18/23]\n(in reply to) User: By the way, I was thinking of sharing some photos I took at th"
+      },
+      {
+        "id": "6661245a-5863-41d5-86fe-b301f8c07317",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 19/23]\n(in reply to) User: By the way, I was thinking of sharing some photos I took at th"
+      },
+      {
+        "id": "b800f182-f3bb-4a01-94a2-01a3a6602fc2",
+        "score": 0.3708,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 20/23]\nUser: I'll keep that in mind. By the way, I'm curious - do you know if the City Ar"
+      },
+      {
+        "id": "b9915d7d-7d3c-4143-baf9-d78d204fa4e8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 21/23]\n(in reply to) User: I'll keep that in mind. By the way, I'm curious - do you know "
+      },
+      {
+        "id": "b04b697d-c0eb-4c57-b167-e8dd303c908b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 22/23]\n(in reply to) User: I'll keep that in mind. By the way, I'm curious - do you know "
+      },
+      {
+        "id": "1433b9c8-c17d-43d9-b4bf-b19d7d57ac3f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26...",
+        "text": "[date: 2023-05-26T10:39:00+00:00 | context: Session eab19788ed2c - happened on 2023-05-26 10:39:00 UTC. | turn 23/23]\n(in reply to) User: I'll keep that in mind. By the way, I'm curious - do you know "
+      },
+      {
+        "id": "371e9a08-6a84-4b67-ab99-2ed55cc226de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 1/7]\nUser: What were some challenges faced during Too Short's collaboration with Jay-Z on"
+      },
+      {
+        "id": "4379a7bc-2a60-4c3b-9fc3-9483d7a76990",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 2/7]\nUser: Wow, that's impressive. I really love \"Blow the Whistle\" and didn't know about"
+      },
+      {
+        "id": "d61250d0-85b7-427e-a67d-794d8446df87",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 3/7]\nUser: I had no idea the sample was used in so many different songs! It's crazy how o"
+      },
+      {
+        "id": "a727b83e-22da-4091-9cd3-3a5b1e1c7a64",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 4/7]\nUser: Yeah, music has an amazing power. I always love discovering old songs and hear"
+      },
+      {
+        "id": "5eb60fab-284a-4b39-b774-c3b631b40626",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 5/7]\nUser: It's amazing how music can bring people together and build connections across "
+      },
+      {
+        "id": "5abd6e26-3e54-45b4-b437-9fea057b7052",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 6/7]\nUser: I totally agree with you! It's amazing to see how a song can evolve and take o"
+      },
+      {
+        "id": "f091050c-dc6e-49df-8133-84e6393cb777",
+        "score": 0.3777,
+        "memory_type": "decision",
+        "title": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T05:46:00+00:00 | context: Session 4c353fefbae3 - happened on 2023-05-27 05:46:00 UTC. | turn 7/7]\nUser: I love those examples! It's incredible how different artists can bring their o"
+      },
+      {
+        "id": "cf304b45-8938-49d1-b869-fa6f36ee8b65",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 1/8]\nUser: I'm trying to organize my concert memories from the past few months. Can you h"
+      },
+      {
+        "id": "d6815d50-11b1-4dee-a903-2fcb563387c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 2/8]\nUser: Let's start with the concert list then. I think I went to a music festival in "
+      },
+      {
+        "id": "40c01426-fc09-4d18-9629-a353b4bca7d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 3/8]\n(in reply to) User: Let's start with the concert list then. I think I went to a musi"
+      },
+      {
+        "id": "a9878fae-f069-496e-b40c-fe7ef2ff798b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 4/8]\n(in reply to) User: Let's start with the concert list then. I think I went to a musi"
+      },
+      {
+        "id": "7680ab69-3d09-4db6-821d-4089ffd4a288",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 5/8]\nUser: I'd like to add the music festival details. I think it was Tame Impala, Billie"
+      },
+      {
+        "id": "4f7fb07f-a0ad-4eb7-acc2-6252b5fadf13",
+        "score": 0.4046,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 6/8]\nUser: I also went to see The Who at the Oakland Arena about a month ago. Can you add"
+      },
+      {
+        "id": "5a7d9c11-4e4b-49ab-ae51-0f3877a0da60",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 7/8]\nUser: I also attended an outdoor concert at the Greek Theatre in Berkeley, where I s"
+      },
+      {
+        "id": "01ecf34e-83c7-4111-bd71-230f95a12daf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27...",
+        "text": "[date: 2023-05-27T15:20:00+00:00 | context: Session 100313f4184b - happened on 2023-05-27 15:20:00 UTC. | turn 8/8]\nUser: I also went to see Bon Iver at the Orpheum Theatre in San Francisco a few days"
+      }
+    ]
+  },
+  "context": {
+    "chars": 102535,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25633)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 1,
+    "gold_turns_present": 1,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26321,
+    "prompt_tokens": 25236,
+    "completion_tokens": 215,
+    "reasoning_tokens": 870,
+    "generate_time_ms": 18797.738721012138,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23947,
+        "completion_tokens": 155,
+        "reasoning_tokens": 386,
+        "total_tokens": 24488
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 639,
+        "completion_tokens": 18,
+        "reasoning_tokens": 373,
+        "total_tokens": 1030
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 650,
+        "completion_tokens": 42,
+        "reasoning_tokens": 111,
+        "total_tokens": 803
+      }
+    ]
+  },
+  "failure_label": null
+}

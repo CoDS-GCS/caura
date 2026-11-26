@@ -1,0 +1,1416 @@
+{
+  "question_id": "50635ada",
+  "question_type": "knowledge-update",
+  "question": "What was my previous frequent flyer status on United Airlines before I got the current status?",
+  "gold_answer": "Premier Silver",
+  "prediction": "Your previous frequent flyer status on United Airlines was Premier Silver before achieving your current status of Premier Gold.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 915,
+    "by_type": {
+      "episode": 338,
+      "decision": 3,
+      "action": 2,
+      "task": 31,
+      "fact": 344,
+      "plan": 6,
+      "preference": 191
+    },
+    "by_status": {
+      "active": 900,
+      "conflicted": 15
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2692845,
+    "output_tokens": 129930,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "What was my previous frequent flyer status on United Airlines before I got the current status?"
+    ],
+    "retrieve_time_ms": 3125.297383987345,
+    "candidates": 152,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "1fd6725b-36e0-44a2-98b1-877b872bf41c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User seeks tips for consistent morning routine",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 1/37]\nUser: I'm trying to get into a consistent morning routine. I've been waking up at 7"
+      },
+      {
+        "id": "bfc8f135-bf97-43d8-b80c-fc70e31c2e14",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Morning routine tips discussion (wake up at 7:30)",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 2/37]\n(in reply to) User: I'm trying to get into a consistent morning routine. I've been "
+      },
+      {
+        "id": "8b41dfb8-e0f6-41d6-96cb-3960a1f57c25",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for consistent morning routine (sleep schedule, sunlight)",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 3/37]\n(in reply to) User: I'm trying to get into a consistent morning routine. I've been "
+      },
+      {
+        "id": "00d4529f-9f3f-403b-a8a4-76dd9026562d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for consistent morning routine (wake up energized)",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 4/37]\n(in reply to) User: I'm trying to get into a consistent morning routine. I've been "
+      },
+      {
+        "id": "fe016ed5-a5a1-4dfe-aca6-1e998e7050a2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for consistent morning routine and waking up energized",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 5/37]\n(in reply to) User: I'm trying to get into a consistent morning routine. I've been "
+      },
+      {
+        "id": "1142d8f3-9dd1-4925-9470-b1c4960548cc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for tips to build a consistent morning routine",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 6/37]\n(in reply to) User: I'm trying to get into a consistent morning routine. I've been "
+      },
+      {
+        "id": "4c6f69ab-ea85-4a93-a89b-24dc292e8e8b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request to stop snoozing alarm",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 7/37]\nUser: I've been setting my alarm for 7:15 am, but I've been hitting the snooze butt"
+      },
+      {
+        "id": "71603161-a938-4ddc-8443-4e308b83d23a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for help stopping snooze habit",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 8/37]\n(in reply to) User: I've been setting my alarm for 7:15 am, but I've been hitting t"
+      },
+      {
+        "id": "d52dba10-59f1-42c4-be35-bceb1c9e4db0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to stop snoozing and get out of bed",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 9/37]\n(in reply to) User: I've been setting my alarm for 7:15 am, but I've been hitting t"
+      },
+      {
+        "id": "e844a648-8d3c-4069-ace6-11f7b15eb37b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to stop snoozing and get out of bed",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 10/37]\n(in reply to) User: I've been setting my alarm for 7:15 am, but I've been hitting "
+      },
+      {
+        "id": "d1099b7b-7542-4189-b160-03d78507d760",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips to stop snoozing and get up on time",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 11/37]\n(in reply to) User: I've been setting my alarm for 7:15 am, but I've been hitting "
+      },
+      {
+        "id": "dde43f74-6920-4d55-804d-6cb98e8ea73b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for help stopping snooze and waking up on time",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 12/37]\n(in reply to) User: I've been setting my alarm for 7:15 am, but I've been hitting "
+      },
+      {
+        "id": "f1d2bb30-f8ba-43bd-a482-edb5a4f1fe1e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports inconsistent weekend wake-up times",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 13/37]\nUser: I've been trying to establish a consistent wake-up time for the past few mon"
+      },
+      {
+        "id": "53387d54-8d0f-4f29-a995-ce911cba609b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about consistent wake-up times",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 14/37]\n(in reply to) User: I've been trying to establish a consistent wake-up time for th"
+      },
+      {
+        "id": "09e58fc7-2e1b-47fb-8f80-23116fa7f921",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on consistent wake-up and sleep schedule",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 15/37]\n(in reply to) User: I've been trying to establish a consistent wake-up time for th"
+      },
+      {
+        "id": "433d329e-dfdd-4247-a5d8-23470eebc0cd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for establishing a consistent wake-up time",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 16/37]\n(in reply to) User: I've been trying to establish a consistent wake-up time for th"
+      },
+      {
+        "id": "aaf4e256-52b9-41a4-a2cd-48d254e6b1c1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Sleep habit guidance: be kind, use tech, celebrate wins",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 17/37]\n(in reply to) User: I've been trying to establish a consistent wake-up time for th"
+      },
+      {
+        "id": "4ec25836-3b72-430a-aac8-3dd26488f1db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses wake-up time consistency patterns",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 18/37]\n(in reply to) User: I've been trying to establish a consistent wake-up time for th"
+      },
+      {
+        "id": "dfd67e18-baea-44ba-867a-ea6756282296",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Workout schedule: 3x/week, skips Mon & Fri",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 19/37]\nUser: I've been trying to fit in a quick workout before getting ready for work, bu"
+      },
+      {
+        "id": "794eae74-fd7f-4dea-ac57-01e1fc12b2ea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about inconsistent morning workouts (Mon/Fri skipped)",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 20/37]\n(in reply to) User: I've been trying to fit in a quick workout before getting read"
+      },
+      {
+        "id": "0512fe74-7e69-4d01-8873-b617bc920349",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Workout routine skips on Mondays and Fridays",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 21/37]\n(in reply to) User: I've been trying to fit in a quick workout before getting read"
+      },
+      {
+        "id": "912c733c-ee59-41cf-ac3b-3ff286abf5d3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitness routine tips for consistent quick workouts",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 22/37]\n(in reply to) User: I've been trying to fit in a quick workout before getting read"
+      },
+      {
+        "id": "4fbe7d3c-b55b-4ab4-b3bf-16bccea0767e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Fitness habit guidance: celebrate small wins, be kind, mix it up",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 23/37]\n(in reply to) User: I've been trying to fit in a quick workout before getting read"
+      },
+      {
+        "id": "51fe1c9c-1abe-4075-9222-eb103e1bfed4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Morning workout consistency: 3x/week, skips Mon/Fri",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 24/37]\n(in reply to) User: I've been trying to fit in a quick workout before getting read"
+      },
+      {
+        "id": "564edbe1-e844-4906-8e1b-35fc1d40bab6",
+        "score": 0.3004,
+        "memory_type": "preference",
+        "title": "Wakes up early before appointments due to anxiety",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 25/37]\nUser: I've noticed that I tend to wake up 15-30 minutes earlier than usual on morn"
+      },
+      {
+        "id": "392ca255-e6fd-4f1e-bc89-e4ee6f2fee11",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: waking early before early meetings",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 26/37]\n(in reply to) User: I've noticed that I tend to wake up 15-30 minutes earlier than"
+      },
+      {
+        "id": "ff9668e5-b879-4ee4-9653-851e5cf3989a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Using anxiety-driven early waking via artificial deadlines",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 27/37]\n(in reply to) User: I've noticed that I tend to wake up 15-30 minutes earlier than"
+      },
+      {
+        "id": "a4062715-b9bf-4a03-a1f2-c6c91dae9489",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Use early-morning wakeups on meeting days",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 28/37]\n(in reply to) User: I've noticed that I tend to wake up 15-30 minutes earlier than"
+      },
+      {
+        "id": "f48fcf2b-80b2-413a-a337-b60f4bffe994",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: use early wake-ups before meetings",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 29/37]\n(in reply to) User: I've noticed that I tend to wake up 15-30 minutes earlier than"
+      },
+      {
+        "id": "3cf29364-b930-4d6d-9359-bff9258521a8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on using early meetings to wake up earlier",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 30/37]\n(in reply to) User: I've noticed that I tend to wake up 15-30 minutes earlier than"
+      },
+      {
+        "id": "f1a274ca-70bc-45e9-8e34-19ae8bb6acf7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wakes up early before appointments due to anxiety",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 31/37]\nUser: I've noticed that when I have an early meeting or appointment, I tend to wak"
+      },
+      {
+        "id": "ecb69fde-e83b-4449-b6a9-1f4c87ca8d96",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given for waking up early due to anxiety",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 32/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "baee2348-5e54-4fc8-88c7-c71fe2b23e7e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice: use early-meeting anxiety to wake up earlier",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 33/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "cab51f4a-ceb0-401a-9207-c59bff4c4b50",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on using early-meeting anxiety to wake up earlier",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 34/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "e384479f-2d72-4b28-9521-87b0aae444e0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for waking up earlier before early meetings",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 35/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "84619982-74cb-449f-affc-f82d5578f94c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: use early-meeting anxiety to wake up earlier",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 36/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "8749f7e7-e34d-462f-92bf-b3b238e203dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on waking up earlier for early meetings",
+        "text": "[date: 2022-08-21T11:08:00+00:00 | context: Session 9c57083c62a9 - happened on 2022-08-21 11:08:00 UTC. | turn 37/37]\n(in reply to) User: I've noticed that when I have an early meeting or appointment,"
+      },
+      {
+        "id": "a0c80320-3703-4a63-9c5a-be4a12b6ef08",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks best transit from LaGuardia to Midtown hotel",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 1/26]\nUser: I'm planning another trip to New York City soon, what's the best way to get f"
+      },
+      {
+        "id": "855d44f5-eb77-4f15-8a3c-ee51799dd72a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice requested: LGA to Midtown NYC transfer options",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning another trip to New York City soon, what's the bes"
+      },
+      {
+        "id": "41338388-7992-466d-939b-86d5f2c42f86",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LGA to Midtown transport options (taxi, Uber/Lyft, subway, shuttle)",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning another trip to New York City soon, what's the bes"
+      },
+      {
+        "id": "cfefaf6c-e606-43d0-b411-809323b5a589",
+        "score": null,
+        "memory_type": "fact",
+        "title": "LGA to Midtown: private car vs shuttle cost ranges",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning another trip to New York City soon, what's the bes"
+      },
+      {
+        "id": "30ea4edf-d5c4-400b-8360-68079bf571f5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NYC travel advice: LGA to Midtown options",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 5/26]\n(in reply to) User: I'm planning another trip to New York City soon, what's the bes"
+      },
+      {
+        "id": "4a098102-8c00-4026-bc45-36835af7c403",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Getting around NYC from Midtown",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 6/26]\nUser: What's the best way to get around NYC once I'm settled in Midtown?"
+      },
+      {
+        "id": "17cefc42-52dc-4d04-8756-a94894e2170e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "NYC transit advice for getting around Midtown",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 7/26]\n(in reply to) User: What's the best way to get around NYC once I'm settled in Midto"
+      },
+      {
+        "id": "14cb8727-2e16-4344-a869-a1dfe8a0cc6e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NYC transit options from Midtown (subway, bus, cabs, ride-hailing, walking)",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 8/26]\n(in reply to) User: What's the best way to get around NYC once I'm settled in Midto"
+      },
+      {
+        "id": "b8897b63-02a4-45b5-a86b-09c4f94715be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NYC transit options: Citi Bike, Zipcar, Enterprise",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 9/26]\n(in reply to) User: What's the best way to get around NYC once I'm settled in Midto"
+      },
+      {
+        "id": "f3c4a5fa-f006-4f6f-adee-2bba7befaa6e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "NYC transit tips for getting around Midtown",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 10/26]\n(in reply to) User: What's the best way to get around NYC once I'm settled in Midt"
+      },
+      {
+        "id": "a04f7606-c7d6-4180-90d6-a304bb71197c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best time to visit Empire State Building to avoid lines",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 11/26]\nUser: I'm thinking of visiting the Empire State Building while I'm in NYC. What's "
+      },
+      {
+        "id": "b6562204-af3c-49b6-9bba-9fad49b28ccd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Best times to visit Empire State Building to avoid lines",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 12/26]\n(in reply to) User: I'm thinking of visiting the Empire State Building while I'm i"
+      },
+      {
+        "id": "83a23d37-5e5b-4f22-9180-bca8a75678fa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to avoid lines at Empire State Building",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 13/26]\n(in reply to) User: I'm thinking of visiting the Empire State Building while I'm i"
+      },
+      {
+        "id": "1f45199d-52f3-4fbb-bc2c-06802662832c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked best time to visit Empire State Building",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 14/26]\n(in reply to) User: I'm thinking of visiting the Empire State Building while I'm i"
+      },
+      {
+        "id": "b3f30803-31b9-4534-a0f6-22eb291c151c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for directions to Empire State Building",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 15/26]\nUser: What's the best way to get to the Empire State Building from my hotel in Mid"
+      },
+      {
+        "id": "28d01499-7f80-4f35-8758-2282d0520ac3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel directions to Empire State Building from Midtown",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 16/26]\n(in reply to) User: What's the best way to get to the Empire State Building from m"
+      },
+      {
+        "id": "54583e4e-3d08-41c3-b9be-1c37eadcf2eb",
+        "score": 0.3035,
+        "memory_type": "fact",
+        "title": "Subway options to Empire State Building from Midtown",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 17/26]\n(in reply to) User: What's the best way to get to the Empire State Building from m"
+      },
+      {
+        "id": "acd823e2-d7cd-40fe-91f5-4908db6a7055",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about Empire State Building night observation deck views",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 18/26]\nUser: I've been to the Empire State Building a few times before, but I've never be"
+      },
+      {
+        "id": "2f9e0c82-6ed0-4300-9b50-a35edd8ca03b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on Empire State Building night observation deck views",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 19/26]\n(in reply to) User: I've been to the Empire State Building a few times before, but"
+      },
+      {
+        "id": "34d73d6d-726f-4e77-be2b-328c58f6dcc1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on Empire State Building observation deck at night",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 20/26]\n(in reply to) User: I've been to the Empire State Building a few times before, but"
+      },
+      {
+        "id": "94fccc20-7ba1-425b-afcc-f4b6d2b54ce8",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: Empire State Building night observation deck tips",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 21/26]\n(in reply to) User: I've been to the Empire State Building a few times before, but"
+      },
+      {
+        "id": "497c8bbc-beb8-4bbf-811f-77e10ec4500f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Top of the Rock vs Empire State observation decks",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 22/26]\nUser: I've been thinking about visiting the Top of the Rock Observation Deck as we"
+      },
+      {
+        "id": "fd93c544-957b-44d1-be27-9970b5c65fd0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "NYC observation deck comparison discussion",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 23/26]\n(in reply to) User: I've been thinking about visiting the Top of the Rock Observat"
+      },
+      {
+        "id": "60ca5881-dd14-40b1-9275-4f2c530f4ae0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Top of the Rock vs Empire State observation decks",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 24/26]\n(in reply to) User: I've been thinking about visiting the Top of the Rock Observat"
+      },
+      {
+        "id": "26e9bbf8-f05a-43f5-9eb6-bca09af4a2a4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: Top of the Rock vs Empire State observation decks",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 25/26]\n(in reply to) User: I've been thinking about visiting the Top of the Rock Observat"
+      },
+      {
+        "id": "81009f79-bf06-423f-a4c4-01eab6b2b37a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice comparing Top of the Rock vs Empire State observation decks",
+        "text": "[date: 2022-09-15T11:08:00+00:00 | context: Session 6da6497634f8 - happened on 2022-09-15 11:08:00 UTC. | turn 26/26]\n(in reply to) User: I've been thinking about visiting the Top of the Rock Observat"
+      },
+      {
+        "id": "d4180549-219e-43f3-95cc-4c2306803855",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip planning: getting to LAX and using United miles",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 1/23]\nUser: I'm trying to plan a trip to LA and I want to know the best ways to get to LA"
+      },
+      {
+        "id": "0e306434-e34a-4e0b-bdfd-c9c09c177924",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Trip planning: getting to LAX from downtown LA and using United miles",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 2/23]\n(in reply to) User: I'm trying to plan a trip to LA and I want to know the best way"
+      },
+      {
+        "id": "eb0bf4be-5dc9-4682-ab22-9694371b1bd4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Getting from Downtown LA to LAX options and typical costs",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 3/23]\n(in reply to) User: I'm trying to plan a trip to LA and I want to know the best way"
+      },
+      {
+        "id": "f63283eb-c99f-442c-b79e-7bb37263c63e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on getting from Downtown LA to LAX",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 4/23]\n(in reply to) User: I'm trying to plan a trip to LA and I want to know the best way"
+      },
+      {
+        "id": "2c2d33e3-ad39-43ad-82a0-a7fd7ae6291a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Using United miles to book flights to LAX",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 5/23]\n(in reply to) User: I'm trying to plan a trip to LA and I want to know the best way"
+      },
+      {
+        "id": "a960a1c6-80d8-4a76-9a58-2c0ca7d8d0ee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about getting to LAX and using United miles",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 6/23]\n(in reply to) User: I'm trying to plan a trip to LA and I want to know the best way"
+      },
+      {
+        "id": "7d40f2f4-c2fa-4a6d-992d-00f0904a533d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check United frequent flyer status for miles booking to LA",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 7/23]\nUser: I'm thinking of using my United miles to book a flight to LA, but I'm not sur"
+      },
+      {
+        "id": "fd9822ae-49fe-4ff9-b4a1-734eff9bd6de",
+        "score": 0.4402,
+        "memory_type": "episode",
+        "title": "Assistant declined access to user's United frequent flyer status",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 8/23]\n(in reply to) User: I'm thinking of using my United miles to book a flight to LA, b"
+      },
+      {
+        "id": "35368d4a-3b9d-4d86-94c0-b3e70363dd8c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "How to check United MileagePlus miles and status",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 9/23]\n(in reply to) User: I'm thinking of using my United miles to book a flight to LA, b"
+      },
+      {
+        "id": "d1eb92e0-be3b-43ca-8bdf-9b186b8bc81e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for United miles and current status info",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 10/23]\n(in reply to) User: I'm thinking of using my United miles to book a flight to LA, "
+      },
+      {
+        "id": "d287b8cf-e5d9-4828-867e-2aa80b9cc999",
+        "score": null,
+        "memory_type": "task",
+        "title": "Check miles needed for one-way DC to LA economy (Premier Silver)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 11/23]\nUser: I actually just hit 20,000 miles on United Airlines, which means I'm finally"
+      },
+      {
+        "id": "79d42c32-928c-4475-ae3b-878fb2c88ff6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "United MileagePlus miles estimates for one-way DC to LA",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 12/23]\n(in reply to) User: I actually just hit 20,000 miles on United Airlines, which mea"
+      },
+      {
+        "id": "0ac4d52d-ce67-4028-85ba-903b8c3a778b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "United Premier Silver miles booking guidance (DC to LA)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 13/23]\n(in reply to) User: I actually just hit 20,000 miles on United Airlines, which mea"
+      },
+      {
+        "id": "a88666a4-7ead-426f-b894-df08ceb429e3",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about transferring loyalty miles to United MileagePlus",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 14/23]\nUser: I'd like to know more about transferring miles from other loyalty programs t"
+      },
+      {
+        "id": "0ca194d0-54c4-4123-9478-013bb90fd3bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "United MileagePlus transfer partners and ratios (partial list)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 15/23]\n(in reply to) User: I'd like to know more about transferring miles from other loya"
+      },
+      {
+        "id": "d56ee8de-0e8a-426a-8369-289060b5ddef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "United MileagePlus transfer options and considerations (general)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 16/23]\n(in reply to) User: I'd like to know more about transferring miles from other loya"
+      },
+      {
+        "id": "6de37d07-b596-46f7-8a68-0ff92b3266dd",
+        "score": null,
+        "memory_type": "task",
+        "title": "Walk through transferring Chase UR points to United MileagePlus",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 17/23]\nUser: I'm thinking of transferring some Chase Ultimate Rewards points to my United"
+      },
+      {
+        "id": "9892aa45-fac4-4dd8-a25c-84c212f970d7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guide: Transfer Chase Ultimate Rewards points to United MileagePlus",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 18/23]\n(in reply to) User: I'm thinking of transferring some Chase Ultimate Rewards point"
+      },
+      {
+        "id": "24b11d66-066a-4181-ac6c-38c02dffdf78",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Chase Ultimate Rewards to United MileagePlus transfer steps",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 19/23]\n(in reply to) User: I'm thinking of transferring some Chase Ultimate Rewards point"
+      },
+      {
+        "id": "2b735acc-a3d8-4850-8546-54e833366f4b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Chase Ultimate Rewards to United MileagePlus transfer steps (review/confirm)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 20/23]\n(in reply to) User: I'm thinking of transferring some Chase Ultimate Rewards point"
+      },
+      {
+        "id": "da1e2c5b-572f-4d86-9424-4ba96618f153",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate taxes/fees for United miles award ticket DC to LA",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 21/23]\nUser: I'm going to book a one-way economy ticket from DC to LA using my United mil"
+      },
+      {
+        "id": "938709d1-9918-4446-918e-29125070c4eb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimated taxes/fees for United miles DC\u2192LA one-way (economy)",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 22/23]\n(in reply to) User: I'm going to book a one-way economy ticket from DC to LA using"
+      },
+      {
+        "id": "d8494358-ad63-4a55-a6cc-fdb1c2790d43",
+        "score": null,
+        "memory_type": "fact",
+        "title": "United award ticket taxes/fees: close-in and phone booking fees",
+        "text": "[date: 2022-09-16T17:22:00+00:00 | context: Session e45b486f8872 - happened on 2022-09-16 17:22:00 UTC. | turn 23/23]\n(in reply to) User: I'm going to book a one-way economy ticket from DC to LA using"
+      },
+      {
+        "id": "3e7024d7-9562-4ece-a552-5fd972a22ad5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requests fashion advice for designer handbag outfits",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 1/24]\nUser: I'm looking for some fashion advice. I recently bought a designer handbag at "
+      },
+      {
+        "id": "50f14484-871a-4aa3-bf6e-b5f06791470c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Fashion advice request for designer handbag outfits",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 2/24]\n(in reply to) User: I'm looking for some fashion advice. I recently bought a design"
+      },
+      {
+        "id": "86b667ab-382f-42bf-bc59-600b3334243e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested fashion advice for new designer handbag",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 3/24]\n(in reply to) User: I'm looking for some fashion advice. I recently bought a design"
+      },
+      {
+        "id": "c62ab0cf-dd3f-44f4-978f-60f7423f7cc7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Personal style: classic + trendy handbag for work/casual",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 4/24]\nUser: It's a designer handbag from a well-known luxury brand, and it's a neutral co"
+      },
+      {
+        "id": "c4fa40f0-5984-4631-8607-aeb0793d6e93",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User style: classic-trendy neutral luxury handbag",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 5/24]\n(in reply to) User: It's a designer handbag from a well-known luxury brand, and it'"
+      },
+      {
+        "id": "eeda32fc-5b6f-436e-9690-b76ddc5688b4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Personal style: classic + trendy; neutral luxury handbag use",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 6/24]\n(in reply to) User: It's a designer handbag from a well-known luxury brand, and it'"
+      },
+      {
+        "id": "50038e0b-36e4-49e7-98c6-14ce62b13198",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Styling guidance for neutral luxury handbag",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 7/24]\n(in reply to) User: It's a designer handbag from a well-known luxury brand, and it'"
+      },
+      {
+        "id": "201bbfe4-809b-400b-89e0-6314bafe5da1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes Casual Chic and wants affordable mid-range items",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 8/24]\nUser: I love these outfit ideas! I'm particularly interested in the \"Casual Chic\" l"
+      },
+      {
+        "id": "9cb512f3-2f22-4f1b-aba4-1d1ace19b383",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Outfit ideas for Casual Chic look (Banana Republic/J.Crew)",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 9/24]\n(in reply to) User: I love these outfit ideas! I'm particularly interested in the \""
+      },
+      {
+        "id": "c2cf9c14-42f7-4890-9340-6a7ae9a17c30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Affordable casual chic outfit items (J.Crew/Banana Republic)",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 10/24]\n(in reply to) User: I love these outfit ideas! I'm particularly interested in the "
+      },
+      {
+        "id": "1e99e00d-54db-4b57-9280-957e9adf0225",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Casual Chic styling guidance and handbag-focused advice",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 11/24]\n(in reply to) User: I love these outfit ideas! I'm particularly interested in the "
+      },
+      {
+        "id": "22776fef-37ed-4a36-afac-2de07773ff82",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about Banana Republic & J.Crew sales, discounts, loyalty",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 12/24]\nUser: I'm interested in checking out these pieces at Banana Republic and J.Crew. C"
+      },
+      {
+        "id": "c06f872e-2d85-4ec8-8ba8-7f165ac782c1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Banana Republic promotions and loyalty (Style Passport)",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 13/24]\n(in reply to) User: I'm interested in checking out these pieces at Banana Republic"
+      },
+      {
+        "id": "8a1967d2-c18a-4d44-a1d0-4df2f840c228",
+        "score": null,
+        "memory_type": "fact",
+        "title": "J.Crew promotions and loyalty program details (SHOP30, rewards, signup)",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 14/24]\n(in reply to) User: I'm interested in checking out these pieces at Banana Republic"
+      },
+      {
+        "id": "fa813534-a76b-4124-a5a4-b792bcf39061",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Retail promo tips for Banana Republic and J.Crew",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 15/24]\n(in reply to) User: I'm interested in checking out these pieces at Banana Republic"
+      },
+      {
+        "id": "fb5bc3f8-75bc-4fbd-b9a8-1ac32ebc56f2",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request details on J.Crew student discount program",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 16/24]\nUser: I'd like to know more about J.Crew's student discount program. Can you provi"
+      },
+      {
+        "id": "2fd05c18-00d9-4305-b331-05bc1b4d4d68",
+        "score": null,
+        "memory_type": "fact",
+        "title": "J.Crew student discount: 15% off with .edu email",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 17/24]\n(in reply to) User: I'd like to know more about J.Crew's student discount program."
+      },
+      {
+        "id": "32fda49d-ec6c-4f5c-80ca-e01ce335f031",
+        "score": 0.3339,
+        "memory_type": "fact",
+        "title": "J.Crew student discount program details",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 18/24]\n(in reply to) User: I'd like to know more about J.Crew's student discount program."
+      },
+      {
+        "id": "4b19bf71-956d-481b-a3aa-f44ff1e32d7c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "J.Crew student discount: use .edu email for 15% off",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 19/24]\n(in reply to) User: I'd like to know more about J.Crew's student discount program."
+      },
+      {
+        "id": "8e9b9658-1d46-4bfd-8946-56cea334eff3",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips request for thrift store deals",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 20/24]\nUser: I'm thinking of checking out some thrift stores this weekend. Do you have an"
+      },
+      {
+        "id": "9703dba3-c4d2-4872-9de6-0748c2d1d727",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant provided thrift shopping tips",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 21/24]\n(in reply to) User: I'm thinking of checking out some thrift stores this weekend. "
+      },
+      {
+        "id": "c7a75f8a-c3da-47de-826f-e202aa8cea16",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for finding thrift store deals",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 22/24]\n(in reply to) User: I'm thinking of checking out some thrift stores this weekend. "
+      },
+      {
+        "id": "35815174-e130-44cb-a22c-ab9e662dc008",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for finding deals at thrift stores",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 23/24]\n(in reply to) User: I'm thinking of checking out some thrift stores this weekend. "
+      },
+      {
+        "id": "c68cfcc5-2490-4461-b8b0-97d1967d1718",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding great thrift store deals",
+        "text": "[date: 2023-02-03T04:40:00+00:00 | context: Session 065e3c50fa3e - happened on 2023-02-03 04:40:00 UTC. | turn 24/24]\n(in reply to) User: I'm thinking of checking out some thrift stores this weekend. "
+      },
+      {
+        "id": "edd472fd-27a0-4fe9-b4d2-9b61bfc99ddb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Philatelic stamp album brands overview (Scott, Harris, Michel, Linn's)",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 3/27]\n(in reply to) User: I'm trying to decide which stamp albums to buy for my collectio"
+      },
+      {
+        "id": "ca83dbcc-0945-4cf3-b865-2d0aaa406575",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stamp album types and features overview",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 4/27]\n(in reply to) User: I'm trying to decide which stamp albums to buy for my collectio"
+      },
+      {
+        "id": "b8e83a66-f413-4a66-ba81-037aaaad78e0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for choosing stamp albums",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 5/27]\n(in reply to) User: I'm trying to decide which stamp albums to buy for my collectio"
+      },
+      {
+        "id": "4c9b8658-52f8-44f7-8426-f6413e55cb57",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on choosing stamp albums",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 6/27]\n(in reply to) User: I'm trying to decide which stamp albums to buy for my collectio"
+      },
+      {
+        "id": "c270cc75-3a67-4a87-bffd-9ddb50f995d8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for US postal history resources (Titanic letter)",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 7/27]\nUser: I think I'll start with a country-specific album for my US stamps. Do you kno"
+      },
+      {
+        "id": "12a4dd3b-85eb-4df0-b10f-3ba798db2b43",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant recommends resources for US postal history (Titanic cover)",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 8/27]\n(in reply to) User: I think I'll start with a country-specific album for my US stam"
+      },
+      {
+        "id": "2779b2dc-68ea-4d3d-9797-1bc20170ab82",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources for learning US postal history (APS, USPS, Smithsonian, forums)",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 9/27]\n(in reply to) User: I think I'll start with a country-specific album for my US stam"
+      },
+      {
+        "id": "34458b30-f990-4279-b4ea-72046b95a509",
+        "score": 0.2983,
+        "memory_type": "fact",
+        "title": "Resources for US postal history and Titanic mail",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 10/27]\n(in reply to) User: I think I'll start with a country-specific album for my US sta"
+      },
+      {
+        "id": "91d7597d-3657-43c1-ac47-615e3a43d9bf",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Resources: APS, US Philatelic Classics Society, Titanic Philatelic Society",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 11/27]\n(in reply to) User: I think I'll start with a country-specific album for my US sta"
+      },
+      {
+        "id": "0d91f1fb-6ff8-45dd-8759-764897f8cbd5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on expertizing and researching Titanic postal history",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 12/27]\n(in reply to) User: I think I'll start with a country-specific album for my US sta"
+      },
+      {
+        "id": "4b0d76a4-c970-49ff-b0c8-5c1354a7df5f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request: online archives for Titanic postal history",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 13/27]\nUser: I'd like to learn more about the postal history of the Titanic. Can you reco"
+      },
+      {
+        "id": "ce09e1ba-89cb-457f-8a9d-c6034b6e6850",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online archives for Titanic-era newspapers and documents",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 14/27]\n(in reply to) User: I'd like to learn more about the postal history of the Titanic"
+      },
+      {
+        "id": "95aa40c9-9d38-4c74-8291-0fd782f70c65",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online archives for Titanic-era postal history",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 15/27]\n(in reply to) User: I'd like to learn more about the postal history of the Titanic"
+      },
+      {
+        "id": "91f6faca-b2ad-4adf-980f-d25a1c952584",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online archives for Titanic postal history",
+        "text": "[date: 2023-03-07T12:53:00+00:00 | context: Session 7eb63b4aeab1 - happened on 2023-03-07 12:53:00 UTC. | turn 16/27]\n(in reply to) User: I'd like to learn more about the postal history of the Titanic"
+      },
+      {
+        "id": "eb43eac3-d10e-41b6-9c62-8da47a640a57",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find best deals for round-trip United flights to San Francisco",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 1/22]\nUser: I'm planning a trip to San Francisco in a few weeks and I'm considering flyin"
+      },
+      {
+        "id": "eef5d207-10a3-47b9-aa7f-3933984b1d77",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip planning: United round-trip deals to San Francisco",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 2/22]\n(in reply to) User: I'm planning a trip to San Francisco in a few weeks and I'm con"
+      },
+      {
+        "id": "4d11e899-c15b-4c66-b92e-8d174f922f05",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding United round-trip deals to San Francisco",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 3/22]\n(in reply to) User: I'm planning a trip to San Francisco in a few weeks and I'm con"
+      },
+      {
+        "id": "ddf1e815-1dee-4b71-93c4-3a066d2541a9",
+        "score": 0.5713,
+        "memory_type": "preference",
+        "title": "Travel preferences: DC economy ~$400, flexible dates, United Premier Gold",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 4/22]\nUser: I'm flying from DC, and I'm flexible with my travel dates. I'm looking for Ec"
+      },
+      {
+        "id": "d568c48d-b635-44ea-b3bb-9e68e7ce217c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User travel request: DC to San Francisco economy ~$400",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 5/22]\n(in reply to) User: I'm flying from DC, and I'm flexible with my travel dates. I'm "
+      },
+      {
+        "id": "7a31b279-105c-4b01-afbd-1ab5f706a725",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User travel preferences and budget for flights to SFO",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 6/22]\n(in reply to) User: I'm flying from DC, and I'm flexible with my travel dates. I'm "
+      },
+      {
+        "id": "c97eb16d-c1e3-4115-b4dc-c129d9aea7d6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User travel request: DC to destination, ~$400 economy, Premier Gold",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 7/22]\n(in reply to) User: I'm flying from DC, and I'm flexible with my travel dates. I'm "
+      },
+      {
+        "id": "fd119127-9c55-4ded-9d52-38a6ac7e290e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about IAD flight deals and miles",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 8/22]\nUser: I think the non-stop flights from IAD for $410-$430 are a bit above my budget"
+      },
+      {
+        "id": "ae290393-11ae-485b-b288-d8c3ddf6130c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Checked United IAD\u2192SFO for error fares/sales",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 9/22]\n(in reply to) User: I think the non-stop flights from IAD for $410-$430 are a bit a"
+      },
+      {
+        "id": "de53144f-7518-4567-b117-af081962e007",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Flight price/miles guidance for IAD\u2192SFO non-stop",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 10/22]\n(in reply to) User: I think the non-stop flights from IAD for $410-$430 are a bit "
+      },
+      {
+        "id": "75414f26-f4b3-44c8-8dda-ebe90e1e4b52",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set price alerts and ask about miles to Premier Platinum",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 11/22]\nUser: I'll wait and see if the price drops. Can you set up price alerts for me and"
+      },
+      {
+        "id": "b782ca6e-446a-42fe-ac6c-6298fb92332a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on setting fare alerts and miles for Premier Platinum",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 12/22]\n(in reply to) User: I'll wait and see if the price drops. Can you set up price ale"
+      },
+      {
+        "id": "4b2d2ac8-7df5-45f9-9eef-88c854672f9b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Premier Platinum requirements and estimated time to reach status",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 13/22]\n(in reply to) User: I'll wait and see if the price drops. Can you set up price ale"
+      },
+      {
+        "id": "d775385b-0e0a-4695-afc2-3856a073ddf8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about tracking travel expenses apps/tools",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 14/22]\nUser: What's the best way to track my travel expenses, like you mentioned earlier?"
+      },
+      {
+        "id": "3840cb12-4f5f-410e-b41e-7bfc35eb70db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests tools for tracking travel expenses",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 15/22]\n(in reply to) User: What's the best way to track my travel expenses, like you ment"
+      },
+      {
+        "id": "c77405ea-6825-4924-b9b9-d1c24f0cd716",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Apps for tracking travel expenses (Expensify, TripIt, Concur, Trail Wallet)",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 16/22]\n(in reply to) User: What's the best way to track my travel expenses, like you ment"
+      },
+      {
+        "id": "5d8ad6b4-2d20-4034-82b7-df5977901c58",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Apps/tools for tracking travel expenses (Mileage Tracker, Sheets/Excel)",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 17/22]\n(in reply to) User: What's the best way to track my travel expenses, like you ment"
+      },
+      {
+        "id": "e711adbf-6a33-4534-9a95-19b4ab99250d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Criteria for choosing a travel expense tracking app",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 18/22]\n(in reply to) User: What's the best way to track my travel expenses, like you ment"
+      },
+      {
+        "id": "a39cf005-05b0-46db-ae78-ed0298cc4922",
+        "score": null,
+        "memory_type": "decision",
+        "title": "User considering Expensify free vs premium",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 19/22]\nUser: I think I'll give Expensify a try. I've heard good things about it, and it s"
+      },
+      {
+        "id": "3bc67121-9cfb-4e63-8446-e6812e8e927f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on whether to pay for Expensify premium",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 20/22]\n(in reply to) User: I think I'll give Expensify a try. I've heard good things abou"
+      },
+      {
+        "id": "a13ab60e-af19-4212-a6f1-f21c28a2b88c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Expensify premium features and pricing overview",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 21/22]\n(in reply to) User: I think I'll give Expensify a try. I've heard good things abou"
+      },
+      {
+        "id": "68f4ca78-5237-46f1-a1d9-4c67913138ec",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendation: start Expensify on free plan, upgrade if needed",
+        "text": "[date: 2023-05-30T08:58:00+00:00 | context: Session fd5ad3c70d1c - happened on 2023-05-30 08:58:00 UTC. | turn 22/22]\n(in reply to) User: I think I'll give Expensify a try. I've heard good things abou"
+      },
+      {
+        "id": "2d9a726e-698a-4972-99cf-f6a1efa06d74",
+        "score": 0.2912,
+        "memory_type": "preference",
+        "title": "User wants intermediate yoga poses for morning routine",
+        "text": "[date: 2023-06-03T10:09:00+00:00 | context: Session f73866372828 - happened on 2023-06-03 10:09:00 UTC. | turn 1/27]\nUser: I'm looking for some new yoga poses to add to my morning routine. I've been d"
+      },
+      {
+        "id": "1303185b-1e9f-49e5-8ab2-3a1fd2b2af3a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find hotel options near San Francisco city center",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 1/21]\nUser: I'm planning a trip to San Francisco and need help finding a good hotel near "
+      },
+      {
+        "id": "ba77f44c-7e0e-4fad-a390-cd1fa0cb0624",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Hotel recommendations for San Francisco trip",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 2/21]\n(in reply to) User: I'm planning a trip to San Francisco and need help finding a go"
+      },
+      {
+        "id": "f7e91fed-fbcf-4a9f-a4a2-1a1fe947a1c1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SF hotel recommendations by neighborhood and price",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 3/21]\n(in reply to) User: I'm planning a trip to San Francisco and need help finding a go"
+      },
+      {
+        "id": "a66b8a80-7a9b-46fe-9478-b5628032a1e6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip hotel recommendations for San Francisco",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 4/21]\n(in reply to) User: I'm planning a trip to San Francisco and need help finding a go"
+      },
+      {
+        "id": "580e63ba-6ccf-450d-982f-c8afab309a3c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Hotel Zeppelin chosen; user feels constantly traveling",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 5/21]\nUser: I think I'll go with the Hotel Zeppelin, it looks nice and is in a good locat"
+      },
+      {
+        "id": "db5b51d5-00fe-4c17-b3eb-11d9b75875de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User chose Hotel Zeppelin; discussed frequent travel fatigue",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 6/21]\n(in reply to) User: I think I'll go with the Hotel Zeppelin, it looks nice and is i"
+      },
+      {
+        "id": "b3947a74-085e-49d1-8eb8-daf06e01d02b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Travel wellness guidance (sleep, hydration, breaks, exercise)",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 7/21]\n(in reply to) User: I think I'll go with the Hotel Zeppelin, it looks nice and is i"
+      },
+      {
+        "id": "6afd78b5-1496-4671-a2a6-f2ef1bd25dc2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User prefers Hotel Zeppelin for stay",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 8/21]\n(in reply to) User: I think I'll go with the Hotel Zeppelin, it looks nice and is i"
+      },
+      {
+        "id": "27c19c2c-fb9d-43a2-bcd2-1fb969434b4e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User chose Hotel Zeppelin for SF trip; travel well-being reminder",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 9/21]\n(in reply to) User: I think I'll go with the Hotel Zeppelin, it looks nice and is i"
+      },
+      {
+        "id": "8b84837e-320b-4d5b-8849-065aaf86f3d0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Plan to visit Alcatraz and Golden Gate Bridge",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 10/21]\nUser: I'm planning to visit Alcatraz Island and also check out the Golden Gate Bri"
+      },
+      {
+        "id": "c7cde54e-3094-49fd-b195-ee4dd7b59cb6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SF trip tips: Alcatraz tickets, timing, night tour",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 11/21]\n(in reply to) User: I'm planning to visit Alcatraz Island and also check out the G"
+      },
+      {
+        "id": "92e30583-3bbe-462c-b4b4-8891ae290d8b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Golden Gate Bridge visit tips (walk/bike, off-peak, Battery Spencer, pavilion)",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 12/21]\n(in reply to) User: I'm planning to visit Alcatraz Island and also check out the G"
+      },
+      {
+        "id": "3e5dbcd1-9b15-4c15-8820-b2613e121fde",
+        "score": null,
+        "memory_type": "preference",
+        "title": "SF trip tips: fog, layers, CityPASS, public transit",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 13/21]\n(in reply to) User: I'm planning to visit Alcatraz Island and also check out the G"
+      },
+      {
+        "id": "7bf8d2ab-9c21-4f65-98ac-e97cbabf8933",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considered visiting the Exploratorium",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 14/21]\nUser: I was thinking of visiting the Exploratorium too."
+      },
+      {
+        "id": "0f91ec7f-540b-4e87-b1c8-868e5d6de23e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested Exploratorium visit tips",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 15/21]\n(in reply to) User: I was thinking of visiting the Exploratorium too.\n\nAssistant: "
+      },
+      {
+        "id": "b303470a-75c1-449a-aed3-03b1509000d6",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Visiting Exploratorium: time, timing, and must-sees",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 16/21]\n(in reply to) User: I was thinking of visiting the Exploratorium too.\n\n1. **Plan f"
+      },
+      {
+        "id": "a91f59da-9b32-4e71-bbdb-dbb933c6e62c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussed Exploratorium exhibits and location for SF itinerary",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 17/21]\n(in reply to) User: I was thinking of visiting the Exploratorium too.\n\n* The Pitch"
+      },
+      {
+        "id": "b7bc4e66-b003-4f5d-85d8-934d016e33fb",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help plan a trip to Los Angeles",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 18/21]\nUser: I'm also thinking of visiting LA soon, and I was wondering if you could help"
+      },
+      {
+        "id": "7bd182d4-7e06-44eb-ab09-e78287bf430b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant helped user plan Los Angeles trip ideas",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 19/21]\n(in reply to) User: I'm also thinking of visiting LA soon, and I was wondering if "
+      },
+      {
+        "id": "483b1ee7-e8ab-4287-978c-72c2ee478c87",
+        "score": null,
+        "memory_type": "episode",
+        "title": "LA trip planning guidance (climate, neighborhoods)",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 20/21]\n(in reply to) User: I'm also thinking of visiting LA soon, and I was wondering if "
+      },
+      {
+        "id": "b6823ea7-f320-476b-b15a-b7a4311c08ec",
+        "score": 0.3462,
+        "memory_type": "episode",
+        "title": "User mentions multiple LA trips and 5 flights in 2 months",
+        "text": "[date: 2023-06-14T15:37:00+00:00 | context: Session f939cfb14564 - happened on 2023-06-14 15:37:00 UTC. | turn 21/21]\nUser: I've actually been to LA a few times already this year, so I'm somewhat fami"
+      },
+      {
+        "id": "9d9c4997-8cf3-404c-aa1d-7fb4eaddcfe1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Twelve vs Twenty Thirteen navigation menu structure",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 1/20]\nAssistant: 1. Simplified navigation menu structure: In Twenty Thirteen, the navigat"
+      },
+      {
+        "id": "3075ff39-2492-4d86-82a8-a47057585f33",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (English)",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 2/20]\nUser: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30"
+      },
+      {
+        "id": "8d7dd157-e6c0-4919-89b0-c4fbe14058e1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Session reply about Twenty Thirteen theme improvements",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 3/20]\n(in reply to) User: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30\n\nAssistant: As we've "
+      },
+      {
+        "id": "28dda532-9aa1-475c-86f9-74a5884dedf0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Thirteen theme features: formats, typography, colors, accessibility",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 4/20]\n(in reply to) User: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30\n\n1. Enhanced support "
+      },
+      {
+        "id": "756e6fcb-f365-4416-88b3-2b72b6024fb2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Session reply about Twenty Thirteen theme refinements",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 5/20]\n(in reply to) User: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30\n\nThese refinements an"
+      },
+      {
+        "id": "bcbb8f40-eba8-42d0-b5b1-8ef1e5c436cf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about Twenty Fourteen header markup changes vs Twenty Thirteen",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 6/20]\nUser: Below is the header part markup of Twenty Fourteen.\nPlease explain in detail "
+      },
+      {
+        "id": "5cf9b80e-6ecb-466e-857b-aceef08ed737",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Fourteen header markup changes vs Twenty Thirteen",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 7/20]\n(in reply to) User: Below is the header part markup of Twenty Fourteen.\nPlease expl"
+      },
+      {
+        "id": "220ae213-7f1f-47cf-ad43-4ccacecbfa5b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Fourteen header changes vs Twenty Thirteen (search toggle)",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 8/20]\n(in reply to) User: Below is the header part markup of Twenty Fourteen.\nPlease expl"
+      },
+      {
+        "id": "7cb6dbd7-4565-42c5-aeda-4a5d2f147c05",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User requested to continue (English)",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 9/20]\nUser: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30"
+      },
+      {
+        "id": "af373b04-9ced-47e9-9fd5-5803093404df",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Fourteen search toggle and form structure",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 10/20]\n(in reply to) User: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30\n\nAssistant: 1. Searc"
+      },
+      {
+        "id": "634a9f7c-043a-4c31-8198-0863a40b4d03",
+        "score": 0.3107,
+        "memory_type": "fact",
+        "title": "Twenty Fourteen header/navigation markup differences vs Twenty Thirteen",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 11/20]\n(in reply to) User: please continue\nAnswer in English.\uc9c0\uae08 \ubc88\uc5ed\ud558\uae30\n\n1. Primary navigati"
+      },
+      {
+        "id": "60f5fae2-42ae-494f-8797-6a505ba1b739",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Question about simpler navigation markup in Twenty Thirteen/Fourteen",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 12/20]\nUser: Why is the markup of the navigation menu getting simpler in Twenty Thirteen "
+      },
+      {
+        "id": "26eb1ac3-835f-4e2b-a21b-48393768b1b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Explained why Twenty Thirteen/Fourteen navigation markup simplified",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 13/20]\n(in reply to) User: Why is the markup of the navigation menu getting simpler in Tw"
+      },
+      {
+        "id": "13d4d7c5-7739-4f54-8a22-1cd75e62879e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reasons Twenty Thirteen/Fourteen nav markup simplified",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 14/20]\n(in reply to) User: Why is the markup of the navigation menu getting simpler in Tw"
+      },
+      {
+        "id": "300d39ab-2ea3-48e6-8478-3c53106533b8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "WP Twenty Thirteen/Fourteen simplify navigation markup rationale",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 15/20]\n(in reply to) User: Why is the markup of the navigation menu getting simpler in Tw"
+      },
+      {
+        "id": "8bd93e75-550a-47ab-9d3f-b90845dd247d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Reason navigation menu markup simplified in WP Twenty Thirteen/2014",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 16/20]\n(in reply to) User: Why is the markup of the navigation menu getting simpler in Tw"
+      },
+      {
+        "id": "d088da9a-c449-4bd2-8bdb-3c47d958062c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Twenty Fifteen header differences vs 2014",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 17/20]\nUser: Below is the header part of Twenty Fifteen (2015). Focusing on the differenc"
+      },
+      {
+        "id": "7c51389c-5f8c-4f20-9f8f-2d3d8bc92bd7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Explained Twenty Fifteen header changes vs Twenty Fourteen",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 18/20]\n(in reply to) User: Below is the header part of Twenty Fifteen (2015). Focusing on"
+      },
+      {
+        "id": "9b58df42-ed46-4917-bf24-599f4a48f4a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Fifteen (2015) header changes vs 2014",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 19/20]\n(in reply to) User: Below is the header part of Twenty Fifteen (2015). Focusing on"
+      },
+      {
+        "id": "747493e3-0fe5-470c-ada7-7e84a2015487",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Twenty Fifteen header change: secondary toggle button",
+        "text": "[date: 2023-06-16T17:35:00+00:00 | context: Session 9f77a7ea57a8 - happened on 2023-06-16 17:35:00 UTC. | turn 20/20]\n(in reply to) User: Below is the header part of Twenty Fifteen (2015). Focusing on"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101664,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25416)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 27136,
+    "prompt_tokens": 25765,
+    "completion_tokens": 213,
+    "reasoning_tokens": 1158,
+    "generate_time_ms": 14989.63281197939,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 24209,
+        "completion_tokens": 104,
+        "reasoning_tokens": 643,
+        "total_tokens": 24956
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 570,
+        "completion_tokens": 20,
+        "reasoning_tokens": 246,
+        "total_tokens": 836
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 378,
+        "completion_tokens": 20,
+        "reasoning_tokens": 154,
+        "total_tokens": 552
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 608,
+        "completion_tokens": 69,
+        "reasoning_tokens": 115,
+        "total_tokens": 792
+      }
+    ]
+  },
+  "failure_label": null
+}

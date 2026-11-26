@@ -1,0 +1,1290 @@
+{
+  "question_id": "81507db6",
+  "question_type": "multi-session",
+  "question": "How many graduation ceremonies have I attended in the past three months?",
+  "gold_answer": "3",
+  "prediction": "You have attended 3 graduation ceremonies in the past three months:\n\n1. Your little cousin Emma's preschool graduation ceremony (about two months ago)\n2. Your colleague Alex's graduation from a leadership development program at work (a few weeks ago)\n3. Your best friend Rachel's master's degree graduation ceremony (a couple of weeks ago)\n\n*(Note: You mentioned missing your nephew Jack's eighth-grade graduation ceremony last month.)*",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 920,
+    "by_type": {
+      "decision": 12,
+      "preference": 113,
+      "episode": 219,
+      "plan": 18,
+      "task": 40,
+      "fact": 516,
+      "action": 2
+    },
+    "by_status": {
+      "active": 911,
+      "conflicted": 9
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2707560,
+    "output_tokens": 130640,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many graduation ceremonies have I attended in the past three months?"
+    ],
+    "retrieve_time_ms": 2998.2093650614843,
+    "candidates": 151,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "07810e78-d727-41eb-8be2-4757666c5eca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academy diversity and inclusion initiatives as of 2021",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 1/10]\nUser: Can you provide any updates on the progress of the Academy\u2019s efforts to promo"
+      },
+      {
+        "id": "18e2dce2-8519-49a3-a995-0542ea621347",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry regarding Academy initiatives",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 2/10]\nUser: Hmm, that's interesting. I wonder what specific actions the Academy has taken"
+      },
+      {
+        "id": "b1e92d68-d4c3-40aa-a228-2b277b156e80",
+        "score": 0.3832,
+        "memory_type": "fact",
+        "title": "Academy of Motion Picture Arts and Sciences diversity initiatives",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 3/10]\n(in reply to) User: Hmm, that's interesting. I wonder what specific actions the Aca"
+      },
+      {
+        "id": "3dc67cf0-4786-422f-a0ea-e9dc25192280",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academy of Motion Picture Arts and Sciences Diversity Initiatives",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 4/10]\n(in reply to) User: Hmm, that's interesting. I wonder what specific actions the Aca"
+      },
+      {
+        "id": "c320ffd7-a356-433f-82d1-8276f0b0b6bb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User feedback on Academy diversity and inclusion initiatives",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 5/10]\nUser: It's good to see that the Academy is making efforts towards diversity and inc"
+      },
+      {
+        "id": "4eaa082a-8e6f-4de9-b4d1-311cdbb77e10",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Academy's stance on diversity and inclusion",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 6/10]\n(in reply to) User: It's good to see that the Academy is making efforts towards div"
+      },
+      {
+        "id": "134f4d24-5bf0-40ba-bdd3-f48e415311b1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User perspective on Academy diversity and inclusion",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 7/10]\n(in reply to) User: It's good to see that the Academy is making efforts towards div"
+      },
+      {
+        "id": "5bbe7608-ed05-4506-810f-a36112331cca",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User skepticism regarding Hollywood Academy inclusivity efforts",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 8/10]\nUser: It's good that the Academy is trying to be more inclusive, but I'm still skep"
+      },
+      {
+        "id": "0e430392-a27d-451e-b57e-dde1e1b15df3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Discussion on Hollywood systemic issues and Academy initiatives",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 9/10]\n(in reply to) User: It's good that the Academy is trying to be more inclusive, but "
+      },
+      {
+        "id": "2f64dee6-c8f1-4abd-8513-94ef686e1bd8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Perspective on industry-wide change in Hollywood",
+        "text": "[date: 2023-07-21T00:18:00+00:00 | context: Session e60623e90abb - happened on 2023-07-21 00:18:00 UTC. | turn 10/10]\n(in reply to) User: It's good that the Academy is trying to be more inclusive, but"
+      },
+      {
+        "id": "50bd3677-6e29-4c86-bc52-282893a3df5d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Calendar month sequence",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 1/29]\nUser: I'm planning a charity event in a few months and I need some help with schedu"
+      },
+      {
+        "id": "a58504a9-bc41-4b1f-a5a8-207d937cb72b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Calendar year structure and event planning timeline",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 2/29]\n(in reply to) User: I'm planning a charity event in a few months and I need some he"
+      },
+      {
+        "id": "dfcae1dd-b2e3-4fa4-9c1d-20565a745199",
+        "score": 0.3801,
+        "memory_type": "plan",
+        "title": "Charity event planning timeline outline",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 3/29]\n(in reply to) User: I'm planning a charity event in a few months and I need some he"
+      },
+      {
+        "id": "8be8a0f4-f25f-45b8-8117-22c097016ac0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for Q1 charity event ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 4/29]\nUser: I like the outline, but I'm not sure if I want to have the event in Quarter 2"
+      },
+      {
+        "id": "f6224db4-bbb8-4cf6-ae9c-c5370c97d464",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Charity event ideas for Q1",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 5/29]\n(in reply to) User: I like the outline, but I'm not sure if I want to have the even"
+      },
+      {
+        "id": "6b86c2e1-9f6c-4cc1-bb46-4dc034bdf0d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Charity event ideas for Q1",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 6/29]\n(in reply to) User: I like the outline, but I'm not sure if I want to have the even"
+      },
+      {
+        "id": "d961d1b3-f461-4b5a-bd89-de7728a86c73",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Charity event ideas for Q1",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 7/29]\n(in reply to) User: I like the outline, but I'm not sure if I want to have the even"
+      },
+      {
+        "id": "1c75ec67-6375-49ea-96a8-06c50dac3da1",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for charity run/walk in January",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 8/29]\nUser: I like the idea of a charity run or walk in January. How can I make it more e"
+      },
+      {
+        "id": "ab2d6dc9-5772-4a3a-ad8e-98b736585729",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Engagement strategies for charity events",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 9/29]\n(in reply to) User: I like the idea of a charity run or walk in January. How can I "
+      },
+      {
+        "id": "bbd21c29-0ccf-4e8f-9299-cb60262d3e6b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strategies for engaging charity run/walk participants",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 10/29]\n(in reply to) User: I like the idea of a charity run or walk in January. How can I"
+      },
+      {
+        "id": "a2f61c95-8e9d-4214-b722-16fa08d5695a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Engagement strategies for charity run/walk events",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 11/29]\n(in reply to) User: I like the idea of a charity run or walk in January. How can I"
+      },
+      {
+        "id": "5905704a-80d1-4620-9ada-5393fb25b932",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Strategies for increasing charity event engagement",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 12/29]\n(in reply to) User: I like the idea of a charity run or walk in January. How can I"
+      },
+      {
+        "id": "771c7fee-ba95-43aa-84aa-196bb0ed3c85",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Engagement strategies for charity events",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 13/29]\n(in reply to) User: I like the idea of a charity run or walk in January. How can I"
+      },
+      {
+        "id": "492d7223-89ba-454f-96e7-3303fe1e27e9",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Selection of winter event activities",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 14/29]\nUser: That's a lot of great ideas. I think I'll start with the themed run/walk and"
+      },
+      {
+        "id": "54c4c41f-4cc0-4513-9b52-3e727ffafeaa",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed costume ideas for charity event",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 15/29]\n(in reply to) User: That's a lot of great ideas. I think I'll start with the theme"
+      },
+      {
+        "id": "64fbc167-20f8-4add-99b2-514722ed073b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed costume ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 16/29]\n(in reply to) User: That's a lot of great ideas. I think I'll start with the theme"
+      },
+      {
+        "id": "85efc3b6-0525-42fa-b8d8-6fa6f4ccd87f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed costume ideas for event",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 17/29]\n(in reply to) User: That's a lot of great ideas. I think I'll start with the theme"
+      },
+      {
+        "id": "8475a6fc-c0ca-4168-9d05-8bd162373b53",
+        "score": null,
+        "memory_type": "task",
+        "title": "Planning winter-themed run/walk event",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 18/29]\n(in reply to) User: That's a lot of great ideas. I think I'll start with the theme"
+      },
+      {
+        "id": "386025cf-3220-429a-8aa9-2d97bf4ba50b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorm winter-themed team costume ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 19/29]\nUser: That's a great list of winter-themed costume ideas. I think I'll also offer "
+      },
+      {
+        "id": "ad1038f5-b486-4d9d-98c2-274f0db38fd5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for group costume prizes",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 20/29]\n(in reply to) User: That's a great list of winter-themed costume ideas. I think I'"
+      },
+      {
+        "id": "c355bb59-8dbb-4a19-83bd-4e4985a9d3b1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed team costume ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 21/29]\n(in reply to) User: That's a great list of winter-themed costume ideas. I think I'"
+      },
+      {
+        "id": "1930fea4-b51b-4d7e-a5bc-d0c765913c38",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed group costume ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 22/29]\n(in reply to) User: That's a great list of winter-themed costume ideas. I think I'"
+      },
+      {
+        "id": "f3604033-fa46-442f-be61-494c7d3cc504",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Winter-themed team costume contest suggestions",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 23/29]\n(in reply to) User: That's a great list of winter-themed costume ideas. I think I'"
+      },
+      {
+        "id": "c62c9ac8-561e-4049-9f37-845cd71f3ce9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Brainstorm creative fundraising ideas for charity event",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 24/29]\nUser: I think I'll also offer a prize for the most creative fundraising idea, to e"
+      },
+      {
+        "id": "3916600f-2e0d-49b2-9ba1-70556200e5ac",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User preference for creative fundraising incentives",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 25/29]\n(in reply to) User: I think I'll also offer a prize for the most creative fundrais"
+      },
+      {
+        "id": "10e143fe-9aba-4689-beba-ea2f170e29ab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Creative fundraising ideas for charity",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 26/29]\n(in reply to) User: I think I'll also offer a prize for the most creative fundrais"
+      },
+      {
+        "id": "32101864-c8fa-49bc-ad22-39e06e5a0741",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising event ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 27/29]\n(in reply to) User: I think I'll also offer a prize for the most creative fundrais"
+      },
+      {
+        "id": "1061ee46-54e0-48f1-8f19-56b16a3da4e5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising event ideas",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 28/29]\n(in reply to) User: I think I'll also offer a prize for the most creative fundrais"
+      },
+      {
+        "id": "1ab243ae-981f-4cc0-8087-d84006559792",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Fundraising creativity prize suggestion",
+        "text": "[date: 2023-07-21T01:05:00+00:00 | context: Session 3e0f08ae280b - happened on 2023-07-21 01:05:00 UTC. | turn 29/29]\n(in reply to) User: I think I'll also offer a prize for the most creative fundrais"
+      },
+      {
+        "id": "9dfe9a88-d643-4797-8f28-ad660d302f5b",
+        "score": null,
+        "memory_type": "task",
+        "title": "Compare digital marketing certification programs",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 1/22]\nUser: I'm considering pursuing a certification in digital marketing and I've narrow"
+      },
+      {
+        "id": "29799500-dc7f-48d3-9fc0-716b842b6e8d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User career development goals and program comparison",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 2/22]\nUser: One program is focused on SEO and content marketing, while the other is more "
+      },
+      {
+        "id": "bcead494-bcf0-4094-9f63-bc49f3efdc98",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of SEO vs Comprehensive Digital Marketing Programs",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 3/22]\n(in reply to) User: One program is focused on SEO and content marketing, while the "
+      },
+      {
+        "id": "80c098cc-98b7-4c8d-94af-0f8826c6b143",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Comparison of digital marketing program options",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 4/22]\n(in reply to) User: One program is focused on SEO and content marketing, while the "
+      },
+      {
+        "id": "7e271274-62f5-4178-b9ff-86a96116a468",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Guidance on selecting a digital marketing program",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 5/22]\n(in reply to) User: One program is focused on SEO and content marketing, while the "
+      },
+      {
+        "id": "a4095cbd-b3d3-4b4b-81de-f7bcf16e3fb6",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate program costs and financial aid availability",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 6/22]\nUser: I think I need to consider my budget for the program as well. Can you help me"
+      },
+      {
+        "id": "8108978b-5785-4715-a67a-cca4fb635a08",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cost estimation for SEO and Content Marketing program",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 7/22]\n(in reply to) User: I think I need to consider my budget for the program as well. C"
+      },
+      {
+        "id": "174bf7f3-aff0-40ca-ad24-e67966b84803",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Cost and financial aid for Comprehensive Digital Marketing program",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 8/22]\n(in reply to) User: I think I need to consider my budget for the program as well. C"
+      },
+      {
+        "id": "7fb6509d-db3b-4c89-8b08-e674f3357335",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Financial aid and cost estimation strategies for educational programs",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 9/22]\n(in reply to) User: I think I need to consider my budget for the program as well. C"
+      },
+      {
+        "id": "1f29a339-dba1-4eb1-b2ff-1a64231cc1d5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Estimate program costs and financial aid options",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 10/22]\n(in reply to) User: I think I need to consider my budget for the program as well. "
+      },
+      {
+        "id": "c375e101-42b8-4adf-90fa-61d912410c02",
+        "score": null,
+        "memory_type": "task",
+        "title": "Research digital marketing job prospects and salary ranges",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 11/22]\nUser: I'm still undecided. I want to know more about the job prospects and salary "
+      },
+      {
+        "id": "d04189cc-3e3a-4657-ac8a-a5f221eaf03d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital Marketing Certification Job Market Data",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 12/22]\n(in reply to) User: I'm still undecided. I want to know more about the job prospec"
+      },
+      {
+        "id": "d6389b88-554a-4547-a1ed-e76b9a17a158",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital Marketing Certification Salary Ranges",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 13/22]\n(in reply to) User: I'm still undecided. I want to know more about the job prospec"
+      },
+      {
+        "id": "2065b27d-a649-4784-be27-76db26d7513c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Value of comprehensive digital marketing certification",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 14/22]\n(in reply to) User: I'm still undecided. I want to know more about the job prospec"
+      },
+      {
+        "id": "3c831b8d-7f59-40c1-af06-c015680742b5",
+        "score": null,
+        "memory_type": "task",
+        "title": "Consider attending alumni reunion for networking",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 15/22]\nUser: I'm still weighing my options. But I think I'll also consider attending my a"
+      },
+      {
+        "id": "d319e3b3-92db-4d09-81d9-5aa84c675fcb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considering alumni reunion for networking",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 16/22]\n(in reply to) User: I'm still weighing my options. But I think I'll also consider "
+      },
+      {
+        "id": "5e7384d2-a9b3-48b2-913c-d1e1785a839f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Benefits of attending alumni reunion",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 17/22]\n(in reply to) User: I'm still weighing my options. But I think I'll also consider "
+      },
+      {
+        "id": "485cd858-4939-41cf-b722-d45ed9fc08df",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Networking strategy for alumni reunion",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 18/22]\n(in reply to) User: I'm still weighing my options. But I think I'll also consider "
+      },
+      {
+        "id": "1a18752b-ad5b-4295-8d27-9e01fec6fc94",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User inquiry regarding certification and alumni reunion",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 19/22]\n(in reply to) User: I'm still weighing my options. But I think I'll also consider "
+      },
+      {
+        "id": "d81a65e0-bcb7-4d8b-819e-4d0a412f05fe",
+        "score": 0.4337,
+        "memory_type": "task",
+        "title": "Preparation tasks for upcoming reunion",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 20/22]\nUser: I think I'll still need some time to decide on the certification program. Bu"
+      },
+      {
+        "id": "07217c8f-c772-4551-a121-8b09a5fe44c0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Preparation tasks for alumni reunion",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 21/22]\n(in reply to) User: I think I'll still need some time to decide on the certificati"
+      },
+      {
+        "id": "0333a7b0-d011-4512-adf0-efefb16356bc",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Reunion preparation plan",
+        "text": "[date: 2023-07-21T02:52:00+00:00 | context: Session 76be2385446a - happened on 2023-07-21 02:52:00 UTC. | turn 22/22]\n(in reply to) User: I think I'll still need some time to decide on the certificati"
+      },
+      {
+        "id": "e177108c-5801-49df-aa59-d9bd03760e82",
+        "score": 0.3635,
+        "memory_type": "preference",
+        "title": "Preference for Agile and Scrum project management",
+        "text": "[date: 2023-07-21T04:56:00+00:00 | context: Session cdb7c5c6bde3 - happened on 2023-07-21 04:56:00 UTC. | turn 1/34]\nUser: I'm looking to organize a team project and I'm wondering if you can recommend"
+      },
+      {
+        "id": "f3638f63-082b-4a4a-8e8c-44a6131de265",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User attended project management workshop",
+        "text": "[date: 2023-07-21T04:56:00+00:00 | context: Session cdb7c5c6bde3 - happened on 2023-07-21 04:56:00 UTC. | turn 2/34]\n(in reply to) User: I'm looking to organize a team project and I'm wondering if you"
+      },
+      {
+        "id": "8c746d39-7967-4564-bbb0-ea9e2fef9c66",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Project management tool recommendations",
+        "text": "[date: 2023-07-21T04:56:00+00:00 | context: Session cdb7c5c6bde3 - happened on 2023-07-21 04:56:00 UTC. | turn 3/34]\n(in reply to) User: I'm looking to organize a team project and I'm wondering if you"
+      },
+      {
+        "id": "81861507-1c87-42a5-87b3-1227df2ff482",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Project Management Tool Recommendations",
+        "text": "[date: 2023-07-21T04:56:00+00:00 | context: Session cdb7c5c6bde3 - happened on 2023-07-21 04:56:00 UTC. | turn 4/34]\n(in reply to) User: I'm looking to organize a team project and I'm wondering if you"
+      },
+      {
+        "id": "370af7d4-3c1d-4fd6-81a2-f533226bda31",
+        "score": 0.3902,
+        "memory_type": "fact",
+        "title": "User wants to compare digital marketing certification programs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 1/26]\nUser: I'm looking to research digital marketing certification programs. Can you hel"
+      },
+      {
+        "id": "b9f79bd7-3689-4810-9f60-c3a63f35f66f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant acknowledged guilt and began comparing online vs in-person marketing c",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 2/26]\n(in reply to) User: I'm looking to research digital marketing certification program"
+      },
+      {
+        "id": "b681ea6e-bb44-4afc-8e58-20b35989ce88",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros of online digital marketing certification programs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 3/26]\n(in reply to) User: I'm looking to research digital marketing certification program"
+      },
+      {
+        "id": "f2ccb69b-5d45-4a5c-864c-cc17b95ac68f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons comparison: online vs in-person digital marketing certifications",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 4/26]\n(in reply to) User: I'm looking to research digital marketing certification program"
+      },
+      {
+        "id": "6c2ec1bd-8464-4374-9f7d-cd89e833c4f9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked to compare online vs in-person digital marketing certifications",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 5/26]\n(in reply to) User: I'm looking to research digital marketing certification program"
+      },
+      {
+        "id": "0c06c5ea-ce22-4444-b968-b9c3b5a495b7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Online vs in-person digital marketing certification tradeoffs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 6/26]\n(in reply to) User: I'm looking to research digital marketing certification program"
+      },
+      {
+        "id": "2032daa6-2c2e-4166-b3d8-945000c89da1",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks for popular digital marketing certification programs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 7/26]\nUser: What are some popular digital marketing certification programs that are highl"
+      },
+      {
+        "id": "0993e16b-e183-482f-b93e-2ad758088f37",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular highly regarded digital marketing certification programs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 8/26]\n(in reply to) User: What are some popular digital marketing certification programs "
+      },
+      {
+        "id": "335cf54f-721c-4b9e-8bbb-fd6f801beeda",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular digital marketing certification programs list",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 9/26]\n(in reply to) User: What are some popular digital marketing certification programs "
+      },
+      {
+        "id": "3f3e628c-b140-49e4-9010-58f91483c044",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Popular digital marketing certification programs",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 10/26]\n(in reply to) User: What are some popular digital marketing certification programs"
+      },
+      {
+        "id": "9ee50066-9984-4259-854a-92145ad89218",
+        "score": null,
+        "memory_type": "fact",
+        "title": "CDMM certification by Digital Marketing Institute",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 11/26]\n(in reply to) User: What are some popular digital marketing certification programs"
+      },
+      {
+        "id": "05ea3c7c-5599-46b1-b1b3-58f50c063489",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital marketing certifications guidance",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 12/26]\n(in reply to) User: What are some popular digital marketing certification programs"
+      },
+      {
+        "id": "2c42013b-ae7c-4383-962d-bacc39f4eb15",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request info on DMCA program curriculum, duration, prerequisites",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 13/26]\nUser: I'm interested in the Digital Marketing Certified Associate (DMCA) by Digita"
+      },
+      {
+        "id": "5f51320e-8e75-48dc-a354-50cb46fe045d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Overview request for Digital Marketing Certified Associate (DMCA)",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 14/26]\n(in reply to) User: I'm interested in the Digital Marketing Certified Associate (D"
+      },
+      {
+        "id": "3ea5a8cf-454b-4480-8855-ca01c62fb277",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA curriculum topics (Digital Marketing Institute)",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 15/26]\n(in reply to) User: I'm interested in the Digital Marketing Certified Associate (D"
+      },
+      {
+        "id": "6eabd619-e4fa-470d-b8f7-42a4178ec268",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA program duration, prerequisites, and exam format",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 16/26]\n(in reply to) User: I'm interested in the Digital Marketing Certified Associate (D"
+      },
+      {
+        "id": "ff82a348-e070-47dd-8472-d867888b2e57",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA exam pass score, certification validity, and program cost/support",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 17/26]\n(in reply to) User: I'm interested in the Digital Marketing Certified Associate (D"
+      },
+      {
+        "id": "7e23566e-78e8-4fdb-96b7-3e8a215b2538",
+        "score": null,
+        "memory_type": "decision",
+        "title": "User comparing DMCA vs AMA CDMP",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 18/26]\nUser: I'm still deciding between the Digital Marketing Certified Associate (DMCA) "
+      },
+      {
+        "id": "e848f31d-ba43-4c8a-a496-b06dfdd1228a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of DMCA vs AMA CDMP (high-level)",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 19/26]\n(in reply to) User: I'm still deciding between the Digital Marketing Certified Ass"
+      },
+      {
+        "id": "91fce6c2-7d67-4e56-8f9c-496498847fe3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA vs AMA CDMP comparison (focus, curriculum, exams)",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 20/26]\n(in reply to) User: I'm still deciding between the Digital Marketing Certified Ass"
+      },
+      {
+        "id": "4184afa9-702a-4d61-8b2f-ff889ac11738",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA vs AMA CDMP comparison (prereqs, cost, validity)",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 21/26]\n(in reply to) User: I'm still deciding between the Digital Marketing Certified Ass"
+      },
+      {
+        "id": "585d499a-643f-4a21-8852-89e603ba8437",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Guidance comparing DMCA vs AMA CDMP",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 22/26]\n(in reply to) User: I'm still deciding between the Digital Marketing Certified Ass"
+      },
+      {
+        "id": "667167a7-f27c-479e-a174-f86bd20f69aa",
+        "score": null,
+        "memory_type": "decision",
+        "title": "User chooses DMCA for digital marketing training",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 23/26]\nUser: I think I'll go with the DMCA. I've heard good things about the Digital Mark"
+      },
+      {
+        "id": "14dc0446-900d-4c63-9e2e-f46558cbe345",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA registration guidance from Digital Marketing Institute",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 24/26]\n(in reply to) User: I think I'll go with the DMCA. I've heard good things about th"
+      },
+      {
+        "id": "ad8a5c1d-9364-415f-b364-ce713c34a08c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help user with DMCA enrollment registration steps",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 25/26]\n(in reply to) User: I think I'll go with the DMCA. I've heard good things about th"
+      },
+      {
+        "id": "71b5103e-78b0-4b78-ba4a-a119839bac69",
+        "score": null,
+        "memory_type": "action",
+        "title": "Helped user with DMCA registration process",
+        "text": "[date: 2023-07-21T06:56:00+00:00 | context: Session 3bbcd84e1fad - happened on 2023-07-21 06:56:00 UTC. | turn 26/26]\n(in reply to) User: I think I'll go with the DMCA. I've heard good things about th"
+      },
+      {
+        "id": "37f87e0b-0eab-488d-9b9e-b48d2840aa51",
+        "score": 0.3781,
+        "memory_type": "fact",
+        "title": "User researching digital marketing certification programs",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 1/27]\nUser: I'm looking into certification programs in digital marketing. Can you help me"
+      },
+      {
+        "id": "d13f9768-7189-4dd4-bf65-79761eb00d50",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant congratulates cousin and begins digital marketing program comparison",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking into certification programs in digital marketing. C"
+      },
+      {
+        "id": "611b05d1-7660-48e1-98c3-cbdbb4a64683",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros of online vs in-person digital marketing programs",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking into certification programs in digital marketing. C"
+      },
+      {
+        "id": "07476da5-a3b3-413f-a19c-b10faaa6a600",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons of online vs in-person digital marketing certification programs",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking into certification programs in digital marketing. C"
+      },
+      {
+        "id": "b0141a3d-27e8-4be1-96e4-dae9e9febc0d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros of face-to-face digital marketing programs",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 5/27]\n(in reply to) User: I'm looking into certification programs in digital marketing. C"
+      },
+      {
+        "id": "ff0d30bf-7c85-4cba-a7bd-4ea27964bc10",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Pros/cons of online vs in-person digital marketing certification",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 6/27]\n(in reply to) User: I'm looking into certification programs in digital marketing. C"
+      },
+      {
+        "id": "5e035f29-6fcb-4d9b-92e8-071e3c84a514",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Average salary increase after digital marketing certification",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 7/27]\nUser: I think I'll have to weigh the pros and cons carefully. Do you have any infor"
+      },
+      {
+        "id": "15cce4c9-11cd-4c2b-bc6e-79d5968d8917",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Estimated salary increases after digital marketing certifications",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 8/27]\n(in reply to) User: I think I'll have to weigh the pros and cons carefully. Do you "
+      },
+      {
+        "id": "15b847e1-0272-49b3-8fc5-4de2d9c16f12",
+        "score": null,
+        "memory_type": "fact",
+        "title": "US digital marketing salary ranges and certification ROI (avg)",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 9/27]\n(in reply to) User: I think I'll have to weigh the pros and cons carefully. Do you "
+      },
+      {
+        "id": "5c124216-3227-45a5-9c4c-668082952c83",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General guidance on salary increases after digital marketing certification",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 10/27]\n(in reply to) User: I think I'll have to weigh the pros and cons carefully. Do you"
+      },
+      {
+        "id": "8405fa1f-dd32-41e8-b5e6-81c40baeef0c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Request for digital marketing certification recommendations",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 11/27]\nUser: That's really helpful, thanks! I'm going to weigh the pros and cons carefull"
+      },
+      {
+        "id": "eeecfb1f-5a45-4f8f-96c4-58f179cf1198",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Well-regarded digital marketing certification programs (HubSpot/Google/Facebook)",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 12/27]\n(in reply to) User: That's really helpful, thanks! I'm going to weigh the pros and"
+      },
+      {
+        "id": "df4a3838-58ea-4838-ac42-31c8589d25d4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Recommendations: digital marketing certification programs (DMI, Hootsuite, Marke",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 13/27]\n(in reply to) User: That's really helpful, thanks! I'm going to weigh the pros and"
+      },
+      {
+        "id": "9a44cea7-3f3e-44f1-a6e7-7dfd35e842b5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Examples of well-regarded digital marketing certification programs",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 14/27]\n(in reply to) User: That's really helpful, thanks! I'm going to weigh the pros and"
+      },
+      {
+        "id": "e216e465-ef66-4381-b6b6-24fc96e123f3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Certifications should align with career goals and skills",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 15/27]\n(in reply to) User: That's really helpful, thanks! I'm going to weigh the pros and"
+      },
+      {
+        "id": "2540e416-d147-4fc3-afe8-f14fe7d73f66",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about HubSpot Inbound Marketing Certification for beginners",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 16/27]\nUser: I'm thinking of exploring the HubSpot Inbound Marketing Certification, as I'"
+      },
+      {
+        "id": "bcc43049-779a-41bd-8371-703018dd43c2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Recommendation: start with foundational digital marketing before HubSpot cert",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 17/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "1c0b1b9b-3943-4806-85e8-a798cbe634c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot Inbound Marketing Certification may be hard for beginners",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 18/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "028d9e68-40f5-4df1-bc53-512016cd8453",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot Inbound Marketing Certification may be advanced for beginners",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 19/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "a4fc9f7b-b1ef-43ac-94b5-b8e08434f46c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Beginner digital marketing starting points (Google, Facebook, HubSpot)",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 20/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "6cbc69a8-1f4c-4bcc-b56d-cb7d4f183266",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on starting digital marketing with HubSpot certification",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 21/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "f1a627a4-3cd2-40a9-a8fe-5d41ea8376a5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice on HubSpot Inbound Marketing Certification for beginners",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 22/27]\n(in reply to) User: I'm thinking of exploring the HubSpot Inbound Marketing Certif"
+      },
+      {
+        "id": "9fd48506-3a4e-4386-b551-1d6293b8019e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Plan to start Google Digital Garage for digital marketing foundation",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 23/27]\nUser: I think I'll start with the Google Digital Garage course to get a solid foun"
+      },
+      {
+        "id": "67393c04-e540-4fa8-a5b4-46d9d7da4f5c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggestion to start with Google Digital Garage for digital marketing",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 24/27]\n(in reply to) User: I think I'll start with the Google Digital Garage course to ge"
+      },
+      {
+        "id": "307c6125-e1b7-4927-94b6-3169a2206f38",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Suggested learning path: Google Digital Garage for digital marketing",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 25/27]\n(in reply to) User: I think I'll start with the Google Digital Garage course to ge"
+      },
+      {
+        "id": "6a38344b-dd1f-402d-9cba-3b7461fb0059",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Suggested approach to start digital marketing learning",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 26/27]\n(in reply to) User: I think I'll start with the Google Digital Garage course to ge"
+      },
+      {
+        "id": "e75649ad-a819-4581-8023-759f00e33d40",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User excited to start Google Digital Garage; mentions cousin Emma",
+        "text": "[date: 2023-07-21T09:29:00+00:00 | context: Session 6e9382e13786 - happened on 2023-07-21 09:29:00 UTC. | turn 27/27]\nUser: I'm excited to start the Google Digital Garage course and build a solid foun"
+      },
+      {
+        "id": "42aed035-b6df-471c-8bce-ce3bbed4f2c3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considers digital marketing certification; mentions Alex\u2019s graduation",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 1/31]\nUser: I'm considering pursuing a certification in digital marketing and I've narrow"
+      },
+      {
+        "id": "5b691a92-567c-4caf-b385-7ae547e0040c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant offered to compare two digital marketing certification programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 2/31]\n(in reply to) User: I'm considering pursuing a certification in digital marketing a"
+      },
+      {
+        "id": "688eadaf-0b9d-4022-a099-4f5405966194",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Helped user compare digital marketing certification programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 3/31]\n(in reply to) User: I'm considering pursuing a certification in digital marketing a"
+      },
+      {
+        "id": "0ea92a60-6c19-4d43-894f-2ef7495201bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot vs Digital Marketing Institute online self-paced programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 4/31]\nUser: One of the programs is offered by HubSpot, and the other is by the Digital Ma"
+      },
+      {
+        "id": "4f777081-c3cc-4e3a-a1c1-3b9bc941007b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison of HubSpot free vs Digital Marketing Institute paid program",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 5/31]\n(in reply to) User: One of the programs is offered by HubSpot, and the other is by "
+      },
+      {
+        "id": "fa800705-3d35-4d24-8be1-2923d2463ae5",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison notes: HubSpot free vs DMI paid digital marketing programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 6/31]\n(in reply to) User: One of the programs is offered by HubSpot, and the other is by "
+      },
+      {
+        "id": "86704508-3e5b-429e-8561-2dbedc983108",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison points for HubSpot vs Digital Marketing Institute programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 7/31]\n(in reply to) User: One of the programs is offered by HubSpot, and the other is by "
+      },
+      {
+        "id": "3592212e-2bcb-4608-829f-18edfc696191",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Choosing between HubSpot free and DMI paid digital marketing programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 8/31]\n(in reply to) User: One of the programs is offered by HubSpot, and the other is by "
+      },
+      {
+        "id": "cfe1a661-0e27-4b84-9ffd-4a98ade3872d",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Weighing pros/cons to choose between two online marketing programs",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 9/31]\n(in reply to) User: One of the programs is offered by HubSpot, and the other is by "
+      },
+      {
+        "id": "57691e74-41ed-4181-83d2-804dbc1f0e94",
+        "score": null,
+        "memory_type": "task",
+        "title": "User asks about recognition of HubSpot vs DMI certifications",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 10/31]\nUser: I'm still unsure about the industry recognition of the HubSpot program. Can "
+      },
+      {
+        "id": "a31cbf70-4f75-40f6-a11c-47040f117f36",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot certification recognition varies by context",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 11/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "27ef166c-71f7-46ad-a6f6-355eacedebef",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Perceived industry recognition of HubSpot certification",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 12/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "f344309c-cb09-4f98-b835-2d859bb98e20",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot certification recognition may be limited in large enterprises",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 13/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "a17ba6e1-c858-4660-8aa3-2ed803c289e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HubSpot vs Digital Marketing Institute certification recognition",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 14/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "0b19955b-b289-46e9-804a-7e9fc4ea31c8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: DMI vs HubSpot certification recognition",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 15/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "3dd63ad9-4171-4a53-b6d8-1a16018d889e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance comparing HubSpot vs DMI certifications",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 16/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "d228e215-07f0-4ba3-a54b-dc41018c02ae",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about recognition of HubSpot vs DMI certifications",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 17/31]\n(in reply to) User: I'm still unsure about the industry recognition of the HubSpot"
+      },
+      {
+        "id": "bd042afe-ad01-47dd-aaf6-79e838676745",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about financing options for $5,000 tuition",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 18/31]\nUser: I'm still a bit concerned about the cost of the Digital Marketing Institute "
+      },
+      {
+        "id": "91c5d709-db02-43b4-8c69-ccb1d1e0df32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussed financing options for $5,000 Digital Marketing Institute program",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 19/31]\n(in reply to) User: I'm still a bit concerned about the cost of the Digital Market"
+      },
+      {
+        "id": "1b60a5c0-e747-4cda-8733-68c301ce823d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Financing options for $5,000 Digital Marketing Institute program",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 20/31]\n(in reply to) User: I'm still a bit concerned about the cost of the Digital Market"
+      },
+      {
+        "id": "3fcdf03d-d721-413b-a4a0-a0edf3e7e810",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Financing options for $5,000 Digital Marketing Institute program",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 21/31]\n(in reply to) User: I'm still a bit concerned about the cost of the Digital Market"
+      },
+      {
+        "id": "cb795eb5-13a9-4160-b1f3-7f23688bad4f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Ask about payment plan options for Digital Marketing Institute",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 22/31]\nUser: Can you tell me more about the payment plan options for the Digital Marketin"
+      },
+      {
+        "id": "14aff91a-56d3-4679-8bd3-4ef50700f89a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMI payment plan: monthly installments, no extra fees/interest",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 23/31]\n(in reply to) User: Can you tell me more about the payment plan options for the Di"
+      },
+      {
+        "id": "a5b124ab-fd62-4cd4-af5f-15c10091af3f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital Marketing Institute payment plan: no interest/admin fees",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 24/31]\n(in reply to) User: Can you tell me more about the payment plan options for the Di"
+      },
+      {
+        "id": "af610a78-fa26-4040-8f86-dee670c593df",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Payment plan setup steps for Digital Marketing Institute program",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 25/31]\n(in reply to) User: Can you tell me more about the payment plan options for the Di"
+      },
+      {
+        "id": "e8b14c00-66df-4718-af42-a30f24871364",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about DMI career support and job placement",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 26/31]\nUser: Can you tell me more about the career support provided by the Digital Market"
+      },
+      {
+        "id": "c2ba3e04-5bf9-4ba3-89ef-600b687fa84a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Explained Digital Marketing Institute career support services",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 27/31]\n(in reply to) User: Can you tell me more about the career support provided by the "
+      },
+      {
+        "id": "65dfe8d1-837f-4dd4-8e75-48ec82edbed0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital Marketing Institute career support and placement details",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 28/31]\n(in reply to) User: Can you tell me more about the career support provided by the "
+      },
+      {
+        "id": "a2123111-b78f-42e1-a024-ecc98efc3db3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Digital Marketing Institute alumni network (10,000+ professionals)",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 29/31]\n(in reply to) User: Can you tell me more about the career support provided by the "
+      },
+      {
+        "id": "469cb5dd-26da-4abe-9034-feccb0ea5d29",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMI alumni, industry connections, and partnerships",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 30/31]\n(in reply to) User: Can you tell me more about the career support provided by the "
+      },
+      {
+        "id": "730ecd2e-8150-4808-9fab-ee910a48b78e",
+        "score": 0.3925,
+        "memory_type": "fact",
+        "title": "Digital Marketing Institute graduate outcomes (employment/salary/prospects)",
+        "text": "[date: 2023-07-21T13:23:00+00:00 | context: Session 19a36ef83cb4 - happened on 2023-07-21 13:23:00 UTC. | turn 31/31]\n(in reply to) User: Can you tell me more about the career support provided by the "
+      },
+      {
+        "id": "2cedca78-9753-40a3-a650-b906b22ad559",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked to compare digital marketing certification programs",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 1/21]\nUser: I'm thinking of pursuing a certification in digital marketing, could you help"
+      },
+      {
+        "id": "e6a22267-5202-4c27-889d-8827708caffb",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering digital marketing certifications for career growth",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 2/21]\nUser: I'm considering the Digital Marketing Certified Associate program from Digita"
+      },
+      {
+        "id": "be8a6bef-35bb-469b-bbb3-737bafc538ed",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant compared DMI DMCA vs AMA CDMP programs",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 3/21]\n(in reply to) User: I'm considering the Digital Marketing Certified Associate progr"
+      },
+      {
+        "id": "04976278-2e6e-4db7-9e92-e8a1d19310ec",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Details of DMI Digital Marketing Certified Associate program",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 4/21]\n(in reply to) User: I'm considering the Digital Marketing Certified Associate progr"
+      },
+      {
+        "id": "4850ff5e-2bcb-4c11-bec8-227eb51e101f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Details: AMA CDMP digital marketing certification",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 5/21]\n(in reply to) User: I'm considering the Digital Marketing Certified Associate progr"
+      },
+      {
+        "id": "d9770495-d771-4e05-b7bb-3f1605d577ca",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Comparison: DMI Digital Marketing vs AMA Certified Digital Marketing Professiona",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 6/21]\n(in reply to) User: I'm considering the Digital Marketing Certified Associate progr"
+      },
+      {
+        "id": "62510889-14ec-4b1a-b2ad-c7810e8f8bd2",
+        "score": null,
+        "memory_type": "decision",
+        "title": "Advice on choosing between two digital marketing programs",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 7/21]\n(in reply to) User: I'm considering the Digital Marketing Certified Associate progr"
+      },
+      {
+        "id": "15b5b742-fb18-4637-bf83-6f742f2fb91e",
+        "score": 0.4006,
+        "memory_type": "preference",
+        "title": "Considering budget/time for certifications; asks about digital marketing prospec",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 8/21]\nUser: I'm still undecided, but I think I need to consider my budget and time commit"
+      },
+      {
+        "id": "b68ef11b-4e58-4a5a-b5af-eb270213be74",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User considered budget/time for education programs",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 9/21]\n(in reply to) User: I'm still undecided, but I think I need to consider my budget a"
+      },
+      {
+        "id": "17a07ffb-7450-4727-b9c2-73f21908900c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Approx salary ranges for digital marketing certifications",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 10/21]\n(in reply to) User: I'm still undecided, but I think I need to consider my budget "
+      },
+      {
+        "id": "7900f57b-33fc-4927-a0bc-5d66cbc19190",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Stats on DMI vs AMA certification salary/career impact",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 11/21]\n(in reply to) User: I'm still undecided, but I think I need to consider my budget "
+      },
+      {
+        "id": "94b6f43e-7bd7-445a-b641-26bc5f870c87",
+        "score": null,
+        "memory_type": "task",
+        "title": "Compare costs and time for two marketing certification programs",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 12/21]\nUser: I think I understand the job prospects and salary ranges better now. It's go"
+      },
+      {
+        "id": "8e353c88-b308-42b5-b40b-cd5c95d3f9fc",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DMCA program cost and time estimates",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 13/21]\n(in reply to) User: I think I understand the job prospects and salary ranges bette"
+      },
+      {
+        "id": "ecc5d35f-b7c9-4b03-8be5-1e40fa0b94ed",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Certification program costs and time commitment (2023-07-21)",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 14/21]\n(in reply to) User: I think I understand the job prospects and salary ranges bette"
+      },
+      {
+        "id": "86f226bf-d6df-440d-9e76-1f748a862e32",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discusses decision about DMCA program",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 15/21]\n(in reply to) User: I think I understand the job prospects and salary ranges bette"
+      },
+      {
+        "id": "d8e7298e-dd29-4a41-9d13-b3cf1cf9d45a",
+        "score": null,
+        "memory_type": "task",
+        "title": "Help create a DMCA study plan fitting the user's schedule",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 16/21]\nUser: I think I'm getting closer to making a decision. I'm still leaning towards t"
+      },
+      {
+        "id": "e3179124-94d9-4178-93dc-c3d7ecb27e9f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Create a study plan for the DMCA program",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 17/21]\n(in reply to) User: I think I'm getting closer to making a decision. I'm still lea"
+      },
+      {
+        "id": "362dc1d2-df2a-4419-89c4-27225e4b9b22",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Generic guidance to create a consistent study schedule",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 18/21]\n(in reply to) User: I think I'm getting closer to making a decision. I'm still lea"
+      },
+      {
+        "id": "6b32b0bf-152c-4f76-bbd5-26d4c3d3cfc1",
+        "score": null,
+        "memory_type": "plan",
+        "title": "User request for a study plan (5\u20136 hrs/week, mornings, weekends)",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 19/21]\nUser: I think I can fit in 5-6 hours of study per week, and I'm most productive in"
+      },
+      {
+        "id": "6d1ce877-34b6-4b67-aecd-41cdb994a271",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Suggested weekend study plan for DMCA program (3\u20134 months)",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 20/21]\n(in reply to) User: I think I can fit in 5-6 hours of study per week, and I'm most"
+      },
+      {
+        "id": "8d2a5852-2fd3-4b46-b895-ed9207747c2a",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Proposed 3\u20134 month weekend/morning study plan with buffer",
+        "text": "[date: 2023-07-21T14:52:00+00:00 | context: Session 9ab4e3cae6a6 - happened on 2023-07-21 14:52:00 UTC. | turn 21/21]\n(in reply to) User: I think I can fit in 5-6 hours of study per week, and I'm most"
+      }
+    ]
+  },
+  "context": {
+    "chars": 99985,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24996)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 3,
+    "gold_turns_present": 3,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26613,
+    "prompt_tokens": 24030,
+    "completion_tokens": 503,
+    "reasoning_tokens": 2080,
+    "generate_time_ms": 22165.098732919432,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22173,
+        "completion_tokens": 155,
+        "reasoning_tokens": 1052,
+        "total_tokens": 23380
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 619,
+        "completion_tokens": 101,
+        "reasoning_tokens": 302,
+        "total_tokens": 1022
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 427,
+        "completion_tokens": 93,
+        "reasoning_tokens": 406,
+        "total_tokens": 926
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 811,
+        "completion_tokens": 154,
+        "reasoning_tokens": 320,
+        "total_tokens": 1285
+      }
+    ]
+  },
+  "failure_label": null
+}

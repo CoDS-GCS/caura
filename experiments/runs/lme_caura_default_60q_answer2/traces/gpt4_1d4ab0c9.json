@@ -1,0 +1,1338 @@
+{
+  "question_id": "gpt4_1d4ab0c9",
+  "question_type": "temporal-reasoning",
+  "question": "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?",
+  "gold_answer": "24 days. 25 days (including the last day) is also acceptable.",
+  "prediction": "You started watering your herb garden on March 22, 2023, and harvested your first batch of fresh herbs on April 15, 2023. Exactly 24 days passed between those two dates.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "yes"
+    }
+  },
+  "memories": {
+    "count": 853,
+    "by_type": {
+      "plan": 6,
+      "task": 42,
+      "action": 3,
+      "decision": 5,
+      "preference": 116,
+      "episode": 239,
+      "fact": 442
+    },
+    "by_status": {
+      "active": 853
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2510379,
+    "output_tokens": 121126,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How many days passed between the day I started watering my herb garden and the day I harvested my first batch of fresh herbs?"
+    ],
+    "retrieve_time_ms": 895.8954859990627,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "fb4f416e-0adf-4707-914f-73ea1299d2d3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Additional considerations for leave management system",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 1/23]\nAssistant: Here are some additional considerations that you might want to keep in m"
+      },
+      {
+        "id": "01d77bc6-1ee4-4aaa-98a5-ed09724985af",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for leave management system for new joiners",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 2/23]\n(in reply to) Assistant: Here are some additional considerations that you might wan"
+      },
+      {
+        "id": "91ceb839-dbec-4432-8eff-96fd03774524",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leave management system: include leave request history for new joiners",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 3/23]\n(in reply to) Assistant: Here are some additional considerations that you might wan"
+      },
+      {
+        "id": "1dc20961-cda6-4028-ac32-bb9d474f85cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leave management system: proxy approvals and SSO integration",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 4/23]\n(in reply to) Assistant: Here are some additional considerations that you might wan"
+      },
+      {
+        "id": "3246fb71-1f3c-4508-b406-a4d8a6854386",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Considerations for leave management system allocating leave to new joiners",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 5/23]\n(in reply to) Assistant: Here are some additional considerations that you might wan"
+      },
+      {
+        "id": "2a8f19cb-f44d-482e-87a1-1c684630584e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Allocate leave days based on joined/confirmation date",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 6/23]\nUser: allocate leave days based on joined or confirmation date"
+      },
+      {
+        "id": "e36e50d4-4828-4fb7-99e4-43f803ad6a24",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Allocate leave days based on joined or confirmation date",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 7/23]\n(in reply to) User: allocate leave days based on joined or confirmation date\n\nAssis"
+      },
+      {
+        "id": "cd35b000-115f-42f8-890a-3399ab136340",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Leave policy based on joined/confirmation date",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 8/23]\n(in reply to) User: allocate leave days based on joined or confirmation date\n\n1. De"
+      },
+      {
+        "id": "6a34ca4b-94db-4818-b5ba-a8b46905ce29",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Allocate leave days by join/confirmation date; maintain leave audit table",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 9/23]\n(in reply to) User: allocate leave days based on joined or confirmation date\n\n4. Us"
+      },
+      {
+        "id": "6b0eaff5-6402-421f-af5a-38016fbd2004",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Allocate leave days based on joined/confirmation date",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 10/23]\n(in reply to) User: allocate leave days based on joined or confirmation date\n\nThis"
+      },
+      {
+        "id": "13dd3bc3-2e59-4a6c-97de-0039dc161a4b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User said 'continue' (session turn)",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 11/23]\nUser: continue"
+      },
+      {
+        "id": "cc01c527-84d9-4f5a-8718-d0c725a85fc7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leave management system considerations (joined/confirmation date allocation)",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 12/23]\n(in reply to) User: continue\n\nAssistant: Here are some additional considerations t"
+      },
+      {
+        "id": "282a16aa-b12a-4b37-b17c-e3f975ba8828",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Guidance on leave balance calculation and rollover policy",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 13/23]\n(in reply to) User: continue\n\n1. Leave balance calculation: You might want to cons"
+      },
+      {
+        "id": "e806e02c-7940-4454-9eee-26d227c1fc92",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leave management system features: history view & proxy approvals",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 14/23]\n(in reply to) User: continue\n\n3. Leave request history: You might want to include "
+      },
+      {
+        "id": "46c11dac-caef-44c8-8b9d-6939d5aa5ab6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "SSO integration guidance for leave management system",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 15/23]\n(in reply to) User: continue\n\n5. Integration with Single Sign-On (SSO): If your or"
+      },
+      {
+        "id": "12d05ff3-9930-4265-b2a7-88d149a4da68",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leave management system feature considerations (date-based allocation)",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 16/23]\n(in reply to) User: continue\n\nThese are just a few examples of the types of featur"
+      },
+      {
+        "id": "9968b17e-a84e-4112-bcfe-fc60412b90e9",
+        "score": null,
+        "memory_type": "task",
+        "title": "Generate user persona bio (request)",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 17/23]\nUser: generate user persona bio"
+      },
+      {
+        "id": "d9bc925f-10da-4998-957f-36aae3d55442",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Steps to generate a user persona bio",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 18/23]\n(in reply to) User: generate user persona bio\n\nAssistant: A user persona is a fict"
+      },
+      {
+        "id": "1ab3592b-06f5-4029-bb41-24ac02b30818",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Template for generating a user persona bio",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 19/23]\n(in reply to) User: generate user persona bio\n\n1. Define the characteristics of yo"
+      },
+      {
+        "id": "eb4b4ed8-0773-4e7c-8dae-e98deb381fe9",
+        "score": 0.3451,
+        "memory_type": "fact",
+        "title": "User persona: Sarah needs an easy leave management system",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 20/23]\n(in reply to) User: generate user persona bio\n\nBio: Sarah is a 28-year-old marketi"
+      },
+      {
+        "id": "c36faad4-df26-49d9-9e87-8f30eff72105",
+        "score": null,
+        "memory_type": "task",
+        "title": "Generate user persona bio for leave",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 21/23]\nUser: generate user persona bio for leave"
+      },
+      {
+        "id": "0b04b215-2ce9-481c-a5d4-f48449ca86ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Example leave-management user persona bio (Rachel)",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 22/23]\n(in reply to) User: generate user persona bio for leave\n\nAssistant: Here is an exa"
+      },
+      {
+        "id": "dfbe1734-d971-4288-922f-a232dee68bd6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "HR manager Rachel persona for leave management system",
+        "text": "[date: 2023-02-24T08:42:00+00:00 | context: Session 1ccf24b1d604 - happened on 2023-02-24 08:42:00 UTC. | turn 23/23]\n(in reply to) User: generate user persona bio for leave\n\nUser story: As an HR mana"
+      },
+      {
+        "id": "5339fe28-53ff-4d47-83f2-245ab1c1c566",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Luxury handbag gift ideas request",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 1/32]\nUser: I'm looking for some gift ideas for my friend's birthday, and I was thinking "
+      },
+      {
+        "id": "0e228584-763a-4bf9-b4ff-fc18db73425a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for friend's birthday (luxury handbags)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 2/32]\n(in reply to) User: I'm looking for some gift ideas for my friend's birthday, and I"
+      },
+      {
+        "id": "43797a89-0a98-4854-b33d-a79c0d17f001",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Gift ideas for friend's birthday: luxury handbag brands",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 3/32]\n(in reply to) User: I'm looking for some gift ideas for my friend's birthday, and I"
+      },
+      {
+        "id": "ebdd64e9-e75a-48a7-808f-cef5c8a1fc75",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gift ideas for friend's birthday handbag (Burberry/Fendi/Valentino)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 4/32]\n(in reply to) User: I'm looking for some gift ideas for my friend's birthday, and I"
+      },
+      {
+        "id": "eda00ad9-8c21-4677-8edc-c5486376be21",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for choosing a luxury handbag gift",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 5/32]\n(in reply to) User: I'm looking for some gift ideas for my friend's birthday, and I"
+      },
+      {
+        "id": "7e61e751-8a93-412a-a200-be70b911890b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about luxury handbag price range near $3,000",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 6/32]\nUser: That's a great list! I'm actually considering a few of those brands. Can you "
+      },
+      {
+        "id": "a8b25838-6811-46a8-9a79-baa48e5ea630",
+        "score": null,
+        "memory_type": "episode",
+        "title": "General guidance on luxury handbag price ranges",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 7/32]\n(in reply to) User: That's a great list! I'm actually considering a few of those br"
+      },
+      {
+        "id": "a403e8e6-1e5c-4954-b3bb-2fbfdbe9f7ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Luxury handbag price ranges by brand (Herm\u00e8s, Louis Vuitton, Gucci)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 8/32]\n(in reply to) User: That's a great list! I'm actually considering a few of those br"
+      },
+      {
+        "id": "46120d3c-f859-4c47-978a-1c58086eaf9c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Luxury handbag price ranges by brand (Chanel/Gucci/Prada/Dior)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 9/32]\n(in reply to) User: That's a great list! I'm actually considering a few of those br"
+      },
+      {
+        "id": "34d4d71e-dc1a-4d92-83a9-5d900bf962ce",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Luxury handbag price ranges for Burberry and Fendi",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 10/32]\n(in reply to) User: That's a great list! I'm actually considering a few of those b"
+      },
+      {
+        "id": "b4d6e49b-8524-4039-a765-edee7617c5f3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for classic timeless handbag recommendations",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 11/32]\nUser: I'm glad you found the list helpful! I'm looking for a handbag that's simila"
+      },
+      {
+        "id": "aa618b67-e331-4795-8fcf-d3e16b20502b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag recommendations for classic, timeless style",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 12/32]\n(in reply to) User: I'm glad you found the list helpful! I'm looking for a handbag"
+      },
+      {
+        "id": "4f733e9e-fb6c-4098-a2bb-ba4e611a8829",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Handbag recommendations: Herm\u00e8s Lindy, Louis Vuitton Montsouris, Prada Galleria",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 13/32]\n(in reply to) User: I'm glad you found the list helpful! I'm looking for a handbag"
+      },
+      {
+        "id": "76d394da-a0c0-4d76-83c5-81b3235d7bdb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Handbag recommendations: Dior Lady Dior and Burberry Bridle",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 14/32]\n(in reply to) User: I'm glad you found the list helpful! I'm looking for a handbag"
+      },
+      {
+        "id": "ebba7d83-1f03-4ed2-9502-0d6d49283ec9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Handbag recommendations for classic, timeless style",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 15/32]\n(in reply to) User: I'm glad you found the list helpful! I'm looking for a handbag"
+      },
+      {
+        "id": "b58585e7-6cd1-48e0-917d-440997ef6d43",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks about leather quality & craftsmanship of Herm\u00e8s Lindy vs Lady Dior",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 16/32]\nUser: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady Dior. Can you"
+      },
+      {
+        "id": "baca20fb-b9b1-4792-91e2-845421a47aa0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Leather and craftsmanship overview for Herm\u00e8s Lindy vs Dior Lady Dior",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 17/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "5f885918-9c9c-4a06-b948-a521155b19ae",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy leather and craftsmanship details",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 18/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "a522216f-989f-4d5a-b8ca-446b09978f3a",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy interior lining and organization details",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 19/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "532e7db9-5410-4df1-b88c-46d98714a61c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about leather quality & craftsmanship of Lady Dior vs Herm\u00e8s Lindy",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 20/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "87c49dad-de5b-4b74-bc90-3eb9e5a0bce7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lady Dior leather and craftsmanship details",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 21/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "d7beeee5-576f-4170-b30b-108cf9e03480",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Lady Dior interior lining and compartment craftsmanship",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 22/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "796b5274-8602-4a3f-9c64-59819197ed09",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General comparison of Herm\u00e8s Lindy vs Dior Lady Dior quality",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 23/32]\n(in reply to) User: I'm interested in the Herm\u00e8s Lindy and the Christian Dior Lady"
+      },
+      {
+        "id": "86e13f74-3c24-4d4a-a29b-5421ebb71372",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering Herm\u00e8s Lindy; asks about durability and care",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 24/32]\nUser: I'm leaning towards the Herm\u00e8s Lindy, but I want to make sure it's worth the"
+      },
+      {
+        "id": "5676c963-609d-4803-be0e-46e20975b8a0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy durability and longevity (Togo leather)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 25/32]\n(in reply to) User: I'm leaning towards the Herm\u00e8s Lindy, but I want to make sure "
+      },
+      {
+        "id": "39cf16d6-002e-472c-a71e-d05d1e359d37",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Care guidance for Herm\u00e8s Lindy leather durability",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 26/32]\n(in reply to) User: I'm leaning towards the Herm\u00e8s Lindy, but I want to make sure "
+      },
+      {
+        "id": "d629d19c-009d-4b58-a867-3d3c5704074b",
+        "score": 0.3442,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy care: condition every 6\u201312 months and store properly",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 27/32]\n(in reply to) User: I'm leaning towards the Herm\u00e8s Lindy, but I want to make sure "
+      },
+      {
+        "id": "9a130a4a-d218-4858-95e5-61d092e79559",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy warranty, repair, and resale value claims",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 28/32]\n(in reply to) User: I'm leaning towards the Herm\u00e8s Lindy, but I want to make sure "
+      },
+      {
+        "id": "b66f8c52-345c-4197-87ed-dc68ea507447",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Herm\u00e8s Lindy sizes, colors, and limited editions",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 29/32]\nUser: I'm considering the Herm\u00e8s Lindy as a gift for my friend's birthday, and I w"
+      },
+      {
+        "id": "e74fd492-fa88-4fd2-adcb-cd138fbb9fb7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy sizes (PM/MM/GM) dimensions",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 30/32]\n(in reply to) User: I'm considering the Herm\u00e8s Lindy as a gift for my friend's bir"
+      },
+      {
+        "id": "21e297a7-4341-4e65-a337-7404d754c41f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy color options (neutral, earth, bold, pastels/metallics)",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 31/32]\n(in reply to) User: I'm considering the Herm\u00e8s Lindy as a gift for my friend's bir"
+      },
+      {
+        "id": "bb47573e-c5ee-42f0-8914-74e0f5c30d6c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herm\u00e8s Lindy: seasonal/holiday colors and limited editions",
+        "text": "[date: 2023-02-25T09:26:00+00:00 | context: Session 9eac7370cd62 - happened on 2023-02-25 09:26:00 UTC. | turn 32/32]\n(in reply to) User: I'm considering the Herm\u00e8s Lindy as a gift for my friend's bir"
+      },
+      {
+        "id": "cd61f0d1-00c2-4d10-9ec5-863d5eec7aa4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans salad and started watering herb garden",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 1/26]\nUser: I'm planning to make a salad for dinner tonight and I want to use some fresh "
+      },
+      {
+        "id": "b8b14f47-29ed-4b34-965a-098eb1091c31",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User started watering herb garden every morning",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning to make a salad for dinner tonight and I want to u"
+      },
+      {
+        "id": "3ba47758-bb08-469d-9e70-90565b0f25c4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips to keep fresh herbs longer",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning to make a salad for dinner tonight and I want to u"
+      },
+      {
+        "id": "45c26557-caa8-4b3a-a94e-41f0ba1b8823",
+        "score": 0.4568,
+        "memory_type": "fact",
+        "title": "Tips to keep fresh herbs longer (storage, freezing, harvesting)",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning to make a salad for dinner tonight and I want to u"
+      },
+      {
+        "id": "111346d1-26f3-4af2-bf8b-3555a4e5f09f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Herbs that pair well with salads",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 5/26]\n(in reply to) User: I'm planning to make a salad for dinner tonight and I want to u"
+      },
+      {
+        "id": "8022fba2-1b7c-445d-9937-9872ed4bb233",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for homemade fertilizer recipes for cherry tomatoes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 6/26]\nUser: I'll keep those tips in mind. By the way, do you know any good recipes for ho"
+      },
+      {
+        "id": "678d16d3-96c9-4ce0-bf40-d1f174b57c29",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for homemade fertilizer recipes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 7/26]\n(in reply to) User: I'll keep those tips in mind. By the way, do you know any good "
+      },
+      {
+        "id": "db5c9200-f5d6-4e38-ba07-c649208f08c0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Homemade natural fertilizers for cherry tomatoes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 8/26]\n(in reply to) User: I'll keep those tips in mind. By the way, do you know any good "
+      },
+      {
+        "id": "9e32ca86-1de6-4f88-b60e-f3934821675f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Natural homemade fertilizer methods (bokashi, manure tea, fish emulsion, compost",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 9/26]\n(in reply to) User: I'll keep those tips in mind. By the way, do you know any good "
+      },
+      {
+        "id": "55abd256-7c81-4471-b6cc-c2cd1a27bff9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for homemade fertilizers for cherry tomatoes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 10/26]\n(in reply to) User: I'll keep those tips in mind. By the way, do you know any good"
+      },
+      {
+        "id": "04895478-b356-4dfc-baad-29a647c095e5",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User considering compost bin for backyard permaculture",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 11/26]\nUser: I've been reading about permaculture designs and layouts, and I'm thinking o"
+      },
+      {
+        "id": "2e78e337-4c88-4faa-82a9-5105bdad7bdb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Compost bin maintenance and materials tips (permaculture)",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 12/26]\n(in reply to) User: I've been reading about permaculture designs and layouts, and "
+      },
+      {
+        "id": "41085b6f-9767-4d4f-87be-cfb9c47bd067",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Composting tips: materials to add/avoid and maintenance",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 13/26]\n(in reply to) User: I've been reading about permaculture designs and layouts, and "
+      },
+      {
+        "id": "f705fe74-6666-4164-9a2d-05fbf49f0c30",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Compost bin maintenance tips and material guidance",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 14/26]\n(in reply to) User: I've been reading about permaculture designs and layouts, and "
+      },
+      {
+        "id": "19eac9a6-5d03-48eb-b34a-e8e338518af7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for compost bin maintenance tips",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 15/26]\n(in reply to) User: I've been reading about permaculture designs and layouts, and "
+      },
+      {
+        "id": "d6079948-e3b5-47ab-bf57-5411dc7a4c99",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Question about starting homemade fertilizer for cherry tomatoes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 16/26]\nUser: I've been tracking my progress on a gardening app, and I noticed that my che"
+      },
+      {
+        "id": "16ad4f84-6dd5-4c56-930f-33f4cc3797d9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gardening advice on Epsom salt vs banana peel fertilizer",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 17/26]\n(in reply to) User: I've been tracking my progress on a gardening app, and I notic"
+      },
+      {
+        "id": "fdd63ede-defd-48c8-bdee-8179fe504b55",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Banana peel fertilizer guidance for cherry tomatoes",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 18/26]\n(in reply to) User: I've been tracking my progress on a gardening app, and I notic"
+      },
+      {
+        "id": "f3869b9f-943f-4429-b3f5-ab9031d9b382",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Gardening advice on using banana peel fertilizer",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 19/26]\n(in reply to) User: I've been tracking my progress on a gardening app, and I notic"
+      },
+      {
+        "id": "b4e5a1e9-a80a-43f2-8422-93ebf62b9233",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans banana peel fertilizer and asks about DIY drip irrigation",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 20/26]\nUser: I think I'll try the banana peel fertilizer first. I'll bury a few banana pe"
+      },
+      {
+        "id": "076071ec-197d-4536-af9c-bd736c91817b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DIY drip irrigation guide (materials and steps)",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 21/26]\n(in reply to) User: I think I'll try the banana peel fertilizer first. I'll bury a"
+      },
+      {
+        "id": "a33d4142-d77c-4b33-abb5-7ef32e2b6765",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Drip irrigation setup steps",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 22/26]\n(in reply to) User: I think I'll try the banana peel fertilizer first. I'll bury a"
+      },
+      {
+        "id": "e73f8928-4ec1-466d-b6c6-51b37bf90581",
+        "score": null,
+        "memory_type": "task",
+        "title": "Test irrigation system for leaks and emitter delivery",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 23/26]\n(in reply to) User: I think I'll try the banana peel fertilizer first. I'll bury a"
+      },
+      {
+        "id": "65e136b9-7b12-4575-a462-800ec600a835",
+        "score": null,
+        "memory_type": "fact",
+        "title": "DIY plastic-bottle drip emitters instructions",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 24/26]\n(in reply to) User: I think I'll try the banana peel fertilizer first. I'll bury a"
+      },
+      {
+        "id": "2a944e80-7812-4aa1-94a1-360b1a83eef8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "DIY gardening advice: banana peel fertilizer and drip irrigation",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 25/26]\n(in reply to) User: I think I'll try the banana peel fertilizer first. I'll bury a"
+      },
+      {
+        "id": "b5cd5567-f107-4e21-a68f-cb8d30f95d8c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans DIY drip irrigation to reduce water usage",
+        "text": "[date: 2023-03-22T11:41:00+00:00 | context: Session 0f7ff3d60635 - happened on 2023-03-22 11:41:00 UTC. | turn 26/26]\nUser: I'll definitely give it a try! I've been wanting to reduce my water usage an"
+      },
+      {
+        "id": "3c8678ea-60dd-4c75-a574-75cdb922391b",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for cleaning routines/schedules for a calmer home",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 1/12]\nUser: Can you suggest specific cleaning routines or schedules which can align with "
+      },
+      {
+        "id": "18520d96-fa09-4429-85ce-a4ce1ba96f51",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cleaning routines to promote a calmer, organized home",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 2/12]\n(in reply to) User: Can you suggest specific cleaning routines or schedules which c"
+      },
+      {
+        "id": "d21b283c-2610-4403-96af-6fad4d617458",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Cleaning routines to promote a calmer, organized home",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 3/12]\n(in reply to) User: Can you suggest specific cleaning routines or schedules which c"
+      },
+      {
+        "id": "7a0d647b-f673-4cc1-ae85-79a6c0295e56",
+        "score": 0.3616,
+        "memory_type": "preference",
+        "title": "User struggles to stick to cleaning routines",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 4/12]\nUser: But can you also suggest some hacks to motivate me to actually stick to these"
+      },
+      {
+        "id": "e4dbc2ed-32c5-455a-877b-3eb70d259958",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested motivation hacks for sticking to cleaning routines",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 5/12]\n(in reply to) User: But can you also suggest some hacks to motivate me to actually "
+      },
+      {
+        "id": "6a4c0d39-685d-431a-88a4-2ec8440e4572",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Motivation hacks for sticking to cleaning routines",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 6/12]\n(in reply to) User: But can you also suggest some hacks to motivate me to actually "
+      },
+      {
+        "id": "275b628f-d6f2-41e3-afe5-be6f81e2688f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Motivation hacks for sticking to cleaning routines",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 7/12]\n(in reply to) User: But can you also suggest some hacks to motivate me to actually "
+      },
+      {
+        "id": "e1b2eb29-745e-491b-91aa-056e0ab630a4",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User likes fun self-rewards after cleaning tasks",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 8/12]\nUser: I especially like the idea of rewarding myself, maybe I'll treat myself to a "
+      },
+      {
+        "id": "74eff6a5-49c0-4e69-8712-2e92602fbf60",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Motivation plan: shopping spree reward for cleaning routines",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 9/12]\nUser: These are awesome ideas! I think I'll reward myself with a shopping spree if "
+      },
+      {
+        "id": "5f24e2b3-44a1-448c-b189-85cb2cbc8b2c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips requested for pushing through cleaning days",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 10/12]\nUser: Wow, these rewards ideas are great! I'm definitely going to treat myself onc"
+      },
+      {
+        "id": "93abc8fb-fad8-4f52-a756-b629430f431e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Cleaning motivation tips conversation (2023-03-22)",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 11/12]\n(in reply to) User: Wow, these rewards ideas are great! I'm definitely going to tr"
+      },
+      {
+        "id": "12859529-91b6-4a30-849e-4c91cf531ea2",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for pushing through cleaning days",
+        "text": "[date: 2023-03-22T12:20:00+00:00 | context: Session 64d2614702df - happened on 2023-03-22 12:20:00 UTC. | turn 12/12]\n(in reply to) User: Wow, these rewards ideas are great! I'm definitely going to tr"
+      },
+      {
+        "id": "95513403-f785-4ea0-8cdb-e8eaa7c73b1a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Family vacation planning: Canada/BC; Whistler ski trip liked",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 1/31]\nUser: I'm planning a summer vacation with my family and we're considering Canada. D"
+      },
+      {
+        "id": "d01ca9b1-8526-4b52-8a91-342bd80912b2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided family-friendly summer vacation ideas for British Columbia",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 2/31]\n(in reply to) User: I'm planning a summer vacation with my family and we're conside"
+      },
+      {
+        "id": "94a86fa1-66a0-4485-afa9-0b2e7dfb4165",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly British Columbia activity recommendations",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 3/31]\n(in reply to) User: I'm planning a summer vacation with my family and we're conside"
+      },
+      {
+        "id": "f2c16cbf-d2d5-4770-9828-e23fc1651fa0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly British Columbia activities (Vancouver, Victoria, North Vancouve",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 4/31]\n(in reply to) User: I'm planning a summer vacation with my family and we're conside"
+      },
+      {
+        "id": "c0ed1a99-638b-4c49-a2ee-84bb495b5311",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly British Columbia summer activity ideas",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 5/31]\n(in reply to) User: I'm planning a summer vacation with my family and we're conside"
+      },
+      {
+        "id": "a339180f-19d8-4acf-9cc0-c95006d04d74",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for family-friendly Vancouver/Victoria stays with amenities",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 6/31]\nUser: That's great! My family loved the scenic views and outdoor activities in Whis"
+      },
+      {
+        "id": "d5b79297-80cb-4a3c-bae3-347c6d8afa33",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replied with family-friendly accommodation suggestions",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 7/31]\n(in reply to) User: That's great! My family loved the scenic views and outdoor acti"
+      },
+      {
+        "id": "9b9bea24-f777-4950-b728-556350f5c9f8",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hotel options in Vancouver (Fairmont, Pan Pacific, Residence Inn, Sutton Place)",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 8/31]\n(in reply to) User: That's great! My family loved the scenic views and outdoor acti"
+      },
+      {
+        "id": "6fbc0881-b798-426e-9621-392eb25000a9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vacation rental suggestions: Whistler-inspired North Vancouver & Yaletown",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 9/31]\n(in reply to) User: That's great! My family loved the scenic views and outdoor acti"
+      },
+      {
+        "id": "56327242-7998-472b-a818-458513739d0e",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Hotel options in Victoria (Fairmont Empress, Grand Pacific, Laurel Point, Oak Ba",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 10/31]\n(in reply to) User: That's great! My family loved the scenic views and outdoor act"
+      },
+      {
+        "id": "7611ae5c-8ee4-4846-b09e-e9bd0ee24886",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly accommodations in Vancouver/Victoria (Oak Bay & downtown Victori",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 11/31]\n(in reply to) User: That's great! My family loved the scenic views and outdoor act"
+      },
+      {
+        "id": "a2c511f2-242e-455a-be87-37b79a798b91",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for vacation rentals with private hot tub",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 12/31]\nUser: That's really helpful! I think we'd prefer a vacation rental with a private "
+      },
+      {
+        "id": "d34554dc-a0c0-49b4-9db7-8ba2aefddd94",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Recommendations for Vancouver/Victoria rentals with private hot tubs",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 13/31]\n(in reply to) User: That's really helpful! I think we'd prefer a vacation rental w"
+      },
+      {
+        "id": "a237b0e0-66ae-4a7b-a600-f95670e51364",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vacation rental websites with hot tub filters (VRBO, Airbnb, HomeAway, Expedia)",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 14/31]\n(in reply to) User: That's really helpful! I think we'd prefer a vacation rental w"
+      },
+      {
+        "id": "a196fb82-beed-44a5-a88b-54dc871410c6",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Vacation rental websites with hot tub filters",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 15/31]\n(in reply to) User: That's really helpful! I think we'd prefer a vacation rental w"
+      },
+      {
+        "id": "f8794e17-5f2c-4548-892a-acdb940e2042",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference for vacation rentals with private hot tub",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 16/31]\n(in reply to) User: That's really helpful! I think we'd prefer a vacation rental w"
+      },
+      {
+        "id": "c1bbf252-1d4e-4372-b46b-267f91d682fc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for tips choosing kid-friendly vacation rentals",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 17/31]\nUser: That's really helpful! I think I'll check out VRBO and Airbnb first, as I've"
+      },
+      {
+        "id": "82e82e07-020d-4f11-855c-e44a34b1da35",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant tips for choosing kid-friendly vacation rentals",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 18/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "0dd6e7ef-ba7d-414f-8dc6-236ebeb1ed23",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for choosing kid-friendly vacation rentals",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 19/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "6b0badef-afd7-45c8-a4a2-181e60cc0dab",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for evaluating family-friendly vacation rentals",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 20/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "e4ae7f1e-401f-47b6-a196-3eb827abeefe",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for choosing a family-friendly vacation rental (VRBO/Airbnb)",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 21/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "590c68bc-5b5e-484d-a38e-6bf1aa419d41",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tip: Read rental agreement before booking",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 22/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "a5223df1-894c-410f-9fb6-3af9cbd7d173",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Vacation rental tips for families with kids (VRBO/Airbnb)",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 23/31]\n(in reply to) User: That's really helpful! I think I'll check out VRBO and Airbnb "
+      },
+      {
+        "id": "86fe5ca5-556a-4e8d-a228-782a9be3db63",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find family-friendly kid activities in Vancouver & Victoria",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 24/31]\nUser: Can you help me with finding some family-friendly activities and attractions"
+      },
+      {
+        "id": "e09e8d04-051b-4cf1-a6eb-8a63be88e18d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Provided family-friendly kid activities in Vancouver and Victoria",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 25/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "61e3320a-0b74-49de-b301-842cc120cff4",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly kid activities in Vancouver and Victoria",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 26/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "5d46e313-a299-4148-8d39-dee6ce2cfd49",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Capilano Suspension Bridge Park kid-friendly attractions",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 27/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "1e4d049a-ae32-40e2-a94a-1c8968f652db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Kid-friendly restaurant suggestions: Vancouver (and Victoria start)",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 28/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "6d50bb9f-a92b-4454-b522-658864f55531",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly kid activities in Vancouver/Victoria",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 29/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "4efbd8b3-78b0-4bd2-b3c1-c3c63d5de3db",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Family-friendly Vancouver/Victoria restaurant suggestions",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 30/31]\n(in reply to) User: Can you help me with finding some family-friendly activities a"
+      },
+      {
+        "id": "37b92602-0e34-4cd8-8182-c13435ba4fb2",
+        "score": 0.3362,
+        "memory_type": "preference",
+        "title": "Family preferences: outdoors, culture/history, kids 8 & 10",
+        "text": "[date: 2023-03-22T15:40:00+00:00 | context: Session 1beae614dc5c - happened on 2023-03-22 15:40:00 UTC. | turn 31/31]\nUser: That's a great start! I'd like to add a few more questions to help narrow do"
+      },
+      {
+        "id": "2070224f-d639-4647-9c6e-a5fa1b8c19e5",
+        "score": 0.455,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 1/27]\nUser: I'm looking for some new recipe ideas that feature fresh herbs. I just harves"
+      },
+      {
+        "id": "6e41717c-07a3-4496-a21a-7d5b15a15229",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 2/27]\n(in reply to) User: I'm looking for some new recipe ideas that feature fresh herbs."
+      },
+      {
+        "id": "828e4590-2759-4532-94af-acf3faf455bb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 3/27]\n(in reply to) User: I'm looking for some new recipe ideas that feature fresh herbs."
+      },
+      {
+        "id": "47a5bafe-4d64-4f7a-9853-afdf8d66c443",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 4/27]\n(in reply to) User: I'm looking for some new recipe ideas that feature fresh herbs."
+      },
+      {
+        "id": "d2b16105-e2f8-4ab5-81b4-9dba08d80acd",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 5/27]\nUser: I'm particularly interested in the Thai Basil Chicken Stir-Fry and the Pesto "
+      },
+      {
+        "id": "1881e639-d096-4eb2-9c63-7cf428a11db9",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 6/27]\n(in reply to) User: I'm particularly interested in the Thai Basil Chicken Stir-Fry "
+      },
+      {
+        "id": "3aa49a9a-4cb4-4be3-9da0-3703d887ce7f",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 7/27]\n(in reply to) User: I'm particularly interested in the Thai Basil Chicken Stir-Fry "
+      },
+      {
+        "id": "cb6c864c-c103-42a9-acbe-1ab3f9c49bfc",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 8/27]\n(in reply to) User: I'm particularly interested in the Thai Basil Chicken Stir-Fry "
+      },
+      {
+        "id": "d9b1706d-42f6-453f-a9dc-7b5b7982cba0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 9/27]\n(in reply to) User: I'm particularly interested in the Thai Basil Chicken Stir-Fry "
+      },
+      {
+        "id": "3e8849e3-3c3d-4cce-ac2b-2aba37992037",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 10/27]\nUser: I'm curious about the freezing method. How do I know if the frozen herbs are"
+      },
+      {
+        "id": "8f7f5a4f-ec72-4cd5-b416-c9ef11fe683b",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 11/27]\n(in reply to) User: I'm curious about the freezing method. How do I know if the fr"
+      },
+      {
+        "id": "34c6528e-544d-4718-95a0-685a5b142c08",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 12/27]\n(in reply to) User: I'm curious about the freezing method. How do I know if the fr"
+      },
+      {
+        "id": "648eecf3-00f0-4c3e-beba-c044932562b0",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 13/27]\n(in reply to) User: I'm curious about the freezing method. How do I know if the fr"
+      },
+      {
+        "id": "fa0dcc90-9f10-493c-bb49-d1af073b4759",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 14/27]\nUser: I'd like to know more about composting. I started creating a compost bin in "
+      },
+      {
+        "id": "06f9d67b-ac84-4aa5-b449-3871ee10d226",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 15/27]\n(in reply to) User: I'd like to know more about composting. I started creating a c"
+      },
+      {
+        "id": "c5b50d63-34f2-4574-8207-06b3ecb9efdb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 16/27]\n(in reply to) User: I'd like to know more about composting. I started creating a c"
+      },
+      {
+        "id": "2a6363c5-7c6e-48c6-9292-43e63891d903",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 17/27]\n(in reply to) User: I'd like to know more about composting. I started creating a c"
+      },
+      {
+        "id": "4e88ea1c-4935-4aee-a8f2-1483a82eb4a7",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 18/27]\nUser: I'm curious about the different types of irrigation systems. I recently impl"
+      },
+      {
+        "id": "a8a36582-663a-457b-9bab-17bc55415e60",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 19/27]\n(in reply to) User: I'm curious about the different types of irrigation systems. I"
+      },
+      {
+        "id": "92e53a68-7c6b-4eea-9e3e-30149c98bf4d",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 20/27]\n(in reply to) User: I'm curious about the different types of irrigation systems. I"
+      },
+      {
+        "id": "131e40cf-f6fa-4d80-b7ce-e994bec2e779",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 21/27]\n(in reply to) User: I'm curious about the different types of irrigation systems. I"
+      },
+      {
+        "id": "2a85054d-59e2-4a50-a66c-6fb29973e1cb",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 22/27]\n(in reply to) User: I'm curious about the different types of irrigation systems. I"
+      },
+      {
+        "id": "b3e6d5ba-aa76-4f79-9db4-ade868c370a6",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 23/27]\nUser: I'm interested in learning more about rainwater harvesting systems. Can you "
+      },
+      {
+        "id": "3b164f55-954b-4672-bedc-1e1868dc1317",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 24/27]\n(in reply to) User: I'm interested in learning more about rainwater harvesting sys"
+      },
+      {
+        "id": "b717e505-3cc9-4881-946d-9f5dec596b53",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 25/27]\n(in reply to) User: I'm interested in learning more about rainwater harvesting sys"
+      },
+      {
+        "id": "61acdf7c-d031-4b4f-9bcb-565b57da8dd1",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 26/27]\n(in reply to) User: I'm interested in learning more about rainwater harvesting sys"
+      },
+      {
+        "id": "ad545986-ef0c-44b2-9394-ff7e4f4c957e",
+        "score": null,
+        "memory_type": "fact",
+        "title": null,
+        "text": "[date: 2023-04-15T17:48:00+00:00 | context: Session 88be8fc209ed - happened on 2023-04-15 17:48:00 UTC. | turn 27/27]\n(in reply to) User: I'm interested in learning more about rainwater harvesting sys"
+      },
+      {
+        "id": "d6bf9c3b-c651-4b97-bdda-6516c320557c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice request: brake pad upgrade after track-day fade",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 1/29]\nUser: I'm looking for some advice on upgrading my brake pads. I recently did a trac"
+      },
+      {
+        "id": "0c29be31-fda6-45cc-bb27-79c0a6cd5e79",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice requested on upgrading brake pads after track-day fade",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking for some advice on upgrading my brake pads. I recen"
+      },
+      {
+        "id": "0fae75b2-557c-4a2b-8117-5e6f1447f330",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brake pad upgrade advice: causes, materials, temp ratings",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking for some advice on upgrading my brake pads. I recen"
+      },
+      {
+        "id": "86b02491-e728-4af7-bb0a-29e43e7f55be",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brake pad upgrade considerations (compound, thickness, rotor compatibility)",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking for some advice on upgrading my brake pads. I recen"
+      },
+      {
+        "id": "621a5623-fe4e-4d85-bac0-99bbb271856b",
+        "score": 0.3349,
+        "memory_type": "fact",
+        "title": "Brake pad upgrade advice: bedding-in and consult a pro",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking for some advice on upgrading my brake pads. I recen"
+      },
+      {
+        "id": "ff7a2475-b7d3-420e-876d-931ea06d58ea",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice on track brake pad upgrades after brake fade",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 6/29]\n(in reply to) User: I'm looking for some advice on upgrading my brake pads. I recen"
+      },
+      {
+        "id": "29bddc47-e3ec-4c1d-adcc-a7ba9d2accd1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User drives 2018 Honda Civic Si for track/autocross",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 7/29]\nUser: I've been driving my 2018 Honda Civic Si for about a year now, and recently, "
+      },
+      {
+        "id": "95477d0b-d320-491f-b4da-191c41e26850",
+        "score": null,
+        "memory_type": "fact",
+        "title": "2018 Honda Civic Si used for track days and autocross",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 8/29]\n(in reply to) User: I've been driving my 2018 Honda Civic Si for about a year now, "
+      },
+      {
+        "id": "4fa13d30-821b-4cbb-9ab6-ca121144907d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brake pad recommendations for track/autocross Civic Si",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 9/29]\n(in reply to) User: I've been driving my 2018 Honda Civic Si for about a year now, "
+      },
+      {
+        "id": "fe6d4e2b-d2c4-43cf-8b49-b4ce140f0e82",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Brake pad selection tips for track/autocross use",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 10/29]\n(in reply to) User: I've been driving my 2018 Honda Civic Si for about a year now,"
+      },
+      {
+        "id": "f53076e8-72a0-43c1-ba38-d10214c2960c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Track brake tips for 2018 Honda Civic Si",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 11/29]\n(in reply to) User: I've been driving my 2018 Honda Civic Si for about a year now,"
+      },
+      {
+        "id": "d9321cff-e259-45c3-b0d3-dc4a7e226070",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice request: upgrade brake fluid for track day",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 12/29]\nUser: I'm actually planning to participate in another track day next weekend at a "
+      },
+      {
+        "id": "b40f608f-533b-4175-bee4-9e2b495fd3a3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "High-temperature brake fluid benefits for track use",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 13/29]\n(in reply to) User: I'm actually planning to participate in another track day next"
+      },
+      {
+        "id": "dafe046d-53b6-4b42-8d4b-e83b26d7bab0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "High-temp track brake fluid comparison (Motul RBF 660 vs Castrol SRF)",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 14/29]\n(in reply to) User: I'm actually planning to participate in another track day next"
+      },
+      {
+        "id": "90d383eb-90ec-4491-beca-cc80f3db95bd",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Advice: flush/bleed and monitor when upgrading to high-temp brake fluid",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 15/29]\n(in reply to) User: I'm actually planning to participate in another track day next"
+      },
+      {
+        "id": "d0e589a5-bd89-499c-b30b-5622db96020e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Wants to learn driving skills from experienced drivers",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 16/29]\nUser: I'm also planning to meet up with some of the people I've met at previous ev"
+      },
+      {
+        "id": "4f0208fb-a097-48d8-bf60-17b4d8795cb9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Value community mentorship to improve driving skills",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 17/29]\n(in reply to) User: I'm also planning to meet up with some of the people I've met "
+      },
+      {
+        "id": "3893b374-6991-414f-b0a0-e0972e6d71ff",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for learning driving from experienced drivers",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 18/29]\n(in reply to) User: I'm also planning to meet up with some of the people I've met "
+      },
+      {
+        "id": "098ac466-fa6d-48e3-a480-8069c1369720",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on finding driving mentors and training",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 19/29]\n(in reply to) User: I'm also planning to meet up with some of the people I've met "
+      },
+      {
+        "id": "c516f550-7476-47fd-b05e-4ab9abee50b7",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User asks for suspension optimization tips for track day",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 20/29]\nUser: I'm actually thinking about adjusting my suspension settings for the upcomin"
+      },
+      {
+        "id": "604553c0-1972-40ae-b3d1-5346b090fbdb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for optimizing suspension for track driving",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 21/29]\n(in reply to) User: I'm actually thinking about adjusting my suspension settings f"
+      },
+      {
+        "id": "65a4285e-2ca5-4685-9dba-f6ceedf39da9",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Track-day suspension setup tips (springs, damping, alignment)",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 22/29]\n(in reply to) User: I'm actually thinking about adjusting my suspension settings f"
+      },
+      {
+        "id": "22a32a95-129c-40f5-b3ac-1be7feb56ad1",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for optimizing suspension for track driving",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 23/29]\n(in reply to) User: I'm actually thinking about adjusting my suspension settings f"
+      },
+      {
+        "id": "9d03dec8-4fe2-4de4-b104-e96e031fe599",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for optimizing suspension for track day",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 24/29]\n(in reply to) User: I'm actually thinking about adjusting my suspension settings f"
+      },
+      {
+        "id": "ac06407e-b68f-4cf4-b628-1aabd15ba95d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Tips for approaching a new track layout and conditions",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 25/29]\nUser: I'm actually planning to try out a new track that I've never been to before,"
+      },
+      {
+        "id": "eb811c69-5f19-48cd-aa81-5a0260e9d53c",
+        "score": null,
+        "memory_type": "preference",
+        "title": "General tips for approaching a new track",
+        "text": "[date: 2023-04-15T20:29:00+00:00 | context: Session 53b3609f1919 - happened on 2023-04-15 20:29:00 UTC. | turn 26/29]\n(in reply to) User: I'm actually planning to try out a new track that I've never b"
+      }
+    ]
+  },
+  "context": {
+    "chars": 101605,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 25401)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 2,
+    "gold_turns_present": 2,
+    "fully_covered": true
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 26499,
+    "prompt_tokens": 24989,
+    "completion_tokens": 344,
+    "reasoning_tokens": 1166,
+    "generate_time_ms": 15763.493746053427,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 23195,
+        "completion_tokens": 154,
+        "reasoning_tokens": 511,
+        "total_tokens": 23860
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 630,
+        "completion_tokens": 49,
+        "reasoning_tokens": 255,
+        "total_tokens": 934
+      },
+      {
+        "stage": "infer",
+        "prompt_tokens": 438,
+        "completion_tokens": 49,
+        "reasoning_tokens": 192,
+        "total_tokens": 679
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 726,
+        "completion_tokens": 92,
+        "reasoning_tokens": 208,
+        "total_tokens": 1026
+      }
+    ]
+  },
+  "failure_label": null
+}

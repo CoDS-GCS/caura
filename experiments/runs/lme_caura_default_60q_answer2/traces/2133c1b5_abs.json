@@ -1,0 +1,1339 @@
+{
+  "question_id": "2133c1b5_abs",
+  "question_type": "knowledge-update",
+  "question": "How long have I been living in my current apartment in Shinjuku?",
+  "gold_answer": "The information provided is not enough. You mentioned living in Harajuku but not Shinjuku.",
+  "prediction": "There is no mention in the chat history of you living in an apartment in Shinjuku, as you previously mentioned living in Harajuku.",
+  "verdicts": {
+    "gpt-4o": {
+      "correct": true,
+      "reason": "Yes.",
+      "model_resolved": "gpt-4o-2024-08-06"
+    },
+    "gemini-3.5-flash-lite": {
+      "correct": true,
+      "reason": "Yes"
+    }
+  },
+  "memories": {
+    "count": 856,
+    "by_type": {
+      "preference": 95,
+      "fact": 282,
+      "action": 6,
+      "episode": 419,
+      "task": 41,
+      "decision": 3,
+      "plan": 10
+    },
+    "by_status": {
+      "conflicted": 2,
+      "active": 854
+    },
+    "server_derived": 0
+  },
+  "enrichment_tokens": {
+    "input_tokens": 2519208,
+    "output_tokens": 121552,
+    "basis": "derived from measured rate (2943 in / 142 out per memory)"
+  },
+  "ingestion_seconds": null,
+  "search": {
+    "queries": [
+      "How long have I been living in my current apartment in Shinjuku?"
+    ],
+    "retrieve_time_ms": 2991.2176319630817,
+    "candidates": 150,
+    "server_derived_dropped": 0,
+    "retrieved": [
+      {
+        "id": "96346838-2ea3-458a-ae65-f9bccbadf77c",
+        "score": null,
+        "memory_type": "task",
+        "title": "Plan Japanese Alps trip (Nagano) for November",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 1/23]\nUser: I'm planning a trip to the Japanese Alps in November and was wondering if you"
+      },
+      {
+        "id": "4834ab7d-692e-4b5f-adf7-75bf18531eef",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip planning advice for Japanese Alps in Nagano (Nov)",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 2/23]\n(in reply to) User: I'm planning a trip to the Japanese Alps in November and was wo"
+      },
+      {
+        "id": "43eb572c-2253-427c-8faf-de94bb9efaba",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Scenic Nagano prefecture trip suggestions (Hakuba, Kamikochi, Matsumoto, Nagano ",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 3/23]\n(in reply to) User: I'm planning a trip to the Japanese Alps in November and was wo"
+      },
+      {
+        "id": "eb2ed9d4-c953-436a-a040-c6d068475537",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Nagano prefecture trip tips for Japanese Alps (Nov)",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 4/23]\n(in reply to) User: I'm planning a trip to the Japanese Alps in November and was wo"
+      },
+      {
+        "id": "591b6fdb-c403-4113-9222-cc658da3d0d0",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find public transit options Tokyo to Nagano for friends",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 5/23]\nUser: I'm also thinking of inviting some friends who live in Tokyo to join me for a"
+      },
+      {
+        "id": "fea6fb8f-eb2c-47c7-804a-ad14515cfc88",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Public transport options from Tokyo to Nagano",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 6/23]\n(in reply to) User: I'm also thinking of inviting some friends who live in Tokyo to"
+      },
+      {
+        "id": "f51e8ee5-1ed2-4294-ab27-621c2a286d18",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Public transport options from Tokyo to Nagano (via Matsumoto)",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 7/23]\n(in reply to) User: I'm also thinking of inviting some friends who live in Tokyo to"
+      },
+      {
+        "id": "83f59793-7488-47ac-b0ef-a5266c703840",
+        "score": 0.3541,
+        "memory_type": "episode",
+        "title": "User asks about Hakuba Valley vs Matsumoto accommodations",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 8/23]\nUser: I'm still getting used to living in Tokyo, but I've been enjoying the indepen"
+      },
+      {
+        "id": "5fdde1d4-8708-47a0-b7fb-95f310023519",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Trip planning discussion: Tokyo to Nagano (Hakuba vs Matsumoto)",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 9/23]\n(in reply to) User: I'm still getting used to living in Tokyo, but I've been enjoyi"
+      },
+      {
+        "id": "278788c3-3a6c-4ff8-af0a-563e136f9e92",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice comparing Hakuba Valley vs Matsumoto trip",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 10/23]\n(in reply to) User: I'm still getting used to living in Tokyo, but I've been enjoy"
+      },
+      {
+        "id": "ff002611-ae1e-4c04-ae1d-42d6063f0362",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel advice: split stay between Hakuba Valley and Matsumoto",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 11/23]\n(in reply to) User: I'm still getting used to living in Tokyo, but I've been enjoy"
+      },
+      {
+        "id": "34ce4135-f5dd-4af5-99bc-2b71c89f9cf0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Preference to stay in Matsumoto for culture and onsen",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 12/23]\nUser: I think I'll choose to stay in Matsumoto, since I'm more interested in exper"
+      },
+      {
+        "id": "4f9e794e-54bd-437e-aabc-9078b174dcd2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel advice: staying in Matsumoto and onsen recommendations",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 13/23]\n(in reply to) User: I think I'll choose to stay in Matsumoto, since I'm more inter"
+      },
+      {
+        "id": "5d62fc0f-a70f-450f-8ffb-857278372993",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Onsen recommendations near Matsumoto",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 14/23]\n(in reply to) User: I think I'll choose to stay in Matsumoto, since I'm more inter"
+      },
+      {
+        "id": "5895bb64-7e2d-460b-976f-bf96d5a4728d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Matsumoto onsen guidance and sent\u014d suggestion",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 15/23]\n(in reply to) User: I think I'll choose to stay in Matsumoto, since I'm more inter"
+      },
+      {
+        "id": "0220e554-8335-4238-ac24-3bcc08a2ff3d",
+        "score": null,
+        "memory_type": "task",
+        "title": "Recommend must-visit spots in Matsumoto and Japanese Alps",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 16/23]\nUser: I'm looking forward to visiting the Japanese Alps Visitor Center and learnin"
+      },
+      {
+        "id": "556c2664-73de-403d-8ea7-b74ace39ca46",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Matsumoto travel suggestions for traditional architecture",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 17/23]\n(in reply to) User: I'm looking forward to visiting the Japanese Alps Visitor Cent"
+      },
+      {
+        "id": "bd1f1cdc-003d-4d42-b570-d9c13d02f4e3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Matsumoto area attractions: Kaichi School Museum, Zenko-ji, Matsumoto Shrine",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 18/23]\n(in reply to) User: I'm looking forward to visiting the Japanese Alps Visitor Cent"
+      },
+      {
+        "id": "5b577255-f336-4ddb-a3ec-0301645bbf13",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Matsumoto attractions and local specialties (Japanese Alps trip)",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 19/23]\n(in reply to) User: I'm looking forward to visiting the Japanese Alps Visitor Cent"
+      },
+      {
+        "id": "2b69f9ae-3e58-4bba-9845-a030887a6ede",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Trip planning: prioritize Matsumoto Castle vs Zenko-ji",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 20/23]\nUser: I'm planning to visit the Japanese Alps Visitor Center and then head to Mats"
+      },
+      {
+        "id": "e43f02e6-17b7-48cc-9631-384798198264",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel itinerary discussion: Matsumoto Castle vs Zenko-ji",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 21/23]\n(in reply to) User: I'm planning to visit the Japanese Alps Visitor Center and the"
+      },
+      {
+        "id": "71e5eaa7-dbe2-4349-894d-57612a116d8a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Travel advice prioritizing Matsumoto Castle over Zenko-ji",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 22/23]\n(in reply to) User: I'm planning to visit the Japanese Alps Visitor Center and the"
+      },
+      {
+        "id": "d5f0a0ce-4c40-42e1-bf8f-fc139943107b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel itinerary advice for Japanese Alps, Matsumoto, and Zenko-ji",
+        "text": "[date: 2023-04-11T21:07:00+00:00 | context: Session 5708deb60a3f - happened on 2023-04-11 21:07:00 UTC. | turn 23/23]\n(in reply to) User: I'm planning to visit the Japanese Alps Visitor Center and the"
+      },
+      {
+        "id": "46e4c23e-95b0-40f8-959a-178e9fe7fa5b",
+        "score": 0.3363,
+        "memory_type": "preference",
+        "title": "User preferences for a 7\u201310 day Europe trip",
+        "text": "[date: 2023-05-03T09:07:00+00:00 | context: Session 0c6f172db836 - happened on 2023-05-03 09:07:00 UTC. | turn 5/28]\nUser: I'm thinking of a 7-10 day trip to Europe, and I'm open to renting a car or u"
+      },
+      {
+        "id": "a2d05da9-c740-4df8-a9d7-bc1acc88e693",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for Tokyo travel agencies and mentions Air France luggage fee",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 1/26]\nUser: I'm planning a trip to Tokyo and I'm looking for travel agencies that special"
+      },
+      {
+        "id": "86bcb78f-b42e-43a7-bfc2-cf0830aa3886",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Tokyo travel agencies and mentioned Air France luggage fee",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 2/26]\n(in reply to) User: I'm planning a trip to Tokyo and I'm looking for travel agencie"
+      },
+      {
+        "id": "c0e10f17-1ebb-4b54-bff1-8a51543867b0",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Travel agency recommendations for Japanese tours",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 3/26]\n(in reply to) User: I'm planning a trip to Tokyo and I'm looking for travel agencie"
+      },
+      {
+        "id": "fc3c1707-82c0-4f20-b73c-8db80d68e644",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tokyo trip planning and Air France luggage fee discussion",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 4/26]\n(in reply to) User: I'm planning a trip to Tokyo and I'm looking for travel agencie"
+      },
+      {
+        "id": "416728a8-d698-48dd-8ead-d8ba6146ce4f",
+        "score": null,
+        "memory_type": "task",
+        "title": "Find Japanese Alps tours with hiking/outdoor activities",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 5/26]\nUser: I'm looking for something that combines culture and adventure. I've heard gre"
+      },
+      {
+        "id": "372bf54c-8b5d-4a9f-94a9-14e6d0eb3716",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Japanese Alps tour options with hiking/outdoor activities",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 6/26]\n(in reply to) User: I'm looking for something that combines culture and adventure. "
+      },
+      {
+        "id": "b5105af1-7d07-4c9f-81c3-072d3503d6d9",
+        "score": 0.3475,
+        "memory_type": "fact",
+        "title": "Japanese Alps tour options from Inside Japan Tours, G Adventures, Haku Tours",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 7/26]\n(in reply to) User: I'm looking for something that combines culture and adventure. "
+      },
+      {
+        "id": "ae304273-af2b-48b7-a5a6-9575f03d1a84",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Japan Experience offers 10-day Mountainous Japan tour with Alps hiking",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 8/26]\n(in reply to) User: I'm looking for something that combines culture and adventure. "
+      },
+      {
+        "id": "75124e71-479e-43be-aa28-125dc3aae9e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested customized Japanese Alps hiking/outdoor tours",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 9/26]\n(in reply to) User: I'm looking for something that combines culture and adventure. "
+      },
+      {
+        "id": "769f1a24-bac9-4ee1-87f1-435920a02ca8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about booking travel packages via TripIt",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 10/26]\nUser: I think I'd like to explore more options. I've been wanting to try out that "
+      },
+      {
+        "id": "266b7848-7be3-4a05-9435-cb38e937282c",
+        "score": null,
+        "memory_type": "fact",
+        "title": "TripIt partnered packages via G Adventures for Japan tours",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 11/26]\n(in reply to) User: I think I'd like to explore more options. I've been wanting to"
+      },
+      {
+        "id": "13f2ab4b-e343-41e2-9a23-42a23a2b5b4a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Suggested Japan tour agencies compatible with TripIt",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 12/26]\n(in reply to) User: I think I'd like to explore more options. I've been wanting to"
+      },
+      {
+        "id": "2e2bb9b6-7950-455f-8a35-3604fd018460",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked about travel app and agency packages",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 13/26]\n(in reply to) User: I think I'd like to explore more options. I've been wanting to"
+      },
+      {
+        "id": "aa879c90-a95a-41bf-91ec-d6c271e9db03",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for Costa Rica tour travel agencies",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 14/26]\nUser: I'd like to explore more options. I'm also considering a trip to Costa Rica "
+      },
+      {
+        "id": "565edc29-a075-49d8-a5a8-ee0389fe72f1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests Costa Rica tour agencies",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 15/26]\n(in reply to) User: I'd like to explore more options. I'm also considering a trip "
+      },
+      {
+        "id": "03d52f04-7547-469c-9666-ec8b0fc035ad",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Costa Rica tour agencies (2023 suggestions)",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 16/26]\n(in reply to) User: I'd like to explore more options. I'm also considering a trip "
+      },
+      {
+        "id": "f480a3ce-89a4-43b4-9c2e-965bfb2c6766",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Costa Rica Nature Escape travel agency (US-based)",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 17/26]\n(in reply to) User: I'd like to explore more options. I'm also considering a trip "
+      },
+      {
+        "id": "61916ccc-f8d2-4c0b-aaf2-094558edda2f",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Tips for finding Costa Rica tour agencies and defining preferences",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 18/26]\n(in reply to) User: I'd like to explore more options. I'm also considering a trip "
+      },
+      {
+        "id": "a87b15a9-745b-4d0e-9c8e-188cf4f400c9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for Costa Rica tour agencies",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 19/26]\n(in reply to) User: I'd like to explore more options. I'm also considering a trip "
+      },
+      {
+        "id": "0e8e7cc7-45b5-4298-8027-8b84a8ac0e57",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Considering Squaremouth for travel insurance to NYC",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 20/26]\nUser: I'm also considering getting travel insurance for my upcoming trip to New Yo"
+      },
+      {
+        "id": "0143076f-e422-4c16-80ad-054881814da1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion: Squaremouth travel insurance comparison for NYC trip",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 21/26]\n(in reply to) User: I'm also considering getting travel insurance for my upcoming "
+      },
+      {
+        "id": "fdf40816-6c82-4620-a500-cbcb135c7678",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Squaremouth travel insurance comparison overview",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 22/26]\n(in reply to) User: I'm also considering getting travel insurance for my upcoming "
+      },
+      {
+        "id": "16a76517-1642-42f2-af51-847a19b369b7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion of travel insurance for NYC trip (Squaremouth)",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 23/26]\n(in reply to) User: I'm also considering getting travel insurance for my upcoming "
+      },
+      {
+        "id": "977cef67-cd32-422c-8683-837eee1199a4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Received Europe travel adapter for upcoming trip",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 24/26]\nUser: I've got a trip to Europe coming up and I just received my travel adapter fo"
+      },
+      {
+        "id": "4a4bd43d-5287-413b-9981-95e896223616",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant replies about Europe travel adapter",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 25/26]\n(in reply to) User: I've got a trip to Europe coming up and I just received my tra"
+      },
+      {
+        "id": "cba97821-8328-4432-a4f5-0674a487e0b7",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Europe travel adapter compatibility and charging guidance",
+        "text": "[date: 2023-08-20T03:48:00+00:00 | context: Session 4c95ab4688fa - happened on 2023-08-20 03:48:00 UTC. | turn 26/26]\n(in reply to) User: I've got a trip to Europe coming up and I just received my tra"
+      },
+      {
+        "id": "6de61876-6278-477d-838b-5f66dfe8d9d9",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User enjoys fall foliage and explores neighborhoods in Tokyo",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 1/21]\nUser: I'm trying to plan a day trip to Yokohama. Can you recommend some popular spo"
+      },
+      {
+        "id": "ba54e60e-3bec-47b0-8581-583bea3e3bdc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant suggests Yokohama day-trip spots",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 2/21]\n(in reply to) User: I'm trying to plan a day trip to Yokohama. Can you recommend so"
+      },
+      {
+        "id": "07b98213-c93a-4855-ae3a-77c7ff21b759",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yokohama day-trip recommendations (Minato Mirai, Chinatown, etc.)",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 3/21]\n(in reply to) User: I'm trying to plan a day trip to Yokohama. Can you recommend so"
+      },
+      {
+        "id": "8c9e7ad6-d687-451b-afb5-6eb722f42801",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yokohama Museum of Art description",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 4/21]\n(in reply to) User: I'm trying to plan a day trip to Yokohama. Can you recommend so"
+      },
+      {
+        "id": "e8877d2a-7a0a-4a18-aabb-b23fd0103eea",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yokohama day-trip attractions recommendation prompt",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 5/21]\n(in reply to) User: I'm trying to plan a day trip to Yokohama. Can you recommend so"
+      },
+      {
+        "id": "5611c19a-3b2f-4f8a-b6ef-915df9534221",
+        "score": 0.3683,
+        "memory_type": "episode",
+        "title": "User plans to visit Minato Mirai 21 and Red Brick Warehouse",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 6/21]\nUser: I'll definitely check out Minato Mirai 21 and the Red Brick Warehouse. I've h"
+      },
+      {
+        "id": "c867e005-44e8-484f-82b1-d9099827ebab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Travel conversation about Yokohama and Harajuku",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 7/21]\n(in reply to) User: I'll definitely check out Minato Mirai 21 and the Red Brick War"
+      },
+      {
+        "id": "0d34ae38-cfd9-480c-8a35-d874642e93b4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Tokyo travel suggestions: Minato Mirai, Red Brick, Sankeien Garden",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 8/21]\n(in reply to) User: I'll definitely check out Minato Mirai 21 and the Red Brick War"
+      },
+      {
+        "id": "ecf3115b-940e-41ad-8d26-9708fb989562",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about Kawai Shrine in Harajuku",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 9/21]\nUser: I actually haven't explored much of the historical side of Harajuku yet. I've"
+      },
+      {
+        "id": "2d89e8ad-2f84-47fb-8059-0138d5481ca3",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Kawai Shrine in Harajuku: dedication, seasons, Lucky Bell legend",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 10/21]\n(in reply to) User: I actually haven't explored much of the historical side of Har"
+      },
+      {
+        "id": "1fb1198d-9b17-4360-8012-15f9d5997962",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Discussion about Kawai Shrine in Harajuku",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 11/21]\n(in reply to) User: I actually haven't explored much of the historical side of Har"
+      },
+      {
+        "id": "4729c731-4190-424d-a16e-1c79bfd3b0fb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks for seafood restaurant recommendations in Yokohama",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 12/21]\nUser: Yeah, I'll definitely check out the Kawai Shrine when I have a chance. For Y"
+      },
+      {
+        "id": "1dcb7e79-2f29-4c31-b981-5378cf3ce405",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yokohama seafood recommendations: kanimeshi and namashirasu",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 13/21]\n(in reply to) User: Yeah, I'll definitely check out the Kawai Shrine when I have a"
+      },
+      {
+        "id": "26a67ea0-1192-445e-ba74-421433203700",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yokohama seafood recommendations (kanimeshi, namashirasu)",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 14/21]\n(in reply to) User: Yeah, I'll definitely check out the Kawai Shrine when I have a"
+      },
+      {
+        "id": "3bf10728-d490-4e3e-9402-206ad9b42e9b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asks about autumn festivals in Yokohama",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 15/21]\nUser: I'll definitely check out Kanemasa for kanimeshi and Tsukiji Itadori Uogashi"
+      },
+      {
+        "id": "49a1ff1a-f4cd-40a8-8fe2-ac0e1c724ddf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yokohama food spots and autumn events discussed",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 16/21]\n(in reply to) User: I'll definitely check out Kanemasa for kanimeshi and Tsukiji I"
+      },
+      {
+        "id": "6c9b0e51-aa73-400a-adb8-98abdb326387",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yokohama food plans and Minato Mirai autumn events info",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 17/21]\n(in reply to) User: I'll definitely check out Kanemasa for kanimeshi and Tsukiji I"
+      },
+      {
+        "id": "ba5d9c28-d5a7-455d-b53d-26bb1848c016",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Interest in autumn events and beer/foliage during trip",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 18/21]\nUser: I'll definitely check out the Yokohama Oktoberfest and the Autumn Leaves Fes"
+      },
+      {
+        "id": "f3a3268e-448f-470c-adc1-a83073bc1f6b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Minato Mirai 21 autumn illuminations worth visiting",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 19/21]\n(in reply to) User: I'll definitely check out the Yokohama Oktoberfest and the Aut"
+      },
+      {
+        "id": "7c20ab09-fc46-4f8e-a85f-339125e8e075",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Minato Mirai 21 illuminations suggestions",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 20/21]\n(in reply to) User: I'll definitely check out the Yokohama Oktoberfest and the Aut"
+      },
+      {
+        "id": "b66ff01c-005f-416f-9650-4ca2824ffb6b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Minato Mirai 21 autumn illuminations timing (late Oct\u2013mid Dec)",
+        "text": "[date: 2023-10-15T03:36:00+00:00 | context: Session 8f6af41d4d8e - happened on 2023-10-15 03:36:00 UTC. | turn 21/21]\n(in reply to) User: I'll definitely check out the Yokohama Oktoberfest and the Aut"
+      },
+      {
+        "id": "2425fc61-964c-4dea-aba6-1d75234442ee",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 1/29]\nUser: I'm looking to get some advice on rearranging my closet space. I just bought "
+      },
+      {
+        "id": "a0a98e41-9543-482e-a90a-a260d5191c7b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 2/29]\n(in reply to) User: I'm looking to get some advice on rearranging my closet space. "
+      },
+      {
+        "id": "20bcec66-6572-4540-96d8-6f51d8614171",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 3/29]\n(in reply to) User: I'm looking to get some advice on rearranging my closet space. "
+      },
+      {
+        "id": "190a2340-9f0b-40cb-b708-2d240889d710",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 4/29]\n(in reply to) User: I'm looking to get some advice on rearranging my closet space. "
+      },
+      {
+        "id": "99bc3100-63a8-4b94-af70-5c0c285810a9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 5/29]\n(in reply to) User: I'm looking to get some advice on rearranging my closet space. "
+      },
+      {
+        "id": "3f79c6bb-4417-4569-a731-0507929386e3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 6/29]\n(in reply to) User: I'm looking to get some advice on rearranging my closet space. "
+      },
+      {
+        "id": "86a217c3-112f-4562-8e08-9bb2385185c5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 7/29]\nUser: I like the idea of categorizing and grouping similar items. I was thinking of"
+      },
+      {
+        "id": "e7d4f209-0ef4-427d-9a2f-c4cc032baec3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 8/29]\n(in reply to) User: I like the idea of categorizing and grouping similar items. I w"
+      },
+      {
+        "id": "64f7e350-e572-4ad9-86c3-08eb14374983",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 9/29]\n(in reply to) User: I like the idea of categorizing and grouping similar items. I w"
+      },
+      {
+        "id": "f62cca44-00a0-469e-8216-a3d13e943a3e",
+        "score": null,
+        "memory_type": "preference",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 10/29]\n(in reply to) User: I like the idea of categorizing and grouping similar items. I "
+      },
+      {
+        "id": "f559b578-061c-4512-8765-a7ee26c38ffb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 11/29]\n(in reply to) User: I like the idea of categorizing and grouping similar items. I "
+      },
+      {
+        "id": "00104e95-9d08-4153-84f5-9ef74f42207e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 12/29]\nUser: I'm also planning to use my new storage bins to store items that I don't use"
+      },
+      {
+        "id": "450f1bed-58ce-4e00-b4c0-1afb3596302a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 13/29]\n(in reply to) User: I'm also planning to use my new storage bins to store items th"
+      },
+      {
+        "id": "475a4c1e-7a44-46ec-95ad-8d2ceab5a362",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 14/29]\n(in reply to) User: I'm also planning to use my new storage bins to store items th"
+      },
+      {
+        "id": "60a8258a-0eae-4751-a110-d05f6785cf87",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 15/29]\n(in reply to) User: I'm also planning to use my new storage bins to store items th"
+      },
+      {
+        "id": "f1bde8bb-37cd-4f26-8e88-e4a8ba498466",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 16/29]\n(in reply to) User: I'm also planning to use my new storage bins to store items th"
+      },
+      {
+        "id": "7170041a-a369-40ed-b6fc-5d96ee8501c3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 17/29]\nUser: I'm also thinking of using my new storage bins to store some of my old cloth"
+      },
+      {
+        "id": "73732a27-16bf-494c-8c0f-ad9ff9a44e88",
+        "score": 0.348,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 18/29]\n(in reply to) User: I'm also thinking of using my new storage bins to store some o"
+      },
+      {
+        "id": "5f4e37a2-8e04-41e7-9a28-472b25f147cc",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 19/29]\n(in reply to) User: I'm also thinking of using my new storage bins to store some o"
+      },
+      {
+        "id": "70924b82-d897-4d1e-b3e0-696cd8b015ab",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 20/29]\n(in reply to) User: I'm also thinking of using my new storage bins to store some o"
+      },
+      {
+        "id": "86c34985-7ad4-4771-9d02-1625cbacd1f4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 21/29]\n(in reply to) User: I'm also thinking of using my new storage bins to store some o"
+      },
+      {
+        "id": "320381db-9fcb-4c6f-b202-e5dbf26ad29b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 22/29]\nUser: I'm thinking of getting rid of some of my old clothes that no longer fit, li"
+      },
+      {
+        "id": "5b669cd7-c12a-4566-a1de-b9d6e1c4217b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 23/29]\n(in reply to) User: I'm thinking of getting rid of some of my old clothes that no "
+      },
+      {
+        "id": "c1ac9779-dc84-4e10-89bc-298d8333fe53",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 24/29]\n(in reply to) User: I'm thinking of getting rid of some of my old clothes that no "
+      },
+      {
+        "id": "2925e10d-399c-4290-a245-b8fa8dd2451b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 25/29]\n(in reply to) User: I'm thinking of getting rid of some of my old clothes that no "
+      },
+      {
+        "id": "37d8cf19-d80d-4c2c-952f-9dc9149f7e2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 26/29]\nUser: I'm planning to use my new storage bins to store some of the clothes that I'"
+      },
+      {
+        "id": "19aa651d-c4b4-48e1-aea1-667a995642ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 27/29]\n(in reply to) User: I'm planning to use my new storage bins to store some of the c"
+      },
+      {
+        "id": "845e590c-3c39-4556-8ad9-95f93f48a3b3",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 28/29]\n(in reply to) User: I'm planning to use my new storage bins to store some of the c"
+      },
+      {
+        "id": "ba92d3b0-1766-4d7b-968b-4932cb8e8228",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T07:49:00+00:00 | context: Session dd8628be6240 - happened on 2023-10-15 07:49:00 UTC. | turn 29/29]\n(in reply to) User: I'm planning to use my new storage bins to store some of the c"
+      },
+      {
+        "id": "76e1b217-fd89-4638-a772-4bf4fd350347",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft articles on latent conditions for NSW Homeowner's Guide",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 1/16]\nUser: I require your assistance to draft some articles about latent conditions in t"
+      },
+      {
+        "id": "0e25b12c-3360-4331-ba71-7c0f1eab7e71",
+        "score": null,
+        "memory_type": "fact",
+        "title": "User is a construction lawyer in NSW with 10+ years experience",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 2/16]\nUser: In my messages that I send you later, I will refer to this information as Inf"
+      },
+      {
+        "id": "edee1dc6-d21b-44e5-a180-894fe5991dcf",
+        "score": null,
+        "memory_type": "task",
+        "title": "Outline request: latent conditions in construction (homeowner guide)",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 3/16]\nUser: Considering the Target Audience and Information about myself, give me a topic"
+      },
+      {
+        "id": "4821b631-30c2-4881-b640-383fa8c6a7a2",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Topic outline for latent conditions homeowner guide (1,300 words)",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 4/16]\n(in reply to) User: Considering the Target Audience and Information about myself, g"
+      },
+      {
+        "id": "d31f5375-bbc3-403d-bd5a-0d594b4ffc45",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Topic outline section on latent conditions for homeowners guide",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 5/16]\n(in reply to) User: Considering the Target Audience and Information about myself, g"
+      },
+      {
+        "id": "21d463b4-2bdb-4fd6-bbe1-d61839c1b5d4",
+        "score": null,
+        "memory_type": "task",
+        "title": "Draft request for article introduction section",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 6/16]\nUser: Write me the \"I. Introduction\" part of the article. "
+      },
+      {
+        "id": "3e652bcc-caaf-489b-be24-60967144e47c",
+        "score": null,
+        "memory_type": "action",
+        "title": "Drafted article introduction with 150-word count",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 7/16]\n(in reply to) User: Write me the \"I. Introduction\" part of the article. \n\nRemember "
+      },
+      {
+        "id": "bb5639c4-b196-4917-9ae2-b53bdd65feb6",
+        "score": 0.3647,
+        "memory_type": "decision",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 8/16]\n(in reply to) User: Write me the \"I. Introduction\" part of the article. \n\nAs a soli"
+      },
+      {
+        "id": "628cae12-3375-4c1c-a782-6bd93f4c15ca",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 9/16]\nUser: Write me the \"II. Latent Conditions in New Builds\" part of the article."
+      },
+      {
+        "id": "6591a669-4c78-41ec-8634-75f1609a0a2d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 10/16]\n(in reply to) User: Write me the \"II. Latent Conditions in New Builds\" part of the"
+      },
+      {
+        "id": "752c745a-d96f-4ca1-8ffb-ea9ff5f19bbb",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 11/16]\n(in reply to) User: Write me the \"II. Latent Conditions in New Builds\" part of the"
+      },
+      {
+        "id": "74c301ca-3def-47f0-8ca6-e06f7e6c159a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 12/16]\n(in reply to) User: Write me the \"II. Latent Conditions in New Builds\" part of the"
+      },
+      {
+        "id": "4da8578a-ff39-4f57-a8a0-61e68c75c559",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 13/16]\nUser: Please write me the \"III. Latent Conditions in Renovations\" part of the arti"
+      },
+      {
+        "id": "98443351-bf5f-41c2-8ef9-20a9fc5240d5",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 14/16]\n(in reply to) User: Please write me the \"III. Latent Conditions in Renovations\" pa"
+      },
+      {
+        "id": "2cdb61e2-83ad-4a68-8833-3897f14d76de",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 15/16]\n(in reply to) User: Please write me the \"III. Latent Conditions in Renovations\" pa"
+      },
+      {
+        "id": "fb00bbb4-bade-4a8f-99e2-e2f3e5fd186f",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T16:31:00+00:00 | context: Session 0ba9eadbec0c - happened on 2023-10-15 16:31:00 UTC. | turn 16/16]\n(in reply to) User: Please write me the \"III. Latent Conditions in Renovations\" pa"
+      },
+      {
+        "id": "ec40e556-97ed-48dd-a900-5b43da234303",
+        "score": 0.3366,
+        "memory_type": "task",
+        "title": "Set up daily expense tracking and budgeting system",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 1/22]\nUser: I'm trying to track my daily expenses, can you help me set up a budgeting sys"
+      },
+      {
+        "id": "db536480-c526-456f-a980-35630610957e",
+        "score": null,
+        "memory_type": "task",
+        "title": "Set up a daily budgeting system to track expenses",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 2/22]\n(in reply to) User: I'm trying to track my daily expenses, can you help me set up a"
+      },
+      {
+        "id": "e11e444c-153a-420e-a760-56a9a20b4d52",
+        "score": null,
+        "memory_type": "plan",
+        "title": "Set up a daily budgeting system (income, categories, budgets, tracking)",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 3/22]\n(in reply to) User: I'm trying to track my daily expenses, can you help me set up a"
+      },
+      {
+        "id": "aa13659e-721a-4dbb-b3c2-3225a516b65a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User asked for daily expense tracking and budgeting help",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 4/22]\n(in reply to) User: I'm trying to track my daily expenses, can you help me set up a"
+      },
+      {
+        "id": "0da64043-11ec-48df-add0-80db0b88273d",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Monthly income and expense breakdown; wants to cut transportation",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 5/22]\nUser: My income is around $4,000 per month, and my fixed expenses are around $2,500"
+      },
+      {
+        "id": "558205a1-4409-44f2-a011-855586386432",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Budget discussion based on $4,000 income and $2,500 fixed expenses",
+        "text": "[date: 2023-10-15T16:48:00+00:00 | context: Session e0ff60066348 - happened on 2023-10-15 16:48:00 UTC. | turn 6/22]\n(in reply to) User: My income is around $4,000 per month, and my fixed expenses are"
+      },
+      {
+        "id": "2de12ab7-a6b1-486f-b4b1-22ef429f1151",
+        "score": 0.3896,
+        "memory_type": "episode",
+        "title": "User reports stress, anxiety, move, job, and panic attacks",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 1/26]\nUser: I'm feeling a bit overwhelmed with stress and anxiety lately, and I think it'"
+      },
+      {
+        "id": "f234bd65-dafd-4a97-a993-bc867e5544e1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports stress/anxiety after apartment move",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 2/26]\n(in reply to) User: I'm feeling a bit overwhelmed with stress and anxiety lately, a"
+      },
+      {
+        "id": "33710cfa-3eeb-4648-87f9-4a98e452a8b9",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expressed stress/anxiety after apartment move",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 3/26]\n(in reply to) User: I'm feeling a bit overwhelmed with stress and anxiety lately, a"
+      },
+      {
+        "id": "8cf2c089-4761-4133-8c62-0cb90637b0d7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expresses stress/anxiety after apartment move",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 4/26]\n(in reply to) User: I'm feeling a bit overwhelmed with stress and anxiety lately, a"
+      },
+      {
+        "id": "2703d349-548b-4283-8c64-992facaa463a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User expresses stress/anxiety after apartment move",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 5/26]\n(in reply to) User: I'm feeling a bit overwhelmed with stress and anxiety lately, a"
+      },
+      {
+        "id": "f1bead86-2727-4e1f-9a9c-277c44de40aa",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User describes distress during sister disagreement",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 6/26]\nUser: I think I'd like to focus on the disagreement with my sister first. Yeah, we "
+      },
+      {
+        "id": "ca3ab426-2685-402a-970b-66fed765d2c8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Therapy conversation about sister disagreement and anxiety symptoms",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 7/26]\n(in reply to) User: I think I'd like to focus on the disagreement with my sister fi"
+      },
+      {
+        "id": "34356d94-b97d-429b-9be1-8293d9034f62",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User discussed lingering anxiety after sister disagreement",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 8/26]\n(in reply to) User: I think I'd like to focus on the disagreement with my sister fi"
+      },
+      {
+        "id": "11682d44-7dc0-41be-8057-013ab2c96737",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Anxiety triggers: uncertainty, fear of confrontation, being on edge",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 9/26]\nUser: During that time, I think what triggered the anxiety the most was the uncerta"
+      },
+      {
+        "id": "15960326-887f-4cd8-bba2-563d4936af88",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reflection on anxiety triggers (uncertainty, fear of confrontation)",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 10/26]\n(in reply to) User: During that time, I think what triggered the anxiety the most "
+      },
+      {
+        "id": "17307bf4-d931-4403-9ae0-6863323d5af8",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Therapy-style discussion about anxiety triggers and self-care",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 11/26]\n(in reply to) User: During that time, I think what triggered the anxiety the most "
+      },
+      {
+        "id": "ab6c88ae-35f6-4506-8880-23c03411bfe0",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Reflection: prioritize personal relaxation and support",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 12/26]\nUser: I think I wish I had taken more time for myself during that period to relax "
+      },
+      {
+        "id": "df914b4e-09d3-411e-9b08-a2f814ac317a",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reflects on anxiety triggers and self-care",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 13/26]\n(in reply to) User: I think I wish I had taken more time for myself during that pe"
+      },
+      {
+        "id": "6ad28b74-c8ae-4843-89d6-624c6d558e82",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Assistant encouraged self-care after user neglected own needs",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 14/26]\n(in reply to) User: I think I wish I had taken more time for myself during that pe"
+      },
+      {
+        "id": "fb93c005-2f1f-4ea8-97a7-3fd20665e56d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Self-care conversation about relaxing and mental health book",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 15/26]\n(in reply to) User: I think I wish I had taken more time for myself during that pe"
+      },
+      {
+        "id": "4a1a3db1-7278-428f-96a6-c8162b13d7c1",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User reports increased mindfulness and calm",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 16/26]\nUser: I've noticed that I've been able to focus more on the present moment and not"
+      },
+      {
+        "id": "82922a99-f581-4551-a0fc-82618f9a5d8b",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Yoga recommendations for anxiety and stress",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 17/26]\n(in reply to) User: I've noticed that I've been able to focus more on the present "
+      },
+      {
+        "id": "03498a93-d130-405e-897f-831a04246c8a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Yoga routine guidance (start slow, choose style, use props, schedule)",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 18/26]\n(in reply to) User: I've noticed that I've been able to focus more on the present "
+      },
+      {
+        "id": "18438a2f-2641-4c54-978a-191c2db9c64b",
+        "score": null,
+        "memory_type": "fact",
+        "title": "General yoga guidance: listen to your body, find community, be patient",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 19/26]\n(in reply to) User: I've noticed that I've been able to focus more on the present "
+      },
+      {
+        "id": "c570220d-7ea3-41c0-95e9-968525be3c12",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Yoga resources and general guidance",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 20/26]\n(in reply to) User: I've noticed that I've been able to focus more on the present "
+      },
+      {
+        "id": "d2a87390-7812-476d-8cb1-8297024d271a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "User plans to start yoga with resources and a mat",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 21/26]\nUser: That's really helpful, thank you! I think I'll start by looking into some on"
+      },
+      {
+        "id": "efc345fe-617a-4be8-b3d7-a593ae2f4af2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "Advice given on reducing external validation seeking",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 22/26]\n(in reply to) User: That's really helpful, thank you! I think I'll start by lookin"
+      },
+      {
+        "id": "64c0802e-26d6-46db-a0ce-b77be929be4d",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice on finding motivation and self-compassion",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 23/26]\n(in reply to) User: That's really helpful, thank you! I think I'll start by lookin"
+      },
+      {
+        "id": "06445081-0c37-4cac-8694-3df2d22ab3fb",
+        "score": null,
+        "memory_type": "fact",
+        "title": "Self-improvement guidance: celebrate wins, reframe feedback",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 24/26]\n(in reply to) User: That's really helpful, thank you! I think I'll start by lookin"
+      },
+      {
+        "id": "75fe1aef-7295-442b-82b5-4f8a8672808a",
+        "score": null,
+        "memory_type": "preference",
+        "title": "Advice: seek support from mentors/peers instead of supervisors",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 25/26]\n(in reply to) User: That's really helpful, thank you! I think I'll start by lookin"
+      },
+      {
+        "id": "cff2f29b-dc84-4685-8823-a5f3ee184d64",
+        "score": null,
+        "memory_type": "episode",
+        "title": "User plans to start yoga practice and find a suitable style",
+        "text": "[date: 2023-10-15T19:38:00+00:00 | context: Session f1ce38dd016a - happened on 2023-10-15 19:38:00 UTC. | turn 26/26]\n(in reply to) User: That's really helpful, thank you! I think I'll start by lookin"
+      },
+      {
+        "id": "fa4d3c94-e311-4114-bfec-5aeaac6f55db",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 1/29]\nUser: I'm looking for some yoga classes near my office. Can you recommend any studi"
+      },
+      {
+        "id": "fdaee490-d37f-4aff-86fa-8879737036b4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 2/29]\nUser: I'm located in the city centre, and I'm open to trying out different styles a"
+      },
+      {
+        "id": "e14ad151-3da7-4ae0-8089-a8c734f1d7dd",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 3/29]\n(in reply to) User: I'm located in the city centre, and I'm open to trying out diff"
+      },
+      {
+        "id": "34453644-8cca-4d64-9190-14aecb6d24c7",
+        "score": 0.3366,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 4/29]\n(in reply to) User: I'm located in the city centre, and I'm open to trying out diff"
+      },
+      {
+        "id": "2ae2e0f3-3103-4129-883d-2c74b7f0965c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 5/29]\n(in reply to) User: I'm located in the city centre, and I'm open to trying out diff"
+      },
+      {
+        "id": "734a2819-b257-451f-9093-96e1cda260ff",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 6/29]\nUser: I'm also looking for some advice on how to set up a charity event at my offic"
+      },
+      {
+        "id": "c079d869-983d-4147-b75e-2f20bbb84de0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 7/29]\n(in reply to) User: I'm also looking for some advice on how to set up a charity eve"
+      },
+      {
+        "id": "b73971bd-70b7-4362-9e87-972d54df93f7",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 8/29]\n(in reply to) User: I'm also looking for some advice on how to set up a charity eve"
+      },
+      {
+        "id": "71a2f465-29fd-45ea-97f5-8e79eb7ae532",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 9/29]\n(in reply to) User: I'm also looking for some advice on how to set up a charity eve"
+      },
+      {
+        "id": "3835c845-09ea-418a-86fa-df53dfcdf373",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 10/29]\n(in reply to) User: I'm also looking for some advice on how to set up a charity ev"
+      },
+      {
+        "id": "c40333b2-3757-4df5-92d1-8244e24ea039",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 11/29]\n(in reply to) User: I'm also looking for some advice on how to set up a charity ev"
+      },
+      {
+        "id": "b541f319-0bf0-4fba-85bc-45b77ed1779d",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 12/29]\nUser: I'm thinking of organizing a charity walk at my office, similar to the Walk "
+      },
+      {
+        "id": "dabb84ea-b96b-4b74-9f98-fd5c4193cc84",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 13/29]\n(in reply to) User: I'm thinking of organizing a charity walk at my office, simila"
+      },
+      {
+        "id": "a97dd19b-1a6c-4597-8ac0-c06060ff09bf",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 14/29]\n(in reply to) User: I'm thinking of organizing a charity walk at my office, simila"
+      },
+      {
+        "id": "db8efc1c-5637-4e2e-83bc-5e63e1e5baf0",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 15/29]\n(in reply to) User: I'm thinking of organizing a charity walk at my office, simila"
+      },
+      {
+        "id": "98dca479-3b23-4eab-bb5b-b8e875467956",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 16/29]\nUser: I'm thinking of reaching out to some local businesses to see if they'd be wi"
+      },
+      {
+        "id": "74cd3888-f094-43b1-8032-211835b6f415",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 17/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "ff8c4012-f7ca-4a2f-84c7-b5281f795014",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 18/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "4092cb98-4a5e-4676-bb73-b1c8204cda59",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 19/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "1c8c1681-be2a-4959-9e15-8e41f4196a26",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 20/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "905d9d39-5f0c-491f-a2c2-c33b1c74dee6",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 21/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "a0a2a0e8-62b2-4251-ac41-2efeb838995e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 22/29]\n(in reply to) User: I'm thinking of reaching out to some local businesses to see i"
+      },
+      {
+        "id": "42979557-9f12-4391-abca-6d9ccff91efe",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 23/29]\nUser: I'm thinking of reaching out to some local restaurants to see if they'd be w"
+      },
+      {
+        "id": "3f4c1d72-e8a9-4552-a5fd-c412e3840fd2",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 24/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      },
+      {
+        "id": "7c863047-cae0-4001-944f-4089608b313c",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 25/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      },
+      {
+        "id": "5e52e743-98ae-4420-bd41-736afd63e999",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 26/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      },
+      {
+        "id": "55ee7a1d-64df-4cfa-900a-58488d67cae4",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 27/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      },
+      {
+        "id": "895ba260-33a8-4037-915f-b2095e4e9c8e",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 28/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      },
+      {
+        "id": "31197ec3-04fb-499e-b800-a81eeb45d509",
+        "score": null,
+        "memory_type": "episode",
+        "title": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15...",
+        "text": "[date: 2023-10-15T22:57:00+00:00 | context: Session 9dff7ad01c35 - happened on 2023-10-15 22:57:00 UTC. | turn 29/29]\n(in reply to) User: I'm thinking of reaching out to some local restaurants to see "
+      }
+    ]
+  },
+  "context": {
+    "chars": 98091,
+    "tokens": null,
+    "tokens_source": "not computed (chars/4 ~= 24522)"
+  },
+  "evidence_coverage": {
+    "gold_turns": 0,
+    "gold_turns_present": 0,
+    "fully_covered": null
+  },
+  "reader": {
+    "model": "gemini-3.8-flash",
+    "total_tokens": 47190,
+    "prompt_tokens": 44802,
+    "completion_tokens": 301,
+    "reasoning_tokens": 2087,
+    "generate_time_ms": 23502.236663014628,
+    "by_stage": [
+      {
+        "stage": "extract",
+        "prompt_tokens": 22122,
+        "completion_tokens": 131,
+        "reasoning_tokens": 796,
+        "total_tokens": 23049
+      },
+      {
+        "stage": "answer",
+        "prompt_tokens": 595,
+        "completion_tokens": 29,
+        "reasoning_tokens": 364,
+        "total_tokens": 988
+      },
+      {
+        "stage": "direct_fallback",
+        "prompt_tokens": 21400,
+        "completion_tokens": 62,
+        "reasoning_tokens": 712,
+        "total_tokens": 22174
+      },
+      {
+        "stage": "verify",
+        "prompt_tokens": 685,
+        "completion_tokens": 79,
+        "reasoning_tokens": 215,
+        "total_tokens": 979
+      }
+    ]
+  },
+  "failure_label": null
+}
