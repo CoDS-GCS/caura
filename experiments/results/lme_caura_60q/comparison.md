@@ -2,6 +2,11 @@
 
 Authors = `caura-500-opaque-compact` restricted to our 60 ids (gpt-4o judge, `gpt-4o-2024-08-06`). Ours = `lme_caura_default_60q_answer2`.
 
+**See also:** [`examples/`](examples/) — one readable trace per type plus every
+question we got wrong and every disagreement, ours vs the authors side by side ·
+[`per_question.csv`](per_question.csv) · [`failures.md`](failures.md) ·
+[`cost.md`](cost.md) · [`memories/`](memories/) (the stored memories per question).
+
 ## Accuracy (gpt-4o)
 
 | type | authors | ours |

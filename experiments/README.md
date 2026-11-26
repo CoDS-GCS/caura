@@ -7,8 +7,15 @@ same questions Mem0 was evaluated on.
 
 **Headline result:** **53/60 (88.3%)** under the gpt-4o judge (52/60 Flash-Lite),
 vs the authors' **51/60** on the same 60 — a match within normal variation.
-➡️ Read **[`results/lme_caura_60q/`](results/lme_caura_60q/)** first
-(`comparison.md`, `per_question.csv`, `failures.md`, `cost.md`).
+➡️ Read **[`results/lme_caura_60q/`](results/lme_caura_60q/)** first:
+[`comparison.md`](results/lme_caura_60q/comparison.md) ·
+[`per_question.csv`](results/lme_caura_60q/per_question.csv) ·
+[`failures.md`](results/lme_caura_60q/failures.md) ·
+[`cost.md`](results/lme_caura_60q/cost.md) ·
+[`examples/`](results/lme_caura_60q/examples/) (one readable trace per type + every
+disagreement, ours vs authors side by side) ·
+[`memories/`](results/lme_caura_60q/memories/) (the 52,921 stored memories, one
+gzipped file per question).
 
 ## Run it (from the repo root, inside tmux)
 
