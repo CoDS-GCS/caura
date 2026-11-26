@@ -205,7 +205,11 @@ def main() -> None:
         print(f"| reader total tokens, all calls | {statistics.median(total_tok):,.0f} | {pct(total_tok, .95):,.0f} | {max(total_tok):,} |")
     print(f"| retrieval latency (s) | {statistics.median(ret_ms)/1000:.1f} | {pct(ret_ms, .95)/1000:.1f} | {max(ret_ms)/1000:.1f} |")
     print(f"| generation latency (s) | {statistics.median(gen_ms)/1000:.1f} | {pct(gen_ms, .95)/1000:.1f} | {max(gen_ms)/1000:.1f} |")
-    ratio = statistics.median(ctx_tok) / statistics.median(ctx_chars) if ctx_chars else 0
+    # Guard the DENOMINATOR, not just the list: when most contexts are empty
+    # (e.g. a run where retrieval returned nothing) the median char count is 0
+    # even though ctx_chars is non-empty — ``if ctx_chars`` alone divided by zero.
+    _med_chars = statistics.median(ctx_chars) if ctx_chars else 0
+    ratio = (statistics.median(ctx_tok) / _med_chars) if _med_chars else 0
     if ratio:
         delta = (0.25 / ratio - 1) * 100
         verb = "underestimates" if delta < 0 else "overestimates"

@@ -43,14 +43,31 @@ def main() -> int:
     primary = load_eval(odir/"eval_results.json")
     secondary = load_eval(odir/"eval_results_gemini35flashlite.json")
 
+    # question_type per qid, straight from hypotheses.jsonl. Accuracy is derived
+    # from the eval files + this map, NOT from traces/: trace collection can
+    # half-fail (empty mem_counts, a crashing collector) and leave traces/ empty,
+    # which used to silently zero out the headline (summary.md "gpt-4o 0/0" while
+    # eval_results.json actually held 18/60).
+    qtype: dict[str, str] = {}
+    hp = odir/"hypotheses.jsonl"
+    if hp.exists():
+        # Split on "\n" only, NOT str.splitlines(): a memory's text can contain a
+        # literal U+2028/U+2029/U+0085 (valid inside a JSON string), and
+        # splitlines() would break that one record into an unparseable fragment —
+        # which is exactly why collection crashed on the first all-full-context run.
+        for ln in hp.read_text(encoding="utf-8").split("\n"):
+            if ln.strip():
+                d = json.loads(ln)
+                qtype[d["question_id"]] = d.get("question_type") or "unknown"
+
     # accuracy
     by_type_p = defaultdict(lambda:[0,0]); by_type_s = defaultdict(lambda:[0,0])
-    for t in traces:
-        qt = t["question_type"]
-        if t["question_id"] in primary:
-            by_type_p[qt][1]+=1; by_type_p[qt][0]+=int(primary[t["question_id"]])
-        if t["question_id"] in secondary:
-            by_type_s[qt][1]+=1; by_type_s[qt][0]+=int(secondary[t["question_id"]])
+    for qid, correct in primary.items():
+        qt = qtype.get(qid, "unknown")
+        by_type_p[qt][1]+=1; by_type_p[qt][0]+=int(correct)
+    for qid, correct in secondary.items():
+        qt = qtype.get(qid, "unknown")
+        by_type_s[qt][1]+=1; by_type_s[qt][0]+=int(correct)
     tot_p = [sum(v[0] for v in by_type_p.values()), sum(v[1] for v in by_type_p.values())]
     tot_s = [sum(v[0] for v in by_type_s.values()), sum(v[1] for v in by_type_s.values())]
 

@@ -25,7 +25,10 @@ ENRICH_OUT_PER_MEM = 142
 def load_jsonl(p: Path):
     out = {}
     if p.exists():
-        for line in p.read_text(encoding="utf-8").splitlines():
+        # "\n" only, not splitlines(): a memory's text may hold a literal
+        # U+2028/U+2029/U+0085 (valid in a JSON string) that splitlines() would
+        # treat as a line break, shattering that record into unparseable halves.
+        for line in p.read_text(encoding="utf-8").split("\n"):
             if line.strip():
                 d = json.loads(line)
                 out[d["question_id"]] = d  # last write wins (resumed runs repeat)
@@ -101,13 +104,15 @@ def main() -> int:
     ctx_tokens = load_context_tokens(odir / "context_tokens.json")
     ingest_secs = parse_ingest_seconds(args.out / "ingest.log")
     mem_counts = json.loads(args.mem_counts.read_text()) if args.mem_counts and args.mem_counts.exists() else {}
-    memories = load_jsonl(args.out / "memories.jsonl")  # {qid-agent...}: unused keying; see below
 
-    # memories.jsonl is keyed per memory; build per-agent stored text for the store check
+    # memories.jsonl is keyed per memory (no question_id field), so it must NOT
+    # go through load_jsonl (which keys on d["question_id"] and would raise
+    # KeyError: 'question_id' — the crash that left this run with no traces/ and
+    # a 0/0 summary.md). Build the per-agent stored text directly below.
     stored_text_by_agent: dict[str, str] = {}
     mp = args.out / "memories.jsonl"
     if mp.exists():
-        for line in mp.read_text(encoding="utf-8", errors="ignore").splitlines():
+        for line in mp.read_text(encoding="utf-8", errors="ignore").split("\n"):
             if not line.strip():
                 continue
             try:

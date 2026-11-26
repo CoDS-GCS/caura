@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# _lme_manifest.sh PHASE RUN IDS OUT HARNESS REPO CAURA_BASE
+# _lme_manifest.sh PHASE RUN IDS OUT HARNESS REPO CAURA_BASE [REUSE_FROM]
 # Writes/updates $OUT/manifest.json. Keys redacted. Called by run_lme.sh.
 set -uo pipefail
-PHASE="$1"; RUN="$2"; IDS="$3"; OUT="$4"; HARNESS="$5"; REPO="$6"; CAURA_BASE="$7"
-PHASE="$PHASE" RUN="$RUN" IDS="$IDS" OUT="$OUT" HARNESS="$HARNESS" REPO="$REPO" CAURA_BASE="$CAURA_BASE" \
+PHASE="$1"; RUN="$2"; IDS="$3"; OUT="$4"; HARNESS="$5"; REPO="$6"; CAURA_BASE="$7"; REUSE_FROM="${8:-}"
+PHASE="$PHASE" RUN="$RUN" IDS="$IDS" OUT="$OUT" HARNESS="$HARNESS" REPO="$REPO" CAURA_BASE="$CAURA_BASE" REUSE_FROM="$REUSE_FROM" \
 python3 - <<'PY'
 import json,os,subprocess,urllib.request,datetime
 REPO=os.environ["REPO"]; OUT=os.environ["OUT"]; HARNESS=os.environ["HARNESS"]
@@ -71,7 +71,31 @@ if os.environ["PHASE"]=="start" and not m.get("started_utc"):
         "Enrichment via the Gemini API key (gemini-3.1-flash-lite) not the published Vertex endpoint; same model.",
         "60-question subset (not the full 500).",
       ],
+      "harness_reliability_patches":[
+        "caura.py recall (/search): retry budget raised to 8 attempts with a 30s "
+        "backoff cap so a brief core-storage/DB restart is ridden out; a 5xx/429 "
+        "that still survives now RAISES CauraRecallError instead of returning [] "
+        "(the silent empty-context -> blind-answer bug that invalidated "
+        "lme_caura_default_60q). Speed/reliability only — the 200 path is "
+        "unchanged, so healthy-run results are identical.",
+        "run_lme.sh: assert_retrieval_nonempty() aborts the run before the paid "
+        "judge if any answered question retrieved 0 candidates.",
+      ],
     })
+    reuse=os.environ.get("REUSE_FROM") or ""
+    if reuse:
+        src=os.path.join(REPO,"experiments","runs",reuse)
+        m["reuses_artifacts"]={
+          "from_run":reuse,
+          "note":"answer-only rerun on the store that this run already ingested; "
+                 "artifacts below are REFERENCED, not copied. The live Caura store "
+                 "(agent_prefix lmeo-*) is the one ingested by that run; the "
+                 "pre-checks verified it still holds the 60 agents.",
+          "ingest_log":os.path.join(src,"ingest.log"),
+          "memory_dump_sql_gz":os.path.join(src,"memory_dump.sql.gz"),
+          "memories_jsonl":os.path.join(src,"memories.jsonl"),
+          "mem_counts_json":os.path.join(src,"mem_counts.json"),
+        }
 elif os.environ["PHASE"]=="end":
     m["ended_utc"]=datetime.datetime.utcnow().isoformat()+"Z"
 os.makedirs(OUT,exist_ok=True); json.dump(m,open(mp,"w"),indent=2)

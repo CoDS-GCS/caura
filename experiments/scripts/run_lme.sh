@@ -7,6 +7,11 @@
 #   experiments/scripts/run_lme.sh [--stage ingest|answer|all] [--run NAME]
 #                                  [--ids FILE] [--mem0-judge]
 #   experiments/scripts/run_lme.sh --resume NAME        # continue after a crash/pause
+#   experiments/scripts/run_lme.sh --run NEW --reuse-store OLD
+#                       # answer-only rerun on the store OLD already ingested
+#                       # (no re-ingest, no copy; OLD's dump/ingest are referenced
+#                       #  in NEW's manifest). The live store must still hold the
+#                       #  60 agents — the pre-checks verify that.
 #
 # Robustness:
 #   * On Gemini 402 RESOURCE_EXHAUSTED or OpenAI insufficient_quota, it stops
@@ -32,6 +37,7 @@ AGENT_PREFIX="lmeo"
 MEM0_JUDGE="${MEM0_JUDGE:-0}"
 RESUME=0
 CHECK=0
+REUSE_FROM="${REUSE_FROM:-}"
 CAURA_BASE="${CAURA_BASE:-http://localhost:8000/api/v1}"
 API_KEY="${CAURA_API_KEY:-standalone}"
 TENANT="${CAURA_TENANT_ID:-default}"
@@ -45,6 +51,7 @@ while [[ $# -gt 0 ]]; do
     --ids) IDS="$2"; shift 2;;
     --mem0-judge) MEM0_JUDGE=1; shift;;
     --check) CHECK=1; shift;;
+    --reuse-store) REUSE_FROM="$2"; shift 2;;
     --resume) RESUME=1; RUN="$2"; shift 2;;
     -h|--help) grep '^#' "$0" | sed 's/^# \{0,1\}//'; exit 0;;
     *) echo "unknown arg: $1" >&2; exit 2;;
@@ -198,11 +205,17 @@ PY
 
 # ---------------------------------------------------------------- DB snapshots
 write_mem_counts() { # -> $OUT/mem_counts.json
-  psqlc -F$'\t' -c "SELECT agent_id, memory_type, status, (metadata->>'doc_id' IS NULL) AS derived, count(*) FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL GROUP BY 1,2,3,4" \
-  | python3 - "$OUT/mem_counts.json" <<'PY'
+  # NB: the SQL rows go to a temp FILE that python reads via argv, NOT through a
+  # pipe into `python3 - <<'PY'`. With a heredoc, stdin IS the program source, so
+  # `python3 -` consumes it and the piped rows never reach sys.stdin — which is
+  # why mem_counts.json came out {} (and summary.md 0/0) every time, regardless
+  # of DB health.
+  local tmp; tmp="$(mktemp)"
+  psqlc -F$'\t' -c "SELECT agent_id, memory_type, status, (metadata->>'doc_id' IS NULL) AS derived, count(*) FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL GROUP BY 1,2,3,4" > "$tmp"
+  python3 - "$OUT/mem_counts.json" "$tmp" <<'PY'
 import json,sys,collections
 out=collections.defaultdict(lambda:{"total":0,"by_type":collections.Counter(),"by_status":collections.Counter(),"derived":0})
-for line in sys.stdin:
+for line in open(sys.argv[2], encoding="utf-8"):
     line=line.rstrip("\n")
     if not line: continue
     a,mt,st,der,n=line.split("\t"); n=int(n)
@@ -210,9 +223,39 @@ for line in sys.stdin:
     if der=="t": o["derived"]+=n
 for a in out: out[a]["by_type"]=dict(out[a]["by_type"]); out[a]["by_status"]=dict(out[a]["by_status"])
 json.dump(out, open(sys.argv[1],"w"), indent=2)
-print("mem_counts ->", sys.argv[1])
+print("mem_counts ->", sys.argv[1], "agents:", len(out))
 PY
+  rm -f "$tmp"
 }
+assert_retrieval_nonempty() { # die if any answered question retrieved 0 candidates
+  # An empty recall -> empty context -> the reader answers blind and is scored
+  # wrong. That is exactly how lme_caura_default_60q produced a bogus 18/60
+  # (39 questions got search 503 -> [] -> blind answer) while looking "finished".
+  # Stop BEFORE the paid judge rather than report an invalid score. A hard recall
+  # error already aborts the answer step (CauraRecallError); this also catches a
+  # 200-with-no-items.
+  local hyp="$HARNESS/outputs/$RUN/hypotheses.jsonl"
+  [[ -f "$hyp" ]] || return 0
+  local bad
+  bad="$(python3 - "$hyp" <<'PY'
+import json,sys
+bad=[]
+for ln in open(sys.argv[1], encoding="utf-8"):
+    if not ln.strip():
+        continue
+    d=json.loads(ln)
+    sc=(d.get("retrieval_stats") or {}).get("search_candidates")
+    if not sc:  # 0, None, or absent
+        bad.append(str(d.get("question_id")))
+print(" ".join(bad))
+PY
+)"
+  [[ -z "$bad" ]] && return 0
+  die "retrieval returned 0 candidates for $(wc -w <<<"$bad") question(s): $bad
+    -> recall/store failure; refusing to judge an invalid run. Fix recall, then
+       re-run the answer stage — the store is intact and answered questions resume."
+}
+
 enrichment_pending_agents() { # prints agents still pending enrichment or empty
   psqlc -F$'\t' -c "SELECT agent_id, count(*) FILTER (WHERE COALESCE(metadata->'_system'->>'enrichment_pending', metadata->>'enrichment_pending')='true') FROM memories WHERE agent_id LIKE '${AGENT_PREFIX}-%' AND deleted_at IS NULL GROUP BY 1" \
   | awk -F'\t' '$2>0{print $1}'
@@ -305,6 +348,9 @@ do_answer() {
       --secondary-judge gemini --secondary-judge-model gemini-3.5-flash-lite \
       --concurrency 5 --question-ids "$IDS"
 
+  # Guard: never spend the judge on a run where recall silently returned nothing.
+  assert_retrieval_nonempty
+
   log "=== JUDGE: evaluate-hypotheses -> $OUT/eval.log ==="
   run_resumable judge "$OUT/eval.log" -- \
     uv run longmemeval evaluate-hypotheses "outputs/$RUN/hypotheses.jsonl" \
@@ -336,9 +382,20 @@ do_answer() {
 }
 
 # ---------------------------------------------------------------- manifest (reuse from prior version, redacted)
-write_manifest() { "$SCRIPTS/_lme_manifest.sh" "$1" "$RUN" "$IDS" "$OUT" "$HARNESS" "$REPO" "$CAURA_BASE" 2>/dev/null || true; }
+write_manifest() { "$SCRIPTS/_lme_manifest.sh" "$1" "$RUN" "$IDS" "$OUT" "$HARNESS" "$REPO" "$CAURA_BASE" "$REUSE_FROM" 2>/dev/null || true; }
 
 # ---------------------------------------------------------------- main
+if [[ -n "$REUSE_FROM" ]]; then
+  # Answer-only rerun against a store another run already ingested. No re-ingest,
+  # no copy: OLD's dump/ingest artifacts are referenced from NEW's manifest.
+  STAGE=answer
+  SRC="$REPO/experiments/runs/$REUSE_FROM"
+  [[ -d "$SRC" ]] || die "--reuse-store: source run dir not found: $SRC"
+  [[ -f "$SRC/memory_dump.sql.gz" ]] || die "--reuse-store: $SRC has no memory_dump.sql.gz"
+  [[ "$RESUME" == 0 ]] || die "--reuse-store and --resume are mutually exclusive"
+  [[ -e "$OUT" ]] && die "run dir exists: $OUT (pick a fresh --run name)"
+  log "REUSE-STORE: answering run '$RUN' on the store ingested by '$REUSE_FROM' (no re-ingest)"
+fi
 if [[ "$RESUME" == 1 ]]; then
   [[ -d "$OUT" ]] || die "--resume: $OUT does not exist"
   log "RESUMING $RUN (ingest_done=$(ckpt_get ingest_done), judged=$(ckpt_get judged))"
@@ -347,7 +404,9 @@ elif [[ "$CHECK" == 0 ]]; then
   if [[ "$STAGE" == ingest || "$STAGE" == all ]]; then
     [[ -e "$OUT" ]] && die "run dir exists: $OUT (use --resume $RUN to continue)"
   fi
-  [[ "$STAGE" == answer && ! -d "$OUT" ]] && die "answer stage: $OUT missing (run --stage ingest first)"
+  # A --reuse-store answer run legitimately starts with no $OUT (it reuses the
+  # live store, not a prior dir), so the "missing dir" guard does not apply.
+  [[ "$STAGE" == answer && ! -d "$OUT" && -z "$REUSE_FROM" ]] && die "answer stage: $OUT missing (run --stage ingest first)"
 fi
 # Pre-checks run BEFORE the run dir is created, so a failed pre-check never
 # leaves a folder behind (next start won't refuse with "run dir exists").
@@ -357,6 +416,8 @@ if [[ "$CHECK" == 1 ]]; then
   exit 0
 fi
 mkdir -p "$OUT"; ckpt_init
+# Reused store => ingest is already done; record it so the checkpoint is honest.
+[[ -n "$REUSE_FROM" ]] && ckpt_set ingest_done true
 write_manifest start
 [[ "$STAGE" == ingest || "$STAGE" == all ]] && do_ingest
 [[ "$STAGE" == answer  || "$STAGE" == all ]] && do_answer

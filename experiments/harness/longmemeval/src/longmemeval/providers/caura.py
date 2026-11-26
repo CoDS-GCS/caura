@@ -19,6 +19,19 @@ from .base import BaseMemoryProvider
 
 console = Console()
 
+
+class CauraRecallError(RuntimeError):
+    """A /search (recall) call failed with a server error that survived retries.
+
+    Raised instead of silently returning an empty candidate list: an empty
+    recall yields an empty context, and the reader then answers *blind* and is
+    scored as wrong — which is how the lme_caura_default_60q run produced a
+    bogus 18/60 while the DB was crashing (39 questions got search 503 ->
+    [] -> blind answer). Surfacing it aborts the run so the result can't look
+    like a real Caura score.
+    """
+
+
 DEFAULT_BASE_URL = "https://caura.ai/api/v1"
 MAX_CONTENT_LENGTH = 10_000
 MAX_QUERY_LENGTH = 5_000
@@ -349,7 +362,14 @@ class CauraMemoryProvider(BaseMemoryProvider):
             )
         return self._client
 
-    def _request(self, method: str, path: str, *, retries: int = 4, **kwargs) -> httpx.Response:
+    def _request(
+        self, method: str, path: str, *, retries: int = 4, max_delay: float = 30.0, **kwargs
+    ) -> httpx.Response:
+        # ``max_delay`` caps the exponential backoff so a caller can afford a
+        # larger ``retries`` budget (e.g. /search, to ride out a brief DB
+        # restart) without a single late attempt sleeping for minutes. The
+        # default-4-retry callers are unaffected: their 1/2/4/8 s delays are all
+        # below the cap.
         delay = 1.0
         last: httpx.Response | None = None
         for attempt in range(retries + 1):
@@ -359,7 +379,7 @@ class CauraMemoryProvider(BaseMemoryProvider):
                 if attempt == retries:
                     raise
                 time.sleep(delay)
-                delay *= 2
+                delay = min(delay * 2, max_delay)
                 continue
 
             if resp.status_code == 429 or resp.status_code >= 500:
@@ -368,8 +388,8 @@ class CauraMemoryProvider(BaseMemoryProvider):
                     break
                 retry_after = resp.headers.get("Retry-After")
                 wait = float(retry_after) if retry_after and retry_after.isdigit() else delay
-                time.sleep(wait)
-                delay *= 2
+                time.sleep(min(wait, max_delay))
+                delay = min(delay * 2, max_delay)
                 continue
             return resp
 
@@ -565,7 +585,11 @@ class CauraMemoryProvider(BaseMemoryProvider):
         }
         if valid_at:
             body["valid_at"] = valid_at
-        resp = self._request("POST", "/search", json=body)
+        # Recall is the hot path and must not silently degrade to "no results":
+        # a bigger retry budget (capped backoff ~2 min total) rides out a brief
+        # core-storage/DB blip, and a 5xx/429 that still survives is RAISED, not
+        # swallowed. See ``CauraRecallError``.
+        resp = self._request("POST", "/search", json=body, retries=8, max_delay=30.0)
         if resp.status_code == 422:
             retry_needed = False
             if limit > 20:
@@ -575,8 +599,17 @@ class CauraMemoryProvider(BaseMemoryProvider):
                 del body["valid_at"]
                 retry_needed = True
             if retry_needed:
-                resp = self._request("POST", "/search", json=body)
+                resp = self._request("POST", "/search", json=body, retries=8, max_delay=30.0)
         if resp.status_code != 200:
+            # A server error (or rate limit) that outlived the retries is a
+            # failure, not an empty result — do not let the reader answer blind.
+            if resp.status_code >= 500 or resp.status_code == 429:
+                raise CauraRecallError(
+                    f"/search returned {resp.status_code} after retries for agent "
+                    f"{agent_id!r}: {resp.text[:200]}"
+                )
+            # Genuine non-retryable non-200 (e.g. 404 agent unknown, unfixable
+            # 422): keep the historical empty-list contract.
             return []
         return resp.json().get("items") or []
 
