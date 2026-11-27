@@ -1,0 +1,114 @@
+[
+  {
+    "question_id": "conv0_q018_cat1",
+    "category": "multi-hop",
+    "failure_label": "judge_disagreement",
+    "gold_answer": "beach, mountains, forest",
+    "prediction": "Melanie has camped in the mountains, in the forest, and at the beach.",
+    "verdict_gpt4o": "correct"
+  },
+  {
+    "question_id": "conv0_q005_cat2",
+    "category": "temporal",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "The sunday before 25 May 2023",
+    "prediction": "Melanie ran the charity race on the Saturday before May 25, 2023, specifically on May 20, 2023.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q059_cat3",
+    "category": "open-domain",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "Somewhat, but not extremely religious",
+    "prediction": "The chats do not explicitly state whether Caroline is religious, but they provide the following relevant context:\n\n* She owns a necklace given to her by her grandma in Sweden that represents love, faith, and strength, serving as a reminder of her roots and family support.\n* She created a stained glass window for a local church that depicts time changing lives and symbolizes her journey as a transgender woman accepting growth and change.\n* She had a negative encounter during a hike with a group of religious conservatives whose upsetting remarks caused her to reflect on how much work remains for LGBTQ rights.\n* She does not mention practicing any religion, attending religious services, or identifying as religious, focusing instead on art, LGBTQ+ advocacy, community, and personal authenticity.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q028_cat2",
+    "category": "temporal",
+    "failure_label": "judge_disagreement",
+    "gold_answer": "The friday before 15 July 2023",
+    "prediction": "Caroline attended the adoption meeting on Friday, 7 July 2023 (referred to as \"last Friday\" relative to Saturday, 15 July 2023).",
+    "verdict_gpt4o": "correct"
+  },
+  {
+    "question_id": "conv0_q066_cat1",
+    "category": "multi-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "Roast marshmallows, tell stories",
+    "prediction": "When hiking with her family, Melanie hikes in the mountains and explores forests as a way to connect with nature and each other. Additionally, they explore nature and hike to see the views from the top.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q076_cat1",
+    "category": "multi-hop",
+    "failure_label": "judge_disagreement",
+    "gold_answer": "19 October 2023",
+    "prediction": "Based on the provided facts, the chat history does not mention Melanie going on a hike after the roadtrip. It only mentions that she went camping/out in nature on 19 October, 2023, to relax after the trip.",
+    "verdict_gpt4o": "correct"
+  },
+  {
+    "question_id": "conv0_q077_cat3",
+    "category": "open-domain",
+    "failure_label": "judge_disagreement",
+    "gold_answer": "Likely no; since this one went badly",
+    "prediction": "Based on the chat history, Melanie does not state whether or not she would go on another road trip soon. She did mention that her recent road trip was a very scary experience because her son got into an accident, but she has not shared any upcoming plans regarding another road trip.",
+    "verdict_gpt4o": "correct"
+  },
+  {
+    "question_id": "conv0_q085_cat4",
+    "category": "single-hop",
+    "failure_label": "judge_disagreement",
+    "gold_answer": "researching adoption agencies",
+    "prediction": "Caroline's primary stated plan for the summer was researching adoption agencies to fulfill her dream of having a family and giving a loving home to kids in need. Additionally, Caroline and Melanie discussed planning a special outing or trip just between the two of them that summer to catch up and explore nature.",
+    "verdict_gpt4o": "correct"
+  },
+  {
+    "question_id": "conv0_q112_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "a sunset with a palm tree",
+    "prediction": "Melanie and her kids painted flowers that they found, creating a nature-inspired painting with bold colors.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q133_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "A sign stating that someone is not being able to leave",
+    "prediction": "Based on the chat history, it is not specified what the precautionary sign at the café said or depicted; it is only noted that Melanie shared a photo of a thoughtful sign that she described as just a precaution.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q140_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "\"Trans Lives Matter\"",
+    "prediction": "Based on the chat history, the exact text, words, or slogans written on the posters at the poetry reading are not specified; it is only noted that Caroline described them as having \"so much pride and strength.\"",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q138_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "An abstract painting with blue streaks on a wall.",
+    "prediction": "Caroline did not share a painting with Melanie on October 13, 2023. Instead, Melanie was the one who shared paintings (one inspired by sunsets and an abstract one with blue streaks), while Caroline only shared a drawing inspired by a transgender poetry reading.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q144_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "He was scared but reassured by his family",
+    "prediction": "Based on the conversational evidence, the chat history does not specify how Melanie's son himself handled the accident; it only mentions that he was okay and that the other children were scared but reassured by Melanie and her partner.",
+    "verdict_gpt4o": "wrong"
+  },
+  {
+    "question_id": "conv0_q151_cat4",
+    "category": "single-hop",
+    "failure_label": "retrieved_wrong_answer",
+    "gold_answer": "Went on a nature walk or hike",
+    "prediction": "After the road trip, Melanie went on a camping trip with her family to relax and recharge.",
+    "verdict_gpt4o": "wrong"
+  }
+]

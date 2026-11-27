@@ -1,0 +1,27 @@
+{
+  "total": 23,
+  "by_type": {
+    "episode": 6,
+    "plan": 1,
+    "preference": 4,
+    "fact": 6,
+    "task": 4,
+    "decision": 2
+  },
+  "by_agent": {
+    "locomo-conv-0": 23
+  },
+  "by_status": {
+    "active": 23
+  },
+  "pending": {
+    "embedding": 0,
+    "enrichment": 0,
+    "fanout": 0
+  },
+  "stranded": {
+    "embedding": 0
+  },
+  "settled": true,
+  "embedding_configured": true
+}

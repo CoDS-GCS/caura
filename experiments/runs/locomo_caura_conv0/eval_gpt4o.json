@@ -1,0 +1,1225 @@
+{
+  "judge_model": "gpt-4o",
+  "judge_votes": 1,
+  "total": 152,
+  "correct": 140,
+  "accuracy": 0.9210526315789473,
+  "verdicts": {
+    "conv0_q003_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 1551.6
+    },
+    "conv0_q006_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 1544.0
+    },
+    "conv0_q007_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 979.4
+    },
+    "conv0_q002_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 1440.9
+    },
+    "conv0_q010_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 855.1
+    },
+    "conv0_q008_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 656.8
+    },
+    "conv0_q000_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 2119.1
+    },
+    "conv0_q009_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 675.8
+    },
+    "conv0_q001_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 612.4
+    },
+    "conv0_q004_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 765.4
+    },
+    "conv0_q012_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 625.5
+    },
+    "conv0_q013_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 577.3
+    },
+    "conv0_q017_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 974.2
+    },
+    "conv0_q015_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\n  \"label\": \"CORRECT\"\n}",
+      "judge_latency_ms": 696.8
+    },
+    "conv0_q011_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 793.1
+    },
+    "conv0_q014_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 560.5
+    },
+    "conv0_q018_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 690.4
+    },
+    "conv0_q005_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 549.9
+    },
+    "conv0_q023_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 662.6
+    },
+    "conv0_q021_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 581.2
+    },
+    "conv0_q019_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 713.7
+    },
+    "conv0_q024_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 532.9
+    },
+    "conv0_q025_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 580.9
+    },
+    "conv0_q027_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 600.9
+    },
+    "conv0_q026_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 633.6
+    },
+    "conv0_q016_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 828.7
+    },
+    "conv0_q022_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 557.3
+    },
+    "conv0_q029_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 643.0
+    },
+    "conv0_q030_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 614.7
+    },
+    "conv0_q034_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 595.5
+    },
+    "conv0_q037_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 670.2
+    },
+    "conv0_q032_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 596.0
+    },
+    "conv0_q020_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 666.5
+    },
+    "conv0_q036_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 701.6
+    },
+    "conv0_q033_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 564.8
+    },
+    "conv0_q035_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 675.0
+    },
+    "conv0_q039_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 725.3
+    },
+    "conv0_q038_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 1122.9
+    },
+    "conv0_q041_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 691.8
+    },
+    "conv0_q043_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 550.6
+    },
+    "conv0_q031_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 795.3
+    },
+    "conv0_q045_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 906.5
+    },
+    "conv0_q042_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 645.3
+    },
+    "conv0_q044_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 828.6
+    },
+    "conv0_q048_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 737.9
+    },
+    "conv0_q040_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 728.2
+    },
+    "conv0_q046_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 561.0
+    },
+    "conv0_q050_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 556.9
+    },
+    "conv0_q049_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 697.5
+    },
+    "conv0_q051_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 671.1
+    },
+    "conv0_q047_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 635.7
+    },
+    "conv0_q053_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 674.2
+    },
+    "conv0_q057_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 754.6
+    },
+    "conv0_q058_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 654.9
+    },
+    "conv0_q055_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 661.6
+    },
+    "conv0_q054_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 703.0
+    },
+    "conv0_q052_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 555.1
+    },
+    "conv0_q056_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 704.5
+    },
+    "conv0_q061_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 643.9
+    },
+    "conv0_q059_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 725.4
+    },
+    "conv0_q060_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 668.5
+    },
+    "conv0_q028_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 620.9
+    },
+    "conv0_q063_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 829.1
+    },
+    "conv0_q064_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 768.5
+    },
+    "conv0_q065_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 686.3
+    },
+    "conv0_q066_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 683.0
+    },
+    "conv0_q067_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 833.6
+    },
+    "conv0_q062_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 1258.4
+    },
+    "conv0_q072_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 715.6
+    },
+    "conv0_q068_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 587.1
+    },
+    "conv0_q070_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 596.5
+    },
+    "conv0_q069_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\n  \"label\": \"CORRECT\"\n}",
+      "judge_latency_ms": 639.6
+    },
+    "conv0_q071_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 878.7
+    },
+    "conv0_q074_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 782.5
+    },
+    "conv0_q076_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 653.4
+    },
+    "conv0_q078_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 685.2
+    },
+    "conv0_q077_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 798.2
+    },
+    "conv0_q080_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 581.3
+    },
+    "conv0_q083_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 703.9
+    },
+    "conv0_q075_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 681.4
+    },
+    "conv0_q081_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 591.9
+    },
+    "conv0_q084_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 724.7
+    },
+    "conv0_q085_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 650.9
+    },
+    "conv0_q087_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 995.5
+    },
+    "conv0_q088_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 842.1
+    },
+    "conv0_q079_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 663.9
+    },
+    "conv0_q082_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 613.6
+    },
+    "conv0_q089_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 643.7
+    },
+    "conv0_q090_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 721.5
+    },
+    "conv0_q091_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 644.7
+    },
+    "conv0_q092_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 769.6
+    },
+    "conv0_q093_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 876.2
+    },
+    "conv0_q096_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 840.8
+    },
+    "conv0_q086_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 668.1
+    },
+    "conv0_q098_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 906.7
+    },
+    "conv0_q073_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 930.5
+    },
+    "conv0_q099_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 854.1
+    },
+    "conv0_q095_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 673.6
+    },
+    "conv0_q102_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 686.3
+    },
+    "conv0_q094_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 581.1
+    },
+    "conv0_q103_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 977.6
+    },
+    "conv0_q104_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 679.4
+    },
+    "conv0_q101_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 749.4
+    },
+    "conv0_q097_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 563.8
+    },
+    "conv0_q105_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 631.6
+    },
+    "conv0_q107_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 805.6
+    },
+    "conv0_q106_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 592.9
+    },
+    "conv0_q109_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 713.4
+    },
+    "conv0_q108_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 613.4
+    },
+    "conv0_q114_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 568.4
+    },
+    "conv0_q112_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 592.8
+    },
+    "conv0_q110_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 631.9
+    },
+    "conv0_q100_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 547.6
+    },
+    "conv0_q117_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 592.3
+    },
+    "conv0_q116_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 633.4
+    },
+    "conv0_q111_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 524.3
+    },
+    "conv0_q120_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 542.0
+    },
+    "conv0_q119_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 700.1
+    },
+    "conv0_q113_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 645.0
+    },
+    "conv0_q123_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 636.6
+    },
+    "conv0_q122_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 618.8
+    },
+    "conv0_q125_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 606.4
+    },
+    "conv0_q124_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 674.1
+    },
+    "conv0_q115_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 626.8
+    },
+    "conv0_q118_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 590.0
+    },
+    "conv0_q121_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 646.1
+    },
+    "conv0_q127_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 746.0
+    },
+    "conv0_q130_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 664.5
+    },
+    "conv0_q128_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 905.4
+    },
+    "conv0_q126_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 578.8
+    },
+    "conv0_q131_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 667.3
+    },
+    "conv0_q135_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 579.5
+    },
+    "conv0_q133_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 668.6
+    },
+    "conv0_q134_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 839.3
+    },
+    "conv0_q129_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 665.5
+    },
+    "conv0_q136_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 616.0
+    },
+    "conv0_q132_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 598.3
+    },
+    "conv0_q137_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 735.2
+    },
+    "conv0_q139_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 958.4
+    },
+    "conv0_q140_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 771.7
+    },
+    "conv0_q143_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 735.9
+    },
+    "conv0_q142_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 774.1
+    },
+    "conv0_q145_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 944.0
+    },
+    "conv0_q138_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 617.7
+    },
+    "conv0_q141_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 527.8
+    },
+    "conv0_q146_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 569.5
+    },
+    "conv0_q148_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 592.0
+    },
+    "conv0_q149_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 970.3
+    },
+    "conv0_q144_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 605.9
+    },
+    "conv0_q150_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 526.6
+    },
+    "conv0_q147_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "explanation": "{\"label\": \"CORRECT\"}",
+      "judge_latency_ms": 615.5
+    },
+    "conv0_q151_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "explanation": "{\"label\": \"WRONG\"}",
+      "judge_latency_ms": 739.1
+    }
+  }
+}

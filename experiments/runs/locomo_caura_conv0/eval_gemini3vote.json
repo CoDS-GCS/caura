@@ -1,0 +1,3505 @@
+{
+  "judge_model": "gemini-3.8-flash",
+  "judge_votes": 3,
+  "total": 152,
+  "correct": 138,
+  "accuracy": 0.9078947368421053,
+  "verdicts": {
+    "conv0_q003_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly identifies adoption agencies as what Caroline researched, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly states that Caroline researched adoption agencies, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly mentions adoption agencies, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5681.0
+    },
+    "conv0_q006_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the date as June 2023, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies June 2023 as the time Melanie is planning to go camping, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 10633.3
+    },
+    "conv0_q007_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly states that Caroline is single, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly states that Caroline is single, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that Caroline is single, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6060.7
+    },
+    "conv0_q002_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies counseling and mental health, which matches the gold answer's fields of psychology and counseling certification.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer specifically mentions counseling and mental health, which directly corresponds to the fields of psychology and counseling certification.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8263.5
+    },
+    "conv0_q010_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately states that Caroline has had her friends for 4 years, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the duration as 4 years, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately states that Caroline has had her friends for 4 years, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8450.6
+    },
+    "conv0_q008_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately identifies the time frame as the week prior to June 9, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the timing as 'last week' relative to June 9, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately reflects the gold answer by stating the speech occurred the week prior to June 9, 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8370.1
+    },
+    "conv0_q000_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer provides the exact date matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately matches the gold answer's date of May 7, 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the date as May 7, 2023, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5681.1
+    },
+    "conv0_q009_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer precisely matches the timeframe specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately identifies the timeframe as the week prior to June 9, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly specifies the exact timeframe mentioned in the gold answer, which is the week prior to June 9, 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 13141.0
+    },
+    "conv0_q001_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the year as 2022, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the year 2022, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the year 2022, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5263.4
+    },
+    "conv0_q004_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by identifying Caroline as a transgender woman.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"reasoning\": \"The generated answer directly states that Caroline identifies as a transgender woman, which matches the gold answer.\", \"label\": \"CORRECT\"}",
+        "{\n  \"reasoning\": \"The generated answer directly states that Caroline identifies as a transgender woman, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5103.0
+    },
+    "conv0_q012_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately states that Caroline's 18th birthday was ten years ago, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly states that the birthday was ten years ago, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly states that Caroline's 18th birthday was ten years ago, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6098.4
+    },
+    "conv0_q013_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer by identifying Caroline's career path in counseling and mental health specifically focused on transgender individuals.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately captures the gold answer's focus on counseling and mental health for transgender people.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer by identifying counseling and mental health focused on transgender and LGBTQ+ individuals.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5138.6
+    },
+    "conv0_q017_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately specifies July 2023 as the timeframe for the conference.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the date as July 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies July 2023 as the time Caroline is attending the transgender conference.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4826.7
+    },
+    "conv0_q015_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer includes all the activities listed in the gold answer (pottery, painting, camping, swimming) alongside additional details.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes all of the activities listed in the gold answer (pottery, camping, painting, and swimming) along with additional activities.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5556.4
+    },
+    "conv0_q011_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies Sweden as the place Caroline moved from.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies Sweden as the place Caroline moved from.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that Caroline moved from Sweden, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4925.5
+    },
+    "conv0_q014_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly aligns with the gold answer by concluding that it is likely Caroline would not have pursued counseling without the support she received.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly concludes that Caroline likely would not have pursued counseling without the support she received, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 34988.3
+    },
+    "conv0_q018_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 1,
+      "explanations": [
+        "{\n",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies all three locations (mountains, forest, and beach) mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \""
+      ],
+      "judge_latency_ms": 6080.5
+    },
+    "conv0_q005_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer incorrectly states that the race took place on Saturday, May 20, 2023, instead of Sunday (May 21, 2023).\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer incorrectly identifies the race day as Saturday, May 20, 2023, instead of the Sunday before May 25, 2023 (May 21).\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer incorrectly specifies Saturday, May 20, 2023, instead of Sunday, May 21, 2023.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 6638.1
+    },
+    "conv0_q023_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies \\\"Charlotte's Web\\\" as a book Melanie has read.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly mentions \\\"Charlotte's Web\\\", which is one of the books listed in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly mentions \\\"Charlotte's Web\\\", which is one of the books identified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6223.7
+    },
+    "conv0_q021_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer precisely matches the time period specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the time of the picnic as the week prior to 6 July 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately specifies the week prior to 6 July 2023, matching the ground truth time period.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5272.9
+    },
+    "conv0_q019_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer specifically mentions both dinosaurs and nature as things Melanie's kids like, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes both dinosaurs and nature, directly matching the ground truth topics.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 46056.0
+    },
+    "conv0_q024_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer includes both running and pottery as activities Melanie uses to destress and relax, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly includes both running and pottery as key activities Melanie uses to destress and relax.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5144.5
+    },
+    "conv0_q025_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies the date as 10 July 2023, matching the ground truth.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the date as 10 July 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4944.5
+    },
+    "conv0_q027_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly states that Caroline would likely not pursue writing as a career and accurately identifies counseling as her actual career interest.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies that Caroline would not pursue writing as a career and accurately notes her interest in counseling instead.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly states that Caroline would not pursue writing as a career and mentions her goal of going into counseling, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5635.6
+    },
+    "conv0_q026_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies 2022 as the year Melanie read the book, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that she read the book in 2022, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the year 2022, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6340.2
+    },
+    "conv0_q016_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the date specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the exact date as July 2, 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4593.7
+    },
+    "conv0_q022_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly concludes that Caroline would likely have Dr. Seuss books because she collects classic children's books.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer affirms that Caroline would likely have Dr. Seuss books because she collects classic children's books for a children's library, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6273.0
+    },
+    "conv0_q029_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the Friday before 15 July 2023 as 14 July 2023 relative to the Saturday reference",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the date as Friday relative to 15 July 2023, pointing to 14 July 2023.\",\n  \"label\": \"CORRECT\"\n",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the date as the Friday before 15 July 2023, explicitly mentioning 14 July 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 7345.0
+    },
+    "conv0_q030_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Melanie is not considered a member of the LGBTQ community because she has not identified herself as such, which directly aligns with the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately reflects the gold answer by concluding that Melanie would not be considered a member of the LGBTQ community because she has not identified herself as one.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 7066.3
+    },
+    "conv0_q034_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies the mentoring program, which directly aligns with a key part of the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  "
+      ],
+      "judge_latency_ms": 7638.4
+    },
+    "conv0_q037_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Melanie recently painted a painting inspired by sunsets, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Melanie recently created a painting inspired by sunsets, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5592.8
+    },
+    "conv0_q032_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes all the events mentioned in the gold answer (pride parade, school speech/speaking event, and support group), along with relevant additional details.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4644.6
+    },
+    "conv0_q020_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the exact date, 5 July 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the exact date Melanie went to the museum as 5 July 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes the exact date specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 56290.5
+    },
+    "conv0_q036_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the timeframe specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly states that she joined the weekend before July 17, 2023, which matches the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly mentions that she joined the weekend before July 17, 2023, precisely matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5992.8
+    },
+    "conv0_q033_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions the week prior to July 3, 2023, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the correct timeframe matching the gold answer ('The week prior to July 3, 2023').\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that Caroline attended a pride parade the week prior to July 3, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6768.7
+    },
+    "conv0_q035_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer specifically identifies that she went camping with her family two weekends prior to July 17, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that Melanie went camping two weekends prior to July 17, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6759.1
+    },
+    "conv0_q039_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer covers all key activities mentioned in the gold answer, including joining an activist group, attending pride parades, participating in art shows, and being part of a mentoring program.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the key ways listed in the gold answer, including joining an activist group, attending pride parades, participating in art shows, and joining a mentorship program.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the activities mentioned in the gold answer, including joining an activist group, attending pride parades, participating in art shows, and being part of a mentoring program.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5655.8
+    },
+    "conv0_q038_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the activities mentioned in the gold answer, including pottery, painting, camping, museum visits, swimming, and hiking.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the activities mentioned in the gold answer, including camping, hiking, swimming, pottery, painting, and museum visits.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5409.8
+    },
+    "conv0_q041_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8744.5
+    },
+    "conv0_q043_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies abstract art and abstract paintings among the types of art Caroline creates.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly identifies abstract art as a key type of art Caroline makes.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that Caroline makes abstract art and abstract paintings, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5582.4
+    },
+    "conv0_q031_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately specifies that Melanie went camping the week before 27 June, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the time period specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the exact timeframe specified in the gold answer, stating it was the week before 27 June 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 10835.4
+    },
+    "conv0_q045_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"August 11, 2023 is indeed the Friday immediately preceding August 14, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"Friday, 11 August 2023 is indeed the Friday before 14 August 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"Friday, 11 August 2023 is indeed the Friday before 14 August 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 7649.0
+    },
+    "conv0_q042_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies national park and notes her love for nature and the outdoors, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Melanie would prefer a national park because of her love for nature and the outdoors, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5452.7
+    },
+    "conv0_q044_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies August 13 as the date of Melanie's daughter's birthday.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies August 13 as the date of the birthday, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies August 13 as the date of Melanie's daughter's birthday.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5841.9
+    },
+    "conv0_q048_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6122.9
+    },
+    "conv0_q040_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately identifies the two occasions where beach visits in 2023 were discussed.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the two instances/mentions of Melanie visiting the beach in 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"explanation\": \"The generated answer identifies both beach-related occasions in 2023 and notes that it corresponds to at most two visits, aligning with the"
+      ],
+      "judge_latency_ms": 7922.1
+    },
+    "conv0_q046_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer clearly confirms that Melanie is an ally and provides extensive evidence of her support, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5557.0
+    },
+    "conv0_q050_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly identifies Caroline's political leaning as liberal, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4990.8
+    },
+    "conv0_q049_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly specifies the year 2022, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies 2022 as the year they attended the Pride festival together, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly states the year 2022, exactly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6414.0
+    },
+    "conv0_q051_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer includes all elements from the gold answer—a horse, a sunset, and a sunrise—along with additional details.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5547.3
+    },
+    "conv0_q047_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly names Caroline's friends, family, and mentors, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies friends, family, and mentors as Caroline's support system.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5168.6
+    },
+    "conv0_q053_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the week of August 23, 2023, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately specifies the week of August 23, 2023, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately matches the specific time period provided in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4835.0
+    },
+    "conv0_q057_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that the event occurred 'last week' relative to August 25, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer specifically references the event occurring 'last week' relative to August 25, 2023, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately specifies that the encounter was described on August 25, 2023, as having occurred 'last week', matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 23849.7
+    },
+    "conv0_q058_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies 24 August 2023 as the date Melanie made the plate in pottery class.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the correct date of 24 August 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the correct date of 24 August 2023 matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5424.2
+    },
+    "conv0_q055_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that both Caroline and Melanie have painted a sunset, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies sunset, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies sunsets as the subject painted by both.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6783.0
+    },
+    "conv0_q054_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{",
+        "{\n  \"reasoning\": \"The generated answer directly states that she made the self-portrait the week prior to 23 August 2023, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8690.3
+    },
+    "conv0_q052_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies all three of Melanie's pets by name.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer lists all three pets' names correctly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 18054.0
+    },
+    "conv0_q056_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer includes the rainbow flag and closely related transgender community symbolism, successfully touching on the topics in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\"explanation\": \"The generated answer specifically includes the rainbow flag and references to the trans community alongside other symbols important to Caroline.\", \"label\": \"CORRECT\"}"
+      ],
+      "judge_latency_ms": 6180.3
+    },
+    "conv0_q061_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer accurately identifies both Matt Patterson and Summer Sounds as the musical acts Melanie has seen.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies both Matt Patterson and Summer Sounds, perfectly matching the ground truth.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies both musical acts mentioned in the gold answer, Matt Patterson and Summer Sounds.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4978.2
+    },
+    "conv0_q059_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer concludes that Caroline does not identify as religious or practice any religion, which directly contradicts the gold answer stating she is somewhat religious.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"label\": \"WRONG\"\n}",
+        "{\"explanation\": \"The generated answer claims it is not explicitly stated and suggests she does not identify as religious, failing to provide the gold answer that she is somewhat, but not extremely, religious.\", \"label\": \"WRONG\"}"
+      ],
+      "judge_latency_ms": 15404.1
+    },
+    "conv0_q060_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies both the violin and clarinet as the instruments Melanie plays, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies both the violin and the clarinet, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies both instruments, the violin and the clarinet, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 10489.5
+    },
+    "conv0_q028_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"reasoning\": \"",
+        "{\n  \"explanation\": \"The",
+        "{\n  \""
+      ],
+      "judge_latency_ms": 11332.0
+    },
+    "conv0_q063_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the date as September 2023, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies September 2023 as the time for the talent show.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly specifies September 2023 as the time for the talent show, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 16099.4
+    },
+    "conv0_q064_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly states that Melanie would enjoy the piece because she is a fan of classical music, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that she would enjoy it because she is a fan of classical music, which aligns directly with the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly confirms that Melanie would likely enjoy the piece because she is a fan of classical music.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 9526.3
+    },
+    "conv0_q065_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer covers both physical changes to her body and losing unsupportive friends, matching the key points of the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers both physical changes to her body and losing unsupportive friends, matching the key points of the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 13726.2
+    },
+    "conv0_q066_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer completely misses the specific activities mentioned in the gold answer, which are roasting marshmallows and telling stories.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"reasoning\": \"The generated answer does not mention roasting marshmallows or telling stories, which are the specific activities mentioned in the ground truth.\",\n  \"label\": \"WRONG\"\n}",
+        "{\"explanation\": \"The generated answer completely misses the specific activities mentioned in the gold answer, which are roasting marshmallows and telling stories.\", \"label\": \"WRONG\"}"
+      ],
+      "judge_latency_ms": 40791.8
+    },
+    "conv0_q067_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer precisely matches the time period specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately specifies the weekend prior to 13 September 2023 as stated in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the time period specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5335.9
+    },
+    "conv0_q062_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the exact date, 27 August 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the exact date of 27 August 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer provides the exact same date as the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 66280.1
+    },
+    "conv0_q072_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies 2022 as the year Melanie's friend adopted a child, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies 2022 as the year the adoption took place.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 15781.3
+    },
+    "conv0_q068_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"Practicing art for seven years aligns with starting in 2016 assuming a 2023 timeframe, referring to the same duration.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"label\": \"CORRECT\"}",
+        "{\n  \"reasoning\": \"Practicing art for seven years aligns with starting in 2016 based on the 2023 timeframe.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 7101.8
+    },
+    "conv0_q070_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes both the transgender conference and poetry reading mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 14000.1
+    },
+    "conv0_q069_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n \"label\": \"CORRECT\"\n}",
+        "{\"label\": \"CORRECT\"}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6139.2
+    },
+    "conv0_q071_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the book as 'Becoming Nicole', matching the ground truth.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies the book as 'Becoming Nicole', matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the book as 'Becoming Nicole'.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5550.6
+    },
+    "conv0_q074_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies that the trip took place the weekend before 20 October 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately matches the gold answer by identifying the weekend prior to 20 October 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer by identifying the road trip as occurring the weekend prior to 20 October 2023.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 10051.4
+    },
+    "conv0_q076_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 1,
+      "explanations": [
+        "{\n  \"label",
+        "{\n  \"reasoning\": \"The generated answer explicitly identifies the correct date of 19 October 2023 as when she went camping or out in nature to relax after the trip.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  "
+      ],
+      "judge_latency_ms": 17616.1
+    },
+    "conv0_q078_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 3953.7
+    },
+    "conv0_q077_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  ",
+        "{\n  \"explanation\":",
+        "{\n  \"reasoning\":"
+      ],
+      "judge_latency_ms": 7245.4
+    },
+    "conv0_q080_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer provides the exact date matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the exact date of 21 October 2023.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately specifies the date as 21 October 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5453.9
+    },
+    "conv0_q083_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "WRONG",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that self-care is important, matching the core topic of the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  ",
+        "{\n  \"explanation\": \"The generated answer directly states that Melanie realized self-care is really important, which perfectly aligns with the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5695.3
+    },
+    "conv0_q075_cat1": {
+      "category": 1,
+      "category_name": "multi-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly states that Melanie has 3 children, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 12239.4
+    },
+    "conv0_q081_cat3": {
+      "category": 3,
+      "category_name": "open-domain",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies that she would not want to move back soon and cites that she is currently in the middle of the adoption process.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly concludes that Caroline would not want to move back soon and accurately mentions that she is in the middle of the adoption process.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6885.6
+    },
+    "conv0_q084_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by mentioning that Melanie carves out me-time each day for activities like running, reading, or playing the violin.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately captures the key details from the gold answer, noting that Melanie carves out me-time each day for running, reading, or playing the violin.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by identifying that she carves out me-time each day for running, reading, or playing the violin.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5225.4
+    },
+    "conv0_q085_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 1,
+      "explanations": [
+        "{\n",
+        "{\n  \"label\": \"",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5958.0
+    },
+    "conv0_q087_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by mentioning inclusivity and support for LGBTQ+ individuals.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by mentioning inclusivity and support for LGBTQ+ individuals.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely captures the gold answer's point about the agency's inclusivity and support for LGBTQ+ individuals.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5127.3
+    },
+    "conv0_q088_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly captures the core idea of creating or making a family for kids who need one.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately reflects that Caroline is excited about creating a family for kids who need one.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately reflects the gold answer by stating that Caroline is excited to make a family for kids who need one.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5427.2
+    },
+    "conv0_q079_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"October 20, 2023 is indeed the Friday before October 22, 2023, making the generated answer correct.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The Friday before October 22, 2023, was October 20, 2023, which exactly matches the generated answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"October 20, 2023 is indeed the Friday before October 22, 2023, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 9369.9
+    },
+    "conv0_q082_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly states that the charity race raised awareness for mental health, which matches the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies mental health as the cause supported by the charity race, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4835.7
+    },
+    "conv0_q089_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer captures all the key elements of the gold answer, including that Caroline will be an awesome mom and that adopting is an amazing journey.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5422.0
+    },
+    "conv0_q090_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer matches the gold answer perfectly, stating that Mel and her husband have been married for 5 years.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer, stating they have been married for 5 years.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4682.3
+    },
+    "conv0_q091_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that Caroline's necklace symbolizes love, faith, and strength, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that the necklace symbolizes love, faith, and strength, matching the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly includes 'love, faith, and strength', perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5904.9
+    },
+    "conv0_q092_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly states that Caroline's grandma is from Sweden, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"reasoning\": \"The generated answer correctly identifies Sweden as the country Caroline's grandma is from, exactly matching the gold answer.\", \"label\": \"CORRECT\"}",
+        "{\n  \"explanation\": \"The generated answer directly identifies Sweden as the country Caroline's grandma is from, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6044.5
+    },
+    "conv0_q093_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly states that the gift was a necklace, which perfectly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly identifies the necklace as grandma's gift to Caroline, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly and accurately matches the gold answer stating that the gift was a necklace.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 10602.4
+    },
+    "conv0_q096_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer completely and accurately covers the key aspects of the gold answer: working with trans people, helping them accept themselves, and supporting their mental health.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately reflects all key aspects of the gold answer, stating that Caroline wants to work with transgender people to support their mental health and help them accept themselves.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately reflects Caroline's interest in working with transgender people to help them accept themselves and support their mental health.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 14878.9
+    },
+    "conv0_q086_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly states that the adoption agency supports LGBTQ+ individuals, matching the gold answer completely.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly mentions that the agency supports LGBTQ+ individuals, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer stating that the adoption agency supports LGBTQ+ individuals.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 158726.3
+    },
+    "conv0_q098_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer completely matches the information provided in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer completely matches the key topics specified in the gold answer, discussing therapeutic methods and working with trans people.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4900.5
+    },
+    "conv0_q073_cat2": {
+      "category": 2,
+      "category_name": "temporal",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{",
+        "{\n  \"explanation\": \"The generated answer accurately identifies September 2023 as the time Melanie got hurt, exactly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5704.8
+    },
+    "conv0_q099_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately captures that Caroline was motivated by her own personal journey, the support and counseling she received, and how it improved her life.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6866.0
+    },
+    "conv0_q095_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer includes roasting marshmallows, hiking, and exploring nature, fully covering the activities listed in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the activities mentioned in the gold answer, including roasting marshmallows, hiking, and exploring nature.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers all the activities mentioned in the gold answer, including roasting marshmallows, hiking, and exploring nature.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4745.9
+    },
+    "conv0_q102_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer completely and accurately covers all types of kids' books mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer completely and accurately covers all types of books mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer completely and accurately reflects all the book categories mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5903.2
+    },
+    "conv0_q094_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies that the hand-painted bowl is a reminder of art and self-expression, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies that the bowl is a reminder of art and self-expression.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that the hand-painted bowl is a reminder of art and self-expression, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6819.7
+    },
+    "conv0_q103_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly states that Melanie's favorite childhood book was \\\"Charlotte's Web,\\\" which perfectly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly names 'Charlotte's Web' as Melanie's favorite childhood book, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly and accurately matches the gold answer by identifying \\\"Charlotte's Web\\\" as the favorite childhood book.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5428.1
+    },
+    "conv0_q104_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the book as Becoming Nicole, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the book 'Becoming Nicole' recommended by Caroline.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the book 'Becoming Nicole'.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5006.6
+    },
+    "conv0_q101_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly confirms that Melanie made the bowl, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly confirms that Melanie made the bowl, which matches the gold answer of 'Yes'.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly confirms that Melanie made the bowl, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5453.7
+    },
+    "conv0_q097_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the LGBTQ+ counseling workshop attended by Caroline.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly mentions the LGBTQ+ counseling workshop, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4434.0
+    },
+    "conv0_q105_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions lessons in self-acceptance and finding support, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 7072.7
+    },
+    "conv0_q107_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly addresses the gold answer by mentioning that Melanie runs to de-stress and for her headspace and mental health.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer captures the key elements of the gold answer by mentioning de-stressing and mental headspace.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly addresses the gold answer by mentioning running to de-stress and for mental headspace.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5154.7
+    },
+    "conv0_q106_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly states that the shoes are used for running, which matches the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly states that the shoes are used for running, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies running as the purpose of the new shoes.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5783.0
+    },
+    "conv0_q109_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly states that they made pots during the workshop.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies that Mel and her kids made pots during the workshop.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer includes the gold answer by stating that Melanie and her kids made pots.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5427.7
+    },
+    "conv0_q108_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions that running has been great for her mental health, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions that running has been great for her mental health, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly states that running has been great for her mental health, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4688.6
+    },
+    "conv0_q114_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer stating that sunflowers represent warmth and happiness.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer stating that sunflowers represent warmth and happiness.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4666.6
+    },
+    "conv0_q112_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer states that they painted flowers, whereas the gold answer specifies that they painted a sunset with a palm tree.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer incorrectly claims they painted flowers instead of a sunset with a palm tree.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"reasoning\": \"The generated answer claims they painted flowers instead of a sunset with a palm tree as stated in the gold answer.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 5175.1
+    },
+    "conv0_q110_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies that they made a cup",
+        "{\"reasoning\": \"The generated answer correctly identifies that they made a cup, capturing the primary item described in the gold answer.\", \"label\": \"CORRECT\"}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies that they made a cup, matching the primary object described in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8322.1
+    },
+    "conv0_q100_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly mentions creating a safe and inviting place for people to grow, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer stating that she wants to create a safe and inviting place for people to grow.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly incorporates the exact sentiment and phrasing of the gold answer, stating she wants to create a safe and inviting place for people to grow.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5335.8
+    },
+    "conv0_q117_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n",
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer by stating that she goes once or twice a year.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly states that Melanie goes to the beach with her kids once or twice a year, which matches the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5635.0
+    },
+    "conv0_q116_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly mentions visiting an LGBTQ center and wanting to capture unity and strength, which accurately matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately captures both key details from the gold answer: visiting an LGBTQ center and desiring to depict unity and strength.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately reflects the key elements of the gold answer, noting both the visit to an LGBTQ center and the desire to capture unity and strength.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5716.7
+    },
+    "conv0_q111_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies painting as the creative project Mel and her kids do together.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies painting as the creative project Mel and her kids do together, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly states that Mel and her kids love painting together, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5334.3
+    },
+    "conv0_q120_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer accurately identifies Melanie's daughter as the person whose birthday was celebrated, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"explanation\": \"The generated answer accurately states that Melanie celebrated her daughter's birthday, matching the gold answer.\", \"label\": \"CORRECT\"}",
+        "{\n  \"reasoning\": \"The generated answer directly identifies Melanie's daughter as the person whose birthday was celebrated, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5829.0
+    },
+    "conv0_q119_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly states that Melanie felt in awe of the universe, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions that Melanie felt in awe of the universe, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that Melanie felt in awe of the universe, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5107.8
+    },
+    "conv0_q113_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly mirrors the gold answer, stating that Caroline saw many people who wanted to create loving homes for children in need.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately and directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately and directly matches the gold answer stating that she saw many people who wanted to create loving homes for children in need.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5087.8
+    },
+    "conv0_q123_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies Caroline's pet as a guinea pig, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies Caroline's pet as a guinea pig.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies Caroline's pet as a guinea pig.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4179.9
+    },
+    "conv0_q122_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly mentions that she wanted to catch the eye and make people smile, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4813.2
+    },
+    "conv0_q125_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer stating that Oliver hid his bone in Melanie's slipper.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer, identifying Melanie's slipper as the hiding place.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly matches the gold answer by stating that Oliver hid his bone in Melanie's slipper.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5425.1
+    },
+    "conv0_q124_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Melanie has a dog and two cats, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies that Melanie has a dog and two cats, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5474.5
+    },
+    "conv0_q115_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer captures both key reasons from the gold answer: appreciating the small moments and being an important part of her wedding decor.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer captures both key aspects of the gold answer: appreciating small moments and their role in her wedding decor.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 79303.7
+    },
+    "conv0_q118_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "WRONG",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n  ",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the Perseid meteor shower as what Melanie and her family saw during their camping trip.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately identifies the Perseid meteor shower, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 9386.7
+    },
+    "conv0_q121_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies Matt Patterson as the performer, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies Matt Patterson as the performer, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies Matt Patterson as the performer, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6102.7
+    },
+    "conv0_q127_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer precisely matches the gold answer stating that Caroline made a stained glass window.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer accurately and completely matches the gold answer that Caroline made a stained glass window.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer stating that she made a stained glass window.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4820.1
+    },
+    "conv0_q130_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies Bach and Mozart, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly names Bach and Mozart, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer directly names Bach and Mozart, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5173.6
+    },
+    "conv0_q128_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the rainbow sidewalk that Caroline found during her walk.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the rainbow sidewalk found during her walk, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies that Caroline found a rainbow sidewalk on her walk.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5821.1
+    },
+    "conv0_q126_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer directly identifies horseback riding as the activity Caroline did with her dad, which matches the gold answer perfectly.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies horseback riding as the activity Caroline used to do with her dad.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5757.3
+    },
+    "conv0_q131_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "WRONG",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 2,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies Ed Sheeran as the modern music artist Melanie is a fan of.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies Ed Sheeran as the modern music artist Melanie is a fan of.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 8480.0
+    },
+    "conv0_q135_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer completely matches the gold answer stating that Melanie got hurt and had to take a break from pottery.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly states that Melanie got hurt and had to take a break from pottery, perfectly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches the gold answer stating that Melanie got hurt and had to take a break from pottery.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5279.7
+    },
+    "conv0_q133_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer incorrectly claims that the content of the sign is not specified in the chat history, whereas the gold answer provides the specific information.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n \"explanation\": \"The generated answer incorrectly claims that what the sign said is not specified, missing the detail provided in the gold answer.\",\n \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer incorrectly claims that the details of the sign were not specified, failing to provide the actual information found in the gold answer.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 7186.5
+    },
+    "conv0_q134_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer covers all the specific points mentioned in the gold answer: doing research, finding an agency or lawyer, gathering documents, and preparing emotionally.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer precisely matches all the components of the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5194.9
+    },
+    "conv0_q129_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer directly and accurately matches the song and artist specified in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly and accurately names the song 'Brave' by Sara Bareilles, fully matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies 'Brave' by Sara Bareilles as the song that motivates Caroline.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5594.1
+    },
+    "conv0_q136_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer mentions both reading a book and painting, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies reading a book and painting as the activities Melanie does during her break.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4875.5
+    },
+    "conv0_q132_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies that Melanie has been creating art for seven years, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly identifies the duration as seven years, directly matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that Melanie has been creating art for seven years, which directly matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4619.7
+    },
+    "conv0_q137_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the sunset-inspired painting mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the sunset-inspired painting Melanie showed to Caroline.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly identifies the sunset-inspired painting mentioned in the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 34394.0
+    },
+    "conv0_q139_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer completely and accurately captures the subject of the poetry reading as stated in the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer accurately describes the event as a transgender poetry reading where transgender people shared their stories.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer completely matches the gold answer, identifying the event as a transgender poetry reading where transgender individuals shared their stories.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4947.8
+    },
+    "conv0_q140_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer incorrectly claims that the text on the posters was not specified instead of stating that they said 'Trans Lives Matter'.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer fails to mention the slogan 'Trans Lives Matter' and incorrectly claims the text on the posters was not specified.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 18194.7
+    },
+    "conv0_q143_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer correctly states that Melanie's son was involved in an accident during their road trip.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer correctly and directly states that Melanie's son was involved in an accident, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4876.5
+    },
+    "conv0_q142_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions that their journey is described as 'an ongoing adventure of learning and growing', matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\"label\": \"CORRECT\"}",
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions the phrase 'an ongoing adventure of learning and growing' from the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5881.5
+    },
+    "conv0_q145_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer captures the sentiment of the gold answer directly by stating that her family means the world to her and that she cherishes them.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer directly states that her family means the world to her and details how important they are to her following the accident.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer explicitly states that her family means the world to her and that she cherishes them, which directly aligns with the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 6371.0
+    },
+    "conv0_q138_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\"explanation\": \"The generated answer",
+        "{\n  \"reasoning\":",
+        "{\n"
+      ],
+      "judge_latency_ms": 8380.9
+    },
+    "conv0_q141_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer correctly identifies both freedom and staying true to herself as the key symbolisms of Caroline's drawing.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer explicitly mentions both freedom and staying true to herself, matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer covers the key aspects of the gold answer, stating that the drawing symbolizes freedom and staying true to herself.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4734.4
+    },
+    "conv0_q146_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer captures that the children were scared and notes they are tough kids, which directly reflects being scared but resilient.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer mentions that the children were scared and notes that they are tough kids, which directly aligns with being scared but resilient.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"reasoning\": \"The generated answer captures that the children were both scared and resilient (noting they are tough kids), matching the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5908.5
+    },
+    "conv0_q148_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer accurately captures Melanie's feelings of gratitude and happiness.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer captures that Melanie felt thankful and relieved, which aligns closely with being happy and thankful.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer mentions that Melanie expressed gratitude, which directly aligns with the gold answer's description of her being thankful.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5096.3
+    },
+    "conv0_q149_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer includes both strength and motivation, accurately reflecting the core points of the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer includes strength and motivation as given to Melanie by her family, which matches the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer includes both strength and motivation, directly aligning with the gold answer.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4694.1
+    },
+    "conv0_q144_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer fails to confirm that Melanie's son was scared but reassured, instead stating that the chat history does not specify how he handled it.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"reasoning\": \"The generated answer incorrectly claims that the information is not specified for Melanie's son rather than affirming that he was scared but reassured.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"reasoning\": \"The generated answer incorrectly claims that the information is not specified for Melanie's son and fails to confirm that he was scared but reassured.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 6028.2
+    },
+    "conv0_q150_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"explanation\": \"The generated answer explicitly states that Melanie felt grateful and appreciated them a lot, aligning directly with the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}",
+        "{\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 4587.9
+    },
+    "conv0_q147_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "CORRECT",
+      "correct": true,
+      "votes": [
+        "CORRECT",
+        "CORRECT",
+        "CORRECT"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 3,
+      "explanations": [
+        "{\n  \"reasoning\": \"The generated answer covers that she felt thankful, cherished her family, and was grateful to have them, which aligns with the gold answer.\",\n  \"label\": \"CORRECT\"\n}",
+        "{\n \"reasoning\": \"The generated answer accurately reflects the gold answer by stating that Melanie felt lucky, relieved, and deeply thankful for her family after the accident.\",\n \"label\": \"CORRECT\"\n}",
+        "{\n  \"explanation\": \"The generated answer captures that Melanie felt thankful, grateful, and deeply appreciative of her family after the accident.\",\n  \"label\": \"CORRECT\"\n}"
+      ],
+      "judge_latency_ms": 5953.2
+    },
+    "conv0_q151_cat4": {
+      "category": 4,
+      "category_name": "single-hop",
+      "label": "WRONG",
+      "correct": false,
+      "votes": [
+        "WRONG",
+        "WRONG",
+        "WRONG"
+      ],
+      "seeds": [
+        7,
+        13,
+        42
+      ],
+      "n_correct": 0,
+      "explanations": [
+        "{\n  \"explanation\": \"",
+        "{\n  \"explanation\": \"Going on a camping trip with family is distinctly different from going on a nature walk or hike.\",\n  \"label\": \"WRONG\"\n}",
+        "{\n  \"explanation\": \"The generated answer states that Melanie went on a camping trip, which is distinct from going on a nature walk or hike as specified in the gold answer.\",\n  \"label\": \"WRONG\"\n}"
+      ],
+      "judge_latency_ms": 8064.8
+    }
+  }
+}

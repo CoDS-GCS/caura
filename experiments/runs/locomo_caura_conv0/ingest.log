@@ -1,0 +1,9 @@
+[2026-11-27T01:38:55.025309+00:00] probe gemini-3.1-flash-lite: FAILED: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'Publisher model `projects/project-6daf51c7-b33c-415b-954/locations/us-central1/publishers/google/models/gemini-3.1-flash-lite` was not found or your 
+[2026-11-27T01:39:16.263508+00:00] probe gemini-3.8-flash: FAILED: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'Publisher model `projects/project-6daf51c7-b33c-415b-954/locations/us-central1/publishers/google/models/gemini-3.8-flash` was not found or your proje
+[2026-11-27T14:05:45.872661+00:00] probe gemini-3.1-flash-lite: ok (global) version=gemini-3.1-flash-lite 1364ms
+[2026-11-27T14:05:47.442277+00:00] probe gemini-3.8-flash: ok (global) version=gemini-3.8-flash 1557ms
+[2026-11-27T14:05:47.914087+00:00] reset agent locomo-conv-0
+[2026-11-27T14:05:57.095202+00:00] ingested 23 memories into locomo-conv-0 (23 session chunks, chunk_chars=4000, write_mode=strong) in 9.2s
+[2026-11-27T14:06:00.332570+00:00] settled after 0.0s: total=23 pending={'embedding': 0, 'enrichment': 0, 'fanout': 0}
+[2026-11-27T14:06:00.333510+00:00] settled flipped; waiting 60s grace then checking stranded.embedding
+[2026-11-27T14:07:00.354055+00:00] stranded.embedding=0; store settled. total=23
