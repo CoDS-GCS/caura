@@ -8,60 +8,58 @@ credits): the Caura server's **memory creation** (platform LLM) and the harness
 has no Vertex option there). gpt-4o second judge stays on OpenAI.
 
 Vertex auth is **Application Default Credentials (ADC)** — project + location, no
-API key. Two consumers need ADC:
+API key. **Service-account keys are blocked by org policy
+(`iam.disableServiceAccountKeyCreation`)**, so both consumers use the operator's
+**user ADC** (`authorized_user`) at
+`~/.config/gcloud/application_default_credentials.json`, whose
+`quota_project_id` is already `project-6daf51c7-b33c-415b-954`.
 
 | consumer | how it gets ADC |
 |---|---|
-| Caura `core-api` (in Docker) | a **service-account JSON key** mounted into the container, `GOOGLE_APPLICATION_CREDENTIALS` pointing at it |
-| the harness (reader/judge, on the VM) | your **user ADC** via `gcloud auth application-default login` (or the same SA key via `GOOGLE_APPLICATION_CREDENTIALS`) |
+| the harness (reader/judge, on the VM) | user ADC at the default path — read automatically; **do not** set `GOOGLE_APPLICATION_CREDENTIALS` |
+| Caura `core-api` (in Docker) | the same ADC file **mounted read-only** into the container, `GOOGLE_APPLICATION_CREDENTIALS` → the mounted path |
 
-## 1. In the Google Cloud console (project `project-6daf51c7-b33c-415b-954`)
+## 1. In the Google Cloud console / gcloud (project `project-6daf51c7-b33c-415b-954`)
 
-1. **Enable the Vertex AI API** — APIs & Services → Enable APIs → "Vertex AI API" → Enable.
-   (CLI equivalent: `gcloud services enable aiplatform.googleapis.com --project project-6daf51c7-b33c-415b-954`)
-2. **Create a service account** — IAM & Admin → Service Accounts → Create:
-   name e.g. `caura-locomo-vertex`.
-3. **Grant it `roles/aiplatform.user`** (Vertex AI User) on the project.
-   (CLI: `gcloud projects add-iam-policy-binding project-6daf51c7-b33c-415b-954 \
-     --member serviceAccount:caura-locomo-vertex@project-6daf51c7-b33c-415b-954.iam.gserviceaccount.com \
-     --role roles/aiplatform.user`)
-4. **Create a JSON key** for that SA → download it. Place it **outside git**, e.g.:
+1. **Enable the Vertex AI API**: `gcloud services enable aiplatform.googleapis.com --project project-6daf51c7-b33c-415b-954`
+   (or console → APIs & Services → enable "Vertex AI API").
+2. **User ADC with a quota project** (one-time, already done on this VM):
+   ```bash
+   gcloud auth application-default login
+   gcloud auth application-default set-quota-project project-6daf51c7-b33c-415b-954
    ```
-   mkdir -p /shared_mnt/loubna/caura/secrets
-   mv ~/Downloads/<key>.json /shared_mnt/loubna/caura/secrets/vertex-sa.json
-   chmod 600 /shared_mnt/loubna/caura/secrets/vertex-sa.json
-   ```
-   `secrets/` and `*vertex*sa*.json` are gitignored — the key is never committed.
+   This writes `~/.config/gcloud/application_default_credentials.json`
+   (`type: authorized_user`, `quota_project_id` set). No SA key needed, so the
+   `iam.disableServiceAccountKeyCreation` policy is not involved.
 
 ## 2. Point Caura `core-api` at Vertex (memory creation)
 
-From the repo root, mount the key and set the platform-LLM env by layering the
-override, then restart **only** core-api:
+Mount the **ADC file** (not a key) and set the platform-LLM env via the override,
+then restart **only** core-api:
 
 ```bash
 cd /shared_mnt/loubna/caura
-LOCOMO_VERTEX_SA_KEY=/shared_mnt/loubna/caura/secrets/vertex-sa.json \
+LOCOMO_VERTEX_ADC=$HOME/.config/gcloud/application_default_credentials.json \
 docker compose -f docker-compose.yml -f docker-compose.override.yml \
   -f experiments/harness/locomo/docker-compose.vertex.yml up -d core-api
 ```
 
 This sets `PLATFORM_LLM_PROVIDER=vertex`, `PLATFORM_LLM_MODEL=gemini-3.1-flash-lite`,
-the project/location, `ENTITY_EXTRACTION_PROVIDER=gemini`, and mounts the key at
-`/secrets/vertex-sa.json`. After it restarts, `core-api` logs
+the project/location/quota-project, `ENTITY_EXTRACTION_PROVIDER=gemini`, and mounts
+the ADC read-only at `/secrets/adc.json` with `GOOGLE_APPLICATION_CREDENTIALS`
+pointing there. After it restarts, `core-api` logs
 `Platform LLM: vertex/gemini-3.1-flash-lite`. `run_locomo.sh --check` asserts all
 of this and **fails if memory creation could fall back to OpenAI**.
 
+The ADC file is mounted from `$HOME` and is **never copied into the repo**;
+`.gitignore` covers `application_default_credentials.json` / `adc*.json` / `secrets/`.
+
 ## 3. Harness ADC (reader / judge, on the VM)
 
-```bash
-gcloud auth application-default login            # opens a browser/device flow
-# or, to reuse the SA key non-interactively:
-export GOOGLE_APPLICATION_CREDENTIALS=/shared_mnt/loubna/caura/secrets/vertex-sa.json
-```
-
-Tip: if you need to run the interactive login in this session, type it with a
-leading `!` in the prompt so its output lands here:
-`! gcloud auth application-default login`
+Nothing to do — `run_locomo.sh` exports `GOOGLE_CLOUD_QUOTA_PROJECT` and the
+google-genai client reads the user ADC from `~/.config/gcloud` automatically.
+`GOOGLE_APPLICATION_CREDENTIALS` is deliberately left unset (pointing it at a
+missing SA key would break ADC).
 
 ## 4. Verify (free, then one tiny paid call)
 

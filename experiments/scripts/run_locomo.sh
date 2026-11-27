@@ -32,6 +32,12 @@ OUT="$REPO/experiments/runs/$RUN"
 export LOCOMO_VERTEX=1
 export GOOGLE_CLOUD_PROJECT="${GOOGLE_CLOUD_PROJECT:-project-6daf51c7-b33c-415b-954}"
 export GOOGLE_CLOUD_LOCATION="${GOOGLE_CLOUD_LOCATION:-us-central1}"
+# User ADC (authorized_user) needs a quota project for Vertex. The ADC file
+# already carries quota_project_id; set the env too so the SDK can't miss it.
+# Deliberately do NOT export GOOGLE_APPLICATION_CREDENTIALS for the harness — the
+# google-genai client reads ADC from ~/.config/gcloud automatically; pointing it
+# at a nonexistent SA key would break it.
+export GOOGLE_CLOUD_QUOTA_PROJECT="${GOOGLE_CLOUD_QUOTA_PROJECT:-$GOOGLE_CLOUD_PROJECT}"
 export LOCOMO_DATA_PATH="${LOCOMO_DATA_PATH:-$HARNESS/data/locomo10.json}"
 export LOCOMO_READER_MODEL="${LOCOMO_READER_MODEL:-gemini-3.8-flash}"
 export LOCOMO_JUDGE_MODEL="${LOCOMO_JUDGE_MODEL:-gemini-3.8-flash}"
@@ -146,11 +152,16 @@ except Exception: print(0)")"
   [[ "$ee" == gemini ]] || die "ENTITY_EXTRACTION_PROVIDER='$ee' (expected gemini / AI Studio)"
   [[ -n "$gac" ]] || die "core-api GOOGLE_APPLICATION_CREDENTIALS unset (mount the SA key — CREDENTIALS.md)"
   docker exec caura-core-api-1 test -f "$gac" || die "core-api SA key not found at $gac (not mounted)"
-  # confirm the platform LLM actually initialised as Vertex (not silently fell back)
-  if (cd "$REPO" && docker compose logs core-api --since 72h 2>&1) | grep -qiE 'vertex-llm-config|Failed to initialize platform Vertex'; then
+  # confirm the platform LLM actually initialised as Vertex (not silently fell back).
+  # Capture logs into a string first: `... | grep -q` under `set -o pipefail` makes
+  # grep close the pipe on first match, SIGPIPE-kills `docker logs`, and the pipeline
+  # then reports failure despite the match — which both masked init errors and
+  # produced a false "not on Vertex" warning.
+  local calogs; calogs="$(docker logs caura-core-api-1 2>&1 | tail -2000)"
+  if grep -qiE 'vertex-llm-config|Failed to initialize platform Vertex' <<<"$calogs"; then
     die "core-api logged a Vertex platform-LLM init error — memory creation would fall back. Fix creds and restart core-api."
   fi
-  (cd "$REPO" && docker compose logs core-api --since 72h 2>&1) | grep -qi 'Platform LLM: vertex' \
+  grep -qi 'Platform LLM: vertex' <<<"$calogs" \
     || log "WARN: did not see 'Platform LLM: vertex' in recent core-api logs (restart core-api after setting PLATFORM_LLM_*)"
 
   # harness ADC present (for reader/judge Vertex)
