@@ -315,8 +315,9 @@ do_answer(){
   [[ $fz -eq 0 ]] || stop_run "store changed during answering (see frozen_before/after.json)"
   log "=== JUDGE (gemini-3.8-flash 3-vote + gpt-4o) -> $OUT/eval.log ==="
   run_resumable judge "$OUT/eval.log" -- locomo judge --out "$OUT"
-  log "=== SUMMARY (summary.md + compare_authors.md) ==="
-  locomo summary --out "$OUT" --prices "$REPO/experiments/configs/prices.json" 2>&1 | tee -a "$OUT/eval.log"
+  log "=== COLLECT (traces + summary.md + compare_authors.md + results folder; no paid calls) ==="
+  locomo collect --out "$OUT" --prices "$REPO/experiments/configs/prices.json" \
+    --results "$REPO/experiments/results/$RUN" 2>&1 | tee -a "$OUT/eval.log"
   ( cd "$REPO" && docker compose logs --since "$(python3 -c "import json;print(json.load(open('$OUT/manifest.json')).get('started_utc','24h'))" 2>/dev/null || echo 24h)" > "$OUT/caura_logs.txt" 2>&1 ) || true
 }
 

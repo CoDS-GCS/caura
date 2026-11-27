@@ -127,30 +127,56 @@ class LocomoCauraProvider:
             raise RuntimeError(f"bulk write failed [{resp.status_code}]: {resp.text[:400]}")
         return resp.json().get("created", 0)
 
-    def ingest_chunks(self, unit_id: str, chunks: list) -> int:
-        """Store the conversation's session chunks under one agent. chunks: list[SessionChunk]."""
+    def ingest_chunks(self, unit_id: str, chunks: list) -> tuple[int, list[dict]]:
+        """Store the conversation's session chunks under one agent.
+
+        Returns ``(created, records)`` where ``records`` is one dict per memory with
+        its size, dia_ids, and the per-batch ingest latency (the bulk call writes a
+        batch at once, so the latency is the batch's, shared across its items) — for
+        ingest_trace.json.
+        """
         agent = self.agent_id(unit_id)
         created = 0
+        records: list[dict] = []
         batch: list[dict] = []
-        for i, c in enumerate(chunks):
+        batch_meta: list[dict] = []
+
+        def _flush(bi: int):
+            nonlocal created
+            if not batch:
+                return
+            t0 = time.perf_counter()
+            n = self._bulk_write(agent, batch)
+            dt = (time.perf_counter() - t0) * 1000
+            created += n
+            for m in batch_meta:
+                m["batch_index"] = bi
+                m["batch_items"] = len(batch)
+                m["batch_latency_ms"] = round(dt, 1)
+                m["ingest_latency_ms"] = round(dt / max(1, len(batch)), 1)  # amortised
+                records.append(m)
+            batch.clear(); batch_meta.clear()
+
+        bi = 0
+        for c in chunks:
+            doc_id = f"{agent}_s{c.session_idx}_p{c.part}"
             batch.append({
                 "content": c.content,
                 "ts_valid_start": c.session_date_iso,
                 "write_mode": self.write_mode,   # per-item: embed inline (searchable at write time)
                 "metadata": {
-                    "doc_id": f"{agent}_s{c.session_idx}_p{c.part}",
-                    "session_idx": c.session_idx,
-                    "session_date": c.session_date,
-                    "part": c.part,
-                    "dia_ids": c.dia_ids,
+                    "doc_id": doc_id, "session_idx": c.session_idx,
+                    "session_date": c.session_date, "part": c.part, "dia_ids": c.dia_ids,
                 },
             })
+            batch_meta.append({
+                "doc_id": doc_id, "session_idx": c.session_idx, "part": c.part,
+                "size_chars": len(c.content), "n_dia_ids": len(c.dia_ids), "dia_ids": c.dia_ids,
+            })
             if len(batch) >= self.bulk_size:
-                created += self._bulk_write(agent, batch)
-                batch = []
-        if batch:
-            created += self._bulk_write(agent, batch)
-        return created
+                _flush(bi); bi += 1
+        _flush(bi)
+        return created, records
 
     # ---------------------------------------------------------------- search
     def search(self, unit_id: str, query: str) -> tuple[list[dict], dict]:

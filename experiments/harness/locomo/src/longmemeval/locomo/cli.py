@@ -134,6 +134,18 @@ def cmd_probe_vertex(args):
 
 
 # ----------------------------------------------------------------- ingest
+# Derived ingest-token model: the server does not expose per-memory LLM usage via
+# the API in standalone, so memory-creation (Vertex) and entity-extraction (AI
+# Studio) tokens are DERIVED from the stored size and labelled as such.
+ENRICH_PROMPT_OVERHEAD_IN = 400   # enrichment/NER prompt template tokens per call
+ENRICH_OUT_EST = 150              # enrichment/NER JSON output tokens per call
+
+
+def _derived_ingest_tokens(size_chars: int) -> dict:
+    tin = size_chars // 4 + ENRICH_PROMPT_OVERHEAD_IN
+    return {"in": tin, "out": ENRICH_OUT_EST, "derived": True}
+
+
 def cmd_ingest(args):
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -143,10 +155,37 @@ def cmd_ingest(args):
         if not args.no_reset:
             prov.reset(UNIT)
             _log(f"reset agent {prov.agent_id(UNIT)}")
-        created = prov.ingest_chunks(UNIT, conv.chunks)
+        t0 = time.perf_counter()
+        created, records = prov.ingest_chunks(UNIT, conv.chunks)
+        ingest_wall_s = time.perf_counter() - t0
         _log(f"ingested {created} memories into {prov.agent_id(UNIT)} "
-             f"({len(conv.chunks)} session chunks, chunk_chars={CHUNK_CHARS}, write_mode=strong)")
+             f"({len(conv.chunks)} session chunks, chunk_chars={CHUNK_CHARS}, write_mode=strong) in {ingest_wall_s:.1f}s")
         st = prov.stats(UNIT)
+        # per-memory ingest trace with derived enrichment tokens
+        mc_in = mc_out = ee_in = ee_out = 0
+        for m in records:
+            m["memory_creation_tokens"] = _derived_ingest_tokens(m["size_chars"])    # Vertex
+            m["entity_extraction_tokens"] = _derived_ingest_tokens(m["size_chars"])  # AI Studio
+            mc_in += m["memory_creation_tokens"]["in"]; mc_out += m["memory_creation_tokens"]["out"]
+            ee_in += m["entity_extraction_tokens"]["in"]; ee_out += m["entity_extraction_tokens"]["out"]
+        ingest_trace = {
+            "agent_id": prov.agent_id(UNIT), "memories_created": created,
+            "chunks": len(conv.chunks), "chunk_chars": CHUNK_CHARS, "write_mode": "strong",
+            "ingest_wall_seconds": round(ingest_wall_s, 1),
+            "settle_time_s": None,  # filled by `settle`
+            "token_estimation": {
+                "method": "derived",
+                "formula": f"in = size_chars/4 + {ENRICH_PROMPT_OVERHEAD_IN}; out = {ENRICH_OUT_EST}; one call each for memory_creation (Vertex gemini-3.1-flash-lite) and entity_extraction (AI Studio gemini-3.1-flash-lite) per memory",
+                "reason": "server does not expose per-memory LLM token usage via the API in standalone",
+            },
+            "totals": {
+                "memory_creation": {"in": mc_in, "out": mc_out, "model": MEMORY_MODEL, "provider": "vertex", "derived": True},
+                "entity_extraction": {"in": ee_in, "out": ee_out, "model": MEMORY_MODEL, "provider": "ai_studio", "derived": True},
+                "embeddings": {"model": "BAAI/bge-m3", "provider": "local_gpu", "cost": 0.0},
+            },
+            "memories": records,
+        }
+        (out / "ingest_trace.json").write_text(json.dumps(ingest_trace, indent=2, ensure_ascii=False), encoding="utf-8")
         manifest_merge(out, {"ingest": {
             "agent_id": prov.agent_id(UNIT), "memories_created": created,
             "chunks": len(conv.chunks), "chunk_chars": CHUNK_CHARS, "write_mode": "strong",
@@ -163,12 +202,15 @@ def cmd_settle(args):
     out = Path(args.out)
     prov = _provider()
     try:
-        deadline = time.time() + args.timeout
+        t_start = time.time()
+        deadline = t_start + args.timeout
         st = {}
+        settle_time_s = None
         while time.time() < deadline:
             st = prov.stats(UNIT)
             if st.get("settled") is True:
-                _log(f"settled: total={st.get('total')} pending={st.get('pending')}")
+                settle_time_s = round(time.time() - t_start, 1)
+                _log(f"settled after {settle_time_s}s: total={st.get('total')} pending={st.get('pending')}")
                 break
             _log(f"not settled yet: pending={st.get('pending')} — waiting")
             time.sleep(args.interval)
@@ -176,6 +218,14 @@ def cmd_settle(args):
             _log("settle timed out")
             (out / "store_stats.json").write_text(json.dumps(st, indent=2), encoding="utf-8")
             sys.exit(3)
+        # record settle time into ingest_trace.json
+        itp = out / "ingest_trace.json"
+        if itp.exists():
+            try:
+                it = json.loads(itp.read_text()); it["settle_time_s"] = settle_time_s
+                itp.write_text(json.dumps(it, indent=2, ensure_ascii=False), encoding="utf-8")
+            except Exception:
+                pass
         _log("settled flipped; waiting 60s grace then checking stranded.embedding")
         time.sleep(60)
         st = prov.stats(UNIT)
@@ -279,17 +329,23 @@ def cmd_answer(args):
             entry = {
                 "question_id": q.question_id, "question": q.question, "answer": q.answer,
                 "category": q.category, "category_name": q.category_name, "evidence": q.evidence,
-                "hypothesis": hypothesis, "context": context,
+                "hypothesis": hypothesis, "context": context, "context_chars": len(context),
                 "retrieve_time_ms": retrieve_ms, "generate_time_ms": gen_ms,
                 "pipeline": "agentic-v1", "pipeline_trace": trace,
                 "retrieval_stats": rstats, "reader_usage": usage,
                 "retrieved_dia_ids": retrieved_dia, "evidence_hit": evidence_hit,
-                "retrieved_preview": [
-                    {"content": str(it.get("content") or "")[:200],
-                     "similarity": it.get("similarity"),
-                     "dia_ids": (it.get("metadata") or {}).get("dia_ids")}
-                    for it in items[:TOP_K]
-                ],
+                "retrieval": {
+                    "query": q.question,
+                    "retrieve_latency_ms": round(retrieve_ms, 1),
+                    "candidates": [
+                        {"memory_id": it.get("id"),
+                         "score": it.get("score"),
+                         "similarity": it.get("similarity"),
+                         "dia_ids": (it.get("metadata") or {}).get("dia_ids"),
+                         "text": str(it.get("content") or "")[:1200]}
+                        for it in items
+                    ],
+                },
             }
             with lock:
                 with open(hyp_path, "a", encoding="utf-8") as f:
@@ -343,9 +399,6 @@ def cmd_judge(args):
     out = Path(args.out)
     hyp_path = out / "hypotheses.jsonl"
     hyps = _read_hyps(hyp_path)
-    traces_dir = out / "traces"
-    traces_dir.mkdir(parents=True, exist_ok=True)
-
     from .guards import ContainerWatch, FailStreak, GUARD_EXIT_CODE, write_stopped
     gemini = GeminiLLM(model_name=JUDGE_MODEL)   # no thinking budget on judge
     gpt4o = OpenAILLM(model_name=SECOND_JUDGE_MODEL)
@@ -388,8 +441,12 @@ def cmd_judge(args):
         try:
             if os.environ.get("LOCOMO_FORCE_FAIL"):
                 raise RuntimeError("forced failure (LOCOMO_FORCE_FAIL test; no paid call)")
+            tg = time.perf_counter()
             gv = judge.judge_gemini(h["question"], h["answer"], h["hypothesis"])
+            gv_ms = (time.perf_counter() - tg) * 1000
+            to = time.perf_counter()
             ov = judge.judge_gpt4o(h["question"], h["answer"], h["hypothesis"])
+            ov_ms = (time.perf_counter() - to) * 1000
             streak.ok()
         except Exception as e:
             n = streak.fail()
@@ -397,18 +454,12 @@ def cmd_judge(args):
             if streak.tripped():
                 _stop(f"3 consecutive judge failures; last error: {type(e).__name__}: {str(e)[:200]}")
             continue
+        gv["judge_latency_ms"] = round(gv_ms, 1)
+        ov["judge_latency_ms"] = round(ov_ms, 1)
         g_verdicts[qid] = {"category": h["category"], "category_name": h["category_name"], **gv}
         o_verdicts[qid] = {"category": h["category"], "category_name": h["category_name"], **ov}
-        # trace per question
-        (traces_dir / f"{qid}.json").write_text(json.dumps({
-            "question_id": qid, "question": h["question"], "gold_answer": h["answer"],
-            "category": h["category"], "category_name": h["category_name"],
-            "evidence": h["evidence"], "evidence_hit": h.get("evidence_hit"),
-            "hypothesis": h["hypothesis"], "retrieval_stats": h["retrieval_stats"],
-            "retrieved_preview": h.get("retrieved_preview"),
-            "pipeline_trace": h.get("pipeline_trace"), "reader_usage": h.get("reader_usage"),
-            "judge_gemini3vote": gv, "judge_gpt4o": ov,
-        }, indent=2, ensure_ascii=False), encoding="utf-8")
+        # Full per-question traces are written by `collect` (post-processing, free):
+        # they need the stored-dia set + both eval files for the 4-way failure label.
         _log(f"  [{i}/{len(hyps)}] {qid} gemini={gv['label']}({gv['n_correct']}/3) gpt4o={ov['label']}")
 
     _flush_eval()
@@ -418,10 +469,11 @@ def cmd_judge(args):
     _log(f"gemini 3-vote: {gc}/{len(g_verdicts)}  |  gpt-4o: {oc}/{len(o_verdicts)}")
 
 
-# ----------------------------------------------------------------- summary
-def cmd_summary(args):
-    from .summary import build_summary
-    build_summary(Path(args.out), _load(args), prices_path=args.prices)
+# ----------------------------------------------------------------- collect (post-processing, free)
+def cmd_collect(args):
+    from .collect import build_outputs
+    results_dir = Path(args.results) if args.results else None
+    build_outputs(Path(args.out), _load(args), prices_path=args.prices, results_dir=results_dir)
 
 
 def main():
@@ -435,13 +487,13 @@ def main():
     p = sub.add_parser("frozen-snapshot"); p.add_argument("--out", required=True); p.add_argument("--phase", choices=["before", "after"], required=True)
     p = sub.add_parser("answer"); p.add_argument("--out", required=True); p.add_argument("--concurrency", type=int, default=8)
     p = sub.add_parser("judge"); p.add_argument("--out", required=True); p.add_argument("--rejudge", action="store_true")
-    p = sub.add_parser("summary"); p.add_argument("--out", required=True); p.add_argument("--prices", default=None)
+    p = sub.add_parser("collect"); p.add_argument("--out", required=True); p.add_argument("--prices", default=None); p.add_argument("--results", default=None)
     args = ap.parse_args()
 
     dispatch = {
         "stats": cmd_stats, "probe-vertex": cmd_probe_vertex, "ingest": cmd_ingest,
         "settle": cmd_settle, "frozen-snapshot": cmd_frozen, "answer": cmd_answer,
-        "judge": cmd_judge, "summary": cmd_summary,
+        "judge": cmd_judge, "collect": cmd_collect,
     }
     dispatch[args.cmd](args)
 
