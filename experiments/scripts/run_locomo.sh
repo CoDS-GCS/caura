@@ -19,6 +19,13 @@
 # Credit pause/resume: on a Vertex RESOURCE_EXHAUSTED/429 or OpenAI
 # insufficient_quota, it pauses, probes the model every 15 min for up to 12 h,
 # and resumes automatically; the Python stages resume from disk.
+#
+# Stop guards (each writes $OUT/STOPPED with the reason; resume with --resume):
+#   * 3 consecutive question failures (search/reader/judge, after in-call retries);
+#   * DB or core-api unhealthy / restarted during the run (checked before each
+#     question; STOPPED lists the affected, not-yet-completed questions).
+# Free self-test: LOCOMO_FORCE_FAIL=1 / LOCOMO_FORCE_RESTART=1 trip them with no
+# paid calls (see the commit that added them).
 set -uo pipefail
 
 REPO="$(git -C "$(dirname "${BASH_SOURCE[0]}")" rev-parse --show-toplevel)"
@@ -75,6 +82,19 @@ exec > >(tee -a "$CONSOLE_LOG") 2>&1
 
 log(){ echo "[$(date -Is)] $*"; }
 die(){ echo "[$(date -Is)] FATAL: $*" >&2; exit 1; }
+# A mid-run stop: write the reason to $OUT/STOPPED (resumable) and exit. Use this
+# instead of die() once the run dir exists, so every stop is uniform/resumable.
+stop_run(){ # reason...
+  local reason="$*"
+  [[ -d "$OUT" ]] && python3 - "$OUT/STOPPED" "$reason" <<'PY' 2>/dev/null || true
+import json,sys,datetime
+json.dump({"reason":sys.argv[2],"at":datetime.datetime.now(datetime.timezone.utc).isoformat(),
+           "resume":"bash experiments/scripts/run_locomo.sh --resume"},
+          open(sys.argv[1],"w"),indent=2)
+PY
+  echo "[$(date -Is)] STOPPED: $reason — resumable with: run_locomo.sh --resume" >&2
+  exit 1
+}
 psqlc(){ docker exec caura-db-1 psql -U caura -d caura -tA "$@"; }
 cenv(){ docker exec caura-core-api-1 printenv "$1" 2>/dev/null || true; }
 locomo(){ ( cd "$HARNESS" && uv run python -m longmemeval.locomo.cli "$@" ); }
@@ -118,12 +138,18 @@ run_resumable(){ # phase logfile -- cmd...   (Python stages resume from disk)
   while :; do
     ( "$@" ) 2>&1 | tee -a "$lf"; local rc=${PIPESTATUS[0]}
     [[ $rc -eq 0 ]] && return 0
+    # A Python guard stop (rc=6) already wrote $OUT/STOPPED with the reason and the
+    # affected questions — stop cleanly (resumable), don't mistake it for a credit error.
+    if [[ -f "$OUT/STOPPED" ]]; then
+      echo "[$(date -Is)] STOPPED in $phase: $(python3 -c "import json;print(json.load(open('$OUT/STOPPED')).get('reason'))" 2>/dev/null) — resumable with: run_locomo.sh --resume" >&2
+      exit 1
+    fi
     if grep -qiE 'RESOURCE_EXHAUSTED|429 .*quota|quota exceeded' "$lf"; then
       wait_for_credit vertex "$LOCOMO_READER_MODEL" "$phase"; case $? in 0) continue;; 3) exit 0;; esac
     elif grep -qiE 'insufficient_quota|exceeded your current quota' "$lf"; then
       wait_for_credit openai "$LOCOMO_SECOND_JUDGE_MODEL" "$phase"; case $? in 0) continue;; 3) exit 0;; esac
     fi
-    die "$phase failed (rc=$rc), not a credit error — see $lf"
+    stop_run "$phase failed (rc=$rc), not a credit error — see $lf"
   done
 }
 
@@ -215,9 +241,9 @@ settle_gate(){
     set +e; locomo settle --out "$OUT" 2>&1 | tee -a "$OUT/ingest.log"; local rc=${PIPESTATUS[0]}; set -e 2>/dev/null || true
     case $rc in
       0) log "store settled, stranded.embedding=0"; return 0;;
-      2) tries=$((tries+1)); (( tries>3 )) && die "stranded embeddings persist after $tries backfills"
+      2) tries=$((tries+1)); (( tries>3 )) && stop_run "stranded embeddings persist after $tries backfills"
          log "stranded embeddings — running backfill (attempt $tries)"; backfill;;
-      *) die "settle failed (rc=$rc) — see $OUT/ingest.log";;
+      *) stop_run "settle failed (rc=$rc) — see $OUT/ingest.log";;
     esac
   done
 }
@@ -231,7 +257,7 @@ bad=[json.loads(l).get("question_id") for l in open(sys.argv[1]) if l.strip() an
 print(" ".join(str(b) for b in bad))
 PY
 )"
-  [[ -z "$bad" ]] || die "retrieval returned 0 candidates for: $bad — refusing to judge an invalid run (fix recall, re-run answer; store is intact)."
+  [[ -z "$bad" ]] || stop_run "retrieval returned 0 candidates for: $bad — refusing to judge an invalid run (fix recall, re-run answer; store is intact)."
 }
 
 # ---------------------------------------------------------------- manifest
@@ -286,7 +312,7 @@ do_answer(){
   assert_retrieval_nonempty
   log "=== frozen snapshot AFTER answering (must match before) ==="
   set +e; locomo frozen-snapshot --out "$OUT" --phase after 2>&1 | tee -a "$OUT/run.log"; local fz=${PIPESTATUS[0]}; set -e 2>/dev/null || true
-  [[ $fz -eq 0 ]] || die "store changed during answering (see frozen_before/after.json) — stopping."
+  [[ $fz -eq 0 ]] || stop_run "store changed during answering (see frozen_before/after.json)"
   log "=== JUDGE (gemini-3.8-flash 3-vote + gpt-4o) -> $OUT/eval.log ==="
   run_resumable judge "$OUT/eval.log" -- locomo judge --out "$OUT"
   log "=== SUMMARY (summary.md + compare_authors.md) ==="

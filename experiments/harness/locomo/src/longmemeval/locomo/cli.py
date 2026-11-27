@@ -226,6 +226,8 @@ def _answered_ids(hyp: Path) -> set[str]:
 
 
 def cmd_answer(args):
+    import threading
+    from .guards import ContainerWatch, FailStreak, GuardStop, GUARD_EXIT_CODE, write_stopped
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
     conv = _load(args)
@@ -236,57 +238,96 @@ def cmd_answer(args):
     todo = [q for q in conv.questions if q.question_id not in done]
     _log(f"answering {len(todo)} question(s) ({len(done)} already done), concurrency={args.concurrency}")
 
-    lock = __import__("threading").Lock()
+    lock = threading.Lock()
+    watch = ContainerWatch()
+    streak = FailStreak(limit=3)
+    stop = {"reason": None, "affected": None}
+    stop_lock = threading.Lock()
+
+    def _remaining():
+        answered = _answered_ids(hyp_path)
+        return [q.question_id for q in conv.questions if q.question_id not in answered]
+
+    def _trip(reason):
+        with stop_lock:
+            if stop["reason"] is None:
+                stop["reason"] = reason
+                stop["affected"] = _remaining()
+                _log(f"GUARD STOP: {reason}")
 
     def one(q):
-        t0 = time.perf_counter()
-        items, rstats = prov.search(UNIT, q.question)  # raises CauraRecallError on server failure
-        retrieve_ms = (time.perf_counter() - t0) * 1000
-        context = LocomoCauraProvider.build_context(items)
-        hypothesis, gen_ms, trace, usage = run_reader_pipeline(
-            reader_llm=reader, question=q.question, context=context,
-            question_date=None, pipeline="agentic-v1",
-        )
-        retrieved_dia = sorted({d for it in items for d in ((it.get("metadata") or {}).get("dia_ids") or [])})
-        evidence_hit = bool(set(retrieved_dia) & set(q.evidence)) if q.evidence else None
-        entry = {
-            "question_id": q.question_id, "question": q.question, "answer": q.answer,
-            "category": q.category, "category_name": q.category_name, "evidence": q.evidence,
-            "hypothesis": hypothesis, "context": context,
-            "retrieve_time_ms": retrieve_ms, "generate_time_ms": gen_ms,
-            "pipeline": "agentic-v1", "pipeline_trace": trace,
-            "retrieval_stats": rstats, "reader_usage": usage,
-            "retrieved_dia_ids": retrieved_dia, "evidence_hit": evidence_hit,
-            "retrieved_preview": [
-                {"content": str(it.get("content") or "")[:200],
-                 "similarity": it.get("similarity"),
-                 "dia_ids": (it.get("metadata") or {}).get("dia_ids")}
-                for it in items[:TOP_K]
-            ],
-        }
-        with lock:
-            with open(hyp_path, "a", encoding="utf-8") as f:
-                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
-        return q.question_id, rstats.get("search_candidates", 0)
+        if stop["reason"]:
+            return
+        # DB + core-api health before each question (and restart detection).
+        bad = watch.check()
+        if bad:
+            _trip(f"DB/core-api health changed during run: {', '.join(bad)}")
+            return
+        try:
+            if os.environ.get("LOCOMO_FORCE_FAIL"):
+                raise RuntimeError("forced failure (LOCOMO_FORCE_FAIL test; no paid call)")
+            t0 = time.perf_counter()
+            items, rstats = prov.search(UNIT, q.question)  # raises CauraRecallError on server failure
+            retrieve_ms = (time.perf_counter() - t0) * 1000
+            context = LocomoCauraProvider.build_context(items)
+            hypothesis, gen_ms, trace, usage = run_reader_pipeline(
+                reader_llm=reader, question=q.question, context=context,
+                question_date=None, pipeline="agentic-v1",
+            )
+            retrieved_dia = sorted({d for it in items for d in ((it.get("metadata") or {}).get("dia_ids") or [])})
+            evidence_hit = bool(set(retrieved_dia) & set(q.evidence)) if q.evidence else None
+            entry = {
+                "question_id": q.question_id, "question": q.question, "answer": q.answer,
+                "category": q.category, "category_name": q.category_name, "evidence": q.evidence,
+                "hypothesis": hypothesis, "context": context,
+                "retrieve_time_ms": retrieve_ms, "generate_time_ms": gen_ms,
+                "pipeline": "agentic-v1", "pipeline_trace": trace,
+                "retrieval_stats": rstats, "reader_usage": usage,
+                "retrieved_dia_ids": retrieved_dia, "evidence_hit": evidence_hit,
+                "retrieved_preview": [
+                    {"content": str(it.get("content") or "")[:200],
+                     "similarity": it.get("similarity"),
+                     "dia_ids": (it.get("metadata") or {}).get("dia_ids")}
+                    for it in items[:TOP_K]
+                ],
+            }
+            with lock:
+                with open(hyp_path, "a", encoding="utf-8") as f:
+                    f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+            streak.ok()
+            return ("ok", q.question_id, rstats.get("search_candidates", 0))
+        except Exception as e:
+            n = streak.fail()
+            _log(f"  FAIL {q.question_id} ({n} in a row): {type(e).__name__}: {str(e)[:200]}")
+            if streak.tripped():
+                _trip(f"3 consecutive question failures; last error: {type(e).__name__}: {str(e)[:200]}")
+            return ("fail", q.question_id, str(e))
 
-    errors = []
+    results = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=args.concurrency) as pool:
         futs = {pool.submit(one, q): q for q in todo}
         n = len(done)
         for fut in concurrent.futures.as_completed(futs):
-            q = futs[fut]
-            try:
-                qid, sc = fut.result()
+            r = fut.result()
+            if r and r[0] == "ok":
                 n += 1
-                _log(f"  [{n}/{len(conv.questions)}] {qid} search_candidates={sc}")
-            except CauraRecallError as e:
-                errors.append((q.question_id, str(e)))
-                _log(f"  RECALL ERROR {q.question_id}: {str(e)[:200]}")
+                _log(f"  [{n}/{len(conv.questions)}] {r[1]} search_candidates={r[2]}")
+            if r:
+                results.append(r)
     prov.close()
-    if errors:
-        # Hard-fail the stage: a recall failure must abort, never answer blind.
-        _log(f"{len(errors)} recall error(s) — aborting answer stage")
-        sys.exit(5)
+
+    if stop["reason"]:
+        write_stopped(out, stop["reason"], stop["affected"])
+        _log(f"STOPPED written ({len(stop['affected'])} affected) — resume with --resume")
+        sys.exit(GUARD_EXIT_CODE)
+    fails = [r for r in results if r and r[0] == "fail"]
+    if fails:
+        # Non-consecutive failures: leave them unanswered (resumable) and abort before
+        # the paid judge rather than score an incomplete set.
+        write_stopped(out, f"{len(fails)} question(s) failed (not 3-in-a-row); last: {fails[-1][2][:200]}",
+                      [f[1] for f in fails])
+        _log(f"{len(fails)} question(s) failed — STOPPED written; re-run with --resume")
+        sys.exit(GUARD_EXIT_CODE)
 
 
 # ----------------------------------------------------------------- judge
@@ -305,6 +346,7 @@ def cmd_judge(args):
     traces_dir = out / "traces"
     traces_dir.mkdir(parents=True, exist_ok=True)
 
+    from .guards import ContainerWatch, FailStreak, GUARD_EXIT_CODE, write_stopped
     gemini = GeminiLLM(model_name=JUDGE_MODEL)   # no thinking budget on judge
     gpt4o = OpenAILLM(model_name=SECOND_JUDGE_MODEL)
     judge = LocomoJudge(gemini, gpt4o)
@@ -316,12 +358,45 @@ def cmd_judge(args):
     g_verdicts = g_prev.get("verdicts", {})
     o_verdicts = o_prev.get("verdicts", {})
 
+    watch = ContainerWatch()
+    streak = FailStreak(limit=3)
+
+    def _judged_ids():
+        return {q for q in g_verdicts if q in o_verdicts}
+
+    def _stop(reason):
+        affected = [h["question_id"] for h in hyps if h["question_id"] not in _judged_ids()]
+        write_stopped(out, reason, affected)
+        _log(f"GUARD STOP (judge): {reason} — STOPPED written ({len(affected)} affected); resume with --resume")
+        _flush_eval()
+        sys.exit(GUARD_EXIT_CODE)
+
+    def _flush_eval():
+        def _summ(v):
+            n = len(v); c = sum(1 for x in v.values() if x["correct"])
+            return {"total": n, "correct": c, "accuracy": (c / n if n else 0.0), "verdicts": v}
+        g_path.write_text(json.dumps({"judge_model": JUDGE_MODEL, "judge_votes": 3, **_summ(g_verdicts)}, indent=2, ensure_ascii=False), encoding="utf-8")
+        o_path.write_text(json.dumps({"judge_model": SECOND_JUDGE_MODEL, "judge_votes": 1, **_summ(o_verdicts)}, indent=2, ensure_ascii=False), encoding="utf-8")
+
     for i, h in enumerate(hyps, 1):
         qid = h["question_id"]
         if qid in g_verdicts and qid in o_verdicts and not args.rejudge:
             continue
-        gv = judge.judge_gemini(h["question"], h["answer"], h["hypothesis"])
-        ov = judge.judge_gpt4o(h["question"], h["answer"], h["hypothesis"])
+        bad = watch.check()  # DB + core-api health before each question
+        if bad:
+            _stop(f"DB/core-api health changed during judging: {', '.join(bad)}")
+        try:
+            if os.environ.get("LOCOMO_FORCE_FAIL"):
+                raise RuntimeError("forced failure (LOCOMO_FORCE_FAIL test; no paid call)")
+            gv = judge.judge_gemini(h["question"], h["answer"], h["hypothesis"])
+            ov = judge.judge_gpt4o(h["question"], h["answer"], h["hypothesis"])
+            streak.ok()
+        except Exception as e:
+            n = streak.fail()
+            _log(f"  JUDGE FAIL {qid} ({n} in a row): {type(e).__name__}: {str(e)[:200]}")
+            if streak.tripped():
+                _stop(f"3 consecutive judge failures; last error: {type(e).__name__}: {str(e)[:200]}")
+            continue
         g_verdicts[qid] = {"category": h["category"], "category_name": h["category_name"], **gv}
         o_verdicts[qid] = {"category": h["category"], "category_name": h["category_name"], **ov}
         # trace per question
@@ -336,14 +411,11 @@ def cmd_judge(args):
         }, indent=2, ensure_ascii=False), encoding="utf-8")
         _log(f"  [{i}/{len(hyps)}] {qid} gemini={gv['label']}({gv['n_correct']}/3) gpt4o={ov['label']}")
 
-    def _summ(verdicts):
-        n = len(verdicts); c = sum(1 for v in verdicts.values() if v["correct"])
-        return {"total": n, "correct": c, "accuracy": (c / n if n else 0.0), "verdicts": verdicts}
-    g_path.write_text(json.dumps({"judge_model": JUDGE_MODEL, "judge_votes": 3, **_summ(g_verdicts)}, indent=2, ensure_ascii=False), encoding="utf-8")
-    o_path.write_text(json.dumps({"judge_model": SECOND_JUDGE_MODEL, "judge_votes": 1, **_summ(o_verdicts)}, indent=2, ensure_ascii=False), encoding="utf-8")
+    _flush_eval()
     manifest_merge(out, {"judge_usage": judge.usage})
-    _log(f"gemini 3-vote: {_summ(g_verdicts)['correct']}/{_summ(g_verdicts)['total']}  |  "
-         f"gpt-4o: {_summ(o_verdicts)['correct']}/{_summ(o_verdicts)['total']}")
+    gc = sum(1 for v in g_verdicts.values() if v["correct"])
+    oc = sum(1 for v in o_verdicts.values() if v["correct"])
+    _log(f"gemini 3-vote: {gc}/{len(g_verdicts)}  |  gpt-4o: {oc}/{len(o_verdicts)}")
 
 
 # ----------------------------------------------------------------- summary
