@@ -1,6 +1,8 @@
 # Vertex AI credentials for the LoCoMo conv0 run
 
-Project: **`project-6daf51c7-b33c-415b-954`** · region **`us-central1`**.
+Project: **`project-6daf51c7-b33c-415b-954`** · location **`global`**.
+(This project's `gemini-3.x` models 404 on the regional `us-central1` endpoint but
+are served from `global` — verified by a tiny call; see run_locomo.sh `--check`.)
 
 Every Gemini call in this run goes through Vertex AI (billing Google Cloud
 credits): the Caura server's **memory creation** (platform LLM) and the harness
@@ -71,5 +73,7 @@ The first paid action is `run_locomo.sh`'s Vertex **probe** at ingest start: one
 tiny call per Gemini model (`gemini-3.8-flash`, `gemini-3.1-flash-lite`),
 recording the exact model/version/region/generation-settings Vertex reports into
 `manifest.json`. **If Vertex rejects the stable `gemini-3.1-flash-lite` name in
-us-central1, the probe fails and the run stops before ingest** — it does not
-silently fall back to `-preview`. Tell me if that happens.
+the location, the probe fails and the run stops before ingest** — it does not
+silently fall back to `-preview` or another model name. `--check` now makes the
+same real tiny call per model, so a 404 is caught before a run starts. Tell me if
+that happens.

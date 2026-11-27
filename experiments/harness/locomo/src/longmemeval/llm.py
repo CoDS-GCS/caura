@@ -358,7 +358,9 @@ class GeminiLLM(BaseLLM):
         self.use_vertex = _vertex_enabled()
         if self.use_vertex:
             self.project = project or os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("PLATFORM_LLM_GCP_PROJECT_ID")
-            self.location = location or os.environ.get("GOOGLE_CLOUD_LOCATION") or os.environ.get("PLATFORM_LLM_GCP_LOCATION") or "us-central1"
+            # Default to "global": this project's gemini-3.x models 404 on the
+            # regional us-central1 endpoint but are served from global.
+            self.location = location or os.environ.get("GOOGLE_CLOUD_LOCATION") or os.environ.get("PLATFORM_LLM_GCP_LOCATION") or "global"
             if not self.project:
                 raise ValueError("Vertex mode needs GOOGLE_CLOUD_PROJECT (or PLATFORM_LLM_GCP_PROJECT_ID)")
             # vertexai=True: ADC auth, no API key. The SDK reads ADC from

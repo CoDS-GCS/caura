@@ -21,7 +21,9 @@ services:
       PLATFORM_LLM_PROVIDER: vertex
       PLATFORM_LLM_MODEL: gemini-3.1-flash-lite
       PLATFORM_LLM_GCP_PROJECT_ID: project-6daf51c7-b33c-415b-954
-      PLATFORM_LLM_GCP_LOCATION: us-central1
+      # global, not us-central1: this project's gemini-3.x models 404 on the
+      # regional endpoint but are served from global (verified by tiny call).
+      PLATFORM_LLM_GCP_LOCATION: global
       # entity extraction stays on AI Studio (uses GEMINI_API_KEY from .env)
       ENTITY_EXTRACTION_PROVIDER: gemini
       ENTITY_EXTRACTION_MODEL: gemini-3.1-flash-lite

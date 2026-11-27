@@ -5,7 +5,7 @@
 # Gemini call through Vertex AI (Google Cloud credits). Run it yourself in tmux;
 # it never starts on its own.
 #
-#   experiments/scripts/run_locomo.sh --check                 # free: no paid calls
+#   experiments/scripts/run_locomo.sh --check                 # 2 tiny Vertex calls, else free
 #   experiments/scripts/run_locomo.sh --stage ingest|answer|all
 #   experiments/scripts/run_locomo.sh --resume                # continue after a pause/crash
 #
@@ -38,7 +38,7 @@ OUT="$REPO/experiments/runs/$RUN"
 # ---- config (exported ONLY here; never put LOCOMO_VERTEX in a shared .env) ----
 export LOCOMO_VERTEX=1
 export GOOGLE_CLOUD_PROJECT="${GOOGLE_CLOUD_PROJECT:-project-6daf51c7-b33c-415b-954}"
-export GOOGLE_CLOUD_LOCATION="${GOOGLE_CLOUD_LOCATION:-us-central1}"
+export GOOGLE_CLOUD_LOCATION="${GOOGLE_CLOUD_LOCATION:-global}"   # us-central1 404s on gemini-3.x for this project; global serves them
 # User ADC (authorized_user) needs a quota project for Vertex. The ADC file
 # already carries quota_project_id; set the env too so the SDK can't miss it.
 # Deliberately do NOT export GOOGLE_APPLICATION_CREDENTIALS for the harness — the
@@ -207,20 +207,28 @@ d=json.load(sys.stdin); assert d['scored_questions']==152, d; assert d['sessions
 assert d['by_category']=={'multi-hop':32,'temporal':37,'open-domain':13,'single-hop':70}, d['by_category']
 print('dataset ok:', d['sample_id'], d['scored_questions'],'scored Q')" || die "dataset counts check failed"
 
-  # Vertex serves the stable gemini-3.1-flash-lite name in us-central1 (free list; authoritative
-  # check is the tiny probe at ingest start, which fails loudly before -preview).
+  # Vertex really serves the models in this location — a REAL tiny call per model
+  # (reader/judge + memory-creation), not a catalogue lookup, so a 404 like the
+  # us-central1 one is caught here before a run starts. Costs 2 tiny calls.
+  log "vertex: tiny call per model in location=$GOOGLE_CLOUD_LOCATION (reader=$LOCOMO_READER_MODEL, memory=$LOCOMO_MEMORY_MODEL)"
   ( cd "$HARNESS" && uv run python - <<'PY'
-import os
-from google import genai
-try:
-    c=genai.Client(vertexai=True, project=os.environ["GOOGLE_CLOUD_PROJECT"], location=os.environ["GOOGLE_CLOUD_LOCATION"])
-    names=[m.name for m in c.models.list()]
-    hit=[n for n in names if "gemini-3.1-flash-lite" in n]
-    print(f"vertex models.list: {len(names)} models; gemini-3.1-flash-lite match: {hit[:2] or 'none in list (publisher models may not list; probe at ingest is authoritative)'}")
-except Exception as e:
-    print(f"vertex models.list not conclusive ({str(e)[:140]}); the tiny probe at ingest start is authoritative")
+import os, sys
+from longmemeval.llm import GeminiLLM
+models = sorted({os.environ["LOCOMO_READER_MODEL"], os.environ["LOCOMO_JUDGE_MODEL"], os.environ["LOCOMO_MEMORY_MODEL"]})
+bad = []
+for m in models:
+    try:
+        llm = GeminiLLM(model_name=m)
+        txt = llm.generate("ok", max_tokens=1, temperature=0.0)
+        print(f"  vertex OK {m} @ {llm.location} ver={getattr(llm,'resolved_model',None)}")
+    except Exception as e:
+        bad.append(f"{m}: {type(e).__name__}: {str(e)[:300]}")
+if bad:
+    print("VERTEX_CALL_FAILED")
+    for b in bad: print("  " + b)
+    sys.exit(1)
 PY
-  ) || true
+  ) || die "Vertex tiny-call failed in location=$GOOGLE_CLOUD_LOCATION (see error above). Do NOT change model names without asking; check the location/permissions."
 
   # store emptiness vs presence for the stage
   local n; n="$(curl -s "$CAURA_BASE/memories/stats" -H "X-API-Key: $API_KEY" \
@@ -270,6 +278,8 @@ d=json.load(open(p)) if os.path.exists(p) else {}
 d.setdefault("run",run); d["agent_id"]=agent
 d["started_utc"]=d.get("started_utc") or datetime.datetime.now(datetime.timezone.utc).isoformat()
 d["repo_commit"]=commit
+# Vertex location recorded here (us-central1 404s on this project's gemini-3.x; global serves them).
+d["vertex"]={"project":proj,"location":loc,"note":"gemini-3.x not served from us-central1 for this project; using global"}
 try: d["caura_server_version"]=json.loads(srv)
 except Exception: d["caura_server_version"]=srv or None
 d["config"]={"pipeline":"agentic-v1","chunk_characters":int(os.environ.get("LOCOMO_CHUNK_CHARS",4000)),
@@ -338,6 +348,9 @@ if [[ "$CHECK" == 1 ]]; then
   log "pre-checks passed (--check: no run dir created, no paid calls)"; exit 0
 fi
 mkdir -p "$OUT"
+# Clear a stale stop/pause marker from a previous attempt so this run/resume starts
+# clean (a fresh guard stop rewrites STOPPED; a fresh credit pause rewrites PAUSED).
+rm -f "$OUT/STOPPED" "$OUT/PAUSED"
 write_manifest_start
 [[ "$STAGE" == ingest || "$STAGE" == all ]] && do_ingest
 [[ "$STAGE" == answer || "$STAGE" == all ]] && do_answer
