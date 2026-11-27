@@ -1,0 +1,285 @@
+<!-- ===================================================================== -->
+<!-- LoCoMo fork banner — this directory is the LongMemEval harness forked  -->
+<!-- for the LoCoMo conv0 run. The LongMemEval content below is unchanged.  -->
+<!-- ===================================================================== -->
+
+# Caura (MemClaw) on LoCoMo — conversation 0 (fork of the LongMemEval harness)
+
+**This `experiments/harness/locomo/` tree is a copy of the LongMemEval harness
+(`experiments/harness/longmemeval/`), forked at repo commit
+`3f80ec51577a3283c77e2a5e48e622587f370b13`**, so the 53/60 LongMemEval run stays
+untouched. All LoCoMo changes live here.
+
+**What this run is.** Caura on **LoCoMo conversation 0** (`conv-26`: 19 sessions,
+419 turns, **152 scored** category 1–4 questions; cat 5 excluded), as close to the
+authors' published LoCoMo run (EVIDENCE.md claim
+`locomo_caura_retrieval_accuracy_2026_09`, **77.9% = 1,199/1,540**) as the public
+code allows. Their headline harness `caura-ai/yanki-locomo` is **not public**, so
+this is an **independent rerun of their pipeline family**, not a reproduction.
+
+**Changes from the LongMemEval harness (ours):**
+- `src/longmemeval/llm.py` — `GeminiLLM` can use **Vertex AI** (`vertexai=True`,
+  project/location, ADC) when `LOCOMO_VERTEX=1`; reader-only **thinking budget
+  2048**; `generation_settings()` reports the actual params used.
+- `src/longmemeval/locomo/` (new) — LoCoMo **loader** (chars-4000 session
+  memories, dia_id evidence map), **conversation-scoped Caura provider**
+  (one agent `locomo-conv-0`, `min_similarity=0.0`, `write_mode=strong`,
+  raise-not-empty on recall failure), **mem0-prompt judge** (gemini-3.8-flash
+  **3 seeded votes, majority** + gpt-4o single-pass second judge), runner CLI,
+  summary.
+- Reused unchanged from LongMemEval: the **agentic-v1 reader pipeline**, LLM
+  providers, context formatting.
+
+Field handling (session headers/dates, speaker names, dia_id map) and the
+agent-per-conversation + `min_similarity=0.0` choices are adapted from the
+authors' public `caura-ai/caura-locomo`. The judge prompt is mem0's, verbatim
+from caura-locomo.
+
+**Published params matched:** `chunk_characters=4000`, `top_k=30`,
+`judge_votes=3`, `thinking_tokens=2048` (reader only — scope not published),
+`pipeline=agentic-v1`, cats 1–4. Store name `caura-balanced-50-v3-20260910` maps
+to no public preset → *store configuration not published; we build our own store
+from conv0 with the published parameters*.
+
+**Run it** (from repo root, in tmux — see `CREDENTIALS.md` for Vertex setup):
+
+```bash
+bash experiments/scripts/run_locomo.sh --check                 # free, no paid calls
+bash experiments/scripts/run_locomo.sh --stage all             # ingest + settle + answer + judge
+bash experiments/scripts/run_locomo.sh --resume                # continue after a pause
+```
+
+**Estimated cost** (prices.json placeholder rates): ~**$1.7 Vertex** (reader
+~$1.5 + gemini judge ~$0.09 + memory creation ~$0.02) + ~**$0.24 OpenAI** (gpt-4o
+second judge) + ~**$0.02 AI Studio** (entity extraction) ≈ **$2** total; embeddings
+are local bge-m3 (free). Actual per-model cost is written to `summary.md`.
+
+Dataset: `data/locomo10.json`, sha256
+`79fa87e90f04081343b8c8debecb80a9a6842b76a7aa537dc9fdf651ea698ff4` (matches the
+authors' upstream digest; gitignored, kept on the VM).
+
+---
+
+# Caura on LongMemEval: 92.2%
+
+**[Caura](https://caura.ai)'s memory API answers 461 of 500 LongMemEval_S questions correctly**, scored with the benchmark's reference judge (GPT-4o, official prompts, unmodified), with Gemini 3.8 Flash as the answering model, one configuration for all six question types, and 22k tokens of context per question.
+
+| | GPT-4o judge | Gemini 3.5 Flash-Lite judge (stricter) |
+|---|---|---|
+| **Overall** | **92.2%** (461/500) | 90.2% (451/500) |
+| single-session user | 94.3% | 92.9% |
+| single-session assistant | 98.2% | 96.4% |
+| multi-session | 89.5% | 85.0% |
+| temporal reasoning | 91.0% | 89.5% |
+| knowledge update | 97.4% | 93.6% |
+| preference | 80.0% | 90.0% |
+
+Every published LongMemEval number is a joint property of the memory system, the answering model and the judge, so here is how this one was made:
+
+- **No fact extraction, no rewriting.** Caura stores the conversation turns as written and retrieves them with its default hybrid (dense + full-text) search. The answering model sees stored conversation, not LLM-generated summaries.
+- **No labels, no shortcuts.** Session ids and question types from the dataset never reach the store or the reader. All 500 questions, abstention items included. No cherry-picked subsets.
+- **A Flash-class answering model.** Most published numbers above 90 use Pro- or Opus-class answerers. Ours is Gemini 3.8 Flash; with the same pipeline handed perfect retrieval (oracle), the ceiling is 94.6%, so retrieval costs about two points and the rest is the reader.
+- **Two judges, always both.** GPT-4o is the headline because it is the benchmark's reference judge; Gemini 3.5 Flash-Lite, which fails hedged answers, is reported beside it on every run. Judge snapshots are recorded in every verdict file.
+- **Measured, not estimated.** Median context handed to the reader: 22.4k tokens (Gemini tokenizer, 15% of the haystack); total reader tokens per question across all four pipeline stages: 26.5k median, 50.9k p95. Retrieval 7.6 s median, generation 9.9 s.
+- **Whole sessions, laid out once.** The reader sees complete conversation sessions, not extracted facts. As stored, a third of the context was per-chunk bookkeeping (headers, timestamps, repeated reply anchors); the compact layout (`--context-format compact`) keeps the identical text with one header per session, at half the tokens, with nothing summarised or removed. See `REPRODUCE.md`.
+
+**Everything behind the number is in this repository.** The saved reader context for every question, every judge's per-question verdicts, `results.json` with the effective configuration, the HTML reports, and the scripts that produce the coverage and token tables are committed under `outputs/`. Exact commands, environment and Caura server version: [`REPRODUCE.md`](REPRODUCE.md).
+
+## How it works
+
+LongMemEval ([Wu et al., ICLR 2025](https://arxiv.org/abs/2410.10813)) gives each of 500 questions a haystack of ~50 chat sessions (~115k tokens) and asks something the user said months earlier. Question types: single-session user, single-session assistant, multi-session, temporal reasoning, knowledge update, preference, plus 30 unanswerable items where the right answer is to say so.
+
+The configuration behind 92.2% is **store the turn, read the session**:
+
+1. **Ingest at turn granularity.** Each user turn plus the assistant reply that follows becomes its own Caura memory (~800 characters median), written through the standard bulk endpoint with the session date in a header. Small units embed cleanly: the sentence that carries the answer ranks on its own instead of being averaged into a 4,000-character chunk about three other topics.
+2. **Read at session granularity.** One hybrid search with the raw question, then pull the rest of each hit's session from the store, in chronological order, under a fixed 150k-character budget. The turn finds the right session; the whole session supplies the number or date the question needs.
+3. **Lay the context out once per session** (`--context-format compact`): same text, one header per session, no per-chunk bookkeeping.
+4. **A four-stage reader** on Gemini 3.8 Flash: extract evidence, draft, infer or fall back, verify against the evidence.
+
+Gold-turn coverage, the share of answer-carrying turns that reach the reader, is 0.974 with this configuration. Of the 39 errors under GPT-4o, 16 are retrieval misses, 21 are the reader getting it wrong with the evidence in front of it, and 2 are unanswerable questions answered anyway; `scripts/coverage.py` reproduces that split from the committed outputs.
+
+This repository is the harness that produced the number: dataset download, ingestion into Caura at either granularity, retrieval with session expansion, the reader pipeline, both judges with the official prompts, oracle / full-context / BM25 baselines, HTML reports, and the coverage and token-accounting scripts.
+
+---
+
+## 1. Quick Start
+
+### Installation
+
+Ensure `uv` is installed, then sync the environment:
+
+```bash
+uv sync
+```
+
+### Environment Configuration
+
+Copy `.env.example` to `.env` and fill in your credentials:
+
+```ini
+# Caura API credentials
+CAURA_API_KEY=mc_...
+CAURA_TENANT_ID=ten2-...
+CAURA_BASE_URL=https://caura.ai/api/v1
+CAURA_AGENT_PREFIX=lme
+
+# Ingestion configuration
+CAURA_INGEST=bulk          # "bulk" or "extract"
+CAURA_CHUNK_CHARS=4000
+CAURA_BULK_SIZE=25
+CAURA_TOP_K=20
+
+# Evaluation & Answer Generation LLM
+GEMINI_API_KEY=AIzaSy...
+READER_LLM=gemini
+READER_MODEL=gemini-3.8-flash
+
+# Judge protocol: gpt-4o primary (headline), gemini-3.5-flash-lite secondary; both always reported
+OPENAI_API_KEY=sk-...
+JUDGE_LLM=openai
+JUDGE_MODEL=gpt-4o
+SECONDARY_JUDGE_LLM=gemini
+SECONDARY_JUDGE_MODEL=gemini-3.5-flash-lite
+```
+
+---
+
+## 2. Dataset Setup
+
+Download the official cleaned dataset (`longmemeval_s_cleaned.json`, ~115k tokens per haystack, 500 questions):
+
+```bash
+uv run longmemeval download
+```
+
+You can view category breakdown and dataset stats:
+
+```bash
+uv run longmemeval stats
+```
+
+---
+
+## 3. Running Benchmarks
+
+### Smoke Test (1-2 questions)
+
+Run a fast smoke test against Caura:
+
+```bash
+uv run longmemeval run --provider caura --limit 2 --name smoke-test
+```
+
+### Full Benchmark or Specific Category
+
+Run on a specific LongMemEval category:
+
+```bash
+# Temporal reasoning questions
+uv run longmemeval run --provider caura --category temporal-reasoning --name caura-temporal
+
+# Knowledge update questions
+uv run longmemeval run --provider caura --category knowledge-update --name caura-update
+```
+
+Available categories:
+- `single-session-user`
+- `single-session-assistant`
+- `multi-session`
+- `temporal-reasoning`
+- `knowledge-update`
+- `single-session-preference`
+
+### Turn-granularity store (the published configuration)
+
+Ingest once into a dedicated store, then run against it. Session headers carry an opaque label
+(never the dataset's `answer_*` session id or the question id), server-derived memories are dropped
+from the search results before session expansion (`--raw-turns-only`, default in turn mode), and the
+exact reader token usage per question is recorded in `hypotheses.jsonl`:
+
+```bash
+uv run longmemeval ingest --name my-turn-ingest --chunk-mode turns --agent-prefix lmeo --bulk-size 100
+uv run longmemeval run --name my-turn-run --skip-ingest --chunk-mode turns --agent-prefix lmeo \
+    --sibling-expansion --context-budget 150000 --raw-turns-only --no-as-of-recall --pipeline agentic-v1
+```
+
+### Run Baselines
+
+Evaluate baseline providers for direct comparison:
+
+```bash
+# In-memory keyword/BM25 baseline
+uv run longmemeval run --provider bm25 --limit 10 --name bm25-baseline
+
+# Oracle: the reader sees exactly the answer sessions (reader ceiling under perfect retrieval)
+uv run longmemeval run --provider oracle --pipeline agentic-v1 --name oracle-baseline
+
+# Full context: the reader sees the whole haystack, no retrieval
+uv run longmemeval run --provider fullcontext --pipeline agentic-v1 --name fullcontext-baseline
+```
+
+### Coverage, failure buckets, token budget
+
+```bash
+# gold-turn coverage; every failure bucketed as retrieval-bound (gold turn missing) or reader-bound
+uv run python scripts/coverage.py outputs/my-turn-run --list-failures
+
+# context tokens with the reader's tokenizer, total reader tokens per question, latency medians
+uv run python scripts/context_tokens.py outputs/my-turn-run
+```
+
+---
+
+## 4. Evaluating Existing Hypotheses
+
+If you already generated model responses into a JSONL file, you can evaluate them directly with the official judge prompts. By default both protocol judges run and are written next to the hypotheses (`eval_results.json` for the primary, `eval_results_gemini35flashlite.json` for the secondary), and `results.json` gets a `secondary_evaluation` block with per-category numbers and agreement:
+
+```bash
+uv run longmemeval evaluate-hypotheses outputs/caura-run/hypotheses.jsonl
+```
+
+For an ad-hoc single-judge comparison, name the judge and an output file; only that judge runs:
+
+```bash
+uv run longmemeval evaluate-hypotheses outputs/caura-run/hypotheses.jsonl --judge openai --judge-model gpt-5.6-terra -o outputs/caura-run/eval_results_gpt56terra.json --no-html
+```
+
+### Judge protocol
+
+Fixed on 13 September 2026 after re-judging two full-500 runs with four judges (Flash-Lite had been the only judge from 10 to 13 September):
+
+- **Primary: `gpt-4o`.** The LongMemEval reference judge and the one most published leaderboard numbers use. Its score is the headline and goes in `eval_results.json`; the dated snapshot the API served (`gpt-4o-2024-08-06`) is recorded as `judge_model_resolved`.
+- **Secondary: `gemini-3.5-flash-lite`.** Stricter (fails hedged answers such as "2 or 3"), cheap, and useful for development because it penalises exactly the reader behaviour we want to remove. Always reported beside the primary, never instead of it.
+- Judging costs under $1 per run per model, so neither is dropped. The judge is never chosen after seeing the score; `--judge`/`--secondary-judge` exist for controlled judge studies, and their outputs are labelled with the model name.
+
+On the 89.0% (Flash-Lite) turn-granularity run the four judges scored: gpt-4o 457/500 (91.4%), gpt-5.6-terra 457, gpt-5.6-luna 461, gemini-3.5-flash-lite 445. Pairwise agreement among the OpenAI judges was 488–492/500; Flash-Lite agreed with each on 480–482.
+
+---
+
+## 5. Cleaning Up Caura Tenant Data
+
+All memories written during the benchmark are tagged with `CAURA_AGENT_PREFIX` (default: `lme-*`). To clean up:
+
+```bash
+# Dry run (inspect agents and memories created)
+uv run python scripts/caura_cleanup.py
+
+# Apply deletion
+uv run python scripts/caura_cleanup.py --apply
+```
+
+---
+
+## 6. Architecture & Isolation Details
+
+1. **Per-Question Isolation**:
+   - Each question has its own distinct haystack of conversation sessions.
+   - The provider maps `question_id` to both a dedicated Caura `agent_id` (`lme-{question_id}`) and `fleet_id` (`lme-{question_id}`).
+   - Retrieval queries pass `filter_agent_id`, preventing cross-question memory leakage and ensuring pure needle-in-haystack evaluation.
+
+2. **Ingestion Modes**:
+   - `bulk`: Sends document conversation chunks (up to 4,000 characters) to `POST /memories/bulk`. Retains session timestamp and context header metadata.
+   - `extract`: Sends session dialogues to `POST /ingest/preview` and commits extracted atomic facts via `POST /ingest/commit`.
+
+3. **Official Judge Compatibility**:
+   - The judge prompts in `longmemeval.prompts` exactly match the official ICLR 2025 LongMemEval prompt templates, including task-specific rules (e.g. off-by-one day tolerance for `temporal-reasoning`, update tolerance for `knowledge-update`, rubric matching for `single-session-preference`).

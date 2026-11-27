@@ -1,0 +1,551 @@
+"""LLM abstraction for answering and judging in LongMemEval."""
+
+from __future__ import annotations
+
+import json
+import os
+import re
+import threading
+import time
+from contextlib import contextmanager
+from typing import Any
+from rich.console import Console
+
+from .models import EvidenceBundle, VerifiedAnswer
+
+console = Console()
+
+
+def _parse_json_object(raw: str) -> dict[str, Any] | None:
+    match = re.search(r"\{.*\}", raw, flags=re.DOTALL)
+    if not match:
+        return None
+    try:
+        parsed = json.loads(match.group(0))
+        return parsed if isinstance(parsed, dict) else None
+    except json.JSONDecodeError:
+        return None
+
+
+def _string_tuple(value: Any, limit: int) -> tuple[str, ...]:
+    if not isinstance(value, list):
+        return ()
+    return tuple(str(item).strip() for item in value[:limit] if str(item).strip())
+
+
+# Contexts above this size are read in windows (map) and the facts merged (reduce).
+# Gemini Flash handles ~40k tokens, but empirically the single-pass extractor
+# returned empty or dropped mid-context facts on 4-6% of contexts >120k chars.
+MAP_REDUCE_THRESHOLD_CHARS = 120_000
+MAP_WINDOW_CHARS = 80_000
+MAX_MERGED_FACTS = 24
+_STATUS_RANK = {"direct": 2, "inferable": 1, "unsupported": 0}
+
+
+def _split_context_windows(context: str, window_chars: int = MAP_WINDOW_CHARS) -> list[str]:
+    """Split formatted context on chunk separators into windows of roughly window_chars."""
+    separator = "\n---\n"
+    chunks = context.split(separator)
+    windows: list[str] = []
+    current: list[str] = []
+    current_len = 0
+    for chunk in chunks:
+        if current and current_len + len(chunk) > window_chars:
+            windows.append(separator.join(current))
+            current, current_len = [], 0
+        current.append(chunk)
+        current_len += len(chunk) + len(separator)
+    if current:
+        windows.append(separator.join(current))
+    return windows
+
+
+_META_NEGATIVE_RE = re.compile(
+    r"\b(does not|doesn't|did not|didn't|do not|don't)\s+(mention|contain|specify|include|state|provide|record)"
+    r"|\b(no|without any)\s+(mention|record|information|details?|reference)\b"
+    r"|\bnot (mentioned|specified|provided|recorded|stated)\b"
+    r"|\b(retrieved|chat) history (lacks|only)\b",
+    re.IGNORECASE,
+)
+
+
+def _is_meta_negative(fact: str) -> bool:
+    """True for extractor 'facts' that merely say the history lacks information."""
+    return bool(_META_NEGATIVE_RE.search(fact))
+
+
+def _dedupe_facts(facts: list[str], limit: int, drop_meta_negative: bool = False) -> tuple[str, ...]:
+    seen: set[str] = set()
+    out: list[str] = []
+    for fact in facts:
+        if drop_meta_negative and _is_meta_negative(fact):
+            continue
+        key = re.sub(r"\W+", " ", fact.lower()).strip()
+        if key and key not in seen:
+            seen.add(key)
+            out.append(fact)
+        if len(out) >= limit:
+            break
+    return tuple(out)
+
+
+class BaseLLM:
+    """Base LLM interface.
+
+    Token accounting: every provider-reported usage block is appended to a
+    per-thread list between ``begin_usage()`` and ``end_usage()``, tagged with
+    the current ``usage_stage``. The runner brackets one question with these so
+    the exact reader tokens per question (all calls, retries included) land in
+    the hypotheses file.
+    """
+
+    _usage = threading.local()
+
+    def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.0) -> str:
+        raise NotImplementedError
+
+    # ------------------------------------------------------------- usage accounting
+    def begin_usage(self) -> None:
+        self._usage.calls = []
+        self._usage.stage = None
+
+    @contextmanager
+    def usage_stage(self, stage: str):
+        prev = getattr(self._usage, "stage", None)
+        self._usage.stage = stage
+        try:
+            yield
+        finally:
+            self._usage.stage = prev
+
+    def _record_usage(
+        self,
+        prompt_tokens: int | None,
+        completion_tokens: int | None,
+        reasoning_tokens: int | None = None,
+        total_tokens: int | None = None,
+    ) -> None:
+        calls = getattr(self._usage, "calls", None)
+        if calls is None:
+            return
+        p = int(prompt_tokens or 0)
+        c = int(completion_tokens or 0)
+        r = int(reasoning_tokens or 0)
+        calls.append({
+            "stage": getattr(self._usage, "stage", None),
+            "prompt_tokens": p,
+            "completion_tokens": c,
+            "reasoning_tokens": r,
+            "total_tokens": int(total_tokens) if total_tokens is not None else p + c + r,
+        })
+
+    def end_usage(self) -> dict[str, Any] | None:
+        calls = getattr(self._usage, "calls", None)
+        self._usage.calls = None
+        if calls is None:
+            return None
+        summary: dict[str, Any] = {
+            "model": getattr(self, "model_name", None),
+            "n_calls": len(calls),
+            "prompt_tokens": sum(c["prompt_tokens"] for c in calls),
+            "completion_tokens": sum(c["completion_tokens"] for c in calls),
+            "reasoning_tokens": sum(c["reasoning_tokens"] for c in calls),
+            "total_tokens": sum(c["total_tokens"] for c in calls),
+            "calls": calls,
+        }
+        return summary
+
+    def judge_bool(self, prompt: str) -> tuple[bool, str]:
+        """Returns (is_correct, explanation)."""
+        raise NotImplementedError
+
+    def _extract_evidence_once(
+        self,
+        question: str,
+        context: str,
+        question_date: str | None = None,
+        window: tuple[int, int] | None = None,
+    ) -> EvidenceBundle | None:
+        """Single-pass extraction. Returns None when the model produced no usable JSON."""
+        from .prompts import build_extract_evidence_prompt
+        prompt = build_extract_evidence_prompt(question, context, question_date, window=window)
+        raw = self.generate(prompt, max_tokens=2048, temperature=0.0).strip()
+        parsed = _parse_json_object(raw)
+        if parsed is None:
+            raw = self.generate(
+                f"{prompt}\n\nYour previous output was not valid JSON. Return one valid JSON object with keys: status, facts, requirements.",
+                max_tokens=2048,
+                temperature=0.0,
+            ).strip()
+            parsed = _parse_json_object(raw)
+        if parsed is None:
+            return None
+
+        status = str(parsed.get("status", "unsupported")).lower()
+        if status not in _STATUS_RANK:
+            status = "direct" if parsed.get("facts") else "unsupported"
+        facts = _string_tuple(parsed.get("facts"), limit=15)
+        requirements = _string_tuple(parsed.get("requirements"), limit=8)
+        return EvidenceBundle(status, facts, requirements)
+
+    def extract_evidence(
+        self,
+        question: str,
+        context: str,
+        question_date: str | None = None,
+    ) -> EvidenceBundle:
+        """Stage 1: Extract facts and classify support status.
+
+        Single-pass over the full context first (it keeps global context, which
+        per-window reading loses: a 500-question A/B showed map-reduce-by-default
+        cost ~6 points on multi-session/temporal). If the single pass yields no
+        facts (observed on 4-6% of >120k-char contexts), retry once, then fall
+        back to windowed extraction (map) with merged facts (reduce).
+        """
+        empty = EvidenceBundle("unsupported", (), ("Answer the question accurately.",))
+        if not context.strip():
+            return empty
+
+        single = self._extract_evidence_once(question, context, question_date)
+        inconsistent = single is not None and not single.facts and single.status != "unsupported"
+        if single is None or inconsistent:
+            single = self._extract_evidence_once(question, context, question_date)
+            inconsistent = single is not None and not single.facts and single.status != "unsupported"
+        # Trust an explicit "unsupported, no facts" verdict (abstention path unchanged from baseline).
+        # Only escalate to windowed reading when the pass failed or contradicted itself.
+        if single is not None and not inconsistent:
+            return single
+        if len(context) <= MAP_REDUCE_THRESHOLD_CHARS:
+            return single if single is not None else empty
+
+        # Fallback: windowed extraction for large contexts where the single pass came back empty.
+        windows = _split_context_windows(context)
+        n_windows = len(windows)
+        bundles: list[EvidenceBundle] = []
+        for idx, window in enumerate(windows, start=1):
+            win = (idx, n_windows) if n_windows > 1 else None
+            bundle = self._extract_evidence_once(question, window, question_date, window=win)
+            if bundle is None or (not bundle.facts and bundle.status != "unsupported"):
+                # Retry once: parse failure, or a non-unsupported status with no facts.
+                bundle = self._extract_evidence_once(question, window, question_date, window=win)
+            if bundle is not None:
+                bundles.append(bundle)
+
+        if not bundles:
+            return empty
+        if len(bundles) == 1:
+            return bundles[0]
+
+        # Reduce: windows with nothing relevant tend to emit "the history does not mention X"
+        # pseudo-facts; drop those so they cannot contaminate the merged evidence.
+        merged_facts = _dedupe_facts(
+            [f for b in bundles for f in b.facts], MAX_MERGED_FACTS, drop_meta_negative=True
+        )
+        merged_reqs = _dedupe_facts([r for b in bundles for r in b.requirements], 8)
+        # Status: best supported window that actually produced facts wins.
+        status = "unsupported"
+        for b in bundles:
+            has_real_facts = any(not _is_meta_negative(f) for f in b.facts)
+            if has_real_facts and _STATUS_RANK[b.status] > _STATUS_RANK[status]:
+                status = b.status
+        if status == "unsupported" and merged_facts:
+            status = "inferable"
+        return EvidenceBundle(
+            status, merged_facts, merged_reqs or ("Answer the question accurately.",), windows=n_windows
+        )
+
+    def answer_from_evidence(
+        self,
+        question: str,
+        evidence: EvidenceBundle,
+        question_date: str | None = None,
+        max_tokens: int = 1024,
+    ) -> str:
+        """Stage 2: Generate candidate answer from extracted facts."""
+        from .prompts import build_evidence_answer_prompt
+        prompt = build_evidence_answer_prompt(question, evidence.as_context(), question_date)
+        return self.generate(prompt, max_tokens=max_tokens, temperature=0.0).strip()
+
+    def infer_answer(
+        self,
+        question: str,
+        evidence: EvidenceBundle,
+        question_date: str | None = None,
+        max_tokens: int = 1024,
+    ) -> str:
+        """Stage 3: Conditional narrow inference or temporal calculation."""
+        from .prompts import build_infer_answer_prompt
+        prompt = build_infer_answer_prompt(question, evidence.as_context(), question_date)
+        return self.generate(prompt, max_tokens=max_tokens, temperature=0.0).strip()
+
+    def verify_answer(
+        self,
+        question: str,
+        evidence: EvidenceBundle,
+        candidates: tuple[str, ...],
+        question_date: str | None = None,
+    ) -> VerifiedAnswer:
+        """Stage 4: Verify candidate answer, repair counts/dates, or hold back if unsupported."""
+        from .prompts import build_verify_answer_prompt
+        prompt = build_verify_answer_prompt(question, evidence.as_context(), candidates, question_date)
+        raw = self.generate(prompt, max_tokens=1024, temperature=0.0).strip()
+        parsed = _parse_json_object(raw)
+        if parsed is None or not str(parsed.get("answer", "")).strip():
+            raw = self.generate(
+                f"{prompt}\n\nYour previous output was not valid JSON. Return JSON only: {{\"answer\":\"final answer\",\"reason\":\"brief reason\"}}",
+                max_tokens=1024,
+                temperature=0.0,
+            ).strip()
+            parsed = _parse_json_object(raw)
+
+        if parsed is None or not str(parsed.get("answer", "")).strip():
+            fallback = candidates[0] if candidates else "You did not mention this information in our chats."
+            return VerifiedAnswer(fallback, "Verifier fallback.")
+
+        return VerifiedAnswer(
+            str(parsed.get("answer", "")).strip(),
+            str(parsed.get("reason", "Verified against extracted facts.")).strip(),
+        )
+
+
+def _vertex_enabled() -> bool:
+    """True when the harness should route google-genai through Vertex AI.
+
+    Opt-in by env so AI-Studio runs are untouched: set ``LOCOMO_VERTEX=1`` (our
+    flag) or the SDK's own ``GOOGLE_GENAI_USE_VERTEXAI=true``. This is exported
+    only inside run_locomo.sh — never in a shared .env — so no other harness can
+    silently switch to Vertex. Vertex auth is Application Default Credentials
+    (project + location, no API key) — see the run folder's CREDENTIALS.md.
+    """
+    return (
+        os.environ.get("LOCOMO_VERTEX", "").lower() in ("1", "true", "yes")
+        or os.environ.get("GOOGLE_GENAI_USE_VERTEXAI", "").lower() in ("1", "true", "yes")
+    )
+
+
+class GeminiLLM(BaseLLM):
+    """Google Gemini LLM using google-genai.
+
+    Two transports:
+      * AI Studio (default): ``genai.Client(api_key=GEMINI_API_KEY)``.
+      * Vertex AI (when :func:`_vertex_enabled`): ``genai.Client(vertexai=True,
+        project=..., location=...)``, auth via ADC. Added for the LoCoMo conv0
+        run so every Gemini call bills Google Cloud credits.
+
+    ``thinking_budget`` (reader only) sets ``ThinkingConfig(thinking_budget=N)``
+    so the reader matches the authors' published ``thinking_tokens: 2048``; the
+    judge leaves it ``None`` (provider default). Scope of 2048 is not published —
+    applied to the reader, recorded as such in manifest.json.
+    """
+
+    def __init__(
+        self,
+        model_name: str = "gemini-3.8-flash",
+        *,
+        thinking_budget: int | None = None,
+        project: str | None = None,
+        location: str | None = None,
+    ):
+        from google import genai
+        from google.genai import types
+
+        self.model_name = model_name
+        self.thinking_budget = thinking_budget
+        # Actual generation params observed across calls (not assumed), so
+        # generation_settings() can't misreport what the manifest records.
+        self._obs_temperatures: set[float] = set()
+        self._obs_max_tokens: set[int] = set()
+        self.use_vertex = _vertex_enabled()
+        if self.use_vertex:
+            self.project = project or os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("PLATFORM_LLM_GCP_PROJECT_ID")
+            self.location = location or os.environ.get("GOOGLE_CLOUD_LOCATION") or os.environ.get("PLATFORM_LLM_GCP_LOCATION") or "us-central1"
+            if not self.project:
+                raise ValueError("Vertex mode needs GOOGLE_CLOUD_PROJECT (or PLATFORM_LLM_GCP_PROJECT_ID)")
+            # vertexai=True: ADC auth, no API key. The SDK reads ADC from
+            # GOOGLE_APPLICATION_CREDENTIALS or `gcloud auth application-default`.
+            self.client = genai.Client(vertexai=True, project=self.project, location=self.location)
+        else:
+            self.project = None
+            self.location = None
+            api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError("GEMINI_API_KEY environment variable is required")
+            self.client = genai.Client(api_key=api_key)
+        self.types = types
+
+    def _gen_config(self, max_tokens: int, temperature: float):
+        """Build GenerateContentConfig; safety settings deliberately NOT set
+        (provider default applies) — manifest.json records that gap per model."""
+        kwargs: dict = dict(
+            temperature=temperature,
+            max_output_tokens=max_tokens,
+            automatic_function_calling=self.types.AutomaticFunctionCallingConfig(disable=True),
+        )
+        if self.thinking_budget is not None:
+            kwargs["thinking_config"] = self.types.ThinkingConfig(thinking_budget=self.thinking_budget)
+        return self.types.GenerateContentConfig(**kwargs)
+
+    def generation_settings(self) -> dict[str, Any]:
+        """What the harness actually sent vs. left to the provider default — for
+        manifest.json. Temperatures and max-output values are the ones observed
+        across real calls, not assumed."""
+        def _observed(values: set) -> Any:
+            vals = sorted(values)
+            if not vals:
+                return None
+            return vals[0] if len(vals) == 1 else vals
+        return {
+            "temperature": _observed(self._obs_temperatures),
+            "max_output_tokens": _observed(self._obs_max_tokens),
+            "thinking_budget": self.thinking_budget,
+            "automatic_function_calling": "disabled",
+            "safety_settings": "not set (provider default)",
+            "transport": "vertex" if self.use_vertex else "ai_studio",
+            "project": self.project,
+            "location": self.location,
+        }
+
+    def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.0) -> str:
+        self._obs_temperatures.add(float(temperature))
+        self._obs_max_tokens.add(int(max_tokens))
+        for attempt in range(5):
+            try:
+                resp = self.client.models.generate_content(
+                    model=self.model_name,
+                    contents=prompt,
+                    config=self._gen_config(max_tokens, temperature),
+                )
+                resolved = getattr(resp, "model_version", None)
+                if resolved:
+                    self.resolved_model = resolved
+                um = getattr(resp, "usage_metadata", None)
+                if um is not None:
+                    self._record_usage(
+                        getattr(um, "prompt_token_count", None),
+                        getattr(um, "candidates_token_count", None),
+                        getattr(um, "thoughts_token_count", None),
+                        getattr(um, "total_token_count", None),
+                    )
+                return resp.text or ""
+            except Exception as exc:
+                if attempt == 4:
+                    raise
+                wait = 2 * (attempt + 1)
+                time.sleep(wait)
+        return ""
+
+    def judge_bool(self, prompt: str) -> tuple[bool, str]:
+        # Generate answer with explanation
+        resp_text = self.generate(prompt, max_tokens=256, temperature=0.0).strip()
+        lower = resp_text.lower()
+        # Check standard criteria
+        is_yes = False
+        if "correct: true" in lower or '"correct": true' in lower or "answer yes" in lower:
+            is_yes = True
+        elif lower.startswith("yes") or "\nyes" in lower or "is correct: yes" in lower:
+            is_yes = True
+        elif "correct=true" in lower:
+            is_yes = True
+        elif "yes" in lower and "no" not in lower:
+            is_yes = True
+
+        return is_yes, resp_text
+
+
+class OpenAILLM(BaseLLM):
+    """OpenAI API LLM (e.g. gpt-4o, gpt-4o-mini)."""
+
+    def __init__(self, model_name: str = "gpt-4o"):
+        from openai import OpenAI
+        self.model_name = model_name
+        self.client = OpenAI(
+            api_key=os.environ.get("OPENAI_API_KEY"),
+            organization=os.environ.get("OPENAI_ORGANIZATION"),
+        )
+
+    def _is_reasoning_model(self) -> bool:
+        # GPT-5.x (sol/terra/luna) and o-series reject `temperature` and `max_tokens`;
+        # they take `max_completion_tokens`, which also has to cover hidden reasoning tokens.
+        name = self.model_name.lower()
+        return name.startswith("gpt-5") or bool(re.match(r"^o\d", name))
+
+    def _request_kwargs(self, max_tokens: int, temperature: float) -> dict:
+        if self._is_reasoning_model():
+            kwargs: dict = {"max_completion_tokens": max(max_tokens, 512)}
+            effort = os.environ.get("OPENAI_REASONING_EFFORT")
+            if effort:
+                kwargs["reasoning_effort"] = effort
+            return kwargs
+        return {"temperature": temperature, "max_tokens": max_tokens}
+
+    def generate(self, prompt: str, max_tokens: int = 4096, temperature: float = 0.0) -> str:
+        resp = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[{"role": "user", "content": prompt}],
+            **self._request_kwargs(max_tokens, temperature),
+        )
+        usage = getattr(resp, "usage", None)
+        if usage is not None:
+            details = getattr(usage, "completion_tokens_details", None)
+            self._record_usage(
+                getattr(usage, "prompt_tokens", None),
+                getattr(usage, "completion_tokens", None),
+                getattr(details, "reasoning_tokens", None) if details is not None else None,
+                getattr(usage, "total_tokens", None),
+            )
+        return resp.choices[0].message.content or ""
+
+    def judge_bool(self, prompt: str) -> tuple[bool, str]:
+        resp = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[{"role": "user", "content": prompt}],
+            **self._request_kwargs(64, 0.0),
+        )
+        # The API answers with the dated snapshot behind an alias (e.g. gpt-4o -> gpt-4o-2024-08-06);
+        # keep it so the verdict files pin the exact judge version.
+        resolved = getattr(resp, "model", None)
+        if resolved:
+            self.resolved_model = resolved
+        content = resp.choices[0].message.content or ""
+        label = "yes" in content.lower()
+        return label, content
+
+
+class GrokLLM(OpenAILLM):
+    """xAI Grok via the OpenAI-compatible Chat Completions API."""
+
+    def __init__(self, model_name: str = "grok-4.6"):
+        from openai import OpenAI
+
+        self.model_name = model_name
+        api_key = os.environ.get("GROK_API_KEY") or os.environ.get("XAI_API_KEY")
+        if not api_key:
+            raise ValueError("GROK_API_KEY or XAI_API_KEY environment variable is required")
+        self.client = OpenAI(api_key=api_key, base_url="https://api.x.ai/v1")
+
+    def judge_bool(self, prompt: str) -> tuple[bool, str]:
+        resp_text = self.generate(prompt, max_tokens=64, temperature=0.0).strip()
+        lower = resp_text.lower()
+        is_yes = False
+        if lower.startswith("yes") or "\nyes" in lower:
+            is_yes = True
+        elif "yes" in lower and "no" not in lower:
+            is_yes = True
+        return is_yes, resp_text
+
+
+def get_llm(provider: str = "gemini", model: str | None = None, *, thinking_budget: int | None = None) -> BaseLLM:
+    if ":" in provider:
+        prov, spec_model = provider.split(":", 1)
+        model = spec_model or model
+    else:
+        prov = provider
+    prov = prov.lower()
+    if prov == "gemini":
+        return GeminiLLM(model_name=model or os.environ.get("READER_MODEL", "gemini-3.8-flash"), thinking_budget=thinking_budget)
+    elif prov == "openai":
+        return OpenAILLM(model_name=model or os.environ.get("OPENAI_MODEL", "gpt-4o"))
+    elif prov in ("grok", "xai"):
+        return GrokLLM(model_name=model or os.environ.get("GROK_MODEL", "grok-4.6"))
+    else:
+        raise ValueError(f"Unknown LLM provider '{provider}'. Choose 'gemini', 'openai', or 'grok'.")

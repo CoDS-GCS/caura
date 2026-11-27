@@ -37,6 +37,10 @@ Screenshot*.png
 *-service-account.json
 *-credentials.json
 sa-key.json
+# Vertex AI service-account key for the LoCoMo run (never commit)
+secrets/
+*vertex*sa*.json
+vertex-sa.json
 
 # Local credential material
 *.auto.tfvars

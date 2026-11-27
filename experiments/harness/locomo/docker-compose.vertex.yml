@@ -1,0 +1,26 @@
+# Vertex override for the LoCoMo conv0 run — routes Caura's memory creation
+# (write-path classifier / platform LLM) through Vertex AI, and mounts the
+# service-account key for ADC. Entity extraction stays on AI Studio (the server
+# registry has no Vertex option for it).
+#
+# Apply (from repo root), restart only core-api:
+#   LOCOMO_VERTEX_SA_KEY=/shared_mnt/loubna/caura/secrets/vertex-sa.json \
+#   docker compose -f docker-compose.yml -f docker-compose.override.yml \
+#     -f experiments/harness/locomo/docker-compose.vertex.yml up -d core-api
+#
+# The key path (host) must be OUTSIDE git — secrets/ is gitignored. See CREDENTIALS.md.
+services:
+  core-api:
+    environment:
+      # memory creation -> Vertex (no OpenAI fallback). Stable model name.
+      PLATFORM_LLM_PROVIDER: vertex
+      PLATFORM_LLM_MODEL: gemini-3.1-flash-lite
+      PLATFORM_LLM_GCP_PROJECT_ID: project-6daf51c7-b33c-415b-954
+      PLATFORM_LLM_GCP_LOCATION: us-central1
+      # entity extraction stays on AI Studio (uses GEMINI_API_KEY from .env)
+      ENTITY_EXTRACTION_PROVIDER: gemini
+      ENTITY_EXTRACTION_MODEL: gemini-3.1-flash-lite
+      # ADC for the Vertex platform client inside the container
+      GOOGLE_APPLICATION_CREDENTIALS: /secrets/vertex-sa.json
+    volumes:
+      - ${LOCOMO_VERTEX_SA_KEY:?set LOCOMO_VERTEX_SA_KEY to the host path of the SA key JSON}:/secrets/vertex-sa.json:ro
